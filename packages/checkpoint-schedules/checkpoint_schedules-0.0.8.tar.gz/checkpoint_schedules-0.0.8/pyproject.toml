@@ -1,0 +1,36 @@
+[build-system]
+requires = [
+    "setuptools",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["checkpoint_schedules"]
+
+[project]
+name = "checkpoint_schedules"
+version = "0.0.8"
+# authors = [
+#   {email = "....."},
+#   {name = "....."}
+# ]
+description = "Schedules for incremental checkpointing of adjoint simulations."
+readme = "README.md"
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+numba = ["numba"]
+docs = ["sphinx.ext.autodoc", "sphinx.ext.viewcode", "nbsphinx", "nbsphinx_link"]
+notebooks = ["jupyter", "scipy", "pickle"]
+
+# requires-python = ">=3.7"
+# keywords = ["checkpointing", "adjoint"]
+# license = {text = "BSD-3-Clause"}
+# classifiers = [
+#     "Programming Language :: Python :: 3",
+# ]
+#[project.urls]
+# homepage = "https://example.com"
+# documentation = "https://readthedocs.org"
+# repository = "https://github.com/firedrakeproject/checkpoint_schedules"
+# changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"

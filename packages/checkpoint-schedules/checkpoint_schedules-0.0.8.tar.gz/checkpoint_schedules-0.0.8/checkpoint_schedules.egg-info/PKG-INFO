@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: checkpoint-schedules
+Version: 0.0.8
+Summary: Schedules for incremental checkpointing of adjoint simulations.
+Description-Content-Type: text/markdown
+Provides-Extra: numba
+Provides-Extra: docs
+Provides-Extra: notebooks
+License-File: LICENSE
+
+# checkpoint_schedules
+Schedules for incremental checkpointing of adjoint simulations.

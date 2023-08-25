@@ -1,0 +1,15 @@
+numpy
+
+[docs]
+sphinx.ext.autodoc
+sphinx.ext.viewcode
+nbsphinx
+nbsphinx_link
+
+[notebooks]
+jupyter
+scipy
+pickle
+
+[numba]
+numba
