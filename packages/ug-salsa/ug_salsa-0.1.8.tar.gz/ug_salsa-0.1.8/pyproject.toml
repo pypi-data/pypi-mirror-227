@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ug_salsa"
+version = "0.1.8"
+description = "System Analytics Library for Substrate Analysis"
+authors = ["William Huang <william.huang@ultimagen.com>","Jerry Quan <jerry.quan@ultimagen.com>"]
+readme = "README.md"
+# packages = [{include = "poetry_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "*"
+pandas = "*"
+scipy = "*"
+plotly= "*"
+requests = "*"
+tqdm = "*"
+matplotlib = "*"
+fastparquet = "*"
+boto3 = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# [build-system]
+# requires = ["setuptools>=42", "wheel"]
+# build-backend = "setuptools.build_meta"
+
