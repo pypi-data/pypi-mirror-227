@@ -1,0 +1,8 @@
+colorama
+keyboard
+numpy
+pick
+playsound
+pyautogui
+pyperclip
+tabulate
