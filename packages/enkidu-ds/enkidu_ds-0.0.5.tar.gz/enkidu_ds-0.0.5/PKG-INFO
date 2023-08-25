@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: enkidu-ds
+Version: 0.0.5
+Summary: Collection of implementations of data structures and algorithms that operate on them
+Project-URL: Homepage, https://github.com/danielkaczmarczyk/enkidu-ds
+Project-URL: Bug Tracker, https://github.com/danielkaczmarczyk/enkidu-ds/issues
+Author-email: Daniel Kaczmarczyk <daniel.kacz@protonmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# enkidu
+
+## installation
+
+`pip install enkidu-ds`
+
+## upgrade
+
+`pip install --upgrade enkidu-ds`
+
+## usage
+
+```python
+from enkidu_ds import binary_tree
+node = binary_tree.TreeNode('A')
+```
