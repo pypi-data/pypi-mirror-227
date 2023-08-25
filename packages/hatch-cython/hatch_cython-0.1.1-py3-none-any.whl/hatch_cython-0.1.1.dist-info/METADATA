@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: hatch-cython
+Version: 0.1.1
+Project-URL: Documentation, https://github.com/joshua-auchincloss/hatch-cython#readme
+Project-URL: Issues, https://github.com/joshua-auchincloss/hatch-cython/issues
+Project-URL: Source, https://github.com/joshua-auchincloss/hatch-cython
+Author-email: joshua-auchincloss <joshua.auchincloss@proton.me>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: cython
+Requires-Dist: hatchling
+Requires-Dist: setuptools
+Description-Content-Type: text/markdown
+
+# hatch-cython
+
+[![PyPI - Version](https://img.shields.io/pypi/v/hatch-cython.svg)](https://pypi.org/project/hatch-cython)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hatch-cython.svg)](https://pypi.org/project/hatch-cython)
+
+---
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Usage
+
+The build hook name is `cython`.
+
+- _pyproject.toml_
+
+```toml
+[tool.hatch.build.targets.wheel.hooks.cython]
+dependencies = ["hatch-cython"]
+
+[tool.hatch.build.targets.wheel.hooks.cython.options]
+<!-- optional, defaults below -->
+language-level = 3
+binding = true
+compile-args = [
+    "-O3",
+]
+```
+
+- _hatch.toml_
+
+```toml
+[build.targets.wheel.hooks.cython]
+dependencies = ["hatch-cython"]
+
+[build.targets.wheel.hooks.cython.options]
+<!-- optional, defaults below -->
+language-level = 3
+binding = true
+compile-args = [
+    "-O3",
+]
+```
+
+## License
+
+`hatch-cython` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
