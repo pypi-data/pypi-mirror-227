@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+src/ec2_ssm_connect.egg-info/PKG-INFO
+src/ec2_ssm_connect.egg-info/SOURCES.txt
+src/ec2_ssm_connect.egg-info/dependency_links.txt
+src/ec2_ssm_connect.egg-info/entry_points.txt
+src/ec2_ssm_connect.egg-info/requires.txt
+src/ec2_ssm_connect.egg-info/top_level.txt
