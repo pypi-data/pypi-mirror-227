@@ -1,0 +1,8 @@
+wsgi_adapter/__init__.py,sha256=mRnJ7djbDPaxTpv2b0d1hDz5y5K1RSguNW1kEPIuIZ4,107
+wsgi_adapter/handler.py,sha256=Z-P3x1I5NCADnKful7XiFKpCCqdAhh42DQK4E-SOZE0,1564
+wsgi_adapter/response.py,sha256=qHeAKInblcE_-aHKdyaO45_hHkYKsQlNFSJdA1xBceQ,1960
+lambda_wsgi_adapter-0.1.0.dist-info/LICENSE,sha256=FmqJnSnE3IPR5SL4oP4IpG_yBC0VBbHK8vyIwcH3mCM,1071
+lambda_wsgi_adapter-0.1.0.dist-info/METADATA,sha256=JZg0RPzsozUtNNv5l62W51DoKnUXdx4REojdkB96yW8,1278
+lambda_wsgi_adapter-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lambda_wsgi_adapter-0.1.0.dist-info/top_level.txt,sha256=-pCQRSqWW0sxN1a3INzfxg9KsN9rUF3IzQzmI6JckMk,13
+lambda_wsgi_adapter-0.1.0.dist-info/RECORD,,

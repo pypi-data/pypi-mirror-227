@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: lambda-wsgi-adapter
+Version: 0.1.0
+Summary: WSGI adapter for AWS Lambda
+Home-page: https://github.com/spatocode/lambda-wsgi-adapter
+Author: Ekene Izukanne
+Author-email: ekeneizukanne@gmail.com
+License: MIT
+Keywords: wsgi aws lambda api gateway
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lambda-wsgi-adapter  ![version](https://img.shields.io/pypi/v/lambda-wsgi-adapter) ![downloads](https://img.shields.io/pypi/dm/lambda-wsgi-adapter) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![issues](https://img.shields.io/github/issues/spatocode/lambda-wsgi-adapter)
+
+WSGI adapter for AWS Lambda
+
+
+## Install
+
+```
+$ pip install lambda-wsgi-adapter
+```
+
+
+## Usage
+
+```py
+from wsgi_adapter import LambdaWSGIHandler
+from django_project.wsgi import application
+
+def lambda_handler(event, context):
+    handler = LambdaWSGIHandler(application)
+    return handler(event, context)
+```
+
+
+# License
+
+[MIT License](http://www.github.com/spatocode/lambda-wsgi-adapter/blob/master/LICENSE)
+
+Copyright (c) 2023 Ekene Izukanne
+
+
