@@ -1,0 +1,2 @@
+[datasette]
+jellyfish = datasette_jellyfish
