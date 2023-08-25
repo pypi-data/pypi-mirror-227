@@ -1,0 +1,57 @@
+Topics:
+- Graph neural network
+- 
+
+----------
+SCHEDULE
+----------
+
+* Arrive at the hotel at xxx
+
+Sun 23:
+- A lots of expo talks. The logistic problems in Amazon might be ok. Graph neural network with TF at 3pm is also ok.
+
+
+
+--------------------------
+Mon 24: TUTORIAL day
+--------------------------
+- 9:30 - 12:00pm Tutorial, the multimodal machine learning looks "ok", the others two are not my expertise
+- 1:30 - 3:30pm Tutorial, self-supervised learning in vision ...
+- **IMPORTANT** 3:40 - 4:00 Meet Amazon employee to 'chat'. Bring resume. Booth #301
+- 4:00 - 6:00pm Recent advances in generalarization theory of nn. This should be gooood
+- 6:15 - 8:00pm Welcome Reception. There is a Raffle prize at 6:30.
+
+
+----------------------------
+Tues 25: Real work begins
+----------------------------
+- 9:00am: Opening Remark (could skip)
+- 11:00 - 1:30pm: Poster session 1
+    . [p] Sample and Predict Your Latent: Modality-free Sequential Disentanglement via Contrastive Estimation 
+todo We need some papers here
+    . Shahana's under counted tensor 
+- 2:00 - 3:30pm: Poster session 2
++ ** IMPORTANT ** We are presenting here, at Exhibit Hall 1, #219.
+
+todo We need some papers here
+- 5:30 - 7:00pm: Oral presentations
++ Oral A3 ML theory, lets choose 2 papers
+    . [p] Which Features are Learnt by Contrastive Learning?
++ Oral A4 Diffusion
+    . [p] Refining Generative Process with Discriminator Guidance in Score-based Diffusion Models
+    . [p] OCD: Learning to Overfit with Conditional Diffusion Models
++ If you have time and energy, browsing some random papers
+
+-----------------------------
+Weds 26
+-----------------------------
+
+General TODO list:
+- Find big names
+- Print some copies of my paper
+- Big companies, big universities
+
+Review:
+- Diffusion
+- RL, imitation learning

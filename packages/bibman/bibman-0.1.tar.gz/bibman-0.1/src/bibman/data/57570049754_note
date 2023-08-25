@@ -1,0 +1,24 @@
+```
+Dear Xiao,As I told you, Valentin and I started to look into robustness of min-vol NMF for separable data (a long time ago, we have not worked in this recently); see https://www.overleaf.com/1987459699dwjkchvhwjkr In these notes, we are stuck in proving two lemmas:
+
+    Lemma 1: perturbation of determinant: we would like something which is not exponential in the noise,
+    Lemma 2: bound the determinant of a stochastic matrix: maybe you know this result? We could not find it although it appears to hold.
+
+Let us know if you have good idea to prove these lemmas. The rest will follow, I believe.This is a bit different from what you had in mind (which was for NMF, not min-vol, but I suspect the results would be closely related), namely:
+
+    Let X = W* H* + Noise where W* and H* satisfy SSC(q) for some 1 <= q < sqrt(r-1) (q=1 => W and H separable).
+    Solve min_{W,H} ||X-WH|| s.t. W>=0, H>=0.
+    Can we bound ||W-W*|| and ||H-H*||? For Noise = 0, this follows from the uniqueness of NMF (up to scaling and permutation of W,H).
+
+For this, we will need to assume a noise model (||Noise(:,j)||_2 <= epsilon for all j?) from which we will need to adapt the objective, e.g., min epsilon such that ||X-WH(:,j)|| <= epsilon for all j. In fact, using the Frobenius norm would not be good, I think, because all the noise can be put on a single column.
+Also, for simplicity, we may assume some normalization, e.g., W and H is column stochastic (to avoid scaling problems, e.g., H(:,j) = alpha e_k where alpha << 1).Proving this would be very nice :slightly_smiling_face:Best, Nicolas.
+
+
+
+Consider an NMF lossMin ||X -WH ||^2, W>=0, H>=0, (*)Where we know X=W_gd H_gd + N and ||N|| <= epsilon.Suppose W_gd and H_gd have SSC/or even separability. And also suppose that we have an oracle algorithm that can solve (*), what is the estimation error bound of (W^star,H^star), which is the optimal solution of (*). In other words, what is the bound of ||W^star - W_gd||?There might be something in the literature?
+--> I do not think there is something in the literature. I have thought a bit about this problem. My intuition is that we cannot work with SSC, which is unstable (it is easy to contruct examples where W and H are SSC but almost not unique). We need a “robust” definition of SSC. I think the “right/obvious” way is to consider the following condition: SSC(q). The matrix H satisfies SSC(q) if cone(H) contains {x >= 0 | e^T x >= q ||x||_2 } for q < sqrt(r-1). This is the condition from Ken’s paper. For q --> sqrt(r-1), this is essentially SSC (although, as you know, there are a few non-equivalent definitions); for q=1, this is separability. The smaller q, the larger noise level we can allow, I believe.
+The next step would be to start with q=1 (separability) and see if we can do anything. I have not thought so deeply about this problem yet, but I would be very interested.
+Note that a similar approach could be used for robustness of min-vol NMF. I have also thought about this a bit for the case q=1: can we prove min-vol NMF is robust on separable data?
+9:13
+some other discussion regarding SSC(q)
+```
