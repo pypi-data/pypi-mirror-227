@@ -1,0 +1,9 @@
+microscopemetrics_omero/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microscopemetrics_omero/dump.py,sha256=FfHTobmVjmCu1bKv73HeCLaqZHAH79ymzaNxeSmhpEo,6095
+microscopemetrics_omero/load.py,sha256=GB8J79XxDXtUiaIzi1cQwDwRjbJNCv-K7yd9jJWd0ik,447
+microscopemetrics_omero/omero_tools.py,sha256=0uQA1di_WaZPIZL96-OFvkQBTAxlLQ8AprYDZB--neY,29734
+microscopemetrics_omero/process.py,sha256=DMJwY9Fv9QCWil0K8PdUuQsourvVBsSphubuggegMQI,6260
+microscopemetrics_omero-0.2.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+microscopemetrics_omero-0.2.0.dist-info/METADATA,sha256=W2N6uGMyk8nqI9iNbHWIRaQGa4kiyn9RsHfbr1muJHM,888
+microscopemetrics_omero-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+microscopemetrics_omero-0.2.0.dist-info/RECORD,,
