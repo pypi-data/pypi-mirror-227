@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+czlib/__init__.py
+czlib/czip.py
+czlib/czip_dir.py
+czlib/czip_file.py
+czlib/serialize.py
+czlib/signature.py
+czlib.egg-info/PKG-INFO
+czlib.egg-info/SOURCES.txt
+czlib.egg-info/dependency_links.txt
+czlib.egg-info/requires.txt
+czlib.egg-info/top_level.txt
