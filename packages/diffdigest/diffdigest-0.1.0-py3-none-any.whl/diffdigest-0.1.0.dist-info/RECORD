@@ -1,0 +1,6 @@
+diffdigest/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+diffdigest/cli.py,sha256=CGF6HZFGXq_C-AfWHdVKAepJfNh0MzVvVbU4BfUiMfA,12130
+diffdigest-0.1.0.dist-info/entry_points.txt,sha256=FOqXDRWn-VJAqHjPXEStiwyyuoA1j1qPa5xkDjtT2qk,50
+diffdigest-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+diffdigest-0.1.0.dist-info/METADATA,sha256=G5VbtFvhfs-HpjDZPLcMRdUTbftrc_gvFXPBIAh38k4,964
+diffdigest-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: diffdigest
+Version: 0.1.0
+Summary: Generate commit messages from git diffs of any size using LLMs to cluster and summarize
+License: MIT
+Keywords: git,commit,summarize,llm,gpt-3,gpt-3.5,embedding,clustering
+Author: Max Johnson
+Author-email: maxdjohnson@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GitPython (>=3.1.32,<4.0.0)
+Requires-Dist: k-means-constrained (>=0.7.3,<0.8.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: openai (>=0.27.9,<0.28.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: tiktoken (>=0.4.0,<0.5.0)
+Requires-Dist: unidiff (>=0.7.5,<0.8.0)
+Description-Content-Type: text/markdown
+
+# diffdigest
+
+Generate commit messages from git diffs of any size using LLMs to cluster and summarize
+
