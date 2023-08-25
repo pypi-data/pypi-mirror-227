@@ -1,0 +1,31 @@
+version: '3.6'
+
+services:
+{% for lambda_fn in functions %}
+  {{lambda_fn.name}}-lambda:
+    image: {{lambda_fn.image}}
+    environment:
+      - AWS_DEFAULT_REGION=us-east-1
+    volumes:
+      {% for volume in lambda_fn.volumes -%}
+        - {{volume}}
+      {% endfor %}
+    command: sh /var/task/bin/package.sh {{lambda_fn.name}}
+{%- if lambda_fn.platform %}
+    platform: {{ lambda_fn.platform }}
+{%- endif %}
+{% endfor %}
+{% for layer in layers %}
+  {{layer.name}}-layer:
+    image: {{layer.image}}
+    environment:
+      - AWS_DEFAULT_REGION=us-east-1
+    volumes:
+      {% for volume in layer.volumes -%}
+        - {{volume}}
+      {% endfor %}
+    command: sh /var/task/bin/build_layer.sh {{layer.name}}
+{%- if layer.platform %}
+    platform: {{ layer.platform }}
+{%- endif %}
+{% endfor %}

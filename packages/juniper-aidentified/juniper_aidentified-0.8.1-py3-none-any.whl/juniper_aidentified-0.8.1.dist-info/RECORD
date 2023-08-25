@@ -1,0 +1,16 @@
+juniper/__init__.py,sha256=OGNpjKXiv15gFXUjvmkSBim6RaNLZuiGcQPN2-ZgjIU,676
+juniper/actions.py,sha256=YQRC9hmddpVSShxuCtnXP9Ni1SsV0FbjotdCEnbv-f0,6005
+juniper/cli.py,sha256=nUXubsImVsAcO_uBlgqgE7t4MqkaN64EkRtxAEEDxGk,3734
+juniper/constants.py,sha256=mZBob8aeVuHZuV3lOwZya9cjvGw9YXdQakCs3MlJHU4,737
+juniper/io.py,sha256=8tDwQ1YbMtuXl_LTy6JPt6bOPJgQl2MDXmAaif7c29w,1511
+juniper/manifest.py,sha256=WKqqt2f5tiZRv8AYYt22YvJWOfJrsR5ojR5AF7aizv8,3154
+juniper/artifacts/build_layer.sh,sha256=jOR4pwqLzvdBYIFeGrgHnbHLNYGoKld84KNAIjICWMA,1467
+juniper/artifacts/compose-template.yml,sha256=v8eWcXf68tmabDpECC9JXImrRKXv9BxC9P_Y3k_4cYM,796
+juniper/artifacts/package.sh,sha256=kU4nuCqVYk2WhVhbqYKBdT3bq7keVLsRCqNfDy7bFZE,1644
+juniper_aidentified-0.8.1.dist-info/AUTHORS,sha256=9mBMu93v9Cw2h-c5nJs2Tu36ZkOhvnPLhxKocnF1s7o,249
+juniper_aidentified-0.8.1.dist-info/LICENSE,sha256=VQweC9Yd1GzjFCmTldHgB1mFvRiYr1b4L2mziv_XBCw,11343
+juniper_aidentified-0.8.1.dist-info/METADATA,sha256=S0mnk9U5cQGC-JRfH0IR4AW_dIgOtA6wRwGKMCTidik,11473
+juniper_aidentified-0.8.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+juniper_aidentified-0.8.1.dist-info/entry_points.txt,sha256=8dazUE4bhgxK6AExJ7HXCI7sVaU1yt_0s0_IFT9DZvo,42
+juniper_aidentified-0.8.1.dist-info/top_level.txt,sha256=WqF2eGQsgOQfXY0UXKYTVqgNR8VESJjEvSbtAUswTpU,8
+juniper_aidentified-0.8.1.dist-info/RECORD,,
