@@ -1,0 +1,16 @@
+misspy/__init__.py,sha256=3G2y8Q_D5C4JJUBPJYh2S2BMK7fcyLUx5KA0dQS7LHE,46
+misspy/auth.py,sha256=ZZzpB_Rb4iMx1jOt_ll0hUT-RkNjy95njC8_fbuurP8,2172
+misspy/client.py,sha256=daOXMnv96trs2H_-0KJ_zf9yKnrKxb7ZDejJ6LxTXNw,12282
+misspy/exception.py,sha256=NJaBsVpULMJepvlsDAZVIZuAmt4w5oXx50_CXb1wrV0,664
+misspy/ext/__init__.py,sha256=FEuIhlYbQVOI5Xzyaux5Cv-oTnopzeORUfne1TyCInE,26
+misspy/ext/admin/raw.txt,sha256=aUkNVFZ7v5CJTXw5tmTVH_bHpP0SrHRtrbVdaKmmkyU,1292
+misspy/ext/MiAuth.py,sha256=VVitr04biuqMVHCzk783eQWgaYOXe9umuHDCrxWJdJA,1952
+misspy/http.py,sha256=Hjd4qNbVPSpYph8PDkGPAetShPS_7N0JNjir9VdnEEM,1545
+misspy/not_recommended.py,sha256=O2nwu3WgbHaDN6mC5HbkENZHJc1DacG2KwrknoT5AR0,370
+misspy/notes.py,sha256=DjouNhGpovmqlfF1Ec9-AuymSIMcbRuXA1LJeH5pJcU,3649
+misspy/reaction.py,sha256=AmflGLXlMvFT_8p5eu0DNWcvwjBGfI-dRDp7gTH9D3s,881
+misspy/types.py,sha256=qZjTyFYkwzRDAVmYuBdQsQ3hMHMo3ZgHOXRN_yvh8yM,262
+misspy/util.py,sha256=AeWIdBR-z59plWJAaqFdqtJWSW6TN4ymBz4tILlaq8c,369
+misspy-2023.8.24rc1.dist-info/METADATA,sha256=m67zBnYu5YivszC5-wZqHu3zm3PTnHogoJ88n2C_h0I,1350
+misspy-2023.8.24rc1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+misspy-2023.8.24rc1.dist-info/RECORD,,
