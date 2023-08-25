@@ -1,0 +1,10 @@
+videometer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+videometer/hips.py,sha256=0AhPj3r8IBBZHqHMgICr0iNTVqs9r3nRBEHfRjPeeNY,23725
+videometer/setupHelper.py,sha256=sfvDgPOnAuuz_0xHNS1MVYhmqnryhD8rBguPUxeLP20,1435
+videometer/vmUtils.py,sha256=cB4cXKKshnCzg1xRR2sqy_RtKUGV0O_2-gPooaxOtNA,10578
+videometer/tests/test.py,sha256=h4AWi35narHMk4mVgjzyrAsZ3-ryQnTgKlXvcvbh8-s,21930
+videometer-0.0.16.dist-info/LICENSE.txt,sha256=rwEBnVHZXQyLJTKmo2X0pfgiwmBnlcZvlRFjmoeYd-s,1716
+videometer-0.0.16.dist-info/METADATA,sha256=kcZePSbaqI0xd5O8V6Fsvvi_z0oUYx7WSJvM_9GZbug,3549
+videometer-0.0.16.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+videometer-0.0.16.dist-info/top_level.txt,sha256=l-Z6_BFbqsEJPcnAvx4PK0OWQtOFju0GbD5MIrb5KLg,11
+videometer-0.0.16.dist-info/RECORD,,
