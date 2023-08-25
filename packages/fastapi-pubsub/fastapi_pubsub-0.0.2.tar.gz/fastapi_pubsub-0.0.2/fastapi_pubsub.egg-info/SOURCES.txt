@@ -1,0 +1,10 @@
+README.md
+setup.py
+fastapi_pubsub/__init__.py
+fastapi_pubsub/base.py
+fastapi_pubsub/connection_manager.py
+fastapi_pubsub.egg-info/PKG-INFO
+fastapi_pubsub.egg-info/SOURCES.txt
+fastapi_pubsub.egg-info/dependency_links.txt
+fastapi_pubsub.egg-info/requires.txt
+fastapi_pubsub.egg-info/top_level.txt
