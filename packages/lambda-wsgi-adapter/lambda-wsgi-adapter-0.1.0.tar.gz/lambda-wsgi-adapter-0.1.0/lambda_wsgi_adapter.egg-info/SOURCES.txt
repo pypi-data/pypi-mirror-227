@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+lambda_wsgi_adapter.egg-info/PKG-INFO
+lambda_wsgi_adapter.egg-info/SOURCES.txt
+lambda_wsgi_adapter.egg-info/dependency_links.txt
+lambda_wsgi_adapter.egg-info/top_level.txt
+wsgi_adapter/__init__.py
+wsgi_adapter/handler.py
+wsgi_adapter/response.py
