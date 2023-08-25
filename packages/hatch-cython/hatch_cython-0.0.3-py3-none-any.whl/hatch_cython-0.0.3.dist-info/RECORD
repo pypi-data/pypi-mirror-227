@@ -1,0 +1,9 @@
+hatch_cython/__about__.py,sha256=RGDppzPst0uD3I2TusaO1TSL6XcA2LjhKsVuP96baks,144
+hatch_cython/__init__.py,sha256=FhveojBCQpw6k3M4M7DzFVmQmCSKr0AnSzSI60MrPbM,122
+hatch_cython/__main__.py,sha256=Y42r75U_Y0VAcVnq65K8aQJ_PZKxWQ0ZUE5feVqZLYk,78
+hatch_cython/hooks.py,sha256=ZK-kpAfReBxaB7ERV7cm3KB0dJt3gYVDNM9UiceKB8I,159
+hatch_cython/plugin.py,sha256=P23Jq3Y1HrTqS9ApUmgbxA9yor8yuDxUvsZRfBNzHeE,7777
+hatch_cython-0.0.3.dist-info/METADATA,sha256=xQcL7tnH1unAvRQoVg4Vfzgjgki0pb8T7fvTYlgWc6o,1865
+hatch_cython-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hatch_cython-0.0.3.dist-info/licenses/LICENSE.txt,sha256=M2uYSAy2GM02XIUVZapv_1__739FMfiHEu2FsjI87lM,1114
+hatch_cython-0.0.3.dist-info/RECORD,,
