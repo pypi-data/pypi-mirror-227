@@ -1,0 +1,25 @@
+{
+    "fileversion": "2.3",
+    "description": "",
+    "values": [],
+    "views": [],
+    "maps": [
+        {
+            "sources": [
+                "dev1.1/out1"
+            ],
+            "destinations": [
+                "dev2.1/drywet"
+            ],
+            "expression": "sMin=0;sMax=127;dMin=0;dMax=127;sRange=sMax-sMin;m=sRange?((dMax-dMin)/sRange):0;b=sRange?(dMin*sMax-dMax*sMin)/sRange:dMin;y=m*x+b;",
+            "muted": false,
+            "process_loc": "SOURCE",
+            "protocol": "UDP",
+            "scope": [
+                "dev1.1"
+            ],
+            "use_inst": false,
+            "version": 0
+        }
+    ]
+}
