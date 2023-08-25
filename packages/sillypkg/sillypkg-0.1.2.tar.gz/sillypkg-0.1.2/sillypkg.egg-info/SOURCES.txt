@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+sillypkg/__init__.py
+sillypkg/silly.py
+sillypkg.egg-info/PKG-INFO
+sillypkg.egg-info/SOURCES.txt
+sillypkg.egg-info/dependency_links.txt
+sillypkg.egg-info/top_level.txt
