@@ -1,0 +1,13 @@
+jupyter-book
+matplotlib
+msprime
+numba
+numpy
+numpydoc
+pandas
+pre-commit
+pytest
+scipy
+sphinx
+sphinx-issues
+tskit
