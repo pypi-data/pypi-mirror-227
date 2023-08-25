@@ -1,0 +1,8 @@
+chordy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chordy/__main__.py,sha256=9WKYduc82aKIj6FBKJOpcLVKj6Cj8amkAOCWXxmP_DM,1376
+chordy/chord.py,sha256=bUFFktnoNQJv0XTG64uMOtCSEisLOnwgDDdOYgL0-AY,5549
+chordy/segments.py,sha256=AwcpJoD98ovQzAo8setf-_y5dLzGDG-X-GSzxKgVQ9M,5755
+chordy/song.py,sha256=sXBTDOFSx5J7Z-HJXaB0wvYWc2GuOmEkaadkuuevN0c,3714
+chordy-0.5.0.dist-info/METADATA,sha256=BVDEx3Exdjdwc1j8kvDeHKKi_5u7OsmZIGLFgoSRdBE,587
+chordy-0.5.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+chordy-0.5.0.dist-info/RECORD,,
