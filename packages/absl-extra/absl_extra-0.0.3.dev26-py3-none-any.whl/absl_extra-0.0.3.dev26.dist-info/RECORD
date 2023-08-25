@@ -1,0 +1,13 @@
+absl_extra/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+absl_extra/callbacks.py,sha256=yeo0DxjKUAyzA9hJIKqwJ16y1loIw84WpUJiiSfm3sE,2172
+absl_extra/flax_utils.py,sha256=x3X8PG8-WyZNpUeN7Hlh-7LwfAkhd3KmvUEiD5rl-Uk,27110
+absl_extra/jax_utils.py,sha256=4QN-N2s0acOK9EbUfxRka-6hG6WPEE4TVrOFsxP2awc,1756
+absl_extra/logging_utils.py,sha256=97VF8oj9GXw8aGESHAlQHWht4TDnFqcEN7ANFqb2pu4,4638
+absl_extra/notifier.py,sha256=ZNDy15Pa_da92YMrxUrYKxTvpY_KOXizlNtztxtaJSA,3413
+absl_extra/py.typed,sha256=zlBhTdAQBRfJxeJXD-QnlXiZYsiAJYYkr3mbEsmwSac,64
+absl_extra/tasks.py,sha256=K4b96T7iv-V2MI6TSLvzb6Ch97xLdRLi6ndeVpkAbX4,6062
+absl_extra/tf_utils.py,sha256=wJa-rEfZ9smEf1X8MgV3NQByLMqTgq23nOof_NdYsdE,4686
+absl_extra/typing_utils.py,sha256=ZTJNv2sNQ-e-MZJ8h7B5AY6opPpeXnyxcryZBFxFk70,143
+absl_extra-0.0.3.dev26.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+absl_extra-0.0.3.dev26.dist-info/METADATA,sha256=ieDN9qdLYgRXJjEuGoB7FOjiujStF1JpTSR2PpZdb3M,2720
+absl_extra-0.0.3.dev26.dist-info/RECORD,,
