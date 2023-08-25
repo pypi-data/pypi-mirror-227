@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: jsonify-resume
+Version: 0.1.0
+Summary: A cli that converts resumes into JSON Resume schema
+License: MIT
+Author: Ashish Binu
+Author-email: ashishbinu90@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pdftotext (>=2.2.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: python-magic (>=0.4.27,<0.5.0)
+Requires-Dist: revchatgpt (>=6.8.6,<7.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# jsonify-resume
+
+[![License](https://img.shields.io/github/license/ashishbinu/jsonify-resume.svg)](https://github.com/ashishbinu/jsonify-resume/blob/main/LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/ashishbinu/jsonify-resume.svg)](https://github.com/ashishbinu/jsonify-resume/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/ashishbinu/jsonify-resume.svg)](https://github.com/ashishbinu/jsonify-resume/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ashishbinu/jsonify-resume.svg)](https://github.com/ashishbinu/jsonify-resume/pulls)
+
+**jsonify-resume** is a command-line tool that converts resumes into JSON Resume schema. Use this tool to streamline the conversion process and create structured online resumes.
+
+## Installation
+
+To get started, install Jsonify-Resume using the following command:
+
+```bash
+pipx install jsonify-resume
+```
+
+## Usage
+
+1. **Configure Access Token**: Before using Jsonify-Resume, set your [OpenAI access token](https://chat.openai.com/api/auth/session) as an environment variable:
+
+   ```bash
+   export OPENAI_ACCESS_TOKEN=<YOUR_ACCESS_TOKEN>
+   ```
+
+2. **Conversion Process**:
+
+   Use the following command to convert your resume (in PDF format) to JSON:
+
+   ```bash
+   jsonify-resume resume.pdf > resume.json
+   ```
+
+## Contributing
+
+Found a bug or have a feature in mind? [Open an issue](https://github.com/ashishbinu/jsonify-resume/issues). To contribute, fork the repo, make changes, and submit a PR.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+**jsonify-resume** is maintained by [@ashishbinu](https://github.com/ashishbinu). Connect with me on [Twitter](https://twitter.com/binu_ashish).
+
