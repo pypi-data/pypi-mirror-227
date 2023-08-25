@@ -1,0 +1,15 @@
+{
+  "host": true,
+  "port": 80,
+  "canrebuild": true,
+  "indexDirectories": true,
+  "indexNoJS": true,
+  "verbose_": true,
+  "proxy": {
+    "/": "http://youtube.com"
+  },
+  "gzip": false,
+  "zlib": false,
+  "thisURL": "nojs.froggo8311.repl.co",
+  "dumpCache": true
+}

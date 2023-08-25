@@ -1,0 +1,10 @@
+.config
+venv
+.replit
+replit.nix
+poetry.lock
+pyproject.toml
+upload.sh
+upload-beta.sh
+__pycache__/
+.idea
