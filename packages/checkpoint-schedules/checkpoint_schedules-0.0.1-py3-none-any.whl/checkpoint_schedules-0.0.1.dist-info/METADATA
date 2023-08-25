@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: checkpoint-schedules
+Version: 0.0.1
+Summary: Schedules for incremental checkpointing of adjoint simulations.
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: docs
+Requires-Dist: sphinx.ext.autodoc ; extra == 'docs'
+Requires-Dist: sphinx.ext.viewcode ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: nbsphinx-link ; extra == 'docs'
+Provides-Extra: notebooks
+Requires-Dist: jupyter ; extra == 'notebooks'
+Requires-Dist: scipy ; extra == 'notebooks'
+Requires-Dist: pickle ; extra == 'notebooks'
+Provides-Extra: numba
+Requires-Dist: numba ; extra == 'numba'
+
+# checkpoint_schedules
+Schedules for incremental checkpointing of adjoint simulations.
