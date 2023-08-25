@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+xlpkg/__init__.py
+xlpkg/checkpwd.py
+xlpkg/pub.py
+xlpkg/xlmysql.py
+xlpkg.egg-info/PKG-INFO
+xlpkg.egg-info/SOURCES.txt
+xlpkg.egg-info/dependency_links.txt
+xlpkg.egg-info/top_level.txt
