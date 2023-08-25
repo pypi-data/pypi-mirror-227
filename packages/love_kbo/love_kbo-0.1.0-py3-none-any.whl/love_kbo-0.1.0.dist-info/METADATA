@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: love_kbo
+Version: 0.1.0
+Summary: let me tell you about kbo, korean's representative baseball league
+Author-Email: sbka0704 <sbka0704@nate.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# love_kbo
