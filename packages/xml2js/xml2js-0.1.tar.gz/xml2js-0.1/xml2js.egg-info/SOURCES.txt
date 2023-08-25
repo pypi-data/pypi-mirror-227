@@ -1,0 +1,6 @@
+README.md
+setup.py
+xml2js.egg-info/PKG-INFO
+xml2js.egg-info/SOURCES.txt
+xml2js.egg-info/dependency_links.txt
+xml2js.egg-info/top_level.txt
