@@ -1,0 +1,15 @@
+aiohttp
+colorama
+tiktoken
+shutils
+attrs
+paramiko
+trafilatura
+EdgeGPT
+pandas
+
+[full]
+sentence_transformers
+pytorch
+keybert
+pyreadline3
