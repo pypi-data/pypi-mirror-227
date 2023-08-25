@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zops.aws
+Version: 1.0.0
+Summary: Customized commands for AWS.
+Home-page: https://github.com/zerotk/zops.aws
+Author: Alexandre Andrade
+Author-email: kaniabi@gmail.com
+License: MIT license
+Keywords: development environment,shell,operations,aws
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+
+Customized commands for AWS.
