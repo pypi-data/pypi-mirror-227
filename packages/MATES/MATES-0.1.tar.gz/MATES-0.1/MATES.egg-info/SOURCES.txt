@@ -1,0 +1,11 @@
+setup.py
+MATES/MATES_model.py
+MATES/TE_quantifier.py
+MATES/__init__.py
+MATES/bam_processor.py
+MATES/data_processor.py
+MATES.egg-info/PKG-INFO
+MATES.egg-info/SOURCES.txt
+MATES.egg-info/dependency_links.txt
+MATES.egg-info/requires.txt
+MATES.egg-info/top_level.txt

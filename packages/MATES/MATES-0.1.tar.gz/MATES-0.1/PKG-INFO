@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: MATES
+Version: 0.1
+Summary: A Deep Learning-Based Model for Quantifying Transposable Elements in Single-Cell Sequencing Data.
+Home-page: https://github.com/mcgilldinglab/MATES
+Author: Ruohan Wang
+Author-email: ruohan.wang4@mail.mcgill.ca
