@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hactool0
+Version: 0.11.1
+Summary: hactool
+Home-page: 
+Author: GhostShadow
+License: GNU
+Keywords: hactool
+License-File: LICENCE
+Requires-Dist: colorama
+Requires-Dist: keyboard
+Requires-Dist: numpy
+Requires-Dist: pick
+Requires-Dist: playsound
+Requires-Dist: pyautogui
+Requires-Dist: pyperclip
+Requires-Dist: tabulate
+
+# This tool can help you a lot!
