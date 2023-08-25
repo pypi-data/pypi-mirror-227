@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/judini/__init__.py
+src/judini/agent.py
+src/judini_dev.egg-info/PKG-INFO
+src/judini_dev.egg-info/SOURCES.txt
+src/judini_dev.egg-info/dependency_links.txt
+src/judini_dev.egg-info/top_level.txt
+tests/test_response.py
