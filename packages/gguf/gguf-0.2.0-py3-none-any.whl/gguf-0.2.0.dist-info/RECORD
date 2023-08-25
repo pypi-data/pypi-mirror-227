@@ -1,0 +1,6 @@
+gguf/__init__.py,sha256=DAqr8WscJqNlWpN5c1TkfSU_Kv4zGkHn8o59FbOiDiE,29
+gguf/gguf.py,sha256=QKtCLRAQPwKUjH03PpfY8IRNq1iDB1n0Chq3cFlhvQU,27645
+gguf-0.2.0.dist-info/LICENSE,sha256=73jH5mWeNMeYGU8NNE6AfHIt5wy8oTWe9UdyZh4Ryjg,1072
+gguf-0.2.0.dist-info/METADATA,sha256=Pb44KDYOGIjmGm3p4CKGdj4uY9cESjAk7Z0ofxgoAew,1939
+gguf-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+gguf-0.2.0.dist-info/RECORD,,
