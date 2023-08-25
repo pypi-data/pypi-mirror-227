@@ -1,0 +1,8 @@
+pykeydelivery/__init__.py,sha256=aJMkyO9z04fJmfp64sHnaEZ-_8IYt9hfDaPjjtpFX9Y,22
+pykeydelivery/classes/__init__.py,sha256=5f_Tio2MBYcKkkPadXr5SdzeM2eODKzptoyxiXk8tfE,66
+pykeydelivery/classes/http.py,sha256=ZsCgwdOFoaic_7K6mmKFM-D1dJXr1ob0C6UbAl1xrN0,709
+pykeydelivery/classes/keydelivery.py,sha256=jULHKa4TzMDNbXZoviKj99ZL6R8W5J5BEWti50ToLcY,1886
+pykeydelivery-0.9.0.dist-info/METADATA,sha256=gKhKINq_1YMh4XC0M_yodoSOa06QKEU6lQQOev8k9T8,2542
+pykeydelivery-0.9.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pykeydelivery-0.9.0.dist-info/licenses/LICENSE,sha256=D5Uf47b6sIVk3I7EACHzVOOJibtlqV3cVfHQv7XSNX4,1083
+pykeydelivery-0.9.0.dist-info/RECORD,,
