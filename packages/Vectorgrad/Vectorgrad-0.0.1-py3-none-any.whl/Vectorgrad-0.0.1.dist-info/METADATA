@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Vectorgrad
+Version: 0.0.1
+Summary: A lightweight autograd engine that supports tensor operations and gradients with a small, customizable neural network library on top
+Home-page: https://github.com/Sina-Haz/VectorGrad
+Author: Sina Hazeghi
+Author-email: shazeghian@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## VectorGrad
+
+Welcome to VectorGrad, a spin-off of the original [micrograd](https://github.com/karpathy/micrograd).
+
+This is an automatic differentiation library that supports tensor operations and calculus. Here's why I built it:
+1) It's much more lightweight and readable compared to bigger libraries such as TensorFlow so users can get a better idea
+of how everything works
+
+2) Its orders of magnitude more computationally efficient than its predecessor as it leverages numpy statically typed arrays
+and operations to bundle parameters and leverage parallelism and SIMD calculations
+
+3) It includes a dynamic and customizable neural network library that can build neural networks of arbitrary size and complexity,
+and also allows users to choose the activation function at each layer to allow for more robust model architecture
