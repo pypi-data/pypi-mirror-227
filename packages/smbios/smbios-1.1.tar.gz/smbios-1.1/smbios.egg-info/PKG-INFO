@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: smbios
+Version: 1.1
+Summary: Python library to read data from SMBIOS/DMI.
+Home-page: https://github.com/PerryWerneck/dmiget
+Author: Perry Werneck
+Author-email: perry.werneck@gmail.com
+License: UNKNOWN
+Description: 
+        This is an extension allowing smibios/dmi read for python applications.
+        
+Platform: UNKNOWN
