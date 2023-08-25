@@ -48601,511 +48601,511 @@
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/fd/f8/f54902a2661b4f7eca3dcc7d5021cbebed8cb975b03a737f45983040a3ea/pydozer_log-0.1.35-cp37-none-win_amd64.whl",
       "upload_time": "2023-08-25T08:14:47.984324Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/f3/41/e8838b51cd45749a68513181ae5444140e6b2981c23efd2a7f3bcc20d017/pydozer_log-0.1.35-cp38-cp38-manylinux_2_34_aarch64.whl",
       "upload_time": "2023-08-25T08:14:50.193108Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/63/15/6b2168f34c7386816fe60fcd342830fd66028da94151c5ade34c879a10d9/pydozer_log-0.1.35-cp38-cp38-manylinux_2_34_armv7l.whl",
       "upload_time": "2023-08-25T08:14:52.148694Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/55/01/c5c12fc2c4303f796a07a4fa9d989fb48cc3a4aa26c9fc3a643089ce6153/pydozer_log-0.1.35-cp38-cp38-manylinux_2_34_i686.whl",
       "upload_time": "2023-08-25T08:14:54.520793Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/5d/21/28e86719103cf9809d2e9710b94eb8735cb8081720c637a3b8ad3270f36b/pydozer_log-0.1.35-cp38-none-win32.whl",
       "upload_time": "2023-08-25T08:14:56.359908Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/c4/9a/8a55599f4ce7bf071abeb2923ac04c8aec4c67e8386e9ec3e2d574feb821/pydozer_log-0.1.35-cp38-none-win_amd64.whl",
       "upload_time": "2023-08-25T08:14:58.215908Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/e6/94/df639d034a10473c4ad973aad71293d1b4e01616db1fb088c31d56ef8fbb/pydozer_log-0.1.35-cp39-cp39-manylinux_2_34_aarch64.whl",
       "upload_time": "2023-08-25T08:15:00.411690Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/2c/4d/08ce87a0234bbc1e6a2f847a2d60507011c26bb05820e882deecd1bad381/pydozer_log-0.1.35-cp39-cp39-manylinux_2_34_armv7l.whl",
       "upload_time": "2023-08-25T08:15:02.733518Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/ce/82/ab72d6f0890f117e19f96f8ec8ee2718540dafe2cc54f4ab5403dad7412b/pydozer_log-0.1.35-cp39-cp39-manylinux_2_34_i686.whl",
       "upload_time": "2023-08-25T08:15:04.847156Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "merlin-sdk",
       "project_version": "0.33.0rc1",
       "url": "https://files.pythonhosted.org/packages/a7/a0/975b76f864246beacc9d53fac1bbee9ed64eae4480cf72d1b114b896be8f/merlin_sdk-0.33.0rc1-py3-none-any.whl",
       "upload_time": "2023-08-25T08:15:06.503908Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/e4/d7/836c3a77985804a52304ebb69c1c3f280449605d9444a3042a1ed4920eba/pydozer_log-0.1.35-cp39-none-win32.whl",
       "upload_time": "2023-08-25T08:15:07.020245Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/30/04/c5357a0d216ed6b1f2c5a97f035046aab6cee8428f79398edb8ea467ebc7/pydozer_log-0.1.35-cp39-none-win_amd64.whl",
       "upload_time": "2023-08-25T08:15:09.392663Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "merlin-sdk",
       "project_version": "0.33.0rc1",
       "url": "https://files.pythonhosted.org/packages/4b/98/aeab756e0eb410eaceb16408b14753399be60b0bf8dd29064e5a6324a860/merlin-sdk-0.33.0rc1.tar.gz",
       "upload_time": "2023-08-25T08:15:09.483085Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/23/1a/021fdb91e1d37232cf6a868888ff6e8f12d820d1c29bfbc797dc9c1a46f2/pydozer_log-0.1.35-pp310-pypy310_pp73-manylinux_2_34_aarch64.whl",
       "upload_time": "2023-08-25T08:15:12.530090Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/4d/5a/4881aee3eb0b4914737e167ed4c06439c7001c32a11fd25b99f98015e490/pydozer_log-0.1.35-pp310-pypy310_pp73-manylinux_2_34_armv7l.whl",
       "upload_time": "2023-08-25T08:15:14.981027Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/0d/8f/1265417046b32304842b5a89170480f15f9ee1b4f2437ece3de9742f2bb3/pydozer_log-0.1.35-pp310-pypy310_pp73-manylinux_2_34_i686.whl",
       "upload_time": "2023-08-25T08:15:17.032051Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/04/29/2f1699c6b0eca591a792e9cae61a058f026159a3dc039a3a91e464e2e8b1/pydozer_log-0.1.35-pp37-pypy37_pp73-manylinux_2_34_aarch64.whl",
       "upload_time": "2023-08-25T08:15:19.065394Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/5c/52/f614cf5b3384dc8f5ea97ba4740125e96f97e29c0fd43464b38addc1e0eb/pydozer_log-0.1.35-pp37-pypy37_pp73-manylinux_2_34_armv7l.whl",
       "upload_time": "2023-08-25T08:15:21.532842Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/7f/c5/53b3df0be6ff236a851eb781e9f4c58bc0728a68dbc49114bf9ec7b8ced3/pydozer_log-0.1.35-pp37-pypy37_pp73-manylinux_2_34_i686.whl",
       "upload_time": "2023-08-25T08:15:23.707242Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/f3/7a/d8999366a36ad26fa76119f65eb476925c9dc31364a8d7ff09d2d9a9e282/pydozer_log-0.1.35-pp38-pypy38_pp73-manylinux_2_34_aarch64.whl",
       "upload_time": "2023-08-25T08:15:25.739477Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/94/43/118c4c3fd1227b8a1dae535d0331d5638f2a9ccd346dc22355fa11c40ffc/pydozer_log-0.1.35-pp38-pypy38_pp73-manylinux_2_34_armv7l.whl",
       "upload_time": "2023-08-25T08:15:27.727726Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/96/1c/c1d8f1fe9ccf0e9d6f6206409e26268caf2ed2979087becf72371fa45c63/pydozer_log-0.1.35-pp38-pypy38_pp73-manylinux_2_34_i686.whl",
       "upload_time": "2023-08-25T08:15:29.925008Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "catdict",
       "project_version": "0.3.2",
       "url": "https://files.pythonhosted.org/packages/be/37/5de12a5c7b9c932d0b31f031573e9f803586246d94fc24129b40f4266c2c/catdict-0.3.2.tar.gz",
       "upload_time": "2023-08-25T08:15:31.838115Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-json",
       "project_version": "0.4.69",
       "url": "https://files.pythonhosted.org/packages/f9/da/2405ed642326f9c12ac2a71e97bfb3ebd5993f9c6e665b0f87936dd0bbd4/pyimporters_json-0.4.69-py3-none-any.whl",
       "upload_time": "2023-08-25T08:15:31.886399Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/cd/11/72ad3ca542894ee349fd8645bd066880a52e56b741ca3ed5deea973bc975/pydozer_log-0.1.35-pp39-pypy39_pp73-manylinux_2_34_aarch64.whl",
       "upload_time": "2023-08-25T08:15:32.455470Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-json",
       "project_version": "0.4.69",
       "url": "https://files.pythonhosted.org/packages/8c/ee/02ff48933433bb1dacd78e8cf5d4a5bde67533834af2b69f1efaf0d3c569/pyimporters_json-0.4.69.tar.gz",
       "upload_time": "2023-08-25T08:15:35.079498Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/82/08/9c9ef9611cc2b5d4bbbe9e4bc53a34871e827311d3fb461b0cbd3f0480fe/pydozer_log-0.1.35-pp39-pypy39_pp73-manylinux_2_34_armv7l.whl",
       "upload_time": "2023-08-25T08:15:35.231236Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pydozer-log",
       "project_version": "0.1.35",
       "url": "https://files.pythonhosted.org/packages/8d/ce/f439801d652eaca1bab6f1fb9b65e3554582190c706385c627e1cfa44905/pydozer_log-0.1.35-pp39-pypy39_pp73-manylinux_2_34_i686.whl",
       "upload_time": "2023-08-25T08:15:37.485760Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dash-leaflet",
       "project_version": "1.0.1",
       "url": "https://files.pythonhosted.org/packages/c8/ad/29158f7da29005915a4b8dfa20109e9841e6c9df75f599af6f955f273619/dash_leaflet-1.0.1-py3-none-any.whl",
       "upload_time": "2023-08-25T08:16:09.843903Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "dash-leaflet",
       "project_version": "1.0.1",
       "url": "https://files.pythonhosted.org/packages/30/04/3a1093a0ff94b607190cd52c5ebd7b2e0f87c3dccf12e2ffb0159c51a083/dash_leaflet-1.0.1.tar.gz",
       "upload_time": "2023-08-25T08:16:11.371647Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "krkn-lib",
       "project_version": "1.1.1",
       "url": "https://files.pythonhosted.org/packages/aa/2e/a637bb3405d1a833a152f0452ade8c11b6f8805fcd09388661529dc5b379/krkn_lib-1.1.1-py3-none-any.whl",
       "upload_time": "2023-08-25T08:17:57.364567Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "krkn-lib",
       "project_version": "1.1.1",
       "url": "https://files.pythonhosted.org/packages/c5/40/2ace259196719ade314d82f8f6b6cfebb59d270d2187f1bf736bce460742/krkn_lib-1.1.1.tar.gz",
       "upload_time": "2023-08-25T08:17:58.562753Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ai-oppose",
       "project_version": "0.0.10",
       "url": "https://files.pythonhosted.org/packages/9f/71/7aab586ad9f17608e1a7268386553cb50295df8df189cb2c5753a8ef5fc2/ai_oppose-0.0.10-py3-none-any.whl",
       "upload_time": "2023-08-25T08:18:30.017377Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "ai-oppose",
       "project_version": "0.0.10",
       "url": "https://files.pythonhosted.org/packages/08/52/837943da1fae212a24267788d771182fff50fec8f3d5a6d0df4c34582452/ai_oppose-0.0.10.tar.gz",
       "upload_time": "2023-08-25T08:18:32.076280Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deepeval",
       "project_version": "0.9.10",
       "url": "https://files.pythonhosted.org/packages/ae/79/7e60ab3038136555851afedd9cc53243d0792603c5da83aead592f8823be/deepeval-0.9.10-py3-none-any.whl",
       "upload_time": "2023-08-25T08:18:33.064559Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deepeval",
       "project_version": "0.9.10",
       "url": "https://files.pythonhosted.org/packages/ed/21/0f6bca09f2919b173b8f66b2cdd9cc42782949d793cf92ef71a40e90feaf/deepeval-0.9.10.tar.gz",
       "upload_time": "2023-08-25T08:18:34.883997Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-mesh",
       "project_version": "0.4.136",
       "url": "https://files.pythonhosted.org/packages/70/25/2d560c218f1467625f4ffd4d2f645a539833fe4796d4544b8d2f3211b44c/pyimporters_mesh-0.4.136-py3-none-any.whl",
       "upload_time": "2023-08-25T08:19:02.151063Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-mesh",
       "project_version": "0.4.136",
       "url": "https://files.pythonhosted.org/packages/47/fc/3f3e18cfc730bf13f82faa0f788690d060ca07dfb7954d4dbb860a8d4c3a/pyimporters_mesh-0.4.136.tar.gz",
       "upload_time": "2023-08-25T08:19:04.109882Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "piplinetest",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/e5/8f/a2dbc847b0218c01379cdb189ac7ecb61ec0a60690992f92b7773c20e444/piplinetest-0.1.2-py3-none-any.whl",
       "upload_time": "2023-08-25T08:19:23.232470Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "piplinetest",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/73/af/9480d389ea728147c4ac7270eeaf8f9ed179964ec5b1fc62561038b22609/piplinetest-0.1.2.tar.gz",
       "upload_time": "2023-08-25T08:19:24.322978Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "cns",
       "project_version": "1.0.55",
       "url": "https://files.pythonhosted.org/packages/49/a9/3497f200db26de66dee038cee158ea2f66c4179fbfe3ce51bf7b89aba5aa/cns-1.0.55-py3-none-any.whl",
       "upload_time": "2023-08-25T08:19:38.668211Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sjtrade",
       "project_version": "1.1.1",
       "url": "https://files.pythonhosted.org/packages/71/63/a94b1dc994e85739c28f80a3e8707c1a4459fea3cbea21397b33fccdf57f/sjtrade-1.1.1-py3-none-any.whl",
       "upload_time": "2023-08-25T08:19:42.851320Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "sjtrade",
       "project_version": "1.1.1",
       "url": "https://files.pythonhosted.org/packages/89/02/4ef52d97e7f17314353ef08b4d6bc3dd12397ab7ad08cc5c88f97a07438c/sjtrade-1.1.1.tar.gz",
       "upload_time": "2023-08-25T08:19:44.443646Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "catdict",
       "project_version": "0.3.3",
       "url": "https://files.pythonhosted.org/packages/52/69/1b166ef8d3f82ac18bfa1c653c59c29ea2b605f533f74c64fae8f34768d3/catdict-0.3.3.tar.gz",
       "upload_time": "2023-08-25T08:19:47.913985Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "campbells",
       "project_version": "0.2.2",
       "url": "https://files.pythonhosted.org/packages/88/36/3f72a9657016e7926fbb7f991b6cf9123080a873e050ce34bde6c520ede7/campbells-0.2.2-py3-none-any.whl",
       "upload_time": "2023-08-25T08:20:35.244009Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "campbells",
       "project_version": "0.2.2",
       "url": "https://files.pythonhosted.org/packages/2b/ea/cfa92ca2d42be71165a744112478805b24602f19ed26e3d86de7bd3e8ec1/campbells-0.2.2.tar.gz",
       "upload_time": "2023-08-25T08:20:37.777673Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-obo",
       "project_version": "0.4.111",
       "url": "https://files.pythonhosted.org/packages/4a/4e/630ff88da3d49463c1a28effdb25c5e79db753f550e1b48fd236106ee913/pyimporters_obo-0.4.111-py3-none-any.whl",
       "upload_time": "2023-08-25T08:20:41.524420Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-obo",
       "project_version": "0.4.111",
       "url": "https://files.pythonhosted.org/packages/7f/f6/4866c52cd6f397edbf02b7c54e1d9a2d57a317c20028681ed84704c40289/pyimporters_obo-0.4.111.tar.gz",
       "upload_time": "2023-08-25T08:20:43.407126Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "alyvix",
       "project_version": "3.4.1b0",
       "url": "https://files.pythonhosted.org/packages/2e/e4/418213e7d7ee5bece70dfaee95f23449a13c53e48e322f7343043a2fd36d/alyvix-3.4.1b0-cp39-cp39-win_amd64.whl",
       "upload_time": "2023-08-25T08:20:53.007037Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pygame-ui-toolkit",
       "project_version": "1.0.2",
       "url": "https://files.pythonhosted.org/packages/55/b5/9286d4bed7eaa88e57a92c9788fe6f2e14a692662fa8e2b4bf737e38c3ad/pygame_ui_toolkit-1.0.2-py3-none-any.whl",
       "upload_time": "2023-08-25T08:20:59.913914Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pygame-ui-toolkit",
       "project_version": "1.0.2",
       "url": "https://files.pythonhosted.org/packages/6f/50/63a787a75e56fb9e5909f890c299046c04aa2789071435ce654d8cbfa2d9/pygame-ui-toolkit-1.0.2.tar.gz",
       "upload_time": "2023-08-25T08:21:01.626426Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nonebot-plugin-shutup",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/26/e0/f3671d218d511dcc45ece5fbbf758c45acbccc1385d18bbdf88610c0b144/nonebot_plugin_shutup-0.0.2-py3-none-any.whl",
       "upload_time": "2023-08-25T08:21:54.460473Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "nonebot-plugin-shutup",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/49/c5/8ed284c66f936eeeaa6f8fe70a9e40742bd76f2ef66ef648f5766e92e825/nonebot_plugin_shutup-0.0.2.tar.gz",
       "upload_time": "2023-08-25T08:21:56.325364Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "umap-project",
       "project_version": "1.6.1",
       "url": "https://files.pythonhosted.org/packages/74/22/73ac19bf651639c9f57bd85473508c7f2068cab059485c0ced3a3d3885c6/umap_project-1.6.1-py3-none-any.whl",
       "upload_time": "2023-08-25T08:22:47.171820Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "umap-project",
       "project_version": "1.6.1",
       "url": "https://files.pythonhosted.org/packages/2a/4b/05ab0ef361eb42308f4cbc24cf9c67d4f321ac1e1f03c57b164472e2af96/umap_project-1.6.1.tar.gz",
       "upload_time": "2023-08-25T08:22:50.218032Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "doc-comments-ai",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/fb/08/d0ce1a5d916ea87f0cedef6403ffe8fb95872b2508a2a2f2f61ddff0f2f8/doc_comments_ai-0.1.2-py3-none-any.whl",
       "upload_time": "2023-08-25T08:22:54.546972Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "doc-comments-ai",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/ec/6c/19a70976b588641583ee934c8b1c3eef97eea6f6ae8d3238dcb3d8f92d58/doc_comments_ai-0.1.2.tar.gz",
       "upload_time": "2023-08-25T08:22:55.932534Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "r5py.sampledata.sao-paulo",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/1f/b8/f6b94c7176f39bb2563ea81acbbaf0490ba7d58bd7c2517907f1bfd06ad3/r5py.sampledata.sao_paulo-0.1.0-py3-none-any.whl",
       "upload_time": "2023-08-25T08:25:19.470211Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "r5py.sampledata.sao-paulo",
       "project_version": "0.1.0",
       "url": "https://files.pythonhosted.org/packages/05/0e/27519cfdfcf506abbfd0dde5abee889bd0af1871ca41901d7ad6375d2ede/r5py.sampledata.sao_paulo-0.1.0.tar.gz",
       "upload_time": "2023-08-25T08:25:21.047686Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-skos",
       "project_version": "0.4.129",
       "url": "https://files.pythonhosted.org/packages/2e/85/37572c2b0ac108c7400db77bcbbd1c975eadc3c366dbe3486fc98be56240/pyimporters_skos-0.4.129-py3-none-any.whl",
       "upload_time": "2023-08-25T08:25:25.878489Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-skos",
       "project_version": "0.4.129",
       "url": "https://files.pythonhosted.org/packages/7a/a2/726ba62ea090c91fe986af6a3bc0bcbfa6a57c7b65dc00f74d761b1c4361/pyimporters_skos-0.4.129.tar.gz",
       "upload_time": "2023-08-25T08:25:27.895421Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "gdal2numpy",
       "project_version": "0.0.229",
       "url": "https://files.pythonhosted.org/packages/a0/0c/3a2cd41e50999ae2e86c9e1dcbb877430c1647d85a0280cb43822733a304/gdal2numpy-0.0.229.tar.gz",
       "upload_time": "2023-08-25T08:25:38.959113Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "zit",
       "project_version": "0.0.3a50",
       "url": "https://files.pythonhosted.org/packages/20/ad/98b056d81c8572de8614dd9d234eea51df70d686b6556e61b1ae763f9c59/zit-0.0.3a50-py3-none-any.whl",
       "upload_time": "2023-08-25T08:25:40.526866Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "AlgorithmLib",
       "project_version": "3.9.88",
       "url": "https://files.pythonhosted.org/packages/4b/5a/38bbc60d936dec486f0a90a1d4164c192d52c480bb8ebebfeeb33a394e73/AlgorithmLib-3.9.88.tar.gz",
       "upload_time": "2023-08-25T08:25:40.556631Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "zit",
       "project_version": "0.0.3a50",
       "url": "https://files.pythonhosted.org/packages/8c/6a/05190b845dd3df1e2a09e4f73d382e2dcbc1cb33cc11f42de1ea3a667fe5/zit-0.0.3a50.tar.gz",
       "upload_time": "2023-08-25T08:25:42.712874Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-skos-rf",
       "project_version": "0.4.135",
       "url": "https://files.pythonhosted.org/packages/d6/d8/7b512c0638b482fbde890cebc2f32adf97667cd0b89182408fb4b67dce42/pyimporters_skos_rf-0.4.135-py3-none-any.whl",
       "upload_time": "2023-08-25T08:27:07.793619Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "pyimporters-skos-rf",
       "project_version": "0.4.135",
       "url": "https://files.pythonhosted.org/packages/4c/68/01123c16f2c4e3394effd50a86faf8179d6f31f97d930a37f712561dad84/pyimporters_skos_rf-0.4.135.tar.gz",
       "upload_time": "2023-08-25T08:27:10.082580Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "goodie",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/e8/e2/637bf6282b2c8d039ca65d43d89982343a155af9c6e6d0b894db5d6cab17/goodie-0.0.2.tar.gz",
       "upload_time": "2023-08-25T08:27:17.442579Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "invoicing-xlsm-toPdf",
       "project_version": "1.0.0",
       "url": "https://files.pythonhosted.org/packages/4a/97/199e66615884c1286ffaa126e1472df1b0769d7c0446aac6acc02b95c19d/invoicing_xlsm_toPdf-1.0.0.tar.gz",
       "upload_time": "2023-08-25T08:28:00.948904Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mobiledoc",
       "project_version": "0.2.1",
       "url": "https://files.pythonhosted.org/packages/98/b4/33212260347faad3fb1417df539631e2f90209ceba4db696dce09559fe3b/mobiledoc-0.2.1-py3-none-any.whl",
       "upload_time": "2023-08-25T08:28:15.639051Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "mobiledoc",
       "project_version": "0.2.1",
       "url": "https://files.pythonhosted.org/packages/b7/70/4de4d7d948e9c7b48db79c1b7b7a4c41a3170fc0ea4518ac9d60d94b6532/mobiledoc-0.2.1.tar.gz",
       "upload_time": "2023-08-25T08:28:17.206923Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deepeval",
       "project_version": "0.9.11",
       "url": "https://files.pythonhosted.org/packages/55/f8/136f8f43b594952096ec6940f8c200cb6ab59e919771d98a37dd54f3218e/deepeval-0.9.11-py3-none-any.whl",
       "upload_time": "2023-08-25T08:29:25.724778Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "deepeval",
       "project_version": "0.9.11",
       "url": "https://files.pythonhosted.org/packages/89/85/55c5185875a8811fc507344966ba304060dbe2d94393561e1036b92db013/deepeval-0.9.11.tar.gz",
       "upload_time": "2023-08-25T08:29:27.612350Z",
-      "processed": false
+      "processed": true
     }
   ]
 }
