@@ -1,0 +1,15 @@
+pyproject.toml
+setup.cfg
+setup.py
+shrillerspot/__init__.py
+shrillerspot.egg-info/PKG-INFO
+shrillerspot.egg-info/SOURCES.txt
+shrillerspot.egg-info/dependency_links.txt
+shrillerspot.egg-info/top_level.txt
+shrillerspot/auth/__init__.py
+shrillerspot/auth/auth.py
+shrillerspot/playlist/__init__.py
+shrillerspot/playlist/fetch_playlist.py
+shrillerspot/user/__init__.py
+shrillerspot/user/saved_tracks.py
+shrillerspot/utility/__init__.py
