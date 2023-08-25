@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "advance_warning_level": {
+                "name": "\u4e8b\u524d\u8b66\u6212\u30ec\u30d9\u30eb"
+            },
+            "current_warning_level": {
+                "name": "\u73fe\u5728\u306e\u8b66\u6212\u30ec\u30d9\u30eb"
+            }
+        }
+    }
+}

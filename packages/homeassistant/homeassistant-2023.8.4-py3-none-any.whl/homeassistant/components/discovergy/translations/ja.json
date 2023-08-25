@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "sensor": {
+            "last_transmitted": {
+                "name": "\u6700\u7d42\u9001\u4fe1"
+            }
+        }
+    }
+}

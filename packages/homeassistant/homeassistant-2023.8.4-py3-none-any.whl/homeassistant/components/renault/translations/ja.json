@@ -1,0 +1,101 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u30a2\u30ab\u30a6\u30f3\u30c8\u306f\u3059\u3067\u306b\u8a2d\u5b9a\u3055\u308c\u3066\u3044\u307e\u3059",
+            "kamereon_no_account": "Kamereon\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093",
+            "reauth_successful": "\u518d\u8a8d\u8a3c\u306b\u6210\u529f\u3057\u307e\u3057\u305f"
+        },
+        "error": {
+            "invalid_credentials": "\u7121\u52b9\u306a\u8a8d\u8a3c"
+        },
+        "step": {
+            "kamereon": {
+                "data": {
+                    "kamereon_account_id": "Kamereon\u30a2\u30ab\u30a6\u30f3\u30c8ID"
+                },
+                "title": "Kamereon\u306e\u30a2\u30ab\u30a6\u30f3\u30c8ID\u3092\u9078\u629e"
+            },
+            "reauth_confirm": {
+                "data": {
+                    "password": "\u30d1\u30b9\u30ef\u30fc\u30c9"
+                },
+                "description": "{username} \u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u66f4\u65b0\u3057\u3066\u304f\u3060\u3055\u3044",
+                "title": "\u7d71\u5408\u306e\u518d\u8a8d\u8a3c"
+            },
+            "user": {
+                "data": {
+                    "locale": "\u30ed\u30b1\u30fc\u30eb",
+                    "password": "\u30d1\u30b9\u30ef\u30fc\u30c9",
+                    "username": "E\u30e1\u30fc\u30eb"
+                },
+                "title": "\u30eb\u30ce\u30fc\u306e\u8a8d\u8a3c\u60c5\u5831\u3092\u8a2d\u5b9a"
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "charging": {
+                "name": "\u30c1\u30e3\u30fc\u30b8\u30f3\u30b0"
+            },
+            "lock_status": {
+                "name": "\u30ed\u30c3\u30af"
+            },
+            "plugged_in": {
+                "name": "\u30d7\u30e9\u30b0"
+            }
+        },
+        "sensor": {
+            "plug_state": {
+                "state": {
+                    "plug_unknown": "\u30d7\u30e9\u30b0\u4e0d\u660e",
+                    "plugged": "\u30d7\u30e9\u30b0\u30a4\u30f3",
+                    "unplugged": "\u30a2\u30f3\u30d7\u30e9\u30b0\u30c9"
+                }
+            }
+        }
+    },
+    "services": {
+        "ac_cancel": {
+            "description": "\u8eca\u4e21\u306e\u30a8\u30a2\u30b3\u30f3\u3092\u30ad\u30e3\u30f3\u30bb\u30eb\u3057\u307e\u3059\u3002",
+            "fields": {
+                "vehicle": {
+                    "description": "\u30b3\u30de\u30f3\u30c9\u306e\u9001\u4fe1\u5148\u306e\u8eca\u4e21\u3002",
+                    "name": "\u8eca\u4e21"
+                }
+            },
+            "name": "\u30a8\u30a2\u30b3\u30f3\u3092\u30ad\u30e3\u30f3\u30bb\u30eb\u3059\u308b"
+        },
+        "ac_start": {
+            "description": "\u8eca\u4e21\u306e\u30a8\u30a2\u30b3\u30f3\u3092\u958b\u59cb\u3057\u307e\u3059\u3002",
+            "fields": {
+                "temperature": {
+                    "description": "\u76ee\u6a19\u306e A/C \u6e29\u5ea6 (\u00b0C)\u3002",
+                    "name": "\u6e29\u5ea6"
+                },
+                "vehicle": {
+                    "description": "\u30b3\u30de\u30f3\u30c9\u306e\u9001\u4fe1\u5148\u306e\u8eca\u4e21\u3002",
+                    "name": "\u8eca\u4e21"
+                },
+                "when": {
+                    "description": "\u30a8\u30a2\u30b3\u30f3\u306e\u958b\u59cb\u6642\u306e\u30bf\u30a4\u30e0\u30b9\u30bf\u30f3\u30d7 (\u30aa\u30d7\u30b7\u30e7\u30f3 - \u30c7\u30d5\u30a9\u30eb\u30c8\u306f\u73fe\u5728)\u3002",
+                    "name": "\u3044\u3064"
+                }
+            },
+            "name": "\u30a8\u30a2\u30b3\u30f3\u3092\u958b\u59cb\u3059\u308b"
+        },
+        "charge_set_schedules": {
+            "description": "\u8eca\u4e21\u306e\u5145\u96fb\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u66f4\u65b0\u3057\u307e\u3059\u3002",
+            "fields": {
+                "schedules": {
+                    "description": "\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u306e\u8a73\u7d30\u3002",
+                    "name": "\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb"
+                },
+                "vehicle": {
+                    "description": "\u30b3\u30de\u30f3\u30c9\u306e\u9001\u4fe1\u5148\u306e\u8eca\u4e21\u3002",
+                    "name": "\u8eca\u4e21"
+                }
+            },
+            "name": "\u5145\u96fb\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u66f4\u65b0\u3059\u308b"
+        }
+    }
+}

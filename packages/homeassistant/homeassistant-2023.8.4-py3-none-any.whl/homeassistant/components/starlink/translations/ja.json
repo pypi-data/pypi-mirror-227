@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "roaming": {
+                "name": "\u30ed\u30fc\u30df\u30f3\u30b0\u30e2\u30fc\u30c9"
+            }
+        },
+        "device_tracker": {
+            "device_location": {
+                "name": "\u30c7\u30d0\u30a4\u30b9\u306e\u5834\u6240"
+            }
+        }
+    }
+}

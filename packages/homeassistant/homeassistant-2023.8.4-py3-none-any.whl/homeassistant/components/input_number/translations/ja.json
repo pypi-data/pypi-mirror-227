@@ -1,0 +1,46 @@
+{
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "editable": {
+                    "state": {
+                        "true": "\u306f\u3044"
+                    }
+                },
+                "mode": {
+                    "state": {
+                        "slider": "\u30b9\u30e9\u30a4\u30c0\u30fc"
+                    }
+                },
+                "step": {
+                    "name": "\u30b9\u30c6\u30c3\u30d7"
+                }
+            }
+        }
+    },
+    "services": {
+        "decrement": {
+            "description": "\u73fe\u5728\u306e\u5024\u3092 1 \u30b9\u30c6\u30c3\u30d7\u305a\u3064\u30c7\u30af\u30ea\u30e1\u30f3\u30c8\u3057\u307e\u3059\u3002",
+            "name": "\u30c7\u30af\u30ea\u30e1\u30f3\u30c8"
+        },
+        "increment": {
+            "description": "\u5024\u3092 1 \u30b9\u30c6\u30c3\u30d7\u305a\u3064\u30a4\u30f3\u30af\u30ea\u30e1\u30f3\u30c8\u3057\u307e\u3059\u3002",
+            "name": "\u30a4\u30f3\u30af\u30ea\u30e1\u30f3\u30c8"
+        },
+        "reload": {
+            "description": "YAML-configuration\u304b\u3089\u30d8\u30eb\u30d1\u30fc\u3092\u30ea\u30ed\u30fc\u30c9\u3057\u307e\u3059\u3002",
+            "name": "\u30ea\u30ed\u30fc\u30c9"
+        },
+        "set_value": {
+            "description": "\u5024\u3092\u8a2d\u5b9a\u3059\u308b\u3002",
+            "fields": {
+                "value": {
+                    "description": "\u30bf\u30fc\u30b2\u30c3\u30c8\u5024\u3002",
+                    "name": "\u5024"
+                }
+            },
+            "name": "\u30bb\u30c3\u30c8"
+        }
+    },
+    "title": "\u756a\u53f7\u5165\u529b"
+}

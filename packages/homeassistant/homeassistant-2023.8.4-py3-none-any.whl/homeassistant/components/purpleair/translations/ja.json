@@ -1,0 +1,48 @@
+{
+    "entity": {
+        "sensor": {
+            "pm0_3_count_concentration": {
+                "name": "PM0.3\u30ab\u30a6\u30f3\u30c8\u6fc3\u5ea6"
+            },
+            "pm0_5_count_concentration": {
+                "name": "PM0.5\u30ab\u30a6\u30f3\u30c8\u6fc3\u5ea6"
+            },
+            "pm10_0_count_concentration": {
+                "name": "PM10.0\u30ab\u30a6\u30f3\u30c8\u6fc3\u5ea6"
+            },
+            "pm1_0_count_concentration": {
+                "name": "PM1.0\u30ab\u30a6\u30f3\u30c8\u6fc3\u5ea6"
+            },
+            "pm2_5_count_concentration": {
+                "name": "PM2.5\u30ab\u30a6\u30f3\u30c8\u6fc3\u5ea6"
+            },
+            "pm5_0_count_concentration": {
+                "name": "PM5.0\u30ab\u30a6\u30f3\u30c8\u6fc3\u5ea6"
+            },
+            "rssi": {
+                "name": "RSSI"
+            },
+            "uptime": {
+                "name": "\u7a3c\u50cd\u6642\u9593"
+            },
+            "voc_aqi": {
+                "name": "\u63ee\u767a\u6027\u6709\u6a5f\u5316\u5408\u7269\u306e\u7a7a\u6c17\u8cea\u6307\u6570"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "menu_options": {
+                    "settings": "\u8a2d\u5b9a"
+                }
+            },
+            "settings": {
+                "data": {
+                    "show_on_map": "\u8a2d\u5b9a\u3055\u308c\u305f\u30bb\u30f3\u30b5\u30fc\u306e\u4f4d\u7f6e\u3092\u5730\u56f3\u4e0a\u306b\u8868\u793a"
+                },
+                "title": "\u8a2d\u5b9a"
+            }
+        }
+    }
+}

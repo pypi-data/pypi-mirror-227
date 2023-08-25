@@ -1,0 +1,45 @@
+{
+    "config": {
+        "step": {
+            "hassio_confirm": {
+                "title": "Matter Server \u30a2\u30c9\u30aa\u30f3\u3092\u4f7f\u7528\u3057\u3066 Matter \u7d71\u5408\u3092\u30bb\u30c3\u30c8\u30a2\u30c3\u30d7\u3059\u308b"
+            }
+        }
+    },
+    "entity": {
+        "event": {
+            "push": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "initial_press": "\u521d\u56de\u30d7\u30ec\u30b9",
+                            "long_press": "\u9577\u62bc\u3057",
+                            "long_release": "\u30ed\u30f3\u30b0\u30ea\u30ea\u30fc\u30b9",
+                            "multi_press_complete": "\u30de\u30eb\u30c1\u30d7\u30ec\u30b9\u5b8c\u4e86",
+                            "multi_press_ongoing": "\u30de\u30eb\u30c1\u30d7\u30ec\u30b9\u7d99\u7d9a\u4e2d",
+                            "short_release": "\u30b7\u30e7\u30fc\u30c8\u30ea\u30ea\u30fc\u30b9",
+                            "switch_latched": "\u30b9\u30a4\u30c3\u30c1\u304c\u30e9\u30c3\u30c1\u3055\u308c\u305f"
+                        }
+                    }
+                }
+            }
+        },
+        "sensor": {
+            "flow": {
+                "name": "\u30d5\u30ed\u30fc"
+            }
+        }
+    },
+    "services": {
+        "open_commissioning_window": {
+            "description": "\u3053\u306e Matter \u30c7\u30d0\u30a4\u30b9\u306e\u30b3\u30df\u30c3\u30b7\u30e7\u30cb\u30f3\u30b0\u30a6\u30a3\u30f3\u30c9\u30a6\u3092 60 \u79d2\u9593\u958b\u304f\u3053\u3068\u3067\u3001\u30c7\u30d0\u30a4\u30b9\u306e 1 \u3064\u3092\u5225\u306e Matter \u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u306b\u8ffd\u52a0\u3067\u304d\u307e\u3059\u3002",
+            "fields": {
+                "device_id": {
+                    "description": "\u4ed6\u306e Matter \u30cd\u30c3\u30c8\u30ef\u30fc\u30af\u306b\u8ffd\u52a0\u3059\u308b Matter \u30c7\u30d0\u30a4\u30b9\u3002",
+                    "name": "\u30c7\u30d0\u30a4\u30b9"
+                }
+            },
+            "name": "\u8a66\u904b\u8ee2\u30a6\u30a3\u30f3\u30c9\u30a6\u3092\u958b\u304f"
+        }
+    }
+}

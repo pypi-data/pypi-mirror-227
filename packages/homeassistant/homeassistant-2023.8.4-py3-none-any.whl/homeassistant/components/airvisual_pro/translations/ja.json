@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "outdoor_air_quality_index": {
+                "name": "\u5c4b\u5916\u5927\u6c17\u8cea\u6307\u6570"
+            },
+            "pm01": {
+                "name": "PM0.1"
+            }
+        }
+    }
+}

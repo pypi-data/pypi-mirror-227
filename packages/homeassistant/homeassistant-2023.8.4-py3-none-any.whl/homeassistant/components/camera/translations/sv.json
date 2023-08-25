@@ -1,0 +1,52 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Kamera",
+            "state": {
+                "idle": "Inaktiv",
+                "recording": "Inspelning",
+                "streaming": "Str\u00f6mmar"
+            },
+            "state_attributes": {
+                "access_token": {
+                    "name": "\u00c5tkomsttoken"
+                },
+                "brand": {
+                    "name": "M\u00e4rke"
+                },
+                "frontend_stream_type": {
+                    "name": "Str\u00f6mtyp",
+                    "state": {
+                        "hls": "HLS",
+                        "webrtc": "WebRTC"
+                    }
+                },
+                "model_name": {
+                    "name": "Modell"
+                },
+                "motion_detection": {
+                    "name": "R\u00f6relsedetektering",
+                    "state": {
+                        "false": "Inaktiverad",
+                        "true": "Aktiverad"
+                    }
+                }
+            }
+        }
+    },
+    "issues": {
+        "platform_integration_no_support": {
+            "description": "{platform} plattformen f\u00f6r integrationen {domain} st\u00f6ds inte.\n\nTa bort den fr\u00e5n din konfiguration och starta om Home Assistant f\u00f6r att fixa detta problem.",
+            "title": "Plattformen st\u00f6ds inte"
+        }
+    },
+    "services": {
+        "turn_off": {
+            "name": "St\u00e4ng av"
+        },
+        "turn_on": {
+            "name": "Starta"
+        }
+    },
+    "title": "Kamera"
+}

@@ -1,0 +1,11 @@
+{
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "enable_push": "\u30b5\u30fc\u30d0\u30fc\u304cPush-IMAP\u3092\u30b5\u30dd\u30fc\u30c8\u3057\u3066\u3044\u308b\u5834\u5408\u306f\u6709\u52b9\u306b\u3059\u308b\u3002Push-IMAP\u306b\u3088\u308b\u66f4\u65b0\u304c\u4fe1\u983c\u3067\u304d\u306a\u3044\u5834\u5408\u306f\u30aa\u30d5\u306b\u3057\u307e\u3059\u3002"
+                }
+            }
+        }
+    }
+}

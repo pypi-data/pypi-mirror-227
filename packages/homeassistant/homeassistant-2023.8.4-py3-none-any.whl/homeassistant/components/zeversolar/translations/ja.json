@@ -1,0 +1,18 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "host": "\u30db\u30b9\u30c8"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "energy_today": {
+                "name": "\u4eca\u65e5\u306e\u30a8\u30cd\u30eb\u30ae\u30fc"
+            }
+        }
+    }
+}

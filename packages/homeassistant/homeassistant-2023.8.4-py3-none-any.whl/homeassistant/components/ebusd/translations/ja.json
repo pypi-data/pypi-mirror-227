@@ -1,0 +1,11 @@
+{
+    "services": {
+        "write": {
+            "description": "ebusd write \u30b3\u30de\u30f3\u30c9\u3092\u547c\u3073\u51fa\u3057\u307e\u3059\u3002"
+        }
+    },
+    "state": {
+        "day": "\u65e5",
+        "night": "\u591c"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "services": {
+        "join": {
+            "description": "\u30d7\u30ec\u30a4\u30e4\u30fc\u3092\u30b0\u30eb\u30fc\u30d7\u5316\u3057\u307e\u3059\u3002",
+            "fields": {
+                "entity_id": {
+                    "description": "\u300c\u30de\u30b9\u30bf\u30fc\u300d\u306b\u52a0\u308f\u308b\u30d7\u30ec\u30a4\u30e4\u30fc\u305f\u3061\u3002",
+                    "name": "\u30a8\u30f3\u30c6\u30a3\u30c6\u30a3"
+                },
+                "master": {
+                    "description": "\u540c\u671f\u5148\u306e\u30d7\u30ec\u30fc\u30e4\u30fc\u306e\u30a8\u30f3\u30c6\u30a3\u30c6\u30a3 ID\u3002",
+                    "name": "\u30de\u30b9\u30bf\u30fc"
+                }
+            },
+            "name": "\u53c2\u52a0"
+        },
+        "restore": {
+            "description": "\u30e1\u30c7\u30a3\u30a2\u30d7\u30ec\u30fc\u30e4\u30fc\u306e\u30b9\u30ca\u30c3\u30d7\u30b7\u30e7\u30c3\u30c8\u3092\u5fa9\u5143\u3057\u307e\u3059\u3002",
+            "name": "\u30ea\u30b9\u30c8\u30a2"
+        },
+        "set_latency": {
+            "description": "\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u306e set_latency \u3092\u8a2d\u5b9a\u3057\u307e\u3059\u3002",
+            "fields": {
+                "latency": {
+                    "description": "\u30de\u30b9\u30bf\u30fc\u3067\u306e\u30ec\u30a4\u30c6\u30f3\u30b7\u3002",
+                    "name": "\u30ec\u30a4\u30c6\u30f3\u30b7\u30fc"
+                }
+            },
+            "name": "\u30ec\u30a4\u30c6\u30f3\u30b7\u306e\u8a2d\u5b9a"
+        },
+        "snapshot": {
+            "description": "\u30e1\u30c7\u30a3\u30a2\u30d7\u30ec\u30fc\u30e4\u30fc\u306e\u30b9\u30ca\u30c3\u30d7\u30b7\u30e7\u30c3\u30c8\u3092\u53d6\u5f97\u3057\u307e\u3059\u3002",
+            "name": "\u30b9\u30ca\u30c3\u30d7\u30b7\u30e7\u30c3\u30c8"
+        },
+        "unjoin": {
+            "description": "\u30d7\u30ec\u30fc\u30e4\u30fc\u3092\u30b0\u30eb\u30fc\u30d7\u304b\u3089\u89e3\u9664\u3057\u307e\u3059\u3002",
+            "name": "\u53c2\u52a0\u89e3\u9664"
+        }
+    }
+}

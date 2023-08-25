@@ -1,0 +1,45 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "rainsensor": {
+                "name": "\u30ec\u30a4\u30f3\u30bb\u30f3\u30b5\u30fc"
+            }
+        },
+        "number": {
+            "rain_delay": {
+                "name": "\u96e8\u306e\u9045\u308c"
+            }
+        },
+        "sensor": {
+            "raindelay": {
+                "name": "\u96e8\u306e\u9045\u308c"
+            }
+        }
+    },
+    "services": {
+        "set_rain_delay": {
+            "description": "\u81ea\u52d5\u704c\u6f11\u3092\u30aa\u30d5\u306b\u3059\u308b\u6642\u9593\u3092\u8a2d\u5b9a\u3057\u307e\u3059\u3002",
+            "fields": {
+                "config_entry_id": {
+                    "description": "\u8a2d\u5b9a\u306f\u6307\u5b9a\u3055\u308c\u305f\u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u3067\u8abf\u6574\u3055\u308c\u307e\u3059\u3002",
+                    "name": "Rainbird \u30b3\u30f3\u30c8\u30ed\u30fc\u30e9\u30fc\u69cb\u6210\u30a8\u30f3\u30c8\u30ea\u30fc"
+                },
+                "duration": {
+                    "description": "\u3053\u306e\u30b7\u30b9\u30c6\u30e0\u306e\u96fb\u6e90\u304c\u30aa\u30d5\u306b\u306a\u308b\u307e\u3067\u306e\u6642\u9593\u3002",
+                    "name": "\u671f\u9593"
+                }
+            },
+            "name": "\u96e8\u306e\u9045\u5ef6\u3092\u8a2d\u5b9a\u3059\u308b"
+        },
+        "start_irrigation": {
+            "description": "\u704c\u6f11\u3092\u958b\u59cb\u3057\u307e\u3059\u3002",
+            "fields": {
+                "duration": {
+                    "description": "\u3053\u306e\u30b9\u30d7\u30ea\u30f3\u30af\u30e9\u30fc\u304c\u4f5c\u52d5\u3059\u308b\u307e\u3067\u306e\u6642\u9593\u3002",
+                    "name": "\u671f\u9593"
+                }
+            },
+            "name": "\u704c\u6f11\u958b\u59cb"
+        }
+    }
+}
