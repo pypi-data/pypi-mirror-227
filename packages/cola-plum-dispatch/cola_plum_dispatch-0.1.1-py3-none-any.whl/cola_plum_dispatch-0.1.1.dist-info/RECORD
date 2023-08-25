@@ -1,0 +1,16 @@
+plum/__init__.py,sha256=AMj0TTnPQXSg0il5rZ8zM3S_6XansYtI-8oZkSgm8cc,2219
+plum/_version.py,sha256=aDfNBQh0vsVL7CSgYEMdMUbrxVw92raLxMivH20w2A4,160
+plum/alias.py,sha256=hvG062yTAlRGpkkviLNXmsKr-sVQf345Z9Bnvix6E9M,5417
+plum/autoreload.py,sha256=T4hmqm1G9_Ef6LQxkxl1Uvr8KtqJ0Z_ZXGAdHvOKek8,2476
+plum/dispatcher.py,sha256=cAB4ABAgySzP49W7BCxcBzre_7tH_MRg6H8BMl2_3us,3696
+plum/function.py,sha256=5PLktvNWdCGuNnIT3_tGIXBU3nd5_vd0YpQld0QNV58,19250
+plum/parametric.py,sha256=Yzza943W3TbToyr4B0g3iwa0nbnMPcEJluAJJZ8KogA,12714
+plum/promotion.py,sha256=mKc2QOWeRK86tdpNmcf5P0ShTBCHL-gmjfs0sgRrrmM,4270
+plum/resolver.py,sha256=rZfRgUSvS2EHubJhQkCKUUSM8yd4np4IjRvgzVJlQow,7813
+plum/signature.py,sha256=MWQnorxgTsxTAIWgEbaaOKPcjoNHu1HLYYmpR3Wfl-U,11001
+plum/type.py,sha256=Oq3hPlo5YVWOM6BKGY8lMoXN6P7HIi0xn3zPSR5WxbM,9233
+plum/util.py,sha256=M2zx8roZVCM69mb4gQmxvCDCD6Rg8_UR6TFg9p_YDag,5654
+cola_plum_dispatch-0.1.1.dist-info/METADATA,sha256=E9DdjGucUCxd2a2QtYHa-SX_OunI5B4FkdNDXcSlDIs,3922
+cola_plum_dispatch-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+cola_plum_dispatch-0.1.1.dist-info/licenses/LICENCE.txt,sha256=eFYW2wi4gbeOVOC-gHNXQnsmNC7JiB6I9A1BgtbvDgM,1072
+cola_plum_dispatch-0.1.1.dist-info/RECORD,,
