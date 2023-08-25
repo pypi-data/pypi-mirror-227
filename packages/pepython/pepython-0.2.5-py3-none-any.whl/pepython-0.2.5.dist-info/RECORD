@@ -1,0 +1,10 @@
+pepython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pepython/common.py,sha256=Ywx4Ofi2fXFalpJu_rOOuw2iDslX3rxsgvOycFUEs58,875
+pepython/entrypoints.py,sha256=IrnhlicVS69J8OEQ3XaFPLGThvCdWclz6zXCMiPJe90,1780
+pepython/task_def.py,sha256=Ew1vrFeyymXZOryR8liNgxPhzJ4Ui8Hqihonb_Oqxk8,1889
+pepython-0.2.5.dist-info/LICENSE,sha256=RWUdavRcZ0s53o-1lRPPAyyF7RUS7lf1I8xblQ-AUGY,1070
+pepython-0.2.5.dist-info/METADATA,sha256=2AtLy7dKmR2qDbW2IC_uUq8IyOsx3Du0ahn4P0RiTS0,6800
+pepython-0.2.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pepython-0.2.5.dist-info/entry_points.txt,sha256=7q0SirmZoNJ-JQOiXn66D33jiRzIzQN7Fi6zn5U6-ZY,73
+pepython-0.2.5.dist-info/top_level.txt,sha256=8u24Xq69vikCHIXbqtOsuWN6crwgfjkaNwnTSChGq90,9
+pepython-0.2.5.dist-info/RECORD,,
