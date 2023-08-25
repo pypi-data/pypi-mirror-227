@@ -1,0 +1,9 @@
+click
+flask
+flask-sqlalchemy
+humanize
+kaleido
+pandas
+plotly
+sqlalchemy<2
+utz

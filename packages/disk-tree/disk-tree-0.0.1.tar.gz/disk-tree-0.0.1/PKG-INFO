@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: disk-tree
+Version: 0.0.1
+Summary: Disk/Cloud space usage analyzer
+Author: Ryan Williams
+Author-email: ryan@runsascoded.com
+License: Apache License 2.0
