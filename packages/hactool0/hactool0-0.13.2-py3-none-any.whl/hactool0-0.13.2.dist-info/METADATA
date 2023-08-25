@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hactool0
+Version: 0.13.2
+Summary: This tool can help you a lot
+Author: GhostShadow
+License: GNU
+Keywords: hactool
+License-File: LICENCE
+Requires-Dist: keyboard
+Requires-Dist: pyperclip
+
+# This tool can help you a lot!
