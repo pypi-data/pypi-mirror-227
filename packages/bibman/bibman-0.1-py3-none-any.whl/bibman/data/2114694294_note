@@ -1,0 +1,41 @@
+- Low rank matrix approximation with structured sampling, i.e., full column, and side information (via a quasi-polynomial structrure).
+- Ground truth matrix has rank k, while the recovery matrix is rank k, k \leq r --> low rank matrix approximation 
+- In contribution item 3, why do they need rowspace information? row space, rowspace, row-space. Okay, side information is provided via row space information.
+- Their prior work [12] is really closed, check.
+- In Table 1, X is the target low-rank approximation.
+- l: rank of Q*S, d: number of sampled columns, r: target rank,  and r \leq l.
+- What is role of Q in the optimization in the first paragraph of III.B?
+- Why do we need to estimate row space of M in (ii)? Isn't it given via S?
+- [personal] what does it mean to estimate row/column space?
+
+- How do they compare sample complexity?
+
+*** UNDERSTANDING ***
+
+I. Introduction
+- paragraph 3: what is side information?
+- paragraph contribution: why do they assume high rank? should it be that high rank is applicable but not neccessary.
+
+II. Problem formulation
+Given a matrix M
+
+
+** Notation
+- M: n x m, is the ground truth matrix with high rank k. M = QS+E.
+- Q: unknown, size of n x l
+- S: known, structured. QS has rank l apparently.
+- E: noise
+- A: observed matrix by concatenating observed columns of M, size of n x d
+
+
+** Assumption:
+- For Assumtion 1 to be satisfied, there must be a relation of l and r, m, ..., okay, l \geq r.
+But should the index j's range be r \leq j \leq k?
+- Another assumption which is not stressed enough is incoherence of solution M_hat.
+
+** Theorem:
+- Recovery is in terms of recovery M, which is questionable since M contains noise.
+
+
+
+*** hessian https://math.stackexchange.com/questions/1174304/derivative-of-a-matrix-w-r-t-a-matrix?noredirect=1&lq=1

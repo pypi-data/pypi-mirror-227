@@ -1,0 +1,22 @@
+James Demmel 
+
+Big model is growing exponetially
+Need to scale up: parallelism
+
+Running time by paralling, but reducing 'communication'
+what's memory?
+minimizing code refactoring
+
+Layers: memory, n-dim parallelism system, large-scale optimization
+
+n-dim parallelism system:
+
+mini-batch -> batchs to different data -> aggragate at server to get gradient
+batch size cannot be very large
+LARS/LAMB
+
+
+tensor parallelism: what ???
+
+A pure advertisement.
+

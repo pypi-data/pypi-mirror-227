@@ -1,0 +1,4 @@
+It is weird that they construct a estimator of the objective function, then take derivative, or in their words, construct a differential estimator of the lower bound.
+
+In SGD principle, we don't care about the loss function, what we want is a unbiased estimator of gradient.
+
