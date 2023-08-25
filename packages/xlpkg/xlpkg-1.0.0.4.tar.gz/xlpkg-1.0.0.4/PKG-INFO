@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xlpkg
+Version: 1.0.0.4
+Summary: My public package
+Home-page: 
+Author: xiaolong
+Author-email: longx888@126.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
