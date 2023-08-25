@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: leno
+Version: 0.1.0
+Summary: Personal data aggregator
+Author: Cade Ekblad-Frank
+Author-email: cade@e-f.me
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: sqlite-utils (>=3.35,<4.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Requires-Dist: typing-extensions (>=4.7.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Leno
+
+Personal activity collector/processor
+
+Data collection in `./data`, uses Justfiles (just)
+
