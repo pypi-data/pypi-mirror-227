@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: monkstools
+Version: 0.2
+Summary: Tools for the Monks advertising platform
+Home-page: https://github.com/williampolicy/monkstools
+Author: xiaowen kang
+Author-email: your.email@example.com
+License: UNKNOWN
+Description: # monkstools
+        monkstools for team
+        
+        begin to work. by Xiaowen kang. 2023.8.24.
+        check . well done.  by xiaowen kang. 2023.8.24
+        prepare for pypi package. by xiaowen kang. 2023.8.24.
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
