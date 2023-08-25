@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+WASEEMCUL.egg-info/PKG-INFO
+WASEEMCUL.egg-info/SOURCES.txt
+WASEEMCUL.egg-info/dependency_links.txt
+WASEEMCUL.egg-info/top_level.txt
+my cod/__init__.py
