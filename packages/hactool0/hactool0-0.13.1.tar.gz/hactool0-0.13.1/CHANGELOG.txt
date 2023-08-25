@@ -1,0 +1,279 @@
+Change Log
+==========
+
+
+0.1.0 (20/04/2022)
+-------------------
+- First Release
+
+
+0.2.0 (26/04/2022)
+-------------------
+- Second Release
+- Add playsound()
+
+
+0.3.0 (27/04/2022)
+-------------------
+- Third Release
+- Add cls()
+- Add Cube Tools
+
+
+0.4.0 (30/04/2022)
+-------------------
+- Forth Release
+- Add Cube(0.0.1)
+    - First Release
+	- 2x2x2 Scrambler
+	- 3x3x3 Scrambler
+
+
+0.5.0 (31/04/2022)
+-------------------
+- Fifth Release
+- Update Description
+- Cube(0.0.2)
+    - Second Release
+    - 4x4x4 Scrambler
+    - 5x5x5 Scrambler
+    - 6x6x6 Scrambler
+    - 7x7x7 Scrambler
+    - Pyraminx Scrambler
+    - Megaminx Scrambler
+    - Skewb Scrambler
+    - Sqare-1 Scrambler
+    - Clock Scrambler
+
+0.6.0 (14/05/2022)
+-------------------
+- Sixth Release
+- Add clear() same as cls()
+- Update description of cls()
+
+0.7.0 (5/20/2022)
+-------------------
+- Seventh Release
+- Fix bug: "get_mouse_position()"
+
+0.8.0 (5/21/2022)
+-------------------
+- Eighth Release
+- remove "cube"
+- Fix bug:
+    - It won't install requires by itself
+    - "clear()" "cls()" won't clear terminal
+- Add:
+    - "pause" "wait" same as "sleep"
+    - "randint" "random" "choise"
+    - "cmd" same as "os.system"
+    - "lts" "stl" "stt" same as "listtostr" "strtolist" "strtotuple"
+    - "on_press" "is_pressed" "is_release" "send" "waitkey"
+    - "openfile" "fileget"
+- CHANGE: "clear" "cls" requires "cmd" ,not "os.system"
+
+
+- Add Object: Now
+    - settime()
+    - gettime()
+    - year()
+    - mon()
+    - date()
+    - hour()
+    - min()
+    - sec()
+    - day()
+    - yday()
+    - isdst()
+
+- Add Object: Path
+    - info()
+    - set()
+    - getinfo()
+
+0.9.0 (6/9/2022)
+-------------------
+- Ninth Release
+- Renames:
+    - listtostr -> list2str
+    - strtolist -> str2list
+    - strtotuple -> str2tuple
+    - lts -> l2s
+    - stl -> s2l
+    - stt -> s2t
+    - cmd -> console
+- Fix bug: cls/clear can't clear console
+- Update "cls", it will clear console but those texts still in console
+- Spell Fix:
+    - choise -> choice # function
+    - COVERNT -> COVERT # commend
+- Remake: openfile
+- Add "glob" same as "glob.glob"
+- Update "fileget"
+
+0.10.0 (7/5/2022)
+-------------------
+- Tenth Release
+- Update:
+    - description of fileget
+    - "_file" of "fileget" to fname
+    - "randint" "random"
+- Add:
+    - "shuffle" same as "random.shuffle"
+    - "on_press" "on_release"
+    - "tprint" "pick"
+
+0.10.1 (7/6/2022)
+-------------------
+- Eleventh Release
+- Fix Bug:
+    - Can't import "print_table" in "termtables"
+    - "shuffle" cannot delete array elements
+
+0.11.0 (7/8/2022)
+-------------------
+- Twelfth Release
+- Update setup.py
+- Fix Bug:
+    - table item though table
+- Add "colors"
+    - reset
+    - bold
+    - disable
+    - underline
+    - reverse
+    - i
+    - invisible
+
+    # fg
+    - black
+    - red
+    - green
+    - orange
+    - blue
+    - purple
+    - cyan
+    - lightgrey
+    - darkgrey
+    - lightred
+    - lightgreen
+    - yellow
+    - lightblue
+    - pink
+    - lightcyan
+    
+    # bg
+    - bg_black
+    - bg_red
+    - bg_green
+    - bg_orange
+    - bg_blue
+    - bg_purple
+    - bg_cyan
+    - bg_lightgrey
+
+0.11.1 (7/9/2022)
+-------------------
+- Thirteenth Release
+- Fix Bug:
+    - "fileget" doesn't return list
+    - "glob" doesn't return anything
+- Change args:
+    - pick(title,options,indicator,default_index)
+- Add "type_animate"
+- Remove "A lot of useful tools"
+- Update CHANGELOG
+
+0.11.2 (7/13/2022)
+-------------------
+- Fourteenth Release
+- Fix Bug:
+    - "type_animate" doesn't show type animation
+    - "playsound" can't play sound
+- Add:
+    - "time_str
+    -  "exit"
+- Add "get_times" "time_str" for "Now"
+- Change:
+    - "Now"
+        - "gettime" -> "get_time"
+        - "settime" -> "set_time"
+- Update descriptions
+
+0.11.3 (7/19/2022)
+-------------------
+- Fifteenth Release
+- Fix Bug:
+    - Now doesn't has a function named "gettime"
+- Rename:
+    - tprint -> table
+- Update changelog
+
+0.12.0 (7/20/2022)
+-------------------
+- Sixteenth Release
+- hactool don't need "pick", "colorama", "playsound" and "pyautogui" module anymore
+- Add:
+    - "paste" to paste something in system clipboard
+
+- New Class:
+    - "thread" can run func background
+
+- Add url in setup.py
+
+0.12.1 (7/25/2022)
+-------------------
+- Seventeenth Release
+- Rename:
+    - "thread" -> "Thread"
+- Delete:
+    - "_position"
+- Add:
+    - arg:
+        - "tablefmt" of "table"
+    - "exists"
+    - "is_file"
+    - "is_folder" "is_dir"
+- Change:
+    - "Now"
+        - "set_time" -> "update"
+        - "get_time" won't update time anymore
+
+- Update code
+- Update description
+- Update changelog
+
+0.13.0 (8/25/2022)
+-------------------
+- Eighteenth Release
+- Update "pick" function: from pick to pick2
+- Add arg of "time_str": "sep"
+- Add "set_console_title" to set console title
+- Add "text"
+- Add "t" same as "text"
+- Update "fileget"
+- Fix Bug:
+    - Thread can't use
+- Update code
+
+0.13.1 (9/10/2022)
+-------------------
+- Nineteenth Release
+- Update Code
+- Add two value: "ON","OFF"
+- Add syntax: hac syntax
+- hactool don't need "tabulate" module anymore
+- Add:
+    - arg:
+        - "text","t": hac_syntax
+    - class:
+        - Syntax
+    - func:
+        - list2set
+        - l2set
+- Change:
+    - "l2s" -> "l2str"
+- Fix:
+    - "type_animate" didn't show animate
+
+
