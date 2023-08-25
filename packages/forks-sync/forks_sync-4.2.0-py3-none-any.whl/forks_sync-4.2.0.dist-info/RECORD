@@ -1,0 +1,12 @@
+forks_sync/__init__.py,sha256=A7mscSCKwatbT8qhnNCyCL9Qaup0atLfAFEhzyWs8f8,53
+forks_sync/_version.py,sha256=l_zv8IF9pycehyp5_7J2H8x_eQOuThawaijNz_fC61Q,22
+forks_sync/cli.py,sha256=uh7QIKUJIpLBU7Qz3LjWzNMG7SjgkAaCmNFWm0WNc8g,2389
+forks_sync/constants.py,sha256=yCawz72gJ4qghikJLPKrurcCb8rvrHIoI0SA6QN5mOE,140
+forks_sync/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+forks_sync/sync.py,sha256=wWBOtkdP-05ZQ8zV_GpEcnXUJEIs1uDF9gIWmzL-6hQ,6532
+forks_sync-4.2.0.dist-info/LICENSE,sha256=WoDunZvVM8yKs2dwmA-Eae0e64uqKwfEuOOokFS1w5g,1071
+forks_sync-4.2.0.dist-info/METADATA,sha256=Ic0XBHqm39SzwsVsMhlz5bz843_LQe1AYIJ2HhXtC_k,4551
+forks_sync-4.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+forks_sync-4.2.0.dist-info/entry_points.txt,sha256=jJuRtMR9_aBVo67MzH-twggHZnUnzquFa-l8Xms-T04,51
+forks_sync-4.2.0.dist-info/top_level.txt,sha256=yWPUdBDqfFV4lOjG2DSkk-XfoMp8CRu3xPsLoiWursY,11
+forks_sync-4.2.0.dist-info/RECORD,,
