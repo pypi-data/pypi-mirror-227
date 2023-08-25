@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: JanexBot
+Version: 0.0.1
+Home-page: https://github.com/Cipher58/JanexBot
+Download-URL: https://github.com/Cipher58/JanexBot.git
+Author: Cipher58
+Author-email: cipher58public@gmail.com
+License: Lily 1.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# JanexBot - Question-Answer Chatbot
+
+JanexBot is a simple prototype chatbot that interacts with users by asking and answering questions based on a provided database of questions and answers. The chatbot utilizes spaCy for natural language processing and similarity calculations.
+
+## Getting Started
+
+Follow these instructions to set up and use JanexBot:
+
+### Prerequisites
+
+- Python 3.x
+- Required Python libraries: `spacy`, `numpy`
+
+### Installation
+
+1. Clone or download this repository to your local machine.
+
+2. Install the required Python libraries:
+   ```bash
+   pip install spacy numpy
+   ```
+
+    Download the spaCy language model (English) by running:
+
+    ```bash
+
+    python -m spacy download en_core_web_sm
+    ```
+### Create your chatbot script
+
+```python
+from JanexBot import *
+
+def main():
+    chatbot = JanexBot("database.json", "en_core_web_sm")
+    question = chatbot.ask_question(None)
+    print(f"Chatbot: {question}")
+    while True:
+        answer = input("You: ")
+        IsQuestion = chatbot.CheckForQuestion(answer)
+        if IsQuestion:
+            answer = chatbot.give_answer(answer)
+            print(f"Chatbot: {answer}")
+        else:
+            question = chatbot.ask_question(answer)
+            print(f"Chatbot: {question}")
+            chatbot.save_answer(answer)
+
+if __name__ == "__main__":
+    main()
+```
+
+### Usage
+
+  Place your question-answer data in a JSON file named database.json in the same directory as the script.
+
+  Run the chatbot script.
+
+  The chatbot will start interacting with you. It will provide prompts and respond to your input.
+
+  When asked a question, you can answer, and the chatbot will try to find the most relevant question based on your answer.
+
+  You can exit the chatbot by interrupting the script (e.g., pressing Ctrl+C).
+
+### Data Format
+
+Ensure your database.json file follows this format:
+``` json
+
+{
+  "prompts": [
+    {
+      "question": "What is the capital of France?",
+      "question_vectors": [0.1, 0.2, 0.3, ...],
+      "answers": ["The capital of France is Paris."]
+    },
+    // Add more prompts as needed
+  ]
+}
+```
+### Notes
+
+    The provided code is a prototype.
