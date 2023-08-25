@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: aiozello
+Version: 0.1.0
+Summary: async Zello Channel API client
+License: Apache
+Author: Roberto Abdelkader Martínez Pérez
+Author-email: robertomartinezp@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.6.0)
+Requires-Dist: pyjwt[crypto] (>=2.8.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# aiozello
+async Zello Channel API client
+
