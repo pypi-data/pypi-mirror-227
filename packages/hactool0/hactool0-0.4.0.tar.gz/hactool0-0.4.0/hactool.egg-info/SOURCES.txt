@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+hactool/__init__.py
+hactool.egg-info/PKG-INFO
+hactool.egg-info/SOURCES.txt
+hactool.egg-info/dependency_links.txt
+hactool.egg-info/top_level.txt
+hactool/cube/__init__.py
+hactool/cube/scrambler/sc222.py
+hactool/cube/scrambler/sc333.py
