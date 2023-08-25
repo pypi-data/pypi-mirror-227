@@ -1,0 +1,12 @@
+mkdocs_simple_plugin/.pages,sha256=nWBmS7JECmGq2CqEUvY5wIygzEdqBH9qqsHm6w9ts3k,50
+mkdocs_simple_plugin/README.md,sha256=rFjEmMGH4PP6AezyGqzQOXfKxlm1rNRYVNxtlVZQfK4,2815
+mkdocs_simple_plugin/__init__.py,sha256=AOiaXYgIsNtANg6yYBExLz4_82GE1E2gdtXpIMkUqEQ,36
+mkdocs_simple_plugin/generator.py,sha256=wz-iLS91UI77WJ3Ew5DZM2dVEq5icZA04knmKOL1_Ds,4645
+mkdocs_simple_plugin/plugin.py,sha256=etBA7L7-_DUY-PpbPqJOiedt-dWrXX9Q8gikwxrmjMA,14964
+mkdocs_simple_plugin/semiliterate.py,sha256=RjSeDp1DewG0kPcF3PQI2Rzz0LntEdka7M4olLg9BR8,16739
+mkdocs_simple_plugin/simple.py,sha256=iOaUVbaV1WNRyfygFIjB8VtqvaCMLSi-AuqxTJILC7E,9749
+mkdocs_simple_plugin-3.1.0.dist-info/METADATA,sha256=XrXwGzBjlQNQzoEOgH7iKt_KetGjr98Y7iv9mvWjbP4,4411
+mkdocs_simple_plugin-3.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mkdocs_simple_plugin-3.1.0.dist-info/entry_points.txt,sha256=IUTP3gL8U5MupUJyI8RuxGPihRSn6pZYqOajWFoK7Pg,142
+mkdocs_simple_plugin-3.1.0.dist-info/licenses/LICENSE,sha256=xugbK6Bo1xQwM8zFJFf-TNDeyb9ep2_Hr6De7zKzWe8,11348
+mkdocs_simple_plugin-3.1.0.dist-info/RECORD,,
