@@ -1,0 +1,3 @@
+[console_scripts]
+textbase-cli=textbase.textbase_cli:cli
+
