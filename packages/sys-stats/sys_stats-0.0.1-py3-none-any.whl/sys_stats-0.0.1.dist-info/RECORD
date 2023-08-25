@@ -1,0 +1,14 @@
+sysstats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sysstats/app_server.py,sha256=LG_BQn7mr3am_qltgGo4QG_UilmAsf4WJBUOChefuHI,3180
+sysstats/sysstats_cli.py,sha256=eRlj9T5XXB5OVIk1nuE6os0AnVL9QxrXkbisJN2hyDE,1466
+sysstats/routes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sysstats/routes/stats.py,sha256=yZQZNJjZ4Rre0nJVdhrKSscjZmTJChQE2p5TxA22yj0,2690
+sysstats/templates/index.html,sha256=3Lz9ZHXImBdf5Q88fYNG5Bbzj7HatACnRN47ouQr1DM,7079
+sysstats/templates/index.js,sha256=BH8KI7KFsmaCsfPd-moHYjh9_Ae1dhixwVdPoEPS3RU,93
+sysstats/templates/style.css,sha256=GuwiMDDNjyDspdsxzk21pYU39h7ogxgDmV_1ObU0-iU,338
+sys_stats-0.0.1.dist-info/LICENSE,sha256=VMwMeYKBLO8tmR3SrSeqEaLHTOHUzO3gOfNST3KhyAM,1071
+sys_stats-0.0.1.dist-info/METADATA,sha256=myV1Qly-ocz4UZWhvYW3CBUw-0OLCXbCuo21nAyqIoU,613
+sys_stats-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sys_stats-0.0.1.dist-info/entry_points.txt,sha256=_rIg2lUbjExuGtxTxNgJxigbzAdB_TM63SQzMgbdc2I,57
+sys_stats-0.0.1.dist-info/top_level.txt,sha256=C4rcLhKF5iV8l7nvb5I9BJkwNjrwIku_C8UGV8_W_jE,9
+sys_stats-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sys-stats
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Amith Koujalgi
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: fastapi
+Requires-Dist: fastapi-cors
+Requires-Dist: uvicorn
+Requires-Dist: requests
+Requires-Dist: prettytable
+Requires-Dist: PyYaml
+Requires-Dist: pydantic
+Requires-Dist: psutil
+Requires-Dist: jinja2
+Requires-Dist: humanfriendly
+
+UNKNOWN
+
+
