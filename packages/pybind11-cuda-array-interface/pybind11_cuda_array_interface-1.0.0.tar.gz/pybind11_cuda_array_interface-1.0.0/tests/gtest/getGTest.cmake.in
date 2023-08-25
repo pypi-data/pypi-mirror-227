@@ -1,0 +1,27 @@
+#[[
+## Copyright (c) 2021, Mikael Twengström
+## All rights reserved.
+## This file is part of pybind11_cuda_array_interface and is distributed under the
+## BSD-3 Clause License. For full terms see the included LICENSE file.
+#]]
+
+cmake_minimum_required(VERSION 3.18 FATAL_ERROR)
+
+# Project irrelevant since we are building GoogleTest as a part of the testsuite
+project(gtest-get NONE)
+
+include(ExternalProject)
+
+# Add external project: GoogleTest
+ExternalProject_Add(gtest
+    URL                "https://github.com/google/googletest/archive/refs/tags/v1.13.0.tar.gz"
+    URL_HASH           SHA256=ad7fdba11ea011c1d925b3289cf4af2c66a352e18d4c7264392fead75e919363
+
+    SOURCE_DIR         "${CMAKE_CURRENT_BINARY_DIR}/gtest-src"
+    BINARY_DIR         "${CMAKE_CURRENT_BINARY_DIR}/gtest-build"
+
+    CONFIGURE_COMMAND  ""
+    BUILD_COMMAND      ""
+    INSTALL_COMMAND    ""
+    TEST_COMMAND       ""
+)

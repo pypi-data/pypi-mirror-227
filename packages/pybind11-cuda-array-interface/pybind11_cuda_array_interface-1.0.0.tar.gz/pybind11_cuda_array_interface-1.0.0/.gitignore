@@ -1,0 +1,14 @@
+build/*
+*.vscode/*
+__pycache__
+*.so
+*.env/*
+*.egg*
+*_skbuild/*
+tests/gtest/run_gtest_cai
+pybind11_cuda_array_interface/version.py
+dist
+MANIFEST.in
+venv
+.mypy_cache
+.pytest_cache

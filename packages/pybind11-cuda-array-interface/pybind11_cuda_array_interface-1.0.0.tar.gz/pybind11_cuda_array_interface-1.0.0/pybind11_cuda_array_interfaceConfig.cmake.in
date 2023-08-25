@@ -1,0 +1,28 @@
+#[[
+## Copyright (c) 2021, Mikael Twengström
+## All rights reserved.
+## This file is part of pybind11_cuda_array_interface and is distributed under the
+## BSD-3 Clause License. For full terms see the included LICENSE file.
+#]]
+
+# Module for pybind11_cuda_array_interface
+# Variables set by this module:
+# - @PROJECT_NAME@_FOUND: true if located on the system
+# - @PROJECT_NAME@_INCLUDE_DIRS: path to its headers
+# - @PROJECT_NAME@_LIBRARY: currently not set (remains empty)
+
+@PACKAGE_INIT@
+
+@PYBIND11_CUDA_ARRAY_INTERFACE_CONFIG_CODE@
+
+# Dependency resolution
+include(CMakeFindDependencyMacro)
+find_dependency(pybind11 @PYBIND11_MVERSION@)
+find_dependency(Python3 @PYTHON_MVERSION@)
+find_dependency(CUDAToolkit @CUDA_MVERSION@)
+
+# Ensure the target is available
+if(NOT TARGET @PROJECT_NAME@)
+    include("${CMAKE_CURRENT_LIST_DIR}/@PROJECT_NAME@Targets.cmake")
+    get_target_property(@PROJECT_NAME@_INCLUDE_DIRS @PROJECT_NAME@ INTERFACE_INCLUDE_DIRECTORIES)
+endif()
