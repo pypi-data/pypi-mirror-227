@@ -1,0 +1,22 @@
+*.py[co]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+_build
+
+# pycharm files
+.idea/
+
+# Unit test / coverage reports
+.coverage
+.tox
