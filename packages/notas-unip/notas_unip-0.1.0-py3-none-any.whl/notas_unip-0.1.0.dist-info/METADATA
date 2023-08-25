@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: notas-unip
+Version: 0.1.0
+Summary: Um pacote para ajudar alunos da UNIP a calcular suas médias.
+Author: Henrique Sebastião
+Author-email: henriquesebastiao.web@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# notas-unip
+
