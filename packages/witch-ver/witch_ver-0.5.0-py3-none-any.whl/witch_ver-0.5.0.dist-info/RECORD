@@ -1,0 +1,14 @@
+witch_ver/__init__.py,sha256=GKZwUp4yVMG0cURal160aGJt9Rv94rS2f1NxYJddwkg,250
+witch_ver/_version.py,sha256=cwNqWHFyFm4XaBmekS6H1TzjpVamwTAVVZZ8jJME0hc,336
+witch_ver/git.py,sha256=h_-hdrVZtwY8Aei3Hr_888zuKaewnOaylCLCgJTTwcQ,13096
+witch_ver/integration.py,sha256=hp6cfP_LmKnYyTvatBuw4SDmprBVB6PDi8s3hnk0dWI,4860
+witch_ver/runner.py,sha256=mnnDnXae-zYJ7c77pifJzTz6UylxAkwJfzc-x86jqD0,695
+witch_ver/semver.py,sha256=8ccQ51Y57Z1RHBSt4FdDIPkoY-VPgJEnQfC8Mb3nEjg,7564
+witch_ver/version.py,sha256=8PfcpBUXGsngru4e5wJWe4UkCYs6_AQ9wdZ77bQnBM0,2408
+witch_ver/version_hook.py,sha256=DcPeyTdfEERUazVrLbeqiiEAp5J1nTtzcvVCZ9MBHho,1851
+witch_ver-0.5.0.dist-info/LICENSE,sha256=Jqj0JbefZ0WsqBaU79xg5ecNuMzJphINRzv61YC3_GU,1069
+witch_ver-0.5.0.dist-info/METADATA,sha256=kzUoqYMA7W2UThhP5f5qA3F5TafCnQkDjvK-bybLXus,4664
+witch_ver-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+witch_ver-0.5.0.dist-info/entry_points.txt,sha256=xb7_qv8BBfcAXBbGpedt61w_aRwqZBEKc3GZ_qt0gfM,79
+witch_ver-0.5.0.dist-info/top_level.txt,sha256=4F66W7253LWAZT5vQLbZFoqBQkNlLdcg1_1BjGZgTPQ,10
+witch_ver-0.5.0.dist-info/RECORD,,
