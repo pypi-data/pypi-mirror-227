@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_valuelock.py
+valuelock/__init__.py
+valuelock/valuelock.py
+valuelock.egg-info/PKG-INFO
+valuelock.egg-info/SOURCES.txt
+valuelock.egg-info/dependency_links.txt
+valuelock.egg-info/top_level.txt
