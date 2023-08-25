@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mep-tools
+Version: 1.0.4
+Summary: grpc for rep
+Home-page: UNKNOWN
+Author: Khai
+Author-email: sarraj@marksmen.nl
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: grpcio (==1.46.0)
+Requires-Dist: grpcio-tools (==1.46.0)
+Requires-Dist: protobuf (==3.20.1)
+
+hold the code for the grpc files
+
