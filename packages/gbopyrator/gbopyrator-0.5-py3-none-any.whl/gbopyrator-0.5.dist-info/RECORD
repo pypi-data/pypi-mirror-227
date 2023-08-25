@@ -1,0 +1,13 @@
+gbopyrator/__init__.py,sha256=1k0ZgYArxhXqQsszL_2fA5vaLjsU9Gi2krvPqyg2Ark,295
+gbopyrator/__main__.py,sha256=_INa7vTuaIiFup_8uZOQtbsJrjRPQpVVdGWJMQHUI1Y,67
+gbopyrator/cartridge_utils.py,sha256=AQJSXzVmUGNZtRXu1atBlvcycUVD9ef_KRkLrYCihig,5694
+gbopyrator/coms_utils.py,sha256=VrlfjqEF1PPupUj3pbDQKKj34q-pe3FFi8L-fFoFEmg,12199
+gbopyrator/constants.py,sha256=vKBbGaFlM141Y9h35syONbN9KRcjKW7mb8_NDiK9Bfs,1651
+gbopyrator/gb_gbc_roms_info.json,sha256=QB0lsFu28vy1V5yBbrJO8av3JGnS9qwDuXi4HG56dMk,2708184
+gbopyrator/gbopyrator.py,sha256=U3Ddy-PLJ0Ll8CiVETUOROw24STb4wZMzpH2PHQxK8k,2689
+gbopyrator/printer.py,sha256=rJ2txzHiACDbq-R9RlnLw81H0aKaDru2owSirvYVIlQ,1546
+gbopyrator-0.5.dist-info/METADATA,sha256=8Uz0sraLMkeRiYX9hukTUOVLQY-t2wEtdoFfmbzyCuw,583
+gbopyrator-0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gbopyrator-0.5.dist-info/entry_points.txt,sha256=8RdQsHNnDnNHCCTO6sxosvG8OefIERZRXs88nutPdl0,58
+gbopyrator-0.5.dist-info/top_level.txt,sha256=fxAg54WeeWPwWDxAGbRvI1REcY2ESlS8JofmDClzAKY,11
+gbopyrator-0.5.dist-info/RECORD,,
