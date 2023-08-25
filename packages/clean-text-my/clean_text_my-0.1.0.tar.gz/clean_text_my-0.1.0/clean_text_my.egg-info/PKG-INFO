@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: clean-text-my
+Version: 0.1.0
+Home-page: https://github.com/malaysia-ai/clean_text_my
+Author: Malaysia AI
+Author-email: malaysia.ai2020@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# clean-text-my
+
+## Description
+The `clean-text-my` repository contains a Python script that performs a deduplication process on a text dataset. This process is implemented based on the code provided in the [Jupyter Notebook](https://github.com/malaysia-ai/text-dataset-dedup).
