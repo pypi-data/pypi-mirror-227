@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyeau"
+version = "0.1.0"
+authors = [
+  { name="Ivan Aram Gonzalez Su", email="ivan.ags.95@gmail.com" },
+]
+description = "AramEaus pygame ABC implementation"
+readme = "README.md"
+requires-python = ">=3.9"
+license-files = { paths = ["LICENSE"] }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+  "pygame>=2.0.1, <=2.5.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Aram-Eau/pyeau"
+"Download Page" = "https://scpup-game.web.app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/pyeau"]
+
+[tool.hatch.build]
+directory = "dist"
