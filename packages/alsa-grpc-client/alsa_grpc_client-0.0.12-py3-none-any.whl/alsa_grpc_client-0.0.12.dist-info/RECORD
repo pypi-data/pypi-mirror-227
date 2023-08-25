@@ -1,0 +1,8 @@
+alsa_grpc_client/__init__.py,sha256=CvyDgcIzhCCv3N8wq7dLwELnHIHCs_lO4BRv9rFDCRg,4624
+alsa_grpc_client/grpc_gen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alsa_grpc_client/grpc_gen/alsamixer_pb2.py,sha256=GsrqDSbCcouuR3cuU7N8U2K7g9l-uXTNXyKOlcAZ-c4,1762
+alsa_grpc_client/grpc_gen/alsamixer_pb2_grpc.py,sha256=MrBGG3vitoQshVnmhGpW6eEqwgJ1fdhqjDd4x8tKgRs,2419
+alsa_grpc_client-0.0.12.dist-info/METADATA,sha256=zUVwWC0CZSItsZ5qANpK2WcWU-2Q8BgVH2tCByDrNNI,455
+alsa_grpc_client-0.0.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alsa_grpc_client-0.0.12.dist-info/top_level.txt,sha256=7BTBC92SVNemzTyXcXNKeDpz-dvDDDeeFK70QNcrLM0,17
+alsa_grpc_client-0.0.12.dist-info/RECORD,,
