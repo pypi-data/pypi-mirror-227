@@ -1,0 +1,15 @@
+LICENSE
+README
+setup.cfg
+setup.py
+catdict.egg-info/PKG-INFO
+catdict.egg-info/SOURCES.txt
+catdict.egg-info/dependency_links.txt
+catdict.egg-info/top_level.txt
+src/catdict.c
+src/catdict_module.c
+src/cd_float.c
+src/cd_list.c
+src/cd_long.c
+src/cd_set.c
+src/cd_unicode.c
