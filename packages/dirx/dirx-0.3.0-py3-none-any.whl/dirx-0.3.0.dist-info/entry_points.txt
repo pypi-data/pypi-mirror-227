@@ -1,0 +1,4 @@
+[console_scripts]
+dirx=dirx.cli:main
+dirx-gui=dirx.gui:main
+

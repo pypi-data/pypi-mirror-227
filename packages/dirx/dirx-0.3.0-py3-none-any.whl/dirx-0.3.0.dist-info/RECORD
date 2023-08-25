@@ -1,0 +1,12 @@
+dirx/__init__.py,sha256=csHlx9909BVSSNFk28938-bCB_vEONYK-fhcN_uX0zE,47
+dirx/cli/__init__.py,sha256=0_aZ6g4MKXMpAlFXiRooP12L7Hke2cRBD3jiYfa1Gbs,245
+dirx/cli/app/__init__.py,sha256=Z9vDDd2teCXPlPWiZSyUR1bZBx77Znsl5hjPwt6QIbE,1554
+dirx/console.py,sha256=gBmxIiWS8VccLv6mS_M-Prfzd9i_NOa3GBruVW7Hbc0,137
+dirx/constants.py,sha256=lUHHLlqQgzIc4SKKh0Rt2sprg5eDltBrjyGvZAEKnO8,65
+dirx/gui/__init__.py,sha256=I-WCslAD5WRuWtV-QVAvPIBD2sa6XzNt18YzmqjzL9M,60
+dirx/settings.py,sha256=2dCiZiYZdyhgLsou-ytw-jN4BYC8JtGFrZF2gvEh9EY,210
+dirx-0.3.0.dist-info/LICENSE,sha256=HwbcpUeJUv2UHG3eeLBSVc5o3OqYg3UpkGi3bmwNmgs,1072
+dirx-0.3.0.dist-info/METADATA,sha256=e7vCCrZzrUSAhtYNWtT-WblNyP3zd3d-O7-E_fGYO04,2042
+dirx-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dirx-0.3.0.dist-info/entry_points.txt,sha256=UYXzORsqdNpnGfclNwX6xRB6NRNpFA9cXHcWPM98Eaw,61
+dirx-0.3.0.dist-info/RECORD,,
