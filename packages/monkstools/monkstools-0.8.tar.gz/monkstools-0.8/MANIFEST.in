@@ -1,0 +1,4 @@
+include d1_data_map_customer_media.csv
+include d2_data_map_perfer_product_customer.csv
+include d3_data_map_delivery_cost_media.csv
+include d4_data_map_product_costomerType.csv
