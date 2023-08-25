@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: robot-arm-controller
+Version: 0.1.4
+Summary: Robot arm controller
+Author-email: alberto-abarzua <aabarzua@palvi.cl>
+License: MIT
+Requires-Python: >=3.11
