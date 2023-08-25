@@ -1,0 +1,3 @@
+[console_scripts]
+jsonify-resume=jsonify_resume.main:app
+
