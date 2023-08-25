@@ -1,0 +1,12 @@
+Flask
+matplotlib
+networkx
+nltk
+numpy
+pandas
+scikit-learn
+scikit-image
+scipy
+seaborn
+statsmodels
+tensorflow
