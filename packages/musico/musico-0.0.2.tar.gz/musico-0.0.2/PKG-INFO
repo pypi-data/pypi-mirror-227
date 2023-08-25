@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: musico
+Version: 0.0.2
+Summary: Let's play music...
+Project-URL: Homepage, https://github.com/StevenBaby/musico
+Project-URL: Bug Tracker, https://github.com/StevenBaby/musico/issues
+Author-email: StevenKang <kangweibaby@163.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# musico
+
+Let's play music...
