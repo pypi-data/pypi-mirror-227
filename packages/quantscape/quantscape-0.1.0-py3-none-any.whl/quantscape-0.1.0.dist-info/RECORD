@@ -1,0 +1,11 @@
+quantscape/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantscape/data.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantscape/models.py,sha256=hDzTSBNaDQmdj1aA68DDcM0c44IH4HHACdtOSxYFYDw,10925
+quantscape/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantscape-0.1.0.dist-info/LICENSE,sha256=dwbb63w4_GRDNVBrw_3dl5hLCpSYKQjIamArZJ3nDNc,1075
+quantscape-0.1.0.dist-info/METADATA,sha256=8hP2s4_7A2AT2ii_YnMaV46ks8KYRUs6AJDIN_8J3uo,366
+quantscape-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quantscape-0.1.0.dist-info/top_level.txt,sha256=Y54fKeJVvxq4ZJtU-DFRx98LIro_bgxAZFpbVO3pYDg,17
+quantscape-0.1.0.dist-info/RECORD,,
