@@ -1,0 +1,16 @@
+robot_arm_controller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robot_arm_controller/control/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robot_arm_controller/control/arm_kinematics.py,sha256=hhaEJO2z_G3iQYCiLRgUVkYVRHI00FiClQQ-LNULSKs,8418
+robot_arm_controller/control/controller.py,sha256=a873ztHbjGa7xpt3ILWUkRMUs28keiRCyInm1xWSf-E,10516
+robot_arm_controller/control/controller_servers.py,sha256=vjNShCuvrvJYUR_SNa5VTu8WQDavW5nnPgdlQ7w_9Lg,8176
+robot_arm_controller/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robot_arm_controller/tests/test_controller.py,sha256=7SMqbiLEwu6Jz0DGbSMKq6bgE6GRw3PObs1G0QiPR_Y,6643
+robot_arm_controller/tests/test_kinematics.py,sha256=JQomebtVcWUxYakzFFvtwWucz08D2DjVqzdNn99dj5Q,5202
+robot_arm_controller/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+robot_arm_controller/utils/algebra.py,sha256=WsZXmX0Lgp1U5jBDuxiF6TFWEtWD11FcvWDi-1-PUvU,4119
+robot_arm_controller/utils/messages.py,sha256=_flv06qzWjS9FTStyyxcPQQod18bIXxA0i5GCb7JQWo,2513
+robot_arm_controller/utils/prints.py,sha256=Fdx_c30woI1gLFhVjF-LvwrAmyboJRAQifsx8mOjX-g,1134
+robot_arm_controller-0.1.3.dist-info/METADATA,sha256=KIzjZl_8yzBlHJB4zNzOs7s8zv-se5tdtpns0nkW1no,467
+robot_arm_controller-0.1.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+robot_arm_controller-0.1.3.dist-info/top_level.txt,sha256=mMdKWpaC2_d_FQro6rG9DVUMv4GRV_Lf5V0EY_xdUo8,21
+robot_arm_controller-0.1.3.dist-info/RECORD,,
