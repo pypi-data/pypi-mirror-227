@@ -1,0 +1,6 @@
+{
+  "test_command_store.py": true,
+  "test_basemodel_store.py": true,
+  "test_ixon_cloud_api_v2.py::test_get_agents": true,
+  "test_ixon_cloud_api_v1.py::test_get_agents": true
+}
