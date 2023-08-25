@@ -1,0 +1,16 @@
+
+- What is CLIP: 
++ Famous Vision-Language Model
++ Trained on image, text pair to output similarity score.
+
+- What is zero-shot text-to-image generation?
++ Supposedly, trained to generate images in one specific domain (animal), and in testing time, it is asked to generate images from a different domain (medical images)
++ But in DALL-E, they just trained on huge image, text datasets then test on MS-COCO datasets. But MS-COCO and their training dataset might be domain-similar.
+
+- What is GAN, and StyleGAN?
++ GAN: A different objective to do distribution matching without relying on MLE
+
+- What is StyleCLIP?
+
+
+THIS IS A DAM BAD PAPER

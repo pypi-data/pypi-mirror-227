@@ -1,0 +1,6 @@
+- This is StyleGAN
+- It introduce an inductive bias via a new architecture for the generator: the generator takes a learnable constant as input, the computation flow is then modified by style vector which is produced from latent vector, and noise vector.
+- So they now have a direct control over what is supposed the style.
+
+- Why affine transformation in the last layer of the mapping from latent Z to style W?
+

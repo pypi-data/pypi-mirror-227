@@ -1,0 +1,4 @@
+Two things:
+- Complexity measurements such as Radamacher complexity is useless as it is approaching 1 (perfert memorization)
+- Optimization appears to be easy although the objective is nonconvex in high dimension. It is STILL easy when labels are randomized. So in my opinion, that suggests that simple optimization has nothing to do with distribution of data. My observation is confirmed by the last comment in the paper: the reason for optimization to be empirically easy must be different from the true cause of generalization.
+

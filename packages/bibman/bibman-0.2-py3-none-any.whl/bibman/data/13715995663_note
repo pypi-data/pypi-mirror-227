@@ -1,0 +1,21 @@
+- Wow, he sounds pretentious 
+- Modality: way to express or perceive?
+Spectrum: raw modalities (speech signal, image,) vs Abstract modalities ()
+- Multimodal
+- Heterogeneous vs heterogeneous
+- Dimensions of heterogeneity
++ element representation: dicrete, conti, ..
++ element distribution: density, frequency,
++ structure: temporal, spatial, ...
++ information: abstraction, entropy
++ noise: 
++ relevance: task, convex, 
+
+- Connected modalities: shared information that 
++ statisical - dependency (association), semantic - relationship(correspondence)
+- Interacting modalities: representation fusion, reducndancy or nonreducndancy, one mode changes the other, 
+
+Challenges:
+- representation and alignment
+- fusion: linear, multicative (kind of a simple nonlinear), and then other heuristic architecture (gate, ...)
+question is: why human heuristic should work? is it because it is compact?
