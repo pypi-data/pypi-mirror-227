@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: thppred
+Version: 1.0
+Summary: A tool for for predicting immunoregulatory cytokine IL-13 inducing peptides
+Home-page: https://github.com/raghavagps/thppred
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ThpPred
+A method for predicting therapeutic and non-therapeutic proteins
+
+# Introduction
+ThpPred is developed for predicting, designing and scanning therapeutic peptides. More information on ThpPred is available from its web server http://webs.iiitd.edu.in/raghava/thppred. This page provides information about standalone version of ThpPred.
+
+**Minimum USAGE** 
+
+To display the command line arguments, type the following command:
+```
+thppred -h
+```
+
+**Full Usage**: 
+
+To run the code with your parameters, type the following command:
+```
+thppred  -i |Input_File|  -m |Model|  -t |Threshold|
+
+```
+Example Command:
+```
+thppred - i file.fasta -m 1 -t 0.5
+
+```
+
+**Input File**: It allow users to provide input in FASTA format. User should provide the file name along with its full path in case the input file is not in the same folder as the thppred_stand.py file.
+
+**Model**: In this program, four models have been incorporated;  
+  i) Model1 for predicting given input peptide/protein sequence as therapeutic and non-therapeutic peptide/proteins using XGBoost based on amino-acid composition of the peptide/proteins; 
+
+  ii) Model2 for predicting given input peptide/protein sequence as therapeutic and non-therapeutic peptide/proteins using Hybrid approach, which is the ensemble of XGBoost + Motif Score. It combines the scores generated from machine learning (XGB), and motif occurence as Hybrid Score, and the prediction is based on Hybrid Score.
+	
+  iii) Model3 for predicting given input peptide/protein sequence as therapeutic and non-therapeutic peptide/proteins using random forest based on dipeptide composition of the peptide/proteins; 
+
+  iv) Model4 for predicting given input peptide/protein sequence as therapeutic and non-therapeutic peptide/proteins using Hybrid approach, which is the ensemble of Random forest + Motif Score. It combines the scores generated from machine learning (RF), and motif occurence as Hybrid Score, and the prediction is based on Hybrid Score.
+  
+User must enter model number(1,2,3 or 4) in the command line, else default value will be considered i.e. 2.
+
+
+**Threshold**: User should provide a threshold value that lies between 0 and 1, please note score is proportional to therapeutic potential of peptide.
+ 
+User must enter a valid threshold value in the command line, else default value will be considered i.e. 0.5.
+
