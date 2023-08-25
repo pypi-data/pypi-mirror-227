@@ -1,0 +1,2 @@
+[console_scripts]
+init-aws-slash-slack = sam_slash_slack.cli:cli
