@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cossif/__init__.py
+src/cossif/cossif.py
+src/cossif.egg-info/PKG-INFO
+src/cossif.egg-info/SOURCES.txt
+src/cossif.egg-info/dependency_links.txt
+src/cossif.egg-info/top_level.txt
