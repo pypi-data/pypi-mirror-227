@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyautogen
+Version: 0.0.1
+Summary: A fast library for automated machine learning and tuning
+Home-page: https://github.com/autogen/pyautogen
+Author: Microsoft Corporation
+Author-email: hpo@microsoft.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai (==0.27.8)
+Requires-Dist: diskcache
+Provides-Extra: autogen
+Requires-Dist: openai (==0.27.8) ; extra == 'autogen'
+Requires-Dist: diskcache ; extra == 'autogen'
+Requires-Dist: termcolor ; extra == 'autogen'
+Provides-Extra: mathchat
+Requires-Dist: openai (==0.27.8) ; extra == 'mathchat'
+Requires-Dist: diskcache ; extra == 'mathchat'
+Requires-Dist: termcolor ; extra == 'mathchat'
+Requires-Dist: sympy ; extra == 'mathchat'
+Requires-Dist: pydantic (==1.10.9) ; extra == 'mathchat'
+Requires-Dist: wolframalpha ; extra == 'mathchat'
+Provides-Extra: retrievechat
+Requires-Dist: openai (==0.27.8) ; extra == 'retrievechat'
+Requires-Dist: diskcache ; extra == 'retrievechat'
+Requires-Dist: termcolor ; extra == 'retrievechat'
+Requires-Dist: chromadb ; extra == 'retrievechat'
+Requires-Dist: tiktoken ; extra == 'retrievechat'
+Requires-Dist: sentence-transformers ; extra == 'retrievechat'
+
+# pyautogen
+pyautogen enables building next-gen GPT-X applications based on multi-agent conversations with minimal effort. It simplifies the orchestration, automation and optimization of a complex GPT-X workflow. It maximizes the performance of GPT-X models and augments their weakness.
