@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fastapi-pubsub
+Version: 0.0.1
+Summary: A simple but yet elegant publish/subscribe socket implementation using FastAPI Websocket.
+Home-page: https://github.com/permitio/fastapi_pubsub
+Author: D Correa
+Author-email: dhiogocorrea@yahoo.com.br
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi (<0.101.1,>=0.94.0)
+Requires-Dist: websockets (<11,>=10.3)
+
+# FastAPI Pub/Sub
