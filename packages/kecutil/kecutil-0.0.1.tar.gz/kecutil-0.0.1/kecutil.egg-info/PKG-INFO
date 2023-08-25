@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: kecutil
+Version: 0.0.1
+Summary: Simple utility functions for KEC's Intro To Programming: Python Course
+Author: Hycord (Masen Toplak)
+Author-email: <hello@masen.dev>
+Keywords: python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+🚨 Under Construction 🚨
