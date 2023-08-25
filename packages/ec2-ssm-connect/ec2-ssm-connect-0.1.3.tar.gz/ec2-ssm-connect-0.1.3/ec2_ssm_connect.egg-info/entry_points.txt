@@ -1,0 +1,2 @@
+[console_scripts]
+ec2-ssm-connect = ec2_ssm_connect.main:main
