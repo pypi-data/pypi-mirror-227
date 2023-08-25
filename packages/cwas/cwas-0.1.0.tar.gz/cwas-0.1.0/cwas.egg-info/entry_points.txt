@@ -1,0 +1,2 @@
+[console_scripts]
+cwas = cwas.__main__:main
