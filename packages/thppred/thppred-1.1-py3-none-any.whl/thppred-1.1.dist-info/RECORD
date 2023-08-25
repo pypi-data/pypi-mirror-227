@@ -1,0 +1,9 @@
+thppred/model/rf_model.onnx,sha256=r8Bx_qbQePNswTHMZGvNtLDgNyWr_FrMhOqKbnVQLec,335434
+thppred/model/xgb_model.onnx,sha256=s-UhDZ4a1ZyefsVQ_-IHcbQjlT_oFqDNi4BYYyFDS7U,225945
+thppred/python_scripts/thppred.py,sha256=nGAHxO3pcA2rAT2lFl3z4o2MvRRGda9wraBY-8-2hbM,104554
+thppred-1.1.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+thppred-1.1.dist-info/METADATA,sha256=ZuYew2hSCCEaV8XbxPx1AqPshXd8b6qxiW6LQ7bZBus,2699
+thppred-1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+thppred-1.1.dist-info/entry_points.txt,sha256=7_8dt49xTuiZ-5vpdSj9srucw42vgNAyvjUwydxHV5s,64
+thppred-1.1.dist-info/top_level.txt,sha256=y0MJEDQqntJb617sYqWhUs1m1j8-If7bNsH461h1NUU,8
+thppred-1.1.dist-info/RECORD,,
