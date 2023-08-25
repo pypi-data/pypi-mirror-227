@@ -1,0 +1,7 @@
+odoo_selenium_httpcase/__init__.py,sha256=RYuIW7RMLJ2iGY7RVLSSMBso3kOi8gm1gNP3bdfeVBI,162
+odoo_selenium_httpcase/expectations.py,sha256=hfMVn0Tf9t3dJazalVrnG-53DM9NwgvAKdJL1mPH1-o,822
+odoo_selenium_httpcase/selenium.py,sha256=eDYTA60VUJFMMYznhchRbGSQ8k0G6rVh6NOCie9Yy54,4169
+odoo_selenium_httpcase-0.1.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+odoo_selenium_httpcase-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+odoo_selenium_httpcase-0.1.0.dist-info/METADATA,sha256=1O3p_5f-Kw_DUHA8T7FOS6mDGXzkNYrX0IPpy4V4Aq4,4315
+odoo_selenium_httpcase-0.1.0.dist-info/RECORD,,
