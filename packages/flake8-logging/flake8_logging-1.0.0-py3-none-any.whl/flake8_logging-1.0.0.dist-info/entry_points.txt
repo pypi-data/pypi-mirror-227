@@ -1,0 +1,2 @@
+[flake8.extension]
+INP = flake8_logging:Plugin
