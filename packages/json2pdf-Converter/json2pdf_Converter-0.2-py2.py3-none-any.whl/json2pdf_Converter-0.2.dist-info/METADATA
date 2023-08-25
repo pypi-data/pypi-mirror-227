@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: json2pdf-Converter
+Version: 0.2
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: jinja2
+Requires-Dist: pdfkit
+Requires-Dist: PyPDF2
+
