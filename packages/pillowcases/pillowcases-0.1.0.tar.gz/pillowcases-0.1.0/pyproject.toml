@@ -1,0 +1,51 @@
+[project]
+name = "pillowcases"
+version = "0.1.0"
+description = """\
+    Library that makes it possible to work in a concise, algebraic \
+    way with Python Imaging Library image objects.\
+    """
+license = {text = "MIT"}
+authors = [
+    {name = "Andrei Lapets"},
+    {email = "a@lapets.io"}
+]
+readme = "README.rst"
+requires-python = ">=3.7"
+dependencies = [
+    "pillow~=9.5"
+]
+
+[project.urls]
+Repository = "https://github.com/lapets/pillowcases"
+Documentation = "https://pillowcases.readthedocs.io"
+
+[project.optional-dependencies]
+docs = [
+    "toml~=0.10.2",
+    "sphinx~=4.2.0",
+    "sphinx-rtd-theme~=1.0.0"
+]
+test = [
+    "pytest~=7.2",
+    "pytest-cov~=4.0"
+]
+lint = [
+    "pylint~=2.17.0"
+]
+coveralls = [
+    "coveralls~=3.3.1"
+]
+publish = [
+    "build~=0.10",
+    "twine~=4.0"
+]
+
+[build-system]
+requires = [
+    "setuptools>=68.0"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --ignore=docs --cov=pillowcases --cov-report term-missing"

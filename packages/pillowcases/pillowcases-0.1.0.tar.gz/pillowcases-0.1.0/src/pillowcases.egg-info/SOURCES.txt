@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/pillowcases/__init__.py
+src/pillowcases/pillowcases.py
+src/pillowcases.egg-info/PKG-INFO
+src/pillowcases.egg-info/SOURCES.txt
+src/pillowcases.egg-info/dependency_links.txt
+src/pillowcases.egg-info/requires.txt
+src/pillowcases.egg-info/top_level.txt
