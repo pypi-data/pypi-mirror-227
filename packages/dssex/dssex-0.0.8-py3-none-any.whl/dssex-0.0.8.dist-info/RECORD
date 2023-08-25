@@ -1,0 +1,15 @@
+dssex/__init__.py,sha256=aFpScMdcFPqi54fyK4JfZhIcPx25Iwz2a8LkA1ylZpA,771
+dssex/_apis.py,sha256=ctVbMHB16Fu-g9jzFGtYPw7tk8TMnZErINjBiAVTgug,10719
+dssex/batch.py,sha256=rPQ1fxlKITn6C2TWAj1Ts6Dl13G_sj-8qcVh4PTxKDY,25885
+dssex/debug.py,sha256=Ui2g7n4h8O2L4ZJGoK-fCT54vqgFQ6cMsdvhiX8lBAc,1554
+dssex/estim.py,sha256=_BKbCJtvdNQnFcDrBl13FIgiZA-33raTL3-NzmbwLVM,101998
+dssex/examples.py,sha256=gabld_aHsKxHTvNNnKcipRwRL8kjTWsI1qFn6HUc-dM,12473
+dssex/factors.py,sha256=5AQsB7I8budwLnLiKJMjytjb7x7qaKEbgUoZRH7L22I,11580
+dssex/injections.py,sha256=xh5j5dIta1gt0k1vYKwe4AAPtjdDxlJxyltxKnQZI_s,6999
+dssex/pfcnum.py,sha256=FpuW4Gi9n8cquO1Lof_9V2V3TeOrZ_epQs1anweFVEw,45016
+dssex/result.py,sha256=7Uov2uzD_RRNLHxMMzIQuJ3pj-prf1Q_Xild0S8X8bE,37176
+dssex-0.0.8.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+dssex-0.0.8.dist-info/METADATA,sha256=Do8cE8Xmp3D-UAzzmxrxic657jtzyFhpumyYstU1xD8,9266
+dssex-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dssex-0.0.8.dist-info/top_level.txt,sha256=7UuTihXQE5FH17mxP0yNLmx4Hp_i2vbY0hrYAapGxO8,6
+dssex-0.0.8.dist-info/RECORD,,
