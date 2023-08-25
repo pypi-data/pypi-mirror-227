@@ -1,0 +1,3 @@
+- There is a flipping error
+- Recovery is guaranteed given that E[tau] is known (contribution paragraph).
+- By assuming E[tau] is given, the problem immediately reduces to typical 1-bit matrix completion, i.e., relation between f(x) and g(x).

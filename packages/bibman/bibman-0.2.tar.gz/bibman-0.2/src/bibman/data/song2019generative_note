@@ -1,0 +1,2 @@
+- They relied on idea of Denoising score matching [vincent2011connection].
+- Different from [vincent2011connection], they don't need to access to a proper pdf which helps them to avoid to construct a tractable pdf such as exponential famility. This allows to use arbitray network network to model the score function.
