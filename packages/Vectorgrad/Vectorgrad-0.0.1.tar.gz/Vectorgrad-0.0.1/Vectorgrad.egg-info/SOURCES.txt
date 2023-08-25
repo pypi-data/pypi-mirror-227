@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Vectorgrad/__init__.py
+Vectorgrad/draw.py
+Vectorgrad/engine.py
+Vectorgrad/nn.py
+Vectorgrad.egg-info/PKG-INFO
+Vectorgrad.egg-info/SOURCES.txt
+Vectorgrad.egg-info/dependency_links.txt
+Vectorgrad.egg-info/top_level.txt
