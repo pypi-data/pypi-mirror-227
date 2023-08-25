@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+operational_hours_local.egg-info/PKG-INFO
+operational_hours_local.egg-info/SOURCES.txt
+operational_hours_local.egg-info/dependency_links.txt
+operational_hours_local.egg-info/top_level.txt
+src/__init__.py
+src/operational_hours.py
