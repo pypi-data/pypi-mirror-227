@@ -1,0 +1,5 @@
+snakemake
+umi_tools
+pyyaml
+srslyumi
+pysam
