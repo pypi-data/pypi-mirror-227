@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: packaging_adzone
+Version: 0.0.1
+Summary: Ai calculator for smart ads.
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Mrcos Filipich <marcos@filipich.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# SMART ADS
+
+This is my first python package. I hope it works well. 
+You can call the calculate_new_group_percentages() function.
+For more information contact Marcos.
+
