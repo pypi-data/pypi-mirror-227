@@ -1,0 +1,11 @@
+inspy_logger/__about__.py,sha256=TdSJGAAyeNvQ6yDOcgwsg1oUB4nC6DcQUyozGDbDPko,656
+inspy_logger/__init__.py,sha256=-uMnKamllwXA5Pd2Sr_Q2e8DqhkFjStyjvug01d0BJg,9997
+inspy_logger/errors/__init__.py,sha256=41FN6UynyQ-64VpGfL8EElbtQie7vwmL3Ng_BOV6yDc,4360
+inspy_logger/helpers/__init__.py,sha256=9o2XOutB1vUdRA3YtbHy-cNBw-1qwacnZgXBPUa99q8,4041
+inspy_logger/helpers/cache.py,sha256=Tle4lR4tCm-Op8yGa9hLljqrgiQDUJWMltkktIPTFLo,3833
+inspy_logger/helpers/network.py,sha256=k_y_YmfZLcWfDQWLTev6T5lVK37bcqhMIriDLpLLWLw,10993
+inspy_logger/manifest.py,sha256=-uOjyx3PnDyUntjZ3jht96dHdcOLt3ksLOIVm0IFzcw,1032
+inspy_logger-3.0.dev1.dist-info/LICENSE.md,sha256=F8B263sxwQVWxq6MG42KhwG7VV0SK7kOdm6H7gY6Q7o,905
+inspy_logger-3.0.dev1.dist-info/METADATA,sha256=cSOeDQdr9cu1fHj1Xb_QaQ-edjhtXm5_MBnKhXGKn2g,913
+inspy_logger-3.0.dev1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+inspy_logger-3.0.dev1.dist-info/RECORD,,
