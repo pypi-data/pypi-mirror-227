@@ -1,0 +1,21 @@
+[project]
+name = "love_kbo"
+version = "0.1.0"
+description = "let me tell you about kbo, korean's representative baseball league"
+authors = [
+    { name = "sbka0704", email = "sbka0704@nate.com" },
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
