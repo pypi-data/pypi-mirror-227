@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+hactool/__init__.py
+hactool/pick.py
+hactool/playsound.py
+hactool.egg-info/SOURCES.txt
+hactool.egg-info/dependency_links.txt
+hactool.egg-info/requires.txt
+hactool.egg-info/top_level.txt
+hactool0.egg-info/PKG-INFO
+hactool0.egg-info/SOURCES.txt
+hactool0.egg-info/dependency_links.txt
+hactool0.egg-info/requires.txt
+hactool0.egg-info/top_level.txt
