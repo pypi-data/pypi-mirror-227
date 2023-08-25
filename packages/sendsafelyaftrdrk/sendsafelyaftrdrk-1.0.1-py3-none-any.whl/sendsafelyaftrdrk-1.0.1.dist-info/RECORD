@@ -1,0 +1,10 @@
+sendsafely/Package.py,sha256=8AA8f50iFme-AtSGQEfCvRbCve25Ex3Nk6UJkpwiGJ4,16892
+sendsafely/Progress.py,sha256=wJWZaUC4EfZQa08SM5FgWaRJ_ZEY7uFON4aYC9kWjMU,432
+sendsafely/SendSafely.py,sha256=lJEiBEKbuLCtP0tjw8WvqRDDfxDO4CrQQJA5Hocws2Q,11032
+sendsafely/__init__.py,sha256=yeVVCjaHZSFPHSX7g03eE1oe-BpQNWYQVj2VqxZU7DA,317
+sendsafely/exceptions.py,sha256=pHU3ORaILfGYHHg-AdMM61ruJKtLaIfFbTuQXHEhCfs,8326
+sendsafely/utilities.py,sha256=Lup08JBNWcSFIG8RM5gx2MB5H63YZFtEFRoxpcGy0K4,12499
+sendsafelyaftrdrk-1.0.1.dist-info/METADATA,sha256=VJlPvRVwqEkYMaD7HlSdd4CCUjJYi4xM6Sbe2QjmBIY,682
+sendsafelyaftrdrk-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sendsafelyaftrdrk-1.0.1.dist-info/top_level.txt,sha256=a9u-YegfZfw_5bEjf_GkyolE6gza_tbQZz-dXBHwoZA,11
+sendsafelyaftrdrk-1.0.1.dist-info/RECORD,,
