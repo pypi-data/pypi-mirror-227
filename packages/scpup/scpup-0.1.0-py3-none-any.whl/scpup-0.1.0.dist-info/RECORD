@@ -1,0 +1,11 @@
+scpup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scpup/abc/__init__.py,sha256=-sF4XXbt0sGWLkdipZV8TIR06ysJKTEtSi9tUTcO0ck,58
+scpup/abc/abstract_view.py,sha256=Tr2v_b_Ma_w4TqObk7ln0QuYBaaB8D_g3N4E4kY_Znk,4556
+scpup/abc/group.py,sha256=QLLcnZPz2xTYzoPk2yZk2C6Z9RcPgqGQGCSKqxhmINs,3285
+scpup/abc/sprite.py,sha256=gSh6h00Ge0N_PqNXKqJPGzPVzGaP88y-qINa_eEhh3I,1167
+scpup/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scpup/utils/loader_old.py,sha256=de7ediRJ_5wE9TgH5W3mPO3nBg3c4VUm889IWXYKviA,7957
+scpup-0.1.0.dist-info/METADATA,sha256=oQlh38SXeJxPoHeYQ_LSUHrJebxlvQYbK988o5C7FPU,1147
+scpup-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+scpup-0.1.0.dist-info/licenses/LICENSE,sha256=mqR27iwEL4uBEHSLo6ftEjfBnsi4s5_CbOD8_mjc1Dg,1097
+scpup-0.1.0.dist-info/RECORD,,
