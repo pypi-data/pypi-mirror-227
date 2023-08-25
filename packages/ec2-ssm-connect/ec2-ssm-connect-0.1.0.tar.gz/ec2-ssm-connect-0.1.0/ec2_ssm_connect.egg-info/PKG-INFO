@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ec2-ssm-connect
+Version: 0.1.0
+Summary: An interactive command-line tool to list Amazon EC2 instances and establish secure connections using AWS Systems Manager (SSM) Session Manager.
+Home-page: https://www.github.com/ingomarlos/ec2-ssm-connect
+Author: Ingo Marlos Batista de Sousa
+Author-email: your.email@example.com
+Keywords: aws,ec2,ssm,systems manager,session manager
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# ec2-ssm-connect
+
+An interactive command-line tool to list Amazon EC2 instances and establish secure connections using AWS Systems Manager (SSM) Session Manager.
+
+## 🚀 Installation
+
+Before using this tool, ensure you have the AWS CLI installed. This tool depends on it.
+
+pip install ec2-ssm-connect
+
+
+## 🛠 Usage
+
+After installation, you can use the command:
+
+```
+ec2-ssm-connect
+```
+
+To filter EC2 instances by name:
+
+ec2-ssm-connect --filter [INSTANCE_NAME]
+
+
+## 📦 Dependencies
+
+- **boto3**: For AWS SDK functionalities.
+- **AWS CLI**: Required for establishing connections with EC2 instances.
+
+## ✍️ Author
+
+- **Ingo Marlos Batista de Sousa**
+
+## 📜 License
+
+This project is licensed under the MIT License.
+

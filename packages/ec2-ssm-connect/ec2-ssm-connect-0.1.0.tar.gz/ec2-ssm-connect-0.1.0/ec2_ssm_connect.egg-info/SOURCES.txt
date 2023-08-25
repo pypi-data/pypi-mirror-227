@@ -1,0 +1,10 @@
+README.md
+setup.py
+ec2_ssm_connect/__init__.py
+ec2_ssm_connect/main.py
+ec2_ssm_connect.egg-info/PKG-INFO
+ec2_ssm_connect.egg-info/SOURCES.txt
+ec2_ssm_connect.egg-info/dependency_links.txt
+ec2_ssm_connect.egg-info/entry_points.txt
+ec2_ssm_connect.egg-info/requires.txt
+ec2_ssm_connect.egg-info/top_level.txt
