@@ -1,0 +1,46 @@
+
+[project]
+name = "robot-arm-controller"
+version = "0.1.3"
+description = "Robot arm controller"
+authors = [
+    {name = "alberto-abarzua", email = "aabarzua@palvi.cl"},
+]
+
+
+dependencies = [
+    "websockets>=11.0.3",
+    "asyncio>=3.4.3",
+    "rich>=13.4.2",
+    "black>=23.3.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "numpy>=1.25.0",
+    "flake8-annotations>=3.0.1",
+    "mypy>=1.4.1",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 110
+
+
+[mypy]
+ignore_missing_imports = "True"
+disallow_untyped_defs = "True"
+mypy_path = "src"
+
+[tool.pdm.scripts]
+isort = "isort src"
+black = "black src"
+pure_lint = "flake8 src"
+type_check = "mypy src"
+test = "python -m unittest discover -s src/robot_arm_controller/tests -p 'test_*.py'"
+format = {composite = ["isort", "black"]}
+lint = {composite = ["pure_lint", "type_check"]}
