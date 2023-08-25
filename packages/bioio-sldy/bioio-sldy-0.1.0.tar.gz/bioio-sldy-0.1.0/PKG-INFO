@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: bioio-sldy
+Version: 0.1.0
+Summary: A BioIO reader plugin for reading 3i slidebook (SLDY) images.
+Author-email: Sean Meharry <seanm@alleninstitute.org>
+License: MIT License
+Project-URL: Homepage, https://github.com/bioio-devs/bioio-sldy
+Project-URL: Bug Tracker, https://github.com/bioio-devs/bioio-sldy/issues
+Project-URL: Documentation, https://bioio-devs.github.io/bioio-sldy
+Project-URL: User Support, https://github.com/bioio-devs/bioio-sldy/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: lint
+Provides-Extra: test
+Provides-Extra: docs
+License-File: LICENSE
+
+# bioio-sldy
+
+[![Build Status](https://github.com/bioio-devs/bioio-sldy/workflows/CI/badge.svg)](https://github.com/bioio-devs/bioio-sldy/actions)
+[![Documentation](https://github.com/bioio-devs/bioio-sldy/workflows/Documentation/badge.svg)](https://bioio-devs.github.io/bioio-sldy)
+
+A BioIO reader plugin for reading 3i slidebook (SLDY) images.
+
+This plugin is intended to be used in conjunction with [bioio](https://github.com/bioio-devs/bioio)
+
+---
+
+## Installation
+
+**Stable Release:** `pip install bioio-sldy`<br>
+**Development Head:** `pip install git+https://github.com/bioio-devs/bioio-sldy.git`
+
+## Quickstart
+
+```python
+from bioio_sldy import Reader 
+
+r = Reader("my-image.ext")
+r.dims
+```
+
+## Documentation
+
+For full package documentation please visit [bioio-devs.github.io/bioio-sldy](https://bioio-devs.github.io/bioio-sldy).
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+**MIT License**
