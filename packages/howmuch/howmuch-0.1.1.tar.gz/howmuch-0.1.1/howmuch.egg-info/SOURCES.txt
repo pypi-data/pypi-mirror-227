@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+howmuch/HowMuch.py
+howmuch/__init__.py
+howmuch.egg-info/PKG-INFO
+howmuch.egg-info/SOURCES.txt
+howmuch.egg-info/dependency_links.txt
+howmuch.egg-info/entry_points.txt
+howmuch.egg-info/requires.txt
+howmuch.egg-info/top_level.txt
