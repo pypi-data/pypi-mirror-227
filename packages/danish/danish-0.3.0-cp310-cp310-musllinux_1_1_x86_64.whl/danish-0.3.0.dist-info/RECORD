@@ -1,0 +1,14 @@
+danish/_version.py,sha256=OAWTkWj3F4GYm5X70Sel41SddTO1XuUKsB5B3i9EnBk,184
+danish/__init__.py,sha256=lY4D5G787VkhKk2DqwJg0h8bqxa2qdq1KJb0iAThsFM,296
+danish/_danish.cpython-310-x86_64-linux-gnu.so,sha256=jV-4BFSSVlmvMJzwtKLC6XhL6G131_11IV24xSvhQSs,170624
+danish/factory.py,sha256=kHlD8LWSwkaMwb39YCCgWjqLmIpyDi4bXweu5eXmrQU,24906
+danish/fitter.py,sha256=KMqOFlOd4A_pXVH5FB-5Wd-sz-K4mrQI7KLACL1QObo,17719
+danish/data/RubinObsc.yaml,sha256=afuC_TkgSBMsp983gYyv6Dap-t6kbI4odPSV8NRQRVk,4674
+danish/data/AuxTelObsc.yaml,sha256=3YahGoKI3wHnjoPp9P_l6mZFtvNmnYaZPyeRsBgAbtk,1436
+danish-0.3.0.dist-info/RECORD,,
+danish-0.3.0.dist-info/WHEEL,sha256=Qybn9f_9c7ImWsQIXNA7u-F9d7QLLBwD346Igm-60cw,113
+danish-0.3.0.dist-info/LICENSE,sha256=hRZ0Zf7txVfTiVfuZhD93_kGQ1OYBSUDvrF_mhcAaGE,1547
+danish-0.3.0.dist-info/METADATA,sha256=byRAQeW_yZYB3mgEfpyZ3dun8leBJDYKUOgqCxaOybk,1081
+danish-0.3.0.dist-info/top_level.txt,sha256=TQc4XIMdC63lanjYXELqaLG0AhO44WyaXkKSxal1Zgo,7
+danish.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+danish.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
