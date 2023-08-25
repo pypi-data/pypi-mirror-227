@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "SwarmLogic"
+version = "0.6.4"
+description = "SwarmLogic - Pytorch"
+authors = ["Kye Gomez <kye@apac.ai>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/kyegomez/SwarmLogic"
+keywords = ["artificial intelligence", "deep learning", "optimizers", "Prompt Engineering"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.6",
+]
+packages = [
+    { include = "swarm_logic" },
+    { include = "swarm_logic/**/*.py" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+swarms = "*"
+fastapi = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
