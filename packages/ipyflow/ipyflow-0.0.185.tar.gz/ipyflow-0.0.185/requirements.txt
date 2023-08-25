@@ -1,0 +1,5 @@
+ipyflow-core==0.0.185
+jupyter
+jupyterlab>=3.0
+nbclassic
+notebook
