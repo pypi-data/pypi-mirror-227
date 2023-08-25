@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: recognizesize
+Version: 0.3
+Summary: A package to recognize clothes size in format XS, S, M, L, XL
+Home-page: https://github.com/Reflect-Me/recognize-size
+Author: Max Laptev
+Author-email: maks-laptev.03@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: Pillow
+Requires-Dist: matplotlib
+
+# recognize-size
+
+
