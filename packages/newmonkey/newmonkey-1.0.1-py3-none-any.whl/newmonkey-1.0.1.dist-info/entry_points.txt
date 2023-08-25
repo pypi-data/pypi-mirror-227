@@ -1,0 +1,3 @@
+[console_scripts]
+newmonkey = newmonkey.main:main
+
