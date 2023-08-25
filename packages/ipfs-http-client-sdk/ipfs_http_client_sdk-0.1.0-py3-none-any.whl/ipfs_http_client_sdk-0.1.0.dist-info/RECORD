@@ -1,0 +1,6 @@
+ipfs_http_client_sdk/__init__.py,sha256=PujM0Ppzg7R6K517hZYXYH1BlW9Za6IXQGcn5ZqKBNI,890
+ipfs_http_client_sdk/wrap/__init__.py,sha256=DMGXIqPsmut9H5GT0ZeSzQIzYzzPwI-2gLXydpbwiV8,21
+ipfs_http_client_sdk/wrap/types.py,sha256=fuhRq3kkoiCiC7vVKi9_kzgpdXUHEJcM-by97AGonPw,7065
+ipfs_http_client_sdk-0.1.0.dist-info/METADATA,sha256=3mdicUtT9gJjGiu9sVZPblqvoJppmKvds-NulnOcWDs,918
+ipfs_http_client_sdk-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ipfs_http_client_sdk-0.1.0.dist-info/RECORD,,

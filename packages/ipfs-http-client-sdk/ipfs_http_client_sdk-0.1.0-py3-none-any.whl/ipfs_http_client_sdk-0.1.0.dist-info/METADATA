@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ipfs-http-client-sdk
+Version: 0.1.0
+Summary: IPFS HTTP Client for Python
+Author: Niraj
+Author-email: niraj@polywrap.io
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: polywrap (>=0.1.0b7,<0.2.0)
+Description-Content-Type: text/x-rst
+
+Ipfs Http Client
+================
+IPFS HTTP Client for Python
+
+Install
+-------
+
+.. code-block:: bash
+
+    pip install ipfs-http-client
+
+Quickstart
+----------
+
+>>> from ipfs_http_client import Ipfs
+>>> ipfs = Ipfs()
+>>> result = ipfs.cat({
+...     "cid": "Qmc5gCcjYypU7y28oCALwfSvxCBskLuPKWpK4qpterKC7z",
+...     "ipfsProvider": "https://ipfs.io"
+... })
+>>> print(result.decode().strip())
+Hello World!
+
+Contact Us
+----------
+Join our `discord <https://discord.polywrap.io>`__ and ask your questions right away!
+
