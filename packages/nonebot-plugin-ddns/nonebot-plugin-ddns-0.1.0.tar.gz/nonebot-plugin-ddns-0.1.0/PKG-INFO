@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-ddns
+Version: 0.1.0
+Author-email: alnthy <2580424155@qq.com>
+License: GPL-3.0
+Requires-Python: >=3.11
+License-File: LICENSE.txt
