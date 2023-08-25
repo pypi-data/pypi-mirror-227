@@ -1,0 +1,7 @@
+
+[dev]
+codecheck>=1.0.7
+mypy
+pycodestyle
+pytype
+twine
