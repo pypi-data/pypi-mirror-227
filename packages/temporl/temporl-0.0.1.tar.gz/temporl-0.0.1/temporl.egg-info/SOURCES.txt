@@ -1,0 +1,6 @@
+setup.py
+temporl/__init__.py
+temporl.egg-info/PKG-INFO
+temporl.egg-info/SOURCES.txt
+temporl.egg-info/dependency_links.txt
+temporl.egg-info/top_level.txt
