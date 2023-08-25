@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/aiohttp_wsconnhandler/__init__.py
+src/aiohttp_wsconnhandler/client_conn_initer.py
+src/aiohttp_wsconnhandler/ws_conn_handler.py
+src/aiohttp_wsconnhandler.egg-info/PKG-INFO
+src/aiohttp_wsconnhandler.egg-info/SOURCES.txt
+src/aiohttp_wsconnhandler.egg-info/dependency_links.txt
+src/aiohttp_wsconnhandler.egg-info/requires.txt
+src/aiohttp_wsconnhandler.egg-info/top_level.txt
