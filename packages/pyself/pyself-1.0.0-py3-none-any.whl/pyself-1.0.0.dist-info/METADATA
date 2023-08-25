@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyself
+Version: 1.0.0
+Summary: A python interface for the Spectral Element Library in Fortran
+Author-Email: Joe Schoonover <joe@fluidnumerics.com>, Dr. Joe Schoonover <joe@fluidnumerics.com>
+License: Researcher Software License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Project-URL: Homepage, https://github.com/fluidnumerics/pyself
+Requires-Python: >=3.9
+Requires-Dist: dask
+Requires-Dist: h5py>=3.7.0
+Requires-Dist: pyvista
+Description-Content-Type: text/markdown
+
+# SELF for Python
+This package allows you to interface with the Spectral Element Library in Fortran from Python, giving you flexibility in designing solvers and simulations that can be accelerated by GPU and multi-GPU platforms. 
+
+## Documentation
+
+Documentation is available online at https://fluidnumerics.github.io/pyself
