@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: microscopemetrics-omero
+Version: 0.2.0
+Summary: A package to compute metrics on OMERO images using micrsocope-metrics
+License: GPL-3.0-only
+Keywords: microscopy,metrology
+Author: Julio Mateos Langerak
+Author-email: julio.mateos-langerak@igh.cnrs.fr
+Requires-Python: >=3.8,<=3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: microscopemetrics (==0.2.2)
+Requires-Dist: omero-py (>=5.13.0,<6.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Description-Content-Type: text/markdown
+
+# microscope-metrics-omero
+A python package for interacting with microscope-metrics in OMERO

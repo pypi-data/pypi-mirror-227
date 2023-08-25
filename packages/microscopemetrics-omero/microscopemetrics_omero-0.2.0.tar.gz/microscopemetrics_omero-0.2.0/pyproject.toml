@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "microscopemetrics-omero"
+version = "0.2.0"
+description = "A package to compute metrics on OMERO images using micrsocope-metrics"
+authors = [
+    "Julio Mateos Langerak <julio.mateos-langerak@igh.cnrs.fr>"
+]
+license = "GPL-3.0-only"
+readme = "README.md"
+keywords = ["microscopy", "metrology"]
+
+[tool.pytest.ini_options]
+addopts = "--cov"
+testpaths = [
+    "tests"
+]
+filterwarnings = [
+    # action, message, category, module, lineno
+    "default::DeprecationWarning:__main__",
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+    "ignore::ImportWarning",
+    "ignore::ResourceWarning",
+
+#    'ignore::DeprecationWarning:omero.*:',
+#    'ignore::DeprecationWarning:omero_ext.*:',
+#    'ignore::DeprecationWarning:Ice.*:',
+#    'ignore::DeprecationWarning:Ice_Current_ice.*:',
+#    'ignore::DeprecationWarning:Ice_Properties_ice.*:',
+#    'ignore::DeprecationWarning:omero_Scripts_ice.*:',
+#    'ignore::DeprecationWarning:cli.*:',
+#    'ignore::DeprecationWarning:omero_ServerErrors_ice.*:',
+#    'ignore::DeprecationWarning:omero_cmd_Mail_ice.*:',
+#    'ignore::DeprecationWarning:omero_API_ice.*:',
+#    'ignore::DeprecationWarning:omero_Tables_ice.*:',
+#    'ignore::DeprecationWarning:omero_api_*.*:',
+#    'ignore::DeprecationWarning:omero/plugins/import.*:',
+#    'ignore:.*invalid escape sequence:DeprecationWarning',
+#    'ignore:.*the imp module is deprecated in favour of importlib:DeprecationWarning',
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8 <=3.11"
+microscopemetrics = "0.2.2"
+omero-py = "^5.13.0"
+pyyaml = "^6.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^6.2.0"
+pytest-cov = "^4.0.0"
+tox = "^3.26.0"
+ezomero = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+blacked = "^0.1.0-alpha.4"
+poetry = "^1.2.2"
+isort = "^5.12.0"
+
+[build-system]
+requires = ["poetry-core=1.7.0"]
+build-backend = "poetry.core.masonry.api"
+
