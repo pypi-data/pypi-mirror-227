@@ -1,0 +1,6 @@
+README.md
+setup.py
+SALT_LOCATION.egg-info/PKG-INFO
+SALT_LOCATION.egg-info/SOURCES.txt
+SALT_LOCATION.egg-info/dependency_links.txt
+SALT_LOCATION.egg-info/top_level.txt
