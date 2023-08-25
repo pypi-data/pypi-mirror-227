@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mp3metadata"
+version = "1.0.1"
+authors = [
+    {name = "Finn Roy"}
+]
+description = "Tool for the manipulation and creation of metadata in MP3 files."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3"
+]
+keywords = ["metadata", "mp3", "mutagen"]
+dependencies = [
+    "mutagen"
+]
