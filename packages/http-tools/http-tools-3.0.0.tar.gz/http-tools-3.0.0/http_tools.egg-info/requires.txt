@@ -1,0 +1,2 @@
+mitmproxy==9.0.1
+markupsafe==2.0.1
