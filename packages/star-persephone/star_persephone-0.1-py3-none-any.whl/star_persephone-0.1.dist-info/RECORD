@@ -1,0 +1,17 @@
+persephone/__init__.py,sha256=Sd8iKWrSpcNGVqUJUzJLlc1Plhqp90PYCS62mJEZdrw,377
+persephone/eigenfunctions.py,sha256=TFOJw8GMCi-4CSoXCCFplMdVrtYFqevdZV9kyJkCVVA,2971
+persephone/plot_gyre.py,sha256=s1jbxtjKyfPLvImYyBdAWdpzAcrQhnK5a7UCXRpHnFc,5709
+persephone/grids/__init__.py,sha256=BqgMFEur0tLuhBpn0WRexSmhmXCN-N5U7rX-rooaUu8,29
+persephone/grids/grid_builder.py,sha256=PXxS5ZwrueE88Fwi9WHmYM0KyXoWNBz7x6UXgizkJZQ,38648
+persephone/grids/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persephone/grids/templates/default_gyre.in,sha256=lEVI7li9ojhbuQbhLFk-xTS-5_BNKKJrmRucAMcuQGQ,1322
+persephone/grids/templates/empty_inlist,sha256=rBinipg9-92HIGiKYyAOfFno7mqksCcXS_c5ECbFy3A,150
+persephone/grids/templates/kernel_example_gyre.in,sha256=ffAbwTw_LinLPZWiuh5jwIIZVM0UJB0pmU7bk-cpp6k,1296
+persephone/kernels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+persephone/kernels/rotation/__init__.py,sha256=00BA4jwW7F8rXSVoJCt8auAsS4pNGzFiGWUjluAZXvE,23
+persephone/kernels/rotation/kernels.py,sha256=O83YvWSMuvnn5yW79avP4HOhJrv_qC4krSIu52t6bvY,10783
+star_persephone-0.1.dist-info/LICENSE,sha256=8wSyT0mkK7Af2pbuoqqVsbtIvPvQe4PY0rSd6XDq9H0,21782
+star_persephone-0.1.dist-info/METADATA,sha256=5lg0Boa58CPSVFHmoD21BzcbLRBUD7qy5XI4VPefBpQ,29021
+star_persephone-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+star_persephone-0.1.dist-info/top_level.txt,sha256=zAsPFWKaOFhFtrIv1gP3j8oxUQKqPbLQAAUkIcVmsNY,11
+star_persephone-0.1.dist-info/RECORD,,
