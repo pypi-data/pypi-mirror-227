@@ -1,0 +1,70 @@
+[tool.poetry]
+name = "shuncommands"
+version = "1.0.10"
+description = "mypaceshun usefull commands"
+authors = ["KAWAI Shun <mypaceshun@gmail.com>"]
+maintainers = ["KAWAI Shun <mypaceshun@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mypaceshun/shuncommands"
+repository = "https://github.com/mypaceshun/shuncommands"
+keywords = ["python", "click"]
+packages = [
+  {include = 'shuncommands/'}
+]
+include = ["CHANGELOG.md"]
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
+isort = "^5.12.0"
+autoflake = "^2.2.0"
+pyproject-flake8 = "^6.0.0.post1"
+black = "^23.7.0"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = 'git'
+style = 'pep440'
+
+[tool.poetry.dependencies]
+python = ">=3.8.1, <4.0"
+click = "^8.1.7"
+gitignore-parser = "^0.1.6"
+pikepdf = {version = "^8.4.0", extras = ["pdf"]}
+pdfminer-six = {version = "^20221105", extras = ["pdf"]}
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.16.0"
+git-changelog = "^0.5.0"
+
+[tool.poetry.scripts]
+rmtmp = "shuncommands.rmtmp:ctx"
+pdftool = "shuncommands.pdftool:ctx"
+
+[tool.poe.tasks.changelog]
+cmd = "git-changelog -o CHANGELOG.md .git"
+
+[tool.poe.tasks.lint]
+cmd = "pflake8 shuncommands/ tests/"
+
+[tool.poe.tasks.format]
+sequence = [
+  { cmd = "autoflake -ir --remove-all-unused-imports --remove-unused-variables --ignore-init-module-imports shuncommands/ tests/" },
+  { cmd = "isort --profile black shuncommands/ tests/" },
+  { cmd = "black shuncommands/ tests/" }
+]
+[tool.poe.tasks.test]
+cmd = "pytest --cov shuncommands/ --cov-report=html tests/"
+
+[tool.poe.tasks.citest]
+cmd = "pytest --cov shuncommands/ --cov-report=xml tests/"
+
+[tool.flake8]
+max-line-length = 88
+ignore = "E203,W503,W504"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
