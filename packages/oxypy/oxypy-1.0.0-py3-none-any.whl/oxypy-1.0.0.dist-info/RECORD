@@ -1,0 +1,13 @@
+oxypy/__init__.py,sha256=az65ADKSwPDK6SVwtt50A0A0OdlNLZOTZW1dOlyafog,341
+oxypy/default.py,sha256=iQSZneCWq8ff0zfqwrPkme89I53Q8JIWz5f8iU1NPjE,309
+oxypy/either.py,sha256=PCXFZQAJUXiLkrJvofK-_L8QKGNPqCAm6xaxLFJiBxk,7922
+oxypy/option.py,sha256=Io8-tuC0LqanPWAOtooCTZDYTepsdDUJLkT_y_0rWHA,11113
+oxypy/panic.py,sha256=6DiW7OGSjPX14MUr6K43rKv4v_yoDtNq_mmIWOwEdfE,572
+oxypy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oxypy/result.py,sha256=ivKeWTKkE37LaG3qcmgdo7rZrqLd_vP_X_kDXkCjpfI,8245
+oxypy/utils.py,sha256=vzhI-OyreVdej3BNdSZrpjp44-Rf88FSmcTMHu0RTso,201
+oxypy-1.0.0.dist-info/LICENSE.txt,sha256=6YuUxY0f3abHlzjHPyKGqTCS9O9zJf3EVWhhy_WH008,1089
+oxypy-1.0.0.dist-info/METADATA,sha256=qJ9vUgLp6avrJOYW3J18_u_CBzsGIrJSNl-WRG4-IOU,2244
+oxypy-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+oxypy-1.0.0.dist-info/top_level.txt,sha256=PtlZRK76Wp3ujitdsKNkAw4_B0dgLaUdoM0hp9KB1ow,6
+oxypy-1.0.0.dist-info/RECORD,,
