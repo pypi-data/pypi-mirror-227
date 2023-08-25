@@ -1,0 +1,10 @@
+LICENSE
+README.md
+mp3metadata.py
+pyproject.toml
+setup.py
+mp3metadata.egg-info/PKG-INFO
+mp3metadata.egg-info/SOURCES.txt
+mp3metadata.egg-info/dependency_links.txt
+mp3metadata.egg-info/requires.txt
+mp3metadata.egg-info/top_level.txt
