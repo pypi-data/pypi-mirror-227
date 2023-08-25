@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: newmonkey
+Version: 1.0.0
+Summary: cli tool to convert your discord cache back to the original files
+Author: CallMePixelMan
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: python-magic>=0.4.27
+Description-Content-Type: text/markdown
+
+# newmonkey
