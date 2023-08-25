@@ -1,0 +1,14 @@
+tstrait/__init__.py,sha256=HtF6JCGvy4l0_a4PIaHyZ2MwDtgP4JQ6nBdQpGLLS1A,1045
+tstrait/_version.py,sha256=jnHBnNg7-skaMI1v56JKo1wmMJYGAfU02WoBa3ve6nw,162
+tstrait/base.py,sha256=_PQxnkzY9m5eehmpih-bSIS2zBgZq7ELkoI113jD--E,2211
+tstrait/genetic_value.py,sha256=X3LTg4Jlg0kTbDs5dyh3omHZ1M7BdXTVyGPwc0QWXDw,10534
+tstrait/provenance.py,sha256=vBH_sTpguazkw4mh7phdVMU7TDlOhJYlYFsAdIdea2c,162
+tstrait/simulate_effect_size.py,sha256=74XMdVSNsQvwmFNSpJp-h5v7hphiNIv0MI_Zzs5taIg,4304
+tstrait/simulate_environment.py,sha256=J1jBitVlIurHrYJ6T6OxDszzR4oGir3VV7JiPeX1HI8,3999
+tstrait/simulate_phenotype.py,sha256=fDvJ2WwHhJ6-qUEVlYCVtfbyoFYZX47TtYbZPhV7ix0,3843
+tstrait/trait_model.py,sha256=-cAmAFEetRBu0eLwruI2C4RvP5v6MjR82u9YruGIrJg,16099
+tstrait-0.0.1a2.dist-info/LICENSE,sha256=4sABGInDg4E70MoVrbUO8OP2nP-lhW34Ps4gsAeE8-s,1073
+tstrait-0.0.1a2.dist-info/METADATA,sha256=hqzqBHqus7elL99W9MhtGMiA8IqBPAAAJjsUH3sk5S4,2312
+tstrait-0.0.1a2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tstrait-0.0.1a2.dist-info/top_level.txt,sha256=QXK8XZnCBPGKtcbkXvIKYFy9rEdcZQ13gEPezIXJKzM,8
+tstrait-0.0.1a2.dist-info/RECORD,,
