@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: robot-arm-controller
+Version: 0.1.6
+Summary: Robot arm controller
+Author-email: alberto-abarzua <aabarzua@palvi.cl>
+License: MIT
+Project-URL: Source Code, https://github.com/alberto-abarzua/Robot-Arm-Control
+Keywords: robot,arm,controller
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Robot arm controller
+
