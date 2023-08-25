@@ -1,0 +1,21 @@
+[project]
+name = "samdasoo-content"
+version = "0.1.0"
+description = "Let me tell you about Samdasoo, Korea's representative bottled water."
+authors = [
+    { name = "dmario24", email = "data.mario24@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
