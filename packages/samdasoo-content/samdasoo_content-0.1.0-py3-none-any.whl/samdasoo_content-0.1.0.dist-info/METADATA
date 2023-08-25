@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: samdasoo-content
+Version: 0.1.0
+Summary: Let me tell you about Samdasoo, Korea's representative bottled water.
+Author-Email: dmario24 <data.mario24@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# samdasoo-content
