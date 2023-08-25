@@ -1,0 +1,12 @@
+README.md
+setup.py
+comp_sensing/__init__.py
+comp_sensing/combine_features.py
+comp_sensing/scatter_plot.py
+comp_sensing/sisso.py
+comp_sensing/visualizer.py
+comp_sensing.egg-info/PKG-INFO
+comp_sensing.egg-info/SOURCES.txt
+comp_sensing.egg-info/dependency_links.txt
+comp_sensing.egg-info/requires.txt
+comp_sensing.egg-info/top_level.txt
