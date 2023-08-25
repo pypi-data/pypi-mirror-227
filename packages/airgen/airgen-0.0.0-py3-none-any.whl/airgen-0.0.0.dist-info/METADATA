@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: airgen
+Version: 0.0.0
+Summary: Aerial robotics simulator
+Home-page: https://scaledfoundations.ai
+Author: Scaled Foundations
+Author-email: info@scaledfoundations.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: opencv-contrib-python
+Requires-Dist: msgpack (>=1.0.0)
+
+# Python API for airgen
+
