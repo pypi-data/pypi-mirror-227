@@ -1,0 +1,13 @@
+ecriture_shopify/__init__.py,sha256=Ay6euI1fURn2n9ZDY9XyDguSDDu2-abiJRxcRF5eNhs,120
+ecriture_shopify/config/config_seuil_tva.json,sha256=Nhz4c_MDjj0vEz7FTVAxSQegRxb-gOnTN8PjPB8Fjd0,111
+ecriture_shopify/config/config_tva_par_pays.xlsx,sha256=dWV5D17nbKeiAoVDKHHo7Q_zbxflIXY1E9wPqra6aaE,7816
+ecriture_shopify/core_ecriture_tva.py,sha256=fnaQ-M_Qs9LHz0B7fpN5peoVhaFHV_4sGWhxX_WjNTY,5070
+ecriture_shopify/create_xlsx.py,sha256=auYPnZtLv92floF3-lv_4BdwFcZeSCrhnYThshREoqY,3465
+ecriture_shopify/load_and_clean.py,sha256=UINx1C7tO4-8oTgRqza75uRrgYMi1hAjwJb5sKlVCbE,2917
+ecriture_shopify/main.py,sha256=l9ExZtjwQUqy2jFZ-JFAzo7u9il8wSsAsbKWwemqCy0,2363
+ecriture_shopify/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ecriture_shopify/tools/read_config.py,sha256=t_kD7BD-At91DzrxllCPcuNEkFRPHf1Bcy-Uhv27-4U,790
+ecriture_shopify-1.0.1.dist-info/LICENSE,sha256=JSgRKnSxtSj_-6cOmmvoBeiJzl9ZP0k-2iM-f42pIqM,32175
+ecriture_shopify-1.0.1.dist-info/METADATA,sha256=94I0c9196tpgHIKn42tREq68Vvcb5DXBD19CkAaFxkM,3436
+ecriture_shopify-1.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ecriture_shopify-1.0.1.dist-info/RECORD,,
