@@ -1,0 +1,6 @@
+setup.py
+asma_bmi.egg-info/PKG-INFO
+asma_bmi.egg-info/SOURCES.txt
+asma_bmi.egg-info/dependency_links.txt
+asma_bmi.egg-info/top_level.txt
+code/__init__.py
