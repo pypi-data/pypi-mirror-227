@@ -1,0 +1,2 @@
+[console_scripts]
+howmuch = howmuch.HowMuch:main
