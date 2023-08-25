@@ -1,0 +1,5 @@
+setup.py
+Aicloudlp.egg-info/PKG-INFO
+Aicloudlp.egg-info/SOURCES.txt
+Aicloudlp.egg-info/dependency_links.txt
+Aicloudlp.egg-info/top_level.txt
