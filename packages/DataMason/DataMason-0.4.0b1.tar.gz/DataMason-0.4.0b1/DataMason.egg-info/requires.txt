@@ -1,0 +1,13 @@
+Flask
+matplotlib
+networkx
+nltk
+numpy
+pandas
+Pillow>=8.1.0
+scikit-learn
+scikit-image
+scipy
+seaborn
+statsmodels
+tensorflow
