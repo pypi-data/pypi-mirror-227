@@ -1,0 +1,17 @@
+ipykernel
+scipy
+h5py
+matplotlib
+nibabel 
+SimpleITK 
+scikit-learn
+torch
+torchkbnufft
+kornia
+ismrmrd
+fbpca
+tqdm
+jsonpickle
+numpy==1.20.0
+sphinx 
+sphinx_rtd_theme
