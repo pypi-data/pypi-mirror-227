@@ -1,0 +1,2 @@
+[console_scripts]
+make-language-server = make_language_server.__main__:main
