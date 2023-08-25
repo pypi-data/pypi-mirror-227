@@ -1,0 +1,9 @@
+newmonkey-1.0.0.dist-info/METADATA,sha256=G1CXcRd4nn2Itv1AubyTql0XfTVL-arr-nAKKikwa5g,276
+newmonkey-1.0.0.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+newmonkey-1.0.0.dist-info/entry_points.txt,sha256=ZWgT_ElxsXoQC515lwKgEHXEHEiiowSgyixCgWDE9Do,51
+newmonkey/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+newmonkey/__main__.py,sha256=jHksTyJmTmsD8CihqAS-7ow24k0RytLxaOSvr3dZ2_U,78
+newmonkey/cli.py,sha256=DedlNiEQ4MjgivAQ-ZIWjzszDKvZgrO_S7xui1pp3z0,1591
+newmonkey/main.py,sha256=qrLYXB3HeFazrJ5jV0qUiYHtxiW6VrB-4qik5I0OSu4,1113
+newmonkey/parsing.py,sha256=vutmjZ7v0reV9M_JOHUwTKXi39Y6-HbZHgxK2Fie1Rc,6495
+newmonkey-1.0.0.dist-info/RECORD,,
