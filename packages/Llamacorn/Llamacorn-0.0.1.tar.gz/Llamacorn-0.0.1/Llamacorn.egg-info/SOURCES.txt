@@ -1,0 +1,5 @@
+setup.py
+Llamacorn.egg-info/PKG-INFO
+Llamacorn.egg-info/SOURCES.txt
+Llamacorn.egg-info/dependency_links.txt
+Llamacorn.egg-info/top_level.txt
