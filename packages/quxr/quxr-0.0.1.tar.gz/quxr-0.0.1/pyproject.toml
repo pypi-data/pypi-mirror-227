@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "quxr"
+version = "0.0.1"
+description = "This package contains methods used in Quantitive UX Research"
+authors = ["Mason Sun <masonzsun@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
