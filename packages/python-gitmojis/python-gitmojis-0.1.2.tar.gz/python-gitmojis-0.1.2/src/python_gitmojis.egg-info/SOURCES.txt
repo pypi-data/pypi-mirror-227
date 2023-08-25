@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/gitmojis/__init__.py
+src/gitmojis/core.py
+src/gitmojis/exceptions.py
+src/gitmojis/helpers.py
+src/gitmojis/typing.py
+src/python_gitmojis.egg-info/PKG-INFO
+src/python_gitmojis.egg-info/SOURCES.txt
+src/python_gitmojis.egg-info/dependency_links.txt
+src/python_gitmojis.egg-info/requires.txt
+src/python_gitmojis.egg-info/top_level.txt
+tests/test_core.py
+tests/test_helpers.py
+tests/test_package.py
