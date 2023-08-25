@@ -1,0 +1,2 @@
+[zops.plugins]
+main = zops.aws.cli:main
