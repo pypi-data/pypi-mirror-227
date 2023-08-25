@@ -1,0 +1,2 @@
+include src/persephone/grids/templates/*inlist*
+include src/persephone/grids/templates/*.in
