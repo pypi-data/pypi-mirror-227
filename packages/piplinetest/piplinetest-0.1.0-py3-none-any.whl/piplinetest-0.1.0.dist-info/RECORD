@@ -1,0 +1,7 @@
+piplinetest/__init__.py,sha256=Y6xsA1gvh-1o-3bvAsrsc4m8JqzdamFuJzUgjpYFWL8,47
+piplinetest/base.py,sha256=wIKe_PZhTGq7EnWazvHkeY_IDepnX9qGheNIB60cbR8,3166
+piplinetest/http_request.py,sha256=rNklm-nyI4ANKl7eFFyXNYmpkGlpAshbNRH5wT6pGWM,371
+piplinetest/import_utils.py,sha256=90Lt6sIswjb3seq21oimy6p_1LPWAgrM0OZ_bvY1X70,171
+piplinetest-0.1.0.dist-info/METADATA,sha256=BgVkNsaWMK8LpWDRXQT6mx7vBQHPb78T93snqj65RTo,325
+piplinetest-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+piplinetest-0.1.0.dist-info/RECORD,,
