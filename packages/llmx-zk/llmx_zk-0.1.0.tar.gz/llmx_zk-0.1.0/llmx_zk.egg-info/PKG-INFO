@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: llmx-zk
+Version: 0.1.0
+Summary: Added azure GPT to the original foundation
+Keywords: python,linux,llm,windows
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
