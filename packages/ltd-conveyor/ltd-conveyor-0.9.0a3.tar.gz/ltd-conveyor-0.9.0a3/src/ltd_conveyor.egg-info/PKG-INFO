@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: ltd-conveyor
+Version: 0.9.0a3
+Summary: LSST the Docs admin client.
+License: MIT License
+        
+        Copyright 2016-2020 Association of Universities for Research in Astronomy, Inc. (AURA)
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://ltd-conveyor.lsst.io
+Project-URL: Source, https://github.com/lsst-sqre/ltd-conveyor
+Keywords: rubin,lsst
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE
+
+#######################
+LSST the Docs: Conveyor
+#######################
+
+.. image:: https://img.shields.io/pypi/v/ltd-conveyor.svg
+   :target: https://pypi.python.org/pypi/ltd-conveyor
+   :alt: Python Package Index
+.. image:: https://github.com/lsst-sqre/ltd-conveyor/workflows/Python%20CI/badge.svg
+   :target: https://github.com/lsst-sqre/ltd-conveyor/actions?query=workflow%3A%22Python+CI%22
+   :alt: GitHub Actions
+.. image:: https://img.shields.io/badge/ltd--conveyor-lsst.io-brightgreen.svg
+   :target: https://ltd-conveyor.lsst.io
+   :alt: Documentation
+
+**Conveyor** is a common Python library and command-line app for LSST the Docs (LTD) services and clients.
+
+Key features:
+
+- ``ltd`` command-line app.
+
+  The ``ltd upload`` subcommand makes it easy to integrate documentation uploads with continuous integration jobs, particularly Travis CI.
+
+- The ``ltdconveyor`` Python package provides APIs for working with LSST the Docs.
+
+  ``ltdconveyor.s3`` subpackage provides S3 object management services.
+  All documentation hosted by LTD is served through the `Fastly CDN <https://www.fastly.com>`_, which uses S3 object metadata to purge caches.
+  Conveyor ensures that this metadata is properly set by all clients and microservices that upload, copy, or delete objects from S3.
+
+  ``ltdconveyor.fastly`` provides Fastly cache management APIs.
+
+  ``ltdconveyor.keeper`` provides APIs for working with LTD Keeper's REST API.
+
+You can learn more about LTD in our `SQR-006 <https://sqr-006.lsst.io>`_ technote.
+
+**Read the docs:** https://ltd-conveyor.lsst.io
