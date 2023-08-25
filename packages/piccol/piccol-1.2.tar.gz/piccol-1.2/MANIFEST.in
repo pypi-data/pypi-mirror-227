@@ -1,0 +1,6 @@
+graft foreign-licenses
+graft maintenance
+include COPYING
+include piccol.cmd
+include README.md
+include README.html
