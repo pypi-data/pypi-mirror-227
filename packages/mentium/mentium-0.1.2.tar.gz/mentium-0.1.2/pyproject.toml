@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mentium"
+version = "0.1.2"
+description = ""
+authors = ["Matthieu B. <matthieu@mentium.io>"]
+readme = "README.md"
+packages = [{include = "mentium", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.9"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
