@@ -1,0 +1,17 @@
+make_language_server/__init__.py,sha256=rMKx7H96TzrjRu1d4Zqki-uDwnunDNcbT3KXPH5PcWU,403
+make_language_server/__main__.py,sha256=eTPIUnXA36sHnNHgJnjcixSXciXvCZ6QZQfrN-6Zh_A,1087
+make_language_server/_metainfo.py,sha256=ep0BLVYoX15gwWsuG3xTSNheVxP4KuwJ4HEuD5GXsjo,588
+make_language_server/_version.py,sha256=ecxYgYmVW6voOj3t8NqL_62765FAcc-gUSyum7oXnIg,160
+make_language_server/api.py,sha256=qSpOLE1Ja_54C9l-Xj41P8YGXiGFEluQj2IKqJZk57U,2490
+make_language_server/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+make_language_server/server.py,sha256=sNyAHuj4U_YF71vn80z0H-IIfP6Anap297l_AtSsbtE,5239
+make_language_server/assets/json/make.json,sha256=nnkVZ1T63x6zsiJerI7ykUx2G11UI_tSHFLYrm9C7vc,67096
+make_language_server-0.0.3.data/data/share/bash-completion/completions/make-language-server,sha256=y9tvcgEXp_NtUcYEXDILK37RWm0UY1wx7ivL5q6-47M,4037
+make_language_server-0.0.3.data/data/share/man/man1/make-language-server.1,sha256=JE98uJ6-ijDSpOM3-qPZU6unCOpcw_Zdfrt4Zqdmcjk,427
+make_language_server-0.0.3.data/data/share/zsh/site-functions/_make-language-server,sha256=mmCS_euQdFGR0AU4p9D9t9LhkNLZPfcNtY6GVsQSIZI,1198
+make_language_server-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+make_language_server-0.0.3.dist-info/METADATA,sha256=nJVKlCya60DJylu3jT0whYnjc54ZpiPRzWNKTp6ufEw,7155
+make_language_server-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+make_language_server-0.0.3.dist-info/entry_points.txt,sha256=oLIf-2H1q5Ask4_p2cq2eJGSliPPRgrO1l4j-QPvsAU,76
+make_language_server-0.0.3.dist-info/top_level.txt,sha256=xQE6TZQRl9rToJ0T1OAEuRFJwxwlAGB40O7Sof_iMeU,21
+make_language_server-0.0.3.dist-info/RECORD,,
