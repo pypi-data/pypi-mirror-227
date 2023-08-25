@@ -1,0 +1,2 @@
+[console_scripts]
+thppred = thppred.python_scripts.thppred:main
