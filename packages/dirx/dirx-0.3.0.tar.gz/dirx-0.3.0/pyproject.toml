@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "dirx"
+version = "0.3.0"
+description = ""
+license = "MIT"
+authors = ["Alexis Beaulieu <alexisbeaulieu@protonmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/alexisbeaulieu97/dirx"
+repository = "https://github.com/alexisbeaulieu97/dirx"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = { extras = ["all"], version = "^0.9.0" }
+watchdog = "^3.0.0"
+pydantic = "^2.3.0"
+pydantic-settings = "^2.0.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = ["dirx/__init__.py:__version__"]
+version_toml = ["pyproject.toml:tool.poetry.version"]
+branch = "main"
+upload_to_repository = true
+
+[tool.pylama]
+skip = "*/__init__.py"
+max_line_length = 120
+
+[tool.poetry.scripts]
+dirx = "dirx.cli:main"
+dirx-gui = "dirx.gui:main"
