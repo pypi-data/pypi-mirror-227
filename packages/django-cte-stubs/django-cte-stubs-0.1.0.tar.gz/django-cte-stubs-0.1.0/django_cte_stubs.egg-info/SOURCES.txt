@@ -1,0 +1,14 @@
+README.md
+setup.py
+django_cte-stubs/__init__.pyi
+django_cte-stubs/cte.pyi
+django_cte-stubs/expressions.pyi
+django_cte-stubs/join.pyi
+django_cte-stubs/meta.pyi
+django_cte-stubs/query.pyi
+django_cte-stubs/raw.pyi
+django_cte_stubs.egg-info/PKG-INFO
+django_cte_stubs.egg-info/SOURCES.txt
+django_cte_stubs.egg-info/dependency_links.txt
+django_cte_stubs.egg-info/requires.txt
+django_cte_stubs.egg-info/top_level.txt
