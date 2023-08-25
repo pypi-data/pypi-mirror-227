@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: flexible_dict
+Version: 1.1.6
+Summary: A flexible way to access dict data instead of built-in dict.
+Author-email: darkpeath <darkpeath@gmail.com>
+Project-URL: Homepage, https://github.com/darkpeath/flexible_dict
+Description-Content-Type: text/markdown
