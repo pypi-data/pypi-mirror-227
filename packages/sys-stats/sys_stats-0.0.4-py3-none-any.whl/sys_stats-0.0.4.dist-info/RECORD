@@ -1,0 +1,14 @@
+sysstats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sysstats/app_server.py,sha256=LLx1TlT_loDRrNAFDdt-XtqecAFl328jlfJl5xaDgOw,3187
+sysstats/sysstats_cli.py,sha256=N7BIax4xbkMlOj9EmeuG5Eiw3iG5nErQKh3XI7fEw04,1196
+sysstats/routes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sysstats/routes/stats.py,sha256=9wCF5sWwfn-wL02V4ExUDu6F3e7FcntEC5c7rXbrCF0,4110
+sysstats/templates/index.html,sha256=fgVfIpXE7xt7GjdAkS7DrQBH_Ewr1WtFN3rlpeDCSSc,11772
+sysstats/templates/index.js,sha256=q9VXVjhZwbjEb_81HsOwVCTmv_99qmk8G4RVnFWVBXc,64
+sysstats/templates/style.css,sha256=-y6V97IxznMC8mAHIKhBckLZ7XAMCyNSjJNejIY3KgA,428
+sys_stats-0.0.4.dist-info/LICENSE,sha256=VMwMeYKBLO8tmR3SrSeqEaLHTOHUzO3gOfNST3KhyAM,1071
+sys_stats-0.0.4.dist-info/METADATA,sha256=Lh45nmi3p-sYlXYg2inVzoaPmt3YLm_UZnpo3jf1Sbo,613
+sys_stats-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sys_stats-0.0.4.dist-info/entry_points.txt,sha256=_rIg2lUbjExuGtxTxNgJxigbzAdB_TM63SQzMgbdc2I,57
+sys_stats-0.0.4.dist-info/top_level.txt,sha256=C4rcLhKF5iV8l7nvb5I9BJkwNjrwIku_C8UGV8_W_jE,9
+sys_stats-0.0.4.dist-info/RECORD,,
