@@ -1,0 +1,21 @@
+# Alsa GRPC Client
+Small library that allows real-time volume control of ALSA devices
+
+### Example Usage
+Note: Server must be running at `<host>`
+```python
+from alsa_grpc_client import AlsaClient
+from time import sleep
+
+def on_connect(ctrl):
+    print('Connected to', ctrl.card, ctrl.name, ctrl.volume)
+    ctrl.subscribe(lambda: print('Received volume update for', ctrl.name, ctrl.volume))
+
+client = AlsaClient('<host>', 50051, on_connect)
+client.connect()
+sleep(1)
+for name, ctrl in client.controls.items():
+    ctrl.set_volume(.5)
+sleep(1)
+client.disconnect()
+```
