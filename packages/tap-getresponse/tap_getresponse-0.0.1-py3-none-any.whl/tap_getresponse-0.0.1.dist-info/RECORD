@@ -1,0 +1,9 @@
+tap_getresponse/__init__.py,sha256=jmj27nPPi00PsSop85jBv6hPuxevUci3P5YkniikqmY,27
+tap_getresponse/client.py,sha256=a3KHXkZtqs4z906ZtR5GA72QB6CApsAwKIG-9JW5gIM,4684
+tap_getresponse/streams.py,sha256=_QEyrafBL4soVK4s0LCU2M2xR4ChYx7dwFFSEIJyhKY,4118
+tap_getresponse/tap.py,sha256=2zo27aph8dZv8_PlncyrTNYbNK7bYGHrEXbJj8VJtPo,970
+tap_getresponse-0.0.1.dist-info/LICENSE,sha256=oetStf8DaKHUpq6-rl6FZN8ElrF6RanDfvpd59KsZvw,11343
+tap_getresponse-0.0.1.dist-info/METADATA,sha256=M1b1sNTa8-_MgBBar5Knas1lfwXPDeWNtAork6KQa3k,3932
+tap_getresponse-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tap_getresponse-0.0.1.dist-info/entry_points.txt,sha256=ltMsrc9easXTPefsdHd8ntxuMFJQs-REaaEJ5Cn6NsE,74
+tap_getresponse-0.0.1.dist-info/RECORD,,

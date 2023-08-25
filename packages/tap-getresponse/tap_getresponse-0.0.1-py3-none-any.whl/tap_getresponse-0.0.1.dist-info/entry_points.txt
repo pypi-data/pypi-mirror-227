@@ -1,0 +1,3 @@
+[console_scripts]
+tap-getresponse=tap_getresponse.tap:TapGetResponse.cli
+
