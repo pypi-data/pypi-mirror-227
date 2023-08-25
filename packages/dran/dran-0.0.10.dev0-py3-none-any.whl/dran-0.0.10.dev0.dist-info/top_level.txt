@@ -1,0 +1,7 @@
+_auto
+_docs
+cli_ops
+common
+gui
+inits
+src/*
