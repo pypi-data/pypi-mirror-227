@@ -1,0 +1,35 @@
+[project]
+name = "pyself"
+version = "1.0.0"
+description = "A python interface for the Spectral Element Library in Fortran"
+authors = [
+    { name = "Joe Schoonover", email = "joe@fluidnumerics.com" },
+    { name = "Dr. Joe Schoonover", email = "joe@fluidnumerics.com" },
+]
+dependencies = [
+    "dask",
+    "h5py>=3.7.0",
+    "pyvista",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Science/Research",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+]
+
+[project.license]
+text = "Researcher Software License"
+
+[project.urls]
+Homepage = "https://github.com/fluidnumerics/pyself"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
