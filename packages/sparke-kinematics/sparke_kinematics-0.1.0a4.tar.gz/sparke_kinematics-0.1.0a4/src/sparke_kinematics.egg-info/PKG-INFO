@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sparke-kinematics
+Version: 0.1.0a4
+Summary: Inverse and Forward Kinematics Solvers for Sparke Robot
+Home-page: https://github.com/Infinite-Echo/sparkeKinematics
+Author: Colin Fuelberth
+Author-email: colin.fuelberth@icloud.com
+License: MIT License
+Keywords: sparke,sparke_kinematics,kinematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SPARKE Kinematics 
+Submodule for the SPARKE project (https://github.com/Infinite-Echo/sparke) containing forward and inverse kinematics.
