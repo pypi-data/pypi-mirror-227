@@ -1,0 +1,22 @@
+emoji
+requests
+
+[:python_version < "3.8"]
+urllib3<2
+
+[coverage]
+coverage
+
+[dev]
+nox
+pre-commit
+
+[lint]
+black
+mypy
+ruff
+types-requests
+
+[test]
+pytest
+pytest-mock

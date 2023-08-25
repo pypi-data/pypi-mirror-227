@@ -1,0 +1,176 @@
+Metadata-Version: 2.1
+Name: python-gitmojis
+Version: 0.1.0
+Summary: 🐍 A small package to apply and manage Gitmojis in your projects 😜
+Author-email: Kamil Paduszyński <paduszyk@gmail.com>
+Maintainer-email: Kamil Paduszyński <paduszyk@gmail.com>
+Project-URL: Homepage, https://github.com/paduszyk/python-gitmojis
+Project-URL: Documentation, https://github.com/paduszyk/python-gitmojis#readme
+Project-URL: Repository, https://github.com/paduszyk/python-gitmojis
+Project-URL: Issue Tracker, https://github.com/paduszyk/python-gitmojis/issues
+Keywords: python,gitmojis
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: lint
+Provides-Extra: test
+Provides-Extra: coverage
+License-File: LICENSE
+
+# python-gitmojis
+
+[![](https://results.pre-commit.ci/badge/github/paduszyk/python-gitmojis/master.svg)](https://results.pre-commit.ci/latest/github/paduszyk/python-gitmojis/master)
+[![](https://img.shields.io/github/actions/workflow/status/paduszyk/python-gitmojis/ci.yaml?label=CI&logo=github)](https://github.com/paduszyk/python-gitmojis/actions/workflows/ci.yaml)
+[![](https://img.shields.io/codecov/c/github/paduszyk/python-gitmojis?logo=codecov&label=codecov)](https://codecov.io/gh/paduszyk/python-gitmojis)
+
+[![](https://img.shields.io/badge/%F0%9F%A6%8A-Nox-D85E00.svg)](https://github.com/wntrblm/nox)
+[![](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![](https://img.shields.io/badge/code%20style-black-black)](https://github.com/wntrblm/nox)
+[![](https://img.shields.io/badge/type%20checked-mypy-blue)](https://mypy.readthedocs.io/)
+[![](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg)](https://gitmoji.dev)
+
+> The *Gitmoji* project was originally proposed, developed, and maintained by Carlos Cuesta ([@carloscuesta](https://github.com/carloscuesta)). To read more, see the official [repository](https://github.com/carloscuesta/gitmoji) and [website](https://gitmoji.dev) of the project.
+
+The term *Gitmoji* refers to a popular framework for marking commit and pull request messages with carefully selected emojis to indicate the type of changes those commits and PRs introduce to software projects.
+
+The still-growing popularity of the *Gitmoji* guide is reflected in the numerous packages and libraries related to that idea, including a variety of programming languages. The main purpose of the `python-gitmojis` package is to provide a handy way of managing available *Gitmojis* (as well as the new ones) in other Python libraries. We believe that the package may be useful in projects related to versioning and automatic changelog generators, for example, [Commitizen](https://github.com/commitizen-tools/commitizen) plugins, [Python Semantic Release](https://github.com/python-semantic-release/python-semantic-release), or automation tools for validating commit messages and pull request titles (like [Pull Request Title Checker](https://github.com/thehanimo/pr-title-checker/tree/v1.4.0/)).
+
+## Installation
+
+To install `python-gitmoji`, use `pip`:
+
+```console
+$ pip install python-gitmoji
+```
+
+or any other dependency manager you like.
+
+## Usage
+
+The package provides two main functionalities, namely, the `Gitmoji` class and the `gitmojis` constant, representing a simple framework for defining custom *Gitmojis* and the current state of the official [Gitmoji API](https://github.com/carloscuesta/gitmoji/tree/master/packages/gitmojis#api), respectively.
+
+Both of the objects can be imported directly from the `gitmojis` module:
+
+```python
+from gitmojis import Gitmoji, gitmojis
+```
+
+### `Gitmoji` class
+
+The `Gitmoji` class can be used like a regular Python's `dataclass` (see [PEP 557](https://peps.python.org/pep-0557/)):
+
+```python
+dependabot_gitmoji = Gitmoji(
+    emoji="🤖",
+    code=":robot:",
+    description="Add or update Dependabot configuration.",
+    name="robot",
+    semver=None,
+)
+```
+
+In the example above, all the implemented fields are accounted for. Their meaning is as follows:
+
+- `emoji`: the actual emoji character representing the `Gitmoji` object;
+- `code`: code used in the GitHub markdown language (see the official [GitHub API](https://docs.github.com/en/rest/emojis), or the unofficial [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet));
+- `description`: a short description of the type of change the emoji associated with an object represents;
+- `name`: text identifier of the `Gitmoji` object;
+- `semver`: the level of the [Semantic Versioning](https://semver.org) affected by the changes marked with the *Gitmoji* represented by the object.
+
+> Note that only `name` and `semver` fields are optional.
+
+Furthermore, to ensure consistency between custom and native *Gitmojis*, extra post-init validation checks are applied for each field as the object is created:
+
+| Field | Validation |
+| --- | --- |
+| `emoji` | must be a valid emoji; this is validated by using the `is_emoji` checker provided in [`emoji`](https://github.com/carpedm20/emoji/) package |
+| `code` | must start and end with a colon, whereas the string between colons must be one of the valid emoji names used in the GitHub markdown language (accessed by the [GitHub API](https://docs.github.com/en/rest/emojis)) |
+| `description` | must start with a capital letter and end with a period |
+| `name` | must be the same as `code`, but with no colons and underscores replaced by dashes; may be `None` as well (by default) &ndash; then it's autogenerated based on the `code`
+| `semver` | must be a string (`"major"`, `"minor"`, `"patch"`), member of `gitmojis.typing.SemVerLevel` enum, or `None` (by default) |
+
+If validation fails, `gitmoji.GitmojiFieldValidationError` is raised.
+
+### `gitmojis` constant
+
+The `gitmojis` constant is simply a Python `list` of `Gitmoji` objects created automatically as the package is imported, based on the data available through the official [Gitmoji API](https://github.com/carloscuesta/gitmoji/tree/master/packages/gitmojis#api).
+
+In the case of connection errors or any other issues related to the API response, the *Gitmoji* data are loaded from a local JSON file serving in this project as a backup copy. This [asset](src/gitmoji/assets/gitmojis.json) is simply a copy of the [file](https://github.com/carloscuesta/gitmoji/blob/master/packages/gitmojis/src/gitmojis.json) published along with the original project.
+
+> Pull requests on automation of updates of the local `gitmojis.json` asset are strongly encouraged and welcome.
+
+Gitmoji data is assumed to be saved as a value corresponding to `gitmojis` key in the API response or local JSON. Missing this key raises `GitmojisJsonFormatError`.
+
+## Development and testing
+
+> ⚠️ Before you take any steps to develop the project, take a moment (literally, it's very short) to read out [contribution guidelines](./CONTRIBUTING.md).
+
+In order to precisely reproduce the development environment, use the Python version specified in [`.python-version`](./.python-version). Then, follow the steps listed below:
+
+1. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repo and clone it to your machine.
+
+2. Go to the project's root directory to create the virtual environment and activate it:
+
+```console
+$ python -m venv .venv && . .venv/bin/activate
+```
+
+3. In the virtual environment just created, install the package in an editable mode, along with all the optional dependencies:
+
+```console
+$ pip install -e ".[dev,lint,test,coverage]"
+```
+
+4. Install [Pre-commit](https://pre-commit.com) hooks:
+
+```console
+$ pre-commit install
+```
+
+5. Run linters and testing suite using [Nox](https://github.com/wntrblm/nox):
+
+```console
+$ nox
+```
+
+This will check the code quality with linters as well as run tests in different Python environments starting with Python `3.7`.
+
+> Note that you should have all the versions of the Python installed on your machine. Consider using [`pyenv`](https://github.com/pyenv/pyenv) to work with multiple Python interpreters.
+
+If you want to be more specific, you can only run linters or tests via the respective Nox sessions; for more details see the [Nox documentation](https://nox.thea.codes/en/stable/usage.html#specifying-one-or-more-sessions) and the [Nox configuration file](./noxfile.py). Besides, note that all the linters and testing tools are installed in the virtual environment anyway. Therefore, you are free to use them independently of Nox as well.
+
+6. Check out a new feature branch:
+
+```console
+$ git checkout -b new-feature-branch
+```
+
+7. Introduce changes to the codebase: fix the bugs or implement new features.
+
+> ⚠️ Don't forget to add new tests or update the existing ones to account for the changes you have just made, as well as the respective updates to the documentation.
+
+8. Repeat step 5. If all the Nox sessions are successful, commit your changes and push them.
+
+9. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) from the feature branch of the forked repository (step 6) to the `master` branch of this repository.
+
+## Authors
+
+Created and maintained by [Kamil Paduszyński](https://github.com/paduszyk).
+
+## License
+
+Released under the [MIT License](LICENSE).
