@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+USAGE/USAGE.md
+hactool/__init__.py
+hactool/pyp.py
+hactool.egg-info/PKG-INFO
+hactool.egg-info/SOURCES.txt
+hactool.egg-info/dependency_links.txt
+hactool.egg-info/requires.txt
+hactool.egg-info/top_level.txt
+hactool/module/pick.py
+hactool/module/tabulate.py
