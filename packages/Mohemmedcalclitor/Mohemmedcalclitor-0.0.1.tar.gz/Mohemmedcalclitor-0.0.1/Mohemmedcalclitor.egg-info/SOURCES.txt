@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Mohemmedcalclitor.egg-info/PKG-INFO
+Mohemmedcalclitor.egg-info/SOURCES.txt
+Mohemmedcalclitor.egg-info/dependency_links.txt
+Mohemmedcalclitor.egg-info/top_level.txt
+my cod/__init__.py
