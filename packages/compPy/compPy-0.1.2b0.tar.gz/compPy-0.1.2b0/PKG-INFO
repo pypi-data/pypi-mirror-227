@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: compPy
+Version: 0.1.2b0
+Summary: A package for working with (u)CoMP data.
+Author-email: Richard Morton <richard.morton@northumbria.ac.uk>
+Project-URL: Homepage, https://github.com/Richardjmorton/compPy
+Project-URL: Bug Tracker, https://github.com/Richardjmorton/compPy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package to work with CoMP/uCoMP data.
+
+Package still in development.
