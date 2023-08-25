@@ -1,0 +1,38 @@
+{
+    "services": {
+        "set_system_mode": {
+            "fields": {
+                "duration": {
+                    "name": "\u671f\u9593"
+                },
+                "mode": {
+                    "description": "\u30b5\u30fc\u30e2\u30b9\u30bf\u30c3\u30c8\u3092\u8a2d\u5b9a\u3059\u308b\u30e2\u30fc\u30c9\u3002",
+                    "name": "\u30e2\u30fc\u30c9"
+                },
+                "period": {
+                    "description": "\u65e5\u5358\u4f4d\u306e\u671f\u9593\u3002 Away\u3001DayOff\u3001\u307e\u305f\u306f Custom \u3067\u306e\u307f\u4f7f\u7528\u3055\u308c\u307e\u3059\u3002\u30b7\u30b9\u30c6\u30e0\u306f\u5348\u524d 0 \u6642\u306b\u81ea\u52d5\u306b\u623b\u308a\u307e\u3059 (\u6700\u9577 99 \u65e5\u9593\u3001\u4eca\u65e5\u304c 1 \u65e5\u76ee\u3067\u3059)\u3002",
+                    "name": "\u671f\u9593"
+                }
+            },
+            "name": "\u30b7\u30b9\u30c6\u30e0\u30e2\u30fc\u30c9\u306e\u8a2d\u5b9a"
+        },
+        "set_zone_override": {
+            "description": "\u30be\u30fc\u30f3\u306e\u30bb\u30c3\u30c8\u30dd\u30a4\u30f3\u30c8\u3092\u7121\u671f\u9650\u307e\u305f\u306f\u6307\u5b9a\u3055\u308c\u305f\u671f\u9593\u4e0a\u66f8\u304d\u3057\u3001\u305d\u306e\u5f8c\u306f\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u306b\u5f93\u3046\u3088\u3046\u306b\u623b\u308a\u307e\u3059\u3002",
+            "fields": {
+                "duration": {
+                    "description": "\u3053\u306e\u6642\u9593\u304c\u7d4c\u904e\u3059\u308b\u3068\u3001\u30be\u30fc\u30f3\u306f\u901a\u5e38\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u306b\u623b\u308a\u307e\u3059\u3002 0 \u306e\u5834\u5408\u3001\u5909\u66f4\u306f\u6b21\u306b\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3055\u308c\u305f\u8a2d\u5b9a\u5024\u307e\u3067\u3067\u3059\u3002",
+                    "name": "\u671f\u9593"
+                },
+                "entity_id": {
+                    "description": "Evohome \u30be\u30fc\u30f3\u306eentity_id\u3002",
+                    "name": "\u30a8\u30f3\u30c6\u30a3\u30c6\u30a3"
+                },
+                "setpoint": {
+                    "description": "\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3055\u308c\u305f\u8a2d\u5b9a\u5024\u306e\u4ee3\u308f\u308a\u306b\u4f7f\u7528\u3055\u308c\u308b\u6e29\u5ea6\u3002",
+                    "name": "\u8a2d\u5b9a\u5024"
+                }
+            },
+            "name": "\u30be\u30fc\u30f3\u30aa\u30fc\u30d0\u30fc\u30e9\u30a4\u30c9\u3092\u8a2d\u5b9a\u3059\u308b"
+        }
+    }
+}

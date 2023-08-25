@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "sensor": {
+            "total_consumption": {
+                "name": "\u7dcf\u6d88\u8cbb\u91cf"
+            }
+        }
+    }
+}

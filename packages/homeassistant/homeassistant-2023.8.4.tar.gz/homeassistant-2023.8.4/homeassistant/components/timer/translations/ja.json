@@ -1,0 +1,53 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "\u30bf\u30a4\u30de\u30fc",
+            "state": {
+                "active": "\u30a2\u30af\u30c6\u30a3\u30d6",
+                "idle": "\u30a2\u30a4\u30c9\u30eb",
+                "paused": "\u4e00\u6642\u505c\u6b62"
+            },
+            "state_attributes": {
+                "editable": {
+                    "state": {
+                        "true": "\u306f\u3044"
+                    }
+                }
+            }
+        }
+    },
+    "services": {
+        "cancel": {
+            "description": "\u30bf\u30a4\u30de\u30fc\u3092\u30ad\u30e3\u30f3\u30bb\u30eb\u3057\u307e\u3059\u3002",
+            "name": "\u30ad\u30e3\u30f3\u30bb\u30eb"
+        },
+        "change": {
+            "description": "\u30bf\u30a4\u30de\u30fc\u3092\u5909\u66f4\u3057\u307e\u3059\u3002",
+            "fields": {
+                "duration": {
+                    "description": "\u5b9f\u884c\u4e2d\u306e\u30bf\u30a4\u30de\u30fc\u306b\u52a0\u7b97\u307e\u305f\u306f\u6e1b\u7b97\u3059\u308b\u7d99\u7d9a\u6642\u9593\u3002",
+                    "name": "\u671f\u9593"
+                }
+            },
+            "name": "\u5909\u66f4"
+        },
+        "finish": {
+            "description": "\u30bf\u30a4\u30de\u30fc\u3092\u7d42\u4e86\u3057\u307e\u3059\u3002",
+            "name": "\u5b8c\u4e86"
+        },
+        "pause": {
+            "description": "\u30bf\u30a4\u30de\u30fc\u3092\u4e00\u6642\u505c\u6b62\u3057\u307e\u3059\u3002",
+            "name": "\u4e00\u6642\u505c\u6b62"
+        },
+        "start": {
+            "description": "\u30bf\u30a4\u30de\u30fc\u3092\u958b\u59cb\u3057\u307e\u3059\u3002",
+            "fields": {
+                "duration": {
+                    "description": "\u30bf\u30a4\u30de\u30fc\u304c\u7d42\u4e86\u3059\u308b\u307e\u3067\u306b\u5fc5\u8981\u306a\u6642\u9593\u3002 [\u30aa\u30d7\u30b7\u30e7\u30f3]\u3002",
+                    "name": "\u671f\u9593"
+                }
+            },
+            "name": "\u30b9\u30bf\u30fc\u30c8"
+        }
+    }
+}

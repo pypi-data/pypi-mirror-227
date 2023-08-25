@@ -1,0 +1,162 @@
+{
+    "device_automation": {
+        "trigger_type": {
+            "codelock": "\u30b3\u30fc\u30c9\u30ed\u30c3\u30af\u30b3\u30fc\u30c9\u3092\u53d7\u4fe1\u3057\u307e\u3057\u305f",
+            "fingerprint": "\u6307\u7d0b\u30b3\u30fc\u30c9\u3092\u53d7\u4fe1\u3057\u307e\u3057\u305f(fingerprint code received)",
+            "send_keys": "\u9001\u4fe1\u30ad\u30fc\u3092\u53d7\u4fe1\u3057\u307e\u3057\u305f(send keys received)",
+            "transmitter": "\u9001\u4fe1\u6a5f\u30b3\u30fc\u30c9\u53d7\u4fe1\u3057\u307e\u3057\u305f(transmitter code received)",
+            "transponder": "\u30c8\u30e9\u30f3\u30b9\u30dd\u30f3\u30c0\u30fc\u30b3\u30fc\u30c9\u3092\u53d7\u4fe1"
+        }
+    },
+    "services": {
+        "dyn_text": {
+            "description": "\u30c0\u30a4\u30ca\u30df\u30c3\u30af \u30c6\u30ad\u30b9\u30c8\u3092 LCN-GTxD \u30c7\u30a3\u30b9\u30d7\u30ec\u30a4\u306b\u9001\u4fe1\u3057\u307e\u3059\u3002",
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002",
+                    "name": "\u30a2\u30c9\u30ec\u30b9"
+                },
+                "row": {
+                    "description": "\u30c6\u30ad\u30b9\u30c8\u884c\u3002"
+                }
+            }
+        },
+        "led": {
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002"
+                }
+            }
+        },
+        "lock_keys": {
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002"
+                }
+            }
+        },
+        "lock_regulator": {
+            "name": "\u30ed\u30c3\u30af\u30ec\u30ae\u30e5\u30ec\u30fc\u30bf\u30fc"
+        },
+        "output_abs": {
+            "description": "\u51fa\u529b\u30dd\u30fc\u30c8\u306e\u7d76\u5bfe\u7684\u306a\u660e\u308b\u3055\u3092\u30d1\u30fc\u30bb\u30f3\u30c8\u3067\u8a2d\u5b9a\u3057\u307e\u3059\u3002",
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002",
+                    "name": "\u30a2\u30c9\u30ec\u30b9"
+                },
+                "brightness": {
+                    "description": "\u7d76\u5bfe\u7684\u306a\u660e\u308b\u3055\u3002",
+                    "name": "\u8f1d\u5ea6"
+                },
+                "output": {
+                    "description": "\u51fa\u529b\u30dd\u30fc\u30c8\u3002",
+                    "name": "\u51fa\u529b"
+                },
+                "transition": {
+                    "description": "\u30c8\u30e9\u30f3\u30b8\u30b7\u30e7\u30f3\u6642\u9593",
+                    "name": "\u30c8\u30e9\u30f3\u30b8\u30b7\u30e7\u30f3"
+                }
+            },
+            "name": "\u51fa\u529b\u7d76\u5bfe\u8f1d\u5ea6"
+        },
+        "output_rel": {
+            "description": "\u51fa\u529b\u30dd\u30fc\u30c8\u306e\u76f8\u5bfe\u7684\u306a\u660e\u308b\u3055\u3092\u30d1\u30fc\u30bb\u30f3\u30c8\u3067\u8a2d\u5b9a\u3057\u307e\u3059\u3002",
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002",
+                    "name": "\u30a2\u30c9\u30ec\u30b9"
+                },
+                "brightness": {
+                    "description": "\u76f8\u5bfe\u7684\u306a\u660e\u308b\u3055\u3002",
+                    "name": "\u8f1d\u5ea6"
+                },
+                "output": {
+                    "description": "\u51fa\u529b\u30dd\u30fc\u30c8\u3002",
+                    "name": "\u51fa\u529b"
+                }
+            },
+            "name": "\u51fa\u529b\u76f8\u5bfe\u8f1d\u5ea6"
+        },
+        "output_toggle": {
+            "description": "\u51fa\u529b\u30dd\u30fc\u30c8\u3092\u5207\u308a\u66ff\u3048\u307e\u3059\u3002",
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002",
+                    "name": "\u30a2\u30c9\u30ec\u30b9"
+                },
+                "output": {
+                    "description": "\u51fa\u529b\u30dd\u30fc\u30c8\u3002",
+                    "name": "\u51fa\u529b"
+                },
+                "transition": {
+                    "description": "\u30c8\u30e9\u30f3\u30b8\u30b7\u30e7\u30f3\u6642\u9593",
+                    "name": "\u30c8\u30e9\u30f3\u30b8\u30b7\u30e7\u30f3"
+                }
+            },
+            "name": "\u30c8\u30b0\u30eb\u51fa\u529b"
+        },
+        "pck": {
+            "description": "\u4efb\u610f\u306ePCK\u30b3\u30de\u30f3\u30c9\u3092\u9001\u4fe1\u3057\u307e\u3059\u3002",
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002",
+                    "name": "\u30a2\u30c9\u30ec\u30b9"
+                },
+                "pck": {
+                    "description": "PCK \u30b3\u30de\u30f3\u30c9 (\u30a2\u30c9\u30ec\u30b9 \u30d8\u30c3\u30c0\u30fc\u306a\u3057)\u3002",
+                    "name": "PCK"
+                }
+            },
+            "name": "PCK"
+        },
+        "relays": {
+            "description": "\u30ea\u30ec\u30fc\u306e\u72b6\u614b\u3092\u8a2d\u5b9a\u3059\u308b\u3002",
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002",
+                    "name": "\u30a2\u30c9\u30ec\u30b9"
+                },
+                "state": {
+                    "description": "\u72b6\u614b\u3092\u6587\u5b57\u5217\u3068\u3057\u3066\u4e2d\u7d99\u3057\u307e\u3059 (1=\u30aa\u30f3\u30012=\u30aa\u30d5\u3001t=\u30c8\u30b0\u30eb\u3001-=\u5909\u5316\u306a\u3057)\u3002",
+                    "name": "\u72b6\u614b"
+                }
+            },
+            "name": "\u30ea\u30ec\u30fc"
+        },
+        "send_keys": {
+            "description": "\u30ad\u30fc\u3092\u9001\u4fe1\u3057\u307e\u3059 (\u30d0\u30a4\u30f3\u30c9\u3055\u308c\u305f\u30b3\u30de\u30f3\u30c9\u3092\u5b9f\u884c\u3057\u307e\u3059)\u3002",
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002",
+                    "name": "\u30a2\u30c9\u30ec\u30b9"
+                },
+                "keys": {
+                    "description": "\u9001\u4fe1\u3059\u308b\u30ad\u30fc\u3002",
+                    "name": "\u30ad\u30fc"
+                }
+            }
+        },
+        "var_abs": {
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002"
+                }
+            }
+        },
+        "var_rel": {
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002"
+                }
+            }
+        },
+        "var_reset": {
+            "fields": {
+                "address": {
+                    "description": "\u30e2\u30b8\u30e5\u30fc\u30eb\u306e\u30a2\u30c9\u30ec\u30b9\u3002"
+                }
+            }
+        }
+    }
+}

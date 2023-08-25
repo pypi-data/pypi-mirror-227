@@ -1,0 +1,9 @@
+{
+    "entity": {
+        "sensor": {
+            "total_production": {
+                "name": "Total produktion"
+            }
+        }
+    }
+}

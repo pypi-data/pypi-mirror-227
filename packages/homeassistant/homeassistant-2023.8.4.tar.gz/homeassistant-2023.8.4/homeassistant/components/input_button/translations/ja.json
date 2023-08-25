@@ -1,0 +1,19 @@
+{
+    "entity_component": {
+        "_": {
+            "state_attributes": {
+                "editable": {
+                    "state": {
+                        "true": "\u306f\u3044"
+                    }
+                }
+            }
+        }
+    },
+    "services": {
+        "press": {
+            "description": "\u30c7\u30d0\u30a4\u30b9\u306e\u7269\u7406\u7684\u306a\u30dc\u30bf\u30f3\u306e\u62bc\u4e0b\u3092\u6a21\u5023\u3057\u307e\u3059\u3002",
+            "name": "\u62bc\u3059"
+        }
+    }
+}

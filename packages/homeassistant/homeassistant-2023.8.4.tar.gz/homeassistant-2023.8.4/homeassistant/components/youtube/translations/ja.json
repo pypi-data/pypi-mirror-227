@@ -1,0 +1,16 @@
+{
+    "entity": {
+        "sensor": {
+            "latest_upload": {
+                "state_attributes": {
+                    "published_at": {
+                        "name": "\u516c\u958b"
+                    },
+                    "video_id": {
+                        "name": "\u30d3\u30c7\u30aaID"
+                    }
+                }
+            }
+        }
+    }
+}

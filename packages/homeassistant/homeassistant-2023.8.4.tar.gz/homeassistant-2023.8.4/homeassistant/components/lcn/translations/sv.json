@@ -1,0 +1,11 @@
+{
+    "device_automation": {
+        "trigger_type": {
+            "codelock": "L\u00e5skod mottagen",
+            "fingerprint": "Kod f\u00f6r fingeravtryck mottagen",
+            "send_keys": "Skicka nycklar mottagen",
+            "transmitter": "S\u00e4ndarkod mottagen",
+            "transponder": "Transponderkod mottagen"
+        }
+    }
+}
