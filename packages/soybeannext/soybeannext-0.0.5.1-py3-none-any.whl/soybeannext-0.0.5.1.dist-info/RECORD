@@ -1,0 +1,10 @@
+SoybeanNext/__init__.py,sha256=Dsn1pzOrieQWT5DS5GVqnhlbAMi_3PhJ65CaeICyNTs,114
+SoybeanNext/data/n_trait.yaml,sha256=YxzfPwru-5LKiL6ZEaO81-voIJPvezyzLutPUazEG6s,412
+SoybeanNext/data/p_trait.yaml,sha256=ccqY0AH3MshMNaM75ig2NalLWjjlBasNenRvyF5zna4,713
+SoybeanNext/data/snp.txt,sha256=idQWtfHbCbJJnZ5B2EZS7qO7QB4NEE5nRpGk1_jptEQ,501596
+SoybeanNext/forward.py,sha256=SWUVFCeW7VvobufBdkXCsx69bZf0Gq4nVMedx_iDmtw,5412
+SoybeanNext/reader.py,sha256=vHrNJcSLFtdTF9Ac9RLDmKBS2lkUPZEVNe3Cp_ECKO8,7761
+SoybeanNext/utils.py,sha256=2bCmCTnU_jtqU3_NiZJ0xiEeadmu-Dk_OCY5PDXyWSk,2805
+soybeannext-0.0.5.1.dist-info/METADATA,sha256=e3BBTtx4i3kgEU7Gd2B6v_QScXd_m_rQrHg3drUt6EQ,304
+soybeannext-0.0.5.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+soybeannext-0.0.5.1.dist-info/RECORD,,
