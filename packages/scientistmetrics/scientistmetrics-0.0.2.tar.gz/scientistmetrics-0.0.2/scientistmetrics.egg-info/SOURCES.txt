@@ -1,0 +1,16 @@
+LICENSE
+README.md
+model.ipynb
+setup.py
+data/Life Expectancy Data.csv
+data/diabetes.csv
+data/insurance.csv
+data/mushroom.xls
+notebooks/scientistmetrics.ipynb
+scientistmetrics/__init__.py
+scientistmetrics/association.py
+scientistmetrics/model.py
+scientistmetrics.egg-info/PKG-INFO
+scientistmetrics.egg-info/SOURCES.txt
+scientistmetrics.egg-info/dependency_links.txt
+scientistmetrics.egg-info/top_level.txt
