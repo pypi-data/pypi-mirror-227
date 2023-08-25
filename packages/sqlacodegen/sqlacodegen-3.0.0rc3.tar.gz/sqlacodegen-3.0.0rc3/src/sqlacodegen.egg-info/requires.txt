@@ -1,0 +1,23 @@
+SQLAlchemy>=1.4.36
+inflect>=4.0.0
+
+[:python_version < "3.10"]
+importlib_metadata
+
+[:python_version >= "3.12"]
+greenlet>=3.0.0a1
+
+[citext]
+sqlalchemy-citext>=1.7.0
+
+[geoalchemy2]
+geoalchemy2>=0.11.1
+
+[sqlmodel]
+sqlmodel
+
+[test]
+pytest
+pytest-cov
+psycopg2-binary
+mysql-connector-python
