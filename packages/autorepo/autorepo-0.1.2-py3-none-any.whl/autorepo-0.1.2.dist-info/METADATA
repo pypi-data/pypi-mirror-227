@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: autorepo
+Version: 0.1.2
+Summary: A simple CLI tool for managing Github Repositories
+Home-page: https://github.com/XanderWatson/autorepo
+Author: Saahil Bhavsar
+Author-email: saahil_bhavsar@outlook.com
+Project-URL: Bug Reports, https://github.com/XanderWatson/autorepo/issues
+Project-URL: Funding, https://buymeacoffee.com/saahilb
+Project-URL: Source, https://github.com/XanderWatson/autorepo
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygithub
+Requires-Dist: keyring
+
+# AutoRepo
+
+### AutoRepo is a simple, cli-based tool for automating the creation of github repositories.
+
+<br/><br/>
+
+# Installation
+
+- Run the following command to install AutoRepo to your PC
+
+```
+$ pip install autorepo
+```
+
+<br/><br/>
+
+# Usage
+
+- After the installation is complete, you can run the following command to start AutoRepo (this will print the help message):
+
+```
+$ repo
+```
+
+- Using any command (displayed in the help message) requires you to first be logged in to your github account using an access token (this is a one-time thing). You can generate an access token by following the instructions here: <a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/</a>
+
+```
+$ repo --login
+```
+
+Or
+
+```
+$ repo -l
+```
