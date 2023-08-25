@@ -1,0 +1,88 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skmatter"
+description = "A collection of scikit-learn compatible utilities that implement methods born out of the materials science and chemistry communities."
+authors = [
+    {name = "Rose K. Cersonsky", email="rose.cersonsky@wisc.edu"},
+    {name = "Guillaume Fraux"},
+    {name = "Sergei Kliavinek"},
+    {name = "Alexander Goscinski"},
+    {name = "Benjamin A. Helfrecht"},
+    {name = "Victor P. Principe"},
+    {name = "philip Loche"},
+    {name = "Michele Ceriotti"}
+]
+readme = "README.rst"
+requires-python = ">=3.8"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: POSIX",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "scikit-learn>=1.1.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+examples = [
+    "ase",
+    "matplotlib",
+    "pandas",
+    "tqdm",
+]
+
+[project.urls]
+homepage = "http://scikit-matter.readthedocs.io"
+documentation = "http://scikit-matter.readthedocs.io"
+repository = "https://github.com/scikit-learn-contrib/scikit-matter"
+issues = "https://github.com/scikit-learn-contrib/scikit-matterissues"
+changelog = "http://scikit-matter.readthedocs.io/en/latest/changelog.html"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+version = {attr = "skmatter.__version__"}
+
+[tool.coverage.run]
+branch = true
+data_file = 'tests/.coverage'
+
+[tool.coverage.report]
+include = [
+    "src/skmatter/*"
+]
+
+[tool.coverage.xml]
+output = 'tests/coverage.xml'
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+
+[tool.isort]
+skip = "__init__.py"
+profile = "black"
+line_length = 88
+indent = 4
+include_trailing_comma = true
+lines_after_imports = 2
+known_first_party = "skmatter"
