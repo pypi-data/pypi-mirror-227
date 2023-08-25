@@ -1,0 +1,4 @@
+Refs,Datasheet,Footprint,Reference,Value,ki_description,ki_fp_filters,ki_keywords,ki_locked,zzz,zzzyk
+AD813,https://www.analog.com/media/en/technical-documentation/data-sheets/AD813.pdf,,U,AD813,"Single Supply, Low Power, Triple Video Amplifier, DIP-14/SOIC-14",SOIC*P1.27mm* DIP*W7.62mm*,triple opamp,,n0HKp02Vg9MKQOEz,DZ1f7TbA6jtQrRs89J
+MAX453,https://datasheets.maximintegrated.com/en/ds/MAX452-MAX455.pdf,,U,MAX453,"CMOS video amplifier with input multiplexer, DIP-8/SOIC-8",DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*,amplifier,,,
+THS7374,https://www.ti.com/lit/ds/symlink/ths7374.pdf,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,CtjDQFdOI9uYoS7t,THS7374,"4 channel SDTV Video Amplifier, TSSOP-14",TSSOP*4.4x5mm*P0.65mm*,video amplifier sdtv cvbs rgb ypbpr,,,
