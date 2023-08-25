@@ -1,0 +1,5 @@
+setup.py
+otoro.egg-info/PKG-INFO
+otoro.egg-info/SOURCES.txt
+otoro.egg-info/dependency_links.txt
+otoro.egg-info/top_level.txt
