@@ -1,0 +1,2 @@
+[sqlalchemy.dialects]
+redshift.spectrum = sqlalchemy_redshift.dialect:RedshiftDialect_psycopg2
