@@ -1,0 +1,9 @@
+webint_system/__init__.py,sha256=099ebp_h2gdzrXT1om1ylUp_AZJLQnK0on1_kAgF33w,5220
+webint_system/templates/__init__.py,sha256=Z99XuyR1y0hYgxroi7uUfThrMdCG_7Gtjfw21yDWrng,143
+webint_system/templates/addresses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webint_system/templates/addresses/domains.html,sha256=VlLe7jk1W9G0Y7JrwyiApK3qVYTcORyIWvuvwkpaCKI,538
+webint_system/templates/index.html,sha256=GYLZcf8B0coLc-A8OsUfIDyGRO4atoie0NwK3DOZ5Kk,8008
+webint_system-0.0.24.dist-info/METADATA,sha256=YFfuujlOcy_cFtqMHXzW7IealzRWG89DYI8JASA4KT4,664
+webint_system-0.0.24.dist-info/entry_points.txt,sha256=Cm3TkkuqIztVxs3baA9LfeTyYz22QQz7t9tcUWqKQ2k,36
+webint_system-0.0.24.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+webint_system-0.0.24.dist-info/RECORD,,
