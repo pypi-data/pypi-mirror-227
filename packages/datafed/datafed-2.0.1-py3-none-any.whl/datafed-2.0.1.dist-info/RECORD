@@ -1,0 +1,16 @@
+datafed/CLI.py,sha256=zG0ImQs57svzNios6RphrCxZ00-IUhzViFJU9YUXgyg,98883
+datafed/CommandLib.py,sha256=H2lzOBgC7mIY6aRwD6HdSOGjPmUJYIPQzM6Iz7BNs2A,83502
+datafed/Config.py,sha256=lTXGDkt9yFMN6JksnC06rHrYLlLyGEP00Ngx5sRuk6s,15734
+datafed/Connection.py,sha256=Y96FJ1KdiRIJ_dsieWc2GSc1w-jQip-TkYgOPC2r2Kk,10566
+datafed/MessageLib.py,sha256=U8wZRNWrBgzJENVqSwFxTgzaECwmMub3bFIAugI7MYI,14684
+datafed/SDMS_Anon_pb2.py,sha256=Ks-UStvpSa5Or9vJ1vzwjGx8HwRmTLj7Gt1TYQKvyDs,24310
+datafed/SDMS_Auth_pb2.py,sha256=cyDxDkhrs_bhtfM42fVbqqjJ3e_bL-t4H0NimFc7aZQ,375651
+datafed/SDMS_pb2.py,sha256=4BvUdfaeTnMYFsllgTLD25zRN1QgJLV-1w3yXPp16Mc,111923
+datafed/VERSION.py,sha256=YLL4eHCvLkaeJW-ePVfWdPV7fNinzOErJhXaTRpoc1M,20
+datafed/Version_pb2.py,sha256=hgVL2CQGXaM6yMM2MgdD10oCAyhPutyN-vvgMfqybK0,3503
+datafed/__init__.py,sha256=Ww8YikwgVUX3ywan4d20FLzC_s2_Q46aGpycwbc2P6w,1398
+datafed-2.0.1.dist-info/METADATA,sha256=K4tWMlsQJlH08P8UNeuSs25h37xpN7sKw-DsqUXbIB0,887
+datafed-2.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datafed-2.0.1.dist-info/entry_points.txt,sha256=2HuP2J0RZZ6E74ITwj0Nb2d0CdTGnYnzw6Zws2e_tXk,44
+datafed-2.0.1.dist-info/top_level.txt,sha256=zYiQPMswVmSA8n2n-4iFEUYGE10s0UOUgkWqpFc3x1Y,8
+datafed-2.0.1.dist-info/RECORD,,
