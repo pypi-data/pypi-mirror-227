@@ -1,0 +1,3 @@
+[console_scripts]
+myiagi = bp_help.text_gui:run
+print-steps = bp_help.print_steps:run_student_file
