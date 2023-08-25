@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+database_rider.egg-info/PKG-INFO
+database_rider.egg-info/SOURCES.txt
+database_rider.egg-info/dependency_links.txt
+database_rider.egg-info/requires.txt
+database_rider.egg-info/top_level.txt
