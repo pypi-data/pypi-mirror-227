@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+JanexBot/__init__.py
+JanexBot/chat.py
+JanexBot/main.py
+JanexBot/train.py
+JanexBot.egg-info/PKG-INFO
+JanexBot.egg-info/SOURCES.txt
+JanexBot.egg-info/dependency_links.txt
+JanexBot.egg-info/requires.txt
+JanexBot.egg-info/top_level.txt
+JanexBot/JanexSub/JanexSub.py
+JanexBot/JanexSub/__init__.py
