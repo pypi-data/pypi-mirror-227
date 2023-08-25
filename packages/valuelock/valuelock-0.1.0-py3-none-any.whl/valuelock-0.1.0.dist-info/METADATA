@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: valuelock
+Version: 0.1.0
+Summary: A Python package for locking based on values.
+Home-page: https://github.com/killbus/py-valuelock
+Author: killbus
+Author-email: killbus@users.noreply.github.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# valuelock
+
+![PyPI](https://img.shields.io/pypi/v/valuelock)
+![License](https://img.shields.io/pypi/l/valuelock)
+![Python Versions](https://img.shields.io/pypi/pyversions/valuelock)
+
+A Python package for locking based on values.
+
+## Installation
+
+You can install `valuelock` using `pip`:
+
+```bash
+pip install valuelock
+```
+
+## Usage
+
+```python
+from valuelock import get_lock
+
+# Your code here
+```
+
+## Features
+
+* Locking based on values.
+* Thread-safe.
+
+## Documentation
+
+Detailed documentation can be found on the [GitHub repository](https://github.com/killbus/py-valuelock).
