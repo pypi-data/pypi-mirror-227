@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sendsafely/Package.py
+sendsafely/Progress.py
+sendsafely/SendSafely.py
+sendsafely/__init__.py
+sendsafely/exceptions.py
+sendsafely/utilities.py
+sendsafelyaftrdrk.egg-info/PKG-INFO
+sendsafelyaftrdrk.egg-info/SOURCES.txt
+sendsafelyaftrdrk.egg-info/dependency_links.txt
+sendsafelyaftrdrk.egg-info/requires.txt
+sendsafelyaftrdrk.egg-info/top_level.txt
