@@ -1,0 +1,6 @@
+xlrd==1.2.0
+xlwt
+xlutils
+orjson
+xlsxwriter
+tqdm
