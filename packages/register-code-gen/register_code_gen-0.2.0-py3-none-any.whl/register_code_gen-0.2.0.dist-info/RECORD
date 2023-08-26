@@ -1,0 +1,10 @@
+pyproject.toml,sha256=qxkYvf5ajdhyA5BkDX6DYKwnh0iKW-JAXS3d56orzig,2196
+README.md,sha256=6dN9QStF0P_d5-HKq0MnRZSWteIOR7sWT0uZcCwpKqc,9115
+register_code_gen/__init__.py,sha256=M9HLpL7IyXPhCWN5do2-sw7khSOVX0t3Z9Q5D3xThVU,35
+register_code_gen/register_code_gen.py,sha256=i5EwWusQKTXAZkBowFLJUqcbeLFXJdZnnnWgVWDMPOI,14137
+register_code_gen-0.2.0.dist-info/entry_points.txt,sha256=mYaSFwNul9uKzavYJOk7aBxG-49wMo-Y30zLQuReoa4,78
+register_code_gen-0.2.0.dist-info/LICENSE,sha256=1UlswtG8xUeV9PxaCyzVDfFayqyEV56M_CfIGeofNiU,1070
+register_code_gen-0.2.0.dist-info/license.rtf,sha256=m_hOXslEru7-2neeM4EFVIwXxaDWDI7lavpTlRMw6Y4,1280
+register_code_gen-0.2.0.dist-info/METADATA,sha256=Ya8B6uyAzbeviL6JwFFLYarU-WRG9l1I8V6NlsDRJ54,9808
+register_code_gen-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+register_code_gen-0.2.0.dist-info/RECORD,,
