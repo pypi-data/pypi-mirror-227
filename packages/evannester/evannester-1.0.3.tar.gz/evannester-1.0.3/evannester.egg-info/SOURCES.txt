@@ -1,0 +1,7 @@
+README.md
+evannester.py
+setup.py
+evannester.egg-info/PKG-INFO
+evannester.egg-info/SOURCES.txt
+evannester.egg-info/dependency_links.txt
+evannester.egg-info/top_level.txt
