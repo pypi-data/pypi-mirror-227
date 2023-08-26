@@ -1,0 +1,12 @@
+chiquifork-0.1.0.dist-info/METADATA,sha256=dXSenaKIEeLRnqMcyt4DIIh-2gcUa9RntPjd_o7WcZA,8006
+chiquifork-0.1.0.dist-info/WHEEL,sha256=Avu9Kr-43a9hhDukUpFsHbuawoMQPVRtlGI8XrTlZT8,127
+chiquifork/wit_gen.py,sha256=_0LBwPB5cEzZUIFzEx9wSUpWwkQCfpg6GLznVaAoMDI,3901
+chiquifork/query.py,sha256=DrtMI-hrQc85PVavdI_OPgyJEdoejDsOXeRp8qtVHHA,4054
+chiquifork/dsl.py,sha256=4PHguQ_OUheVvaSQWYfRqtd-DYIxc6aXzeT45fheMA8,6016
+chiquifork/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chiquifork/cb.py,sha256=6lWxRqVCIjUGLjKkncIHTq5IrvCwXw0qWAS583vs_A0,7604
+chiquifork/expr.py,sha256=b8QxluUV1f_Pqea3wSxY3FOaiGCMunz-yqQjKGl_VtY,3575
+chiquifork/util.py,sha256=Q_9FjLnUXUzmYQvEmGuu4L5aRpQ5z-DImIShzkxltCg,722
+chiquifork/chiquito_ast.py,sha256=9iDL9MFAeRoe7TGNHpnl51aF_Z-G8k3Oi7PRsttNlBo,11802
+chiquifork/rust_chiquito.cpython-38-x86_64-linux-gnu.so,sha256=kgGXxbo_d5JplbJpu7y5kFczrYX5TG-45QuxLc6vRbI,5631288
+chiquifork-0.1.0.dist-info/RECORD,,
