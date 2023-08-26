@@ -1,0 +1,12 @@
+mensajes/__init__.py,sha256=CEWUWVTuW9LsoFOiD6hWoZ8TRnQcBBM-FILsszXtntQ,39
+mensajes/adios/__init__.py,sha256=ZQ7jpNaMrEY03juiqIZSWT_YCqLi3QVPgvxB9jaagoA,42
+mensajes/adios/despedidas.py,sha256=U7ItQeds5wbF8G9J-B7GFRu4ekcUjb490u2nTQDmYsg,190
+mensajes/hola/__init__.py,sha256=xcCVR3qinHClLATBFAUpemX7dwwc3nzujg_pOUXESKM,39
+mensajes/hola/saludos.py,sha256=C_Rhs1pMl2c7a22RIrooapqI4L9SCItiKvwRQ6yl2tU,380
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=ynCF3piFs8dBYhDOd9uxdMB2nsqFfeB7vovdnJVhgWQ,221
+mensajes_SMV08-5.0.dist-info/LICENSE,sha256=XXqQ-SeDmkNzhkI0q0H6Tm5Gc_XOJ-TS69QOAhdLjXs,1101
+mensajes_SMV08-5.0.dist-info/METADATA,sha256=4y4WaVSCW4i6lbqweUXwesH0oBVycf0q1b_Oqal2LwQ,666
+mensajes_SMV08-5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mensajes_SMV08-5.0.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+mensajes_SMV08-5.0.dist-info/RECORD,,
