@@ -1,0 +1,168 @@
+Metadata-Version: 2.1
+Name: bdrc-irat
+Version: 0.9.0
+Summary: Image Repository analysis
+Home-page: https://github.com/buda-base/count-images/parallelscan
+Author: jimk
+Author-email: jimk@bdrc.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: System Administrators
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: bdrc-util
+Requires-Dist: pillow
+Requires-Dist: boto3
+Requires-Dist: s3pathlib
+
+# Parallel scan
+This folder contains utilities that survey the entire archive file system and/or s3, depending on the task,
+collect, and aggregate data. It is limited to the hard coded roots of the archive (`/mnt/Archive[0..n]`) the BUDA (`archive.tbrc.org/Works`)
+
+
+It was written in python to avoid nasty file globbing issues having to do with reserved shell characters in file names, 
+and to exploit parallelism.
+
+Thanks to Élie Roux for providing the released work and image group lists that served as the input.
+
+The motivation was to have in one place a definition of graphics images, as ordinary file listing techniques left it up 
+to the researcher to filter out the counts. In an ideal world, we would test and count by using a graphics library to
+open and taste each file (the `scan-images` action `types` actually does this, to extract the image type from the
+image file metadata), but this is hugely expensive in practice.
+
+The rationale behind only including image files is that other files don't really matter, and don't generally hurt BUDA
+performance. Although updates since 2019 are clean (audit-tool), there's no real use of cleaning out old files that aren't bothering
+anybody. As well, correspondences between S3 images/ folders and our file systems aren't perpetually guaranteed. 
+
+Image files are included in input calculations with a regular expression in `common.py` This is a one line change that 
+can update the scans as needed
+
+```python
+# common.py
+# re string
+GRAPHICS_FILE_EXTS: str = r'.+\.(jpg|jpeg|tif|tiff|png|bmp|wmf|pdf)$'
+
+# Example action_list.py
+...
+        img_re = re.compile(GRAPHICS_FILE_EXTS, re.IGNORECASE)
+...
+        s3_images_list.extend([x['Key'] for x in object_list if img_re.match(x['Key'])])
+```
+Regexp was chosen over `fnmatch` due to efficiency and being able to select case sensitivity (or not)
+
+## Installation
+Until I build a pyPI installation, you can run manually.
+`git clone|pull` this repository, and run directly from the `parallelscan`folder.
+
+Python 3 is required, and some elements may require python 3.9 or later
+See  [requirements.txt](requirements.txt) for the python libraries you have to install. AO recommends using a venv.
+We also strongly recommend installing `wheel` before the others (`pip 23` has gotten all rigid on us)
+
+## Usage
+The only executable in this folder is `scan-images`
+
+```zsh
+❯ ./scan-images --h
+usage: See parallelscan/README.doc for details
+
+Runs image scanning tools against a set of works
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -a {list,types,sizes}, --action {list,types,sizes}
+                        Available actions
+  -w WORK_RIDS [WORK_RIDS ...], --work_rids WORK_RIDS [WORK_RIDS ...]
+                        one or more work_rids
+  -i INPUT_LIST_FILE, --input_list_file INPUT_LIST_FILE
+                        file containing list of work_rids or paths (see -c)
+  -o OUTPUT_FILE, --output_file OUTPUT_FILE
+                        [Optional] output file (default stdout)
+
+```
+
+Lying `argparse` says the `-a/--action` argument is optional, it is not.
+
+## File arguments
+* `-w/--work_rids` Just what it appears to be.
+* `-i/--input-file` list of entities to search. this is Work RIDs only.
+* `-a/--action` the three possible actions, or modes. These are documented below.
+
+## Actions
+### list
+This action counts image files by image group and emits four columns in a csv (see `published_work_file_counts.csv)
+Where the image group could not be found, blank columns are emitted. Where the image group was found, but contained no images,
+the count is shown as 0.
+
+## Outputs
+
+The following sections describe the output of each of the actions:
+- types
+- list
+- sizes
+### types
+This output was the original instance of the queue pattern. (see [buda-base/archive-ops#549](https://github.com/buda-base/archive-ops/issues/549))
+The output is a list of individual files whose file extension does not match the image type 
+as PIL sees it.
+
+## list
+Returns counts, by image groups of file system (archive) and s3 (web)
+
+```csv
+work,ig,n_fs,n_s3
+W00CHZ0103341,I1CZ35,210,210
+W00EGS1016181,I1PD10388,183,183
+W933,I5700,225,0
+W933,5700,0,225
+WEAP039-1-4-130,,,
+WEAP039-1-4-140,,,
+WEAP039-1-4-150,,,
+WEAP039-1-4-160,,,
+```
+Takes about 3 hours for the whole oeuvre. (71611 image groups)
+
+```shell
+[EDT 08/23/23 18.41.41]:root:{p-00}-DEBUG- collected count W9140 sec: 29.049865
+[EDT 08/23/23 18.41.41]:root:{p-06}-DEBUG- collected count W8LS31064 sec: 401.735611
+[EDT 08/23/23 18.41.41]:root:{MainThread}-INFO-Done waiting
+[EDT 08/23/23 18.41.41]:root:{MainThread}-INFO-< End ET: 12805.011623
+
+~/prod/ao927  ----  took 3h 33m 26s   at 18:41:42 
+```
+### sizes
+The `sizes` action aggregates all the 
+- published images graphics files (children of the `images/` directory - assumes all image groups are published)
+- other graphic files under the work
+
+and emits a csv file with their counts.
+
+```csv
+work,non-image-size,non-image-count,image-size,image-count
+W00EGS1016242,36827083,6,31098214,234
+W00EGS1016047,61075320,149,10262628,98
+W00EGS1016181,15813459,191,3565566,183
+W00CHZ0103343,105386611,270,6418626,264
+W00EGS1016202,11987387,7,6267968,107
+W00EGS1016199,109057027,151,2574614,144
+W00EGS1016259,18303512,200,2172374,194
+W00EGS1016255,26680295,6,20931234,462
+```
+
+## Data analysis
+See `data/counts.ipynb` for turning these into meaningful data. (`.ipynb` is a jupyter notebook. `pip install jupyter && jupyter notebook`) brings
+up a web browser - you click counts.ipynb to open the script. More work can be gained by understanding the pandas DataFrame api,
+but that's for later.
+
+
+## Adding tests
+These tests exploit parallelism heavily by using producer and consumer queues. The idea is that calculating is
+very expensive, but reporting is not. So the runs were written in a poor man's Hadoop by calling the producer action 
+'map' and the consumer 'reduce' 
+For most actions, the 'reduce' step only writes output. You don't want to do that in the producing thread
+because the output file gets quite large, and each open has to seek to the end.
+
+
+

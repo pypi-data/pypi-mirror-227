@@ -1,0 +1,3 @@
+[console_scripts]
+scan-images = bdrc_irat.scan_images:ps_shell
+
