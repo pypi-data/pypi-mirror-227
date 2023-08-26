@@ -1,0 +1,7 @@
+face_processor/__init__.py,sha256=uVd9sfhg3bMd9AZGyhlAi98JFm_TXebQeR5i8MYlGLw,118
+face_processor/_app.py,sha256=9atN7yxrs-08_gZTWB46okutJUzXGaCeqtmyRw8dJlE,567
+face_processor/_face_processor.py,sha256=hhMyMWiaZWSV1fl64-g6KHccOOHR5NLTDGu19fMa4OA,5920
+face_processor-1.5.dist-info/entry_points.txt,sha256=4WIx2I12VnKT0H1QB4S5-ePVJRC2BO7cVWEQSaUT0pY,58
+face_processor-1.5.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+face_processor-1.5.dist-info/METADATA,sha256=2Dn5EbSFgjlanu_jX2r0xGmjOYyIGVGVfWMteoP7lOk,1263
+face_processor-1.5.dist-info/RECORD,,
