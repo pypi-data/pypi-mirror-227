@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+dharapdf/__init__.py
+dharapdf/imagetopdf.py
+dharapdf/texttopdf.py
+dharapdf.egg-info/PKG-INFO
+dharapdf.egg-info/SOURCES.txt
+dharapdf.egg-info/dependency_links.txt
+dharapdf.egg-info/top_level.txt
