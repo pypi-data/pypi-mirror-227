@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gritscope
+Version: 0.4.0
+Summary: Power grid topology and scenario exploration
+Author-email: Koen van Walstijn <kbvw@pm.me>
+Project-URL: Source, https://codeberg.org/kbvw/gritscope
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: parquet
+Provides-Extra: pandapower
+License-File: LICENSE
+
+# GritScope
+Grid topology and scenario contingency plan exploration.
