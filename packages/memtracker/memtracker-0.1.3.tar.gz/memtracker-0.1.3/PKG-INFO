@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: memtracker
+Version: 0.1.3
+Summary: A simple utility to track and log peak CPU and GPU memory usage of a function.
+Author: MIBlue119
+Author-email: miblue119@gmail.com
+Project-URL: Bug Reports, https://github.com/MIBlue119/memtracker/issues
+Project-URL: Source, https://github.com/MIBlue119/memtracker
+Keywords: memory tracking,CPU,GPU,memory usage
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# memtracker
+
+`memtracker` is a simple Python package to track and optionally log the peak CPU and GPU memory usage of a function.
+
+- It would print the result at teminal
+```
+Peak CPU Memory for main: 491.31 MB
+Peak GPU Total Memory for main: 0.00 MB
+Runtime for main: 1.81 sec
+```
+- It would generate a json file, if you set `export_to_json=True`
+```
+{
+    "function_name": "main",
+    "function_runtime_sec": 1.6997389793395996,
+    "peak_cpu_memory_MB": 490.46875,
+    "peak_gpu_total_memory_MB": 0
+}
+```
+## Installation
+
+```bash
+pip install memtracker
+```
+
+## Usage
+```python
+
+from memtracker.memory_sampler import track_peak_memory
+
+#Then, use the track_peak_memory decorator on your function:
+
+@track_peak_memory()
+def my_function():
+    # Your function logic here
+    pass
+```
+
+- To export the memory metrics to a JSON file:
+```python
+
+@track_peak_memory(export_to_json=True)
+def another_function():
+    # Your function logic here
+    pass
+```

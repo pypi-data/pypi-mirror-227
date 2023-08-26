@@ -1,0 +1,10 @@
+README.md
+setup.py
+memtracker/__init__.py
+memtracker/memory_metrics.py
+memtracker/memory_sampler.py
+memtracker.egg-info/PKG-INFO
+memtracker.egg-info/SOURCES.txt
+memtracker.egg-info/dependency_links.txt
+memtracker.egg-info/requires.txt
+memtracker.egg-info/top_level.txt
