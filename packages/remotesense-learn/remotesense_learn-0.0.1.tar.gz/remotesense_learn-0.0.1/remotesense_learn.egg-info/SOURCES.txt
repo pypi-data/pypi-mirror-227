@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+remotesense_learn.egg-info/PKG-INFO
+remotesense_learn.egg-info/SOURCES.txt
+remotesense_learn.egg-info/dependency_links.txt
+remotesense_learn.egg-info/top_level.txt
+rslearn/__init__.py
+rslearn/__version__.py
+rslearn/core.py
