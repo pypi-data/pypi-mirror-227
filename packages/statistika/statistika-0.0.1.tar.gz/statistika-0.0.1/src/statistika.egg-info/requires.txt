@@ -1,0 +1,5 @@
+attrs>=21.3.0
+jax
+numpy
+pandas
+scipy

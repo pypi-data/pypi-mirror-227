@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: statistika
+Version: 0.0.1
+Summary: The ultimate statistics package in Python.
+Home-page: https://github.com/janosg/statistika
+Author: Janos Gabler
+Author-email: janos.gabler@gmail.com
+License: MIT
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# statistika
