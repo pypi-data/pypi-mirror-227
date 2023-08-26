@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ValiMail.egg-info/PKG-INFO
+ValiMail.egg-info/SOURCES.txt
+ValiMail.egg-info/dependency_links.txt
+ValiMail.egg-info/requires.txt
+ValiMail.egg-info/top_level.txt
