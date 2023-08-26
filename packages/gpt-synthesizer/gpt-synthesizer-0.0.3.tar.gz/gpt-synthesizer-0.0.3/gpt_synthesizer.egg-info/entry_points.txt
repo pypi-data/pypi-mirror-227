@@ -1,0 +1,2 @@
+[console_scripts]
+gpt-synthesizer = gpt_synthesizer.main:main
