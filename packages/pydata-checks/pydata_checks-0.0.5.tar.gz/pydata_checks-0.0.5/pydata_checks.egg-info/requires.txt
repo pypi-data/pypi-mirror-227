@@ -1,0 +1,11 @@
+APScheduler
+certifi
+charset-normalizer
+idna
+pytz
+requests
+six
+SQLAlchemy
+typing_extensions
+tzlocal
+urllib3
