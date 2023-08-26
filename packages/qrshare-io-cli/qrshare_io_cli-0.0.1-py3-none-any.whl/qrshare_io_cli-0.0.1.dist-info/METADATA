@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: qrshare-io-cli
+Version: 0.0.1
+Summary: A CLI tool for uploading files with https://qrshare.io service
+Author: Sergey Royz
+Author-email: zjor.se@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# QRshare.io CLI
+
+A CLI tool for uploading files with [qrshare.io](https://qrshare.io) service.
+
+It returns a QR-code with a download URL back in the console
+
