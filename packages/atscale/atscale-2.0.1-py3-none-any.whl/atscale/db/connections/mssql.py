@@ -1,0 +1,181 @@
+import getpass
+import cryptocode
+from atscale.errors.atscale_errors import AtScaleExtrasDependencyImportError
+
+from atscale.db.sql_connection import SQLConnection
+from atscale.db.sqlalchemy_connection import SQLAlchemyConnection
+from atscale.base.enums import PlatformType
+
+
+class MSSQL(SQLAlchemyConnection):
+    """The child class of SQLConnection whose implementation is meant to handle interactions with MSSQL. Notes that
+    a different class is required for interacting with Synapse SQL DW at this point in time. 
+    For this to work, in addition to dependencies indicated in setup.py, it is necessary to install an ODBC driver. 
+
+    For MAC, you can use Brew to install unixodbc via
+    brew install unixodbc
+    You can then follow Microsoft instructions for the rest of pyodbc here: 
+    https://www.microsoft.com/en-us/sql-server/developer-get-started/python/mac/?rtc=1
+    Specifically for the following: 
+    brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
+    brew update
+    HOMEBREW_NO_ENV_FILTERING=1 ACCEPT_EULA=Y brew install msodbcsql17 mssql-tools
+    Common errors are discussed here: https://stackoverflow.com/questions/44527452/cant-open-lib-odbc-driver-13-for-sql-server-sym-linking-issue
+    And other places. If you experience driver/connection issues, it is suggested that you first try and connect directly using sqlcmd
+    as indicated in the Microsoft instructions posted above. Once you're able to connect, you can inspect run the command odbcinst -j
+    to inspect the file: odbcinst.ini which should indicate what string you should use to pass in for the driver parameter to this class. 
+    At present time, the string is "ODBC Driver 17 for SQL Server"
+    """
+    platform_type: PlatformType = PlatformType.MSSQL
+
+    def __init__(self, username: str, host: str, database: str, driver: str, schema: str, port: int = 1433, password: str = None):
+        """Constructs an instance of an SQLConnection that should work with any database that pyodbc works with. 
+        Takes arguments necessary to find the database, driver, and schema. If password is not provided, 
+        it will prompt the user to login.
+
+        Args:
+            username (str): the username necessary for login
+            host (str): the host of the intended Synapse connection
+            database (str): the database of the intended Synapse connection
+            driver (str): the driver of the intended Synapse connection
+            schema (str): the schema of the intended Synapse connection
+            port (int, optional): A port if non-default is configured. Defaults to 1433.
+            password (str, optional): the password associated with the username. Defaults to None.
+        """
+        super().__init__()
+
+        try:
+            from sqlalchemy.engine import URL
+            from sqlalchemy import create_engine
+        except ImportError as e:
+            raise AtScaleExtrasDependencyImportError('snowflake', str(e))
+
+        localVars = locals()
+        param_name_list = [f'{username=}'.split('=')[0], f'{host=}'.split('=')[0],
+                           f'{database=}'.split(
+                               '=')[0],  f'{driver=}'.split('=')[0], f'{schema=}'.split('=')[0],
+                           f'{port=}'.split('=')[0]]
+
+        param_names_none = [x for x in param_name_list if localVars[x] is None]
+        if param_names_none:
+            raise ValueError(
+                f'The following required parameters are None: {", ".join(param_names_none)}')
+
+        self._username = username
+        self._host = host
+        self._database = database
+        self._driver = driver
+        self._schema = schema
+        self._port = port
+        if password:
+            self._password = cryptocode.encrypt(
+                password, self.platform_type.value)
+        else:
+            self._password = None
+
+    @property
+    def username(self) -> str:
+        return self._username
+
+    @username.setter
+    def username(self, value):
+        self._username = value
+        self.dispose_engine()
+
+    @property
+    def host(self) -> str:
+        return self._host
+
+    @host.setter
+    def host(self, value):
+        self._host = value
+        self.dispose_engine()
+
+    @property
+    def database(self) -> str:
+        return self._database
+
+    @database.setter
+    def database(self, value):
+        self._database = value
+        self.dispose_engine()
+
+    @property
+    def driver(self) -> str:
+        return self._driver
+
+    @database.setter
+    def driver(self, value):
+        self._driver = value
+        self.dispose_engine()
+
+    @property
+    def schema(self) -> str:
+        return self._schema
+
+    @schema.setter
+    def schema(self, value):
+        self._schema = value
+        self.dispose_engine()
+
+    @property
+    def port(self) -> str:
+        return self._port
+
+    @port.setter
+    def port(self, value):
+        self._port = value
+        self.dispose_engine()
+
+    @property
+    def password(self) -> str:
+        raise Exception(
+            "Passwords cannot be retrieved.")
+
+    @password.setter
+    def password(self, value):
+        self._password = cryptocode.encrypt(value, self.platform_type.value)
+        self.dispose_engine()
+
+    @property
+    def engine(self):
+        from sqlalchemy import create_engine
+        
+        if self._engine is not None:
+            return self._engine
+        url = self._get_connection_url()
+        # Little customization to deal with an issue when connecting to azure data warehouse;
+        # See here for more info: https://docs.sqlalchemy.org/en/14/dialects/mssql.html?highlight=pyodbc#avoiding-transaction-related-exceptions-on-azure-synapse-analytics
+        self._engine = create_engine(url).execution_options(
+            isolation_level="AUTOCOMMIT", ignore_no_transaction_on_rollback=True
+        )
+        return self._engine
+
+    def _get_connection_url(self):
+        
+        from sqlalchemy.engine import URL
+
+        if not self._password:
+            self._password = cryptocode.encrypt(getpass.getpass(
+                prompt='Please enter your Synapse password: '), self.platform_type.value)
+        password = cryptocode.decrypt(self._password, self.platform_type.value)
+
+        # Below is an example of passing through the exact string to pyodbc. I'm using the sqlalchemy URL to pass in autocommit becuase of an azure issue.
+        # There may be another way to do that with the pass through approach but not sure, as that has to be set not just on connectino but driver I think,
+        # according to docs.
+        #connection_string = f'DRIVER={{{self.driver}}};SERVER={self.host};PORT={self.port};DATABASE={self.database};UID={self.username};PWD={password}'
+        #connection_url = URL.create("mssql+pyodbc", query={"odbc_connect": connection_string})
+
+        connection_url = URL.create(
+            "mssql+pyodbc",
+            username=self._username,
+            password=password,
+            host=self._host,
+            database=self._database,
+            query={
+                "driver": self._driver,
+                "autocommit": "True",
+            },
+        )
+
+        return connection_url
