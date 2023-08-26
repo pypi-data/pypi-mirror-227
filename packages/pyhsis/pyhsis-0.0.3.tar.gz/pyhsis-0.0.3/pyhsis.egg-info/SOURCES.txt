@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+pyhsis.egg-info/PKG-INFO
+pyhsis.egg-info/SOURCES.txt
+pyhsis.egg-info/dependency_links.txt
+pyhsis.egg-info/requires.txt
+pyhsis.egg-info/top_level.txt
