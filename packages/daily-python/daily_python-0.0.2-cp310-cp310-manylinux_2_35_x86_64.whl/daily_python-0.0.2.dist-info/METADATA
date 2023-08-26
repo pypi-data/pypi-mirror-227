@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: daily-python
+Version: 0.0.2
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Communications :: Conferencing
+Summary: Daily Client SDK for Python
+License: BSD 2-Clause License
+Requires-Python: >=3.7
+Project-URL: Homepage, https://daily.co
