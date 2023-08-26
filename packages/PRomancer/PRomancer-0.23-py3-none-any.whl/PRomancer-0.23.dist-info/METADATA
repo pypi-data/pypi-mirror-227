@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: PRomancer
+Version: 0.23
+Requires-Dist: openai <1.0,>=0.0
+
