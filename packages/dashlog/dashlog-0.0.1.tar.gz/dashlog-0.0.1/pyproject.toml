@@ -1,0 +1,25 @@
+[project]
+name = "dashlog"
+version = "0.0.1"
+authors = [
+  { name="Adrien Corre", email="adriencorre.dev@gmail.com" },
+]
+description = "Official wrapper over the dashlog.app api"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "requests>2",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Website" = "https://dashlog.app"
+"Github" = "https://github.com/AdrCor/dashlog-py"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
