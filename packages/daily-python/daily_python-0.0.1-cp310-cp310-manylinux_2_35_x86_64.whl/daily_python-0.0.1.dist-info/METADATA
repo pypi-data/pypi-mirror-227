@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: daily-python
+Version: 0.0.1
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Communications :: Conferencing
+License: LicenseRef-Daily-co-Proprietary
+Requires-Python: >=3.7
