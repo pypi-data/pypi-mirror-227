@@ -1,0 +1,15 @@
+64365e721c3075a9186b__mypyc.cpython-39-darwin.so,sha256=-0VlpRmPEwS7UVr_CdmyWDtLh5dpemQ-QJAGCkdgIEw,168173
+openllm_client/_base.py,sha256=9lMI6Hahww_ziXm4C74PcIHeHg3jeV6aPGj_9Ja3Y30,12858
+openllm_client/_version.py,sha256=feaGa83Ysg3-NPsdNaJoP89cBr7RjS5btKAt4gw90OQ,162
+openllm_client/client.py,sha256=JzaVR5vYIrOrpBpvejN4x1iNEckYsmxGpKCv4qam0uk,1203
+openllm_client/__init__.py,sha256=Zdjtc8nWc-OLQSrIENghF33ItBPoy2xIKpSgx8E5ih0,290
+openllm_client/client.cpython-39-darwin.so,sha256=AXLRlDtNbDoWv5zDMLFx0RAG0W5LTjD-sUhMc4m3KHk,50648
+openllm_client/__init__.cpython-39-darwin.so,sha256=cLMM3FGgpByWS_UWJP_hreE99iaa5Y7vxQ5dsXFTOB8,50666
+openllm_client/_adapters.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openllm_client/benmin/_http.py,sha256=mQ_GpFimNVKilRP-dxywAvLzC9H0STr01jAYVP5KUbc,9661
+openllm_client/benmin/__init__.py,sha256=bhgkbFVzie2GJPNQZrIzVIcg9Rm8GYaeoaktYsa3-w4,4492
+openllm_client/benmin/_grpc.py,sha256=TeQ4zVESqzVmObuJIMKwSRcsawhQ5JusCDcczlXq0C0,13779
+openllm_client-0.2.27.dist-info/RECORD,,
+openllm_client-0.2.27.dist-info/WHEEL,sha256=d1ucj_vSh3gmih64PtCpnyMupHZOQ_OcJAzR85gfJ8U,104
+openllm_client-0.2.27.dist-info/METADATA,sha256=uZiHLYgHy3MbU5-_MFUnssx9VwEmhjgW0rFqVEpIpxQ,7197
+openllm_client-0.2.27.dist-info/licenses/LICENSE.md,sha256=CYovEhTMXtmLOTu5qaIIll5Y50AdmyodHP0025XUsRQ,10470
