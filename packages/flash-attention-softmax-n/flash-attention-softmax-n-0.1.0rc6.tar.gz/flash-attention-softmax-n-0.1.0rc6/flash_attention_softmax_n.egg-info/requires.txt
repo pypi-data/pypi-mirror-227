@@ -1,0 +1,5 @@
+einops>=0.6.1
+torch>=2.0.0
+
+[triton]
+triton>=2.0.0
