@@ -1,0 +1,7 @@
+httpx
+openai
+validators
+streamlit
+python-dotenv
+fire
+pandas
