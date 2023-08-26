@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: monad-std
+Version: 0.0.0
+Summary: A library of rust-styled monad utils for python.
+Home-page: https://embers-of-the-fire.github.io/monad-std/
+License: MIT OR Apache-2.0
+Keywords: monad,functional,rust,pure-python,fp
+Author: Embers-of-the-Fire
+Author-email: stellarishs@163.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/Embers-of-the-Fire/monad-std
+Description-Content-Type: text/markdown
+
+# Monad STD
+
+<div style="text-align: center;">
+
+[![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/Embers-of-the-Fire/monad-std/test-python-package.yml?branch=main&logo=github)](https://github.com/Embers-of-the-Fire/monad-std/actions)
+![python version](https://img.shields.io/badge/python-%E2%89%A53.8-blue?logo=python)
+[![Codecov](https://img.shields.io/codecov/c/github/Embers-of-the-Fire/monad-std?logo=codecov)](https://app.codecov.io/gh/Embers-of-the-Fire/monad-std)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/monad-std?logo=pypi)](https://pypi.org/project/monad-std/)
+
+</div>
+
+`monad_std` is a library that provides some useful Rust-styled utilities for using monads in Python.
+
