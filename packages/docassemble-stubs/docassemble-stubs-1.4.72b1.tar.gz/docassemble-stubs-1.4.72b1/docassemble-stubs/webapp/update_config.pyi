@@ -1,0 +1,3 @@
+from docassemble.base.config import daconfig as daconfig
+
+def check_for_config() -> None: ...

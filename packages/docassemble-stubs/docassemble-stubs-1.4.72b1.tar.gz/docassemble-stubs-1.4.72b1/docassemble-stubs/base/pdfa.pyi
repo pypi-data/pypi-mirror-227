@@ -1,0 +1,3 @@
+from docassemble.base.error import DAError as DAError
+
+def pdf_to_pdfa(filename) -> None: ...
