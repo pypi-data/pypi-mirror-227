@@ -1,0 +1,10 @@
+battery_sizing_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+battery_sizing_model/blocks.py,sha256=BcW_Pbs9D5MgU7CQke6BIcBvhHKK7TzR1DUAL4-R_dk,21305
+battery_sizing_model/lookup_tables/charge_ocv.pkl,sha256=VyU1AzxklOuVNfhockIHy8TAWkalpHrEk7p7cWcvxFA,225352
+battery_sizing_model/lookup_tables/discharge_ocv.pkl,sha256=N5yjUk09c5VfQbynt3vgYe1Jk2a8X28zs0I8OUI7XOs,225352
+battery_sizing_model/lookup_tables/soc_interp_points.pkl,sha256=nAKjUvDBnOnuZACTHBR1Wl_vHjq4sEqAdUrV04qRqk0,8151
+battery_sizing_model-0.0.1.dist-info/LICENSE,sha256=LL9aJwgsfG3JnhgWAeJmpnfDdbc-4GNWB8lxJd_vhps,1089
+battery_sizing_model-0.0.1.dist-info/METADATA,sha256=14WHxQ9GTI6xnLLr3SbiEM0GnnxxbhDYLnPWJu7C_Ns,858
+battery_sizing_model-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+battery_sizing_model-0.0.1.dist-info/top_level.txt,sha256=MTPoJ-C5RWfvQgMq4avSGf4yhrZyju-Hd2_u0dJxdrw,21
+battery_sizing_model-0.0.1.dist-info/RECORD,,
