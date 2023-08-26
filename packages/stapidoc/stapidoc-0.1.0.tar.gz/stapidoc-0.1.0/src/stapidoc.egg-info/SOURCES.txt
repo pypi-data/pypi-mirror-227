@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/README.md
+src/stapidoc/__init__.py
+src/stapidoc/__main__.py
+src/stapidoc/stapi.py
+src/stapidoc/stapidoc.mako
+src/stapidoc.egg-info/PKG-INFO
+src/stapidoc.egg-info/SOURCES.txt
+src/stapidoc.egg-info/dependency_links.txt
+src/stapidoc.egg-info/entry_points.txt
+src/stapidoc.egg-info/requires.txt
+src/stapidoc.egg-info/top_level.txt
