@@ -1,0 +1,8 @@
+PyExecJS2
+pybase62
+base58
+requests
+bs4
+urllib3
+rarfile
+sympy
