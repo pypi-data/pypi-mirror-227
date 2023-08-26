@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: rtspware
+Version: 0.1.0
+Summary: Tools for working with RTSP stream.
+Author: ryzhovalex
+Author-email: thed4rkof@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: opencv-python (>=4.8.0.76,<5.0.0.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# RTSPWare
+
+Some helper tools around RTSP protocol.
+
+## Installation
+
+For all methods, firstly install the project via PIP:
+```bash
+pip install rtspware
+```
+
+### Save a video from stream
+
+You need to install [openRTSP](http://www.live555.com/openRTSP/), for examplei
+for Arch Linux it is available under `live-media` library:
+```bash
+sudo pacman -S live-media
+openRTSP --help
+```
+
+## Usage
+
+### Save a video from stream
+
+Basic call to save a video from RTSP stream to current directory with default
+configuration:
+```bash
+rtspware --creds "<username> <password>" <hello>
+```
+
+This will save incoming RTSP stream into mp4 files, with creating a new file
+each hour.
+
