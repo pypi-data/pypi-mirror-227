@@ -1,0 +1,13 @@
+connector/__init__.py,sha256=v0jywF3RFTR73MrFEsVtYsLWAndoaweu_Dm5SRZnhMM,981
+connector/_version.py,sha256=h84RTFjNn6fJQ3jRSEcVloTKHzxlC5PWRTTT491umio,499
+connector/cli.py,sha256=tfNUzwa598eKBCB5-lD97z9-xUOlSK0xM-tgCjoBy94,7121
+connector/googlecloud.py,sha256=puCQxyzPwGjALmrUeMJRylAs0NdVXGvqRDhNw2jpFN8,991
+connector/googledrive.py,sha256=H5y8lnGlQO67VcBq0qn4nlwUhec_LcgwYc0gMTPrQvI,1553
+connector/remote.py,sha256=olcQXCJBye665XEInrWT7b2_sSm047ICC_-sCFA-I7o,1457
+connector/restricted.py,sha256=uAR0l-O2gbZrCxaJ_3OJX_WN2mWQ1Qa5_rpE0a1bFEs,1896
+teamconnector-0.1.4.1.dist-info/LICENSE.md,sha256=CxZ4fvG-toAy79co9KfK9aMNOURWhNj-_P7IrpIBMD8,1074
+teamconnector-0.1.4.1.dist-info/METADATA,sha256=lqsODofCgyrCN6DInzEXeHE4KITS3bKeTyFHkFBCiDo,2509
+teamconnector-0.1.4.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+teamconnector-0.1.4.1.dist-info/entry_points.txt,sha256=kaA39FpoCMVmFbcK_XJ2C7b4BycZWHYutppLSnqaSgA,42
+teamconnector-0.1.4.1.dist-info/top_level.txt,sha256=HEljM61yJAAWyh7-0xWg29ObfG1bd407h2_wBfp0G-g,10
+teamconnector-0.1.4.1.dist-info/RECORD,,
