@@ -1,0 +1,12 @@
+deepler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepler/cli.py,sha256=yzywlelfsKN3iH8GuT-nPoEV_gADkGaIGG-f6jLNGzw,6681
+deepler/constants.py,sha256=To_NIyIuXbCnD3ThLzOwEZe0ir6vIUDSMyJNhjdSfis,824
+deepler/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepler/core/configuration.py,sha256=A3bZC1SBdrPXCAW9dfttbvlTsj3A5hiCBUEAvpU-As0,2152
+deepler/core/histogram.py,sha256=xb_hlHxIlvkfIb1w2vdGCnftA2Gi5pzS3mMcUbEZ_FI,1341
+deepler/core/translator.py,sha256=qFyhIP7aT0nmAU5o6mHVCiebF-pcTCLQT7ajaf6d4O4,2709
+deepler/core/word_splitter.py,sha256=mUS8e4dolKbSrXQw3RgkTtkh4Sgj2XsvLuApBCigKRw,758
+deepler-0.1.1.dist-info/METADATA,sha256=NvLtUqvuaApPyLpdc0XrHZRfpPhx68fXbR225jwrF2k,3088
+deepler-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+deepler-0.1.1.dist-info/entry_points.txt,sha256=aTNko71Unp4HK9bqzF1i5aaX7hFHlEoiQ9TPNlmBH8o,44
+deepler-0.1.1.dist-info/RECORD,,
