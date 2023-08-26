@@ -1,0 +1,46 @@
+.editorconfig
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+mkdocs.yml
+pyproject.toml
+.github/workflows/docs-publish.yml
+.github/workflows/python-publish.yml
+.github/workflows/test-pre-commit-hooks.yml
+.github/workflows/test-pytest.yml
+.vscode/.gitignore
+.vscode/extensions.json
+.vscode/launch.json
+docs/index.md
+docs/cli/basic-usage/Readme.ipynb
+docs/cli/basic-usage/lib.py
+docs/cli/with-cylc/README.md
+docs/interactive/Accessing State Dependent Properties.ipynb
+docs/interactive/Basic Usage.ipynb
+docs/interactive/Passing Static Parameters.ipynb
+docs/interactive/Saving And Loading With Dill.ipynb
+docs/interactive/Using Alternative Planners And Executors.ipynb
+docs/javascripts/mathjax.js
+examples/cylc-pip/.gitignore
+examples/cylc-pip/README.md
+examples/cylc-pip/flow.cylc
+examples/cylc-pip/requirements.txt
+examples/cylc-pip/lib/python/components.py
+examples/cylc-slurm-pip/.gitignore
+examples/cylc-slurm-pip/README.md
+examples/cylc-slurm-pip/flow.cylc
+examples/cylc-slurm-pip/global.cylc
+examples/cylc-slurm-pip/requirements.txt
+examples/cylc-slurm-pip/lib/python/controller_setup.py
+examples/cylc-slurm-pip/lib/python/dump_initial_controller.py
+examples/state-pip/README.md
+examples/state-pip/components.py
+mkdocs/base.yml
+src/autora/workflow/__main__.py
+src/autora/workflow/serializer/yaml_.py
+src/autora_workflow.egg-info/PKG-INFO
+src/autora_workflow.egg-info/SOURCES.txt
+src/autora_workflow.egg-info/dependency_links.txt
+src/autora_workflow.egg-info/requires.txt
+src/autora_workflow.egg-info/top_level.txt

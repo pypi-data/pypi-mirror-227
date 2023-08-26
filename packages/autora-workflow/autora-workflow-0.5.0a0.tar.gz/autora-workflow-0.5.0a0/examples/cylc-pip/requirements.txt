@@ -1,0 +1,4 @@
+autora-core>=4.0.0b1                       # replace with autora when published
+/Users/jholla10/Developer/autora-workflow  # replace with autora when published
+cylc-flow==8.1.4
+cylc-uiserver==1.2.2
