@@ -1,0 +1,8 @@
+cdbc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdbc/cache.py,sha256=jefoXczuBuOEvXIBVcki8E1GEhnzVXI4wWPxF7SA_eE,1386
+cdbc/message.py,sha256=LU1mRT6k_MKkCjD5G9zoKp1p3yNjTAi12TjzrRoIhUU,3882
+cdbc/postgresql.py,sha256=NAgEk0M20Cd7rkvAokyLJN-U74olhD-nyw2KyrByUKk,2679
+cdbc-0.0.14.dist-info/METADATA,sha256=ydZ0_Sex7CkX9a170Be42Ivvlk0muVylbo1Dgq3s5Xw,2912
+cdbc-0.0.14.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cdbc-0.0.14.dist-info/top_level.txt,sha256=7et4CO2-qPYVu46UvF4chaLEQmeMmYDsQWb7ykhz538,5
+cdbc-0.0.14.dist-info/RECORD,,
