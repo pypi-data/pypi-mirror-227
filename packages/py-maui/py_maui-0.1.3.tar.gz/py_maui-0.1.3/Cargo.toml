@@ -1,0 +1,17 @@
+[package]
+name = "py-maui"
+version = "0.1.3"
+edition = "2021"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "py_maui"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.19.2", features = ["anyhow", "chrono"] }
+chrono = "0.4"
+instrument-ctl = "0.1"
+anyhow = "1"
+
