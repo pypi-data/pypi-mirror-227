@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: MDTrj
+Version: 0.0.1
+Summary: A trajectory parser
+Home-page: https://github.com/dotmet/mdtrj
+Author: Even Wong
+Author-email: evenwong@stu.cdut.edu.cn
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mdtrj
+A pack.
+
+# Installation
+
+you can install it with:
+```
+  $ pip install mdtrj
+```
+or clone this repository and run:
+```
+  $ python setup.py install
+```
