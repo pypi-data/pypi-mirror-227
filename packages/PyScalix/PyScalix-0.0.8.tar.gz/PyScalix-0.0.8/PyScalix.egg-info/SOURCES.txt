@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PyScalix/__init__.py
+PyScalix/pyscalix.py
+PyScalix.egg-info/PKG-INFO
+PyScalix.egg-info/SOURCES.txt
+PyScalix.egg-info/dependency_links.txt
+PyScalix.egg-info/top_level.txt
