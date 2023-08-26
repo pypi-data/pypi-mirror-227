@@ -1,0 +1,26 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+[project]
+name = "face_processor"
+authors = [
+    {name = "Robbert van der Mijn", email = "robbertmijn@gmail.com"},
+]
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.5"
+dynamic = ["version", "description"]
+dependencies = [
+    "opencv-python",
+    "dlib",
+    "imutils",
+    "matplotlib",
+    "numpy"
+]
+[project.scripts]
+face_processor = "face_processor._app:app"
+[project.urls]
+Documentation = "https://github.com/robbertmijn/face_processor"
+Source = "https://github.com/robbertmijn/face_processor"
