@@ -1,0 +1,10 @@
+django_email_throttler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_email_throttler/throttler.py,sha256=FCg64BhmFEXb8azuEtEt6ducudPwpgxRSN0Rz-dafVw,4227
+django_email_throttler/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_email_throttler/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_email_throttler/management/commands/throttle_report.py,sha256=fdUnrmh_rdFRZtOPWEYE0KQ34E081T7yC6rs3gtLpXA,6427
+django_email_throttler-0.5.0.dist-info/LICENSE,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+django_email_throttler-0.5.0.dist-info/METADATA,sha256=3PMZeAWwKqTYeQtiEKeqpXMZeNSfwE9l9AZIxK__LDU,819
+django_email_throttler-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_email_throttler-0.5.0.dist-info/top_level.txt,sha256=_Sh_WxR-HohnldZI-2RCkXnkViz4sBzYRec_0vso6Vs,23
+django_email_throttler-0.5.0.dist-info/RECORD,,
