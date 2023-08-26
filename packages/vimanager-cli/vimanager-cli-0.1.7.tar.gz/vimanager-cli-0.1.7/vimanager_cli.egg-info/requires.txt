@@ -1,0 +1,9 @@
+Click>=8.0.0
+colorama>=0.4.0
+
+[download]
+yt-dlp
+
+[spotify]
+rapidfuzz
+ytmusicapi
