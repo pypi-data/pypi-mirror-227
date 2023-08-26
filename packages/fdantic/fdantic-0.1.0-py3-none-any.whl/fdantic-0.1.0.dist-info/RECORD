@@ -1,0 +1,7 @@
+flask_dantic/__init__.py,sha256=aYbnQMBowvVm_p9ytBtqlH9QVsxzfcdNfHW2KLkorgA,128
+flask_dantic/model.py,sha256=cx-eTSvDT9RqKJx5Hxl8QMqL_Kzav9SlAFukiG60s2k,2001
+flask_dantic/space.py,sha256=OWfYv2cudSGBVXSfbcXVfP7aa_2rod2KiE8lWCST4Vw,3961
+fdantic-0.1.0.dist-info/METADATA,sha256=O-3I-R-Jh46We_4beFQnU-NoIFA3mZWzfhXrsiTfnEE,1098
+fdantic-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fdantic-0.1.0.dist-info/top_level.txt,sha256=kBI2ho-INrjmZgSISXRdxagYn9mdcxQhoIlOR52YJX8,38
+fdantic-0.1.0.dist-info/RECORD,,
