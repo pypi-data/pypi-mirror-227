@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ColorPrint/ColorPrintConsole.py
+ColorPrint/__init__.py
+ColorPrintConsole.egg-info/PKG-INFO
+ColorPrintConsole.egg-info/SOURCES.txt
+ColorPrintConsole.egg-info/dependency_links.txt
+ColorPrintConsole.egg-info/top_level.txt
