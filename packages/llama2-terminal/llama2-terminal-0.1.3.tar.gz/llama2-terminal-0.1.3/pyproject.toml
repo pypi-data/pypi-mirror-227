@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "wheel", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "llama2-terminal"
+version = "0.1.3"
+description = "Llama2 Terminal Tools Project"
+authors = [{name = "SamthinkGit", email = "sebastianmayorquin@gmail.com"}]
+license = { file = "LICENSE" }
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+inquirer = "*"
+cmd2 = "*"
+haystack = "*"
+torch = "*"
+transformers = "^4.0.0"
+bitsandbytes = "^0.3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
