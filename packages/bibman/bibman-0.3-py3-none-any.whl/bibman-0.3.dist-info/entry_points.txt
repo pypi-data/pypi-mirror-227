@@ -1,0 +1,2 @@
+[console_scripts]
+bibman = bibman.main:run
