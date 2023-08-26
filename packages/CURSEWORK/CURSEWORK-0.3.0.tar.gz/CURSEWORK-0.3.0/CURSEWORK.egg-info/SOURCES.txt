@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+CURSEWORK/CURSEWORK.py
+CURSEWORK/__init__.py
+CURSEWORK.egg-info/PKG-INFO
+CURSEWORK.egg-info/SOURCES.txt
+CURSEWORK.egg-info/dependency_links.txt
+CURSEWORK.egg-info/requires.txt
+CURSEWORK.egg-info/top_level.txt
