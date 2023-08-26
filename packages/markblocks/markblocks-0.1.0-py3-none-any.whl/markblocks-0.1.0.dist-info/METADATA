@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: markblocks
+Version: 0.1.0
+Summary: 
+Author: kfields
+Author-email: kurtisfields@gmail.com
+Requires-Python: >=3.10.0,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pygments (>=2.16.1,<3.0.0)
+Requires-Dist: emoji (>=2.8.0,<3.0.0)
