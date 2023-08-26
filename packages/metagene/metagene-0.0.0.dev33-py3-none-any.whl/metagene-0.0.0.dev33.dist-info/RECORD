@@ -1,0 +1,16 @@
+metagene/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metagene/cli.py,sha256=tnO7nKX25UswKqEjc7Jsy25Iw_odklXHK8Re5W6C-wk,2208
+metagene/data/.gitignore,sha256=SPnP3n2zUDT0nJJdJrrxfwqr5hyxYSHbALvclloAEKo,9
+metagene/data/GRCh38.bed.parquet,sha256=Nrx6lChVg5MlubhlzWf4VoRgmg6Js_Jj61EuB9wwv_M,6694181
+metagene/data/IRGSP-1.0.bed.parquet,sha256=LaTGRMfv3cUK7sgZutokcWiqXPvnE7su0D23AUEaDZc,2224407
+metagene/data/TAIR10.bed.parquet,sha256=0hCApZoMt8y_3l1iXDLjFS9fNK1zOqK9oWUt72YKKxw,2273027
+metagene/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metagene/data/input.bed.gz,sha256=bpfP_ECTWiDMYDCfGzhfa69eBiq5bLzz_GUcpUPxcWQ,55130
+metagene/get_features.py,sha256=LbrUppbgUHculY2DKavoxsu8meulH-dLc2bQjidgek0,3388
+metagene/overlap.py,sha256=LTd1FRYtAOnj0dAGtN9OC47cQHtf2uZ4VlI9DZL59Ss,5162
+metagene/read_features.py,sha256=V0OwAu3DojS1DFemEpeN-aciq0fMZF0K_19kHa9_IDA,1091
+metagene/read_gtf.py,sha256=tqbKRVBUQkoiOs3_U4iB4JZvBZ7p-eKEyo5-JnQDxyI,8178
+metagene-0.0.0.dev33.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+metagene-0.0.0.dev33.dist-info/entry_points.txt,sha256=JsTWLFdGrx_fZg8j3PyrkH5qj6Gmv7fyTIaXh_5sWN0,45
+metagene-0.0.0.dev33.dist-info/METADATA,sha256=PWKqSWqbfhOrJaVk3w3VQrnxUaDWJ4WdWxptLHw3aPs,1600
+metagene-0.0.0.dev33.dist-info/RECORD,,
