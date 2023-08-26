@@ -1,0 +1,61 @@
+# This file exists so you can easily regenerate your project.
+#
+# `cookiepatcher` is a convenient shim around `cookiecutter`
+# for regenerating projects (it will generate a .cookiecutterrc
+# automatically for any template). To use it:
+#
+#    pip install cookiepatcher
+#    cookiepatcher gh:ionelmc/cookiecutter-pylibrary robotframework-listener-archive-output
+#
+# See:
+#    https://pypi.org/project/cookiepatcher
+#
+# Alternatively, you can run:
+#
+#    cookiecutter --overwrite-if-exists --config-file=robotframework-listener-archive-output/.cookiecutterrc gh:ionelmc/cookiecutter-pylibrary
+
+default_context:
+    allow_tests_inside_package: "no"
+    c_extension_function: "longest"
+    c_extension_module: "_archive"
+    c_extension_optional: "no"
+    c_extension_support: "no"
+    codacy: "no"
+    codacy_projectid: "[Get ID from https://app.codacy.com/gh/uhbs/robotframework-listener-archive-output/settings]"
+    codeclimate: "no"
+    codecov: "no"
+    command_line_interface: "no"
+    command_line_interface_bin_name: "robotframework-listener-archive-output"
+    coveralls: "no"
+    distribution_name: "robotframework-listener-archive-output"
+    email: "dominik.riva@usb.ch"
+    formatter_quote_style: "double"
+    full_name: "Dominik Riva"
+    github_actions: "no"
+    github_actions_osx: "no"
+    github_actions_windows: "no"
+    license: "Apache Software License 2.0"
+    package_name: "archive"
+    pre_commit: "yes"
+    project_name: "robotframework-listener-archive-output"
+    project_short_description: "A Robot Framework listener for archiving the content of ./output in a ./%Y/%m/%d/fqdn_%H%M%S structure with optional prefix path."
+    pypi_badge: "yes"
+    pypi_disable_upload: "no"
+    release_date: "today"
+    repo_hosting: "gitlab.com"
+    repo_hosting_domain: "gitlab.com"
+    repo_main_branch: "main"
+    repo_name: "robotframework-listener-archive-output"
+    repo_username: "uhbs"
+    scrutinizer: "no"
+    setup_py_uses_setuptools_scm: "no"
+    sphinx_docs: "no"
+    sphinx_docs_hosting: "https://robotframework-listener-archive-output.readthedocs.io/"
+    sphinx_doctest: "no"
+    sphinx_theme: "sphinx-rtd-theme"
+    test_matrix_separate_coverage: "no"
+    version: "0.0.4"
+    version_manager: "bump2version"
+    website: "https://www.unispital-basel.ch/"
+    year_from: "2023"
+    year_to: "2023"
