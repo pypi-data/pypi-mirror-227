@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: cidan
+Version: 0.1.37
+Summary: cidan-Calcium Imaging Data ANalysis
+Author: Sam Schickler
+Author-email: sschickl@ucsd.edu
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: QtPy
+Requires-Dist: QDarkStyle
+Requires-Dist: pybind11
+Requires-Dist: pyqtgraph ==0.11.0rc0
+Requires-Dist: pyside2
+Requires-Dist: dask[complete]
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: tiffile
+Requires-Dist: scikit-image
+Requires-Dist: hnswlib
+Requires-Dist: pillow
+Requires-Dist: tifffile
+Requires-Dist: zarr
+Requires-Dist: neurofinder
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: future
+Requires-Dist: peakutils
+Requires-Dist: requests
+Requires-Dist: h5py
+
