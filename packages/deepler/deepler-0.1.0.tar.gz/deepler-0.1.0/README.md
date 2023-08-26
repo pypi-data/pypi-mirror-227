@@ -1,0 +1,60 @@
+# deepler
+
+deepler is a learning support tool that records the number of words that appear through DeepL.
+You can learn frequently used words efficiently.
+
+```bash
+# DeepL API Free Plan is here.
+# https://www.deepl.com/pro#developer
+$ export DEEPL_AUTH_KEY=<YOUR API KEY>
+
+$ poetry run cli
+usage: cli [-h] {translate,hist,configure} ...
+cli: error: the following arguments are required: {translate,hist,configure}
+
+$ poetry run cli hist
+[]
+
+$ poetry run cli translate --text "deepler is a learning support tool that records the number of words that appear through DeepL." --source-lang EN --target-lang JA
+input text(EN)
+deepler is a learning support tool that records the number of words that appear through DeepL.
+
+output text(JA)
+deeplerは、DeepLを通じて出現した単語の数を記録する学習支援ツールです。
+
+$ poetry run cli hist
+[('that', 2),
+ ('deepler', 1),
+ ('learning', 1),
+ ('support', 1),
+ ('tool', 1),
+ ('records', 1),
+ ('number', 1),
+ ('words', 1),
+ ('appear', 1),
+ ('through', 1)]
+
+$ poetry run cli translate --text "deepler is a learning support tool that records the number of words that appear through DeepL." --source-lang EN --target-lang JA
+input text(EN)
+deepler is a learning support tool that records the number of words that appear through DeepL.
+
+output text(JA)
+deeplerは、DeepLを通じて出現した単語の数を記録する学習支援ツールです。
+
+$ poetry run cli hist
+[('that', 4),
+ ('deepler', 2),
+ ('learning', 2),
+ ('support', 2),
+ ('tool', 2),
+ ('records', 2),
+ ('number', 2),
+ ('words', 2),
+ ('appear', 2),
+ ('through', 2)]
+
+$ poetry run cli hist --min-count 3
+[('that', 4)]
+```
+
+**Currently, only space-separated languages can be counted.**
