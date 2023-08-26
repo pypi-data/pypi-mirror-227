@@ -1,0 +1,15 @@
+kthutils/.gitignore,sha256=B0Dvy0OjSJl48lhRofoFJlD1m0njnb_e6s1hrCts1uY,56
+kthutils/Makefile,sha256=mzIlLas4OPz_k-13eXYPO1wgzWlJIPs83m3_SEp5tgE,268
+kthutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kthutils/cli.nw,sha256=k5sjW5QqxL-T44EYNNBFql32rQO9WVBhBKEVJqbTbvY,3509
+kthutils/cli.py,sha256=r6M-wC45Eu2rGJaxWn_Bgn5iDO-8JHlV4uBMRG-_SEE,364
+kthutils/credentials.py,sha256=KTkNB8ejxmzS7uucSPYlwYjJPEcpBOi8D9qc-QR-6DE,755
+kthutils/nytid.hourly.sh,sha256=q3ysvxNi3C_LsfPPcBDgEcRxQbl9k24ssO0ljeSv7UE,1086
+kthutils/ug.nw,sha256=RTCl9bJQPFZAdMwUbnwoUZHo1RglyqzmQlcYO6p18ps,18914
+kthutils/ug.py,sha256=vTAF-O0CUGUWOmOT5WOnymCEyootqsWH9XfyASm3SsI,9929
+tests/test_ug.py,sha256=ep1Hgp_eeF8VArp0PhW4DcVNJtfTegrTX0eqIz-J5Rg,745
+kthutils-1.5.dist-info/LICENSE,sha256=MAeY6b3f2eyrZasde3JOsc6TzcZF7tLdNPPnwVdsqz4,1074
+kthutils-1.5.dist-info/METADATA,sha256=BoHQwxHUemaPngFxCxlJLnST_KiKhN2e-D2gM7vXmmU,1880
+kthutils-1.5.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+kthutils-1.5.dist-info/entry_points.txt,sha256=5IFR3Mw0guMXIao6E9M2tXF64c_DfzmRHvQ_jL34tAc,45
+kthutils-1.5.dist-info/RECORD,,
