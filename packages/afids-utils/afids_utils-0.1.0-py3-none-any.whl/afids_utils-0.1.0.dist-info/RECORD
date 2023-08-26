@@ -1,0 +1,14 @@
+afids_utils/__init__.py,sha256=F6SneFcVsWnk_s1lsux7DzzhapEGbvJk1VAZYdG285o,33
+afids_utils/afids.py,sha256=Xm8vo4V12wBZ_EnntBWGEUl1yX9F-PkGgaRBKmrO8Z0,4369
+afids_utils/exceptions.py,sha256=1XZgCCJdHzT2gLcAUc2S2ee2oBF6ULeWtUR3X-huHko,358
+afids_utils/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afids_utils/ext/fcsv.py,sha256=IkSTjOLDE5CaDeFxELeHa0fPveCdt7PX6wPw4cCvEJI,4740
+afids_utils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afids_utils/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afids_utils/resources/afids_descs.json,sha256=daa5hcjULDU2Jhrqr9T05Ki1lKfcKvCyqGRCkhc6FrY,1659
+afids_utils/resources/template.fcsv,sha256=obT4rp-Iq7EYsWeIxCnuyfaY7WfNPt_7hBjydy7Ju1k,3163
+afids_utils/transforms.py,sha256=0icOBGsj-dN_-_bCOa-hskuGAwWidfqlxhZgphRrNh8,1144
+afids_utils-0.1.0.dist-info/LICENSE,sha256=m5mqGwBXL9uFW4QHcNnXyTAbS-lOnlDNtNg95uZZwgM,1096
+afids_utils-0.1.0.dist-info/METADATA,sha256=LMwd-Ap3HRyjGUYOP9OrxbUFoxztiOojZBu4OsNA8Y8,1016
+afids_utils-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+afids_utils-0.1.0.dist-info/RECORD,,
