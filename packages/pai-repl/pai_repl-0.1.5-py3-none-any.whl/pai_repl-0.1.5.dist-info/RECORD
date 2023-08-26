@@ -1,0 +1,14 @@
+pai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pai/cli.py,sha256=3-Z8mUqXtZMk7RkJU9taPR87Dmln9jmSvYwA4bimO7Y,1511
+pai/console.py,sha256=NbFTqt5Mfmu1MTr2PAwjxx-Vw3xxQmrv1YCrJk0z8-8,5884
+pai/history.py,sha256=fXASggXLHiu-uCoK1FhXFgjShGAFCrSZHLKbL1N7u5Y,2614
+pai/llms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pai/llms/chat_gpt.py,sha256=siJM8RqXnYmMM7kRcrsWhlVrp1ZDbNQeg0D6DNKhK2s,5840
+pai/llms/fake.py,sha256=NEdhjnzN8SjNi1qffR2a2jB8Rd3tWm6E85hZ-qdse5U,891
+pai/llms/llama.py,sha256=kvKVeQCi9sBtGqK5g2ImEv0kXU1ypPFH-uscAlqX3kI,1885
+pai/llms/llm_protocol.py,sha256=YFyLAqY2ucwMS_0p2NLoK2-iaJvUIFsNinODQwNk4Ho,696
+pai/repl.py,sha256=a3bkLmfw0JIVoSFpbkS8uUt1Gkwvw0oKBi21BVTpE9s,6059
+pai_repl-0.1.5.dist-info/METADATA,sha256=W9GwEfoPgBAlv05kiotytuQPqxoj4MqoQ0fJxB4TQU0,1842
+pai_repl-0.1.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pai_repl-0.1.5.dist-info/entry_points.txt,sha256=KNww87hpFnkT2osNiCPLmXzW5OUcgLDkIkPoLIxA6i0,36
+pai_repl-0.1.5.dist-info/RECORD,,
