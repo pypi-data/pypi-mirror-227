@@ -1,0 +1,30 @@
+[project]
+name = "soma-songs"
+version = "0.0.3"
+description = "Save song data from somafm.com as JSON"
+authors = [
+    { name = "inktrap", email = "inktrap@inktrap.org" },
+]
+dependencies = [
+    "beautifulsoup4>=4.12.2",
+    "tinydb>=4.8.0",
+    "requests>=2.31.0",
+    "rich>=13.5.2",
+    "requests-cache>=1.1.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+soma-songs = "soma-songs.main:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
