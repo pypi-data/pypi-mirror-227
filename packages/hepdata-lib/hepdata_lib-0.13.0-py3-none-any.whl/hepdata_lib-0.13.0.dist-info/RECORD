@@ -1,0 +1,9 @@
+hepdata_lib/__init__.py,sha256=ZNHwnPMvV4PGc8H0W4JrndLsSi5nYVgtqs1U-7QjA-0,26425
+hepdata_lib/c_file_reader.py,sha256=M2VkpD7O_-38jWs_9QNuzx8fRMoVhOFJv1YLZfZcSLo,14250
+hepdata_lib/helpers.py,sha256=YW5sq6GIQJn244OeOZnmZwNQ_YLJ8We96cKseXlsy1s,12079
+hepdata_lib/root_utils.py,sha256=BlxheWlNkMJMBKI81s7__1frDkgwJDDyymPuZsk7XcI,17205
+hepdata_lib-0.13.0.dist-info/LICENSE,sha256=AhGw9Fwe5kgnkMHRq7wRqq-cdZlE5ZgE7MA44egDxWM,1070
+hepdata_lib-0.13.0.dist-info/METADATA,sha256=YpqhcqfoEjH1xE8peaQE58DUX6hMvoPPdNdaKV20B_8,5396
+hepdata_lib-0.13.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hepdata_lib-0.13.0.dist-info/top_level.txt,sha256=IkchiWUuuK6CKSwphBaYoq2c8u8H3VnIaDjqOjqQh2A,12
+hepdata_lib-0.13.0.dist-info/RECORD,,
