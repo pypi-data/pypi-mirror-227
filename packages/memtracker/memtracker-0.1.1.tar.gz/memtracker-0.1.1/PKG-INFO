@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: memtracker
+Version: 0.1.1
+Summary: A simple utility to track and log peak CPU and GPU memory usage of a function.
+Author: MIBlue119
+Author-email: miblue119@gmail.com
+Project-URL: Bug Reports, https://github.com/MIBlue119/memtracker/issues
+Project-URL: Source, https://github.com/MIBlue119/memtracker
+Keywords: memory tracking,CPU,GPU,memory usage
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
