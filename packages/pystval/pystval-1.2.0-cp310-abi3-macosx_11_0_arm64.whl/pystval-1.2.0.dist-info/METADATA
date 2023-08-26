@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pystval
+Version: 1.2.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Library for creating a custom validator
+Keywords: validate,regex,rust
+Author: Mansur Azatbek
+Author-email: mansur62624@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Project Relocation
+**The project has been successfully moved to a new name and address**. Now you can find it at the following link: https://github.com/m62624/flexible_inspect
+
+This decision was made due to the fact that the first version of the project encountered some bugs and problems. The new version has been redesigned to take these comments into account and has gained more flexibility and usability, especially when importing into programming languages other than Python. We are confident that these changes will allow the project to work more efficiently and reliably
