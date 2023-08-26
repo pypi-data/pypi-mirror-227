@@ -1,0 +1,65 @@
+$fa-var-caret-down: "\f0d7";
+$fa-var-caret-right: "\f0da";
+
+label[for="faqSearch"] {
+    width: 100%;
+    margin: 1em 0 4em;
+    font-size: 20px;
+    i {
+      float: left;
+      width: 0;
+    }
+    i:before {
+      font-weight: 300;
+      position: relative;
+      top: .9em;
+      left: 1em;
+    }
+}
+#faqSearch {
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid;
+    padding-left: 4em;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 0;
+    height: 3em;
+}
+
+.panel {
+    margin-bottom: 20px;
+    p {
+        margin-bottom: 10px;
+    }
+    .card-header, .list-group-item {
+        padding: 10px 15px;
+    }
+    .panel-title {
+        font-size: 16px;
+    }
+}
+
+.question-asked {
+    font-weight: bold;
+}
+.question-category {
+    summary .fa::before {
+        content: $fa-var-caret-right;
+    }
+    &[open] summary .fa::before {
+        content: $fa-var-caret-down;
+    }
+}
+details.panel.question-category {
+    margin: 0;
+    padding: 1em 0;
+    border: none;
+    border-top: 1px solid;
+    ul.list-group li {
+      .question-answered {
+        margin: 1em 0;
+      }
+    }
+ }
+

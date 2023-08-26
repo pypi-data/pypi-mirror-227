@@ -1,0 +1,5 @@
+[pretalx.plugin]
+prtx_faq = prtx_faq:PretalxPluginMeta
+
+[pretix.plugin]
+prtx_faq = prtx_faq:PretixPluginMeta
