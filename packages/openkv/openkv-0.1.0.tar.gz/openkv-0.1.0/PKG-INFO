@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: openkv
+Version: 0.1.0
+Summary: a open source key value store
+License: MIT
+Author: sagnikc395
+Author-email: sagnikchatterjee395@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Description-Content-Type: text/markdown
+
+## openKV 
+
+An Key Value store written in Python.
