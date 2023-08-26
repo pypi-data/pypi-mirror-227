@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/battery_sizing_model/__init__.py
+src/battery_sizing_model/blocks.py
+src/battery_sizing_model.egg-info/PKG-INFO
+src/battery_sizing_model.egg-info/SOURCES.txt
+src/battery_sizing_model.egg-info/dependency_links.txt
+src/battery_sizing_model.egg-info/requires.txt
+src/battery_sizing_model.egg-info/top_level.txt
+src/battery_sizing_model/lookup_tables/charge_ocv.pkl
+src/battery_sizing_model/lookup_tables/discharge_ocv.pkl
+src/battery_sizing_model/lookup_tables/soc_interp_points.pkl
