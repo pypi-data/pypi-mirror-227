@@ -1,0 +1,2 @@
+[console_scripts]
+jupyter-docker = jupyter_docker.serverapplication:main
