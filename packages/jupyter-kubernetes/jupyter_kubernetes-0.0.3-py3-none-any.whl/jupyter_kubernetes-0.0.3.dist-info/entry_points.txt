@@ -1,0 +1,2 @@
+[console_scripts]
+jupyter-kubernetes = jupyter_kubernetes.application:main
