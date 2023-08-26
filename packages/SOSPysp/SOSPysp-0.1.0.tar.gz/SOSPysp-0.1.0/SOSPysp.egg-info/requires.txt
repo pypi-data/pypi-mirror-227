@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+sympy
+math
+itertools
+fractions
+importlib
+time
+sys
+mosek

@@ -1,0 +1,7 @@
+README.md
+setup.py
+SOSPysp.egg-info/PKG-INFO
+SOSPysp.egg-info/SOURCES.txt
+SOSPysp.egg-info/dependency_links.txt
+SOSPysp.egg-info/requires.txt
+SOSPysp.egg-info/top_level.txt
