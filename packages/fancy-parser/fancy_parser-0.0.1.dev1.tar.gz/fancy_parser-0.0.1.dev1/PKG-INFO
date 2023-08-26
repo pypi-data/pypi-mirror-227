@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: fancy_parser
+Version: 0.0.1.dev1
+Summary: A fancy parser for fancy people who like AI
+Home-page: https://github.com/nannullna/fancy-parser
+Author: Sanghyun Kim
+Author-email: nannullna@kaist.ac.kr
+License: Apache License 2.0
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fancy-parser
+Fancy Parser for ML experiments, mostly based on HuggingFace's parser

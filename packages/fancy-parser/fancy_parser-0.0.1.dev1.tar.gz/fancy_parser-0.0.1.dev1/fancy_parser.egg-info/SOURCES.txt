@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fancy_parser/__init__.py
+fancy_parser/fancy_args.py
+fancy_parser/fancy_parser.py
+fancy_parser.egg-info/PKG-INFO
+fancy_parser.egg-info/SOURCES.txt
+fancy_parser.egg-info/dependency_links.txt
+fancy_parser.egg-info/top_level.txt
