@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/minud/__init__.py
+src/minud/mito_segmentator.py
+src/minud.egg-info/PKG-INFO
+src/minud.egg-info/SOURCES.txt
+src/minud.egg-info/dependency_links.txt
+src/minud.egg-info/requires.txt
+src/minud.egg-info/top_level.txt
