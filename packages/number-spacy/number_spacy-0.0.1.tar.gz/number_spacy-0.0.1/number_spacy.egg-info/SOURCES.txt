@@ -1,0 +1,9 @@
+README.md
+setup.py
+number_spacy/__init__.py
+number_spacy/components.py
+number_spacy.egg-info/PKG-INFO
+number_spacy.egg-info/SOURCES.txt
+number_spacy.egg-info/dependency_links.txt
+number_spacy.egg-info/requires.txt
+number_spacy.egg-info/top_level.txt
