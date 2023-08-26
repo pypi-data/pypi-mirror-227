@@ -1,0 +1,8 @@
+dharapdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dharapdf/imagetopdf.py,sha256=YLRYFK3ArR2XwKAT5mlkSQPo-w5ccaL4H0UnCTpN_3o,61
+dharapdf/texttopdf.py,sha256=plwYZXMRDOjp_S920iqrax9Rhx5hk8NrzRyKlBxe4tw,76
+dharapdf-1.0.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dharapdf-1.0.dist-info/METADATA,sha256=GtxMuIwKPEXoYsWlyqv0dadVQ2MbbzQ34OwJL4QA1-4,123
+dharapdf-1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dharapdf-1.0.dist-info/top_level.txt,sha256=Zs3UPF-kI_mWeSQ3Gq5uSDagEOnV8Hz1LTWeHbZwNIQ,9
+dharapdf-1.0.dist-info/RECORD,,
