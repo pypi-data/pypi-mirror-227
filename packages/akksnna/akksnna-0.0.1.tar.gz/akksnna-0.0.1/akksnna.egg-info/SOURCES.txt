@@ -1,0 +1,7 @@
+setup.py
+akksnna/__init__.py
+akksnna.egg-info/PKG-INFO
+akksnna.egg-info/SOURCES.txt
+akksnna.egg-info/dependency_links.txt
+akksnna.egg-info/requires.txt
+akksnna.egg-info/top_level.txt
