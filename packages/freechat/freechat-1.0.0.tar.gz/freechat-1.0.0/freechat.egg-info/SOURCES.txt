@@ -1,0 +1,8 @@
+setup.py
+freeai/__init__.py
+freeai/main.py
+freechat.egg-info/PKG-INFO
+freechat.egg-info/SOURCES.txt
+freechat.egg-info/dependency_links.txt
+freechat.egg-info/requires.txt
+freechat.egg-info/top_level.txt
