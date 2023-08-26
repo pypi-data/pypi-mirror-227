@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Discrete-Dynamical-Reservoir
+Version: 0.1.5
+Summary: Use of discrete dynamical systems within recurrent neural networks
+Home-page: https://github.com/matteo-789/Discrete-Dynamical-Reservoir/
+Author: Matteo Cisneros
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Python library to build and use discrete dynamical systems within recurrent neural networks. This library is a user-friendly tool made to use discrete dynamical systems such as Binary ECA, 3 states ECA and CML as a reservoir. Each type of reservoir has its hyper-parameters to enhance the reservoir performance.
+

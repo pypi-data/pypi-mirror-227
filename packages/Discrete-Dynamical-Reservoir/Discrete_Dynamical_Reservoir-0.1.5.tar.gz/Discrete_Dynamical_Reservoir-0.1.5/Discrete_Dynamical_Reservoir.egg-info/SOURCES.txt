@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Discrete_Dynamical_Reservoir/DDS_Reservoir.py
+Discrete_Dynamical_Reservoir/__init__.py
+Discrete_Dynamical_Reservoir.egg-info/PKG-INFO
+Discrete_Dynamical_Reservoir.egg-info/SOURCES.txt
+Discrete_Dynamical_Reservoir.egg-info/dependency_links.txt
+Discrete_Dynamical_Reservoir.egg-info/top_level.txt
