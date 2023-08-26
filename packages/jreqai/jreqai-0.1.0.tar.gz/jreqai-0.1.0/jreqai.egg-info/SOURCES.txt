@@ -1,0 +1,7 @@
+README.md
+setup.py
+jreqai.egg-info/PKG-INFO
+jreqai.egg-info/SOURCES.txt
+jreqai.egg-info/dependency_links.txt
+jreqai.egg-info/requires.txt
+jreqai.egg-info/top_level.txt
