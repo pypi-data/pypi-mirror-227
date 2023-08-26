@@ -1,0 +1,16 @@
+xia_composer/__init__.py,sha256=L1bAx3Jh56d9VV3hqiDmXuRqbMs4HZd75vhZiX89U6M,557
+xia_composer/actor.cp311-win_amd64.pyd,sha256=ZxZl83eKuDiE25sl3WggUkEdJuC1i82Qt2Y-3DFEKa8,347136
+xia_composer/campaign.cp311-win_amd64.pyd,sha256=Xzn4T7tR0egscVafSU6MvW6KKRS5SmSRI-NpZsUQVY8,280064
+xia_composer/dialog.cp311-win_amd64.pyd,sha256=kSxOiGcucLawKbusJDYmzCm25ybaon34MM56OrFYRY0,289280
+xia_composer/knowledge.cp311-win_amd64.pyd,sha256=-sLtfXdTT5i2lQDSxftgaQlB--65PifID6OBT6KqIWA,316416
+xia_composer/mission.cp311-win_amd64.pyd,sha256=Wz-SJ5Gg7fUZCqW3DlCwVKVtphYaXkPkFYapP2kuag4,486912
+xia_composer/target.cp311-win_amd64.pyd,sha256=t5RmhQJHrlJx5tjGXf6Bd6yFDFaoePAN05bVsAPBymE,274944
+xia_composer/task.cp311-win_amd64.pyd,sha256=3ti_MX6SRPVU2ANIimLwAzCIkaM7M_IEb6eJl3pyGYU,322560
+xia_composer/templates/missions/product_design.json,sha256=QVHad7nTgWQPGF6kbfLPgThq-WDEngjnoq6mh6F9PtE,393
+xia_composer/templates/prompts/generator.prompt,sha256=WusTmwwRXesUglqCVGw6BVllSuMQhQDSK4wSLAoQIaE,775
+xia_composer/templates/tasks/requirements/requirement_analysis.prompt,sha256=bnUBks0twCPYmXq8dC51C5vAFKmCLTusZ9C8S-kRxvw,346
+xia_composer-0.0.4.dist-info/LICENSE.txt,sha256=IrHnMppnQ6016SlLoilZCHzBHEnrdEnr1FwBzTTZ8Jg,153
+xia_composer-0.0.4.dist-info/METADATA,sha256=Y03isWKeJ07RI2VGPr-9D2V58j-wcugI5DLYTUTXo4o,416
+xia_composer-0.0.4.dist-info/WHEEL,sha256=-iDqJSrp03B1Tru3gLOBW8bUvJe-ZxOd3ZTfLCIkKMI,100
+xia_composer-0.0.4.dist-info/top_level.txt,sha256=L9HGsbEYSQK12f9k4YONKIkeAzNTpok4NnEaNShfYEU,13
+xia_composer-0.0.4.dist-info/RECORD,,
