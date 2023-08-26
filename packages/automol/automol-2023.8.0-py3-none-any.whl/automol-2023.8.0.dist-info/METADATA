@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: automol
+Version: 2023.8.0
+Summary: 
+Author: Andreas Copan
+Author-email: avcopan@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Mako (>=1.2.4,<2.0.0)
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: ipython (>=8.14.0,<9.0.0)
+Requires-Dist: ipywidgets (>=8.1.0,<9.0.0)
+Requires-Dist: more-itertools (>=10.1.0,<11.0.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: py3Dmol (>=2.0.3,<3.0.0)
+Requires-Dist: pyparsing (>=3.1.1,<4.0.0)
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: qcelemental (>=0.26.0,<0.27.0)
+Requires-Dist: rdkit (>=2023.3.3,<2024.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Library: AutoChem
+[//]: # (Badges)
+[![CircleCI](https://circleci.com/gh/Auto-Mech/automol/tree/dev.svg?style=shield)](https://circleci.com/gh/Auto-Mech/autoio/tree/dev)
+[![Anaconda-Server Badge](https://anaconda.org/auto-mech/automol/badges/version.svg)](https://anaconda.org/auto-mech/autoio)
+[![Anaconda-Server Badge](https://anaconda.org/auto-mech/automol/badges/platforms.svg)](https://anaconda.org/auto-mech/autoio)
+[![Anaconda-Server Badge](https://anaconda.org/auto-mech/automol/badges/installer/conda.svg)](https://conda.anaconda.org/auto-mech/autoio)
+[![Anaconda-Server Badge](https://anaconda.org/auto-mech/automol/badges/latest_release_date.svg)](https://conda.anaconda.org/auto-mech/autoio)
+
+Andreas V. Copan, Kevin B. Moore III, Sarah N. Elliott, and Stephen J. Klippenstein
+
+Autochem is a library of molecular toolkit packages, including automol, phydat, and transformations. 
+
+## Installation
+```python
+>>> conda install automol -c auto-mech
+```
+
+<hr size=20>
+
+## Package: phydat
+### Description
+physical constants and data 
+
+### Usage
+Our pytest tests serve as an example for building filesystems
+
+<hr>
+
+## Package: transformations
+### Description
+The Python package "transformations" is developed externally by Christoph Gohlke.
+A README is provided with this package. Further copyright information is provided in 
+_transformations.py
+
+### Usage
+
+<hr>
+
+## Package: automol
+### Description
+- graph
+- geom
+- zmat
+- inchi
+- smiles
+- reac
+- rotor
+External
+- openbabel
+- rdkit
+
