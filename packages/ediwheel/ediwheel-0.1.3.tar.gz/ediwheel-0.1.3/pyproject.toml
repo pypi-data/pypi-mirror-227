@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ediwheel"
+version = "0.1.3"
+authors = [
+  { name="M.Ranzetti", email="maloranzetti@gmail.com" },
+]
+description = "AdHoc Ediwheel XML API port to Python"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mrztti/python-ediwheel"
+"Bug Tracker" = "https://github.com/mrztti/python-ediwheel/issues"
