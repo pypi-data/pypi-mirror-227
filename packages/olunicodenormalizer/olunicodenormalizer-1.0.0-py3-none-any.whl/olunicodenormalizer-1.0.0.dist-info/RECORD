@@ -1,0 +1,10 @@
+olunicodenormalizer/__init__.py,sha256=UOH0Xqvi6eFtO7NVJPS5iZS15RhwMOLnimUtv_FcYWA,141
+olunicodenormalizer/base.py,sha256=0beeI7CWSmACBaYe1V7bTqde7M2fb9r6IvAEeILHfjc,13898
+olunicodenormalizer/indic.py,sha256=7AXaEn_Ajp_Q_Y2cpE06kz679qGfLhX5lrzX1T6X8gM,1874
+olunicodenormalizer/langs.py,sha256=RnkD4kcnW1zlUR4_T4O_egeBNH5FAjPZy1SzOZ3kNxs,46562
+olunicodenormalizer/normalizer.py,sha256=GL5N06OV4u15R9PQpt5uujM59aNfS1HD5IjKhqMHT5E,13467
+olunicodenormalizer-1.0.0.dist-info/LICENSE,sha256=QvU-bZKgCE4rJe1LkhwVFbCywhf3SXODiSR00-LQhLY,1070
+olunicodenormalizer-1.0.0.dist-info/METADATA,sha256=NJoBEf0JexniJrczun31yAahsmQQNihJkcAMXOKLqQ8,4339
+olunicodenormalizer-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+olunicodenormalizer-1.0.0.dist-info/top_level.txt,sha256=twnbHzoqGIwinB77Txfa7a2RLaJM5iMimJTtVD_bkvY,20
+olunicodenormalizer-1.0.0.dist-info/RECORD,,
