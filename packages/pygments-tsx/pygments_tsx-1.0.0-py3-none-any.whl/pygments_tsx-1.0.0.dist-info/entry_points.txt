@@ -1,0 +1,6 @@
+[console_scripts]
+verinfast = verinfast.agent:main
+
+[pygments.lexers]
+jsx = tsx:JsxLexer
+tsx = tsx:TypeScriptXLexer
