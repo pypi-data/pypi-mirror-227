@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+olunicodenormalizer/__init__.py
+olunicodenormalizer/base.py
+olunicodenormalizer/indic.py
+olunicodenormalizer/langs.py
+olunicodenormalizer/normalizer.py
+olunicodenormalizer.egg-info/PKG-INFO
+olunicodenormalizer.egg-info/SOURCES.txt
+olunicodenormalizer.egg-info/dependency_links.txt
+olunicodenormalizer.egg-info/top_level.txt
+tests/test_normalizer.py
