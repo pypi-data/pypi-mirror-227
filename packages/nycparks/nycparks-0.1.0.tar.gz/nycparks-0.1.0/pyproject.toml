@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "nycparks"
+version = "0.1.0"
+description = ""
+authors = ["Austin Botelho <austinbotelho@nyu.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.11.2"
+webdriver-manager = "^4.0.0"
+click = "^8.1.6"
+pandas = "^2.0.3"
+bs4 = "^0.0.1"
+html5lib = "^1.1"
+lxml = "^4.9.3"
+pywhatkit = "^5.4"
+pynput = "^1.7.6"
+
+[tool.poetry.scripts]     
+reserve = "nycparks.main:cli"
+
+
+[tool.poetry.group.dev.dependencies]
+notebook = "^7.0.2"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
