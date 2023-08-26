@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "qrshare.io-cli"
+version = "0.0.1"
+description = "A CLI tool for uploading files with https://qrshare.io service"
+authors = ["Sergey Royz <zjor.se@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+
+[tool.poetry.scripts]
+qrs = "cli.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
