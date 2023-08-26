@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: texere
+Version: 1.0.1
+Summary: A Python package for text removal and edge marking from images
+Home-page: https://github.com/MohdMinhal/texere
+Author: MOHD MINHAL
+Author-email: mohdminhal.001@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE

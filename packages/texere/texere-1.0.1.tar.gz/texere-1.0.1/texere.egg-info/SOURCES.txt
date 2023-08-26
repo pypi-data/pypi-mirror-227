@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+texere/__init__.py
+texere/edges.py
+texere/purge.py
+texere.egg-info/PKG-INFO
+texere.egg-info/SOURCES.txt
+texere.egg-info/dependency_links.txt
+texere.egg-info/requires.txt
+texere.egg-info/top_level.txt
