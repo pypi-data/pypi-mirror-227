@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/valimail/MailModule.py
+src/valimail/__init__.py
+src/valimail/file.py
+src/valimail.egg-info/PKG-INFO
+src/valimail.egg-info/SOURCES.txt
+src/valimail.egg-info/dependency_links.txt
+src/valimail.egg-info/requires.txt
+src/valimail.egg-info/top_level.txt
