@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+mypackage/__init__.py
+mypackage/__version__.py
+mypackage/core.py
+wwq_package_01.egg-info/PKG-INFO
+wwq_package_01.egg-info/SOURCES.txt
+wwq_package_01.egg-info/dependency_links.txt
+wwq_package_01.egg-info/top_level.txt
