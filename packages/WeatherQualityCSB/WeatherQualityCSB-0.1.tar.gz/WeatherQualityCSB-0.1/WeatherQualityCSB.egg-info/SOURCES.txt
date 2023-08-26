@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+WeatherQualityCSB/__init__.py
+WeatherQualityCSB/validations.py
+WeatherQualityCSB/weather_quality.py
+WeatherQualityCSB.egg-info/PKG-INFO
+WeatherQualityCSB.egg-info/SOURCES.txt
+WeatherQualityCSB.egg-info/dependency_links.txt
+WeatherQualityCSB.egg-info/requires.txt
+WeatherQualityCSB.egg-info/top_level.txt
+tests/__init__.py
+tests/test_validations.py
