@@ -1,0 +1,6 @@
+src/csv-tabulator/__init__.py,sha256=n6aag7hpDpcznSyVunAUig5WON3Fqc86KqKO89WCBPc,27
+src/csv-tabulator/converter.py,sha256=nlui_ftA4FcAZNtK9YsUo39w7xPs5YPBV6EcpiWv1CM,2743
+csv_tabulator-0.0.1.dist-info/METADATA,sha256=qRuOhAEWWil2NqWDjSYcbm9nmslUXlz0Iu9oy1NNeko,833
+csv_tabulator-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+csv_tabulator-0.0.1.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+csv_tabulator-0.0.1.dist-info/RECORD,,
