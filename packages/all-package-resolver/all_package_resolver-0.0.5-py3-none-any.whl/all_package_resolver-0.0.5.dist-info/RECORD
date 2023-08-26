@@ -1,0 +1,13 @@
+all_package_resolver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+all_package_resolver/downloaders/alpine_downloader.py,sha256=qlQcflfX-Hu9BM0jdtND6riEOl0CuryBvm9kW-0LBXw,408
+all_package_resolver/downloaders/centos_downloader.py,sha256=-WiH6bYlq80yPTLKg84lDxRrtFB8Ymx4kMzAt5XROM8,431
+all_package_resolver/downloaders/downloader.py,sha256=UH35RGgRkQes_0pF7ED3A0IQLzhNnK7wnvxb67Y8CJc,7757
+all_package_resolver/downloaders/node_downloader.py,sha256=GpHgDiKQ2TEaV5oRqNxuenvLoE1zLSj1AaeLhJ_WYP0,584
+all_package_resolver/downloaders/python_downloader.py,sha256=8wuRYwTFUSM7E0hGTZ_JJFBRkO8Z7IW2AJGmYGiTZYI,604
+all_package_resolver/downloaders/ubuntu_downloader.py,sha256=1FEwhM19Z6THvtEAUwxr7QwI6fbKWr6MxHrB2KlczOc,482
+all_package_resolver/main.py,sha256=GGbmwIOzphG9oazXWtcJ0WZILmg8XlsH0EpMNLq1s2o,2807
+all_package_resolver/utils.py,sha256=Tl6oznnIjHasuwsdErdKC3lLqrTw5EUBiMj-Cczph1o,222
+all_package_resolver-0.0.5.dist-info/METADATA,sha256=TxkKWVb7OV2y1RVNCs0DcQf8tn4BkPyfWVB4AzhRc98,2920
+all_package_resolver-0.0.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+all_package_resolver-0.0.5.dist-info/entry_points.txt,sha256=mcvoJTC-qrw5S6dsJ-DPWFKviAfCF9KLtUEQbUK4QIk,66
+all_package_resolver-0.0.5.dist-info/RECORD,,
