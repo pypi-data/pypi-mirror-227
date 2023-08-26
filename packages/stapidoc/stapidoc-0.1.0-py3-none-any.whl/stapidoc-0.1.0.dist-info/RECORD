@@ -1,0 +1,9 @@
+stapidoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stapidoc/__main__.py,sha256=lDP9BBTDikX_CrMKn7VEb5CNzGjbKtMmp7vCitBO01k,457
+stapidoc/stapi.py,sha256=Lk5d4uz6etUdT3IptqVPyumX1MClN_eLtiD42MtXxCg,780
+stapidoc/stapidoc.mako,sha256=QAemzuwLqmtY7vOq04eEf683yEX0wpcEwzn3Vg-3Ts8,1086
+stapidoc-0.1.0.dist-info/METADATA,sha256=bor507Y4FOqqs1YbhTw2D3M4OTMiAooJvBwxL6CScV0,1223
+stapidoc-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+stapidoc-0.1.0.dist-info/entry_points.txt,sha256=B5QOt6SzhLoTkCMienhGkKBYaljbT_p2ay2fBimoeXw,52
+stapidoc-0.1.0.dist-info/top_level.txt,sha256=V2lfA_wFMRMB8-YHAQWUEbvCZG53CE8gIvko6_WGzug,9
+stapidoc-0.1.0.dist-info/RECORD,,
