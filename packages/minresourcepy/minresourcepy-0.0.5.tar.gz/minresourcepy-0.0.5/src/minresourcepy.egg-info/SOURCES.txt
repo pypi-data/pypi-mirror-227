@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/minresourcepy/__init__.py
+src/minresourcepy/tools.py
+src/minresourcepy.egg-info/PKG-INFO
+src/minresourcepy.egg-info/SOURCES.txt
+src/minresourcepy.egg-info/dependency_links.txt
+src/minresourcepy.egg-info/top_level.txt
