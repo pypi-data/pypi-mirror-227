@@ -1,0 +1,5 @@
+setup.py
+upm_test.egg-info/PKG-INFO
+upm_test.egg-info/SOURCES.txt
+upm_test.egg-info/dependency_links.txt
+upm_test.egg-info/top_level.txt
