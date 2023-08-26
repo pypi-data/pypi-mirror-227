@@ -1,0 +1,6 @@
+module.py
+setup.py
+events_idl_python.egg-info/PKG-INFO
+events_idl_python.egg-info/SOURCES.txt
+events_idl_python.egg-info/dependency_links.txt
+events_idl_python.egg-info/top_level.txt
