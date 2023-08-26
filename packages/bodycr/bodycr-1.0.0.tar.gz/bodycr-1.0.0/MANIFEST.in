@@ -1,0 +1,3 @@
+include bodycr/source/*/*.*
+include bodycr/source/Detectors/configurations/*.*
+include bodycr/source/Detectors/landmarks/*.*
