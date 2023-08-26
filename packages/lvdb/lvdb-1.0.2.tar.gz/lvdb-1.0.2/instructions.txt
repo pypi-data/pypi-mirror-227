@@ -1,0 +1,4 @@
+py -m build
+twine upload dist/*
+username = __token__
+password = api key
