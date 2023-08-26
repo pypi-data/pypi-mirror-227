@@ -1,0 +1,9 @@
+toolz
+python-dateutil
+xarray
+xarray-datatree
+construct>=2.10
+fsspec
+
+[:python_version < "3.11"]
+exceptiongroup
