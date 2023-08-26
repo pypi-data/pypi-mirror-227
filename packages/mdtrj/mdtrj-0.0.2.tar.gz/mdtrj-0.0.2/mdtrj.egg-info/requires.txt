@@ -1,0 +1,10 @@
+matplotlib
+numpy
+scipy
+numba
+gsd
+memory_profiler
+seaborn
+fresnel
+pillow
+tqdm
