@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dbease
+Version: 1.1.1
+Author: 梁开孟
+Author-email: 519281809@qq.com
+Requires-Python: >=3.6
+Requires-Dist: cx-Oracle (>=8.3.0)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: configparser
+Requires-Dist: base64
+Requires-Dist: re (>=2.2.1)
+Requires-Dist: prettytable (>=3.5.0)
+Requires-Dist: time
+
