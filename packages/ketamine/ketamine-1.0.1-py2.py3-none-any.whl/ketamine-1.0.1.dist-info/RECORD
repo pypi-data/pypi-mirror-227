@@ -1,0 +1,13 @@
+ketamine/__init__.py,sha256=b6WnZupfO-mPZJQva_5QdeVOrAW3Ppgup09oeYhYZMc,58
+ketamine/cmyk.py,sha256=AMpl3QfRypuXU9uudV4_vvUUtSOiKnz13d1zibOH9tU,1239
+ketamine/colour.py,sha256=jQY_uBEMbB0oTvCxrVTGL8kNLQRQrF0C9u5EvsttnUA,1579
+ketamine/hex.py,sha256=FUNNM190hXMpwi-w9gZfbiVq5YW2ZH2AE5d_g2gbTtY,1167
+ketamine/hsl.py,sha256=TtXBwJPjsCjBSzNuDLelMlu_uSREkQLA2Vr5Vsy08Jo,2018
+ketamine/hsv.py,sha256=xwLuMpsD6G3IMe9vIXRDgB9DrF5W7ymLXwC381hU9UY,1754
+ketamine/lab.py,sha256=G8jXb7Y0kDtiORuuQRmlt6-k0StZr0QVWCFVJrJPspc,1141
+ketamine/rgb.py,sha256=p3YF39dofnj56rwLFKoyR8M6mfYtF7uawCQEicZCRE4,2372
+ketamine/xyz.py,sha256=RIRe2YV-RvM9RopMzKHzzE7katSLMGY3YkcjaE7Lp0w,2463
+ketamine-1.0.1.dist-info/METADATA,sha256=GgJPW8-hRHnw5upgplOMu2C2E2PqoV1ADWDSOxjhFyo,2145
+ketamine-1.0.1.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+ketamine-1.0.1.dist-info/licenses/LICENSE,sha256=-cN1ob5KQfe3AwHdg8kcuJ5BVnR4hZt37vN1pS14JQU,18091
+ketamine-1.0.1.dist-info/RECORD,,
