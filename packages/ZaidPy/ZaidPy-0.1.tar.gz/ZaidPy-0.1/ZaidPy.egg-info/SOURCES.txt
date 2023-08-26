@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+ZaidPy/ZaidPy.py
+ZaidPy/__init__.py
+ZaidPy.egg-info/PKG-INFO
+ZaidPy.egg-info/PKG-INFO.bak
+ZaidPy.egg-info/SOURCES.txt
+ZaidPy.egg-info/dependency_links.txt
+ZaidPy.egg-info/not-zip-safe
+ZaidPy.egg-info/top_level.txt
