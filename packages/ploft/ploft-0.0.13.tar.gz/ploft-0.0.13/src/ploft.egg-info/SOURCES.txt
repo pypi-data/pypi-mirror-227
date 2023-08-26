@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/ploft/__init__.py
+src/ploft.egg-info/PKG-INFO
+src/ploft.egg-info/SOURCES.txt
+src/ploft.egg-info/dependency_links.txt
+src/ploft.egg-info/top_level.txt
+src/ploft/jsc/main2.js
+src/ploft/jsc/main4.js

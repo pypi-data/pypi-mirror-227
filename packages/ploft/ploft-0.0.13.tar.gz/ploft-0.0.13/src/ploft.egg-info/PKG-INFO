@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ploft
+Version: 0.0.13
+Summary: Data Visualization
+Author-email: Christoph Chester Cury <cury.grupos@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+disptools
+=========
+Generate displacement fields with known volume changes
+------------------------------------------------------
+[![GitHub release](https://img.shields.io/github/release/m-pilia/disptools.svg)](https://github.com/m-pilia/disptools/releases/latest)
