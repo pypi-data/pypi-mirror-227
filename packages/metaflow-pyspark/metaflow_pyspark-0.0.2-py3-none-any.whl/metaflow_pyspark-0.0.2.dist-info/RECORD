@@ -1,0 +1,8 @@
+metaflow_extensions/pyspark/plugins/__init__.py,sha256=cM6pYn1wmirWEPQ4a3R1YVWJC70HcevPELrP_ZRZ2xI,810
+metaflow_extensions/pyspark/plugins/metaflow_pyspark.py,sha256=cH9xLwTS12rMm2hprO6tw7U3rmkcRZlcP_JNVn9R1Vg,8363
+metaflow_extensions/pyspark/plugins/pyspark_driver.py,sha256=uPP4LTHrVmLgJc2jZh1-2PssA3_GxbHMCVSbbZbrxyA,874
+metaflow_pyspark-0.0.2.dist-info/LICENSE,sha256=AC58OucekXNbg8GZvt7s6PHBEX4Zj87yXnvLk5myPS0,11349
+metaflow_pyspark-0.0.2.dist-info/METADATA,sha256=SU3z7YcYk-HsYJGAoyH9CZq_7B5bS7-XjFpEvNPIsic,219
+metaflow_pyspark-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+metaflow_pyspark-0.0.2.dist-info/top_level.txt,sha256=NwG0ukwjygtanDETyp_BUdtYtqIA_lOjzFFh1TsnxvI,20
+metaflow_pyspark-0.0.2.dist-info/RECORD,,
