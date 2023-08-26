@@ -1,0 +1,3 @@
+[console_scripts]
+rtspware=rtspware.__main__:main
+
