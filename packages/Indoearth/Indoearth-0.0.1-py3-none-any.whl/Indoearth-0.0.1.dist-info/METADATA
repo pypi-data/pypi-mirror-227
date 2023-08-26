@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Indoearth
+Version: 0.0.1
+Summary: a package that can retrieve the latest earthquake data taken from the website of the BMKG (Meteorological, Climatological, and Geophysical Agency).
+Author-email: Danang <danangfirmino26@gmail.com>
+Project-URL: Homepage, https://github.com/danangfir/Indonesia-latest-earthquake
+Project-URL: Bug Tracker, https://github.com/danangfir/Indonesia-latest-earthquake
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Indonesia-latest-earthquake
+This Package will get the latest eartquake from BMKG | Meteorological, Climatological, and Geophysical Agency
+
+## How it work ?
+This package will scrape from [BMKG](https://bmkg.go.id) to get latest quake happened in Indonesia
+
+This package will use beautifulsoup and request to output JSON ready for use in web and mobile applications.
