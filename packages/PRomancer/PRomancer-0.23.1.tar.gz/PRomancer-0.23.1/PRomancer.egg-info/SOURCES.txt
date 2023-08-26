@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+PRomancer.egg-info/PKG-INFO
+PRomancer.egg-info/SOURCES.txt
+PRomancer.egg-info/dependency_links.txt
+PRomancer.egg-info/entry_points.txt
+PRomancer.egg-info/requires.txt
+PRomancer.egg-info/top_level.txt
+src/__init__.py
+src/git_handler.py
+src/main.py
+src/pr_handler.py
+src/template_handler.py
