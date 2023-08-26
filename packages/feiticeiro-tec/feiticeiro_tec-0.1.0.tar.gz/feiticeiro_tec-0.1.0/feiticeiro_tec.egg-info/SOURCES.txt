@@ -1,0 +1,10 @@
+README.md
+setup.py
+feiticeiro_tec.egg-info/PKG-INFO
+feiticeiro_tec.egg-info/SOURCES.txt
+feiticeiro_tec.egg-info/dependency_links.txt
+feiticeiro_tec.egg-info/requires.txt
+feiticeiro_tec.egg-info/top_level.txt
+flask_dantic/__init__.py
+flask_dantic/model.py
+flask_dantic/space.py
