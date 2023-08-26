@@ -1,0 +1,10 @@
+WeatherQualityCSB/__init__.py,sha256=q9Obhcsig3JfDY2nO1ThMwvCRinwV5HF9Sf3NW7rrHQ,43
+WeatherQualityCSB/validations.py,sha256=knvc1wlBnk9mHq_VUTEokk7AHiz_ixoyjtUa-1PGPZU,1868
+WeatherQualityCSB/weather_quality.py,sha256=Q5v3aVb87nW0Rt83cG83JQqyft2lq97BspsV1SzI17U,12879
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_validations.py,sha256=bNj2SNIGkWTLOdDIeIQ_0Pk5Zw-LeCGVRxCnf4BYu88,2524
+WeatherQualityCSB-0.1.dist-info/LICENSE,sha256=hcIHkNh2QVUqnnS4R5DwRG0QHG2CgFGyAQi4gzX2aHo,1092
+WeatherQualityCSB-0.1.dist-info/METADATA,sha256=C65FDstQ9KW42abIY7bmCBjsMj-2DshKzqRMWTZngUg,2610
+WeatherQualityCSB-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+WeatherQualityCSB-0.1.dist-info/top_level.txt,sha256=Xj6ivfeprPuHdV1ghU-5TBriEdEU4xf_AUlgVgv_85Q,24
+WeatherQualityCSB-0.1.dist-info/RECORD,,
