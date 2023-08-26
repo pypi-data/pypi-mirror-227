@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Quran_Module/Names_of_Allah.csv
+Quran_Module/Quran_Arabic.csv
+Quran_Module/Quran_English.csv
+Quran_Module/Quran_Module.py
+Quran_Module/__init__.py
+TheQuranModule.egg-info/PKG-INFO
+TheQuranModule.egg-info/SOURCES.txt
+TheQuranModule.egg-info/dependency_links.txt
+TheQuranModule.egg-info/top_level.txt
