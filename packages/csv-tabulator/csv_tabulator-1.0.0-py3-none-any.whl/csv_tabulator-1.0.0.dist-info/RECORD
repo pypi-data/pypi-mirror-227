@@ -1,0 +1,7 @@
+csv_tabulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csv_tabulator/converter.py,sha256=3-5cLb-bHmV50fSeEPcksCiOKyLk5jdvtP-iDOhN2yo,2424
+csv_tabulator/requirements.txt,sha256=Ix__AGtYzPG5r9S0XAL1A5UCG6dcBkdXAiglvlWCwBs,91
+csv_tabulator-1.0.0.dist-info/METADATA,sha256=G34MjBG8p40i9rT5VGxCX7p4DWKMjMh4XQXiEI_hM1c,833
+csv_tabulator-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+csv_tabulator-1.0.0.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+csv_tabulator-1.0.0.dist-info/RECORD,,

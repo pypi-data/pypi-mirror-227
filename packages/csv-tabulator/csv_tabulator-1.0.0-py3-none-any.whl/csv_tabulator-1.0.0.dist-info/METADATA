@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: csv_tabulator
+Version: 1.0.0
+Summary: Convert the csv to html table
+Project-URL: Homepage, https://github.com/amiaynara/csv-tabulator
+Project-URL: Bug Tracker, https://github.com/amiaynara/csv-tabulator/issues
+Author-email: Amiay Narayan <amiay.narayan@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# csv-tabulator
+
+The `csv-tabulator` is a Python package that simplifies the process of converting CSV files into styled HTML tables. The resulting HTML tables are designed to be responsive and visually appealing.
+
+## Installation
+
+You can install the package using `pip`:
+
+```bash
+pip install csv-tabulator
+
