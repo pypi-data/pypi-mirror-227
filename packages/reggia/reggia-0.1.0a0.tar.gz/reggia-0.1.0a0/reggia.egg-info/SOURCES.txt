@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+reggia/__init__.py
+reggia/base.py
+reggia.egg-info/PKG-INFO
+reggia.egg-info/SOURCES.txt
+reggia.egg-info/dependency_links.txt
+reggia.egg-info/top_level.txt
