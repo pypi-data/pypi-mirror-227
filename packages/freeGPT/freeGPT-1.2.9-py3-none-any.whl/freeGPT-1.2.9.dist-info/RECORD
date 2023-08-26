@@ -1,0 +1,12 @@
+freeGPT/__init__.py,sha256=NJyUw9wN3O2aBQJvN5-mRlyYbAtTu6Al8pbUU6jrLoI,43
+freeGPT/alpaca_7b.py,sha256=_J5iyFFbc_Ih9zf5vS4wfYPgpwIedA2ZBp3N7m6XzbQ,1043
+freeGPT/falcon_40b.py,sha256=1AJB5gyRCGjSh7-QrdUjw3KQz1AiJJgSNpl6EVqIb84,4478
+freeGPT/gpt3.py,sha256=zMtVbX3WR6ovimyRSGfZUb4-9O9eGzYuiTd94nYCrMM,1506
+freeGPT/gpt4.py,sha256=eS6FNqG9xyUD1C5WuJTa6_Ggc299dwqrLRW-n3Wi-bg,2020
+freeGPT/pollinations.py,sha256=dx_Bmxf2FXcIWEC_XBEpxV9uQuoDsgVoMT-j9Xv8XVY,905
+freeGPT/prodia.py,sha256=BIuzBhzsXENAfEvFyHvr9vffxal8JSPREMiwAIubk6M,3691
+freeGPT-1.2.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+freeGPT-1.2.9.dist-info/METADATA,sha256=ejWjYXRpUhiRv8Yz7Qds3g8GDtP3hf6nkJoPcDXDVy8,4444
+freeGPT-1.2.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+freeGPT-1.2.9.dist-info/top_level.txt,sha256=SmL-wUHRAvuFE4A-Gvb1HcrS_p8V5qxj0w1hFqdXS2M,8
+freeGPT-1.2.9.dist-info/RECORD,,
