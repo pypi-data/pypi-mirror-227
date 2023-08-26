@@ -1,0 +1,20 @@
+[project]
+name = "pygrates"
+version = "0.1.1"
+authors = [ { name="Koen van Walstijn", email="kbvw@pm.me" } ]
+description = "Framework for lazy graph traversal, exploration and search"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Source" = "https://codeberg.org/kbvw/pygrates"
+
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"

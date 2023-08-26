@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/pygrates/__init__.py
+src/pygrates/abc.py
+src/pygrates/collections.py
+src/pygrates/graphs.py
+src/pygrates/itertools.py
+src/pygrates/moves.py
+src/pygrates/py.typed
+src/pygrates.egg-info/PKG-INFO
+src/pygrates.egg-info/SOURCES.txt
+src/pygrates.egg-info/dependency_links.txt
+src/pygrates.egg-info/top_level.txt

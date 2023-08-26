@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pygrates
+Version: 0.1.1
+Summary: Framework for lazy graph traversal, exploration and search
+Author-email: Koen van Walstijn <kbvw@pm.me>
+Project-URL: Source, https://codeberg.org/kbvw/pygrates
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyGrates
+Python framework for lazy graph traversal, exploration and search.
