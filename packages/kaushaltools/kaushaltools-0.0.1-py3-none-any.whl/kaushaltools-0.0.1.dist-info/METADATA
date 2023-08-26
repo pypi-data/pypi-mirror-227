@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kaushaltools
+Version: 0.0.1
+Summary: Making Simplear to use tools with easy commands
+Author: Kaushal Bhatol
+Author-email: kaushal@bhatol.com
+Keywords: python,tools,qrcode,encryption,data encrypt,show qr code
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: qrcode
+Requires-Dist: opencv-python
+Requires-Dist: cryptography
+
+
+# pkg_kaushal_tools
+
+
+
+* Version 0.1
+
