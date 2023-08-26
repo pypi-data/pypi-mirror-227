@@ -1,0 +1,11 @@
+qsketchmetric/__init__.py,sha256=0ajFMspLn-t0Y7z5G3Dg8h3gc3-KtcTZI1nlZ8LM4Eg,24
+qsketchmetric/renderer.py,sha256=o6AzUnzAkWL96JX4P060hrWCtd0Q7yhntlCp273B88o,14240
+qsketchmetric/semiautomatic.py,sha256=ig4VTw7G1ysw_aG4FCBAzDHy_FZ4va8pyN6Np-iIpUo,9041
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_renderer.py,sha256=NAyeKMSoCuj-xXQ6Dcy50lPCD_gz9r-j8TDCAXdWvZk,17783
+tests/test_semiautomatic.py,sha256=YIiypDOhLAMHM7DJSY3F20G5OxxmlcCNUXdQulQGpug,11655
+qsketchmetric-1.6.11.dist-info/LICENSE,sha256=9IZxf50K31ni3pRHjpHE33bPf89kEOJ569gqYGCEF2Y,1078
+qsketchmetric-1.6.11.dist-info/METADATA,sha256=sSZByanJNg2ri5qvdsDf7q6BJ7HSt6OrE2mSLZut8NQ,4077
+qsketchmetric-1.6.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+qsketchmetric-1.6.11.dist-info/top_level.txt,sha256=mm6jnzqbcbFrKKJrlDvIXCvxQxDQQicFYFHg0xQaBf4,20
+qsketchmetric-1.6.11.dist-info/RECORD,,
