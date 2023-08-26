@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: MaryamBoneh
+Version: 17.2.1999
+Summary: MaryamBoneh is not only a girl or a Python package, MaryamBoneh is a way of life in love and love in life. 💚
+Home-page: https://github.com/SajjadAemmi/maryamboneh
+Author: Sajjad Aemmi
+Author-email: sajjadaemmi@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# MaryamBoneh
+
+[![Python package](https://github.com/SajjadAemmi/maryamboneh/actions/workflows/python-package.yml/badge.svg)](https://github.com/SajjadAemmi/maryamboneh/actions/workflows/python-package.yml)
+[![Upload Python Package](https://github.com/SajjadAemmi/maryamboneh/actions/workflows/python-publish.yml/badge.svg)](https://github.com/SajjadAemmi/maryamboneh/actions/workflows/python-publish.yml)
+
+MaryamBoneh is not only a girl or a Python package, MaryamBoneh is a way of life in love and love in life. 💚
+
+## Installation
+
+```bash
+pip install maryamboneh
+```
+
+## Usage
+
+MaryamBoneh may be used directly in the Command Line Interface (CLI):
+
+```bash
+maryamboneh
+```
