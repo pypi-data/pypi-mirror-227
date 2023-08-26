@@ -1,0 +1,6 @@
+bimvee>=1.0.18
+kivy>=2.0.0
+matplotlib
+numpy
+scipy
+tqdm
