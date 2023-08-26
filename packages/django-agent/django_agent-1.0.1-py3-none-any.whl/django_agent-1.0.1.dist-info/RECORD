@@ -1,0 +1,11 @@
+django_agent/__init__.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+django_agent/apps.py,sha256=KQn1bxbaSr8qsH2NK7llXr-B5_aH_pSKKOSQ-96vMog,155
+django_agent/decorators.py,sha256=0gyu2XF6uF5ANOuNHQe9imByXzS3qfa5J0hdTZ79BQo,468
+django_agent/tests.py,sha256=2THBM2QYzNQktJHt-NieD7hkodnJKH7PDjywFPy5GR4,2170
+django_agent/urls.py,sha256=d5SNF8j8QJ5MiL8OccFwBHB0NSMvh9Qf768oROPB-nA,156
+django_agent/views.py,sha256=DWjfF06ZzhcIYAcb4OuHLLcwLz7ehk_e3k94CY9sYys,1996
+django_agent-1.0.1.dist-info/LICENSE,sha256=QRXQg7DhBeAZ_O5EJh8tetQPgEQxEFCqQA_3-hmZtJw,1482
+django_agent-1.0.1.dist-info/METADATA,sha256=oeaJXcivnrZHJdU0oOawSdJAOXZ4ATAoKUnEjW5v58E,1428
+django_agent-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_agent-1.0.1.dist-info/top_level.txt,sha256=ka6waF24CcoNX_3a-UfC0Dww-ESvPkf2F7hGYcUXKjI,13
+django_agent-1.0.1.dist-info/RECORD,,
