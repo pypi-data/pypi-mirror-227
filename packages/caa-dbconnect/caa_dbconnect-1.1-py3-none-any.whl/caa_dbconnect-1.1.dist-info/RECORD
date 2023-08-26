@@ -1,0 +1,12 @@
+dbConnect/__init__.py,sha256=ySqH3ZLAbV4Ff9tOF0FpGBusuEDSU34p5AxNzbppvmw,89
+dbConnect/authorization.py,sha256=o-KNsSiFlvxQYT_biZcMgXngeq86uMcrU5yJsUa1Zo0,1589
+dbConnect/base.py,sha256=hKazwmJPmPsqc4ULqK7Yu0JkiVyAc-s7q1-MP4jvXM0,28446
+dbConnect/response.py,sha256=ozyvpxawS5TMFXtv8j5TNhkgRYiaI3wTyYyX7VdQ2g0,673
+dbConnect/sqlTypes/__init__.py,sha256=WHvK65MTu9pzEnTjCCjQHsGfB4fNaNxXPVlicdXoB60,1477
+dbConnect/sqlTypes/sqlTypes.py,sha256=EbZCY00V9OjxTHhPO-HtX03VD8GcRDv6Q2QeofrC8Q4,10369
+dbConnect/sqlTypes/typeErrors.py,sha256=9qrGtWRFh9VEW0TdHHNT7ewALEmxO2JPyHrJJgn1_0U,251
+caa_dbconnect-1.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+caa_dbconnect-1.1.dist-info/METADATA,sha256=IuETreXWbui_xl1CZHbhApMYD5lL2xwthhBY7HlQhdA,550
+caa_dbconnect-1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+caa_dbconnect-1.1.dist-info/top_level.txt,sha256=V-hy7btE_RyLM-8IxhzLsdq86hn4a4VgKIp61qHhoVk,10
+caa_dbconnect-1.1.dist-info/RECORD,,
