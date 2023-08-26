@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "smos-walker"
+version = "0.5.0"
+description = ""
+authors = ["Etienne Schalk <eschalk@argans.eu>"]
+readme = "README.md"
+packages = [{include = "smos_walker"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+xmlschema = "^2.2.0"
+numpy = "^1.24.2"
+typing-extensions = "^4.5.0"
+lxml = "^4.9.2"
+tqdm = "^4.65.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+pyproject-autoflake = "^1.0.2"
+pydeps = "^1.11.1"
+ipdb = "^0.13.11"
+pylint = "^2.17.0"
+pytest-cov = "^4.0.0"
+flake8 = "^6.0.0"
+tox = "^4.4.7"
+mypy = "^1.1.1"
+
+# Use both flake8 and pylint?
+tox-gh-actions = "^3.1.0"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.4.2"
+mkdocstrings = {extras = ["python"], version = "^0.20.0"}
+mkdocs-material = "^9.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+
+# Coverage (pytest-cov)
+# Note: at first glance it doubles test execution time
+# Note: tests are excluded 
+# addopts = "--cov=smos_walker" 
+
+
+[tool.autoflake]
+# return error code if changes are needed
+check = false
+# make changes to files instead of printing diffs
+in-place = true
+# drill down directories recursively
+recursive = true
+# exclude file/directory names that match these comma-separated globs
+exclude = "<GLOBS>"
+# by default, only unused standard library imports are removed; specify a comma-separated list of additional
+# modules/packages
+# imports = "<IMPORTS>"
+# expand wildcard star imports with undefined names; this only triggers if there is only one star import in
+# the file; this is skipped if there are any uses of `__all__` or `del` in the file
+expand-star-imports = true
+# remove all unused imports (not just those from the standard library)
+remove-all-unused-imports = true
+# exclude __init__.py when removing unused imports
+ignore-init-module-imports = true
+# remove all duplicate keys in objects
+remove-duplicate-keys = true
+# remove unused variables
+remove-unused-variables = true
+# print more verbose logs (larger numbers are more verbose)
+# verbose = 0
+
+[tool.mypy]

@@ -1,0 +1,335 @@
+# smos-walker
+
+![Tests GitHub Badge](https://github.com/ARGANS/smos-walker/actions/workflows/tests.yml/badge.svg)
+
+![picture 5](docs/assets/images/e3480009db827ddb27df83dee0c08a3b45dd2237b289da23957b653d7bb2e747.jpg)
+
+_Anakin Skywalker on a satellite_
+
+## Table of Contents
+
+- [smos-walker](#smos-walker)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Architecture](#architecture)
+  - [Terminology](#terminology)
+  - [Documentation](#documentation)
+  - [Installation](#installation)
+    - [Code](#code)
+      - [With Poetry](#with-poetry)
+      - [With Git](#with-git)
+    - [Test data](#test-data)
+  - [Usage](#usage)
+    - [With `ipython`](#with-ipython)
+    - [With bash](#with-bash)
+      - [Tree](#tree)
+  - [Development](#development)
+    - [Testing](#testing)
+      - [Manual testing](#manual-testing)
+      - [Run all tests](#run-all-tests)
+      - [Filter tests by pattern](#filter-tests-by-pattern)
+      - [Run a coverage check](#run-a-coverage-check)
+      - [Tool: generate all human readable trees resulting from the static analysis of schemas](#tool-generate-all-human-readable-trees-resulting-from-the-static-analysis-of-schemas)
+    - [Code Quality](#code-quality)
+      - [Lint the code with `pylint`](#lint-the-code-with-pylint)
+      - [Lint the code with `flake8`](#lint-the-code-with-flake8)
+      - [Verify types with `mypy`](#verify-types-with-mypy)
+      - [Prune unused imports with `pautoflage`](#prune-unused-imports-with-pautoflage)
+      - [Run `tox`](#run-tox)
+      - [Verify that the documentation build does not raise warnings](#verify-that-the-documentation-build-does-not-raise-warnings)
+    - [Bump version](#bump-version)
+    - [Misc](#misc)
+      - [Fixing `unrecognized option found: source-root vscode` in VSCode](#fixing-unrecognized-option-found-source-root-vscode-in-vscode)
+  - [Misc](#misc-1)
+
+## Description
+
+The _SMOS walker_ aims to facilitate the read of `.DBL` (datablock) binary files that are using the Earth Explorer format. These types of files are notably used in the SMOS project. Then, a datablock can be converted to a numpy ndarray structure for further processing. Using numpy open the field for high-level operation over the data. The tool can also be used to get user-friendly representation of the cumbersome XML schemas
+
+## Architecture
+
+![Architecture Overview](docs/assets/images/baa0be64a96954f434a2859c3a9ec2de5dd08bd4f1e70cd61a45a4a6dd5f5200.png)
+
+_Architecture Overview_
+
+## Terminology
+
+-   DBL = Data Block
+-   HDR = Header
+
+## Documentation
+
+:information_source: The current documentation contains the reference for the project's API. Use it if you want to get precise and detailed information about the machinery behind the project. For a quick start, you should rather read the [Usage](#usage) section
+
+To access the documentation online, go to https://argans.github.io/smos-walker/reference/
+
+The documentation can be build then deployed on GitHub Pages (via a GitHub Action under the hood) with:
+
+```bash
+poetry run mkdocs build
+poetry run mkdocs gh-deploy
+```
+
+To serve the documentation on your machine, run:
+
+```bash
+poetry run mkdocs serve
+```
+
+The documentation will be available on http://127.0.0.1:7099/
+
+:information_source: It is planned to have the documentation deployed on GitHub Pages later on.
+
+## Installation
+
+### Code
+
+#### With Poetry
+
+You can add `smos-walker` in your project as a Poetry git dependency.
+
+With a specific version tag:
+
+```bash
+poetry add git+ssh://git@github.com:ARGANS/smos-walker.git#0.5.0
+```
+
+With a specific branch (`master` contains the latest changes)
+
+```bash
+poetry add git+ssh://git@github.com:ARGANS/smos-walker.git#master
+```
+
+See [Poetry documentation about `add`](https://python-poetry.org/docs/cli/#add) for more information.
+
+You can then import `smos_walker` in your project:
+
+```python
+from smos_walker import SmosWalker
+```
+
+#### With Git
+
+You can also clone directly this repository. It can be useful if you want to contribute.
+
+```bash
+git clone git@github.com:ARGANS/smos-walker.git
+```
+
+Then run inside the repository:
+
+```bash
+poetry install
+```
+
+For more information about commands you can execute in the project, please refer to the [Development](#development) section.
+
+### Test data
+
+Please refer to the [Testing](#testing)] section
+
+## Usage
+
+### With `ipython`
+
+The main goal of using the project as an imported python package is to provide help exploring DBL files, for instance in a Jupyter notebook.
+
+```bash
+poetry run ipython
+```
+
+If you want to manually instantiate a walker, import the class directly
+
+```python
+from smos_walker import SmosWalker
+from pathlib import Path
+
+# Change these variables according to your needs
+root = Path(r"D:\Profils\eschalk\dev\argans\projects\python\smos-walker\smos-walker\tests\resources\FILLME")
+schemas = root / r"schemas_2022-09-01_v07-08-04\schemas_2022-09-01_v07-08-04\schemas_2022-09-01_v07-08-04"
+
+xsd_path = schemas / "binx/binx.xsd"
+xml_schema_path = schemas / "AUX_/DTBXY_/DBL_SM_XXXX_AUX_DTBXY__0403.binXschema.xml"
+datablock_folder_path = root / "SM_REPR_AUX_DTBXY__20160101T004254_20160101T013614_699_200_1"
+
+# Instantiate a walker
+w = SmosWalker(xsd_path, xml_schema_path, datablock_folder_path)
+
+# Print general information about a walker
+w
+
+# Don't forget to use the ipython's autocompletion feature when using the walker to learn how to use it
+
+# Paths in the datablock
+w.paths
+
+# Query the datablock ans describe the numpy dtype
+
+regions = w.query("/Data_Block/List_of_Regions")
+regions.dtype.descr
+
+snapshots = w.query("/Data_Block/List_of_Snapshots")
+snapshots.dtype.descr
+
+numpy_array_measurements = w.query("/Data_Block/List_of_Grid_Points/List_of_Measurements")
+numpy_array_measurements.dtype.descr
+
+# Use Numpy API to access the details
+regions["List_of_Models"][0]["List_of_OTT_Data"][2][7]["List_of_stats"][11]["mean"]
+
+import numpy as np
+
+np.mean(regions["List_of_Models"]["List_of_OTT_Data"]["List_of_stats"]["mean"])
+
+np.mean(regions["List_of_Models"][0]["List_of_OTT_Data"][2][7]["List_of_stats"]["mean"])
+```
+
+See `test_smoswalker_highlevel_api_dtbxy_` and `test_smoswalker_highlevel_api_vtec_c` for other examples of usages of the `SmosWalker` class
+
+See `test_from_earthexplorer` for an alternate (and more concise) way to instantiate a `SmosWalker` instance,
+by only providing a path to a folder containing all XML schemas, and a path pointing toward a EarthExplorer folder.
+
+### With bash
+
+⚠️ This method is **NOT** recommended. It is recommended to use ipython instead
+
+The main goal of using the project with bash is to print human representations of the resulting analysis of the various XML schemas.
+
+#### Tree
+
+Run the script: See the example inside `launch.dev.eschalk.sh`
+
+`STEP_LEVEL` corresponds to the step levels displayed on the overview schema of the app.
+
+## Development
+
+### Testing
+
+Fill the folder `tests/resources/FILLME` with schemas and the example DBL files.
+
+▶️ [DOWNLOAD LINK: FILLME_resources_for_smos_walker_tests.zip](https://acricwe-my.sharepoint.com/:u:/g/personal/eschalk_argans_eu/EROHzUkMeBBPth_uS2gHxFcBRHhdiUgAD3d7blbU4rytzg?e=b3mn8b) ◀️
+
+#### Manual testing
+
+It can be nice to manually test and get a quick feedback before writing code using the library, in order to get used to it.
+
+You can try out the example files with:
+
+```python
+from tests.utilities import instantiate_smos_walkers
+
+# Instantiate walkers for all available test data...
+walkers = instantiate_smos_walkers()
+
+# Example output: dict_keys(['DTBXY_', 'VTEC_C', 'SCSF1C', 'OSUDP2', 'AFWD1A', 'DNBSLC'])
+walkers.keys()
+
+# Access one of the walkers
+walker = walkers['DTBXY_']
+
+# ...Or only load the walker you want to use
+w = instantiate_smos_walkers('DTBXY_')
+
+# Print general info about the walker
+w
+```
+
+See the previous [Usage](#usage) section for more details about how to manipulate the walker.
+
+#### Run all tests
+
+```bash
+poetry run pytest
+```
+
+#### Filter tests by pattern
+
+```bash
+poetry run pytest -k test_index_datablock_dtbxy_with_query_wrapper
+```
+
+#### Run a coverage check
+
+Note: tests will run slower, but a report will be generated
+
+```bash
+poetry run pytest --cov=smos_walker # Coverage check, slower
+```
+
+Generate an HTML report, showing more insight regarding checked branches in the code
+
+```bash
+poetry run pytest --cov=smos_walker --cov-report html
+```
+
+#### Tool: generate all human readable trees resulting from the static analysis of schemas
+
+```bash
+poetry run pytest --runslow -k test_static_decorator_on_all_schemas
+```
+
+All schemas will be dumped into `tests/generated/test_static_decorator_on_all_schemas/`
+
+### Code Quality
+
+#### Lint the code with `pylint`
+
+```bash
+poetry run pylint smos_walker
+```
+
+#### Lint the code with `flake8`
+
+```bash
+poetry run flake8 smos_walker
+```
+
+#### Verify types with `mypy`
+
+```bash
+poetry run mypy smos_walker
+```
+
+#### Prune unused imports with `pautoflage`
+
+```bash
+poetry run pautoflake .
+```
+
+#### Run `tox`
+
+Most useful in a CI environment.
+
+```bash
+poetry run tox
+```
+
+#### Verify that the documentation build does not raise warnings
+
+```bash
+poetry run mkdocs serve
+```
+
+### Bump version
+
+To bump the version:
+
+-   Update version in `pyproject.toml`
+-   Update version in `smos_walker/__init__.py`
+-   Update version in this README file
+
+Note: This process is definetely boilerplate and can be improved.
+
+### Misc
+
+#### Fixing `unrecognized option found: source-root vscode` in VSCode
+
+> Add `--disable=E0015` argument to the Python "Pylint Args" configuration.
+
+See https://stackoverflow.com/questions/72478704/how-to-fix-pylint-unrecognized-option-error-in-vs-code
+
+## Misc
+
+Note: A better name could be `enekin-smoswalker` (the two substituded As for Es meaning Earth Explorer).
+
+Information on SMOS data: `A database of 12 years * 28 per day (DataBlocks)`
