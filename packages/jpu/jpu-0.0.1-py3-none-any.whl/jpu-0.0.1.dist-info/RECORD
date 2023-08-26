@@ -1,0 +1,13 @@
+jpu/__init__.py,sha256=UPNOr8RFVfidWEg0mih_OAyZZv9u7MQV6KpBCYO5-58,297
+jpu/core.py,sha256=zUHzmCmTjauWzXpFTPWgBRNmLF-6OB__sd82H7KIQyw,3330
+jpu/jax_numpy_func.py,sha256=wP1rrN00-iAymgSYj3WRV_qFhSO4tZPZI3A65WC5FGI,22428
+jpu/jpu_version.py,sha256=0E2q3bbXSYHV7qQaXVj0To-J2XdlP2Roo0TsM8oQtR4,160
+jpu/monkey.py,sha256=mcJ16lJ6dWD-1awbi3EsQYJcdFlPUTVj2SjsgPQABuY,1091
+jpu/quantity.py,sha256=w9Z5c9wJWGAnrSeDCWtdbvED1yxylj54LCGyNz8mDc4,1999
+jpu/registry.py,sha256=c9FHgHwYuVDiuFKqBAoo3jt6yLCNAr8EfljMVNOKUDc,2343
+jpu/numpy/__init__.py,sha256=PzBvZhquYfokQ7zu9UgW5HuHUbPI1AJhhftlCgAWc10,49
+jpu/numpy/linalg.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jpu-0.0.1.dist-info/METADATA,sha256=ucMumskP2-w6dF3BWikhU9xKTXZh55uYSjjvFwGrp0Y,3023
+jpu-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jpu-0.0.1.dist-info/licenses/LICENSE,sha256=zMsi6Cd6ZJC7Gdm_H2fcHAabTILgUkpFDvPq4SELEpo,1082
+jpu-0.0.1.dist-info/RECORD,,
