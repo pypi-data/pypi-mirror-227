@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "gradientai"
+version = "1.0.0-dev.7"
+description = "Gradient AI API"
+authors = ["Gradient AI Support <support@gradient.ai>"]
+license = "NoLicense"
+readme = "README.md"
+repository = "https://github.com/Preemo-Inc/gradientai-python-sdk"
+keywords = [
+    "Gradient AI API",
+    "ai",
+    "artificial intelligence",
+    "fine-tuning",
+    "large language model",
+    "llm",
+    "gradient",
+    "gradient ai"
+  ]
+include = ["gradientai/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+urllib3 = ">= 1.25.3"
+python-dateutil = ">=2.8.2"
+pydantic = "^1.10.5, <2"
+aenum = ">=3.1.11"
+
+[tool.poetry.dev-dependencies]
+build = "0.10.0"
+flake8 = ">=4.0.0"
+pytest = ">=7.2.1"
+tox = ">=3.9.0"
+twine = "4.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.'MESSAGES CONTROL']
+extension-pkg-whitelist = "pydantic"
