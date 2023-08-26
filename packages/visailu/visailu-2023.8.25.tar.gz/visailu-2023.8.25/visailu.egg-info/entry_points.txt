@@ -1,0 +1,2 @@
+[console_scripts]
+visailu = visailu.cli:app
