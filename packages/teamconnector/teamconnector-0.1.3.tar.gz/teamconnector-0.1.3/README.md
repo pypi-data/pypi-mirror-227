@@ -1,0 +1,50 @@
+# connector
+
+## Overview
+
+## Main Features
+
+## Installation
+
+## Usage
+
+
+`tc show` 
+lists all the environment variables
+
+`tc drive -ls`
+
+`tc drive -ls -t personal`
+
+## local to Google Drive
+
+`tc drive -o -p aouexplore -s sample_qc`
+
+`tc drive -o -p aouexplore`
+
+`tc --debug drive --dir up --subdir sample_qc`
+
+`tc drive --dir up --subdir sample_qc`
+
+## local to Google Cloud
+
+needs set BUCKET_NAME
+
+`tc gcp -ls`
+
+`tc -n gcp --dir down --subdir phenotypes`
+
+# remote
+
+tc remote -r /gpfs/commons/groups/singh_lab/projects/gpc_array/ --dir down --subdir 
+preprocessing
+
+## Cite
+
+## Maintainer
+
+[Tarjinder Singh @ ts3475@cumc.columbia.edu](ts3475@cumc.columbia.edu)
+
+## Acknowledgements
+
+## Release Notes
