@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cftscal
+Version: 0.1.0
+Summary: Paradigms for running calibrations required for CFTS
+Author-email: Brad Buran <buran@ohsu.edu>
+Maintainer-email: Brad Buran <buran@ohsu.edu>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# cftscal: tools for calibrating equipment used by CFTS
+
+**cftscal** is a Python package that provides a simple user interface for
+calibrating equipment used by CFTS (e.g., calibration microphones, free-field
+speakers, starships and amplifiers).
