@@ -1,0 +1,2 @@
+django_cte-stubs
+mypy_django_cte_plugin
