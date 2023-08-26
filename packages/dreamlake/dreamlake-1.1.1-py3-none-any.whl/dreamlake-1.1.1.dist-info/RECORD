@@ -1,0 +1,10 @@
+dreamlake/__init__.py,sha256=6m2R_nzcmq0Q3OqY2mRsNyrkuWHTChNhZk49fFiKXks,88
+dreamlake/configurator.py,sha256=KHcyhAcQOXVjrd4Oz_wFW7v3DG2EXxtJDvQrJcqtKJg,2359
+dreamlake/connection.py,sha256=C-Z1oWHx1DXGSAvuN0EhCTAsiT939dpwpVIuquNiHCs,530
+dreamlake/executor.py,sha256=jKjqNzhGaqMNwZhMKP2oGsnSv7_ba-X9UHSYn8e9_nU,3845
+dreamlake/parser.py,sha256=f-qIXwf7dqxg0WocHvVCIEmXDdtHZCGzo62JiW-T7u8,1491
+dreamlake/query.py,sha256=pDEsXUQTOWGlW-ARbbGHrZlAUDjuvJgx051nv9FUBLQ,3480
+dreamlake-1.1.1.dist-info/METADATA,sha256=Pmi4PcTjr9i-F5NWkkupvr23yYMlAHCuAknZ1sFmq1Q,269
+dreamlake-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dreamlake-1.1.1.dist-info/top_level.txt,sha256=y2if1Vp659zTARU7Lc4PWqaRUyKykVIeaNEDgP3sjI0,10
+dreamlake-1.1.1.dist-info/RECORD,,
