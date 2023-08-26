@@ -1,0 +1,78 @@
+# simplify data retrieving on centralSystem.org
+
+### download file
+
+```python
+import central50
+from central50 import Client, ApiRequest, Method
+
+c = Client(data_endpoint="",access_key="", secret_key="",authorized_endpoint="")
+api_request = ApiRequest(data_address="1754C67BE4821000", request_path="api-provider/download/local/123456",
+                                 method=Method.POST)
+try:
+    # 模式一
+    r = c.call_api(api_request)
+    with open('./img8.jpg', 'wb') as f:
+        f.write(r.content)
+
+    # 模式二
+    f = open('./img5.jpg', 'wb')
+    response_stream = c.call_api_stream(api_request)
+    with response_stream as r:
+        for chunk in r.iter_bytes(chunk_size=4096):
+            f.write(chunk)
+finally:
+    f.close()
+```
+
+### do http 
+```python
+import central50
+from central50 import Client, ApiRequest, Method
+
+c = Client(data_endpoint="",access_key="", secret_key="",authorized_endpoint="")
+
+params = {'pkey1': 'value1', 'pkey2': 'value2'}
+json = {'jkey1': 'value1', 'jkey2': 'value2'}
+headers = {'user-agent': 'my-app/0.0.1'}
+api_request = ApiRequest(data_address="178589E198821000", request_path="post",
+                         method=Method.POST, headers=headers, params=params, json=json, timeout=10)
+response = c.call_api(api_request)
+print(response.content)
+```
+
+### do pgsql
+```python
+import central50
+from central50 import Client, ApiRequest, Method
+
+c = Client(data_endpoint="",access_key="", secret_key="",authorized_endpoint="")
+json = {"payload": "{ \"sql\": \"select * from zs.student\" }"}
+api_request = ApiRequest(data_address="1785CB2070C21000", request_path="pg",
+                         method=Method.POST, json=json, timeout=10)
+response = c.call_api(api_request)
+print(response.content)
+```
+
+### do odps 
+```python
+import logging
+import central50
+from central50 import Client, ApiRequest, Method
+
+c = Client(data_endpoint="",access_key="", secret_key="",authorized_endpoint="")
+
+json = {"payload": "{ \"selectSql\": \"select * from user \" }"}
+api_request = ApiRequest(data_address="174FB94000C21000", request_path="get/odps",
+                         method=Method.POST, json=json, timeout=10)
+response = c.call_api(api_request)
+print(response.content)
+```
+
+### enable log
+```python
+import logging
+import central50
+
+central50.set_file_logger("../log/central.log", level=logging.DEBUG)
+```
