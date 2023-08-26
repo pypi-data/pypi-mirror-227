@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+django_agent/__init__.py
+django_agent/apps.py
+django_agent/decorators.py
+django_agent/tests.py
+django_agent/urls.py
+django_agent/views.py
+django_agent.egg-info/PKG-INFO
+django_agent.egg-info/SOURCES.txt
+django_agent.egg-info/dependency_links.txt
+django_agent.egg-info/requires.txt
+django_agent.egg-info/top_level.txt
