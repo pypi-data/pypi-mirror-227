@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyhsis
+Version: 1.2.3
+Summary: An feature extraction algorithm
+Home-page: https://github.com/Zhangleyi/xxx
+Author: Zhang Leyi
+Author-email: 1903636706@qq.com
+License: MIT Licence
+Keywords: pip,SICA,featureextraction
+Platform: any
+License-File: LICENSE
+Requires-Dist: numpy
+
+An feature extraction algorithm, improve the FastICA
