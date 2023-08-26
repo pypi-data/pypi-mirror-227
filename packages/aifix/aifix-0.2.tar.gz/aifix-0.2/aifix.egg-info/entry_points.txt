@@ -1,0 +1,3 @@
+[console_scripts]
+aifix = aifix.cli:main
+

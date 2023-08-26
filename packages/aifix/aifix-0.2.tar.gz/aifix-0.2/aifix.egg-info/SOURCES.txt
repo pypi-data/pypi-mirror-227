@@ -1,0 +1,9 @@
+setup.py
+aifix/__init__.py
+aifix/cli.py
+aifix.egg-info/PKG-INFO
+aifix.egg-info/SOURCES.txt
+aifix.egg-info/dependency_links.txt
+aifix.egg-info/entry_points.txt
+aifix.egg-info/requires.txt
+aifix.egg-info/top_level.txt
