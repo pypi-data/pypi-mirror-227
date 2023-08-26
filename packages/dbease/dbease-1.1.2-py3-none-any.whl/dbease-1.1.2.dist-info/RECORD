@@ -1,0 +1,10 @@
+dbease/__init__.py,sha256=6m2R_nzcmq0Q3OqY2mRsNyrkuWHTChNhZk49fFiKXks,88
+dbease/configurator.py,sha256=I6POZ0O1erZ47YWxhqQkqi1XoUpPP9Rfuz0h5BFBuiM,2347
+dbease/connection.py,sha256=0Zx7_tWO-8pOQkq0029bpW0eWdpnqyQpneOjB0nMTJs,527
+dbease/db_executor.py,sha256=xoQGypgTCFrFSz-wwfaX0u660EKoTCNoCChyTrKTBKM,3839
+dbease/db_query.py,sha256=5oaEdYcuoeiFYHFJNDN5JS3fgzTk89kDTyOBj6agcwI,3496
+dbease/parser.py,sha256=f-qIXwf7dqxg0WocHvVCIEmXDdtHZCGzo62JiW-T7u8,1491
+dbease-1.1.2.dist-info/METADATA,sha256=QbvsdkKLnHq1Cpx2Uo4CfYhL4rSMoZxy49Mw5TQCrps,329
+dbease-1.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dbease-1.1.2.dist-info/top_level.txt,sha256=cdRfADp0BLFBq5jOBXVRp2zzAqufr_YVA_OY47DkywE,7
+dbease-1.1.2.dist-info/RECORD,,
