@@ -1,0 +1,14 @@
+numpydoclint/__init__.py,sha256=DpO7Lp71gMWYtRCqKkUiY1B0sRSFoxbVYoeW15MjFds,512
+numpydoclint/cli.py,sha256=QzSz1SY_rZpxEsUfv3XzlEkDgoLrzQTdS3uUyCZTJ6k,7065
+numpydoclint/constants.py,sha256=GuIx7s12RVo3nv2kUgT-ysz4APZJuwiiAvj6R83H7oU,352
+numpydoclint/introspection/__init__.py,sha256=uVtlLLsS0aGV4o1lQbH9bvCl5HtW5iJfJW4LhxeELDs,661
+numpydoclint/introspection/filters.py,sha256=J7k4OXt-kG48mtvVh1a4E7XtHRcjKniu584a53hJvOE,10965
+numpydoclint/introspection/introspectors.py,sha256=2O7y74XyPBNj1CdD0bReyaRKwW9vN9B6ZV9Ar8YrRIA,9322
+numpydoclint/introspection/object_infos.py,sha256=nFTOwT0lMQHg2gzw9fx1bXmrPDJYhCcwcu-BA5nK7DQ,9756
+numpydoclint/utils.py,sha256=a0IkASOcLhDcUgXqdudyhpE3DjRmXEF3bEeSI3LhvhQ,4923
+numpydoclint/validate.py,sha256=UdZxSPoI6busZlXWGMtsvc_hMC6yHbsJHX1FKrDyj4s,3535
+numpydoc_linter-0.2.0.dist-info/LICENSE,sha256=_1xaWpEe8i7ZhsS4uMIkBc9fCZHQQ-W0rn-Z6a0vRYo,1081
+numpydoc_linter-0.2.0.dist-info/METADATA,sha256=42qt335vMmzLIAuHWSwRSfhqrS_KOkBcWMQ0Z2bTJ-k,3122
+numpydoc_linter-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+numpydoc_linter-0.2.0.dist-info/entry_points.txt,sha256=k-XZ_-gw1ouiXcAtkih-9rFNRw2tNNJiB2i0oRCXY4I,58
+numpydoc_linter-0.2.0.dist-info/RECORD,,
