@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/daydotpy.egg-info/PKG-INFO
+src/daydotpy.egg-info/SOURCES.txt
+src/daydotpy.egg-info/__init__.py
+src/daydotpy.egg-info/dependency_links.txt
+src/daydotpy.egg-info/pyday.py
+src/daydotpy.egg-info/top_level.txt
+src/pyday/__init__.py
+src/pyday/pyday.py

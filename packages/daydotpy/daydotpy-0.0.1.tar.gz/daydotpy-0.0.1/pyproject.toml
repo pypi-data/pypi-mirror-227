@@ -1,0 +1,18 @@
+[project]
+name = "daydotpy"
+version = "0.0.1"
+authors = [
+  { name="Deryl Sagala", email="derylchristophersagala@gmail.com" },
+]
+description = "The daydotpy package is a Date and Time manipulation library for Py (Python) inspired by Day.js, a popular JavaScript library for date manipulation. This package provides functionalities to parse, format, manipulate, and query dates in a simple and intuitive way, similar to Day.js."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/deryl-darren/pyday"
+"Bug Tracker" = "https://github.com/deryl-darren/pyday/issues"

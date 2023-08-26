@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: daydotpy
+Version: 0.0.1
+Summary: The daydotpy package is a Date and Time manipulation library for Py (Python) inspired by Day.js, a popular JavaScript library for date manipulation. This package provides functionalities to parse, format, manipulate, and query dates in a simple and intuitive way, similar to Day.js.
+Author-email: Deryl Sagala <derylchristophersagala@gmail.com>
+Project-URL: Homepage, https://github.com/deryl-darren/pyday
+Project-URL: Bug Tracker, https://github.com/deryl-darren/pyday/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyday
