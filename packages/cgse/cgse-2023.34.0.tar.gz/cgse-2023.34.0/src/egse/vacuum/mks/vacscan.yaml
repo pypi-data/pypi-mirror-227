@@ -1,0 +1,95 @@
+BaseClass:
+    egse.vacuum.mks.vacscan_interface.VacscanInterface
+
+ProxyClass:
+    egse.vacuum.mks.vacscan.VacscanProxy
+
+ControlServer:
+    egse.vacuum.mks.vacscan_cs
+
+Commands:
+
+    disconnect:
+        description:        Disconnect from the device.
+
+    connect:
+        description:        Connect to the device.
+
+    reconnect:
+        description:        Reconnect to the device.
+                            This command will force a disconnect and then try to re-connect to the controller.
+    is_connected:
+        description:        Check if the Thorlabs Hardware Controller is connected.
+
+    is_simulator:
+        description:        Ask if the control server is a simulator instead of the real controller class.
+        returns:            bool | True if the far end is a simulator instead of the real hardware
+
+    reset:
+        description:        Reset the device
+        cmd:                "(R)"
+        returns:            None
+
+    enable_acknowledge:
+        description:        Turn on device responses
+        cmd:                "(A1)"
+        returns:            str | Ack "A"
+
+    get_status:
+        description:        Get the device status word.
+        cmd:                "(S)"
+        returns:            str | 2-byte status word
+
+    read_data:
+        description:        Read the complete scan. Note that this command blocks until the chart is available which can take minutes.
+        cmd:                "(P)"
+        returns:            str | Bar-chart values and the range setting. Note that everything is separated by the termination character
+
+    set_barchart:
+        description:        Set the device to bar chart mode.
+        cmd:                "(M2)"
+        returns:            str | Ack "A" (if enabled)
+
+    enable_filament:
+        description:        Turn the filament on or off. Only turn on when vacuum is active.
+        args:
+            index:          int | filament index [1, 2]
+            enable:         int | 0 - disable, 1 - enable
+        cmd:                "(X{index},{enable})"
+
+    press_key:
+        description:        Perform a/multiple remote key press to navigate the menus.
+        args:
+            key:            int | key index 1 - up, 2 - left, 3 - down, 4 - right, 5 - enter, 8 - exit
+            times:          int | number of times to press the key
+        cmd:                "(k{key},{times})"
+
+    set_scan_speed:
+        description:        Set the scan speed, influences the accuracy.
+        args:
+            value:          int | [1 - 6]
+        cmd:                "(Y3,{value})"
+
+    set_first_mass:
+        description:       Set the scan starting point
+        args:
+            value:          int | ??
+        cmd:               "(Y4,{value})"
+
+    set_mass_zoom:
+        description:       Set the mass zoom (?)
+        args:
+            value:          int | ??
+        cmd:                "(Y5,{value})"
+
+    set_gain:
+        description:        Configure the gain as 10^-x
+        args:
+            value:          int | gain exponent
+        cmd:                "(Y6,{value})"
+
+    set_time_interval:
+        description:        Set the time interval
+        args:
+            value:          int | ??
+        cmd:                "(Y8,{value})"
