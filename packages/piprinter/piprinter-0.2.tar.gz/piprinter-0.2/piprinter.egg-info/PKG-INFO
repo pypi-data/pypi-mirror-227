@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: piprinter
+Version: 0.2
+Summary: A package to print the value of pi with high precision
+Author: Omar
