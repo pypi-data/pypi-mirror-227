@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+MaryamBoneh.egg-info/PKG-INFO
+MaryamBoneh.egg-info/SOURCES.txt
+MaryamBoneh.egg-info/dependency_links.txt
+MaryamBoneh.egg-info/entry_points.txt
+MaryamBoneh.egg-info/requires.txt
+MaryamBoneh.egg-info/top_level.txt
+maryamboneh/__init__.py
+maryamboneh/json2turtle.py
+maryamboneh/maryam.json
+maryamboneh/maryamboneh.py
+maryamboneh/svg2json.py
+maryamboneh/svg2turtle.py
