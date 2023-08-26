@@ -1,0 +1,9 @@
+ddddocr/__init__.py,sha256=orY6txTbvUdorv5pMfswxNU1-yurUEK9US20RJskAaQ,177333
+ddddocr/common.onnx,sha256=kOQyY1v7EArGuFYiChCxhgUyZMwwfdBJ1Y6OomQ8tuk,54088521
+ddddocr/common_det.onnx,sha256=b6qOqFqMGmNOUFDEoTj8oQ8wGU4NervpreH81COvbtY,20127694
+ddddocr/common_old.onnx,sha256=sdXhNElUNVsQtAYyBiuKne8GvMMyKftmcnRmK_Mdzz8,13606198
+ddddocr_py311-1.4.7.1.dist-info/LICENSE,sha256=ZRf5-OowiOeGM9doz_izpuHpdzZdIqWFT4qt1S1vK7Q,1098
+ddddocr_py311-1.4.7.1.dist-info/METADATA,sha256=Q5SmbXWpmRBeibgfFEpGh68-5Uch6wFH3xQRQWb4edM,10412
+ddddocr_py311-1.4.7.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ddddocr_py311-1.4.7.1.dist-info/top_level.txt,sha256=3vWTqO_TE_N_gu-HDIY0cJk5IN0A0AeFP2kFKYat_iM,8
+ddddocr_py311-1.4.7.1.dist-info/RECORD,,
