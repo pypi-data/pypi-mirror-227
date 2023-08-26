@@ -1,0 +1,8 @@
+pg_message/__init__.py,sha256=ILblDcFtDqlZR20PbVtbjX8YNf4hJ2XAMc9yB7p42CI,59
+pg_message/add.py,sha256=Y3bG92spSfegdCrxrQwIe1qyI7Ft1sB9MeXIFsD5ub0,142
+pg_message/recevie_message.py,sha256=zX_GKy917OW7PhKUvPs-mOcspSdIlg9QSworAsOlIzc,57
+pg_message/send_message.py,sha256=cnaGNxVoKUdkVG0pb1z6KEZenLzPzQMi7YAD-lDIIvY,52
+example_pkg_1756907975-1.0.0.dist-info/METADATA,sha256=SaPDBYs7OwcCXQ6t3RgwhQNo0JDPzHUAIvKbkcKgoFI,401
+example_pkg_1756907975-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+example_pkg_1756907975-1.0.0.dist-info/top_level.txt,sha256=OY_te6b0gaAwMmCCv0aWYhmK5UYt1aRr7y3tHBR0HtI,11
+example_pkg_1756907975-1.0.0.dist-info/RECORD,,
