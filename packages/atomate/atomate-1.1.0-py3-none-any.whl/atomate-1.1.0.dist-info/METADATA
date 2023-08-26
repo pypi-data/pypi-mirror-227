@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: atomate
+Version: 1.1.0
+Summary: atomate has implementations of FireWorks workflows for Materials Science
+Home-page: https://github.com/hackingmaterials/atomate
+Author: Anubhav Jain, Kiran Mathew
+Author-email: anubhavster@gmail.com, kmathew@lbl.gov
+License: modified BSD
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Other/Nonlisted Topic
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: custodian >=2023.7.22
+Requires-Dist: FireWorks >=2.0.3
+Requires-Dist: maggma >=0.51.25
+Requires-Dist: monty >=2023.5.8
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: paramiko
+Requires-Dist: pydash >=7.0.6
+Requires-Dist: pymatgen-analysis-diffusion >=2023.8.15
+Requires-Dist: pymatgen-analysis-defects >=2023.7.24
+Requires-Dist: pymatgen >=2023.7.20
+Requires-Dist: pymongo
+Requires-Dist: pyyaml >=5.1.2
+Requires-Dist: ruamel.yaml
+Requires-Dist: scipy
+Requires-Dist: tqdm >=4.65.0
+Provides-Extra: complete
+Requires-Dist: matplotlib >=1.5.2 ; extra == 'complete'
+Requires-Dist: phonopy >=1.10.8 ; extra == 'complete'
+Requires-Dist: openbabel-wheel ; extra == 'complete'
+Requires-Dist: boto3 >=1.28.15 ; extra == 'complete'
+Requires-Dist: Flask >=2.3.2 ; extra == 'complete'
+Requires-Dist: coverage >=7.2.7 ; extra == 'complete'
+Requires-Dist: moto >=4.1.14 ; extra == 'complete'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'complete'
+Requires-Dist: pytest >=7.4.0 ; extra == 'complete'
+Provides-Extra: defects
+Requires-Dist: pymatgen-analysis-defects ; extra == 'defects'
+Provides-Extra: phonons
+Requires-Dist: phonopy >=1.10.8 ; extra == 'phonons'
+Provides-Extra: plotting
+Requires-Dist: matplotlib >=1.5.2 ; extra == 'plotting'
+Provides-Extra: qchem
+Requires-Dist: openbabel-wheel ; extra == 'qchem'
+
+# <img alt="atomate" src="https://raw.githubusercontent.com/hackingmaterials/atomate/main/docs_rst/_static/atomate_logo_small.png" width="250">
+
+[![Tests](https://github.com/hackingmaterials/atomate/actions/workflows/test.yml/badge.svg)](https://github.com/hackingmaterials/atomate/actions/workflows/test.yml)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/atomate?label=PyPI%20Downloads)](https://pypi.org/project/atomate)
+[![PyPI](https://img.shields.io/pypi/v/atomate?logo=pypi&logoColor=white)](https://pypi.org/project/atomate)
+[![Requires Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg?logo=python&logoColor=white)](https://python.org/downloads)
+
+atomate is a software for computational materials science that contains pre-built workflows to compute and analyze the properties of materials.
+
+- **Website (including documentation):** <https://hackingmaterials.github.io/atomate/>
+- **Help/Support:** <https://discuss.matsci.org/c/atomate>
+- **Source:** <https://github.com/hackingmaterials/atomate>
+
+If you find atomate useful, please encourage its development by citing the following paper in your research output:
+
+```txt
+Mathew, K., Montoya, J. H., Faghaninia, A., Dwarakanath, S., Aykol,
+M., Tang, H., Chu, I., Smidt, T., Bocklund, B., Horton, M., Dagdelen,
+J., Wood, B., Liu, Z.-K., Neaton, J., Ong, S. P., Persson, K., Jain,
+A., Atomate: A high-level interface to generate, execute, and analyze
+computational materials science workflows. Comput. Mater. Sci. 139,
+140-152 (2017).
+```
