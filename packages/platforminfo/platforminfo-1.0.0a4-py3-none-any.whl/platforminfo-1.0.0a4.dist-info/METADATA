@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: platforminfo
+Version: 1.0.0a4
+Summary: System info made easy - Python library to find system info on your computer.
+Author-email: Tejas Raman <tejasraman@icloud.com>
+Project-URL: Homepage, https://github.com/platforminfo/platforminfo
+Project-URL: Bug Tracker, https://github.com/platforminfo/platforminfo/issues
+Project-URL: Documentation, https://platforminfo.github.io
+Keywords: system,os,sysinfo,winver,osver,osversion
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: yapf ; extra == 'dev'
+
+# PlatformInfo Python library
+
+**This is alpha quality code. Do not use this code in its current form**
+
+Simple system info for Python.
+
+
+
+Features:
+
+* Return kernel (kernel version coming soon)
+
+* Return OS version (general AND specific)
+
+* Return architecture (Linux/Mac only, Windows planned)
+
+This code still has an extremely limited feature set and should not be used in production. 
+
+***THERE IS NO DOCUMENTATION YET. IF YOU REALLY WANT TO USE THIS, READ THE CODE. Documentation coming soon***
