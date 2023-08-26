@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: twitchirc_drgreengiant
+Version: 2.0.0b3
+Summary: A simple receive only Twitch IRC client
+Author-email: Simon Howroyd <howroydlsu@gmail.com>
+Project-URL: Homepage, https://github.com/howroyd/twitchplays
+Project-URL: Bug Tracker, https://github.com/howroyd/twitchplays/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Chat :: Internet Relay Chat
+Requires-Python: >=3.11.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+TODO
