@@ -1,0 +1,10 @@
+README.md
+setup.py
+ediwheel/__init__.py
+ediwheel/connector.py
+ediwheel.egg-info/PKG-INFO
+ediwheel.egg-info/SOURCES.txt
+ediwheel.egg-info/dependency_links.txt
+ediwheel.egg-info/requires.txt
+ediwheel.egg-info/top_level.txt
+test/test_connector.py
