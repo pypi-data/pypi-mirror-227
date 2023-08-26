@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+JETDNN.egg-info/PKG-INFO
+JETDNN.egg-info/SOURCES.txt
+JETDNN.egg-info/dependency_links.txt
+JETDNN.egg-info/top_level.txt
+jetdnn/__init__.py
+jetdnn/inspect.py
+jetdnn/predict_ped.py
