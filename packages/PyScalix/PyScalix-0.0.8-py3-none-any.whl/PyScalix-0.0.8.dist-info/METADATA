@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: PyScalix
+Version: 0.0.8
+Summary: Python Package to convert csv files to SQLite database and SQLite database to csv files
+Home-page: https://github.com/husnainkhurshiid/PyScalix.git
+Author: Husnain Khurshid
+Author-email: muhammadhusnainkh@gmail.com
+Keywords: python,PyScalix,csv to sqlite,sqlite to csv,csv,husnain khurshid
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![](http://ForTheBadge.com/images/badges/made-with-python.svg)
+
+# PyScalix
+
+Python package to convert Csv files to SQlite database and SQlite database back to csv file
+
+## Functions
+
+- CsvtoSql( )
+- SqltoCsv( )
+
+## Installation Guidelines
+
+- windows
+  ```python
+  pip install Pyscalix
+  ```
+- macos/linux
+  ```python
+  pip3 install Pyscalix
+  ```
+- Latest version
+  ```python
+  pip install --upgrade PyScalix
+  ```
+
+## Usage/Examples
+
+```python
+import PyScalix
+
+PyScalix.CsvtoSql(csvfile)
+PyScalix.SqltoCsv(databasefile,table_name)
+```
+
+## Success Response
+
+- True
+
+## Error Response
+
+- False
+
+## Tech Stack
+
+**Language:** Python 3.10.9
+
+## Authors
+
+- [Husnain Khurshid](https://www.github.com/husnainkhurshiid)
+- [Usman Sadiq](https://www.github.com/usman-cs)
