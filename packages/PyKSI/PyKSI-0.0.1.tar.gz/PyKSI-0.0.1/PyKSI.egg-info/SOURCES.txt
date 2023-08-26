@@ -1,0 +1,6 @@
+README.md
+setup.py
+PyKSI.egg-info/PKG-INFO
+PyKSI.egg-info/SOURCES.txt
+PyKSI.egg-info/dependency_links.txt
+PyKSI.egg-info/top_level.txt
