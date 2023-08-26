@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "plato-client"
+version = "1.0.0"
+description = "Plato Client"
+authors = ["Vaibhav Singh <vaibhav.singh@bain.com>"]
+readme = "README.md"
+
+include = ["VERSION", "config/config.yaml"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+envyaml = "==1.10.211231"
+httpx = "==0.24.1"
+passlib = {extras = ["bcrypt"], version = "==1.7.4"}
+pydantic = "==1.10.9"
+python-dotenv = "==1.0.0"
+python-jose = "==3.3.0"
+python-json-logger = "==2.0.7"
+python-multipart = "==0.0.6"
+pyyaml = "==6.0"
+uvicorn = "==0.22.0"
+deprecated = "==1.2.14"
+fastapi = "==0.100.0"
+requests = "==2.31.0"
+
+langchain = "==0.0.271"
+
+[tool.poetry.group.dev.dependencies]
+black = "==23.3.0"
+coverage = "==7.2.5"
+flake8 = "==6.0.0"
+flake8-pyproject = "==1.2.3"
+isort = "==5.12.0"
+mypy = "==1.2.0"
+pre-commit = "==3.3.1"
+ipykernel = "==6.24.0"
+safety = "^2.3.5"
+pytest = "^7.4.0"
+pytest-asyncio = "^0.21.1"
+pytest-dotenv = "^0.5.2"
+openai = "^0.27.8"
+
+
+[tool.poetry.group.ipynb.dependencies]
+ipykernel = "==6.24.0"
+
+[tool.pytest.ini_options]
+pythonpath = ["./"]
+testpaths = ["tests"]
+env_files = [".env"]
+
+[tool.black]
+include = '\.pyi?$'
+line-length = 120
+target-version = ["py37", "py38"]
+
+[tool.isort]
+include_trailing_comma = true
+line_length = 120
+multi_line_output = 3
+
+[tool.flake8]
+extend-exclude = [".venv", "bin"]
+ignore = ["W291", "W503", "E203"]
+max-complexity = 10
+max-line-length = 120
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
