@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: calabrio-py
+Version: 0.1.1
+Summary: A Python client library for accessing the Calabrio API.
+Author: yachimat
+Author-email: podman1220@hotmail.com
+Requires-Dist: requests
+Requires-Dist: aiohttp
+
