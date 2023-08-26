@@ -1,0 +1,12 @@
+mydm/__init__.py,sha256=pTJH9WuUvccoJ6TGeha-7dP73tv5_Eoiypbt-KkoWt8,206
+mydm/bot.py,sha256=dn1983Ut41XhSjnjye1JAB549gVZIqPOWUxoTosVxFU,2257
+mydm/event.py,sha256=36_zbPIRCuD6LIqy8iHyGsISRb5BdO37s2sOxTtee5A,4384
+mydm/exceptions.py,sha256=ei5uXnC6mJIT6rzTXQjWeiADJwGr88bGaNH5JMANkhs,608
+mydm/interactor/__init__.py,sha256=rXOwGLYhWdQyD93iHLCwMdOW30uqKsJMinHBzNW9QFA,4071
+mydm/message.py,sha256=WgOKTrKhNhJHjBC3SFhFRTuzD2Q_I8D9nteFhGZYqtk,4081
+mydm/type.py,sha256=h6JBTbafXDXjVN3QoFguuDU7L46q8iyc48ImV3QRNco,3091
+mydm/utils.py,sha256=vyJ-avy4Cq61XE2A38QeiJrh6g89bw1ChW6_nOxFLMY,3054
+mydm-0.0.3a3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+mydm-0.0.3a3.dist-info/METADATA,sha256=ps6WbWv0egSMREA_-2G4IO0qrxoxGz6YqnMNpDOqg_8,1268
+mydm-0.0.3a3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+mydm-0.0.3a3.dist-info/RECORD,,
