@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+asmita_images/__init__.py
+asmita_images/images_info.py
+asmita_images/text_images.py
+asmita_images.egg-info/PKG-INFO
+asmita_images.egg-info/SOURCES.txt
+asmita_images.egg-info/dependency_links.txt
+asmita_images.egg-info/top_level.txt
