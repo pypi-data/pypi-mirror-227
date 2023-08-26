@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ultimate-tv-indicators
+Version: 1.0.1
+Summary: Famous Tradingview Indicators in Python
+Author: Invalortone
+Author-email: <invelortone1610@gmail.com>
+Keywords: python,tradingview,indicators,pinescript,finance,freqtrade
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
