@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: cdonut
+Version: 0.1
+Summary: A package to bring the c language donut meme to python, just import it to your code, then type: cdonut()
+Author: Omar
