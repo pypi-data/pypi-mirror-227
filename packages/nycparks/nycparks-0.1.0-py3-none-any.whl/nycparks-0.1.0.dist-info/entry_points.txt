@@ -1,0 +1,3 @@
+[console_scripts]
+reserve=nycparks.main:cli
+

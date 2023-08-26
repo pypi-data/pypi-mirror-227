@@ -1,0 +1,12 @@
+nycparks/.gitignore,sha256=Mkqm_nQMXJzz8ELSF1popqEnEgj13jt-hLuvxeCCOEs,2753
+nycparks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nycparks/data/court_info_and_availability_is_saved_here.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nycparks/main.py,sha256=KYsk-tnSQVEIOR2Nq0lPQcSaQWAKMuzvgSK-mvEFoEg,1200
+"nycparks/utils/__init__,py",sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nycparks/utils/reserver.py,sha256=e3uIZDdcANT4pEgSdJ6_zvwQrkacD6vqwHNeXiNHK7o,4792
+nycparks/utils/texter.py,sha256=uE8q87Li3isXQ4P4DgrdvSFDLpm84XlQz1VCvUHqFC8,854
+nycparks/utils/times.py,sha256=KmZ_78R0RmigovwOjx3I7tnBR_cgALrSe28yz-1vqPs,1136
+nycparks-0.1.0.dist-info/entry_points.txt,sha256=br_T0DpEYTACQMTJYyKT739K5nu5_Z6Ll7zJN4BUqn0,45
+nycparks-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+nycparks-0.1.0.dist-info/METADATA,sha256=-YbuunQcR3FyKkCBfuLMklHh5ej121drdGwJZNOh7fY,2778
+nycparks-0.1.0.dist-info/RECORD,,
