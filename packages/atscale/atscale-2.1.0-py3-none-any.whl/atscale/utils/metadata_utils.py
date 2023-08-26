@@ -1,0 +1,123 @@
+from typing import List
+
+from atscale.utils.dmv_utils import get_dmv_data
+from atscale.base.enums import Measure, Level, Hierarchy, FeatureType
+
+
+def _get_hierarchies(data_model) -> dict:
+    """Gets a dictionary of dictionaries with the hierarchies names and metadata.
+    Secondary attributes are treated as their own hierarchies.
+
+    Args:
+        data_model (DataModel): The DataModel object to search through
+
+    Returns:
+        dict: A dictionary of dictionaries where the hierarchy names are the keys in the outer dictionary
+              while the inner keys are the following: 'dimension', 'description', caption, 'folder', 'type'(value is Time or Standard).
+    """
+    hierarchy_dict = get_dmv_data(
+        model=data_model,
+        fields=[Hierarchy.dimension, Hierarchy.description, Hierarchy.folder, Hierarchy.caption, Hierarchy.type]
+        )
+    hierarchies = {}
+    for name, info in hierarchy_dict.items():
+        hierarchies[name] = {'dimension':info[Hierarchy.dimension.name], 'description':info[Hierarchy.description.name], 
+        'caption':info[Hierarchy.caption.name], 'folder':info[Hierarchy.folder.name], 'type':info[Hierarchy.type.name]}
+    return hierarchies
+
+def _get_hierarchy_levels(data_model, hierarchy_name: str) -> List[str]:
+    """Gets a list of the levels of a given hierarchy
+
+    Args:
+        data_model (str): The DataModel object the given hierarchy exists within.
+        hierarchy_name (str): The name of the hierarchy
+
+    Returns:
+        List[str]: A list containing the hierarchy's levels
+    """
+
+    levels_from_hierarchy = get_dmv_data(model=data_model,
+                                         fields=[Level.name],
+                                         id_field=Level.hierarchy,
+                                         filter_by={
+                                             Level.hierarchy: [hierarchy_name]})
+
+    hierarhy_names = levels_from_hierarchy.get(hierarchy_name, [])
+    return [_l.get(Level.name.name) for _l in hierarhy_names]
+
+def _get_feature_description(data_model, feature: str) -> str:
+    """Returns the description of a given feature given the DataModel containing it.
+
+    Args:
+        data_model (DataModel): The DataModel object the given feature exists within.
+        feature (str): The query name of the feature to retrieve the description of.
+
+    Returns:
+        str: The description of the given feature.
+    """
+    return data_model.get_features(feature_list=[feature])[feature]['description']
+
+def _get_feature_expression(data_model, feature: str) -> str:
+    """Returns the expression of a given feature given the DataModel containing it.
+
+    Args:
+        data_model (DataModel): The DataModel object the given feature exists in.
+        feature (str): The query name of the feature to return the expression of.
+
+    Returns:
+        str: The expression of the given feature.
+    """
+    return data_model.get_features(feature_list=[feature])[feature]['expression']
+
+def _get_all_numeric_feature_names(data_model, folder: str = None) -> List[str]:
+    """Returns a list of all numeric features (ie Aggregate and Calculated Measures) in a given data model.
+
+    Args:
+        data_model (DataModel): The DataModel object to be queried.
+        folder (str, optional): The name of a folder in the data model containing measures to exclusively list.
+            Defaults to None to not filter by folder.
+
+    Returns:
+        List[str]: A list of the query names of numeric features in the data model and, if given, in the folder.
+    """
+    folders = [folder] if folder else None
+    return list(data_model.get_features(folder_list=folders, feature_type=FeatureType.NUMERIC).keys())
+
+def _get_all_categorical_feature_names(data_model, folder: str = None) -> List[str]:
+    """Returns a list of all categorical features (ie Hierarchy levels and secondary_attributes) in a given DataModel.
+
+    Args:
+        data_model (DataModel): The DataModel object to be queried.
+        folder (str, optional): The name of a folder in the DataModel containing features to exclusively list.
+            Defaults to None to not filter by folder.
+
+    Returns:
+        List[str]: A list of the query names of categorical features in the DataModel and, if given, in the folder.
+    """
+    folders = [folder] if folder else None
+    return list(data_model.get_features(folder_list=folders, feature_type=FeatureType.CATEGORICAL).keys())
+
+def _get_folders(data_model) -> List[str]:
+    """Returns a list of the available folders in a given DataModel.
+
+    Args:
+        data_model: The DataModel object to be queried.
+
+    Returns:
+        List[str]: A list of the available folders
+    """
+
+    measure_dict = get_dmv_data(
+        model=data_model,
+        fields=[Measure.folder]
+        )
+
+    hierarchy_dict = get_dmv_data(
+        model=data_model,
+        fields=[Hierarchy.folder]
+        )
+
+    folders =  sorted(set([measure_dict[key]['folder'] for key in measure_dict.keys()] + \
+                            [hierarchy_dict[key]['folder'] for key in hierarchy_dict.keys()]))
+    if '' in folders: folders.remove('')
+    return folders
