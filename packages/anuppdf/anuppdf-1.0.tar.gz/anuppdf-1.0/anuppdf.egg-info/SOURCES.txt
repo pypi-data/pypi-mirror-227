@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+anuppdf.egg-info/PKG-INFO
+anuppdf.egg-info/SOURCES.txt
+anuppdf.egg-info/dependency_links.txt
+anuppdf.egg-info/top_level.txt
