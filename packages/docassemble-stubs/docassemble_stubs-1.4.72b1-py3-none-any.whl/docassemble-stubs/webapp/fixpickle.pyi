@@ -1,0 +1,9 @@
+from _typeshed import Incomplete
+from docassemble.base.logger import logmessage as logmessage
+
+TypeType: Incomplete
+NoneType: Incomplete
+
+def fix_pickle_obj(data): ...
+def fix_pickle_dict(the_dict): ...
+def recursive_fix_pickle(the_object, seen): ...

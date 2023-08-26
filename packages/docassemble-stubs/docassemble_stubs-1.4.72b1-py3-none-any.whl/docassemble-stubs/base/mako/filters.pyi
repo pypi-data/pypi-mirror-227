@@ -1,0 +1,36 @@
+import markupsafe
+from _typeshed import Incomplete
+from html.entities import name2codepoint
+from html.entities import codepoint2name
+
+html_escape = markupsafe.escape
+xml_escapes: Incomplete
+
+def xml_escape(string): ...
+def url_escape(string): ...
+def trim(string): ...
+
+class Decode:
+    def __getattr__(self, key): ...
+
+decode: Incomplete
+
+class XMLEntityEscaper:
+    codepoint2entity: Incomplete
+    name2codepoint: Incomplete
+    def __init__(self, codepoint2name, name2codepoint) -> None: ...
+    def escape_entities(self, text): ...
+    def __escape(self, m): ...
+    __escapable: Incomplete
+    def escape(self, text): ...
+    __characterrefs: Incomplete
+    def __unescape(self, m): ...
+    def unescape(self, text): ...
+
+_html_entities_escaper: Incomplete
+html_entities_escape: Incomplete
+html_entities_unescape: Incomplete
+
+def htmlentityreplace_errors(ex): ...
+
+DEFAULT_ESCAPES: Incomplete

@@ -1,0 +1,13 @@
+from _typeshed import Incomplete
+from collections.abc import Generator
+from docassemble.base.mako.ext.extract import MessageExtractor as MessageExtractor
+
+class BabelMakoExtractor(MessageExtractor):
+    keywords: Incomplete
+    options: Incomplete
+    config: Incomplete
+    def __init__(self, keywords, comment_tags, options) -> None: ...
+    def __call__(self, fileobj): ...
+    def process_python(self, code, code_lineno, translator_strings) -> Generator[Incomplete, None, None]: ...
+
+def extract(fileobj, keywords, comment_tags, options) -> None: ...
