@@ -1,0 +1,3 @@
+[console_scripts]
+signapp = signapp.signapp:main
+signapp_fetch_tools = signapp.download_tools:main
