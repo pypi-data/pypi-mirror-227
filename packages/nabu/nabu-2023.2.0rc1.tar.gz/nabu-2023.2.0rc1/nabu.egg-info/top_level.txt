@@ -1,0 +1,6 @@
+build
+dist
+doc
+nabu
+sandbox
+scripts
