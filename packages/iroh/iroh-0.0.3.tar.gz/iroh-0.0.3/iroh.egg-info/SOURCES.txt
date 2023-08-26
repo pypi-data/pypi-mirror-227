@@ -1,0 +1,8 @@
+README.md
+iroh.py
+setup.py
+iroh.egg-info/PKG-INFO
+iroh.egg-info/SOURCES.txt
+iroh.egg-info/dependency_links.txt
+iroh.egg-info/requires.txt
+iroh.egg-info/top_level.txt
