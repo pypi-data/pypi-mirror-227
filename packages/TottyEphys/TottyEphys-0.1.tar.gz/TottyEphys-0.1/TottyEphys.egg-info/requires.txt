@@ -1,0 +1,9 @@
+numpy
+matplotlib
+pandas
+quantities
+xarray
+elephant
+tqdm
+pynapple
+pyprojroot

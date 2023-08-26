@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: TottyEphys
+Version: 0.1
+Summary: A package containing helper functions for in vivo ephys data analysis
+Home-page: https://github.com/mictott/TottyEphys
+Author: Michael Totty
+Author-email: mictott@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TottyEphys
+A package containing helper functions for in vivo ephys data analysis
