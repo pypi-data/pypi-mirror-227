@@ -1,0 +1,14 @@
+pyproject.toml
+AltaiPony.egg-info/PKG-INFO
+AltaiPony.egg-info/SOURCES.txt
+AltaiPony.egg-info/dependency_links.txt
+AltaiPony.egg-info/top_level.txt
+tests/test_altai.py
+tests/test_customdetrend.py
+tests/test_fakeflares.py
+tests/test_ffd.py
+tests/test_flarelc.py
+tests/test_injecanalysis.py
+tests/test_lcio.py
+tests/test_utils.py
+tests/test_wheatland.py
