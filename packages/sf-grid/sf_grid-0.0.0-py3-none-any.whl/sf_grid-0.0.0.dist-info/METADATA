@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sf-grid
+Version: 0.0.0
+Summary: general robotic intelligence 
+Maintainer: scaledfoundations
+Maintainer-email: info@scaledfoundations.ai
+Requires-Python: >=3.8, <4
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: hydra-core
+Requires-Dist: openai
+Requires-Dist: termcolor
+Requires-Dist: omegaconf
+Requires-Dist: python-dotenv
+Requires-Dist: nbformat
+Requires-Dist: ipykernel
+Requires-Dist: ipython
+Requires-Dist: jupyter-client
+Requires-Dist: nbclient
+Requires-Dist: airgen
+Requires-Dist: rerun
+Requires-Dist: ivy
+Requires-Dist: ivy-vision
+Requires-Dist: ivy-mech
+
