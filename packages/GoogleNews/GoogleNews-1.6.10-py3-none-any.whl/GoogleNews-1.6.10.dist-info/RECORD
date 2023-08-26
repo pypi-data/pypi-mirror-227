@@ -1,0 +1,9 @@
+GoogleNews/__init__.py,sha256=dmXubaGa6cDsE0e6KHubWQuIOyw83LFvPzuxRP3JV-s,16245
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_search.py,sha256=_GOmIEPPjRCRAT9NlMVWN2aZELF99rQQw0pDqM0HJEY,3241
+test/test_sort.py,sha256=AanC7visZSYPRpIgsKJJWCA9rhw0rv6pK9Y7takQ350,623
+GoogleNews-1.6.10.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+GoogleNews-1.6.10.dist-info/METADATA,sha256=lJKydmGnhRPF0TLZDHmB-rnQXbGKVPrLZCAcWhIDK8Q,3892
+GoogleNews-1.6.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+GoogleNews-1.6.10.dist-info/top_level.txt,sha256=CsBBjNnIUJjXjit9WZ2QZR_CRZDHGQyvIJSAKzqFOSY,16
+GoogleNews-1.6.10.dist-info/RECORD,,
