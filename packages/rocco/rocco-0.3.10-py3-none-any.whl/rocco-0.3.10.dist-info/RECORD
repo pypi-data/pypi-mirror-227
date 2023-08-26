@@ -1,0 +1,16 @@
+rocco/ROCCO_chrom.py,sha256=kwQBbMnsv5bVq-n1K7RuJB7C-BRo7ksYG3-FxFtZpbU,16127
+rocco/ROCCO_gwide.py,sha256=EbcJofjMznwOq2-ZFHz_ASWFq2SQqsMfGaajFXjEICc,12311
+rocco/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rocco/bamSitesToWig.py,sha256=Dz5aHjg6h8Y2mMs90_TeGmPH2ASZ44QNieHn4ux7qJI,18909
+rocco/est_budgets.py,sha256=HS4QgmWnTsQfofTPCQhgbwedT3T-HDbLXDdFts4_PVw,9850
+rocco/loci.py,sha256=E-zgkcD9urlJEH6YdFE3acPGmPqsR295_zB__jCinSM,13172
+rocco/locus.py,sha256=uNSi0h2LZjlBtfNL7mfz29TlXTDK1kGidYmRslJGmpw,1771
+rocco/prep_bams.py,sha256=6te5i9l6yqAFhw4ZxjeT9OYA-GY2Ut5VBOiYudFcPUU,5978
+rocco/rocco.py,sha256=iPu9AGeYaZbBK3fM1dhmicIxjqNz79hW2ZF4aULtOvU,7182
+rocco/rocco_aux.py,sha256=b7mzdpsBC-75SFDECYEuH5tDSg3VGVRgK8vczITJ_3M,6421
+rocco-0.3.10.dist-info/LICENSE,sha256=0Qugk1UgusaLk3mkVYZ0udoXo3u88fT7ZsRy_ZJzK8w,1071
+rocco-0.3.10.dist-info/METADATA,sha256=AB8kHsEgJr3I_q4S-FAR4C8Dk_JAF9LuQhK_b6AqBFA,2448
+rocco-0.3.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rocco-0.3.10.dist-info/entry_points.txt,sha256=djGaWejOehsnwv5qVPaoinQ2918W0o5swUGKX6rGkR8,43
+rocco-0.3.10.dist-info/top_level.txt,sha256=tsDaAb3Fnxh90qiXkJ6x4rxT1h1-OmBgPdGrA21aweA,6
+rocco-0.3.10.dist-info/RECORD,,
