@@ -1,0 +1,73 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iwin"
+version = "2.0.1"
+description = "Library for analyzing IWIN dataset"
+readme = "README.md"
+authors = [
+    { name = "Ernesto Giron Echeverry", email = "e.giron.e@gmail.com" },
+    { name = "Urs Christoph Schulthess", email = "U.Schulthess@cgiar.org" }
+]
+maintainers = [
+  {name = "Ernesto Giron", email = "e.giron.e@gmail.com"}
+]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: Free for non-commercial use",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Environment :: Console",
+    "Framework :: Jupyter",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    # "Topic :: Scientific/Engineering",
+    # "Topic :: Scientific/Engineering :: Machine Learning",
+    # "Topic :: Scientific/Engineering :: GIS",
+    # "Topic :: Scientific/Engineering :: Agriculture",
+]
+keywords = ["IWIN", "Multi-Environment Trial Analysis", "wheat", "iPAR",  "RUE", "NDVI", "BLUEs", "BLUPs", "Heritability", "Crop modeling"]
+dependencies = [
+    "numpy >= 1.22.4",
+    "numba >= 0.51.2",
+    "pandas >= 1.5.3",
+    "scikit-learn >= 1.2.2",
+    "scipy >= 1.10.1",
+    # "proj == 0.2.0",
+    # "pyproj >= 2.6.1",
+    "basemap >= 1.3.7",
+    "basemap-data >= 1.3.2",
+    "basemap-data-hires >= 1.3.2",
+    "pyhull >= 2015.2.1",
+    "hdbscan >= 0.8.33",
+    "astral >= 3.1",
+    "astropy >= 4.3.1",
+    "tqdm >= 4.64.0",
+    "seaborn >= 0.11.0",
+    "Shapely >=1.7.1",
+    "ipython >= 7.21.0",
+    
+]
+requires-python = ">=3.7"
+
+# [tool.setuptools.packages]
+# find = {}  # Scanning implicit namespaces is active by default
+[tool.setuptools.packages.find]
+where = ["iwin"]
+
+[project.urls]
+Homepage = "https://github.com/egiron/IWIN"
+documentation = "https://egiron.github.io/iwin-tutorial/"
+repository = "https://github.com/egiron/iwin-tutorial"
+
+[project.scripts]
+iwin = "iwin.__main__:main"

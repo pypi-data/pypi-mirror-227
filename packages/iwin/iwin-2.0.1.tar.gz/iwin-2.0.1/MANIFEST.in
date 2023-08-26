@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml 
+include iwin/data/example/IWIN_raw_subset_20230807.csv.zip
+include iwin/iparyield/data/example/*
