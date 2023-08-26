@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: AltaiPony
+Version: 2.1.1
+Summary: Flare science in Kepler and TESS light curves
+Author-email: Ekaterina Ilin <ekaterina.ilin@posteo.de>
+Project-URL: Homepage, https://altaipony.readthedocs.io/en/latest/
+Project-URL: Bug Tracker, https://github.com/ekaterinailin/AltaiPony/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+
