@@ -1,0 +1,7 @@
+scipy
+tqdm>=4.38
+cola-plum-dispatch==0.1.1
+
+[dev]
+pytest
+pytest-cov
