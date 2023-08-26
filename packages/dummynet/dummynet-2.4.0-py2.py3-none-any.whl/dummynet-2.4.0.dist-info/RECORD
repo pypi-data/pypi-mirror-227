@@ -1,0 +1,13 @@
+dummynet/__init__.py,sha256=fACqGaMLRCIrNKoPzeiA9h-0Iu5qDjuT_UpaRQ8ewG0,421
+dummynet/dummy_net.py,sha256=BfDXzxL4UKeMzIvO4VwjIsB2udjqksFnGE8Kchs8aQQ,9719
+dummynet/errors.py,sha256=u6hSm0L_6jKc-wRsZelyhqSdu_dAcjuWj23OuXZkNSw,1754
+dummynet/host_shell.py,sha256=9rT6JkGwr4cysC3-uo39DGXFQ0FiRW6EjZQdEIpuf4c,3071
+dummynet/namespace_shell.py,sha256=CCaoIAHIyrXu90jD1xRquI7mDGHz5dnIdanvbPfiVXs,860
+dummynet/process.py,sha256=_ip-Q46ho2BRtELcO8P-_1x0o_fCjfy3Yj56mPVLwlk,508
+dummynet/process_monitor.py,sha256=7x5Pl7Ly52P0mzfjXBSI_Vc4xnsLorp8kVt8Gj0BBrE,9586
+dummynet/run_info.py,sha256=Xug4AVXC3uee7pCB8TBw7RLP07VroOccgCKegQV7gR4,4610
+dummynet-2.4.0.dist-info/LICENSE.rst,sha256=lnhVy333OpPgt8lKvpJs9jdfAOTpzAhlk0Z2e4V2BDs,1505
+dummynet-2.4.0.dist-info/METADATA,sha256=EoW2DoU2cDA02M5sC1a5wWmKsSi84eBMg1xv4HNUBFc,1928
+dummynet-2.4.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+dummynet-2.4.0.dist-info/top_level.txt,sha256=beQt5cynnx7cpYC2J9i11U2IBQdl-bVPaINnhozkRoM,9
+dummynet-2.4.0.dist-info/RECORD,,
