@@ -1,0 +1,5 @@
+setup.py
+pecanwood.egg-info/PKG-INFO
+pecanwood.egg-info/SOURCES.txt
+pecanwood.egg-info/dependency_links.txt
+pecanwood.egg-info/top_level.txt
