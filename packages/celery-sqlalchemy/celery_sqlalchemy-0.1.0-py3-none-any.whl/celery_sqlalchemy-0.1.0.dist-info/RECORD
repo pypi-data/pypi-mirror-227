@@ -1,0 +1,13 @@
+celery_sqlalchemy/__init__.py,sha256=5j83q0ntmoDjoQ3kb7wLLkNzBIu1I-lpDlOsRRR-iHU,1103
+celery_sqlalchemy/errors.py,sha256=8Tvu18Kbha9YpEajhE0Om4aZ9I9OLcru_ghPlO_PZHI,411
+celery_sqlalchemy/json/__init__.py,sha256=xpYR8q75dMvXTc6Teal9OB_goo-yEl4V-QySFS-2V-Y,14653
+celery_sqlalchemy/json/postgresql.py,sha256=_v49-iJrUbvtWQX5bPAfT-V9djNpWr-Ot3fuoLbtoQE,11146
+celery_sqlalchemy/json/sqlalchemy.py,sha256=_3gKOUWetL-Wdm38IUZXivMQFqSidgHS8u21MnqSKAA,7302
+celery_sqlalchemy/model/__init__.py,sha256=hUJQhyDHKjQn_ALaBSp76HGbikdrWKH1JC1XaWwCCsY,3630
+celery_sqlalchemy/model/postgresql.py,sha256=acnKDbndcJSEFuq5Nx_dsHuKmw_y9fBx2ofBtksykk4,9861
+celery_sqlalchemy/model/sqlalchemy.py,sha256=IRiM_gdaTM9HPEIzazJTCj27yPxFX370Pll2FxXLCaA,3059
+celery_sqlalchemy/schema.py,sha256=44EH8QXAM-x_XBowTfU8TmX7W4ZZqtSkegtN9fDuaq0,747
+celery_sqlalchemy-0.1.0.dist-info/LICENSE,sha256=8gJcKmTJTfpfX3PliGTO28e1LGg7O88gaDikkIFAd1E,1496
+celery_sqlalchemy-0.1.0.dist-info/METADATA,sha256=MgEeDEjUwwdiB1_5ey0wbFSQXe12ORjuySW4nlAAO_Q,3451
+celery_sqlalchemy-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+celery_sqlalchemy-0.1.0.dist-info/RECORD,,
