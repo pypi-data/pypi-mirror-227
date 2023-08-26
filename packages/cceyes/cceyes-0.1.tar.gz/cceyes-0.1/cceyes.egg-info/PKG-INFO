@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cceyes
+Version: 0.1
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+file: README.md
