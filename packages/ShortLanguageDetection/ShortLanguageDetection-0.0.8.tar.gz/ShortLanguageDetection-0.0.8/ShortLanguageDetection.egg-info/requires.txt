@@ -1,0 +1,3 @@
+fasttext-wheel
+emoji
+lingua-language-detector

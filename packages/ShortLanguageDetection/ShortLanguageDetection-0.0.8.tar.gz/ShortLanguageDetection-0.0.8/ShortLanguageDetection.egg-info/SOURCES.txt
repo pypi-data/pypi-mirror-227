@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ShortLanguageDetection/__init__.py
+ShortLanguageDetection/main.py
+ShortLanguageDetection.egg-info/PKG-INFO
+ShortLanguageDetection.egg-info/SOURCES.txt
+ShortLanguageDetection.egg-info/dependency_links.txt
+ShortLanguageDetection.egg-info/requires.txt
+ShortLanguageDetection.egg-info/top_level.txt
+ShortLanguageDetection/DictDetector/__init__.py
+ShortLanguageDetection/DictDetector/main.py
