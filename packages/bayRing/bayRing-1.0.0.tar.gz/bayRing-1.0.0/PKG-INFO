@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: bayRing
+Version: 1.0.0
+Summary: bayRing: Bayesian modelling of Ringdown waveforms with Nested Sampling.
+Home-page: https://github.com/GCArullo/bayRing
+Author: Gregorio Carullo, Marina De Amicis, Jaime Redondo-Yuste
+Author-email: gregorio.carullo@ligo.org
+License: MIT
+Project-URL: Bug Tracker, https://github.com/GCArullo/bayRing/issues
+Project-URL: Source Code, https://github.com/GCArullo/bayRing
+Description: 
+        =======
+        bayRing
+        =======
+        
+        bayRing: Bayesian modelling of Ringdown waveforms with Nested Sampling.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
