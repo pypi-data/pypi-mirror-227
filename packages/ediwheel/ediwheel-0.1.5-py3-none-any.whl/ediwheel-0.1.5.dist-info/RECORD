@@ -1,0 +1,8 @@
+ediwheel/__init__.py,sha256=CDk4p0gKf28hX90eJg0oRezcJOnNyCj9HU4j3LUpLoQ,113
+ediwheel/connector.py,sha256=4GlRulie7hNJ-7v38vbqENiRDgP_r7aOUgtS-o0E68w,1876
+ediwheel/templates/inquiry.xml,sha256=lcaVyaRg6uc5Eb8DG9yzr2029Wcgcj1cCsfU3bS64UE,638
+ediwheel-0.1.5.dist-info/LICENSE,sha256=3AWJzkqzF3grG_5bJNGjUo7tPAKL6PGXxRaZfHd83Qw,1022
+ediwheel-0.1.5.dist-info/METADATA,sha256=GlShW5mdA2TDetfbbw3gse7RP3EZ6GL12g6Cow2BVNg,1673
+ediwheel-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ediwheel-0.1.5.dist-info/top_level.txt,sha256=-67WBmngd2m-OF8U3eIWphskWIrBdaF2SVb32iIQuv4,9
+ediwheel-0.1.5.dist-info/RECORD,,
