@@ -1,0 +1,11 @@
+tap_getresponse/__init__.py,sha256=jmj27nPPi00PsSop85jBv6hPuxevUci3P5YkniikqmY,27
+tap_getresponse/client.py,sha256=XCuffhjGRTBXfSOG_24fMnJeXXmgHG6zbUueF5FTw-M,5036
+tap_getresponse/schemas/newsletter_activities.json,sha256=wShmWYo3vts8frhOiGS4UQ9ncn13uJQ6clpDNgE5VHA,1641
+tap_getresponse/schemas/newsletter_details.json,sha256=zYELJCsEkL8clk0Gn9ayBCsiersZGF2lep_iaVZJkZQ,2250
+tap_getresponse/streams.py,sha256=NW7TyTdDS7EQQDYX2W_oxYKWT6iX9SqqRGZGVjEXjzo,11036
+tap_getresponse/tap.py,sha256=nuyIsIn1C8jtR8PfHGor34QRpfnfqgWhnEwq5fbS-x8,1169
+tap_getresponse-0.0.2.dist-info/LICENSE,sha256=oetStf8DaKHUpq6-rl6FZN8ElrF6RanDfvpd59KsZvw,11343
+tap_getresponse-0.0.2.dist-info/METADATA,sha256=MtKQN2dUXBgLo7j_tMM9imf9_c_mgOsmvZ4v2QdCLOo,3929
+tap_getresponse-0.0.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tap_getresponse-0.0.2.dist-info/entry_points.txt,sha256=ltMsrc9easXTPefsdHd8ntxuMFJQs-REaaEJ5Cn6NsE,74
+tap_getresponse-0.0.2.dist-info/RECORD,,
