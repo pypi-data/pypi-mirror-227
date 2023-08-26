@@ -1,0 +1,5 @@
+elifetools
+elifearticle>=0.11.0
+ejpcsvparser
+GitPython
+configparser
