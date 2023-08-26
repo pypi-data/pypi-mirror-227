@@ -1,0 +1,10 @@
+scpup/__init__.py,sha256=8DTZ-pnFy_BUj7ykFWv0ofFTomJYpaUA9zHFZ559ZgU,82
+scpup/abc/__init__.py,sha256=8uAGPDGSdvdAA9Zkh1NkOuLqZFgrqZ5AfBodTnv7S3o,43
+scpup/abc/group.py,sha256=71M8RElp1Fy6x7-CvLhXeLUQZfdFVpKPAsyt4oQgXL4,3158
+scpup/abc/sprite.py,sha256=TmOeHWiOi5krMb0oqYpfuyb8KmzD8pTs9603VjFhIWg,1546
+scpup/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scpup/utils/loader.py,sha256=nTE0to4Ai2KGpwHNlNQE0HcWCwSb8sm3fjnrbvk1OiY,527
+scpup-0.1.23.dist-info/METADATA,sha256=K3hCp3d-GpH1847b3EPWciCElpR91V6Xw_f0n_mXk-I,1148
+scpup-0.1.23.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+scpup-0.1.23.dist-info/licenses/LICENSE,sha256=mqR27iwEL4uBEHSLo6ftEjfBnsi4s5_CbOD8_mjc1Dg,1097
+scpup-0.1.23.dist-info/RECORD,,
