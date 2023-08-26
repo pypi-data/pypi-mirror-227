@@ -1,0 +1,4 @@
+[console_scripts]
+drc2junit=kicad2junit.drc2junit:run
+erc2junit=kicad2junit.erc2junit:run
+
