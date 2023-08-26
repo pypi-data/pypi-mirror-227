@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: Keva
+Version: 0.1
+Summary: A python client for the Keva Database
+Home-page: https://github.com/gugu256/gugu256
+Author: gugu256
+Author-email: gugu256@mail.com
+License: MIT
+Project-URL: Homepage, https://keva.pancakedev.repl.co
+Keywords: database key value key-value KV
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Keva
+
+[![Downloads](https://static.pepy.tech/badge/keva)](https://pepy.tech/project/keva)
+
+Keva is a simple Key-Value database. Learn more about it here :  [https://keva.pancakedev.repl.co](https://keva.pancakedev.repl.co)<br>
+This package is a ptyhon client to make interacting with the database even simpler than it already is
+
+## Usage
+
+This package is a wrapper for using the Keva API, so you basically have all the endpoints in functions.
+
+```python
+import keva
+
+keva.db_key = "ddPpkgsPsnSd5xF6" # Enter your Keva database key here
+
+keva.set("name", "gugu256") # Sets a new key-value pair in your database
+keva.set("age", 29) # The type is automatically detected, so no need to specify it
+
+name = keva.get("name") # Gets a certain key in your Keva database and returns its value
+print(name)
+
+keys = keva.get_keys() # Fetches all the keys of your Keva database and returns them in a list
+print(keys)
+
+database = keva.get_entire() # Returns your entire Keva database as a dictionary
+print(database)
+
+keva.delete("age") # Deletes a key out of your Keva database
+
+keva.reset() # Resets your entire Keva database to zero (or in other terms, just {} )
+
+```
+
+And that's it!
+
+Now you understand why I call it a beginner-friendly database ;)
