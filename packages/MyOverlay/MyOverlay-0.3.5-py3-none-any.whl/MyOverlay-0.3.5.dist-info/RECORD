@@ -1,0 +1,13 @@
+MyOverlay/GetJob.py,sha256=gl0eLzDI98-Rl9w8G8AfUkXmvUzGgnPKylsQ4Pwxicg,65
+MyOverlay/GetJobDirectory.py,sha256=C-NQxprJ0ws6wilC6_qr3PvFHIHFkHvVVczAOyNqmeo,77
+MyOverlay/InnitOverlay.py,sha256=rH8rPu0xyTO0FWYURQvEzJQXm9yPluVXB6nrBlZ5X40,33
+MyOverlay/KillOverlay.py,sha256=mfTJ9_DX3BWYZ_Df1N9Iwk1ALleTYnoTIrge2zJxdzw,47
+MyOverlay/StatusOverlay.py,sha256=qReUQroBVENYnsgAZ956kmtcAkr4lY6NN9xXeeZ6GnY,56
+MyOverlay/settext.py,sha256=tCx9bOOe0bGnXS9rtfHwPrsWODI8FhCJMs7dlMmVQfI,170
+MyOverlay/setup.py,sha256=JKkS8WqQmn-yUvws3E3uMOIFVyxYEBDAOyqm-JN2zIk,489
+MyOverlay/funcs/myfunctions.py,sha256=hfA1o1TBwRbnRyZwf8LipGPkusVqasKLGKqZSWFy7WM,5278
+MyOverlay-0.3.5.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+MyOverlay-0.3.5.dist-info/METADATA,sha256=PRoRrlxxurn5WQBgr-FaxytHCgHrWDv40mHfKgk-7-s,768
+MyOverlay-0.3.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+MyOverlay-0.3.5.dist-info/top_level.txt,sha256=SmM_JYl79JgmVr9EgjzPypDzHqNHy9m-5aHGJyOelhc,10
+MyOverlay-0.3.5.dist-info/RECORD,,
