@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+amranlib/__init__.py
+amranlib/amran.py
+amranlib.egg-info/PKG-INFO
+amranlib.egg-info/SOURCES.txt
+amranlib.egg-info/dependency_links.txt
+amranlib.egg-info/not-zip-safe
+amranlib.egg-info/top_level.txt
