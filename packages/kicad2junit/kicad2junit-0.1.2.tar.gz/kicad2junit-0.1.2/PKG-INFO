@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: kicad2junit
+Version: 0.1.2
+Summary: Convert KiCad ERC/DRC report to Junit reports
+Author: Gustav Palmqvist
+Author-email: gustavp@gpa-robotics.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Dist: dataclasses-json (>=0.5,<0.6)
+Requires-Dist: junit-xml (>=1.9,<2.0)
+Requires-Dist: typed-argument-parser (>=1.8.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# kicad2junit
+
+A utility to convert KiCad DRC/ERC reports to Junit reports for CI/CD checks.
+
+# Usage
+
+## DRC
+```
+kicad-cli pcb drc /tmp/drc.json --format json
+drc2junit <path/to/drc.json> [path/to/output.xml]
+```
+
+## ERC
+```
+kicad-cli sch erc /tmp/erc.json --format json
+erc2junit /tmp/erc.json [path/to/output.xml]
+```
