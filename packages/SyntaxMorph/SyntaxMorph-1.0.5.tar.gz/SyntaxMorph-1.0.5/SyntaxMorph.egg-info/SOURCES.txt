@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+SyntaxMorph.egg-info/PKG-INFO
+SyntaxMorph.egg-info/SOURCES.txt
+SyntaxMorph.egg-info/dependency_links.txt
+SyntaxMorph.egg-info/not-zip-safe
+SyntaxMorph.egg-info/requires.txt
+SyntaxMorph.egg-info/top_level.txt
+morph/__init__.py
+morph/columDetect.py
+morph/formatCode.py
+morph/languageDetect.py
+morph/main.py
+morph/translate.py
