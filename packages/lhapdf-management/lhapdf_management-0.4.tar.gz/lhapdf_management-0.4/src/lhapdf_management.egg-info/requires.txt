@@ -1,0 +1,8 @@
+pyyaml
+numpy
+
+[fancy]
+tqdm
+
+[tests]
+pytest
