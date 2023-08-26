@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+platforminfo/__init__.py
+platforminfo/__main__.py
+platforminfo/platforminfo.py
+platforminfo.egg-info/PKG-INFO
+platforminfo.egg-info/SOURCES.txt
+platforminfo.egg-info/dependency_links.txt
+platforminfo.egg-info/requires.txt
+platforminfo.egg-info/top_level.txt
