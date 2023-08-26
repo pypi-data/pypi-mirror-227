@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: opgg.py
+Version: 1.1.0
+Summary: An unofficial Python library for scraping/accessing data from OP.GG
+Home-page: https://github.com/ShoobyDoo/OPGG.py
+Author: ShoobyDoo
+Project-URL: Bug Reports, https://github.com/ShoobyDoo/OPGG.py/issues
+Project-URL: Source, https://github.com/ShoobyDoo/OPGG.py
+Keywords: opgg,league-of-legends,web-scraping,summoner,data,riot-api
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+# OPGG.py
+An unofficial Python library for accessing OPGG data.
+
+## Prerequisites
+
+* [Python 3.11](https://www.python.org/downloads/) 
+    
+    *Note: Will likely work on versions slightly older or newer*
+
+## Installation
+
+#### Dependencies
+* [requests](https://pypi.org/project/requests/)
+* [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+
+Alternatively, you can use the provided requirements.txt to install the required libraries by running the following command: <br>
+`py -m pip install -r requirements.txt`
+
+## Usage
+
+#### Importing the library
+```python
+from opgg.opgg import OPGG
+from opgg.params import By
+from opgg.summoner import Summoner
+
+
+
+
+```
