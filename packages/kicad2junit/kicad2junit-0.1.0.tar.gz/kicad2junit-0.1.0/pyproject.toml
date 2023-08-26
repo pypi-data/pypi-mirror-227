@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "kicad2junit"
+version = "0.1.0"
+description = ""
+authors = ["Gustav Palmqvist <gustavp@gpa-robotics.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+junit-xml = "^1.9"
+dataclasses-json = "^0.5"
+typed-argument-parser = "^1.8.1"
+
+[tool.poetry.scripts]
+erc2junit = 'kicad2junit.erc2junit:run'
+drc2junit = 'kicad2junit.drc2junit:run'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
