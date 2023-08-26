@@ -1,0 +1,17 @@
+visier/__init__.py,sha256=7GW6Bvqk5nb1z8VLN08j2Xqk_YbuqXiy01kKVU6eYoE,691
+visier/api/__init__.py,sha256=chLpoYVmD40VORi7LBDxeG4oAdglQMS4jj4y4POi-IY,853
+visier/api/base.py,sha256=3tXpFhXkT0IaFZgyTMkLFrphMnT5DBxXfHuz-xKiuIY,2315
+visier/api/direct_intake.py,sha256=YuFArOolV-dVjxjB--i0o5Z-7O7YYtb97AF4af4Lp-E,5018
+visier/api/model.py,sha256=d0X4EL8W1MRHv9RTkGXa6v0Fve6c6f0Gtt3FX3s2_H0,4009
+visier/api/query.py,sha256=zIgloYOoQud-FwNqogQDSk8cEJXOpoQFnR-idy0SVq0,2061
+visier/connector/__init__.py,sha256=HGIKudQvocSz5sisEaPs7WkGT-yO4PBCqO78gOzhikE,862
+visier/connector/authentication.py,sha256=wHW2WAeFZMRbCxwiMalnSC7ud0ZlzYnsdFWjkT9G1Wg,6963
+visier/connector/callback.py,sha256=Aj_V9eAnDm11luk5B8jbZDh7J4EmsSdSV16-WpWHj-Q,2411
+visier/connector/constants.py,sha256=KTONoCnE6p4_YlRGixkfEtGtXDmsX1BPtxtlEKYy2_M,1086
+visier/connector/sessions.py,sha256=6Su0MENZpfvtRTxZq0IabixbDBp3V8OSXgxiE2qMHAc,9608
+visier/connector/table.py,sha256=JaTyR8ieAORC90QIaL27dv3lhsF-1gzPgSvBfrcIFaQ,1371
+visier_connector-0.9.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+visier_connector-0.9.9.dist-info/METADATA,sha256=d5ahdpqD5njLk5ghzfqLiXAZayshxQRSG9ttduTcfsY,31762
+visier_connector-0.9.9.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+visier_connector-0.9.9.dist-info/top_level.txt,sha256=OeWQHre_3gMSDj92-cZssyDoDi_eZEbDRYLXijHIPKA,7
+visier_connector-0.9.9.dist-info/RECORD,,
