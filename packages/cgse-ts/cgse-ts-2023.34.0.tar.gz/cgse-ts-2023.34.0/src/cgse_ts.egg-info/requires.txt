@@ -1,0 +1,5 @@
+cgse
+gui-executor
+sep
+scikit-image
+scikit-learn
