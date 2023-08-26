@@ -1,0 +1,85 @@
+[tool.poetry]
+name = "fhmake"
+version = "2023"
+license = "mit"
+description = "FredHappyface Makefile for python. build, install, publish or audit"
+authors = ["FredHappyface"]
+classifiers = [
+	"Environment :: Console",
+	"Environment :: MacOS X",
+	"Environment :: Win32 (MS Windows)",
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Education",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: Implementation :: CPython",
+	"Topic :: Security",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Utilities"
+]
+homepage = "https://github.com/FHPythonUtils/FHMake"
+repository = "https://github.com/FHPythonUtils/FHMake"
+documentation = "https://github.com/FHPythonUtils/FHMake/blob/master/README.md"
+readme = "README.md"
+
+[tool.poetry.scripts]
+fhmake = 'fhmake:cli'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tomlkit = "<2,>=0.12.1"
+simplesecurity = {version = "<2025,>=2023.0.2", optional = true}
+checkrequirements = {version = "<2025,>=2023", optional = true}
+poetry = {version = "<2,>=1.6.1", optional = true}
+licensecheck = {version = "<2025,>=2023.4.2", optional = true}
+radon = {version = "<7,>=6.0.1", optional = true}
+pylint = {version = "<3,>=2.17.5", optional = true}
+handsdown = {version = "<3,>=2.0.1", optional = true}
+# If installing fhmake[full] we need flake8-polyfill to prevent flake8 from breaking
+flake8-polyfill = {version = "<2,>=1.0.2", optional = true}
+
+[tool.poetry.extras]
+full = [
+	"simplesecurity",
+	"checkrequirements",
+	"poetry",
+	"licensecheck",
+	"handsdown",
+	"radon",
+	"pylint",
+	"flake8-polyfill",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+indent = "Tab"
+
+[tool.pydocstyle]
+convention = "google"
+ignore = "D205,D415"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.basic]
+argument-naming-style = "camelCase"
+attr-naming-style = "camelCase"
+function-naming-style = "camelCase"
+method-naming-style = "camelCase"
+variable-naming-style = "camelCase"
+
+[tool.pylint.format]
+indent-string = "\t"
+
+[tool.pylint.master]
+ignore-paths = ["tests"]
+
+[tool.pylint.messages_control]
+enable = ["F", "E", "W", "R", "C"]
+disable = ["pointless-string-statement", "superfluous-parens"]
