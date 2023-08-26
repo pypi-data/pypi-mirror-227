@@ -1,0 +1,15 @@
+apsw/__init__.cp312-win_amd64.pyd,sha256=eGOa00Jl6yyoG5MHeP9pCiGy7LYv9CosM5AHuL7W5Jc,1907712
+apsw/__init__.pyi,sha256=QZoNlPNsC7BrMj-flV2KMwSjSheJCW4yVBA3qWZYyNo,204291
+apsw/__main__.py,sha256=Vl4cGbdVs3xZpZjYdX_QOVx9EtrvKlcW2t28IgQncpk,64
+apsw/bestpractice.py,sha256=AnMAzZdKMxAtQ7WHYhg2n2dEjvayKLXMUCWS6PvyJxQ,2669
+apsw/ext.py,sha256=bLbdyA-pc52Em-aMkp3OAet6dh77dJqIfSB7VsauX8I,67482
+apsw/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apsw/shell.py,sha256=zMEUqYIEqPGrTbQaJxqtsArH1lLfKrVeOYsYBzvIq00,142114
+apsw/speedtest.py,sha256=Ye8fE1l8yYaIyhaGqgZSy2uLK5tJOMjtG1Rz27LNu9U,21533
+apsw/tests.py,sha256=6H7nDcNyeJYTfDw3UaV_LD0zq_FZhrYR7wHs6YDWpmI,421328
+apsw/trace.py,sha256=L2Xw9iTinDhnQf_M1UrQU8-OLGiH7ngJYPI4T5fuAkU,12825
+apsw-3.43.0.0.dist-info/LICENSE,sha256=o23w1rieaSHpDZY_etiQiniLhswIcrTopHAFMX69j8Y,1158
+apsw-3.43.0.0.dist-info/METADATA,sha256=aQs3RdbU71MUXNT81-RdHQLniDN6VX0U7ITf4NCSrEY,3455
+apsw-3.43.0.0.dist-info/WHEEL,sha256=aDrgWfEd5Ac7WJzHsr90rcMGiH4MHbAXoCWpyP5CEBc,102
+apsw-3.43.0.0.dist-info/top_level.txt,sha256=AMSo16bHvRC7F5I0KBCKqv4WM4--RyHwQj3g2YbN30g,5
+apsw-3.43.0.0.dist-info/RECORD,,
