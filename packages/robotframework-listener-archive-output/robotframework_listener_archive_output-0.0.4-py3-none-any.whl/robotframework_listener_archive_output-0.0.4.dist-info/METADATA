@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: robotframework-listener-archive-output
+Version: 0.0.4
+Summary: A Robot Framework listener for archiving the content of ./output in a ./%Y/%m/%d/fqdn_%H%M%S structure with optional prefix path.
+Home-page: https://gitlab.com/uhbs/robotframework-listener-archive-output
+Author: Dominik Riva
+Author-email: dominik.riva@usb.ch
+License: Apache-2.0
+Project-URL: Changelog, https://gitlab.com/uhbs/robotframework-listener-archive-output/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://gitlab.com/uhbs/robotframework-listener-archive-output/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+========
+Overview
+========
+
+A Robot Framework listener for archiving the content of ./output in a ./%Y/%m/%d/fqdn_%H%M%S structure with optional
+prefix path.
+
+* Free software: Apache Software License 2.0
+
+Installation
+============
+
+::
+
+    pip install robotframework-listener-archive-output
+
+You can also install the in-development version with::
+
+    pip install https://gitlab.com/uhbs/robotframework-listener-archive-output/-/archive/main/robotframework-listener-archive-output-main.zip
+
+
+Documentation
+=============
+
+
+To use the project:
+
+.. code-block:: python
+
+    import archive
+    archive.longest()
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2023-07-11)
+------------------
+
+* First release on PyPI.
