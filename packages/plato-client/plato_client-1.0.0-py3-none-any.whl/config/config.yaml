@@ -1,0 +1,12 @@
+env: $PLATO_CLIENT_ENV
+broker:
+  url:
+    local: "http://0.0.0.0:8080/plato-broker"
+    dev: "https://platosbx.a034577ff7e2.azure.bain.dev/api/plato-broker"
+    prod: "https://platosbx.a034577ff7e2.azure.bain.dev/api/plato-broker"
+
+auth:
+  algorithm: "HS256"
+  access_token_expiry_min: 30
+  test:
+    secret_key: 'test123'
