@@ -1,0 +1,4 @@
+include src/source/Detectors/*.py
+include src/source/Detectors/configurations/*.py
+include src/source/Detectors/landmarks/*.py
+include src/source/Modules/*.py
