@@ -1,0 +1,5 @@
+requests
+disposable-email-domains
+beautifulsoup4
+python-whois
+sockets
