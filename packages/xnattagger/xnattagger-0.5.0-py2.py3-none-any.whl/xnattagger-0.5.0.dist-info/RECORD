@@ -1,0 +1,10 @@
+xnattagger/__init__.py,sha256=xAO1sYlzxAnkdbhU_ubkS-36nLePuyXZhp6FKbwk1fM,13256
+xnattagger/__version__.py,sha256=AQz3O_ZeEVlPxrRtKkpEkh1X_Z-aKbpcWplOvCO41Fs,220
+xnattagger/config/__init__.py,sha256=9NvVYPkoanrrNVRCljmYCAjjJZGq5kvF_oatEgVQDQo,160
+xnattagger/config/tagger.yaml,sha256=sWK8PBkv1aLe1G22SvrwBylos0C5UXYg-W3ugGc5Wbg,1448
+xnattagger-0.5.0.data/scripts/xnat_tagger.py,sha256=c7pbTLHwcADJHJjJ5h381fsuAvBoNWRTSjDa_PTmBD8,2282
+xnattagger-0.5.0.dist-info/LICENSE,sha256=ReOF9BmlQdkCj4b2gQYogJrk_QkbUAuz8W1ZVqI0pcs,1541
+xnattagger-0.5.0.dist-info/METADATA,sha256=jwhSkYy-7tSS0BVTI39nHSmD5cUHFDxGYzk8aax9LMs,266
+xnattagger-0.5.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+xnattagger-0.5.0.dist-info/top_level.txt,sha256=LdHhj5smL9uEh9HAguIPB8FH7EgYimhI-AODf4fl6tE,11
+xnattagger-0.5.0.dist-info/RECORD,,
