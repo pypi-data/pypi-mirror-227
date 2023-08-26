@@ -1,0 +1,9 @@
+pydref_serializers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydref_serializers/serializers/__init__.py,sha256=M6Q3ZLj1WqxOlZGgArUdPyD6Dnj9sP3bbgao8KBvgtU,58
+pydref_serializers/serializers/base.py,sha256=jrEWFpeuj8-QwuxjEKUoxnXn34Th9lkKHByRPOLcDIA,1894
+pydref_serializers/serializers/field_mappers.py,sha256=nT2pu2HdqyGBL4dTjbKbMfCfENoKIoKVb7D5WA6zwqs,3283
+pydref_serializers/serializers/getters.py,sha256=3HqP0XEgdFfNXNIceVPMUWK1YLRob3Rh9bTxjcBr_9E,831
+pydref_serializers/serializers/validator_mappers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydref_serializers-0.1.0.dist-info/METADATA,sha256=3ChSl-szlLnX5s6NHGQC9rMiXFjGTpH0U4mZPHYtvsU,6688
+pydref_serializers-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pydref_serializers-0.1.0.dist-info/RECORD,,
