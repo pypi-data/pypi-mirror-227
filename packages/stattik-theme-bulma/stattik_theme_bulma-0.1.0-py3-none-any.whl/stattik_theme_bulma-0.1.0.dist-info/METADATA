@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: stattik-theme-bulma
+Version: 0.1.0
+Summary: 
+Author: kfields
+Author-email: kurtisfields@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
