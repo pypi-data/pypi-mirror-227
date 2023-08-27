@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: marslib
+Version: 1.1.1
+Author: 梁开孟
+Author-email: 519281809@qq.com
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: cx-Oracle (>=8.3.0)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: prettytable (>=3.5.0)
+
