@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/Hello123/__init__.py
+src/Hello123/etho.py
+src/Samplehello.egg-info/PKG-INFO
+src/Samplehello.egg-info/SOURCES.txt
+src/Samplehello.egg-info/dependency_links.txt
+src/Samplehello.egg-info/top_level.txt
