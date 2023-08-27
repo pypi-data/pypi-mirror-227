@@ -1,0 +1,14 @@
+banditpam.cpython-310-i386-linux-gnu.so,sha256=5uKDKJWX5Or2h7KnDx8HWl_otiz7MPi3XH03M4p6cek,30769701
+banditpam-4.0.4.dist-info/RECORD,,
+banditpam-4.0.4.dist-info/WHEEL,sha256=POAWaITYRJ3Wom25yjK7N-cS2g56uhAplwun4aFyPzs,111
+banditpam-4.0.4.dist-info/LICENSE,sha256=FXT8kx9RS54Q5SHOXugI9QPfVfnuhmkEvpS_zoVv4Bg,1098
+banditpam-4.0.4.dist-info/METADATA,sha256=RFqqlymMJcizOiFaLPmeq6ukthIfeRMEZLnyRe9dR_g,3347
+banditpam-4.0.4.dist-info/top_level.txt,sha256=EYPl4oHEYw-sPjPllaspIujpvhfCXGedOexzuFr3oo8,10
+banditpam.libs/libgomp-41890ef0.so.1.0.0,sha256=jd7-sH43bW1ihDQz3ii-r6QHE1xQftc6Rgs89QCHj7k,195209
+banditpam.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
+banditpam-4.0.4.data/headers/kmedoids_algorithm.hpp,sha256=o5l1hsjElBZjUwyB29PtWICpD7jMFclMawvONb03vJM,15933
+banditpam-4.0.4.data/headers/pam.hpp,sha256=PULVvnnjbflF6izL9enSS-yTDe9MFCs0VakKMyqh3k8,2026
+banditpam-4.0.4.data/headers/banditpam.hpp,sha256=ADO_x0tBXYimHazrAGiz-iTexCn_lizMn9CypZRTlnQ,5691
+banditpam-4.0.4.data/headers/kmedoids_pywrapper.hpp,sha256=YBCwFB3KX_3_fbaW8Vy7Vkh5HIBYXHYGQh--Biw5_1c,6181
+banditpam-4.0.4.data/headers/fastpam1.hpp,sha256=PIqaTgLdaApqwq-Iiz7PxW8hf9uiv2XgTkZS1RtHEJo,2048
+banditpam-4.0.4.data/data/docs/long_desc.rst,sha256=5gWiRd-NYw7KUdoEQU0XW3W2MBwbdZGi6UZXMWD0Tlc,2909
