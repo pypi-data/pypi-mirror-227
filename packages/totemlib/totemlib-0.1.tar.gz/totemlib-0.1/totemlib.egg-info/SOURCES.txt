@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+totemlib/__init__.py
+totemlib.egg-info/PKG-INFO
+totemlib.egg-info/SOURCES.txt
+totemlib.egg-info/dependency_links.txt
+totemlib.egg-info/top_level.txt
