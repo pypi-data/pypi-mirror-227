@@ -1,0 +1,2 @@
+[console_scripts]
+cinfo_jk = cinfo_jk.cinfo_jk:main

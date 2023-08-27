@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cinfo-jk
+Version: 0.1
+Summary: Cinfo will tell anything about your CPUs
+Home-page: https://git.selfmade.ninja/jevaa_kharthik/cpuinfo_pkg
+Author: Jevaa Kharthik N
+Author-email: jevaasureka@gmail.com
+Requires-Dist: psutil (==5.9.5)
+Requires-Dist: setuptools (==68.1.2)
+
