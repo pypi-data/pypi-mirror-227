@@ -1,0 +1,9 @@
+monkeypatching/__init__.py,sha256=ya8Fo-kBZiKoQbRFDhjRoVSOgbx97AWGSVFUpz1EYME,144
+monkeypatching/_monkeypatching.py,sha256=qH3W4vs7XFYPz5ufKe6skGjx2apXrhkZGxeWKz-JqhA,6739
+monkeypatching/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monkeypatching/version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+monkeypatching-0.1.0.dist-info/LICENSE,sha256=z6Aua0iVUcj5M9FHBwyAzr7BQ9WqgxgE8okICv6pdEU,1069
+monkeypatching-0.1.0.dist-info/METADATA,sha256=E71jlS3AUdF6sgYUDhvmusnbpgbkJFgjlgiGtw-Wan4,5441
+monkeypatching-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+monkeypatching-0.1.0.dist-info/top_level.txt,sha256=jkv-B5SrMS0D-dVYrlfdcDXzLmUh-EvtXxbIEUd0eic,15
+monkeypatching-0.1.0.dist-info/RECORD,,
