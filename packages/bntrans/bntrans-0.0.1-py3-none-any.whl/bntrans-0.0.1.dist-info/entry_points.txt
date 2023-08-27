@@ -1,0 +1,2 @@
+[console_scripts]
+bntrans = bntrans.cli:main
