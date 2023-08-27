@@ -1,0 +1,29 @@
+[project]
+name = "samdasoo-content"
+version = "0.3.0"
+description = "Let me tell you about Samdasoo, Korea's representative bottled water."
+authors = [
+    { name = "dmario24", email = "data.mario24@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/dmario24/samdasoo-content"
+"Bug Tracker" = "https://github.com/dmario24/samdasoo-content/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest",
+    "pytest-cov",
+]
