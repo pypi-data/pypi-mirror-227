@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: imgdt
+Version: 0.0.4
+Summary: ImageDatasetTools is a Python library used to setup a dataset of images
+Home-page: https://github.com/MikiTwenty/imgdt
+Author: Michele Ventimiglia
+Author-email: michele.ventimiglia01@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: AUTHORS
+Requires-Dist: Pillow
+
+# imgdt (*Images Dataset Transformer*)
+
+## Tool/Library Pipeline
+
+- **Convert images** from '.png', '.jpeg', '.gif', '.bmp' to '.jpg'.
+- **Ordinal rename images**.
+- Create the conversion history file, useful to avoid reconversion in future operations on the same dataset.
+- **Rescale images** to a user-defined pixels resolution.
+- **Square crop images**.
+
+## [See usage documentation](https://github.com/MikiTwenty/imgdt/blob/main/doc/usage.md)
+
+### Info
+
+![Author](https://img.shields.io/badge/Author-MikiTwenty-blue)
+![Version](https://img.shields.io/badge/version-0.0.4-2EA043)
+![PyLogo](https://img.shields.io/badge/Python-14354C.svg?logo=python&color=376F9F&logoColor=FFDD4E)
