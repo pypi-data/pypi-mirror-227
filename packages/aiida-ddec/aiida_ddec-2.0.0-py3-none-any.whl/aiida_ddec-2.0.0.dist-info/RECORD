@@ -1,0 +1,13 @@
+aiida_ddec/__init__.py,sha256=4FV_tYE2pglwYGuftIMzFBF6xpakA6unc96rAlueWVY,73
+aiida_ddec/calculations/__init__.py,sha256=-SmQaHuzFm3Jx_RDgspQJEXAaydl3E24cuNUZZJ2-W4,7510
+aiida_ddec/parsers/__init__.py,sha256=KP4Y3V_K1t07kdeQVs3IRdNKV3FgmYdfKYQUj8NBcqg,1899
+aiida_ddec/utils/__init__.py,sha256=v9KNC--Nm1_DFTt3bB9avn_ztaDXx1xZTlQ1JYWRCqc,150
+aiida_ddec/utils/workchains.py,sha256=lUFzK34ZJIV5iET58GHZgn3IjUtoNwOyaPRR81v1bmg,2214
+aiida_ddec/utils/xyzparser.py,sha256=GyvdPnALqrQm2WCHNd1vl-PjGXAN_MyYI2qWah_x0FQ,3311
+aiida_ddec/workchains/__init__.py,sha256=TMyvyaRNT_BwbpPHVkdxR3XLVT5m8ZiyH5KP74GR-ag,94
+aiida_ddec/workchains/cp2k_ddec.py,sha256=XGz_3qKXpXSfEzS1VzeIPWf_v2G2F9mkUOadGJ18_tI,4128
+aiida_ddec-2.0.0.dist-info/entry_points.txt,sha256=urCiQ_n1NYXw1ah7ChVmGGP4YDdFNGG20mzu0QvnV4w,193
+aiida_ddec-2.0.0.dist-info/LICENSE,sha256=DfHp3JRuOA9iVn3dk8DoqZhooK8OK0xIbDjoymFX5FE,1080
+aiida_ddec-2.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+aiida_ddec-2.0.0.dist-info/METADATA,sha256=tW-pQJ0ssIfD82smlk8RCkIf09a-_YHIQ9AK2bjs284,7195
+aiida_ddec-2.0.0.dist-info/RECORD,,
