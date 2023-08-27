@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: synodic
+Version: 0.1.1.dev3
+Summary: Company CLI
+Home-page: https://github.com/Synodic-Software/Synodic
+Author-Email: Synodic Software <asher.norland@synodic.software>
+License: MIT
+Project-URL: Homepage, https://github.com/Synodic-Software/Synodic
+Project-URL: Repository, https://github.com/Synodic-Software/Synodic
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# synodic
