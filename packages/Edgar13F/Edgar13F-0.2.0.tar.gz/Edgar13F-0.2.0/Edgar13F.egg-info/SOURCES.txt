@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Edgar13F/__init__.py
+Edgar13F/scraper.py
+Edgar13F.egg-info/PKG-INFO
+Edgar13F.egg-info/SOURCES.txt
+Edgar13F.egg-info/dependency_links.txt
+Edgar13F.egg-info/requires.txt
+Edgar13F.egg-info/top_level.txt
