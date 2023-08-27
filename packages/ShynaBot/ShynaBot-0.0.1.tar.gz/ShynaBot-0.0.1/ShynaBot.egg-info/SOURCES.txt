@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ShynaBot/__init__.py
+ShynaBot/speak_Shyna_bot_handler.py
+ShynaBot/speak_shyna_intro_adapter.py
+ShynaBot.egg-info/PKG-INFO
+ShynaBot.egg-info/SOURCES.txt
+ShynaBot.egg-info/dependency_links.txt
+ShynaBot.egg-info/requires.txt
+ShynaBot.egg-info/top_level.txt

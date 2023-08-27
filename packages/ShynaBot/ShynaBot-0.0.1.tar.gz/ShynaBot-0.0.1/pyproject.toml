@@ -1,0 +1,9 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel",
+    "wget",
+    "chatterbot==1.0.4",
+    "requests",
+]
+build-backend = "setuptools.build_meta"
