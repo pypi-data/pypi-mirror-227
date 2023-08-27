@@ -1,0 +1,34 @@
+version: "3"
+
+
+tasks:
+  example:
+    dir: example
+    env:
+      HATCH_CYTHON_DEVEL: 1
+    cmds:
+      - hatch build --clean
+      # - pip install dist/example-0.0.1-*.whl
+      - hatch run cov
+
+  clean:
+    cmds:
+      - rm -rf dist
+      - rm -rf **/dist
+      - rm -rf .coverag*
+      - rm -rf __pycache__
+      - rm -rf **/__pycache__
+      - rm -f **/*.c
+      - rm -f **/**/*.so
+      - rm -f **/**/*.cpp
+      - rm -f **/*.so
+      - rm -rf .ruff_cache
+      - rm -rf **/.ruff_cache
+      - rm -rf .pytest_cache
+      - rm -rf **/.pytest_cache
+
+  lint:
+    cmds:
+      - black .
+      - isort .
+      - ruff src --fix
