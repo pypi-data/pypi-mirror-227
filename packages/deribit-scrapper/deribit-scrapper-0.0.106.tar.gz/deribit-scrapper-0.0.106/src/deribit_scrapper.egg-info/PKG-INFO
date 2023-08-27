@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: deribit-scrapper
+Version: 0.0.106
+Summary: Deribit Scrapping Interface
+Author: Molozey
+Author-email: molozeyWorking@gmail.com
+Keywords: data-scrapper deribit crypto
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# TODO: make readme
