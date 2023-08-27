@@ -1,0 +1,11 @@
+persidict/__init__.py,sha256=_tTjdl8d2bTbJJZPuK8Td4hR5EeoNx_iPtkIng0XWl4,898
+persidict/file_dir_dict.py,sha256=8tS5nKUHgFITcxW5NwAnZdtINV87ap4PqXN19_uRP_M,9002
+persidict/persi_dict.py,sha256=g9BiEjnfoExXMxJHm3kONt_8iPkhCYqy_imUKDtzimg,7254
+persidict/s3_dict.py,sha256=AXYY3gHeKRxoO4B51Evd1GV1I_t9HmsPp9q1QLJLwoo,9151
+persidict/safe_str_tuple.py,sha256=Tia4O69QIn-htCM_WKQx_SyMNwOhLXrWcDlBRseCC2E,3547
+persidict/safe_str_tuple_signing.py,sha256=OvGyaNOhx_I518nTifz3sRbej-vxtuRWqd4w1aEp8FY,3743
+persidict-0.1.10.dist-info/LICENSE,sha256=oWpRWnm32aM5jVoboapPqgHi-drh1OPeZrrafyE1zTs,1113
+persidict-0.1.10.dist-info/METADATA,sha256=CACzcyZXeUKG6TEm9FYO1fmpNQ9YfAv3vqubDwV3hJE,7831
+persidict-0.1.10.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+persidict-0.1.10.dist-info/top_level.txt,sha256=7Kr8wnF-PGd513PbAORWUpp7Bi09VIZVTQS7ZN-dJXc,10
+persidict-0.1.10.dist-info/RECORD,,
