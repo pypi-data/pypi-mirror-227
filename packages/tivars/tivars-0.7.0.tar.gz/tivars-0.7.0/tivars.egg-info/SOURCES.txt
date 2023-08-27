@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+tivars/__init__.py
+tivars/data.py
+tivars/flags.py
+tivars/var.py
+tivars.egg-info/PKG-INFO
+tivars.egg-info/SOURCES.txt
+tivars.egg-info/dependency_links.txt
+tivars.egg-info/requires.txt
+tivars.egg-info/top_level.txt
