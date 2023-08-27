@@ -1,0 +1,17 @@
+*.pyc
+*.swo
+*.swp
+~*
+*~
+.ropeproj
+.project
+*.egg*
+.DS_Store
+build/
+dist/
+.idea/
+.cache/
+.vscode/
+test-results.xml
+.coverage
+.pytest_cache/

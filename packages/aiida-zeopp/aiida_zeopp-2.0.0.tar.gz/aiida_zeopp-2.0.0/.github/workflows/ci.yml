@@ -1,0 +1,73 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+
+  tests:
+    strategy:
+      matrix:
+        python: ['3.8', '3.9', '3.10', '3.11']
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    continue-on-error: true
+
+    services:
+      postgres:
+        image: postgres:12
+        env:
+          POSTGRES_DB: test
+          POSTGRES_PASSWORD: ''
+          POSTGRES_HOST_AUTH_METHOD: trust
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+      rabbitmq:
+        image: rabbitmq:latest
+        ports:
+          - 5672:5672
+    steps:
+    - uses: actions/checkout@v2
+
+    - uses: conda-incubator/setup-miniconda@v2
+    - name: Install zeo++
+      run: conda install -y -c conda-forge zeopp-lsmo
+    - name: add network binary to PATH
+      run: |
+        ls /usr/share/miniconda/bin
+        echo /usr/share/miniconda/bin >> $GITHUB_PATH
+
+    - name: Set up Python ${{ matrix.python }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: ${{ matrix.python }}
+
+    - name: Install python dependencies
+      run: |
+        pip install -e .[tests]
+
+    - name: Run pytest
+      run: |
+        pytest 
+
+  pre-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Install python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -e .[pre-commit,tests]
+    - name: Run pre-commit
+      run: |
+        pre-commit install
+        pre-commit run --all-files || ( git status --short ; git diff ; exit 1 )
