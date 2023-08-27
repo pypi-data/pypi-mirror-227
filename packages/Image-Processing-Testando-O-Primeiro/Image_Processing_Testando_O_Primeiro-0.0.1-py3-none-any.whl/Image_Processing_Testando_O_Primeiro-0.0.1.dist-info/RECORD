@@ -1,0 +1,17 @@
+Image-Processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Image-Processing/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Image-Processing/processing/combination.py,sha256=EbZ82ZQeHgVjIa9YMTPDT2OEdV-V2urWpivIPb94_mg,799
+Image-Processing/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Image-Processing/utils/io.py,sha256=UeqeKcbDkr9AsGMS-ct68pklAo0GeGchzQw-ENs2iXA,202
+Image-Processing/utils/plot.py,sha256=YfPFNvgX6UpD1-IGQAz3aBbmCZs2XkVcgNvyYZNz-kQ,1008
+Image-Processing-Testando-O-Primeiro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Image-Processing-Testando-O-Primeiro/processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Image-Processing-Testando-O-Primeiro/processing/combination.py,sha256=EbZ82ZQeHgVjIa9YMTPDT2OEdV-V2urWpivIPb94_mg,799
+Image-Processing-Testando-O-Primeiro/processing/transformation.py,sha256=9oeUqqC5yFlbqNl1RAlKkry-iI2wgwhHppOalxP-ZqE,353
+Image-Processing-Testando-O-Primeiro/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Image-Processing-Testando-O-Primeiro/utils/io.py,sha256=UeqeKcbDkr9AsGMS-ct68pklAo0GeGchzQw-ENs2iXA,202
+Image-Processing-Testando-O-Primeiro/utils/plot.py,sha256=YfPFNvgX6UpD1-IGQAz3aBbmCZs2XkVcgNvyYZNz-kQ,1008
+Image_Processing_Testando_O_Primeiro-0.0.1.dist-info/METADATA,sha256=H6Vf7IrWVg_YWzbz5r8Tl-gd6fHgVfxK6E982Yt1swE,1297
+Image_Processing_Testando_O_Primeiro-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Image_Processing_Testando_O_Primeiro-0.0.1.dist-info/top_level.txt,sha256=qWw8RcMzKDzXL4IYss82hndcgIcCy96N9qFZL0ob8kI,37
+Image_Processing_Testando_O_Primeiro-0.0.1.dist-info/RECORD,,
