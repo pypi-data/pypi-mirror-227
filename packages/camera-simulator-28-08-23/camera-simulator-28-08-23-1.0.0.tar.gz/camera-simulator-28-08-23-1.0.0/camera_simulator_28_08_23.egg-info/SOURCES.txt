@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+camera_simulator_28_08_23.egg-info/PKG-INFO
+camera_simulator_28_08_23.egg-info/SOURCES.txt
+camera_simulator_28_08_23.egg-info/dependency_links.txt
+camera_simulator_28_08_23.egg-info/requires.txt
+camera_simulator_28_08_23.egg-info/top_level.txt
