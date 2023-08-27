@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: biopytk
+Version: 0.0.1
+Summary: Personal Toolkit for Bioinformatics and Computational Biology pipelines. (WIP)
+Project-URL: Homepage, https://github.com/Steve-Cheney/biopytk
+Author-email: Stephen Cheney <scheney.cb@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11.1
+Description-Content-Type: text/markdown
+
+Personal Toolkit for Bioinformatics and Computational Biology pipelines. (WIP)
