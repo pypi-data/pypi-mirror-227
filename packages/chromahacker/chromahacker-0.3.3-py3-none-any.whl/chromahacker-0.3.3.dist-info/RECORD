@@ -1,0 +1,15 @@
+chromahacker/.DS_Store,sha256=slY5_9qZtq3x5tia4D8y7yR2S6wU4nklQuZks_N7cFw,6148
+chromahacker/__init__.py,sha256=i-uQzST8gsCxI6MmAiFuUXgewN1EFGINssfF2zJR_sE,91
+chromahacker/apply.py,sha256=DofhKva-nEu6cKJoXJty4Xw6OQm2fjwhZ29S6PityCc,255
+chromahacker/color_input.py,sha256=pNOIQeJ0LSnKis5KZ3N2BEjMNpfgtn2Ktk_PsHtqmUs,6627
+chromahacker/colorschemes/__init__.py,sha256=qykZZaI0-Cco7lYKRNVCZlxAxNZquLdoKh4eO0iJPbc,208
+chromahacker/colorschemes/colorschemes.py,sha256=cbIOsqchDS8LGCbojAYgG7ZEPJEtuB3m53kHAIFSijI,705
+chromahacker/greyscale.py,sha256=U0OilYwH0kGeC9ic4uXsT_jSUt-kse1OkIrGSTTiap0,361
+chromahacker/id_clut.py,sha256=ORT4Se5KHKHOcxLvbU54SzTnnvtrvj8el41xn_SrtQY,481
+chromahacker/palettize.py,sha256=uv1tHa5vNjNxA5hNYJemUPUQcbPGH0btrsAUjm5VE4U,400
+chromahacker/process_image.py,sha256=GeDabg8b3rTkEbfancA4VaPH73iNeldmqyJzXYZJP1c,336
+chromahacker/spline.py,sha256=AC3IpZ1X4NXNAc9hOyetfrSz7K-lHQZgNcrIxt20Izw,1647
+chromahacker-0.3.3.dist-info/METADATA,sha256=GkIRKfd1ThneGlH2xlWDvR5hzCQjTVrcliUnfC1wQDg,516
+chromahacker-0.3.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+chromahacker-0.3.3.dist-info/entry_points.txt,sha256=tKgt3_ZsMPdFmBqGSr28wlURPDxLiiYFzlWpE7JouQ4,128
+chromahacker-0.3.3.dist-info/RECORD,,

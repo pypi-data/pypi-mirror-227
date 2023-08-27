@@ -1,0 +1,5 @@
+[console_scripts]
+colorscheme=chromahacker.colorschemes.colorschemes:run
+identity=chromahacker.id_clut:run
+test=tests.main:run
+
