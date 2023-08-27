@@ -1,0 +1,3 @@
+[console_scripts]
+soma-songs = soma_songs.main:main
+
