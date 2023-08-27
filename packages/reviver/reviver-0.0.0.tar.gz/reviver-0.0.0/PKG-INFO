@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: reviver
+Version: 0.0.0
+Summary: A desktop client for long-form interaction with LLMs
+License: BSD 2 clause
+Author: Mac Prible
+Author-email: prible@gmail.com
+Requires-Python: >=3.10,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PySide6 (>=6.5.2,<7.0.0)
+Requires-Dist: openai (>=0.27.9,<0.28.0)
+Description-Content-Type: text/markdown
+
+# FestivalCobra
+desktop client for long form LLM interaction
+
