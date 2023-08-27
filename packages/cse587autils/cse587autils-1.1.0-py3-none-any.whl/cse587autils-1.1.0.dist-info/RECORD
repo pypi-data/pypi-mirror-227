@@ -1,0 +1,15 @@
+cse587Autils/DiceObjects/BagOfDice.py,sha256=TvNm2HDB65hV686skCNzTE8k6uZW2-xr7cRsvb4gs28,14244
+cse587Autils/DiceObjects/Die.py,sha256=5ILVZnOYB7mroXRLAqSy7AZGWZIrr7aR7QdX-xmyu6k,9387
+cse587Autils/DiceObjects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cse587Autils/DiceObjects/test_BagOfDice.py,sha256=lHIfZLmRZPjfiVKdfhPjxpONVdCClmdohgKg-kYtVUE,5352
+cse587Autils/DiceObjects/test_Die.py,sha256=P_ZwzVJDGdNZu4p4XOZH2_JdhPsX7cSZzZlA6qyHirQ,2065
+cse587Autils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cse587Autils/configure_logging.py,sha256=09GTAQYBRSc8YJbvYNwcvX7GlrVjmdfOedgW9eyBuKM,2616
+cse587Autils/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cse587Autils/utils/check_probability.py,sha256=I_JnTk5aBI6gdNcuglOXMqXODIoSCbKADgswd0SGEkU,1966
+cse587Autils/utils/test_check_probabilities.py,sha256=0F5tiLoXvs8HwTPd4WdYQ06pMbyENxgoJzfIFrJFbeQ,1002
+cse587Autils/utils/type_prob_table.py,sha256=by0w82nZwRDvPQ9xjKPWke_SXNYDyFRzM4x7hJ09LsI,1566
+cse587autils-1.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+cse587autils-1.1.0.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+cse587autils-1.1.0.dist-info/METADATA,sha256=mNQCdOKCJ0jJ6Nr0hG2eOrtlUf84yRj_42yfh82mUys,1931
+cse587autils-1.1.0.dist-info/RECORD,,
