@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pydata_checks.egg-info/PKG-INFO
+pydata_checks.egg-info/SOURCES.txt
+pydata_checks.egg-info/dependency_links.txt
+pydata_checks.egg-info/requires.txt
+pydata_checks.egg-info/top_level.txt
