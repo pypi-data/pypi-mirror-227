@@ -1,0 +1,3 @@
+[console_scripts]
+findme=findme.__main__:app
+

@@ -1,0 +1,10 @@
+findme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+findme/__main__.py,sha256=5zFiXxmokkV7oFGJ5v2YhxeMItqrCX7VcPvMMko7Fxg,6651
+findme/config.py,sha256=6tdQa4ETHfi9TP3S9OgpsiBq-wTYQ0gCT5BDzN06Mfo,3174
+findme/exceptions.py,sha256=8GbglFy0YhlRbe7yuVLC6SXx1GQMcpf7Kjhi_bsw1lo,317
+findme/search.py,sha256=T680U8l7a9ZXa5ZWL4IuEWSfC5K8Hlh3y3tJz30yA8I,1829
+find_patterns-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+find_patterns-0.1.0.dist-info/METADATA,sha256=q44tNjARxm1cdG7imPGkadygPuF2HuTtsfbTZVWvmCM,2499
+find_patterns-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+find_patterns-0.1.0.dist-info/entry_points.txt,sha256=6VqetoMQODeWg6ANyy5En7CtJCtE6hQmn0oWBdViTA8,46
+find_patterns-0.1.0.dist-info/RECORD,,

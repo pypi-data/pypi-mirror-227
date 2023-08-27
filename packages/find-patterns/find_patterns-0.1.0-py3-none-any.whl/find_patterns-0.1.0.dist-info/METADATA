@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: find-patterns
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/mdLafrance/findme
+Author: mdLafrance
+Author-email: maxlafrance97@gmail.com
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: rich-argparse (>=1.3.0,<2.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/mdLafrance/findme
+Description-Content-Type: text/markdown
+
+# findme [![Pipeline](https://github.com/mdLafrance/findme/actions/workflows/pipeline.yml/badge.svg?branch=main)](https://github.com/mdLafrance/findme/actions/workflows/pipeline.yml) [![Coverage](./reports/coverage/coverage-badge.svg)](./reports/coverage/coverage-badge.svg)
+Lightweight python based shell utility for finding files on disk using regex.
+
+
+## Why?
+I found myself having to comb through a filesystem, looking for very specific types of files constantly.  
+It was easy enough to use a good old `find . -regex ...` command, but as the list of these types of files grew, abstracting the pattern management away saved a lot of time.
+
+## Installation
+Use pip to install the python package: `pip install findme`
+
+This will install a shell script `findme` as well as the python package of the same name.
+
+### Usage
+Add a pattern to locate all python files on disk.  
+`findme --add py --pattern "\.py$"`             
+  
+Add a pattern to locate all autodesk maya files (.ma, .mb)  
+`findme --add maya --pattern "\.m\[ab]$"`  
+  
+Add a pattern to locate all c++ template files  
+`findme --add templates --pattern "\.(inl|\[ht]cc|\[ht]pp)$"` 
+  
+Add a pattern to locate all files named "activate"  
+`findme --add activate --pattern "activate$" --files-only `  
+  
+Search for all c++ template files inside the given directory.  
+`findme templates ./project_dir/include`
+  
+Search for maya files and perform other operations with the filepaths.  
+`findme maya | wc -l | ...`                                  
+  
+Remove the alias we previously created for python files.  
+`findme --remove py`                                         
+  
+List all aliases that are assigned.  
+`findme --list`                                             
+
