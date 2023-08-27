@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/import_a.egg-info/PKG-INFO
+src/import_a.egg-info/SOURCES.txt
+src/import_a.egg-info/dependency_links.txt
+src/import_a.egg-info/requires.txt
+src/import_a.egg-info/top_level.txt
+test/test_mllogger.py
+test/test_redis.py

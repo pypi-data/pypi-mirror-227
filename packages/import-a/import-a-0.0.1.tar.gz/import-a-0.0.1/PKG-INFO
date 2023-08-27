@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: import-a
+Version: 0.0.1
+Home-page: https://github.com/loopsocial/important
+License: GPLv3+
+Project-URL: Documentation, https://github.com/loopsocial/important
+Project-URL: Tracker, https://github.com/loopsocial/important/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: redis
+Provides-Extra: kafka
+Provides-Extra: snowflake
+Provides-Extra: all
+License-File: LICENSE
+
+# important
+> 🎁 Import-ANT 🐜 The folder of python functions and classes we can import
+
+[![test](https://github.com/loopsocial/important/actions/workflows/test.yml/badge.svg)](https://github.com/loopsocial/important/actions/workflows/test.yml) [![publish](https://github.com/loopsocial/important/actions/workflows/publish.yml/badge.svg)](https://github.com/loopsocial/important/actions/workflows/publish.yml)
+
+![import ant avatar](import-ant.jpeg)
+
+## 📦 Installation
+
+### Very simple version
+```shell
+pip install import-ant
+```
+
+### With other distributions
+```shell
+pip install import-ant[redis]
+```
+
+or
+
+```shell
+pip install import-ant[kafka,redis]
+```
+
+```shell
+pip install import-ant[kafka,snowflake]
+```
+
+or just get greedy and install everything, with a specified version 🚀🏎💣🔪🔫🔨🧨🧱🧲🧪🧬🧯🧰
+
+```shell
+pip install import-ant[all]==0.0.1
+```
+
+### 🧱 Databricks
+Within Databricks notebooks, we can do:
+```python
+import sys
+sys.path.append("/Workspace/Repos/ray@fireworkhq.com/important/src")
+```
+
+
+## 🔌 Connectors
+### ❄️ Snowflake
+```python
+from important.snowflake import SnowFlakeDatabricks
+sf = SnowFlakeDatabricks.from_config()
+
+# read data into a pandas dataframe
+df = sf("SELECT * FROM some_table")
+```
+### 🍄 Redis
+```python
+from important.redis import Redis, RedisAsync, RedisController
+```
+#### Vanilla Redis
+```python
+# connect to redis
+redis_client = Redis(host="localhost", db=0)
+
+control = RedisController.from_task(redis_client, task="channel_pop")
+
+# save data by key
+control[dict(channel_id=137, user_id=424242)] = "Some string data"
+```
+#### Async Redis
+```python
+redis_client = RedisAsync(host="localhost", db=0)
+
+control = RedisControllerAsync.from_task(
+    redis_client, task="channel_pop")
+
+# save data by key, sadly the await expression doesn't support the [] syntax
+await control.set(dict(channel_id=137, user_id=424242), "Some string data")
+
+# get data by key
+await control[dict(channel_id=137, user_id=424242)]
+```
