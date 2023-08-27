@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: easy-expectations
+Version: 0.1.0
+Summary: A package that simplifies usage of Great Expectations tool for Data Validation.
+Home-page: https://github.com/Elsayed91/easy_expectations
+Keywords: Great Expectations,data quality,data validation,data contracts
+Author: Elsayed91
+Author-email: elsayed.is@outlook.com
+Requires-Python: >=3.9,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: bigquery
+Provides-Extra: datahub
+Provides-Extra: gcp
+Provides-Extra: openai
+Provides-Extra: openlineage
+Provides-Extra: s3
+Requires-Dist: acryl-datahub (>=0.10.5.5,<0.11.0.0) ; extra == "datahub"
+Requires-Dist: boto3 (>=1.28.15,<2.0.0) ; extra == "s3"
+Requires-Dist: cerberus (>=1.3.5,<2.0.0)
+Requires-Dist: gcsfs (>=2023.6.0,<2024.0.0) ; extra == "gcp"
+Requires-Dist: google-cloud-bigquery-storage (>=2.22.0,<3.0.0) ; extra == "bigquery"
+Requires-Dist: google-cloud-secret-manager (>=2.16.2,<3.0.0) ; extra == "gcp"
+Requires-Dist: google-cloud-storage (>=2.10.0,<3.0.0) ; extra == "gcp"
+Requires-Dist: great_expectations (>=0.17.7,<0.18.0)
+Requires-Dist: openai (>=0.27.8,<0.28.0) ; extra == "openai"
+Requires-Dist: openlineage-integration-common (>=1.0.0,<2.0.0) ; extra == "openlineage"
+Requires-Dist: pyarrow (>=12.0.1,<13.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: sqlalchemy-bigquery (>=1.8.0,<2.0.0) ; extra == "bigquery"
+Project-URL: Repository, https://github.com/Elsayed91/easy_expectations
+Description-Content-Type: text/markdown
+
+
+
+A package that simplifies data validation in your pipeline by abstracting the complexity
+of Great Expectations away, in addition to using AI to profile and generate tests for your data.
+
+
+For more information and detailed instructions, check out the [GitHub
+repository](https://github.com/Elsayed91/easy_expectations).
+
