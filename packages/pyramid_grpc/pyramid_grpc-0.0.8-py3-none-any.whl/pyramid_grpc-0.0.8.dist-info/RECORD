@@ -1,0 +1,11 @@
+pyramid_grpc/__init__.py,sha256=Zg7A2KCO717wiy74on8cRjY77wvPFyFe2rwTaGDOeRI,2818
+pyramid_grpc/decorators.py,sha256=SgNXnhEdSgSroJNT2s_ZSZ62Zp04EOStRqtGs8YdK_E,1063
+pyramid_grpc/interseptors/__init__.py,sha256=jA9tdr3L8OBvYsXtSc-A7vyReXpTOijRui6QdjLbFo0,92
+pyramid_grpc/interseptors/request.py,sha256=HmG2FaFoxVBa4-agVgH-RCwjUDsYURPvCkIRvu_ACPI,1167
+pyramid_grpc/interseptors/transaction.py,sha256=UNxMvHz71_HW7y6nh2wA86ybvxrpYyVfOaDr8lXPVfM,892
+pyramid_grpc/main.py,sha256=hg-IK2rcvzxualqUcXofNClldqJhnbyzZDiXUmj4qJ4,719
+pyramid_grpc-0.0.8.dist-info/LICENSE,sha256=XbUKTZPsplV7Qeco49wjShvW2zXh0MWeA-f_BqTepwU,1070
+pyramid_grpc-0.0.8.dist-info/METADATA,sha256=T0gOAnfomO3hzD58jSK3kiVn6nBy0sXJoXk_fzD1tq4,3381
+pyramid_grpc-0.0.8.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pyramid_grpc-0.0.8.dist-info/entry_points.txt,sha256=Mhi5qfGmuxFkoFqtaR7R6TXtQgSifgSk2orpOks1g_Q,55
+pyramid_grpc-0.0.8.dist-info/RECORD,,
