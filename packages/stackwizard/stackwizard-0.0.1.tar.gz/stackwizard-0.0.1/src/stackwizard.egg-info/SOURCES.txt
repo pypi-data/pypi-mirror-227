@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/stackbot/__init__.py
+src/stackbot/main.py
+src/stackwizard.egg-info/PKG-INFO
+src/stackwizard.egg-info/SOURCES.txt
+src/stackwizard.egg-info/dependency_links.txt
+src/stackwizard.egg-info/requires.txt
+src/stackwizard.egg-info/top_level.txt
