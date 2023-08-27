@@ -1,0 +1,15 @@
+mpv_history_daemon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpv_history_daemon/__main__.py,sha256=XR7rJjx19Fxaa07yGQlw1Lj2uwK8L6xRPU9Y57opY1A,4653
+mpv_history_daemon/daemon.py,sha256=hfCr38k065LyT1Q6W1MfhShKsecLxA491fpF6jT7-KQ,18340
+mpv_history_daemon/events.py,sha256=siZv70fW4sAxytrDkQyShazGiIhMbAoL_vupbStEa9U,19970
+mpv_history_daemon/merge.py,sha256=POoYS_PqrgDyDItkx_SoONDdmGa8JrAsiSfbV5ndyIk,1687
+mpv_history_daemon/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpv_history_daemon/serialize.py,sha256=lrVrx3trOqPYAiEYdRNEW6WchiJFNDaiF2in-uX_d0w,704
+mpv_history_daemon/utils.py,sha256=Gxad0LSr4RCpo_xNn2D3bDTP4RvRuIDDLZ5p7QW_PyI,5802
+mpv_history_daemon-0.2.3.data/scripts/mpv_history_daemon_restart,sha256=0WW-CsGB7OWED4kFubCXGzvMbqdl38yrcpaN2uVWnNA,1268
+mpv_history_daemon-0.2.3.dist-info/LICENSE,sha256=yVuuHRzgI17MzTVgt3LsHvuX80innw--CmNPDCzO_iw,11358
+mpv_history_daemon-0.2.3.dist-info/METADATA,sha256=6ZAVJ0AVbu6VAvJdupZM-uh4a4EMJit3ugV-wCpDdPI,8180
+mpv_history_daemon-0.2.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mpv_history_daemon-0.2.3.dist-info/entry_points.txt,sha256=5Xd1F3OfuK8ODuAy8hgjhbg6TT3b0BL-6KaNf5k-TsE,71
+mpv_history_daemon-0.2.3.dist-info/top_level.txt,sha256=Tlv5C_BdDOw4qtpIT7lNl0VdSPwd6c5lRB-jrm4Cjl4,19
+mpv_history_daemon-0.2.3.dist-info/RECORD,,
