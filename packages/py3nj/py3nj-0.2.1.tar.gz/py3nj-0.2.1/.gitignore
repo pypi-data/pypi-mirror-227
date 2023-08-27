@@ -1,0 +1,27 @@
+# caches
+__pycache__
+.cache
+.benchmarks
+.pytest_cache
+
+# install
+py3nj.egg-info
+
+# executeable file
+*.o
+*.o.d
+*.so
+
+# build directory
+build
+dist
+
+# docs
+doc/_build
+doc/generated
+
+# editors
+*code-workspace
+
+# pypirc
+.pypirc
