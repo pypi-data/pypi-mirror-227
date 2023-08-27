@@ -1,0 +1,3 @@
+[console_scripts]
+easy_expectations=easy_expectations.cli.cli:cli
+
