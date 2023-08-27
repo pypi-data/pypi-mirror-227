@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+hurllm/__init__.py
+hurllm/core.py
+hurllm/hurllm.py
+hurllm/yolov8m.pt
+hurllm.egg-info/PKG-INFO
+hurllm.egg-info/SOURCES.txt
+hurllm.egg-info/dependency_links.txt
+hurllm.egg-info/requires.txt
+hurllm.egg-info/top_level.txt
