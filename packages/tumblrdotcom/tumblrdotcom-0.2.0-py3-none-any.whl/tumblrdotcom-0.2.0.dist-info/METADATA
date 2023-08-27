@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: tumblrdotcom
+Version: 0.2.0
+Summary: Nyaa!! OwO what's this? *glomps you*
+License: MIT License
+Project-URL: repository, https://github.com/James-Ansley/tumblr-dot-com
+Keywords: Tumblr,API
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+Requires-Dist: requests-oauthlib >=1.3.1
+
+# Tumblr-Dot-Com
+
+> OwO What's this?! Nyaa!!1
+
+An unofficial Tumblr API client. Includes support for polls.
+
+## Install
+
+```
+pip install tumblrdotcom
+```
+
+## Usage
+
+### Example
+
+```python
+import os
+from datetime import timedelta
+from pprint import pprint
+
+from tumblr import *
+
+tumblr = Tumblr(
+    blog="pizza",  # or 'pizza.tumblr.com'
+    client_key=os.getenv("CONSUMER_KEY"),
+    client_secret=os.getenv("CONSUMER_SECRET"),
+    oauth_key=os.getenv("OAUTH_TOKEN"),
+    oauth_secret=os.getenv("OAUTH_SECRET"),
+)
+
+response = tumblr.post(
+    content=(
+        Heading("Hello, World!"),
+        Text("Oh boy! Isn't it great to have a tumblr!"),
+        Row(
+            Image(
+                "clown_left.jpg",
+                "image/jpeg",
+                "A photo clown holding their right thumb up towards the camera"
+            ),
+            Image(
+                "clown_right.jpg",
+                "image/jpeg",
+                "A photo clown holding their left thumb up towards the camera"
+            ),
+        ),
+        Poll(
+            "Don't you think so?",
+            ["Yes", "No"],
+            expire_after=timedelta(days=1),
+        ),
+    ),
+    tags=["pizza", "I can't even remember why they were deleted"],
+)
+
+pprint(response)
+```
