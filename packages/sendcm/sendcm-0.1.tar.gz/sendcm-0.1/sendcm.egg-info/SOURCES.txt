@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sendcm/__init__.py
+sendcm/sendcm.py
+sendcm.egg-info/PKG-INFO
+sendcm.egg-info/SOURCES.txt
+sendcm.egg-info/dependency_links.txt
+sendcm.egg-info/requires.txt
+sendcm.egg-info/top_level.txt
