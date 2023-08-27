@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+fastapi_middleware_logger.egg-info/PKG-INFO
+fastapi_middleware_logger.egg-info/SOURCES.txt
+fastapi_middleware_logger.egg-info/dependency_links.txt
+fastapi_middleware_logger.egg-info/requires.txt
+fastapi_middleware_logger.egg-info/top_level.txt
