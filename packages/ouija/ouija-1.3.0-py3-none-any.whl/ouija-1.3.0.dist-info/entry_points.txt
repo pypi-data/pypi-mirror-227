@@ -1,0 +1,3 @@
+[console_scripts]
+ouija = ouija.server:main
+ouija_secret = ouija.secret:main
