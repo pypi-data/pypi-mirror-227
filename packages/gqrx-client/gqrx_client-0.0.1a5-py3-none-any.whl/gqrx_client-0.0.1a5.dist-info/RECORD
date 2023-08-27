@@ -1,0 +1,10 @@
+gqrx_client/__init__.py,sha256=3xmvRHEfosVX5yU3P7E1TGV4Uvn1p6NCFrYVY4uxgpI,142
+gqrx_client/__version__.py,sha256=jg5Tgn4tkuEyrwOx_nKuTFYxqcTwoWU9ma_Lb6qKomA,31
+gqrx_client/client.py,sha256=ojFuS9PpzhWI9bb_v-6ZZ7G94FPXCTCQNCIvQZ7kjwc,8349
+gqrx_client/transport/__init__.py,sha256=HsQsaJV2L2C8KSJSM-ANrCVg5h5hToZOl0OGuXi0lTo,63
+gqrx_client/transport/tcp.py,sha256=2o7sI5Fnj2RGRWynWpGCHoTbgqkGIYs_8HKS5excDPU,1525
+gqrx_client/transport/transport.py,sha256=LXVaNlLYP4y5053G0zYlY8gjwg1L8J-FLAWdgNW0vCM,318
+gqrx_client-0.0.1a5.dist-info/METADATA,sha256=kRbrgwy7oWipKbtFHFK2jRo9WpNb38X3A3xI52hLhMY,1131
+gqrx_client-0.0.1a5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gqrx_client-0.0.1a5.dist-info/licenses/LICENSE,sha256=sw9CjRTPLw4ETmpve7puJPTHOkDjTdZk5YUY-1JqcFc,1096
+gqrx_client-0.0.1a5.dist-info/RECORD,,
