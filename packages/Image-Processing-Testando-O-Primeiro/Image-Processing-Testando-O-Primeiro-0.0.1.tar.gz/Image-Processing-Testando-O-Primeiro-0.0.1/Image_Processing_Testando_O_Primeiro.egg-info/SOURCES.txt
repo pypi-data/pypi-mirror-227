@@ -1,0 +1,13 @@
+README.md
+setup.py
+Image-Processing-Testando-O-Primeiro/__init__.py
+Image-Processing-Testando-O-Primeiro/processing/__init__.py
+Image-Processing-Testando-O-Primeiro/processing/combination.py
+Image-Processing-Testando-O-Primeiro/processing/transformation.py
+Image-Processing-Testando-O-Primeiro/utils/__init__.py
+Image-Processing-Testando-O-Primeiro/utils/io.py
+Image-Processing-Testando-O-Primeiro/utils/plot.py
+Image_Processing_Testando_O_Primeiro.egg-info/PKG-INFO
+Image_Processing_Testando_O_Primeiro.egg-info/SOURCES.txt
+Image_Processing_Testando_O_Primeiro.egg-info/dependency_links.txt
+Image_Processing_Testando_O_Primeiro.egg-info/top_level.txt
