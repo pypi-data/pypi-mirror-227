@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+robotraconteur_service_browser_gui/RRIcon.bmp
+robotraconteur_service_browser_gui/__init__.py
+robotraconteur_service_browser_gui/__main__.py
+robotraconteur_service_browser_gui/robotraconteur_service_browser_gui.py
+robotraconteur_service_browser_gui.egg-info/PKG-INFO
+robotraconteur_service_browser_gui.egg-info/SOURCES.txt
+robotraconteur_service_browser_gui.egg-info/dependency_links.txt
+robotraconteur_service_browser_gui.egg-info/entry_points.txt
+robotraconteur_service_browser_gui.egg-info/requires.txt
+robotraconteur_service_browser_gui.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+robotraconteur
+robotraconteurcompanion
+PySide6
+importlib-resources

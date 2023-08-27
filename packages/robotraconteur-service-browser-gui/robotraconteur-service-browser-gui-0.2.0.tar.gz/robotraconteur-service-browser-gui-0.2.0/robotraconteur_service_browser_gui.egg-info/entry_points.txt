@@ -1,0 +1,2 @@
+[console_scripts]
+robotraconteur-service-browser-gui = robotraconteur_service_browser_gui.robotraconteur_service_browser_gui:main
