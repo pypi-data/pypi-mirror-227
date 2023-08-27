@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: KUB
+Version: 0.0.2
+Summary: Knoxville Utility Board utilities usage
+Project-URL: Homepage, https://github.com/JackJPowell/KUB
+Project-URL: Bug Tracker, https://github.com/JackJPowell/KUB/issues
+Author-email: Jack Powell <jackjpowell@gmail.com>
+License-File: LICENSE
+Keywords: KUB,electicity,gas,knoxville,utilities,water
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# KUB
+Knoxville Utility Board Utilities Usage
