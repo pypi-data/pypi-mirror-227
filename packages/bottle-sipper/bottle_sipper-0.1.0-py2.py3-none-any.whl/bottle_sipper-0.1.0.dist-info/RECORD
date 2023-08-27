@@ -1,0 +1,10 @@
+sipper_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sipper_core/auth.py,sha256=T-7p152WZmuVwp-0jy2jlb29v0xQ00U2qT5YUCtqptI,1791
+sipper_core/common.py,sha256=nRqutyuWcrBO9NpZfCRRSFKKdNYKtB8OJPu44XUonN0,1020
+sipper_core/constants.py,sha256=9XGpTR1qfNcayebsUHfykEbMzvbTY04vSZSdL3UrWLo,1768
+sipper_core/html.py,sha256=Supi8F-9s6UOKT2YvSEuGVgfuv6PdnzkvttQRmBLwqU,1719
+static/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bottle_sipper-0.1.0.dist-info/METADATA,sha256=6IDVJAXZQWn56T8cuYyt_qyKAkk0rnpR3mn0XxsWf8c,1088
+bottle_sipper-0.1.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+bottle_sipper-0.1.0.dist-info/top_level.txt,sha256=ImZ3f5bsr-X7LNJypmMECnHU4GXArYi6XpUzqZBQ75E,19
+bottle_sipper-0.1.0.dist-info/RECORD,,
