@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: orbit-component-buttonlegal
+Version: 1.0.21
+Summary: A legal button for Orbit
+License: MIT
+Author: Gareth Bult
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: orbit-component-base (>=1.0.0)
+Requires-Dist: orbit-database (>=1.0.0)
+Description-Content-Type: text/markdown
+
+# orbit-component-buttonlegal
+This is the default project readme file.
