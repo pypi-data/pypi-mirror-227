@@ -1,0 +1,17 @@
+biopython
+boto3
+matplotlib
+pandas
+pyahocorasick
+pybedtools
+pyfaidx
+python-decouple
+scikit-learn>=0.22.2
+scipy
+seaborn
+sentencepiece
+seqeval
+statsmodels
+tensorboard
+tensorboardX
+transformers

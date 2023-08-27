@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+functions/UTRBERT.egg-info/PKG-INFO
+functions/UTRBERT.egg-info/SOURCES.txt
+functions/UTRBERT.egg-info/dependency_links.txt
+functions/UTRBERT.egg-info/requires.txt
+functions/UTRBERT.egg-info/top_level.txt
+utrbert/UTRBERT.egg-info/PKG-INFO
+utrbert/UTRBERT.egg-info/SOURCES.txt
+utrbert/UTRBERT.egg-info/dependency_links.txt
+utrbert/UTRBERT.egg-info/requires.txt
+utrbert/UTRBERT.egg-info/top_level.txt
