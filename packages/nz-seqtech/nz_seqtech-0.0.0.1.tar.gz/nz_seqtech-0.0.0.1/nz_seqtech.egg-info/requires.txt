@@ -1,0 +1,6 @@
+wheel
+numpy
+pandas
+scikit-learn
+qiskit
+matplotlib
