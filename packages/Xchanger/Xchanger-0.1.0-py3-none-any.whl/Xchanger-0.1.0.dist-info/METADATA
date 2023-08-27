@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Xchanger
+Version: 0.1.0
+Summary: A Python module to get and save exchange rates in different formats
+Home-page: 
+Author: Maaz Ali
+Author-email: devlprkhan04@gmail.com
+Keywords: real-time exchange rates
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: requests-cache
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: termcolor
+
