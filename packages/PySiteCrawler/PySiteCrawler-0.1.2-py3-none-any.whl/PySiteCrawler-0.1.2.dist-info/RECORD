@@ -1,0 +1,8 @@
+PySiteCrawler/__init__.py,sha256=HacK_NL09Xb-zrgscQe2xdYwgHxiJiiN2XerZevcDVw,128
+PySiteCrawler/utils.py,sha256=AEBuWbBA5YNj-0P-GLX2ZjD2I4WFgaVG7TADJjMHl4Y,3536
+PySiteCrawler/crawler/bfs_web_crawler.py,sha256=-2ahUdMLu5tmudsFqXukMZ50MnK9tLRHUUe15H4O__I,2108
+PySiteCrawler/crawler/dfs_web_crawler.py,sha256=6tSTD08yfKmQJ-iwDzqjm7wMX_SGpLhVRXIKf7oGCEI,2085
+PySiteCrawler-0.1.2.dist-info/METADATA,sha256=6Z4fNiH06s4BX3Wc0DkkZErKcus-FRHL7dHyGtLdr3w,4893
+PySiteCrawler-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+PySiteCrawler-0.1.2.dist-info/top_level.txt,sha256=v5uEP-iMR4oRaSYMxKEO4FITG28K7DWLbAMTu4vCK2A,14
+PySiteCrawler-0.1.2.dist-info/RECORD,,
