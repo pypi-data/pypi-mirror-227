@@ -1,0 +1,142 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "toml", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tsml-eval"
+version = "0.1.0"
+description = "A package for benchmarking time series machine learning tools."
+authors = [
+    {name = "Matthew Middlehurst", email = "m.middlehurst@uea.ac.uk"},
+    {name = "Tony Bagnall", email = "ajb@uea.ac.uk"},
+]
+readme = "README.md"
+requires-python = ">=3.8,<3.12"
+keywords = [
+    "data-science",
+    "machine-learning",
+    "time-series",
+    "time-series-classification",
+    "time-series-regression",
+    "time-series-clustering",
+    "evaluation",
+    "benchmarking",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Operating System :: MacOS",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "aeon>=0.3.0,<0.4.0",
+    "scikit-learn>=1.0.2,<=1.2.2",
+    "tsml>=0.2.0,<0.3.0",
+    "gpustat",
+    "psutil",
+]
+
+[project.optional-dependencies]
+all_extras = [
+    "aeon[all_extras,dl]",
+    "tsml[extras]",
+    "xgboost<=1.7.5",
+    "convst>=0.3.0,<=0.4.0; python_version < '3.11'",
+    "torch>=1.13.1",
+]
+unstable_extras = [
+    "aeon[unstable_extras]",
+    "tsml[unstable_extras]",
+]
+deep_learning = [
+    "aeon[dl]",
+    "torch>=1.13.1",
+]
+dev = [
+    "pre-commit",
+    "pytest",
+    "pytest-randomly",
+    "pytest-timeout",
+    "pytest-xdist",
+    "pytest-cov",
+]
+binder = [
+    "notebook",
+    "jupyterlab",
+]
+docs = [
+    "sphinx",
+    "sphinx-design",
+    "nbsphinx",
+    "numpydoc",
+    "jupyter",
+    "furo",
+    "sphinx_issues",
+    "myst-parser",
+    "sphinx-copybutton",
+]
+
+[project.urls]
+homepage = "https://www.timeseriesclassification.com/"
+repository = "https://github.com/time-series-machine-learning/tsml-eval/"
+
+[project.license]
+file = "LICENSE"
+
+[tool.setuptools.packages.find]
+include = ["tsml_eval"]
+
+[tool.check-manifest]
+ignore = [
+    # Ignore virtual environments in local builds
+    "venv/**",
+    # Ignore local files
+    "local/**",
+    # Ignore the publications symlinks and its contents
+    "tsml_eval/publications/2023",
+    "tsml_eval/publications/2023/**",
+    # Ignore the docs symlinks and its contents
+    "docs/examples",
+    "docs/examples/**",
+    "docs/publications",
+    "docs/publications/**",
+]
+
+[tool.flake8]
+exclude = [
+    "tsml_eval/_wip/*",
+    "examples/_wip/*",
+]
+per-file-ignores = [
+    "tsml_eval/experiments/classification_experiments.py:E402,T201",
+    "tsml_eval/experiments/threaded_classification_experiments.py:T201",
+    "tsml_eval/experiments/regression_experiments.py:E402,T201",
+    "tsml_eval/experiments/threaded_regression_experiments.py:T201",
+    "tsml_eval/experiments/clustering_experiments.py:E402,T201",
+    "tsml_eval/experiments/threaded_clustering_experiments.py:T201",
+    "tsml_eval/publications/*:E402,T201",
+]
+
+[tool.nbqa.exclude]
+black = "examples/_wip/"
+flake8 = "examples/_wip/"
+isort = "examples/_wip/"
+
+[tool.pytest.ini_options]
+testpaths = "tsml_eval"
+addopts = '''
+    --ignore tsml_eval/_wip
+    --durations 20
+    --timeout 600
+    --showlocals
+    --doctest-modules
+    --numprocesses auto
+'''
