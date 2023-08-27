@@ -1,0 +1,15 @@
+mypackage/__init__.py,sha256=nE8jJjGJaKuJKCyuf6QLfrj8xPj8IqGKeH2VXP3FMzY,21
+mypackage/__version__.py,sha256=CxbhzH4KoEIh_I9KyHW9TTF0p75j8NvEm1Whi8_TaXE,68
+mypackage/core.py,sha256=adccv2P91ALUA3qIiZI5GaEHy2C1kb7Jj6lqc8iUHwg,68
+rslearn/__init__.py,sha256=WZcGdtPfM07Bg1czipEifqGoXDdq1W2spDBm_-r9OsY,118
+rslearn/__version__.py,sha256=-5Zbb4qso9fab5-N-Gt_qrsNcWemdj4-lZA5QjiieU4,68
+rslearn/_typing.py,sha256=I2d8zO9-giGQHuzZLIiJs5hKQcqoL0ZvOiKSgkNS_68,747
+rslearn/core.py,sha256=adccv2P91ALUA3qIiZI5GaEHy2C1kb7Jj6lqc8iUHwg,68
+rslearn/example.py,sha256=adccv2P91ALUA3qIiZI5GaEHy2C1kb7Jj6lqc8iUHwg,68
+rslearn/preprocessing.py,sha256=ORRN8h_9scCM22-NycDwoNY2dUEuzx2dWRkgDN75U_s,808
+rslearn/utils.py,sha256=dpK1gu9-lQMnwikLHMaQgGIUvQLSdc3ihcrnlRCIDu4,455
+remotesense_learn-0.0.2.dist-info/LICENSE,sha256=h_ILtVkPy-m6jIhAyLYqcC0PGkP3EAIPcUqzPL1oiCY,1067
+remotesense_learn-0.0.2.dist-info/METADATA,sha256=Lv9iozPcodx_gxtrIUskAaBg4DApZMtcW632hYeVQTk,706
+remotesense_learn-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+remotesense_learn-0.0.2.dist-info/top_level.txt,sha256=XDKo90WBH8P9RQumHxo0giLJsoufT4r9odv-WE6Ahk4,8
+remotesense_learn-0.0.2.dist-info/RECORD,,
