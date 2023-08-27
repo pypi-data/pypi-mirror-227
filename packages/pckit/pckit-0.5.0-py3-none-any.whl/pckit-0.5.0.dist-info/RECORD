@@ -1,0 +1,17 @@
+LICENSE,sha256=YQIDrKRHpFgmX3_Dy-F1dK_mTcVQo861ieJzp0_xIOo,1066
+pckit/__init__.py,sha256=CJIO4Zlu9oofFv7SaRZ8P1PoOJmXdsR4eFWrWx2zhGg,412
+pckit/_mpi_check.py,sha256=qFnreweoFj2y9DiAgdMY7khQwpSyzNFexD0Qrx0O7Tc,310
+pckit/_typevars.py,sha256=Zl4C2_c1SzJF3TCx780qnpo0Jk8fdmMDvU5ImE8K8yM,109
+pckit/cache.py,sha256=kJN_qf-6jRvSGWMPhk74JZAKdWurpDzHLK5ayftB5HQ,1625
+pckit/comsol/__init__.py,sha256=OEfCNSnm4Va1YCbQvkaF618N5ND-Vt15H0V6rLpHf74,110
+pckit/comsol/model.py,sha256=GQHQsUx3Q2Rk4vzdflzd3uxjWcQXIzGPdQ9DigQU1iE,5900
+pckit/comsol/worker.py,sha256=ivV0O4cKMuaJvWrD_TuOUNVQECNPro86sAU9w97U8U4,2005
+pckit/logging_utils.py,sha256=ai7HPDFNGjkkwGFFA9JP6J76IJctOon3c3iI-upEnS8,2893
+pckit/models.py,sha256=5UsDvkJJrUbPWwkTPfUtskL2-b40WY5hB74UrsE_Fmk,420
+pckit/solvers.py,sha256=yzZAxVV-yrMZ0dUbz_JgvUQMLIfXW0yi6y8rLzJABr0,11955
+pckit/task.py,sha256=G31Fv77ULGS49Y6XVIAuETrNdvVon_g_fiV27aJENI8,593
+pckit/workers.py,sha256=Rdd9E19Y6C0wtn_Vh8CUrR9o0Nt4LB1skqKHcb7aMYA,4468
+pckit-0.5.0.dist-info/LICENSE,sha256=YQIDrKRHpFgmX3_Dy-F1dK_mTcVQo861ieJzp0_xIOo,1066
+pckit-0.5.0.dist-info/METADATA,sha256=GcIwRZryYEgcV9D9IikgYXeQd-Qv39ciRPrb98jOl5s,3404
+pckit-0.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pckit-0.5.0.dist-info/RECORD,,
