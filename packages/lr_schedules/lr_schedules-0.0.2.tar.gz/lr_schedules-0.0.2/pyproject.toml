@@ -1,0 +1,61 @@
+[tool.poetry]
+name = "lr_schedules"
+version = "0.0.2"
+description = "Learning rate schedulers, for libraries like PyTorch"
+authors = ["sradc <sidneyradcliffe@sky.com>"]
+readme = "README.md"
+packages = [{include = "lr_schedules"}]
+license = "Apache-2.0"
+include = [
+    "LICENSE",
+    "README.md",
+]
+homepage = "https://github.com/sradc/lr_schedules"
+repository = "https://github.com/sradc/lr_schedules"
+
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+
+
+[tool.poetry.group.dev.dependencies]
+matplotlib = "^3.7.2"
+black = {extras = ["jupyter"], version = "^23.7.0"}
+isort = "^5.12.0"
+autoflake = "^2.2.0"
+ipykernel = "^6.25.1"
+numpy = "^1.25.2"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pre-commit = "^3.3.3"
+python-semantic-release = "^8.0.7"
+
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+torch = [
+  {url = "https://download.pytorch.org/whl/cpu/torch-2.0.1%2Bcpu-cp39-cp39-linux_x86_64.whl", markers = "sys_platform == 'linux'"},
+  {url = "https://download.pytorch.org/whl/cpu/torch-2.0.1-cp39-none-macosx_11_0_arm64.whl", markers = "sys_platform == 'darwin'"},
+]
+matplotlib = "^3.7.2"
+nbconvert = "^7.7.4"
+
+
+[tool.poetry.group.release]
+optional = true
+
+[tool.poetry.group.release.dependencies]
+python-semantic-release = "^8.0.7"
+
+
+[tool.semantic_release]
+version_toml = [
+    "pyproject.toml:tool.poetry.version",
+]
+build_command = "poetry build"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
