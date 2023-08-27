@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+gen_qr_with_img.egg-info/PKG-INFO
+gen_qr_with_img.egg-info/SOURCES.txt
+gen_qr_with_img.egg-info/dependency_links.txt
+gen_qr_with_img.egg-info/top_level.txt

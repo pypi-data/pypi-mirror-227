@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gen-qr-with-img
+Version: 1.0
+License-File: LICENSE
+
+## Генерация QR Code по картинке
+
+### Установка зависимостей
+     pip install -r requirements.txt
+
+ 
+## Пример работы
+    
+    python example.py
