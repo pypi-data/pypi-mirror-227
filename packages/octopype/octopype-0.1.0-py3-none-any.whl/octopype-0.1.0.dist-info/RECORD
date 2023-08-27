@@ -1,0 +1,15 @@
+octopype/__init__.py,sha256=zLr4eQJn6mgIwWxVrNlkDetTBqTTEOUTOqQYd-TY4IU,402
+octopype/account/__init__.py,sha256=E0Qhd_dbtZMDYz7Jkhfxz27yoCI9AgCSGmqDg_AnXB0,295
+octopype/account/getInfo.py,sha256=FCwLIF4ny1T1lh71FjkIvt2fOOIivi2_b82l3yyCjUU,2535
+octopype/account/status_checker.py,sha256=PcUWbD-JfEGJ2GyFEK_NuwuUYVrMe1oWsX9E4BzNqmM,484
+octopype/account/update.py,sha256=wFewgO1nD_n16f5s5O0kYl6Jm5qE_V_N1z6E2Vxy6mw,3643
+octopype/errors/account.py,sha256=HeiaUZ2EoekVsG9Sy113DBF9CmuDwq_t2cb3Q6hW2aY,117
+octopype/errors/general.py,sha256=qBP--QKw9JgM9yCrszKtQBl1Rww8Rd611La3W3cNQ-Y,88
+octopype/errors/repos.py,sha256=C-_vCRHdBP-PEaQNkPuqrOKCeLyWN7-ra4rnbM3n41s,72
+octopype/repos/__init__.py,sha256=XmA9d4gBFHNU7j4CATquxt2HbiXn6F16RYMYDvaJCx8,564
+octopype/repos/getrepo.py,sha256=ZK4MhYToWbjY9urgfi3vkTOLX-ucye7eLXvUwAJW0zM,5216
+octopype-0.1.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+octopype-0.1.0.dist-info/METADATA,sha256=ggopWNIhLNIr4Pxv5-Qfz9phKVE5F8VoUnn_MrbcZ9c,2357
+octopype-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+octopype-0.1.0.dist-info/top_level.txt,sha256=Bd43KZKXYwOfAOvmYYN0sI5rLsU_FXBRd3aXKqVp92U,9
+octopype-0.1.0.dist-info/RECORD,,
