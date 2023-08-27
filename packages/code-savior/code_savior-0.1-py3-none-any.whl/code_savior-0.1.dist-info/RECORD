@@ -1,0 +1,15 @@
+code_savior/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_savior/ai_model.py,sha256=5OBc-9ceqNTEya4ZKiy0UrlxO0y3VwVWzRwvWvHkrZs,4780
+code_savior/config.py,sha256=3zKrUD2khurkGEOk5mtLCI-QOTBSLFjT8uPgDCp08_k,3928
+code_savior/interface.py,sha256=gmpGpblJCUUwx4morg-oKpLSVaS0R12uOD4tfiYTwC0,2964
+code_savior/main.py,sha256=4JYn4Dq1Pl5w3oV9IZ7ELTA-qXpuNRdqMB471obq80c,1511
+code_savior/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_savior/utils/doc_utils.py,sha256=-BTcX5wnqpFkfGMQKyoC6b1BiUWZr7XZFhPTlRY_174,1334
+code_savior/utils/git_utils.py,sha256=Z89kMOKlHntlC5AN-o-sQLQj0w3Jq4Fs1zughBV6ygE,9113
+code_savior/utils/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_savior-0.1.dist-info/LICENSE,sha256=WR_JviXse2AToGxk6dSozeK7S52BUc_pusoaWigbP04,1063
+code_savior-0.1.dist-info/METADATA,sha256=G18Y8jwRrmZ3G9xNREeu-9t4St5fF2p89GHGPeW0Jtw,2135
+code_savior-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+code_savior-0.1.dist-info/entry_points.txt,sha256=f4fLDdPzCXb0Vv2bXxSL28bCUt4OXdV73t_c_NOjzXM,54
+code_savior-0.1.dist-info/top_level.txt,sha256=1aOkNhuhzVwaIpgiECDYOLVSEwNNDlwgY1jRyIPutfE,12
+code_savior-0.1.dist-info/RECORD,,
