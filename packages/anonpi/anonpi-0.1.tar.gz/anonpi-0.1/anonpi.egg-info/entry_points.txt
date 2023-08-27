@@ -1,0 +1,2 @@
+[console_scripts]
+myprojectname = anonpi.main:main

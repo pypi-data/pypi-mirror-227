@@ -1,0 +1,6 @@
+setup.py
+anonpi.egg-info/PKG-INFO
+anonpi.egg-info/SOURCES.txt
+anonpi.egg-info/dependency_links.txt
+anonpi.egg-info/entry_points.txt
+anonpi.egg-info/top_level.txt
