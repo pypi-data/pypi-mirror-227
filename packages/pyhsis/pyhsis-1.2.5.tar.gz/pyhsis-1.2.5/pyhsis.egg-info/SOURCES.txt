@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+READM.md
+setup.py
+physis/__init__.py
+physis/test.py
+physis/test.so
+pyhsis.egg-info/PKG-INFO
+pyhsis.egg-info/SOURCES.txt
+pyhsis.egg-info/dependency_links.txt
+pyhsis.egg-info/requires.txt
+pyhsis.egg-info/top_level.txt
