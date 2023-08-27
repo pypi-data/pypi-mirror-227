@@ -1,0 +1,15 @@
+s3sync_util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3sync_util/__main__.py,sha256=Bb18titQFHiZjnJk_9ILb0ILsWPfBO_0eERWjN6mSiQ,4236
+s3sync_util/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3sync_util/commands/common.py,sha256=q9Od2S03Wl5ki3FunnymCEaFRwXJhqv2B9ExM6RGIrI,1653
+s3sync_util/commands/download.py,sha256=6elJ9GBs-rxl_QnWXCz7AjsDsjxWJJztwyCgToRyTrw,5531
+s3sync_util/commands/size.py,sha256=xlLEAl04I8YgPWfko6a_ier7dLIbMmVXCGGJ-tRY1wQ,2003
+s3sync_util/commands/state_management.py,sha256=VqZDdNjVMO8v5MCQe3DxMmgDVvOyQpbAGIu26v9o9r4,1578
+s3sync_util/commands/upload.py,sha256=Fq7DKK1ZzPamxXk-lBpajAsjb1_vcpbOrUDS4a1xo-g,5370
+s3sync_util/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3sync_util/config/utils.py,sha256=8IH3S6Q22f-FRcCxCXTtE2LiJV8Y3UH6MDg7rPXpJEs,2598
+s3sync_util-2.1.1b0.dist-info/LICENSE,sha256=wcTsn3txRas8ISJHyqWDFNRBJo2bana9TbxsBAW_2-0,1101
+s3sync_util-2.1.1b0.dist-info/METADATA,sha256=Fm6QOLkwq3lSh0q0QJKvASpBkhUod58VIX9jqAWLhuw,2998
+s3sync_util-2.1.1b0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+s3sync_util-2.1.1b0.dist-info/entry_points.txt,sha256=ztLO-cT57fFPmBugxeYMcq8nzHVXK4BNHUyqMTy3eEA,52
+s3sync_util-2.1.1b0.dist-info/RECORD,,
