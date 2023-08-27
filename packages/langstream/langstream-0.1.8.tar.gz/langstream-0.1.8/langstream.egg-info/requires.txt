@@ -1,0 +1,11 @@
+asyncstdlib
+colorama
+openai
+gpt4all
+retry
+litellm==0.1.450
+docstring_parser
+pdoc3
+pytest
+pytest-timeout
+nbdoc
