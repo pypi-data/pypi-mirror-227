@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sumonet
+Version: 0.0.7
+Home-page: https://github.com/berkedilekoglu/SUMOnet
+Download-URL: https://github.com/berkedilekoglu/SUMOnet/archive/refs/tags/v0.0.7tar.gz
+Author: Berke Dilekoglu
+Author-email: dilekogluberke@gmail.com
+License: Academic Free License ("AFL") v. 3.0
+Keywords: sumoylation machine-learning deep-learning
+License-File: LICENSE.rst
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+Requires-Dist: pandas
+Requires-Dist: epitopepredict
+Requires-Dist: tensorflow
+Requires-Dist: keras
+

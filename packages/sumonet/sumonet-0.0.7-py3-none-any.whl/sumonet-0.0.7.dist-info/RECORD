@@ -1,0 +1,13 @@
+sumonet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sumonet/evaluation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sumonet/evaluation/metrics.py,sha256=qoMu0CcvM99U_9eN7zYAenF7H8Vk4bTN1YA0ktED7ys,1972
+sumonet/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sumonet/model/architecture.py,sha256=RVHY85NypuO7xX7pxJrMwAIKSaJTMmm4CT2SHVSuKfY,2791
+sumonet/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sumonet/utils/data_pipe.py,sha256=KF-_mQj4Pz-dRThmYpXqnHlirY6fu6sv2ercLdqTnp0,2907
+sumonet/utils/encodings.py,sha256=aGu6Zq0eHoseEltHugATkRT_51uYujY_66L_9uGW-zg,4050
+sumonet-0.0.7.dist-info/LICENSE.rst,sha256=p1Aa_mM2Nu6dG3XqMVU62Jhf04lNOwtXUrhhvhcDips,10312
+sumonet-0.0.7.dist-info/METADATA,sha256=3WcYCV1I7vw_YRhkihKS_oei2-0fYASGCWlWzNemOLo,550
+sumonet-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sumonet-0.0.7.dist-info/top_level.txt,sha256=pvQK7nlrc2oFsPH-qw5CROpgVXhe_4e2nS_ZdYR0d00,8
+sumonet-0.0.7.dist-info/RECORD,,
