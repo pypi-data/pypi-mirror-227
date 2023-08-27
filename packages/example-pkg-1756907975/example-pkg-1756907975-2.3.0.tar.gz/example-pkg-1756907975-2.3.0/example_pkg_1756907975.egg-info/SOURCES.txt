@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+example_pkg_1756907975.egg-info/PKG-INFO
+example_pkg_1756907975.egg-info/SOURCES.txt
+example_pkg_1756907975.egg-info/dependency_links.txt
+example_pkg_1756907975.egg-info/top_level.txt
+lib/libffi_test.dll
+pg_message/__init__.py
+pg_message/add.py
+pg_message/recevie_message.py
+pg_message/send_message.py
