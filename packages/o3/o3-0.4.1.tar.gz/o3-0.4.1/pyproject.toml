@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=67.0.0", "wheel"]
+
+[project]
+name = "o3"
+authors = [
+  {name = "Oz N Tiram", email = "oz.tiram@gmail.com"},
+]
+version = "0.4.1"
+readme = "README.rst"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "Topic :: Software Development",
+]
+
+[project.urls]
+homepage = "https://github.com/oz123/o3"  # FIXME not shown by pip
+
+[files]
+modules="o3"
