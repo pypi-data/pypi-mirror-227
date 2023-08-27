@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ironmill-oxide
+Version: 0.1.3
+Summary: 
+Author: IronMill
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: prompt-toolkit (>=3.0.39,<4.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: semver (>=3.0.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Oxide, IronMill's zero-knowledge circuit package-manager
+
+Oxide is a package-manager that makes integrating verifiable and zero-knowledge computation into your projects a breeze.
+
+To learn more and use the tool, register for the open-alpha:
+
+https://oxide.is/
+
+## Installation
+Oxide is best installed globally with pip or your choice of python package-manager:
+``` console
+$ sudo -H python3 -m pip install ironmill-oxide
+```
+
+## About
+Oxide has the following design-decisions made as opposed to other package-managers:
+1. Version specifier is version (Not branch or revision)
+2. No lock-file present (Shallow dependency trees)
+3. Not synced (Expected large file sizes)
+4. PDM (Project dependency manager)
+5. "Asymmetric" - Bundled circuits we download and projects we are used in are different: Circuit manifests and project manifests look different
