@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: deepc_hunt
+Version: 0.0.4
+Summary: PyTorch module for DeePC
+Home-page: https://github.com/michael-cummins/DeePC-HUNT
+Author: Michael Cummins
+Author-email: micummin@tcd.ie
