@@ -1,0 +1,68 @@
+# SPDX-FileCopyrightText: Peter Pentchev <roam@ringlet.net>
+# SPDX-License-Identifier: BSD-2-Clause
+
+[build-system]
+requires = [
+  "hatchling >= 0.22, < 2",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "confget"
+description = "Parse configuration files and extract values from them"
+readme = "README.md"
+license = {text = "BSD-2-Clause"}
+requires-python = ">= 3.6"
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "License :: DFSG approved",
+  "License :: Freely Distributable",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: POSIX",
+  "Operating System :: Unix",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Utilities",
+]
+dependencies = [
+  "dataclasses; python_version < '3.7'",
+  "pyparsing >= 3, < 4",
+]
+dynamic = ["version"]
+
+[[project.authors]]
+name = "Peter Pentchev"
+email = "roam@ringlet.net"
+
+[project.scripts]
+confget = "confget.__main__:main"
+
+[project.urls]
+Homepage = "https://devel.ringlet.net/textproc/confget/"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/confget"]
+
+[tool.hatch.version]
+path = "src/confget/defs.py"
+
+[tool.black]
+target-version = ["py36", "py37", "py38", "py39", "py310", "py311"]
+line-length = 100
+
+[tool.mypy]
+python_version = "3.6"
+
+[tool.test-stages]
+stages = ["ruff and not @devel", "@check and not @devel", "@tests and not @devel"]

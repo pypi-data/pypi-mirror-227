@@ -1,0 +1,45 @@
+# SPDX-FileCopyrightText: Peter Pentchev <roam@ringlet.net>
+# SPDX-License-Identifier: BSD-2-Clause
+
+[tool.ruff]
+target-version = "py37"
+line-length = 100
+select = []
+ignore = [
+  # We know what "self" is... I hope
+  "ANN101",
+
+  # We leave most of the formatting to the `black` tool
+  "COM812",
+
+  # No blank lines before the class docstring, TYVM
+  "D203",
+
+  # The multi-line docstring summary starts on the same line
+  "D213",
+
+  # We still need to support Python 3.6, so no `__future__.annotations`
+  "FA100",
+
+  # We need to rework our exceptions hierarchy... later
+  "EM101",
+  "EM102",
+  "TRY003",
+]
+
+[tool.ruff.isort]
+force-single-line = true
+known-first-party = ["confget"]
+lines-after-imports = 2
+single-line-exclusions = ["typing"]
+
+[tool.ruff.per-file-ignores]
+# This is a standalone command-line tool, at least for the present.
+# Also, its main job is generating files.
+"../t/defs/tools/generate.py" = ["INP001", "T201"]
+
+# This is a console command-line tool, output is part of its job.
+"src/confget/__main__.py" = ["T201"]
+
+# This is a unit tests suite, assertions are kind of the point.
+"unit_tests/**.py" = ["S101"]
