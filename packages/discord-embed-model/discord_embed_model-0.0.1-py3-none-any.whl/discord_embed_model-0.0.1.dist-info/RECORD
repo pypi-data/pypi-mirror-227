@@ -1,0 +1,10 @@
+discord_embed_model/__init__.py,sha256=BH2IYm0o03NHQL_OAXMcdLMUtHHJiWI37y2ws-YSq70,269
+discord_embed_model/formatter.py,sha256=mT_ZL7cMjQDz3jXMQnCAgc1_QZ2oqrcV4MsRHsou9Lo,5447
+discord_embed_model/model.py,sha256=19f5kRXaWfIVP3BwVCIWoQFOesg6KDvYomqmeNiWmQg,3950
+discord_embed_model/stateful.py,sha256=7f3sYukayO39tk-YSgFP8Y_JRcQx_XO047uNeBqiF8w,5757
+discord_embed_model/utils.py,sha256=FLYRFXBfKq7HlNu_2IelElLpLnLwLPuAnjKqkv7ykDA,556
+discord_embed_model-0.0.1.dist-info/LICENSE,sha256=Nk5ZGmgXUZnhTvNG0hMbFj5BtZtgH1NTN6JJyuIYTso,1085
+discord_embed_model-0.0.1.dist-info/METADATA,sha256=7Hy4UbhOuaQCScaS02bN-BIt-5_ZnUoFMGIrcvv_-Fk,1603
+discord_embed_model-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+discord_embed_model-0.0.1.dist-info/top_level.txt,sha256=Ae1so0z-CxtE1eabTREr2KMNBjjJEJRTrDOEH6cgLGM,20
+discord_embed_model-0.0.1.dist-info/RECORD,,
