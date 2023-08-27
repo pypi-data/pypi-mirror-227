@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: autora
+Version: 3.1.1
+Summary: Autonomous Research Assistant (AutoRA) is a framework for automating steps of the empirical research process.
+Author-email: Sebastian Musslick <sebastian@musslick.de>
+Maintainer-email: Ben Andrew <benwallaceandrew@gmail.com>, George Dang <george_dang@brown.edu>, John Gerrard Holland <john_holland1@brown.edu>, Younes Strittmatter <younes_strittmatter@brown.edu>
+License: MIT License
+        
+        Copyright (c) 2023 Autonomous Empirical Research Initiative
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, http://www.empiricalresearch.ai/
+Project-URL: repository, https://github.com/AutoResearch/autora
+Project-URL: documentation, https://autoresearch.github.io/autora/
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: all
+Provides-Extra: all-theorists
+Provides-Extra: theorist-darts
+Provides-Extra: theorist-bms
+Provides-Extra: theorist-bsr
+Provides-Extra: all-experimentalists
+Provides-Extra: experimentalist-sampler-inequality
+Provides-Extra: experimentalist-sampler-novelty
+Provides-Extra: experimentalist-sampler-nearest-value
+Provides-Extra: experimentalist-sampler-model-disagreement
+Provides-Extra: experimentalist-sampler-uncertainty
+Provides-Extra: experimentalist-sampler-leverage
+Provides-Extra: experimentalist-falsification
+Provides-Extra: experimentalist-sampler-mixture
+Provides-Extra: all-experiment-runners
+Provides-Extra: experiment-runner-firebase-prolific
+Provides-Extra: all-experiment-runner-experimentation-managers
+Provides-Extra: experiment-runner-experimentation-manager-firebase
+Provides-Extra: all-experiment-runner-recruitment-managers
+Provides-Extra: experiment-runner-recruitment-manager-prolific
+Provides-Extra: docs
+Provides-Extra: test
+License-File: LICENSE
+
+# Automated Research Assistant
+
+![PyPI](https://img.shields.io/pypi/v/autora)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/autoresearch/autora/test-pytest.yml)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/autora)
+![Link to docs](https://img.shields.io/badge/Docs-autoresearch.github.io-purple)
+![PyPI - License](https://img.shields.io/pypi/l/autora)
+![GitHub Discussions](https://img.shields.io/github/discussions/autoresearch/autora)
+
+<b>[AutoRA](https://pypi.org/project/autora/)</b> (<b>Auto</b>mated <b>R</b>esearch <b>A</b>ssistant) is an open-source framework for 
+automating multiple stages of the empirical research process, including model discovery, experimental design, data collection, and documentation for open science. 
+
+AutoRA was initially intended for accelerating research in the behavioral and brain sciences. However, AutoRA is designed as a general framework that enables automation of the research processes in other empirical sciences, such as material science or physics.
+
+![Autonomous Empirical Research Paradigm](https://github.com/AutoResearch/autora/raw/main/docs/img/overview.png)
+
+## Getting Started
+
+Check out the documentation at 
+[https://autoresearch.github.io/autora](https://autoresearch.github.io/autora).
+
+## About
+
+This project is in active development by 
+the [Autonomous Empirical Research Group](http://empiricalresearch.ai), 
+in collaboration with the [Center for Computation and Visualization at Brown University](https://ccv.brown.edu).
+
+The development of this package is supported by Schmidt Science Fellows, in partnership with the Rhodes Trust, as well as the Carney BRAINSTORM program at Brown University.
+
+<a href="https://ccbs.carney.brown.edu/brainstorm"><img src="docs/img/brainstorm.png" alt="BRAINSTORM Program" height="100"></img></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://schmidtsciencefellows.org/"><img src="docs/img/ssf.png" alt="BRAINSTORM Program" height="80"></img></a>
+
+
+## Read More
+
+- [Package Documentation](https://autoresearch.github.io/autora/)
+- [AutoRA Pip Package](https://pypi.org/project/autora/)
+- [Autonomous Empirical Research Group](http://www.empiricalresearch.ai)
+
