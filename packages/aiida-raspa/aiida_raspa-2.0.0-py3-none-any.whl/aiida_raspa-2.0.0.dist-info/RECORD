@@ -1,0 +1,14 @@
+aiida_raspa/__init__.py,sha256=6ppaQ4x_qzt4VhIricM383NCc2cEYGoGX2PMpTun9zY,710
+aiida_raspa/calculations/__init__.py,sha256=nKVmFqQhPIJkFNLd3IH6DXl9LNv8w7pR2E_7GiBaQVU,9535
+aiida_raspa/parsers/__init__.py,sha256=zngCJnFALfT-MbOZeAUgIX7iboanLMhve8EPSbxJPiY,2294
+aiida_raspa/utils/__init__.py,sha256=eFKzCPvjnHymqmuTHA7e0y7Q81Uk4RgoKqB1IJOEUwI,225
+aiida_raspa/utils/base_input_generator.py,sha256=er9w0py7YlnNSJgIo3d7JUiys3d6FYRYWRskDDb2noU,5865
+aiida_raspa/utils/base_parser.py,sha256=PgNVwgf-rjB9iUYvctpUX2UqKXUS-Xt20s2qecKnGMk,14906
+aiida_raspa/utils/inspection_tools.py,sha256=YwQL94Q2fvlsEFLdxs6EnuJ20-kJD_MECmkgWzqXyqg,2117
+aiida_raspa/workchains/__init__.py,sha256=rHoz-I_XvmjVljz06PfdFuw_fHsDrxVW2h0fTKcO53A,698
+aiida_raspa/workchains/base.py,sha256=sEsMHXZumslRIvjmuEDwVLMEZjZ_Ix8CHJlLjcSW4s8,9597
+aiida_raspa-2.0.0.dist-info/entry_points.txt,sha256=8ZbeXgmglPBeM7c5Z7vAK5TyPF3mwtNnHoauz4Jxtk0,197
+aiida_raspa-2.0.0.dist-info/LICENSE,sha256=XK6eIN5y1ncO8OEH2HjHzJbJdP-UJSq3qklEPmCsZYg,1141
+aiida_raspa-2.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+aiida_raspa-2.0.0.dist-info/METADATA,sha256=dAiY-lQGqTUe9PuHVH99SX6mdDS18iCRfh6NRJGzb0U,8204
+aiida_raspa-2.0.0.dist-info/RECORD,,
