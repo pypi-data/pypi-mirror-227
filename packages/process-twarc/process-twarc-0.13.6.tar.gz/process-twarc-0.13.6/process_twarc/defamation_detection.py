@@ -1,0 +1,293 @@
+from transformers import DataCollatorWithPadding, AutoModelForSequenceClassification, TrainingArguments, Trainer, EarlyStoppingCallback, TrainerCallback, get_polynomial_decay_schedule_with_warmup
+from process_twarc.util import load_tokenizer, load_dataset, load_dict
+from process_twarc.preprocess import generate_splits
+import torch
+import evaluate 
+import numpy as np
+import wandb
+import optuna
+from torch.optim import AdamW
+
+def defamation_binary_sweep(
+    path_to_data: str,
+    checkpoint_dir: str,
+    path_to_search_space: str,
+    path_to_storage: str,
+    model_paths: dict={
+                "control": "cl-tohoku/bert-base-japanese-v3",
+                "experiment": "LoneWolfgang/bert-for-japanese-twitter-best"
+            },
+    n_trials: int=10,
+    enable_pruning: bool=False,
+    evaluation_strategy: str="epoch",
+    eval_steps: int=1,
+    save_strategy: str="epoch",
+    save_steps: int=1,
+    save_total_limit: int=3,
+    metric_for_best_model: str="eval_accuracy",
+    push_to_hub: bool=False,
+    patience: int=3,
+    print_details: bool=True,
+    report_to: str="wandb"
+):
+    search_space = load_dict(path_to_search_space)
+
+    def objective(trial):
+        
+
+        def get_trial_dir(trial, search_space, checkpoint_dir):
+            trial_id = trial.number+1
+            group = search_space["meta"]["optuna_study"]
+            trial_dir = f"{checkpoint_dir}/{group}/trial{str(trial_id).zfill(3)}"
+            return trial_dir
+
+        def init_hyperparameters(trial, search_space):
+            """Initialize hyperparameters for the trial."""
+
+            project = search_space["meta"]["project"]
+            group = search_space["meta"]["wandb_group"]
+
+            def suggest_parameter(param_name):
+
+                param_space = search_space[param_name]
+                dtype = param_space["type"]
+                if dtype == "categorical":
+                    return trial.suggest_categorical(
+                        name=param_name,
+                        choices=param_space["choices"])
+                elif dtype == "int":
+                    suggest_method = trial.suggest_int
+                elif dtype == "float":
+                    suggest_method = trial.suggest_float
+                if "step" in param_space.keys():
+                        return suggest_method(
+                            name=param_name,
+                            low=param_space["low"],
+                            high=param_space["high"],
+                            step=param_space["step"]
+                        )
+                elif "log" in param_space.keys():
+                    return suggest_method(
+                        name=param_name,
+                        low=param_space["low"],
+                        high=param_space["high"],
+                        log=param_space["log"]
+                    )
+                else:
+                    return suggest_method(
+                        name=param_name,
+                        low=param_space["low"],
+                        high=param_space["high"]
+                    )
+                
+            exp_group = suggest_parameter("exp_group")
+            hidden_dropout_prob=suggest_parameter("hidden_dropout_prob")
+            attention_dropout_prob=suggest_parameter("attention_dropout_prob")
+            weight_decay=suggest_parameter("weight_decay")
+            num_train_epochs=suggest_parameter("num_train_epochs")
+            initial_learning_rate=suggest_parameter("initial_learning_rate")
+            num_warmup_steps=suggest_parameter("num_warmup_steps")
+            power=suggest_parameter("power")
+            adam_beta1=suggest_parameter("adam_beta1")
+            adam_beta2=suggest_parameter("adam_beta2")
+            adam_epsilon=suggest_parameter("adam_epsilon")
+
+            path_to_model = path_to_tokenizer = model_paths[exp_group]
+
+            fixed_params = {
+                "per_device_train_batch_size": 55,
+                "per_device_eval_batch_size": 75,
+                "num_labels": 2,
+                "id2label": {0: "non-defamatory", 1: "defamatory"},
+                "label2id": {"non-defamatory": 0, "defamatory": 1}
+            }
+
+            variable_params = {
+                "exp_group": exp_group,
+                "path_to_model": path_to_model,
+                "path_to_tokenizer": path_to_tokenizer,
+                "hidden_dropout_prob": hidden_dropout_prob,
+                "attention_dropout_prob": attention_dropout_prob,
+                "weight_decay": weight_decay,
+                "num_train_epochs": num_train_epochs,
+                "initial_learning_rate": initial_learning_rate,
+                "num_warmup_steps": num_warmup_steps,
+                "power": power,
+                "adam_beta1": adam_beta1,
+                "adam_beta2": adam_beta2,
+                "adam_epsilon": adam_epsilon
+            }
+
+            wandb.init(
+                project=project,
+                group=group,  
+                entity="lonewolfgang",
+                config ={
+                "meta": {
+                    "exp_group": exp_group,
+                    "path_to_tokenizer": path_to_tokenizer,
+                    "path_to_model": path_to_model
+                    },
+                "model":{
+                    "model_type": "bert",
+                    "hidden_act": "gelu",
+                    "hidden_size": 768,
+                    "num_hidden_layers": 12,
+                    "intermediate_size": 3072,
+                    "num_attention_heads": 12,
+                    "max_position_embeddings": 512,
+                    "position_embedding_type": "absolute",
+                    "vocab_size": 32_003,
+                    "initializer_range": 0.02,
+                    "attention_dropout_prob": attention_dropout_prob,
+                    "hidden_dropout_prob": hidden_dropout_prob,
+                    "weight_decay": weight_decay,
+                    "layer_norm_eps": 1e-12,
+                },
+                "optimizer":{
+                    "optim": "adamw_hf",
+                    "lr_scheduler_type": "polynomial",
+                    "initial_learning_rate": initial_learning_rate,
+                    "final_learning_rate": 0.0,
+                    "power": power,
+                    "num_warmup_steps": num_warmup_steps,
+                    "adam_beta1": adam_beta1,
+                    "adam_beta2": adam_beta2,
+                    "adam_epsilon": adam_epsilon,
+                },
+                "trainer": {
+                    "num_train_epochs": num_train_epochs,
+                    "logging_strategy": "steps",
+                    "logging_steps": 500,
+                    "per_device_eval_batch_size": 75,
+                    "per_device_train_batch_size": 55,
+                    "eval_strategy": "steps",
+                    "eval_steps": 31_912,
+                    "save_strategy": "steps",
+                    "save_steps": 31_912,
+                    "patience": 3,
+                    "save_total_limit": 3,
+                    "metric_for_best_model": "eval_loss",
+                    "seed": 42
+                }
+            })
+
+            if print_details:
+                print("\nVariable Params:")
+                for key in variable_params:
+                    print(key, variable_params[key])
+                print("\nFixed Params:")
+                for key in fixed_params:
+                    print(key, fixed_params[key])
+            
+            return variable_params, fixed_params
+        
+        variable_params, fixed_params = init_hyperparameters(trial, search_space)
+        per_device_train_batch_size, per_device_eval_batch_size, num_labels, id2label, label2id = fixed_params.values()
+        exp_group, path_to_model, path_to_tokenizer, hidden_dropout_prob, attention_dropout_prob, weight_decay, num_train_epochs, initial_learning_rate, num_warmup_steps, power, adam_beta1, adam_beta2, adam_epsilon = variable_params.values()
+
+        tokenizer = load_tokenizer(path_to_tokenizer)
+        def tokenize(example):
+            return tokenizer(example["text"])
+
+        raw_datasets = load_dataset(path_to_data, output_type="Dataset")
+        raw_datasets = raw_datasets.rename_column("defamatory", "label")
+        tokenized_datasets = raw_datasets.map(tokenize)
+        splits = generate_splits(
+            tokenized_datasets,
+            test_size=0.15,
+            validation_size=0.05,
+            development_size=0.15)
+        train_dataset = splits["train"]
+        eval_dataset = splits["validation"]
+        test_dataset = splits["development"]
+    
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        model = AutoModelForSequenceClassification.from_pretrained(
+            path_to_model,
+            num_labels=num_labels,
+            id2label=id2label,
+            label2id=label2id
+        )
+        model.config.hidden_dropout_prob = hidden_dropout_prob
+        model.config.attention_dropout_prob = attention_dropout_prob
+        model.to(device)
+
+        optimizer = AdamW(
+            params=model.parameters(),
+            lr=initial_learning_rate,
+            betas = (adam_beta1, adam_beta2),
+            eps=adam_epsilon,
+            weight_decay=weight_decay)
+        
+        scheduler = get_polynomial_decay_schedule_with_warmup(
+            optimizer=optimizer,
+            num_warmup_steps=num_warmup_steps,
+            num_training_steps=len(train_dataset)//per_device_train_batch_size * num_train_epochs,
+            lr_end=0.0,
+            power=power
+        )
+
+        data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
+
+        def compute_metrics(eval_pred):
+            accuracy = evaluate.load("accuracy")
+            predictions, labels = eval_pred
+            predictions = np.argmax(predictions, axis=1)
+            return accuracy.compute(predictions=predictions, references=labels)
+        
+        trial_dir = get_trial_dir(trial, search_space, checkpoint_dir)
+        training_args = TrainingArguments(
+            output_dir=trial_dir,
+            evaluation_strategy=evaluation_strategy,
+            eval_steps=eval_steps,
+            save_strategy=save_strategy,
+            save_steps=save_steps,
+            save_total_limit=save_total_limit,
+            metric_for_best_model=metric_for_best_model,
+            push_to_hub=push_to_hub,
+            per_device_train_batch_size=per_device_train_batch_size,
+            per_device_eval_batch_size=per_device_eval_batch_size,
+            num_train_epochs=num_train_epochs,
+            load_best_model_at_end=True,
+            report_to=report_to)
+        
+        class OptunaCallback(TrainerCallback):
+            def __init__(self, trial, should_prune=True):
+                self.trial = trial
+                self.should_prune = should_prune
+
+            def on_evaluate(self, args, state, control, metrics=None, **kwargs):
+                eval_loss = metrics.get("eval_loss")
+                self.trial.report(eval_loss, step=state.global_step)
+                if self.should_prune and self.trial.should_prune():
+                    raise optuna.TrialPruned()
+
+        trainer = Trainer(
+            model=model,
+            args=training_args,
+            train_dataset=train_dataset,
+            eval_dataset=eval_dataset,
+            data_collator=data_collator,
+            compute_metrics=compute_metrics,
+            optimizers=(optimizer, scheduler),
+            callbacks=[EarlyStoppingCallback(early_stopping_patience=patience),
+            OptunaCallback(trial, should_prune=enable_pruning)]
+        )
+
+        trainer.train()
+        results = trainer.evaluate(test_dataset)
+        wandb.log(results)
+        trainer.save_model(trial_dir)
+
+        return results["eval_accuracy"]
+    
+    study_name = search_space["meta"]["optuna_study"]
+    study = optuna.create_study(
+        storage=path_to_storage,
+        pruner=optuna.pruners.MedianPruner(n_warmup_steps=5, interval_steps=3, n_min_trials=10),
+        study_name=study_name,
+        direction="maximize",
+        load_if_exists=True,
+        )
+    study.optimize(objective, n_trials=n_trials)
