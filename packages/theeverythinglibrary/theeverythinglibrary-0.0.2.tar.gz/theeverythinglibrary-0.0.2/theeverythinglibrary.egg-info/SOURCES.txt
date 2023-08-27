@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+theeverythinglibrary.egg-info/PKG-INFO
+theeverythinglibrary.egg-info/SOURCES.txt
+theeverythinglibrary.egg-info/dependency_links.txt
+theeverythinglibrary.egg-info/requires.txt
+theeverythinglibrary.egg-info/top_level.txt
