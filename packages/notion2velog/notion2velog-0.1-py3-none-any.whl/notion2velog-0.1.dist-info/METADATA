@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: notion2velog
+Version: 0.1
+Requires-Dist: selenium
+Requires-Dist: undetected-chromedriver
+Requires-Dist: notion2md
+Requires-Dist: requests
+

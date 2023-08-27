@@ -1,0 +1,11 @@
+notion2velog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notion2velog/main.py,sha256=uBoZRVaYthcOCNsdacy4ajA93QdPkKim7SBymYrJx3g,1236
+notion2velog/notion_api.py,sha256=aKg8Oq2HAIFSYbzIxcL0cyDtniUKiSm89rboU_6eJ6o,1638
+notion2velog/settings.py,sha256=7EKA0Xe_Cn5eigONgyjl47VyBuRiZiTtQpOBhIkGX2g,272
+notion2velog/utils.py,sha256=UYqAWFl7dwfDycBKetBo-PD5YNoiruzHfQ24jzMmex8,500
+notion2velog/web_actions.py,sha256=0lxxsNipGreRYdGxlIGGthsu4rYOMNyztWwNI-ZUkVs,4430
+notion2velog-0.1.dist-info/METADATA,sha256=KqfctbUK5nsRDAdA9T1YXqVd8o2GNQ8s5BS6skrOEvc,167
+notion2velog-0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+notion2velog-0.1.dist-info/entry_points.txt,sha256=y75CODm0Bl5BrARJtwV0DIqoYLw4xJkpLovRvvA0Ra8,56
+notion2velog-0.1.dist-info/top_level.txt,sha256=gSXJJ5qe6MbEZPAuMg1rHCX8i7qioDB2V5Wp7hkHRNw,13
+notion2velog-0.1.dist-info/RECORD,,
