@@ -1,0 +1,3 @@
+[console_scripts]
+oxide=ironmill_oxide.cli:main
+
