@@ -1,0 +1,15 @@
+gros_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gros_client/mod.py,sha256=Tb1U00E0ZpNvpOiCS8KXsv6OocVL2iSgrg8beVNMFJg,231
+gros_client/robot.py,sha256=4KYrpJNrZZ9WkwkU9W6wy8UNI2cGHlLmraHRns-uw5I,6593
+gros_client/robot_type.py,sha256=-gg_msNVK0vj-M-TUiOvWy23dkRB_QKC74ZpDFITmuA,99
+gros_client/robotics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gros_client/robotics/car.py,sha256=_0Fwv5tJrlgc36svn_R0Lbp5SZXX0MaZUMvRLJ6Bv1c,487
+gros_client/robotics/dog.py,sha256=3x_DR-QvsDw4oxgYdfrPziAf1vRach8_zKRFprhlB9o,487
+gros_client/robotics/human.py,sha256=FL4jHm_eyFvoKtBWgtPoCwnX2U_FgH61Xnh5_VzjHyk,2020
+gros_client/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gros_client/test/test_robot.py,sha256=QW1qGHBs1dYd4WTck2_NhCQgC83oVfwAlu1jPmbWVIA,2205
+gros_client-1.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+gros_client-1.0.3.dist-info/METADATA,sha256=lZd-yYuv94AN-1CSV65wycsfYXeYCAU4YP8b16-j2Ho,386
+gros_client-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gros_client-1.0.3.dist-info/top_level.txt,sha256=8gBD4urHTQkDtdAAjz8lW51DCQRyTFr2G87faEtqqv0,12
+gros_client-1.0.3.dist-info/RECORD,,
