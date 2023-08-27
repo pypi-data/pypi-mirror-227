@@ -1,0 +1,9 @@
+pyrepresent
+qrcode
+pyzbar
+pillow
+
+[dev]
+pdoc3
+twine
+pytest

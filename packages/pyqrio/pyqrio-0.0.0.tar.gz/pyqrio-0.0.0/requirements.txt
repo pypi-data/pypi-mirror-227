@@ -1,0 +1,4 @@
+pyrepresent
+qrcode
+pyzbar
+pillow

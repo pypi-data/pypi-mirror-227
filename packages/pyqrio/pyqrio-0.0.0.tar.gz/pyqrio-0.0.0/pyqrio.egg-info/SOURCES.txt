@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+build.py
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+pyqrio.egg-info/PKG-INFO
+pyqrio.egg-info/SOURCES.txt
+pyqrio.egg-info/dependency_links.txt
+pyqrio.egg-info/requires.txt
+pyqrio.egg-info/top_level.txt
+qrio/__init__.py
+qrio/qr.py
