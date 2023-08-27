@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/cortecs/__init__.py
+src/cortecs.egg-info/PKG-INFO
+src/cortecs.egg-info/SOURCES.txt
+src/cortecs.egg-info/dependency_links.txt
+src/cortecs.egg-info/not-zip-safe
+src/cortecs.egg-info/requires.txt
+src/cortecs.egg-info/top_level.txt
+src/cortecs/opac/__init__.py
+src/cortecs/opac/chunking.py
+src/cortecs/opac/interpolate_cia.py
+src/cortecs/opac/io.py
+src/cortecs/opac/opac.py
