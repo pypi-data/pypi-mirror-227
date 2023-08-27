@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: The-Everything-Library
+Version: 0.4.0
+Summary: Library with a module for almost everything
+Home-page: https://github.com/RobertArnosson/TheEverythingLibrary
+Author: Robert Arnorsson
+Project-URL: Bug Reports, https://github.com/RobertArnosson/TheEverythingLibrary/issues
+Project-URL: Source, https://github.com/RobertArnosson/TheEverythingLibrary
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cryptography
+Requires-Dist: uuid
+
+# The Everything Library
+
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
+![Python](https://img.shields.io/badge/python-3.6%2B-green)
+
+*THIS LIBRARY IS NOT ON PIP YET*
+
+## Description 
+This Python Library will have a LOT of different heler functions and classes that you can use for your own projects.
+
+# Installation
+How to install the library 
+```bash
+This is not implemented yet
+```
+
+# Features
+## Current features
+### Encryption
+- Symmetric encryption
+- Asymmetric encryption
+- Full key management 
+
+# History
+
+0.0.1 (2023-08-23)
+------------------
+
+* Project created
+
+0.2.0 (2023-08-23)
+------------------
+
+* Added Symmetric Encryption
+
+0.3.0 (2023-08-24)
+------------------
+
+* Added Asymmetric Encryption
+
+0.4.0 (2023-08-25)
+------------------
+
+* Added Encoding (Base64, Hex, Binary)
