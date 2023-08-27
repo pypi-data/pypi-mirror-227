@@ -1,0 +1,12 @@
+djdt_permissions/__init__.py,sha256=W1yjlz2ltQkihj7XWBu45eqDjjl-aTvPTe8IaNvvcuM,87
+djdt_permissions/apps.py,sha256=FJwnDCmHGV7GiYjf6IWIGwJlsq__ujelJiONEOwX9Yc,282
+djdt_permissions/panels/__init__.py,sha256=P-iwgIB1iyaPCeAPExmPpgeJI_n0fubqJMgbsSNHdeQ,48
+djdt_permissions/panels/permissions_panel.py,sha256=d3hSqKrPv88M5Gl2lJv98PuKhvVr9O_ubqZFYSB_eeo,4034
+djdt_permissions/templates/djdt_permissions/group_tr.html,sha256=XvCQYkTAy3yz-nMkat_2GoVzTQwxcFEJQy-Q6lCayvo,1068
+djdt_permissions/templates/djdt_permissions/permissions_panel.html,sha256=VF5zdUesTamE2UdJoni1FX2VpRlpM93OC-6Vd-XTyZ0,2455
+djdt_permissions/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djdt_permissions/tests/test_permissions_panel.py,sha256=qzRX9OVnMn9d_SQsGhgEjeq9-K1I-eHdt_Ul_yFrywU,6254
+djdt_permissions-1.0.0.dist-info/LICENSE,sha256=WXIRfEYzW-3E2jYbHhG5vOoGOnJX-f9O-fXOTWpg_Xw,1499
+djdt_permissions-1.0.0.dist-info/METADATA,sha256=HNnd0-rrn_kodcy5hwwA5VqT10GMKYn3mwO1cDlLnzA,4848
+djdt_permissions-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+djdt_permissions-1.0.0.dist-info/RECORD,,
