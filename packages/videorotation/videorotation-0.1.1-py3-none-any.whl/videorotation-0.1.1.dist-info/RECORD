@@ -1,0 +1,9 @@
+videorotation/__init__.py,sha256=mNMA6u8JD9US5cWQY9HpcV7jPWJztq75sLGmS9DDI7M,51
+videorotation/check_upsidedown.py,sha256=gQ0d3tyuQrACrET9UhbJ6go65jDoDIGQU6Tp4UydxKo,3419
+videorotation/rotnet_street_view_resnet50_keras2_pb/saved_model.pb,sha256=ucoupyjcVeEjNhRGz1618wxIqa52YgOauyobBJZpkBU,4693341
+videorotation/rotnet_street_view_resnet50_keras2_pb/variables/variables.data-00000-of-00001,sha256=0gkVpNjOprUuwR8O3ak3UHbYB4_XMpzsgV8Dc_mTEOA,97405393
+videorotation/rotnet_street_view_resnet50_keras2_pb/variables/variables.index,sha256=TyuPofUD64s-J0vseVuwHcvsXp15NSAQTggde54WUs8,20173
+videorotation-0.1.1.dist-info/METADATA,sha256=pa3MiwtvL-f2OBLcGRljoJbNg55FX1y0oylh2yOvi2o,776
+videorotation-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+videorotation-0.1.1.dist-info/top_level.txt,sha256=iruvlbC5640Z3_8gvBlGPdkL5UaQkEXtM9WmCi58OKY,14
+videorotation-0.1.1.dist-info/RECORD,,
