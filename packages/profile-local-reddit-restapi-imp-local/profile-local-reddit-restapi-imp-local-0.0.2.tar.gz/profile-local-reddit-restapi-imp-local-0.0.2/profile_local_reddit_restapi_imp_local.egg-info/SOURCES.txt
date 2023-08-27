@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+profile_local_reddit_restapi_imp_local.egg-info/PKG-INFO
+profile_local_reddit_restapi_imp_local.egg-info/SOURCES.txt
+profile_local_reddit_restapi_imp_local.egg-info/dependency_links.txt
+profile_local_reddit_restapi_imp_local.egg-info/top_level.txt
