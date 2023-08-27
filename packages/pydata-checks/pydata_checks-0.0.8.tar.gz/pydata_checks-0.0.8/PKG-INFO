@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pydata_checks
+Version: 0.0.8
+Summary: Data quality checks that don't suck.
+Author-email: Ivan Zhang <ivanzhangofficial@gmail.com>
+License: MIT License
+        
+        Copyright (c) [2023] [Ivan Zhang]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/SuperiorityComplex/data-checks
+Project-URL: Bug Tracker, https://github.com/SuperiorityComplex/data-checks/issues
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Data Checks
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.7-blue.svg) 
+
+**Create, schedule, and deploy data quality checks.**
+
+## Overview
+Exisiting data observability solutions are painfully static. **data_checks** provides a dynamic data observability framework that allows you to reuse existing Python code and/or write new Python code to define data quality checks that can then be easily scheduled and monitored. Inspired by Python's [unittest](https://docs.python.org/3/library/unittest.html), data_checks allows you to write data quality checks as easily and seamlessly as you would write unittests on your code.
+
+
+## Getting Started
+### Installation
+Install the latest version of data_checks using pip:
+```bash
+pip install pydata-checks
+```
+
+
+
+See the [documentation](https://github.com/SuperiorityComplex/data_checks/wiki) for more information.
