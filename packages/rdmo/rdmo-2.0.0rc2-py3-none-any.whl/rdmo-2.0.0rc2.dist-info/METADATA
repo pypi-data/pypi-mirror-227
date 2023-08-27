@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: rdmo
+Version: 2.0.0rc2
+Summary: RDMO is a tool to support the systematic planning, organisation and implementation of the data management throughout the course of a research project.
+Author-email: RDMO Arbeitsgemeinschaft <rdmo-team@listserv.dfn.de>
+License: Apache-2.0
+Project-URL: Changelog, https://github.com/rdmorganiser/rdmo/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://rdmo.readthedocs.io
+Project-URL: Homepage, https://rdmorganiser.github.io
+Project-URL: Issues, https://github.com/rdmorganiser/rdmo/issues
+Project-URL: Repository, https://github.com/rdmorganiser/rdmo.git
+Keywords: data management plan,dmp,rdmo,research data,research data management
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: NOTICE
+License-File: AUTHORS
+Requires-Dist: defusedcsv ~=2.0.0
+Requires-Dist: defusedxml ~=0.7.1
+Requires-Dist: Django ~=3.2.20
+Requires-Dist: django-allauth ~=0.53.1
+Requires-Dist: django-cleanup ~=6.0.0
+Requires-Dist: django-compressor ~=4.4
+Requires-Dist: django-extensions ~=3.2.0
+Requires-Dist: django-filter ~=21.1
+Requires-Dist: django-libsass ==0.9
+Requires-Dist: django-mathfilters ~=1.0.0
+Requires-Dist: django-mptt ~=0.13.4
+Requires-Dist: django-rest-swagger ~=2.2.0
+Requires-Dist: django-settings-export ~=1.2.1
+Requires-Dist: django-widget-tweaks ~=1.4.8
+Requires-Dist: djangorestframework ~=3.12.4
+Requires-Dist: drf-extensions ~=0.7.0
+Requires-Dist: iso8601 ~=2.0.0
+Requires-Dist: jsonfield ~=3.1.0
+Requires-Dist: Markdown ~=3.3.7
+Requires-Dist: pypandoc ~=1.10.0
+Requires-Dist: rules ~=3.3.0
+Provides-Extra: ci
+Requires-Dist: coveralls ; extra == 'ci'
+Requires-Dist: rdmo[dev] ; extra == 'ci'
+Provides-Extra: dev
+Requires-Dist: django-debug-toolbar ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: rdmo[pytest] ; extra == 'dev'
+Provides-Extra: gunicorn
+Requires-Dist: gunicorn >=19.9 ; extra == 'gunicorn'
+Provides-Extra: ldap
+Requires-Dist: django-auth-ldap >=2 ; extra == 'ldap'
+Provides-Extra: memcached
+Requires-Dist: python-memcached >=1.58 ; extra == 'memcached'
+Provides-Extra: mysql
+Requires-Dist: mysqlclient ~=2.2.0 ; extra == 'mysql'
+Provides-Extra: postgres
+Requires-Dist: psycopg2-binary ~=2.9.6 ; extra == 'postgres'
+Provides-Extra: pytest
+Requires-Dist: pytest ~=7.4.0 ; extra == 'pytest'
+Requires-Dist: pytest-cov ~=4.0.0 ; extra == 'pytest'
+Requires-Dist: pytest-django ~=4.5.0 ; extra == 'pytest'
+Requires-Dist: pytest-dotenv ~=0.5.2 ; extra == 'pytest'
+Requires-Dist: pytest-mock ~=3.11.0 ; extra == 'pytest'
+Requires-Dist: pytest-randomly ~=3.15.0 ; extra == 'pytest'
+Requires-Dist: pytest-xdist ~=3.3.1 ; extra == 'pytest'
+
+RDMO - Research Data Management Organiser
+=========================================
+
+[![Latest release](https://img.shields.io/pypi/v/rdmo.svg?style=flat)](https://pypi.python.org/pypi/rdmo/)
+[![Python Versions](https://img.shields.io/pypi/pyversions/rdmo.svg?style=flat)](https://www.python.org/)
+[![License](https://img.shields.io/github/license/rdmorganiser/rdmo?style=flat)](https://github.com/rdmorganiser/rdmo/blob/master/LICENSE)
+[![pytest Workflow Status](https://github.com/rdmorganiser/rdmo/actions/workflows/pytest.yml/badge.svg)](https://github.com/rdmorganiser/rdmo/actions/workflows/pytest.yml)
+[![Coverage Status](https://coveralls.io/repos/rdmorganiser/rdmo/badge.svg?branch=master&service=github)](https://coveralls.io/github/rdmorganiser/rdmo?branch=master)
+[![Documentation status](https://readthedocs.org/projects/rdmo/badge/?version=latest)](http://rdmo.readthedocs.io/en/latest/?badge=latest)
+
+RDMO is a tool to support the systematic planning, organisation and implementation of the data management throughout the course of a research project. RDMO is funded by the Deutsche Forschungsgemeinschaft (DFG).
+
+<dl>
+  <dt>Home Page</dt>
+  <dd>https://rdmorganiser.github.io</dd>
+  <dt>Source code</dt>
+  <dd>https://github.com/rdmorganiser/rdmo</dd>
+  <dt>Documentation</dt>
+  <dd>http://rdmo.readthedocs.io</dd>
+  <dt>Mailing list</dt>
+  <dd>https://www.listserv.dfn.de/sympa/subscribe/rdmo</dd>
+  <dt>Slack</dt>
+  <dd>https://rdmo.slack.com</dd>
+  <dt>Demo</dt>
+  <dd>https://rdmo.aip.de</dd>
+</dl>
+
+If you encounter any problems or bugs with the RDMO Software, or if you want to request a feature, please file an issue here: <https://github.com/rdmorganiser/rdmo/issues>. For problems or suggestions with questionaires, the RDMO domain model or other content, please use the issues in the [rdmo-catalog](https://github.com/rdmorganiser/rdmo-catalog) repository: <https://github.com/rdmorganiser/rdmo-catalog/issues>. In order to file issues, you will need a GitHub account.
