@@ -1,0 +1,17 @@
+pytest_cppython-0.3.1.dev46.dist-info/METADATA,sha256=Hh1VqHIjNQ6amOgNoVvb9C7qHZg5OdOrc_yJnfrDjEI,618
+pytest_cppython-0.3.1.dev46.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+pytest_cppython-0.3.1.dev46.dist-info/entry_points.txt,sha256=6fcCMYLOw9-vhFvcNPEPewWWKCWYHREqrEmuwxwRwo8,254
+pytest_cppython-0.3.1.dev46.dist-info/licenses/LICENSE.md,sha256=4XhggXv6hvoEtvED0W81vVnb876ciAL5_WC9bmwgcPc,1073
+pytest_cppython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_cppython/data/default/pyproject.toml,sha256=mzBMYccDTlgNn59rgjYtWcM49v_1YkRwsA0xuuOEw1I,18
+pytest_cppython/mock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_cppython/mock/generator.py,sha256=xbW2zeTZJFX5vl6Nmdyvas5zORSNw1yqio4FL3d3EVA,1767
+pytest_cppython/mock/interface.py,sha256=ZsstwkvTEsG_wyGdI1qvqqwjJxoPr_Y5rcr66zBUKLo,351
+pytest_cppython/mock/provider.py,sha256=W2XQiaDew0486-rzfyj2619hs8DRjAgUemrNr1YPg6Q,2526
+pytest_cppython/mock/scm.py,sha256=D0pRtqEc1s4fJ0RSul4bbfrhJjfE3g4XpuB2wbizhc0,1186
+pytest_cppython/plugin.py,sha256=ZUxxffapXeK43V3rBnUp-P-F5gIFvh47Ynoz1uv5m6w,9502
+pytest_cppython/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_cppython/shared.py,sha256=M2D-VTehdL8nqPrU5PSX_IP09GGxjlnSKz-q7Qb3ovQ,13922
+pytest_cppython/tests.py,sha256=B9mmWiQRZtgAs86tMuKrv6VhgAlo3soWArJ_sJnUaJ8,3787
+pytest_cppython/variants.py,sha256=f5-Nuuf7gEKllddkA8rGMCsO18pEv362R33rzn8BIws,2961
+pytest_cppython-0.3.1.dev46.dist-info/RECORD,,
