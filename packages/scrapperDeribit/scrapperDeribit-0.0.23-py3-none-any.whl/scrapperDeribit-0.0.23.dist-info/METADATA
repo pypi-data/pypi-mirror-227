@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: scrapperDeribit
+Version: 0.0.23
+Summary: Deribit Scrapping Interface
+Author: Molozey
+Author-email: molozeyWorking@gmail.com
+Keywords: data-scrapper deribit crypto
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy ~=1.21
+Requires-Dist: pandas ~=2.0.3
+Requires-Dist: websockets ~=10.3
+Requires-Dist: PyYAML ~=6.0.1
+Requires-Dist: tqdm ~=4.64.1
+Requires-Dist: requests ~=2.31.0
+Requires-Dist: mysql-connector-python ~=8.1.0
+Requires-Dist: websocket-client ~=1.4.1
+Requires-Dist: plotly ~=5.16.1
+Requires-Dist: dash ~=2.12.1
+Requires-Dist: numba ~=0.57.1
+Requires-Dist: matplotlib ~=3.7.2
+Requires-Dist: setuptools ~=63.4.3
+
+# TODO: make readme
