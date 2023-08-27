@@ -1,0 +1,8 @@
+chromedriver_auto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chromedriver_auto/driver_ready.py,sha256=RBxBKBX85oB73Ec1D_2HLgdlT8KwCG9yCJQLpF-6u0c,5334
+chromedriver_auto/test.py,sha256=iCFrljxXw4vPeXKRPY3xLWzPvTwQLDOK3yzo6n3WR2o,324
+chromedriver_auto-1.0.12.dist-info/LICENSE,sha256=BUm1GQIr4-nssR8n6zLHLDqZdxiH5mXakM0Qu2vBYhQ,1074
+chromedriver_auto-1.0.12.dist-info/METADATA,sha256=Yk3ilyxDljxVCoOt5elYidN8lBvZ_8kVYsjehv-A6bo,1408
+chromedriver_auto-1.0.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+chromedriver_auto-1.0.12.dist-info/top_level.txt,sha256=8FBnt6ZWH9GZGYOtFtB7Ot_jt_-bW7Azv0gD92Tlj7o,18
+chromedriver_auto-1.0.12.dist-info/RECORD,,
