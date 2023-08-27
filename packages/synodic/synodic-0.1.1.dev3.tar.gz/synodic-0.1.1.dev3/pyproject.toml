@@ -1,0 +1,44 @@
+[project]
+name = "synodic"
+description = "Company CLI"
+authors = [
+    { name = "Synodic Software", email = "asher.norland@synodic.software" },
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+dynamic = []
+version = "0.1.1.dev3"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/Synodic-Software/Synodic"
+repository = "https://github.com/Synodic-Software/Synodic"
+
+[tool.pdm.options]
+update = [
+    "--update-all",
+]
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "black>= 23.7.0 ",
+    "isort>=5.12.0",
+    "mypy>=1.5.1 ",
+    "pylint>=2.17.5",
+]
+test = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
