@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flash-attention-softmax-n
+Version: 0.1.2
+Summary: CUDA and Triton implementations of Flash Attention with SoftmaxN.
+Home-page: https://github.com/softmax1/Flash-Attention-Softmax-N
+Author: Christopher W. Murphy
+Author-email: murphtron5000@gmail.com
+License: GPLv3
+Keywords: artificial intelligence,attention mechanism,transformers
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: triton
+License-File: LICENSE
