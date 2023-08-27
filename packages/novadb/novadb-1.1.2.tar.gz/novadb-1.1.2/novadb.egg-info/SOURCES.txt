@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+novadb/__init__.py
+novadb/configurator.py
+novadb/connection.py
+novadb/executor.py
+novadb/ocl.ini
+novadb/parser.py
+novadb/query.py
+novadb.egg-info/PKG-INFO
+novadb.egg-info/SOURCES.txt
+novadb.egg-info/dependency_links.txt
+novadb.egg-info/requires.txt
+novadb.egg-info/top_level.txt
