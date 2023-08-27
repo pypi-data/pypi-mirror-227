@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: AstroKundli
+Version: 1.0.0
+Summary: Python library for Astrology
+Home-page: https://github.com/EH30/AstroKundli
+Author: EH
+License: MIT
+Keywords: Astrology,Sidereal Astrology,Kundli
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text
+License-File: LICENSE
+
+This Script uses flatlib sidereal to generate Kundli
