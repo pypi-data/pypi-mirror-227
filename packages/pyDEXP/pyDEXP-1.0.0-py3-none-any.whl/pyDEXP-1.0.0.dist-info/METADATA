@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyDEXP
+Version: 1.0.0
+Summary: Generate design matrix for design of experiments (DOE).
+Home-page: https://github.com/rayguna/pyDEXP
+Author: Ray Gunawidjaja
+Author-email: ray.gunaw@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/rayguna/pyDEXP/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas <=1.3.3,>=1.0.0
+Requires-Dist: numpy <=1.21.2,>=1.18.0
+Requires-Dist: matplotlib <=3.4.3,>=3.1.0
+Requires-Dist: scipy <=1.7.1,>=1.4.0
+
+Capabilities include: generating design matrices for 2^k experiments, analyzing the data using Pareto chart and ANOVA, and fitting the data to a linear regression model. The current version is only limited to a 2-level full factorial design.
