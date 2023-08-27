@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Processador_XML_NFE.egg-info/PKG-INFO
+Processador_XML_NFE.egg-info/SOURCES.txt
+Processador_XML_NFE.egg-info/dependency_links.txt
+Processador_XML_NFE.egg-info/requires.txt
+Processador_XML_NFE.egg-info/top_level.txt
+processador_nfe/__init__.py
+processador_nfe/processador.py

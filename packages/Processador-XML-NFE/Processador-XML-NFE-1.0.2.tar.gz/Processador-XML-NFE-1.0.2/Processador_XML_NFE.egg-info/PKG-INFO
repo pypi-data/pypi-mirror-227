@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Processador-XML-NFE
+Version: 1.0.2
+Summary: Extraia relatórios a partir do XML de diversas Notas Fiscais Eletrônicas(NFE) e (NFCE) de uma só vez!
+Author: Henrique Venancio
+Author-email: hvs.git@gmail.com
+License: MIT License
+Keywords: NFE
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Processador-XML
+
+Script que filtra arquivos .XML que definem uma NFE e extrai algumas informações gerando um
+arquivo do tipo .xlsx (Excel).
+
+### Informações extraidas
+
+- Chave de Acesso da NFE
+- Número da NFE
+- Data da Emissão
+- Nome do Fornecedor
+- Valor Total da NFE
