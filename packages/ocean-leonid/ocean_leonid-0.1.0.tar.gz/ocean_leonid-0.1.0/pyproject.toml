@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "ocean-leonid"
+version = "0.1.0"
+description = ""
+authors = ["Robert Lawrence"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+dash = "^2.12.1"
+requests = "^2.31.0"
+pandas = "^2.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-sv"
+log_cli = true
+testpaths = ["tests"]
