@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "cloudflare-dyndns"
+version = "5.0beta5"
+description = "CloudFlare Dynamic DNS client"
+authors = ["Kiss György <gyorgy@duck.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/kissgyorgy/cloudflare-dyndns"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.0"
+pydantic = "<2.0"
+truststore = "^0.7.0"
+httpx = "^0.24.0"
+
+[tool.poetry.scripts]
+cloudflare-dyndns = 'cloudflare_dyndns.cli:main'
+
+[tool.poetry.group.dev.dependencies]
+pyoxidizer = "^0.24.0"
+pytest = "^6.2.3"
+black = { version = "^19.10b0", allow-prereleases = true }
+pylint-starlark = "^1.1"
+
+[tool.pytest.ini_options]
+markers = ["ipv6: Run IPv6 related tests with the --ipv6 custom pytest option"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
