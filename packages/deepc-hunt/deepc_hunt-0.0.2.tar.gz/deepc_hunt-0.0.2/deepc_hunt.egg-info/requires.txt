@@ -1,0 +1,6 @@
+cvxpylayers==0.1.6
+torch==2.0.1
+matplotlib
+numpy
+cvxpy
+tqdm
