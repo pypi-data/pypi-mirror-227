@@ -1,0 +1,4 @@
+tomlkit
+Pillow
+twitchirc_drgreengiant
+pynput
