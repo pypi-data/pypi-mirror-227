@@ -1,0 +1,13 @@
+juga/__init__.py,sha256=3HbDTYpGtEcKees3vjfpHYcpdlK434VNWeaFJ-xGpTc,73
+juga/__main__.py,sha256=JLTcBDudrKv2Hf4qWrJdZtNXysYrBfU60TDe9T4b3R4,783
+juga/global_stock_scraper.py,sha256=RhPmF4dcS9TC-99xMQe45ZhxE6Y4ytsC0OwsrbWvc80,5457
+juga/korea_stock_scraper.py,sha256=9RfoNPf6Pzl6o_pF-_EBBRN4oN0IPOTGxwqsv7dQlgc,3400
+juga/metadata_scraper.py,sha256=j6vrsPEluqPW_YFocjwbL5sNRMBkbUOp-ASCIUlovWs,2499
+juga/naver_stock_api.py,sha256=mQpmqVNiVf9uzcu5GPEl0p0r9y7Xeh0yl6EsPbN6vZk,2193
+juga/naver_stock_models.py,sha256=MDiUFe6W-6zhy9bDcUKjQvogyiFORYeybrsjINbNXRo,1641
+juga/stock_scraper_base.py,sha256=rd-L-ngAnShinJ4whqIcI6XMH7944eGDcVG0LgadIvE,1518
+juga-0.1.0.dist-info/LICENSE,sha256=PaosD9aTsPxtKkqj_0zaSZ9LGQsydWUSvRi7O8atv-s,1070
+juga-0.1.0.dist-info/METADATA,sha256=5DIOk_0bRZvciiY27boFDP2Hg5TZwfOKtdRKV9mwTew,537
+juga-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+juga-0.1.0.dist-info/entry_points.txt,sha256=vJGrLG4AXUnZeXauyA8bJmrOWLPHlQRMbo6qZbnVKR4,46
+juga-0.1.0.dist-info/RECORD,,
