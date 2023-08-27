@@ -1,0 +1,14 @@
+lexorank/__init__.py,sha256=GUVuAC6ws6Mo9jsZ5KQJKT0qFVdecVqt1V6t2PMxDos,308
+lexorank/base.py,sha256=8VNbiQQmQI1cTHTrfkHyF9RFg8UZ8dKKSvvhkS2buOw,2463
+lexorank/decimal.py,sha256=lTd7VcqraIErdm7xKEjmjpuAl03ShCYTLNbY_kpXLww,5766
+lexorank/decimal_test.py,sha256=ewCOgiYsAPTXvbrPhohSptmcf-XOZA3X0JFvYC8M3eo,4293
+lexorank/integer.py,sha256=F901jKRrf8o_xOPWRzkRpmXv4HrY-0yEF-Vapt4N_so,6518
+lexorank/integer_test.py,sha256=i6bnZZFyO15GyVcAL_0MpkjfPF40re_SsoEH6guD38c,4239
+lexorank/lexorank.py,sha256=nhx0iYQ6anRV8VUWvWxYGzJf4ZTvrDw-meW9UrpWXYA,5834
+lexorank/lexorank_test.py,sha256=ab-vwVZMrAMi9Ac_mHmDBQZNi8POMXvd27lFAgsZXdc,2475
+lexorank/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lexorank_py-0.1.1.dist-info/LICENSE,sha256=Y6uz8i9VjebH071QhYoY3A-hVu-nbCzie5kqsZJkdF4,1088
+lexorank_py-0.1.1.dist-info/METADATA,sha256=jp8bTzvYHLcfXsz_xJjmihO-_4jD83CgW_4VP1isGzg,2697
+lexorank_py-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lexorank_py-0.1.1.dist-info/top_level.txt,sha256=NQK9RbHqERmpsrpn7vSiX8huPiJIlnPJzhl9OmGQep4,9
+lexorank_py-0.1.1.dist-info/RECORD,,
