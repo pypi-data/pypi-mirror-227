@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mangroves
+Version: 1.0.1
+Summary: A Dynamic Data Management system for Advanced AI Applications
+Home-page: https://github.com/1ssb/mangroves
+Author: Subhransu S. Bhattacharjee
+Author-email: Subhransu.Bhattacharjee@anu.edu.au
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Requires-Dist: torch (>=1.8.1)
+
+For the full documentation and installation instructions, please visit the GitHub page: https://github.com/1ssb/mangroves
