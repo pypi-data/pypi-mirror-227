@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/Ethnologue.egg-info/PKG-INFO
+src/Ethnologue.egg-info/SOURCES.txt
+src/Ethnologue.egg-info/dependency_links.txt
+src/Ethnologue.egg-info/top_level.txt
+src/Etho/__init__.py
+src/Etho/ethnologue.py
+src/Etho/data/etho.json
