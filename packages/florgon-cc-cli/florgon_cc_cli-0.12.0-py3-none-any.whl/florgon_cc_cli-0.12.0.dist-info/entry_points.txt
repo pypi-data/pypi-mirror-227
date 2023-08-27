@@ -1,0 +1,3 @@
+[console_scripts]
+florgon-cc=florgon_cc_cli.main:main
+
