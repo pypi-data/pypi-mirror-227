@@ -1,0 +1,9 @@
+[aiida.calculations]
+zeopp.network=aiida_zeopp.calculations.network:NetworkCalculation
+
+[aiida.data]
+zeopp.parameters=aiida_zeopp.data.parameters:NetworkParameters
+
+[aiida.parsers]
+zeopp.network=aiida_zeopp.parsers.network:NetworkParser
+
