@@ -1,0 +1,4 @@
+[console_scripts]
+finetune_workshop=proteinworkshop.finetune:_main
+train_workshop=proteinworkshop.train:_main
+
