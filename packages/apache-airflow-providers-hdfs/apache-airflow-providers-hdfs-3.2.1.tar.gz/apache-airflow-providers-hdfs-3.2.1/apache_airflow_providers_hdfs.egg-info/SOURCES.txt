@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+apache_airflow_providers_hdfs.egg-info/PKG-INFO
+apache_airflow_providers_hdfs.egg-info/SOURCES.txt
+apache_airflow_providers_hdfs.egg-info/dependency_links.txt
+apache_airflow_providers_hdfs.egg-info/not-zip-safe
+apache_airflow_providers_hdfs.egg-info/top_level.txt
