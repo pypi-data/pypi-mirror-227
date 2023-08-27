@@ -1,0 +1,13 @@
+gitreview_gpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitreview_gpt/__main__.py,sha256=wd5-KCqUwtEvCcdqAhcetEdt4qN3jFT7fHUcIeay62k,98
+gitreview_gpt/app.py,sha256=_rhCa2emw-dTw0wXakhWufOrUSbh12p8yOiWXcFtfYg,5456
+gitreview_gpt/formatter.py,sha256=G4821rLSsVdRESfggNvFA0huJglZE42o47k_J6EYUmI,11208
+gitreview_gpt/prompt.py,sha256=uiuauebVTTZw6lcejOaVkgmrt7qH24tcU_jDpXLCHqw,5073
+gitreview_gpt/request.py,sha256=q0XS-u5mrqdYvSYQA2wp6jw6e1J1rOZpGEhG1n8xb_8,887
+gitreview_gpt/reviewer.py,sha256=xYCr92eciEENPegNb6SCndkS9dEfKKPCuNaEctoGMg0,10449
+gitreview_gpt/utils.py,sha256=zuTMXRFgiJgefgPOzTlA-gsYjDMs4ZzjzWlJlPLw-dY,3531
+gitreview_gpt-0.1.4.dist-info/LICENSE,sha256=88xUoL3asiUYGNMS8eWnACS3PEEmYFGY5-VJPM8R3pI,1069
+gitreview_gpt-0.1.4.dist-info/METADATA,sha256=4-Kvs9pL_Th_G3sj1UZMjk9GFa6pKxnXSSpcqNP-2rM,3022
+gitreview_gpt-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+gitreview_gpt-0.1.4.dist-info/entry_points.txt,sha256=qytvn3bdxAH1C0l2NoCo2NtPQj4Axrg4_rCA6ua3IDI,52
+gitreview_gpt-0.1.4.dist-info/RECORD,,
