@@ -1,0 +1,16 @@
+# Coverage configuration
+# ----------------------
+coverage:
+  status:
+    project:
+      default:
+        informational: true
+    patch:
+      default:
+        informational: true
+
+# Ignoring Paths
+# --------------
+# which folders/files to ignore
+ignore:
+-  ^tests/.*\Z
