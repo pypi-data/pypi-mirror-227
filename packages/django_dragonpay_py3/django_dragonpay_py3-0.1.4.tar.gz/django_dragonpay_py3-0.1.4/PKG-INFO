@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django_dragonpay_py3
+Version: 0.1.4
+Summary: 
+Author: Cymmer John Maranga
+Author-email: cymmer4@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lxml (>=4.6.3,<5.0.0)
+Requires-Dist: pycryptodome (>=3.18.0,<4.0.0)
