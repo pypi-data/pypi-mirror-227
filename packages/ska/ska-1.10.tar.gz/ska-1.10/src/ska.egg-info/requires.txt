@@ -1,0 +1,15 @@
+
+[django]
+django-nine>=0.2.4
+
+[django-constance]
+django-constance
+django-nine>=0.2.4
+
+[djangorestframework]
+djangorestframework
+django-nine>=0.2.4
+
+[drf-jwt]
+drf-jwt
+django-nine>=0.2.4
