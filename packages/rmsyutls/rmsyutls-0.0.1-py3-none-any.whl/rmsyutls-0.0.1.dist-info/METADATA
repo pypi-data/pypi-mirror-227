@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: rmsyutls
+Version: 0.0.1
+Summary: Utility functions for Ramsey
+Project-URL: homepage, https://github.com/ramsey-devs/rmsy-utls
+Author-email: Simon Dirmeier <sfyrbnd@pm.me>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Requires-Dist: chex>=0.1.5
+Requires-Dist: jax>=0.4.5
+Description-Content-Type: text/markdown
+
+# rmsy-utls
+
+[![status](http://www.repostatus.org/badges/latest/concept.svg)](http://www.repostatus.org/#concept)
+[![ci](https://github.com/ramsey-devs/rmsy-utls/actions/workflows/ci.yaml/badge.svg)](https://github.com/ramsey-devs/rmsy-utls/actions/workflows/ci.yaml)
+
+> Utility functions for Ramsey
+
+## About
+
+Contains some utility functions for using Ramsey and other JAX-based packages.
+
+## Installation
+
+To install the latest GitHub <RELEASE>, just call the following on the
+command line:
+
+```bash
+pip install git+https://github.com/ramsey-devs/rmsy-utls@<RELEASE>
+```
+
+## Author
+
+Simon Dirmeier <a href="mailto:sfyrbnd @ pm me">sfyrbnd @ pm me</a>
