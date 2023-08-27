@@ -1,0 +1,10 @@
+setup.py
+cinfo_jk/__init__.py
+cinfo_jk/cinfo_jk.py
+cinfo_jk.egg-info/PKG-INFO
+cinfo_jk.egg-info/SOURCES.txt
+cinfo_jk.egg-info/dependency_links.txt
+cinfo_jk.egg-info/entry_points.txt
+cinfo_jk.egg-info/requires.txt
+cinfo_jk.egg-info/top_level.txt
+cinfo_jk/lib/__init__.py
