@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test_pypi_project_idiomatik"
+version = "0.2.7"
+authors = [
+  {name="Timmy McKimmy", email="TMcK@example.com"},
+]
+description = "Test project, implements Fibonacci and Tribonacci functions"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+]
+dependencies = [
+  "httpx[http2]>=0.24",
+]

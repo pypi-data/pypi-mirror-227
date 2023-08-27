@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: test_pypi_project_idiomatik
+Version: 0.2.7
+Summary: Test project, implements Fibonacci and Tribonacci functions
+Author-email: Timmy McKimmy <TMcK@example.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# Test project
+
+This is test project, implements Fibonacci and ribonacci functions

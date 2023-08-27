@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+pyproject.toml
+src/pypi_test_idiomatik/__init__.py
+src/pypi_test_idiomatik/example.py
+src/test_pypi_project_idiomatik.egg-info/PKG-INFO
+src/test_pypi_project_idiomatik.egg-info/SOURCES.txt
+src/test_pypi_project_idiomatik.egg-info/dependency_links.txt
+src/test_pypi_project_idiomatik.egg-info/requires.txt
+src/test_pypi_project_idiomatik.egg-info/top_level.txt
