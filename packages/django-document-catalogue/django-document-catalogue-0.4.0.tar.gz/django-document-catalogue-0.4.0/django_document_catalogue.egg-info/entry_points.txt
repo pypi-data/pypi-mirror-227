@@ -1,0 +1,2 @@
+[console_scripts]
+manage.py = django_document_catalogue:django_manage
