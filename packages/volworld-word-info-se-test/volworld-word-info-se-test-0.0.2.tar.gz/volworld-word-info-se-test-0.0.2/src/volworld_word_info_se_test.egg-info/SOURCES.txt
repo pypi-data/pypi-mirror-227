@@ -1,0 +1,7 @@
+setup.py
+src/volworld_word_info_se_test/__init__.py
+src/volworld_word_info_se_test/pgf15_example_voices_of_word_page.py
+src/volworld_word_info_se_test.egg-info/PKG-INFO
+src/volworld_word_info_se_test.egg-info/SOURCES.txt
+src/volworld_word_info_se_test.egg-info/dependency_links.txt
+src/volworld_word_info_se_test.egg-info/top_level.txt
