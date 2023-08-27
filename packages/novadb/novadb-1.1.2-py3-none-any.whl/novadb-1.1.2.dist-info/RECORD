@@ -1,0 +1,12 @@
+novadb/__init__.py,sha256=6m2R_nzcmq0Q3OqY2mRsNyrkuWHTChNhZk49fFiKXks,88
+novadb/configurator.py,sha256=_OEQyuR9Fwc-FXeqnmUThkWAaDymyYdxZ_RHuHBsNZk,5764
+novadb/connection.py,sha256=GWYrtVsVgxYw1HjQx4KYqagJhHFI4WuG1y86FgwuQKE,527
+novadb/executor.py,sha256=VH2EY6BQxO3g3jiKQcdb7pe_AHT5kRNjbEQePS6zrTs,6447
+novadb/ocl.ini,sha256=mdHeneeaEK5L_EZc0itxaaDnJbIRFi7eFFOnjuGoT-s,95
+novadb/parser.py,sha256=NuMVZ_VpaminLf8GQtKLhDYeaA3PKaY1pP6fMlpHxtk,3707
+novadb/query.py,sha256=QjJzhKAh_6nLznylU3gs_NH_jkcD0kI6uMRr-TFKgOM,8627
+novadb-1.1.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+novadb-1.1.2.dist-info/METADATA,sha256=QAu5QswnvF2aKkz6SptPQnpLwWvzLM-8gmvaEmPKYJQ,260
+novadb-1.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+novadb-1.1.2.dist-info/top_level.txt,sha256=Pi7f8FGsKoTAXn-7c4WY4MmoYxELuFCsrb2gK4TynwM,7
+novadb-1.1.2.dist-info/RECORD,,
