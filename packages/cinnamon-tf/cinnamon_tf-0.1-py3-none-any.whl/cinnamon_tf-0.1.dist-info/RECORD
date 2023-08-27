@@ -1,0 +1,13 @@
+cinnamon_tf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cinnamon_tf/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cinnamon_tf/components/callback.py,sha256=rkQFBHxodPVxBnahw6__pVuMdIXTpRVH6s08Q8mciN8,4527
+cinnamon_tf/components/helper.py,sha256=Xa2tRUEUkQzFQ8Mm75OCIFCupwIG8Hi2Ttq9QLPNGH8,1660
+cinnamon_tf/components/model.py,sha256=cSJ3Mn09f5BPw42mEU0-UHDS_6o3HICuC2u28Y9Q6c0,15877
+cinnamon_tf/configurations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cinnamon_tf/configurations/callback.py,sha256=JmiYyabjBbt25CkBd9uTBxcKguzCLFBgRmuGZdqo6y0,2221
+cinnamon_tf/configurations/helper.py,sha256=8YTahTlTMFW7Fl2UBB91gl6RWVW8HaoWcXkJBdechCM,2418
+cinnamon_tf-0.1.dist-info/LICENSE,sha256=92BEhVnbrn0Ll5-gyrX5nguV1fYW5E3WFbO3rqj1b3c,1072
+cinnamon_tf-0.1.dist-info/METADATA,sha256=yzIxXFlxAY9E8WTlW95rxOr_Xdw4dg61D0vGAgJohDc,1507
+cinnamon_tf-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cinnamon_tf-0.1.dist-info/top_level.txt,sha256=kJRiQwISsAq7LTrtmariks8nWSeBZ72zmKrcPT9f7A4,12
+cinnamon_tf-0.1.dist-info/RECORD,,
