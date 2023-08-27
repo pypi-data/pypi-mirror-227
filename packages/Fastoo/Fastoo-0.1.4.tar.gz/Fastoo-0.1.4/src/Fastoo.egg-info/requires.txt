@@ -1,0 +1,10 @@
+fastapi
+fastapi
+uvicorn
+pydantic-settings
+toml
+pyyaml
+starlette-wtf
+
+[:python_version < "3.10"]
+importlib-metadata>=3.6.0
