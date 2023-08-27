@@ -1,0 +1,9 @@
+dbeacon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbeacon/beacon.py,sha256=hc9A9f5rrDP6HWvuT5CL8GyEfZ7Pp9_7deGARG2Ets8,15958
+dbeacon/scanner.py,sha256=eXpmijxqgXaZYEuJKQy01deg0tDp7jIBessUVcQWmm0,4442
+dbeacon/utils.py,sha256=0GSlgG0MCwYUjEd9d48pqn7H0aKaj0GNfQlwhfaqH4M,1685
+pydBeacon-1.0.0.dist-info/LICENSE,sha256=OkumNJeWtmw5LIdVghrvEM5lBnLnvMM7EZ-JMsafvvE,1071
+pydBeacon-1.0.0.dist-info/METADATA,sha256=Hbr_vTzpqyKvFGk75zC3PNfKakkaTCmYheOAO_n4Bew,1618
+pydBeacon-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pydBeacon-1.0.0.dist-info/top_level.txt,sha256=AhmDl0uk2KdiSVkFacTjKUObNhZOQtO62wF2HnvuC8c,8
+pydBeacon-1.0.0.dist-info/RECORD,,
