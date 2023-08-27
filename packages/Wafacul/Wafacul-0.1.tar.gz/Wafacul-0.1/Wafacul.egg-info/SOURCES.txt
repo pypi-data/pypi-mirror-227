@@ -1,0 +1,6 @@
+setup.py
+Wafacul.egg-info/PKG-INFO
+Wafacul.egg-info/SOURCES.txt
+Wafacul.egg-info/dependency_links.txt
+Wafacul.egg-info/top_level.txt
+cod/__init__.py
