@@ -1,0 +1,24 @@
+funckle/.cookiecutter/new-function/cookiecutter.json,sha256=uflnxjsX8_MrZBVrZdYgdL2O8nF95oabVHXQUbL-MV8,334
+funckle/.cookiecutter/new-function/{{ cookiecutter.project_slug }}/.funckle.json,sha256=1_a37iiYUfF1Zit5A2okxsDxGFx_hk1W-gI8fFsMVtM,184
+funckle/.cookiecutter/new-function/{{ cookiecutter.project_slug }}/README.md,sha256=s-alrckO8NutVmDsO9KOhLlN_AMxnQxvq_bTyxg0l0I,1806
+funckle/.cookiecutter/new-function/{{ cookiecutter.project_slug }}/main.py,sha256=s9RYSFOXju0wN_Bm_pGCp46_q7EmCkZ8m4a-yKL27dk,385
+funckle/.cookiecutter/new-function/{{ cookiecutter.project_slug }}/requirements.txt,sha256=SMQ225GVAFuM8scxbiivKyZmKyQm-TVKCD19wTvZQ-Y,7
+funckle/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funckle/cli/__init__.py,sha256=fEpMjx0-RDSlqHs3qoJ3jlgKTlnzaI7H_Bo1bcj8cB4,712
+funckle/cli/deploy.py,sha256=cBL9nZ-ta2KJ3OgqkJTSXQQ-D6LygZUysfB405nrhr8,2954
+funckle/cli/login.py,sha256=OpKnjvWSpNArPKhdGSGZiLIsQ4eSoumCjWlaZkH__XA,2013
+funckle/cli/settings.py,sha256=mzjE8dhX7cq0iPXYzU7-tyzph8vkAuM7OjBfNqr9r7M,2834
+funckle/function/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funckle/function/events/__init__.py,sha256=ARGdp80GB-aQ5rWnpSi9Q9KdUp_NP2jlWUB9V63RBdo,516
+funckle/function/events/_base.py,sha256=35ev1qrVmDWSGHQAHIJgPppuSeEJzZvR6v8utdPug4s,711
+funckle/function/events/access_request.py,sha256=4mLnb41c27mWvwIHc938AhcQjtoOO-ipcM10KOJrkKk,336
+funckle/function/events/branch.py,sha256=XaV4D7QUgTZZa_lcUk3pAKVB8c7R7Hyok4Y0Wqmxs-g,789
+funckle/function/events/comment.py,sha256=i4kCksI9Kiid3MEt2PqODNQpgk9LfalmapSNmLpFhbE,1402
+funckle/function/events/commit.py,sha256=a6NgGQN56390CghNpgwG3wbdpIjUVho5Lezfm2Iz9iA,1366
+funckle/function/events/stream.py,sha256=OOISF7c85w6Wp58v4hirGeHbIVEZozl2xGmA8D7f6Mc,1480
+funckle/function/handler.py,sha256=Fbp3oVLP_nueK7a8PXzA_UzXrP5OBn_msnwknm4Mmvw,1411
+funckle/function/settings.py,sha256=G5G7_ccy-sH_zl3QWtYzExOkGl3Pp4fsfpOwUlmMhYo,507
+funckle-0.1.2.dist-info/METADATA,sha256=bACIxFiVYYW8T3XMvzq6hVG_qncf2RKmNooGE8G2Vi0,679
+funckle-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+funckle-0.1.2.dist-info/entry_points.txt,sha256=9QEijImvCchD0f5zomq-3kn6azKqbJzv0RyKcy--RKo,43
+funckle-0.1.2.dist-info/RECORD,,
