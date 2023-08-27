@@ -1,0 +1,10 @@
+s2cache/__init__.py,sha256=md3bOsJmwHOrhs8uuBuRaAb8guX8KE_vdZJRVNn9Vjg,69
+s2cache/config.py,sha256=3oj0JjUGeRCXs8KudGCmr0yXtbuN5Oq4XFqtpQH80Ic,2879
+s2cache/corpus_data.py,sha256=suaEjhFDMLqb5VgvtnUPrXSzew16Uhdv4zIrIqpANlU,7666
+s2cache/filters.py,sha256=cJPDQuhazfOD4yZV7l0YhE_xuCHmQ_nssVKl5GFcHX0,2385
+s2cache/models.py,sha256=dSdSIW_v1QADa-yx4wb0Ya3BJstv5l-NW-S5OV0slUw,1916
+s2cache/semantic_scholar.py,sha256=Dvy-d4t8vOG95oBywTgsi7ybKDQzBAxhhtsQNM7L-Z4,45422
+s2cache-0.1.0.dist-info/METADATA,sha256=dUC-Ha98HXs-bqm7VCvsrBzATo4YGtJBserAwIAX058,2236
+s2cache-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+s2cache-0.1.0.dist-info/entry_points.txt,sha256=x4vNPUTGZt_nlTPa2WOxPxP_FI9iQdJ0xGS8rh9bBRg,36
+s2cache-0.1.0.dist-info/RECORD,,
