@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ctxdb"
+version = "0.0.1"
+description = ""
+authors = ["Philip Solarz <philipsolarz@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+numpy = "^1.22.2"
+Flask = "^2.2.0"
+docarray = {extras = ["redis"], version = "^0.37.0"}
+fastapi = "^0.101.1"
+uvicorn = "^0.23.2"
+sentence-transformers = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+debugpy = "^1.6.2"
+replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+urllib3 = "1.26.15"
+poetry = {url="https://storage.googleapis.com/poetry-bundles/poetry-1.1.15-py2.py3-none-any.whl"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
