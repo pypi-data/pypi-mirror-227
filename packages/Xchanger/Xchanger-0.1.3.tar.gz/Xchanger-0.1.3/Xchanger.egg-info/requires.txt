@@ -1,0 +1,6 @@
+requests
+requests_cache
+beautifulsoup4
+pandas
+tqdm
+termcolor
