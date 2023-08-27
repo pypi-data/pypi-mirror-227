@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hurllm
+Version: 1.0.7
+Summary: Closed source LLM model.
+Home-page: https://hurllm.web.app
+Author: hurdotcom
+License: Proprietary Software
+Project-URL: Source code, https://github.com/hurllm/hurllm1.0.0
+Project-URL: Download, https://github.com/hurllm/hurllm1.0.0/archive/refs/heads/main.zip
+Keywords: LLM,Transformers,Artificial Intelligence,NLP,GPT
+License-File: LICENSE.txt
+
+HurLLM is a proprietary pre-trained Artificial Intelligence model for LLM (Large Language Model) with Transformers technology. It uses a parameter base trained through August 2023 and has fine-tuning added monthly thereafter. The HurLLM code library algorithm splits its processing between the local machine and the remote server hosting the model parameters. Floating point weights are read remotely via API and interpreted locally on your local machine, making it possible to run the code on any machine with 4 Gigabytes or more of RAM memory without using GPU and maintaining the privacy of the data of the user that are processed on the client hardware. It is a closed source model with thirty free messages to test in the trial version. The paid version has no usage or availability limitations, allowing the user to make as many requests as he wants without changing the license price, which is fixed at $2.50 (two dollars and fifty cents/month) without readjustments.
+
+from hurllm import HurLLM
+
+hurllm = HurLLM(API_KEY='YOUR_API_KEY')
+answer = hurllm.conversation(prompt='Your question here.')
+print(answer)
