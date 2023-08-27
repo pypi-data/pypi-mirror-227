@@ -1,0 +1,54 @@
+
+<p align="center">
+  <img src="https://github.com/quantumformalism/NZ_SeQTech/blob/main/Docs/Logo.png?raw=true" alt="NZ-SeqTech Logo">
+  
+<p align="center">
+  <em><strong>Bringing DNA sequencing data into the quantum computing era.<strong><em>
+</p>
+
+## About ℹ️
+
+NZ-SeqTech is a Python library designed to facilitate DNA sequence encoding in quantum machine learning applications. With NZ-SeqTech, you can effortlessly encode DNA sequences using various data encoding techniques we have developed and discussed in our article 📄 [Classical-to-Quantum Sequence Encoding in Genomics](https://www.researchgate.net/publication/370213316_Classical-to-Quantum_Sequence_Encoding_in_Genomics). This library is distributed under the Apache license.
+
+## Installation 🛠️
+
+You can install NZ-SeqTech using pip:
+
+```shell
+pip install nz-seqtech
+```
+
+# Features 🌟
+-----------
+
+- Advanced encoding techniques for DNA sequences.
+- Smooth integration of encoded sequences into quantum machine learning workflows.
+- Additional functions including DNA analysis and classical machine learning support.
+
+# Usage 🚀
+--------
+
+```
+import nz_seqtech
+from nz_seqtech.quantum_dna_encoding import cosine_encoding
+
+# Encode DNA sequence using a specific technique
+encoded_sequence = cosine_encoding('sequence')
+```
+Make sure to replace `sequence` with the actual DNA sequence you want to encode.
+
+
+# Contributing 👥
+---------------
+
+We welcome contributions to NZ-SeqTech! Feel free to submit a pull request if you find any issues or would like to add enhancements. For significant changes, please open an issue first to discuss the proposed changes.
+
+# License 📜
+----------
+
+NZ-SeqTech is distributed under the Apache License. Read more about it in the [LICENSE](https://github.com/quantumformalism/NZ-SeQTech/LICENSE) file.
+
+# Contact 📬
+----------
+
+If you have any questions or suggestions, please contact us at <hello@nz-seqtech.com.>.
