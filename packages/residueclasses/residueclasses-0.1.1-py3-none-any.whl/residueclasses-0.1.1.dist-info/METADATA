@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: residueclasses
+Version: 0.1.1
+Summary: residueclasses
+Author-email: Aaron Alphabet <aaron.alphabet@posteo.org>
+Project-URL: source, https://github.com/aaron-alphabet/residueclasses
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+License-File: LICENSE.md
+
