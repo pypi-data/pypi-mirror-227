@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cufflinks-ardihikaru
+Version: 0.17.5
+Summary: Productivity Tools for Plotly + Pandas
+Home-page: https://github.com/santosjorge/cufflinks
+Author: Jorge Santos (adjusted by Muhammad Febrian Ardiansyah)
+Author-email: santos.jorge@gmail.com
+License: MIT
+Keywords: pandas,plotly,plotting
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
