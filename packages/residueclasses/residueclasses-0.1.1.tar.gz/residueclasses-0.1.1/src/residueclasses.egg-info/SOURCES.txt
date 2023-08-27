@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/residueclasses/__init__.py
+src/residueclasses.egg-info/PKG-INFO
+src/residueclasses.egg-info/SOURCES.txt
+src/residueclasses.egg-info/dependency_links.txt
+src/residueclasses.egg-info/top_level.txt
