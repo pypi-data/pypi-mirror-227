@@ -1,0 +1,2 @@
+def newHtmlObj(htmlObj={"head":"<title>Hello world!</title>","body":"<h1>It's a HTML webpage!<body>"}):
+    return "<DOCTYPE html>\n<html>\n<head>\n"+htmlObj["head"]+"\n</head>\n<body>\n"+htmlObj["body"]+"\n</body>\n</html>"
