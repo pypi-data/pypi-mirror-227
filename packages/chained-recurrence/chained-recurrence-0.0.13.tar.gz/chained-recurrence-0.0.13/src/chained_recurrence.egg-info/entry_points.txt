@@ -1,0 +1,2 @@
+[console_scripts]
+chained-recurrence = chained_recurrence.__main__:main

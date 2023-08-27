@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+src/chained_recurrence/__init__.py
+src/chained_recurrence/__main__.py
+src/chained_recurrence/on-modify-chained.py
+src/chained_recurrence.egg-info/PKG-INFO
+src/chained_recurrence.egg-info/SOURCES.txt
+src/chained_recurrence.egg-info/dependency_links.txt
+src/chained_recurrence.egg-info/entry_points.txt
+src/chained_recurrence.egg-info/requires.txt
+src/chained_recurrence.egg-info/top_level.txt
