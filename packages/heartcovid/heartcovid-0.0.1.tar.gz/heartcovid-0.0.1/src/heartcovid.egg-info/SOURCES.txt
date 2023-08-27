@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/heartcovid.py
+src/heartcovid.egg-info/PKG-INFO
+src/heartcovid.egg-info/SOURCES.txt
+src/heartcovid.egg-info/dependency_links.txt
+src/heartcovid.egg-info/entry_points.txt
+src/heartcovid.egg-info/top_level.txt
