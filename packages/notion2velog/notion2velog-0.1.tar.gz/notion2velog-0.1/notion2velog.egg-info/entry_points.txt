@@ -1,0 +1,2 @@
+[console_scripts]
+notion2velog = notion2velog.main:main

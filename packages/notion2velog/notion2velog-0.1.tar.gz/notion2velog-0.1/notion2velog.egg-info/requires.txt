@@ -1,0 +1,4 @@
+selenium
+undetected-chromedriver
+notion2md
+requests
