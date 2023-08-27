@@ -1,0 +1,158 @@
+Metadata-Version: 2.1
+Name: djdt-permissions
+Version: 1.0.2
+Summary: A panel for Django Debug Toolbar (DjDT) to display the current user's permissions.
+Home-page: https://github.com/baudhuina/djdt-permissions
+License: BSD-3-Clause
+Keywords: Django Debug Toolbar,DJdT,django-toolbar
+Author: Alain Baudhuin
+Author-email: alain.baudhuin@skynet.be
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: django (>=4.2,<5.0)
+Requires-Dist: django-debug-toolbar (>=4.0.0)
+Project-URL: Repository, https://github.com/baudhuina/djdt-permissions
+Description-Content-Type: text/markdown
+
+# Permission panel for Django Debug Toolbar [![Pypi](https://img.shields.io/pypi/v/djdt-permissions)](http://pypi.org/project/djdt-permissions)
+
+![License](https://img.shields.io/pypi/l/djdt-permissions)
+![coverage](https://img.shields.io/badge/Coverage-94%25-green)
+![Django versions](https://img.shields.io/pypi/djversions/djdt-permissions)
+![Python versions](https://img.shields.io/pypi/pyversions/djdt-permissions)
+
+A simple DjDT panel displaying the permissions granted to the current user, how the 
+current user obtained each one of them (directly or through a group 
+membership), and the resulting consolidated permissions set.
+
+<img width="500" alt="djdt-permission_capture" src="https://github.com/baudhuina/djdt-permissions/assets/26870372/b936a1a1-b9f7-48c8-a9ee-a9c9f77c6989">
+
+## Installation (on top of Django Debug Toolbar)
+
+First, install `django-debug-toolbar` (instructions 
+<a href='https://django-debug-toolbar.readthedocs.io/en/latest/installation.html' target='_blank'>here</a>), then:
+
+
+1. Install permission panel, either with Pip or Poetry:
+
+      ```
+      pip install 'git+https://github.com/baudhuina/djdt-permissions.git@1.0.0#egg=djdt_permissions'
+      ```
+      or complete your project's  `pyproject.toml` file with XXX TO BE COMPLETED and run `poetry install` or `poetry update`.
+
+    <!---
+          ```
+          pip install djdt-permissions
+          ```
+    -->
+
+2. Add `djdt_permission` to `INSTALLED_APPS`, make sure it's below `django.toolbar`:
+
+   Please note that just as the Debug Toolbar, this panel is not supposed to be installed if 'DEBUG' is False.
+
+      ```
+      if DEBUG == True:
+         INSTALLED_APPS += [
+          ...
+          'debug_toolbar',
+          'djdt_permissions',
+          ...
+         ]
+      ```
+
+3. Register the new panel by adding path `djdt_permissions.panels.PermissionsPanel` 
+ to setting `DEBUG_TOOLBAR_PANELS` (which is entirely conditional to `DEBUG`). The 
+ sequence of the panels defines their order in the toolbar.
+
+   ```
+   DEBUG_TOOLBAR_PANELS = [
+        'djdt_permissions.panels.PermissionsPanel',
+        'debug_toolbar.panels.history.HistoryPanel',
+        'debug_toolbar.panels.versions.VersionsPanel',
+        # ... any other panel.
+    ]
+   ```
+   
+4. (optional) If you want the panel to be disabled by default, add its full path
+    in the `DEBUG_TOOLBAR_CONFIG[DISABLE_PANELS]` set.
+
+    ```
+    DEBUG_TOOLBAR_CONFIG = {
+        "DISABLE_PANELS":  {
+             'djdt_permissions.panels.permissions_panelPermissionsPanel',
+             # any other panel to disable
+         },
+        # other config settings.
+    ]
+    ```
+
+<!--- Currently no migrations 
+   5. Apply migrations:
+
+   ```
+   manage.py migrate [--database=<your_database>] [--settings=<your_settings>]
+   ```
+-->
+## Usage
+
+The Permission Panel is used just as any other panel of the Django Debug Toolbar:
+- Open DJdT overlay;
+- Enable, disable, consult the panel at will...
+
+
+## Installing the test project
+
+Would you wish to modify/contribute to this project...
+
+NB: The commands below assume that your 
+`DJANGO_SETTINGS_MODULE`is not set, and that the settings will be the default value from `manage.py`, 
+i.e.'test_project/settings`. If it is set to another value, add a `--setings=test_project.settings` option
+to all `manage.py` commands.
+
+1. Fork the GIT repo from GitHub. It contains a Django test project.
+2. Install dependencies: `poetry install`.
+3. Apply migrations: `manage.py migrate`.
+4. Run server: `manage.py runserver`.
+5. Point your browser at http://localhost:8000.
+
+## Running the tests
+
+Once the test project is installed (see above), run the tests without coverage measurement:
+
+```
+manage.py test
+```
+
+or with coverage measurement (report will be in `coverage_html/index.html`):
+
+```
+coverage run -m manage test [-v2]
+```
+
+To run the tests for all supported python and django combinations:
+
+```
+tox
+```
+
+## Contact me
+
+[alain.baudhuin@skynet.be](mailto:alain.baudhuin@skynet.be)
+
