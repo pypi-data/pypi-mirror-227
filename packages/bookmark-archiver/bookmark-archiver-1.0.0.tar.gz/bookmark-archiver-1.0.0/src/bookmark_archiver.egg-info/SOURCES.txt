@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/bookmarkarchiver.py
+src/bookmark_archiver.egg-info/PKG-INFO
+src/bookmark_archiver.egg-info/SOURCES.txt
+src/bookmark_archiver.egg-info/dependency_links.txt
+src/bookmark_archiver.egg-info/top_level.txt
