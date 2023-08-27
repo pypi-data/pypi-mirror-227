@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+Xchanger.egg-info/PKG-INFO
+Xchanger.egg-info/SOURCES.txt
+Xchanger.egg-info/dependency_links.txt
+Xchanger.egg-info/requires.txt
+Xchanger.egg-info/top_level.txt
+fx/Xchanger.py
+fx/__init__.py
+fx/erros.py
