@@ -1,0 +1,10 @@
+kicad2junit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kicad2junit/drc.py,sha256=QMN_ltQVcSdysyln1ed25FgmuJHhHgwuvxFigtTvcYE,662
+kicad2junit/drc2junit.py,sha256=Rrdv2CMbRUUkYHziO1bvkePcp0GqIZ5baNqDFw5mxd4,3501
+kicad2junit/erc.py,sha256=QMSTEQgBbZp5R027ZtS6P7Wq_piWLiHSytZFNYs3KZI,688
+kicad2junit/erc2junit.py,sha256=z4nyOq0tcjeLjbAzuaZP_MQHHDB-TRM8zzEk71XjM4A,3804
+kicad2junit/pro.py,sha256=N5-nYy5iwt03u2Llnw8-nat5eM7x0hJIUrXOLGYkqSI,1126
+kicad2junit-0.1.5.dist-info/METADATA,sha256=RxJfdDH0F2SJ26vGQD6WpktnUaU-KWDPhcQchF8Tkew,2353
+kicad2junit-0.1.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+kicad2junit-0.1.5.dist-info/entry_points.txt,sha256=MmoCaMHBNdUQY-ak_Njrnqs342cLOJ-bLsG75nHkpjY,91
+kicad2junit-0.1.5.dist-info/RECORD,,
