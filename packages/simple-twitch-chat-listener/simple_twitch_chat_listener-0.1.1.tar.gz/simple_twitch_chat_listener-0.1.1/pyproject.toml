@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple_twitch_chat_listener"
+version = "0.1.1"
+description = "Very simple to use Twitch chat bot for lurking chat that does not require an oauth token"
+license = {text = "MIT"}
+dependencies = [
+    "websockets"
+]
+readme = "README.txt"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Chat :: Internet Relay Chat",
+]
+

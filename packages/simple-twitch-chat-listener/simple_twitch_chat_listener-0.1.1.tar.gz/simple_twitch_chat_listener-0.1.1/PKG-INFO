@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: simple_twitch_chat_listener
+Version: 0.1.1
+Summary: Very simple to use Twitch chat bot for lurking chat that does not require an oauth token
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Chat :: Internet Relay Chat
+Description-Content-Type: text/plain
+License-File: LICENCE
