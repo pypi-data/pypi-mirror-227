@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+bottle_sipper.egg-info/PKG-INFO
+bottle_sipper.egg-info/SOURCES.txt
+bottle_sipper.egg-info/dependency_links.txt
+bottle_sipper.egg-info/requires.txt
+bottle_sipper.egg-info/top_level.txt
+sipper_core/__init__.py
+sipper_core/auth.py
+sipper_core/common.py
+sipper_core/constants.py
+sipper_core/html.py
+static/__init__.py
+test/test.py
