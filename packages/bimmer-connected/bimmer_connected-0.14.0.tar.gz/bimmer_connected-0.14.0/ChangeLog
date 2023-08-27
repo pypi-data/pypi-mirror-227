@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.14.0
+------
+
+* Fix README & readthedocs build (#562)
