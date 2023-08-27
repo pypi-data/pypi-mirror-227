@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "kicad2junit"
+version = "0.1.5"
+description = "Convert KiCad ERC/DRC report to Junit reports"
+authors = ["Gustav Palmqvist <gustavp@gpa-robotics.com>"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/ki365/kicad2junit"
+"Bug Tracker" = "https://gitlab.com/ki365/kicad2junit/-/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+junit-xml = "^1.9"
+dataclasses-json = "^0.5"
+typed-argument-parser = "^1.8.1"
+
+[tool.poetry.scripts]
+erc2junit = 'kicad2junit.erc2junit:run'
+drc2junit = 'kicad2junit.drc2junit:run'
+
+[tool.ruff]
+# Enable the pycodestyle (`E`) and Pyflakes (`F`) rules by default.
+# Unlike Flake8, Ruff doesn't enable pycodestyle warnings (`W`) or
+# McCabe complexity (`C901`) by default.
+select = ["E", "F"]
+ignore = []
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+per-file-ignores = {}
+
+# Same as Black.
+line-length = 88
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# Assume Python 3.8
+target-version = "py38"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
