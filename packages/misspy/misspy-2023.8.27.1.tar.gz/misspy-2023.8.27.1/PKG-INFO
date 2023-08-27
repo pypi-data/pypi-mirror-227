@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: misspy
+Version: 2023.8.27.1
+Summary: 
+Author: sonyakun
+Author-email: misspy@sonyakun.xyz
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: attrdictionary (>=1.0.0,<2.0.0)
+Requires-Dist: httpx (>=0.24.1,<0.25.0)
+Requires-Dist: websockets (>=11.0.3,<12.0.0)
+Description-Content-Type: text/markdown
+
+# misspy
+Misskey API library for Python with StreamingAPI support.
+
+# example
+**Other examples can be found in the examples directory.**
+
+## send note
+```python
+import misspy
+
+mi = misspy.Bot(address, i=token)
+```
+
+## Output notes text to the console
+```python
+import misspy
+from misspy.ext import MiAuth
+
+
+class StreamingBot(misspy.Bot):
+    async def on_ready(self):
+        print("running")
+
+    async def on_note(self, message):
+        print("------------")
+        print(message.text)
+        print("------------")
+
+
+bot = StreamingBot("misskey.io", i=token)
+bot.run()
+```
+
+## MiAuth
+```python
+from misspy.ext import MiAuth
+
+mia = MiAuth("misskey.io")
+print(mia.generate_url("example app"))
+while True:
+    input("enter to continue...")
+    try:
+        token = mia.check()
+        break
+    except misspy.MiAuthFailed:
+        pass
+print(token)
+```
+
+
+# docs
+Documentation can be found at:
+https://misspy.sonyakun.xyz/
+
