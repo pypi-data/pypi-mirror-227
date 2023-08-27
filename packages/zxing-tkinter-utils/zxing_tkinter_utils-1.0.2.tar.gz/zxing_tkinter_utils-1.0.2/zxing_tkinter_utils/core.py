@@ -1,0 +1,26 @@
+from tkinter import Tk, font, Widget
+
+class App:
+	def __init__(self, title, width, height, font_size=16):
+		# 初始化窗口
+		root = self.root = Tk()
+		# 标题，不可变大小，大小，居中
+		root.title(title)
+		root.resizable(False, False)
+		screen_width = root.winfo_screenwidth()
+		screen_height = root.winfo_screenheight()
+		x = (screen_width - width) // 2
+		y = (screen_height - height) // 2
+		root.geometry(f"{width}x{height}+{x}+{y}")
+		# 字体
+		default_font = font.nametofont("TkDefaultFont")
+		default_font.configure(size=font_size)
+		root.option_add("*Font", default_font)
+		# 创建UI组件
+		self.UI(root)
+		# 等待用户操作
+		root.mainloop()
+	def UI(self, root):
+		pass
+def place(target: Widget, x, y, width, height):
+	target.place(x=x, y=y, width=width, height=height)
