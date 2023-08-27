@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: arxiv-source
+Version: 0.1.3
+Summary: 
+Author: toma tanaka
+Author-email: ulti4929@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ipykernel (>=6.25.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# arXiv
+Retrieve arxiv data
+
+## How to use
+* install
+```bash
+pip install arxiv-source
+```
+* execution
+```python
+url = 'arxiv link'
+directory = 'Directory to be saved'
+
+arxiv.obtain_resource(directory, url)
+```
+
+* Execution example
+Please refer to the following notebook for how to use it.  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/fuyu-quant/arxiv-resource/blob/main/examples/arxiv.ipynb)
