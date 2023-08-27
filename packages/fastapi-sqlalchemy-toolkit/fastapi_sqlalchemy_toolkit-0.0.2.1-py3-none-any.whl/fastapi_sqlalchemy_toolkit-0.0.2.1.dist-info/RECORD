@@ -1,0 +1,10 @@
+fastapi_sqlalchemy_toolkit/__init__.py,sha256=jdOyLYQBQ7WO9eA3I0PJoKK9oMjgkjvp47FsQ66XDTQ,126
+fastapi_sqlalchemy_toolkit/base_model.py,sha256=jqrDD9dR1A_-Lr1auiJWAglkuDMby6AI-4WaRvy1xNQ,751
+fastapi_sqlalchemy_toolkit/db_crud.py,sha256=mVWwrRlG7OfgQrOGNmB8xeGiHPFfiSvxm9GwG8V0Pak,25727
+fastapi_sqlalchemy_toolkit/filters.py,sha256=fYwPVNcKamsicgeu-3yTmCeOK7Vott0oagClUa2OxaM,2128
+fastapi_sqlalchemy_toolkit/ordering.py,sha256=Tl4g7MrU_M0ezF37zFFEiAMwtzFaKEybdgSypI862U4,2525
+fastapi_sqlalchemy_toolkit/utils.py,sha256=HFe-sJ21WRGtyRYVdrBfK79oauE7GJJOIZzMEW8h3bI,1514
+fastapi_sqlalchemy_toolkit-0.0.2.1.dist-info/METADATA,sha256=q35tmAWNP_lwpnjHm9kdivFZonkoqj-2JtvRYZCw3Lo,15985
+fastapi_sqlalchemy_toolkit-0.0.2.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fastapi_sqlalchemy_toolkit-0.0.2.1.dist-info/licenses/LICENSE,sha256=hOWlRBgw7tkevaCGpz9j-ry_rF2v1D-6LCEC63Sfq1c,1081
+fastapi_sqlalchemy_toolkit-0.0.2.1.dist-info/RECORD,,
