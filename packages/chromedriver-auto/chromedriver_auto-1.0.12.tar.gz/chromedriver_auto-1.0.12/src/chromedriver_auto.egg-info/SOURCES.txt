@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/chromedriver_auto/__init__.py
+src/chromedriver_auto/driver_ready.py
+src/chromedriver_auto/test.py
+src/chromedriver_auto.egg-info/PKG-INFO
+src/chromedriver_auto.egg-info/SOURCES.txt
+src/chromedriver_auto.egg-info/dependency_links.txt
+src/chromedriver_auto.egg-info/top_level.txt

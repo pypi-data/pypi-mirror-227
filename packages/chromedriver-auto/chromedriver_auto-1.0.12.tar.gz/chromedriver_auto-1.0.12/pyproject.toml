@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "chromedriver-auto"
+version = "1.0.12"
+description = "Your package description"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4.0"
+selenium = ">=4.9.1"
+requests = ">=2.30.0"
