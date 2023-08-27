@@ -1,0 +1,8 @@
+setup.py
+pixpdv/__init__.py
+pixpdv/pixpdv.py
+pixpdv.egg-info/PKG-INFO
+pixpdv.egg-info/SOURCES.txt
+pixpdv.egg-info/dependency_links.txt
+pixpdv.egg-info/requires.txt
+pixpdv.egg-info/top_level.txt
