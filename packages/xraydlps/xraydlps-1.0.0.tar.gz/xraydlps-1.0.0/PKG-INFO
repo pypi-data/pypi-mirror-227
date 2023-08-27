@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: xraydlps
+Version: 1.0.0
+Summary: Tools to help plot the X-ray duration-luminosity phase space and use it for classification.
+Home-page: https://github.com/avapolzin/X-rayLCs
+Author: Ava Polzin
+Author-email: apolzin@uchicago.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >3
+
+UNKNOWN
+
