@@ -1,0 +1,10 @@
+qpalm/__init__.py,sha256=sGjaQy-SJecAuJXuMEWLG4RWJFr6Jx91jqtXXO7M07A,585
+qpalm/__init__.pyi,sha256=RyXaMjqwNzxwgUDtrNm52PkC00-c6e_Qr-z4Vbk-RNk,28
+qpalm/_qpalm.cp37-win_amd64.pyd,sha256=x1a_prlV3nPFu0kViqFNdS1gbr-KQQ6Hbe6E4HtSmH0,309248
+qpalm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm/_qpalm/__init__.pyi,sha256=5BPrYKAS5idTElG8yUscZlrD2ze6e0zBgR7tJAxYHwc,11026
+qpalm-1.1.5a1.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+qpalm-1.1.5a1.dist-info/METADATA,sha256=tZ9rN3LKVWU6FIHyZr-jHVb1Sz8Th0PbtLIY-C2_axM,13229
+qpalm-1.1.5a1.dist-info/WHEEL,sha256=cyWmo0wM_-aLAYvUwiVgwVIW_awj0jEuVt_iSGeIu_E,95
+qpalm-1.1.5a1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm-1.1.5a1.dist-info/RECORD,,
