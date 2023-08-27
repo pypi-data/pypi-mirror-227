@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: lexorank-py
+Version: 0.1.1
+Summary: lexorank
+Author-email: Hyeonki Hong <hhk7734@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Hyeonki Hong <hhk7734@gmail.com>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: repository, https://github.com/hhk7734/lexorank.py
+Keywords: lexorank
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Requires-Python: <4.0,>=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## lexorank.py
+
+```shell
+python3 -m pip install lexorank-py
+```
+
+### New Rank
+
+```python
+from pprint import pprint
+
+from lexorank import Bucket, middle
+
+prev = middle(Bucket.BUCEKT_0)
+ranks = [prev]
+for _ in range(9):
+    ranks.append(prev.next())
+    prev = ranks[-1]
+
+pprint(ranks)
+```
+
+```shell
+[<LexoRank value=0|i00000: base=36>,
+ <LexoRank value=0|i0000g: base=36>,
+ <LexoRank value=0|i0000w: base=36>,
+ <LexoRank value=0|i0001c: base=36>,
+ <LexoRank value=0|i0001s: base=36>,
+ <LexoRank value=0|i00028: base=36>,
+ <LexoRank value=0|i0002o: base=36>,
+ <LexoRank value=0|i00034: base=36>,
+ <LexoRank value=0|i0003k: base=36>,
+ <LexoRank value=0|i00040: base=36>]
+```
+
+### Between
+
+```python
+from lexorank import between, parse
+
+a = parse("0|i00000:")
+b = parse("0|i00001:")
+
+mid = between(a, b)
+# <LexoRank value=0|i00000:i base=36>
+
+a = parse("0|i00000:")
+b = None
+
+mid = between(a, b)  # = a.next()
+# <LexoRank value=0|i0000g: base=36>
+
+a = None
+b = parse("0|i00000:")
+
+mid = between(a, b)  # = b.prev()
+# <LexoRank value=0|hzzzzk: base=36>
+```
