@@ -1,0 +1,2 @@
+[sourmash.cli_script]
+commonhash = sourmash_plugin_commonhash:Command_CommonHash
