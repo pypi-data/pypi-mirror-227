@@ -1,0 +1,50 @@
+# SPDX-FileCopyrightText: 2023 Phu Hung Nguyen <phuhnguyen@outlook.com>
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
+import logging
+from argparse import ArgumentParser, RawTextHelpFormatter
+
+from .extraction import extract
+from .generation import generate
+from .compilation import compile_po
+
+# TODO: test this command line with libreoffice
+
+
+def main():
+    parser = ArgumentParser(description='I18n tool for Hugo projects, working in coordination with scripty')
+    parser.add_argument('-q', '--quiet', action='store_true', help='stop showing INFO or lower logs')
+    # TODO: is this only for generation or for something else too?
+    # TODO: check if this works from the command line
+    parser.add_argument('-c', '--customs', help='path to Python file containing custom functions')
+    subparsers = parser.add_subparsers(description="used in the process from extracting source files' messages "
+                                                   'to generating target files')
+
+    extract_cmd = subparsers.add_parser('extract', help='extract messages from source files',
+                                        formatter_class=RawTextHelpFormatter)
+    extract_cmd.add_argument('pot', help='either path of the only target pot file or path of the directory\n'
+                                         'containing the target pot file(s)')
+    extract_cmd.set_defaults(func=extract)
+
+    generate_cmd = subparsers.add_parser('generate', help='generate target messages and files',
+                                         formatter_class=RawTextHelpFormatter)
+    generate_cmd.add_argument('-k', '--keep-locale', action='store_true', help='do not delete locale folder')
+    generate_cmd.set_defaults(func=generate)
+
+    compile_po_cmd = subparsers.add_parser('compile', help='compile translated messages to binary format',
+                                           formatter_class=RawTextHelpFormatter)
+    compile_po_cmd.add_argument('dir', help='path of the directory containing either PO files named as {lang}.po, or\n'
+                                            'directories with PO files inside {lang}/*.po')
+    compile_po_cmd.set_defaults(func=compile_po)
+
+    # fetch_cmd = subparsers.add_parser('fetch', help='fetch PO files from KDE SVN',
+    #                                   formatter_class=RawTextHelpFormatter)
+    # fetch_cmd.add_argument('dest', help='destination directory')
+    # fetch_cmd.add_argument('-f', '--as-file', action='store_true', help='save only the first file in the <lang> '
+    #                                                                     'folder as <lang>.po')
+    # fetch_cmd.set_defaults(func=fetch)
+
+    args = parser.parse_args()
+    level = logging.WARNING if args.quiet else logging.INFO
+    logging.basicConfig(format='%(levelname)s: %(message)s', level=level)
+    args.func(args)
