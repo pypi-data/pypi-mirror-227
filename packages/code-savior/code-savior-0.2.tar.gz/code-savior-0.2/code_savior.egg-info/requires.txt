@@ -1,0 +1,5 @@
+inquirer
+rich
+configparser
+argparse
+openai
