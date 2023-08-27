@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: colorPrintConsole
+Version: 1.0.1
+Summary: A package for color printing in the console
+Home-page: https://github.com/your_username/colorPrint
+Author: 苏寅
+Author-email: suyin_long@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## 介绍
+
+在控制台中用于彩色打印的包
+
+## 安装
+
+```
+pip install --index-url https://pypi.org/simple colorPrintConsole
+```
+
+## 使用
+
+```python
+from colorPrintConsole import ColorPrint
+
+cp = ColorPrint()
+print(cp.red('红色文本'))
+print(cp.green('绿色文本'))
+print(cp.yellow('黄色文本'))
+print(cp.blue('蓝色文本'))
+print(cp.magenta('品红色文本'))
+print(cp.cyan('青色文本'))
+
+```
+
