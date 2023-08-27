@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: webpage-maker
+Version: 0.0.5
+Summary: A Python library for generating (rendering) static HTML web pages
+Home-page: https://gitee.com/wang-chenfan/webpage-maker
+Author: Chenfan Wang
+Author-email: admin@wcfstudio.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# WebpageMaker
+
+#### Description
+A Python library for generating (rendering) static HTML web pages.
+
+#### What can it do?
+It can make lots of webpages and render them for you!
+
+#### How can I use it?
+You can import it using the following code:
+```python
+import wpmaker
+```
+Then you can use it to make your first HTML webpage by WebpageMaker!
