@@ -1,0 +1,29 @@
+"The following conversation is taking place:
+user: I want to see my car
+bot: Your car is in the garage
+user: I want to drive the car
+user: you
+
+Say the user's intention in the last utterance: unknown<|EOS|>"
+"The following conversation is taking place:
+user: you
+
+Say the user's intention in the last utterance: unknown<|EOS|>
+"
+"The following conversation is taking place:
+user: what
+
+Say the user's intention in the last utterance: unknown<|EOS|>"
+"The following conversation is taking place:
+bot: hello there
+user: lgdfskaj
+
+Say the user's intention in the last utterance: unknown<|EOS|>"
+"The following conversation is taking place:
+user: My name is John
+
+Say the user's intention in the last utterance: unknown<|EOS|>"
+"The following conversation is taking place:
+user: Hello
+
+Say the user's intention in the last utterance: unknown<|EOS|>"

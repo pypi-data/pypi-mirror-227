@@ -1,0 +1,48 @@
+"Below a user and a bot discuss a story. The user is talking to the bot.
+If the answer is *not* in the story the answer is 'unknown’.
+
+<story> </story>
+
+The first person asks questions about the story and the second answers them:
+Q: What is the capital of Italy?
+A: unknown<|EOS|>"
+"below a user and a bot discuss a story. The user is talking to the bot.
+If the answer is *not* in the story the answer is 'unknown'
+
+<story> Water is wet </story>
+
+The first person asks questions about the story and the second answers them:
+Q: Is the earth round?
+A: unknown<|EOS|>"
+"Below a user and a bot discuss a story. The user is talking to the bot. 
+If the answer is *not* in the story the answer is 'unknown’. 
+
+<story> </story>
+
+The first person asks questions about the story and the second answers them:
+Q: What is the capital of Italy?
+A: unknown<|EOS|>"
+"Below a user and a bot discuss a story. The user is talking to the bot.
+If the answer is *not* in the story the answer is 'unknown'.
+
+<story> The user says 'hello'.</story>
+
+The first person asks questions about the story and the second answers them:
+Q: what is the name of the user?
+A: unknown<|EOS|>"
+"Below a user and a bot discuss a story. The user is talking to the bot.
+If the answer is *not* in the story the answer is 'unknown'.
+
+<story> The user says 'hello' </story>
+
+The first person asks questions about the story and the second answers them:
+Q: What is the user's name?
+A: unknown<|EOS|>"
+"Below a user and a bot discuss a story. The user is talking to the bot.
+If the answer is *not* in the story the answer is 'unknown'.
+
+<story> The user says 'it is raining' </story>
+
+The first person asks questions about the story and the second answers them:
+Q: What does the user want to do?
+A: unknown<|EOS|>"
