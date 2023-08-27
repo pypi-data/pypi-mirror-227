@@ -1,0 +1,6 @@
+
+[arrays]
+numpy
+
+[images]
+pillow
