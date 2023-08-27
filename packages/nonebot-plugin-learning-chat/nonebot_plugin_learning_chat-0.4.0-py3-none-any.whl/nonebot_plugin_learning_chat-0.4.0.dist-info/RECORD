@@ -1,0 +1,10 @@
+nonebot_plugin_learning_chat/__init__.py,sha256=3sEWuFdm3GjPzbqglEVX5ZPB66Lnvr4Ej87zMd-avT8,3788
+nonebot_plugin_learning_chat/config.py,sha256=Hk_FtqyXYl2tFP0C143q7UUrrWvRhrP4mag_S7KLIVM,4544
+nonebot_plugin_learning_chat/handler.py,sha256=aiuesnn4PCYOEuuRPLIJi5J5ooNpX1TvI1IOhTZSmuE,30675
+nonebot_plugin_learning_chat/models.py,sha256=96DPqk_xVkyuzuVnAGMqAwqdQVghcfeI8m4YUtEk3Jw,3989
+nonebot_plugin_learning_chat/web_api.py,sha256=KKT15EdBgeYlaq-haWIKg1Tv-bQBwlGJOWqGgMAyeKI,15774
+nonebot_plugin_learning_chat/web_page.py,sha256=ZLMmuGcULXZSnjGNIMH64LN8_6OHRIjuPLRYMatr5hs,26485
+nonebot_plugin_learning_chat-0.4.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+nonebot_plugin_learning_chat-0.4.0.dist-info/METADATA,sha256=IjY5Qe4sF4q7hr89VEPi-WxqxmIvxuZsWqwg7rNgJo8,8705
+nonebot_plugin_learning_chat-0.4.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+nonebot_plugin_learning_chat-0.4.0.dist-info/RECORD,,
