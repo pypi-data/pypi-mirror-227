@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ai-assignment-marker"
+version = "0.1.0"
+description = "A marker that will use tests to run a cpp program and mark it based on the output. It will use the openAI api and LLMs to help process the output."
+authors = ["James <1jamesthompson1@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/1jamesthompson1/ai_assignment_marker"
+
+packages = [{include = "ai_assignment_marker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.0"
+argparse = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+app = "ai_assignment_marker.cli:cli"
