@@ -1,0 +1,11 @@
+motioncapture.cpython-38-x86_64-linux-gnu.so,sha256=NqRCuv24r1mFvyYgIdi0Z6t2oJHv2OHrA33XMvDcrE4,2582321
+motioncapture.libs/libboost_atomic-mt-c860e9ce.so.1.53.0,sha256=Cv2eru0qR-yRo0hhEaWMjly_94yDQgV3gA2JTVd7wzA,13273
+motioncapture.libs/libboost_system-mt-da72321c.so.1.53.0,sha256=0kg7_j40C_YEI8pYaytYkFUZKPBQ9GrMwJbWRrxaIjw,22329
+motioncapture.libs/libboost_date_time-mt-3d7d21d8.so.1.53.0,sha256=9_jmTrYc90VoEoXQzH2BwOyg0NNy8Hi85yhGYvjE0rc,108057
+motioncapture.libs/libboost_chrono-mt-598921be.so.1.53.0,sha256=Z2NJfn66iHDC6o7udQrST6vB0UYxVAATTnYp4pdvAps,54905
+motioncapture.libs/libboost_thread-mt-80251d3d.so.1.53.0,sha256=d6soslGT5GxSLG3-mG_a3qr4rIqi0WZ2YWWDsCFTGXo,168609
+motioncapture-1.0a2.dist-info/RECORD,,
+motioncapture-1.0a2.dist-info/WHEEL,sha256=CzyHWKXay4N1oFds0wxFofK9MEs-L6SZ6gHGZF6-4Co,148
+motioncapture-1.0a2.dist-info/LICENSE,sha256=8ysm4n7vXI-5zv0RgzXrO7glq-U6_ki_rQzMI0v0Z9s,1067
+motioncapture-1.0a2.dist-info/METADATA,sha256=RRYkaELYY2IIdzz82SYqJMl8swMRSO8P4bJo3mxe6lA,177
+motioncapture-1.0a2.dist-info/top_level.txt,sha256=Q-KCV64nzEOHjdCuZbgvSFMr3x2qL5hn8Rd2Kg_boEA,14
