@@ -1,0 +1,15 @@
+pyduin/__init__.py,sha256=26om2wCAc5L2pYQyk_cuRXhU3to9JuJeooDytGurAKo,140
+pyduin/arduino.py,sha256=ZrL4UT1cgcda1dZOa5Y5j-r2Ej6ajfytG62HxcowJzM,4644
+pyduin/arduino_cli.py,sha256=b3EKfpvWE9wdJznWZWxVLO7B0I2nRVd1XgvroM_XNxo,13986
+pyduin/pin.py,sha256=dE_R65c4HcKGnnYsW9sqMkL39-HFcQhTN4T041I89_4,4757
+pyduin/utils.py,sha256=zDVY1gYHQKW-vtkfsEVocdyjKdZ-PDa8LP7RSV5IWOE,3813
+pyduin/data/pinfiles/nanoatmega328.yml,sha256=dQ2mHs1LVZkvD3CqTguPUImO13oxuahWpFAjK6k21N4,1397
+pyduin/data/pinfiles/uno.yml,sha256=iBmGTQzjl7ozUzo3spvAJFPkenV8qVghPWbSt1o21j8,954
+pyduin/data/platformio/platformio.ini,sha256=7YWud6T3355D7bBEl_GEQ7sdpi73CSup5xzhnOv4_iM,1315
+pyduin/data/platformio/pyduin.ino,sha256=AZbXX51Fl99H1bdq4MFv9DObzry3PuCWOBbBVxZ6PUo,6203
+pyduin-0.6.1.dist-info/LICENSE.md,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pyduin-0.6.1.dist-info/METADATA,sha256=hsaLA6H2C0GlWCSV4D5525X9n4LX17zFOH7xbnsa_vA,4907
+pyduin-0.6.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyduin-0.6.1.dist-info/entry_points.txt,sha256=O55NKnkSxGIFuymz7KrRy4Xhzq0OXnQLBa4pJIRQ_VM,51
+pyduin-0.6.1.dist-info/top_level.txt,sha256=GQ9SESC-bpvF-Gbis0jh5B7PpXW5g4g-rT_2KpFWw7k,7
+pyduin-0.6.1.dist-info/RECORD,,
