@@ -1,0 +1,8 @@
+authress/__init__.py,sha256=X3LXrkYsA4UOQuCDKXcQdVJBMy5Mv_8RrndCbrRxI4g,17
+authress/extension.py,sha256=NgrOmCyCmhoKYW2tneMLZtWkagX3pBu8yBzIYLHOj1M,4871
+authress/server.py,sha256=-sew_CSXY14bTqByoR5Tz3B3OiSGnBUAkHL_0jlCxlE,1759
+localstack_extension_authress-0.1.10.dist-info/METADATA,sha256=y4WVtsaOZ7wigh6hWuJT03627BvSJcBEXrZaJofMbb0,3774
+localstack_extension_authress-0.1.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+localstack_extension_authress-0.1.10.dist-info/entry_points.txt,sha256=1DjOT-ArpRRuulKgzVpalXcXXZFeYe1KMDbQZnErmgs,72
+localstack_extension_authress-0.1.10.dist-info/top_level.txt,sha256=_0_BXz6dvHOhEqwaphgG_FLk6U10uQ4Mkyh1-DxWj34,9
+localstack_extension_authress-0.1.10.dist-info/RECORD,,
