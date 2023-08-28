@@ -1,0 +1,6 @@
+Flask==2.2.5
+Flask-SocketIO==5.3.1
+PyYAML==6.0.1
+eventlet==0.33.3
+pyttsx4==3.0.15
+setuptools>=65.5.1
