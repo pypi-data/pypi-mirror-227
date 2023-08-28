@@ -1,0 +1,10 @@
+burla/__init__.py,sha256=UTxxfwM6Nm89zcOsWwzqmlZpbFiO4JPP5AhY1BrvgDU,399
+burla/_auth.py,sha256=PYqZFKo1VAQH_QXhglh0I62u_HCg8RMEapiNDq0GQnM,2497
+burla/_env_inspection.py,sha256=gAxh63TrXYtFOeRnVwRE7JI3QY5rGK48GAOlmyTfi40,1422
+burla/_helpers.py,sha256=Rf5VnZlxuN2SEg9-XmpVsXM7p8JVGYwbvw-LI3LDt9Y,1180
+burla/_logstream.py,sha256=c7YHEDe0jbUtUUdBlOkI6w68SV9J2BBT_dJbjH2LDMQ,1421
+burla/_remote_parallel_map.py,sha256=nVyEBThWL4zW3EpcAdajzF_Ff1fdbwBc33n0vYmLroE,5618
+burla-0.3.8.dist-info/METADATA,sha256=uLbCLUs0kjuJCdnLwepfs1y4AAxgSAD_UC6p6wZQebQ,675
+burla-0.3.8.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+burla-0.3.8.dist-info/entry_points.txt,sha256=EiFnoWP-QOIyr6WHlNSWcpCNfuE0FzyBA1mEnKC5Baw,49
+burla-0.3.8.dist-info/RECORD,,
