@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-general-whitelist
+Version: 1.0
+Summary: 适用于NoneBot2的群聊白名单
+Home-page: https://github.com/Rikka-desu/nonebot_plugin_general_whitelist
+Author-Email: 轩某 <xuan_mou@outlook.com>
+License: MIT
+Project-URL: Homepage, https://github.com/Rikka-desu/nonebot_plugin_general_whitelist
+Requires-Python: >=1.8
+Requires-Dist: nonebot2>=2.0.0
+Requires-Dist: nonebot-plugin-localstore>=0.5.0
+Description-Content-Type: text/markdown
+
+# nonebot-plugin-general-whitelist
