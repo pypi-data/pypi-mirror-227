@@ -1,0 +1,7 @@
+/venv/
+/build/
+/dist/
+/docs/graphs/*.mmd.svg
+/examples/
+__pycache__
+*.egg-info
