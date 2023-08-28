@@ -1,0 +1,7 @@
+setup.py
+FLAVORS/FeatureSelector.py
+FLAVORS/__init__.py
+FLAVORS.egg-info/PKG-INFO
+FLAVORS.egg-info/SOURCES.txt
+FLAVORS.egg-info/dependency_links.txt
+FLAVORS.egg-info/top_level.txt
