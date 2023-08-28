@@ -1,0 +1,16 @@
+sitecustomize.py,sha256=Z-T8AyditmToDB98hBfKUSr62KDQmejKtFGyYGSz5Wo,1763
+tbhandler/__init__.py,sha256=64RuHAmaYU4Rgdh4TE2d-2DzgAHa1BDKKGc2QskxNmY,83
+tbhandler/config.py,sha256=ThKM9NK78yFb_Iy_z673_Ti-55ZJ3UnzanFQU0PPh8o,95
+tbhandler/exc_info.py,sha256=FhTRFrVuJ0wP1KyZrRUNF4cZDcCG4JoRG7XcDIl5igE,5402
+tbhandler/extension.py,sha256=gyK--zTUlDZ6v3HtjUJX2yz2BNeqLEwB_XD7hic8-t8,344
+tbhandler/monkeypatch.py,sha256=uG3_Lw6LNle0npcfuM7aJpu5rDOXBbEpSUbqoKxdsck,5104
+tbhandler/opener.py,sha256=JqnT4bobXSKWmv10gZNN6ZSjMD8sQuwMuodg2StmYH4,353
+tbhandler/path.py,sha256=8tvchHH1tjRllJG1-tHkXSOxhrY05I6mG0aAhv0t6A0,275
+tbhandler/sitecustomize_remover.py,sha256=q0zlIfO8P3BC9dar9JtWArpoNMG7zvmGmCplp9wCuOY,546
+tbhandler/tbhandler.py,sha256=DGSSPDGvNrLXf_LgQ1U-Zs9AMy78aQQ5zFg0VPxcFyc,741
+tbhandler-0.0.1.dist-info/LICENSE,sha256=coy5XgzwxQweNZLEXayFiokEKOaK232vkE8TFfBDbFw,1069
+tbhandler-0.0.1.dist-info/METADATA,sha256=UlJAxZGBNtEWOIpK4BS-ZoKXsSrLK2tcU2ZffcUwsj8,1163
+tbhandler-0.0.1.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+tbhandler-0.0.1.dist-info/entry_points.txt,sha256=KM8dtk4RpEmsZMcu2kz_yrJUup72cHKsrDzLIvWHzSA,154
+tbhandler-0.0.1.dist-info/top_level.txt,sha256=2gKDf2iP3ReXlsMgbjU_goAEHEf1xbr4rEpI0rSDW8s,24
+tbhandler-0.0.1.dist-info/RECORD,,
