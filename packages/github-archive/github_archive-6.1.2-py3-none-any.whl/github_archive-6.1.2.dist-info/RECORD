@@ -1,0 +1,15 @@
+github_archive/__init__.py,sha256=vY9mg2AYTxsACiFcY34C-9Vlj4UtDh1wWa5UHlgTzJw,86
+github_archive/_version.py,sha256=YN8byPcjyQjphqvazTEzWioECzFuTCnjb_LQ7d7T_gw,22
+github_archive/archive.py,sha256=FpEemaHBe8fh5SUdERdxl6742Pero3iuuovmfKeyLGI,13064
+github_archive/cli.py,sha256=azWH3g9IKFRu7byXSc9YVAAIwied-zLv9E6ffU3im3Q,6008
+github_archive/constants.py,sha256=_5jgmP76ko0kYH7cVBHGywJ8ii6fGFzp1_fDf19ELYo,513
+github_archive/gists.py,sha256=SXSRCmP7uB1xuT6mcGcNeuZWc9u6JoEXJq2SNr69y1s,3577
+github_archive/logger.py,sha256=PI5i7YNOxy0hV5V_fT9gJ6n4Ut7qJV_E0gomAQq8jPg,641
+github_archive/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+github_archive/repos.py,sha256=IvpugU9OdjeiMgG0B2lAedR0jpQjikoKOUck0MzyEMY,4670
+github_archive-6.1.2.dist-info/LICENSE,sha256=eetzvdaAaPwdWbQ3lrIVNAsUEimMPZII2-W94pVigoI,1071
+github_archive-6.1.2.dist-info/METADATA,sha256=fowxwlO9pz1PZcusz0Jiy_MwF-2olitmH8PE5qjnHV0,6635
+github_archive-6.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+github_archive-6.1.2.dist-info/entry_points.txt,sha256=9B28zleWBGWxZEvKzLOxZJpXgyJzt6cXMo0s_rJIv6U,59
+github_archive-6.1.2.dist-info/top_level.txt,sha256=VsaMyLowBnsiknvf_gFho_0s-8zw01rhBOTYNMk5U2o,15
+github_archive-6.1.2.dist-info/RECORD,,
