@@ -1,0 +1,86 @@
+from openapi_gen.lib.constants import AuthType
+from openapi_gen.lib.utils import element_at, not_null
+from typing import List
+
+
+class AuthBase:
+    def _to_spec(self) -> dict:
+        pass
+
+
+class BearerAuth(AuthBase):
+    def __init__(self, name):
+        self.auth_type = AuthType.HTTP
+        not_null(name, 'name')
+
+        self.name = name
+
+    def _to_spec(self):
+        return {
+            'type': AuthType.HTTP,
+            'scheme': 'bearer',
+            'bearerFormat': 'JWT'
+        }
+
+
+class ApiKey(AuthBase):
+    def __init__(self, name, header_key):
+        self.type = AuthType.API_KEY
+        not_null(name, 'name')
+        not_null(header_key, 'header_key')
+
+        self.name = name
+
+        self._header_key = header_key
+
+    def _to_spec(self):
+        return {
+            'type': AuthType.API_KEY,
+            'name': self._header_key,
+            'in': 'header'
+        }
+
+
+class OAuth(AuthBase):
+    def __init__(self, name, auth_url, scopes: List[tuple], token_uri):
+        self.auth_type = AuthType.OAUTH_2
+        not_null(name, 'name')
+        not_null(auth_url, 'auth_url')
+        not_null(scopes, 'scopes')
+        not_null(token_uri, 'jwks_uri')
+
+        self.name = name
+
+        self._auth_url = auth_url
+        self._scopes = scopes
+        self._token_uri = token_uri
+
+    def _to_spec(self):
+        '''Generate the Swagger document spec'''
+        return {
+            'type': AuthType.OAUTH_2,
+            'x-google-issuer': "https://accounts.google.com",
+            'x-google-jwks_uri': "https://www.googleapis.com/oauth2/v1/certs",
+            'flows': {
+                'implicit': {
+                    'authorizationUrl': self._auth_url,
+                    'scopes': self._parse_scopes_spec(self._scopes)
+                },
+            }
+        }
+
+    def _parse_scopes_spec(self, scopes: List[tuple]):
+        '''Parse the service scopes from tuples to the document spec'''
+
+        _scopes = dict()
+        for scope in scopes:
+            # Validate scope comforms to requirements
+            if len(scope) != 2:
+                raise Exception('''Invalid scope descriptior, must be a tuple that contains
+                the scope name and a description of the scope''')
+
+            # Set the scope and description spec
+            scopeName = element_at(scope, 0)
+            _scopes[scopeName] =  element_at(scope, 1)
+
+        return _scopes
