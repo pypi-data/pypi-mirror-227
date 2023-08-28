@@ -1,0 +1,16 @@
+Separate Areas:
+Backend/"Python Library":
+ 1. Querying the website
+      - Ugly, copy-paste curl code
+      - Replicating Chrome network requests
+      - Sensitive to UCLA web *server*/*routing* changes
+ 2. Extracting the data we want 
+      - Ugly, quick-and-dirty regex/bs4 solutions
+      - Scraping the data we want
+      - Sensitive to UCLA web *page* changes
+Front-end/"CLI Program":
+ 3. Formatting the data for display
+     a. Using exact text the website shows (human-readable)
+        - Possibly abbreviated
+     b. Using the codes the website uses when available,
+        otherwise using "machine" way to do it (haXer mode) 
