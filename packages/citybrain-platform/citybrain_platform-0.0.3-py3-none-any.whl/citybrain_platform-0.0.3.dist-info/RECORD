@@ -1,0 +1,10 @@
+citybrain_platform/__init__.py,sha256=ZKAvBhY_vGAsrTfQxQLtRjtDfdO-nCIhvm8Nfvtdbl0,249
+citybrain_platform/computing/__init__.py,sha256=WVBaSRKmsbruOQSokJ3ukFH4kCVViCP5q0xCb43jdvI,79
+citybrain_platform/computing/api.py,sha256=0eZe0oTk3dPuNNsduW4mq459_hf7W-R15WRK1Mjpl8M,3386
+citybrain_platform/computing/client.py,sha256=FvX-sLrje1EvuPPG71AiPDDnd70SepFcloF5WdZDRI4,2490
+citybrain_platform/computing/data_types.py,sha256=Dht7tO8lCmSCimkyV2N6iE45BD3BeB4EfzfqFAVjICA,1116
+citybrain_platform-0.0.3.dist-info/LICENCE,sha256=Wqk_Sn_xNgXUVFzOTQSK584ngivh5ZfDuckJxGFFHtc,1065
+citybrain_platform-0.0.3.dist-info/METADATA,sha256=FeNvDk6Nif5EbWpTxuA8VqTNAZfd1pLdZQR3uHhkcxY,3539
+citybrain_platform-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+citybrain_platform-0.0.3.dist-info/top_level.txt,sha256=2BeN7qhFMa_wv9PBwSuDW93D_P_Ubj_AuIy1ZCvRA3k,19
+citybrain_platform-0.0.3.dist-info/RECORD,,
