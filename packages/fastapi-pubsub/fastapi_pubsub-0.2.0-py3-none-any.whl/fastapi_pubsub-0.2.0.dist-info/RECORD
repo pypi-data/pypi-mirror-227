@@ -1,0 +1,7 @@
+fastapi_pubsub/__init__.py,sha256=H8XYxjGHV697H58XVoDxXVsMBmpSeqheoC58XJTzARA,39
+fastapi_pubsub/base.py,sha256=QB3oKsi7AWx-kNN5gQyWYG36hpNCtNHnAAD4Nknvhk8,2059
+fastapi_pubsub/connection_manager.py,sha256=SiylLycf_IbpADI9Swq_bezQfTlbMQvrSGV2b9m9WlY,1705
+fastapi_pubsub-0.2.0.dist-info/METADATA,sha256=AS-mj8HarvVTjlJQvXXOHpkP46ybGhZSDDtV8ACv2pw,2611
+fastapi_pubsub-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastapi_pubsub-0.2.0.dist-info/top_level.txt,sha256=YuWDC63eqMxlFTkHzBpvF4cl8lwncHLO6M9p-N-AMN0,15
+fastapi_pubsub-0.2.0.dist-info/RECORD,,
