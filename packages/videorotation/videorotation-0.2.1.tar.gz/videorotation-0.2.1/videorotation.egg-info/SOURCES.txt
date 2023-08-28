@@ -1,0 +1,15 @@
+.gitignore
+README.md
+example.py
+setup.py
+videorotation/__init__.py
+videorotation/birotnet.py
+videorotation/check_upsidedown.py
+videorotation/mobilenet2_bi-rotnet.tflite
+videorotation.egg-info/PKG-INFO
+videorotation.egg-info/SOURCES.txt
+videorotation.egg-info/dependency_links.txt
+videorotation.egg-info/requires.txt
+videorotation.egg-info/top_level.txt
+videorotation/__pycache__/__init__.cpython-310.pyc
+videorotation/__pycache__/check_upsidedown.cpython-310.pyc
