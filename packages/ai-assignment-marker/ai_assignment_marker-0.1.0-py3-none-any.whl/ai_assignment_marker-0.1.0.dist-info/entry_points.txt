@@ -1,0 +1,3 @@
+[console_scripts]
+app=ai_assignment_marker.cli:cli
+
