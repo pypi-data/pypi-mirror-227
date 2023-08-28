@@ -1,0 +1,8 @@
+pdoc3
+twine
+pytest
+
+cryptography
+attrs
+
+pyrepresent

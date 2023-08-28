@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+build.py
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+lite_cryptography/__init__.py
+lite_cryptography/protection.py
+lite_cryptography.egg-info/PKG-INFO
+lite_cryptography.egg-info/SOURCES.txt
+lite_cryptography.egg-info/dependency_links.txt
+lite_cryptography.egg-info/requires.txt
+lite_cryptography.egg-info/top_level.txt
