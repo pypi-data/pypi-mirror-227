@@ -1,0 +1,2 @@
+[sqlite_utils]
+sqlite_robotstxt = sqlite_utils_sqlite_robotstxt
