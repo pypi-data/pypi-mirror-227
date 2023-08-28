@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "browser-hz"
+version = "1.0.1"
+description = ""
+authors = ["Hubert Zajac <hubertzajac6@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "browser_hz" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flake8 = "^6.0.0"
+mypy = "^1.2.0"
+webdriver-manager = "^4.0.0"
+pytest = "^7.3.1"
+selenium-wire = "^5.1.0"
+
+[tool.flake8]
+exclude = [".git", ".venv", "__pycache__"]
+max_line_length = 120
+max-complexity = 8
+
+[tool.mypy]
+namespace_packages = true
+check_untyped_defs = true
+disallow_untyped_defs = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
