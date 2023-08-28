@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: django-ninja-fsbr
+Version: 0.1
+Summary: Wrapper around NinjaAPI that adds file based routing and endpoint auto-discovery.
+Author-email: Fabian Binz <fabian.binz@gmail.com>
+Requires-Dist: django-ninja
+Project-URL: Home, https://github.com/fbinz/django-ninja-filesystem-based-routing
