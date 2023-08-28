@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_snomed_ct.egg-info/PKG-INFO
+django_snomed_ct.egg-info/SOURCES.txt
+django_snomed_ct.egg-info/dependency_links.txt
+django_snomed_ct.egg-info/requires.txt
+django_snomed_ct.egg-info/top_level.txt
