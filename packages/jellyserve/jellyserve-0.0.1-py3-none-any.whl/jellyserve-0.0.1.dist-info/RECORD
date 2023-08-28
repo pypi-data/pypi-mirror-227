@@ -1,0 +1,16 @@
+jellyserve/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jellyserve/config.py,sha256=xhuc84g899nG1QUs8LlXFLAPLINrx6oEJDCOSTAcqZI,1672
+jellyserve/core.py,sha256=6LnMEmESI7N1yM_S29Sdu0ofG-QnZxyQ0zAQZ1tkuEk,10151
+jellyserve/db.py,sha256=THqLOQmEzRnA08hoNtPUl-sDeeYLWC6X4_JW9qU_Wkc,1354
+jellyserve/exceptions.py,sha256=JGBKc9F0UDx9tywb7_knLqx_hBNQpZMm7lw4IqGlJkA,402
+jellyserve/forms.py,sha256=l2Jheg-etoKYptMKX3ralw3eUhuRL_hQOyaU3M0YFXc,214
+jellyserve/internals.py,sha256=WZcSD1zXGx6QncLgH9ahb5vV1JT-__75OuW8PvjZv_E,4298
+jellyserve/messages.py,sha256=e-F3tKMutQVzADZcv82beJjvEZwFPSxDMZTJavrzDSM,255
+jellyserve/request.py,sha256=1h-rEm-45aTjcT1gnkyq0R531dySky0XBxEXxH0upRg,2205
+jellyserve/response.py,sha256=YzO8iCW7FkO1uFbMisGCVLry6MeQaj54BySdQRwzma0,9677
+jellyserve/runtime.py,sha256=QOB1qmUCY-RzTg9kfu-Qhvw-k9zbOmVOXLYGggDSrrk,13
+jellyserve-0.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+jellyserve-0.0.1.dist-info/METADATA,sha256=NRz365R6SIUTj-Ei0s4VQxllLoucSIHwc8I5Mho7y6A,1097
+jellyserve-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jellyserve-0.0.1.dist-info/top_level.txt,sha256=bmRLzJG6sdsG02JrzdYJ6FTxSxURe-FIiRRIF7fQ2rE,11
+jellyserve-0.0.1.dist-info/RECORD,,
