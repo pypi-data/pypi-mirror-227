@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dbrider
+Version: 1.0.1
+Summary: Database Rider for Python
+Author: Nishant Shah
+License: Apache License 2.0
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: peewee (==3.14.10)
+
