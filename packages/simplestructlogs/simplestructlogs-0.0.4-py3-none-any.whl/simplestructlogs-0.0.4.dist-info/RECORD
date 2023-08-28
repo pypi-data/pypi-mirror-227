@@ -1,0 +1,9 @@
+simplestructlogs/__init__.py,sha256=BeXzVxpIa7x0aeTzjLrSSaMGpzJGkurO0QJj-fNW6j8,66
+simplestructlogs/json_log_message.py,sha256=5skSkJxZa-qUkxTP5t1du80VUTZhh-MYHosK1JkntMw,1687
+simplestructlogs/structured_logging.py,sha256=7LHiYZtEvewf5rHRoOS5raDInqs7ftDuqFBqCiIDNsk,10232
+simplestructlogs/test_log.py,sha256=NIdc3GFI_8bsVjHYbW523iL8NtchVxtB3NTQcWA256k,751
+simplestructlogs-0.0.4.dist-info/LICENSE,sha256=ArH74mgKpUg9bI9zOVV2tYHWoekiFF2qpKHac0FoTsM,1073
+simplestructlogs-0.0.4.dist-info/METADATA,sha256=Rcpz82H6Vlsr3mIM4SReq5X9UlaToj_p57P5_S6Z43Q,1727
+simplestructlogs-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+simplestructlogs-0.0.4.dist-info/top_level.txt,sha256=4iynZIcCyrhrnEwkFNDlem8cEVIH1jFW2ixJM5riDUw,17
+simplestructlogs-0.0.4.dist-info/RECORD,,
