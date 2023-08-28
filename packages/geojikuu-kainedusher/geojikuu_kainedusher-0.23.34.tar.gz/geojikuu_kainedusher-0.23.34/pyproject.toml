@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "geojikuu_kainedusher"
+version = "0.23.34"
+authors = [
+  { name="Kaine Usher", email="kaine.usher1@gmail.com" },
+]
+description = "GeoJikuu is a Python library for analysing geographical data that contains both spatial and spatiotemporal variables."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kainedusher/GeoJikuu"
