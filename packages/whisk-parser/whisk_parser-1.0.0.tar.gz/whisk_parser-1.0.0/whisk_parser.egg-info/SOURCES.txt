@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+test/test_sentences.py
+whisk_parser/__init__.py
+whisk_parser.egg-info/PKG-INFO
+whisk_parser.egg-info/SOURCES.txt
+whisk_parser.egg-info/dependency_links.txt
+whisk_parser.egg-info/top_level.txt
