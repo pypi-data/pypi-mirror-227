@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+precnumber/__init__.py
+precnumber/number.py
+precnumber.egg-info/PKG-INFO
+precnumber.egg-info/SOURCES.txt
+precnumber.egg-info/dependency_links.txt
+precnumber.egg-info/top_level.txt
