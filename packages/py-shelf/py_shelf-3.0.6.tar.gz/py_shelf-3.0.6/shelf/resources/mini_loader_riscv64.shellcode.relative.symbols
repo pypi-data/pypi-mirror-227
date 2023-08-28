@@ -1,0 +1,1 @@
+[["", 0, 0], ["get_pc_internal", 90, 0], ["next", 94, 0], ["__global_pointer$", 7062, 0], ["loader_call_main", 856, 62], ["loader_handle_relocation_table", 446, 410], ["__SDATA_BEGIN__", 5014, 0], ["loader_main", 0, 446], ["__BSS_END__", 5020, 0], ["__bss_start", 5014, 0], ["__DATA_BEGIN__", 5014, 0], ["_edata", 5014, 0], ["_end", 5020, 0]]

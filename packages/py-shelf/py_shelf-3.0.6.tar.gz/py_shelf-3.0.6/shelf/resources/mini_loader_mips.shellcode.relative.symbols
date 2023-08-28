@@ -1,0 +1,1 @@
+[["", 0, 0], ["get_pc_internal", 88, 0], ["next", 100, 0], ["_gp", 99632, 0], ["_fdata", 66880, 0], ["loader_call_main", 1248, 92], ["loader_handle_relocation_table", 636, 612], ["loader_main", 0, 636], ["_ftext", 0, 0], ["__bss_start", 66880, 0], ["_edata", 66880, 0], ["_end", 66880, 0], ["_fbss", 66880, 0]]

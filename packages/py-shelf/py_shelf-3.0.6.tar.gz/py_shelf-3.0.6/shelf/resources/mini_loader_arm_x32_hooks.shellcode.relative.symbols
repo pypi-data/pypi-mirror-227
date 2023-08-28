@@ -1,0 +1,1 @@
+[["", 0, 0], ["$a", 0, 0], ["$a", 2232, 0], ["_bss_end__", 67828, 0], ["loader_call_main", 2232, 60], ["loader_handle_relocation_table", 1136, 1096], ["__bss_start__", 67828, 0], ["__bss_end__", 67828, 0], ["loader_main", 0, 1136], ["__bss_start", 67828, 0], ["__end__", 67828, 0], ["_edata", 67828, 0], ["_end", 67828, 0]]
