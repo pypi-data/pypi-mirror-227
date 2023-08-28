@@ -1,0 +1,5 @@
+auto-sklearn==0.15.0
+numpy<2,>=1.25.0
+pandas<3,>=2
+scipy<2,>=1.10.1
+tqdm
