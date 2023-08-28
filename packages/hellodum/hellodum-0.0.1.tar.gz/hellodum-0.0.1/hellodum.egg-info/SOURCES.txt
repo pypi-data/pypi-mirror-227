@@ -1,0 +1,8 @@
+setup.py
+hellodum.egg-info/PKG-INFO
+hellodum.egg-info/SOURCES.txt
+hellodum.egg-info/dependency_links.txt
+hellodum.egg-info/requires.txt
+hellodum.egg-info/top_level.txt
+zimzim/__init__.py
+zimzim/hello.py
