@@ -1,0 +1,2 @@
+[datasette]
+sqlite_robotstxt = datasette_sqlite_robotstxt
