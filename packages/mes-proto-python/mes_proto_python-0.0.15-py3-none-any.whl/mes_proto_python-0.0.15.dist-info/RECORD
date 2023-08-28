@@ -1,0 +1,9 @@
+mes_proto_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mes_proto_python/main.py,sha256=GqW_i0O0NJbeR78c7IfzW2fkTJG-va3sbn0saQNexoM,116
+mes_proto_python/proto.py,sha256=SxfVBHAG2oJqRrMDhK0umBOSvi7bR10BmFI3NJS1Kj4,83
+mes_proto_python/auto_gen/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mes_proto_python/auto_gen/offers_pb2.py,sha256=7TLjS8O-gNcjp8Gj5qO25dCazC_549z4CUCf0HwpD4c,3367
+mes_proto_python-0.0.15.dist-info/METADATA,sha256=w__qZ0p0cHOiwLpTsB0MTYMawmVeBv5C9O1djLoDCLk,81
+mes_proto_python-0.0.15.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+mes_proto_python-0.0.15.dist-info/top_level.txt,sha256=d3UrPYTvkMfQPceYpciXaUvqBvkzDKn2MAUAEhOc1GQ,17
+mes_proto_python-0.0.15.dist-info/RECORD,,
