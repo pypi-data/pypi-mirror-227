@@ -1,0 +1,4 @@
+[console_scripts]
+campbells = campbells.main:prettify_html
+campbells-diagnose = campbells.diagnose:diagnose_html
+
