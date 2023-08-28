@@ -1,0 +1,38 @@
+---
+flask:
+  debug: true
+  port: 80
+  host: "0.0.0.0"
+  # ssl_keyfile: "/etc/letsencrypt/live/example.com/fullchain.pem"
+  # ssl_certfile: "/etc/letsencrypt/live/example.com/privkey.pem"
+
+html_index:
+  title: C-Bot
+  chat_title: Your chat
+  chat_number_of_messages: 0 message
+  chat_send_button_value: Send
+  chat_input_placeholder: Write your message here
+  footer_text: >-
+    © 2023 - C-Bot, handmade by Vincent Stragier,
+    University of Mons and les Amis des Aveugles, Ghlin
+
+js_app:
+  bot_name: C-Bot
+  username: Vini
+
+interface:
+  locale: en_US.UTF-8
+
+voice:
+  id: 2
+  rate: 200
+  volume: 1.0
+
+llm_api:
+  name: oobabooga
+  url: "http://127.0.0.1"
+  port: 5000
+  path: "/api/v1/generate"
+  # http_basic_auth:
+  #   username: api_token
+  #   password: a_random_password

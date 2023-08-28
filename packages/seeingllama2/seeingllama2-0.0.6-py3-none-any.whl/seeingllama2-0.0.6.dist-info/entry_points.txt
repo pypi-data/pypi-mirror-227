@@ -1,0 +1,2 @@
+[console_scripts]
+seeingllama2 = seeingllama2.__main__:main
