@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aria2jrpc
+Version: 0.0.2
+Summary: A small package to help you work with aria2 jrpc
+Author-email: SeyedMohammadAli Noori <13noori79@gmail.com>
+Project-URL: Homepage, https://github.com/alinri/aria2jrpc
+Project-URL: Bug Tracker, https://github.com/alinri/aria2jrpc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+
+# Aria2jrpc
+
+A wrapper around [Aria2 JSON-RPC](https://aria2.github.io/manual/en/html/aria2c.html#rpc-interface)
+
+## Example usage
+
+```python
+from aria2jrpc import Aria2JRPC
+aria2_client = Aria2JRPC("http://127.0.0.1:6800", secret="your-secure-secret")
+gid = aria2_client.add_uri("http://example.com/file.zip")
+aria2_client.pause(gid)
+```
