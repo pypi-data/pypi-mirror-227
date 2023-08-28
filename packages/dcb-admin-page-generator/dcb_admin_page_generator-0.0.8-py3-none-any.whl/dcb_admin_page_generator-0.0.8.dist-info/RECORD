@@ -1,0 +1,17 @@
+dcb_admin_page_generator/__init__.py,sha256=NTfWW-S8QXAjYC8uxWb7SXrGLsJ8wceH2hsys4LDZKo,25
+dcb_admin_page_generator/common_class.py,sha256=otOOCuTT-dsFn3CoEmKssIcJkKVHN2P_xzqHgTuJlB4,7265
+dcb_admin_page_generator/config.py,sha256=QNRSCILjB5roRSro-seQfTjI21qqNQH1m1Aenmerd-U,6617
+dcb_admin_page_generator/funcs.py,sha256=FCO2azNDLrMuIp1WAmQeSjvVtCO9YtrR5_L9agEeLJk,1391
+dcb_admin_page_generator/main.py,sha256=DJIf_T6TLxsm6AwuHwgT4_gan-ng4bin_WDwt6SM7lw,2402
+dcb_admin_page_generator/page_class.py,sha256=GBqyfhP5QUcnv6ANBGlaok8IxHgLtL67-klDZzyP9uc,7657
+dcb_admin_page_generator/template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcb_admin_page_generator/template/add_or_edit.vue,sha256=Bd5MWvOCspWR95CP21ABenGsodlw7eTfLLqAqRzH2m8,2626
+dcb_admin_page_generator/template/dialog_add_or_edit.vue,sha256=cfkfj2JGSy91Ec_fP5z8U3mDsiG4E9l7444EnkmQPmk,2357
+dcb_admin_page_generator/template/dialog_list.vue,sha256=a6xfc0C4v2pk-p_RA1_LIOBMfMWkt4U0eLmV25C01cU,4153
+dcb_admin_page_generator/template/list.vue,sha256=NDO7c04T02FEvwyutvcOBkDFR6MkUVxCaes6p42vwbo,3983
+dcb_admin_page_generator/template/list_v2.vue,sha256=h56wPvKJG3QNuq3b6XvBAksdvjwM4hjl2_QcgQCLukI,3949
+dcb_admin_page_generator-0.0.8.dist-info/LICENSE,sha256=isFtsczfULkAm7Cz-0kyrtqgs2Q5T0tr2rK3YWTZDs8,1088
+dcb_admin_page_generator-0.0.8.dist-info/METADATA,sha256=EBevg1gH_ZskIhgxmREEwY6n9C6hlQXjcu9LriAnlYc,664
+dcb_admin_page_generator-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dcb_admin_page_generator-0.0.8.dist-info/top_level.txt,sha256=itfEYL5H9FxPBgv6CepRjx9gdnAEUqtsgv_EtNFibhA,25
+dcb_admin_page_generator-0.0.8.dist-info/RECORD,,
