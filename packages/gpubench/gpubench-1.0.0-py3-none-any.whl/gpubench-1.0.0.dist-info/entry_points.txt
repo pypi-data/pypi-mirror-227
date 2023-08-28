@@ -1,0 +1,2 @@
+[console_scripts]
+gpubench = gpubench.main:main
