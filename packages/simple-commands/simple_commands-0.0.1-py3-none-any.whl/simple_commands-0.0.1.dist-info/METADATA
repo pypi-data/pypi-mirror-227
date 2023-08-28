@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: simple-commands
+Version: 0.0.1
+Summary: simple_commands
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: Pillow
+Requires-Dist: opencv-python
+
