@@ -1,0 +1,5 @@
+qrcode
+opencv-python
+cryptography
+json
+pyotp
