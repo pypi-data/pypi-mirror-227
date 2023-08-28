@@ -1,0 +1,37 @@
+[project]
+name = "btl"
+dynamic = ["version"]
+authors = [
+  { name="Samuel", email="knipknap@gmail.com" },
+]
+description = "A FreeCAD addon and a CLI tool to manage tool libraries"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/knipknap/better-tool-library"
+"Bug Tracker" = "https://github.com/knipknap/better-tool-library/issues"
+
+[build-system]
+requires = [
+  "setuptools >= 40.9.0", "setuptools-git-versioning"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages]
+find = {}
+
+[tool.setuptools-git-versioning]
+enabled = true
+
+[project.scripts]
+btl = "btl.cli:run"
+qbtl = "btl.qbtl:run"
