@@ -1,0 +1,8 @@
+alicebot/adapter/cqhttp/__init__.py,sha256=rzGuQ3Y3kERZ_9bnI_PerU9-oYwoGiyAv954vt61adg,10171
+alicebot/adapter/cqhttp/config.py,sha256=Q4Bfb9DPKTOtGLUtxOtk4rqfm3C4crbm7ZosHKWdei8,897
+alicebot/adapter/cqhttp/event.py,sha256=fhlorIByjhEfMNj7_37tuhfg3e6_SuIWr0mdVs3hoeE,10451
+alicebot/adapter/cqhttp/exceptions.py,sha256=0N_5Cy0zApXTVoLRnJL08BlShIOS7QfFKxD78ZIfDzo,893
+alicebot/adapter/cqhttp/message.py,sha256=5m-ElZNegdBqedrNIw3wyRj245smQzWbUHMJcqYjaR4,7526
+alicebot_adapter_cqhttp-0.8.1.dist-info/METADATA,sha256=qJ6Oe9I82pjEZSR7xFKsjGSvQjFoCftVDRky4lt5_h0,1172
+alicebot_adapter_cqhttp-0.8.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+alicebot_adapter_cqhttp-0.8.1.dist-info/RECORD,,
