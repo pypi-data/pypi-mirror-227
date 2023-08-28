@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gym-anytrading
+Version: 2.0.0
+Author: AminHP
+Author-email: mdan.hagh@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: gymnasium (>=0.29.1)
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: matplotlib (>=3.1.1)
+

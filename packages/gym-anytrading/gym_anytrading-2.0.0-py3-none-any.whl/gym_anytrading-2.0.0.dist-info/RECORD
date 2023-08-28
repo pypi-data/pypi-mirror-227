@@ -1,0 +1,14 @@
+gym_anytrading/__init__.py,sha256=wLsFrFJc9iHbEwHhsGzwkq3YXFNPuYtMUhmM3NSUQwk,599
+gym_anytrading/datasets/__init__.py,sha256=BUr615YJscmq-_Ej7GfMdqXrN7N7wmK5D9H1_Ys9kKk,225
+gym_anytrading/datasets/utils.py,sha256=JRkCEIgrvFT6kPvSJkyAZV5vSvzBHGD8BQDZ4-l8ESc,273
+gym_anytrading/datasets/data/FOREX_EURUSD_1H_ASK.csv,sha256=KDmLft_590hg01pvPCY_COFcVSZDFtwHc31FnYaI16o,422668
+gym_anytrading/datasets/data/STOCKS_GOOGL.csv,sha256=Gj1Fn9vN25NioVewdDiw_YPm6wRAahNrWwoQxbDfEHo,176301
+gym_anytrading/envs/__init__.py,sha256=Gi61S-JTBC_CMsokPi9stOsENJutS7HJY-P7nqDZDvY,125
+gym_anytrading/envs/forex_env.py,sha256=iKB1Q3mcMBvoIL2OjV0MhUjvo8JtXlUw4TBZQxYG550,4086
+gym_anytrading/envs/stocks_env.py,sha256=BqWDNHi4ncxkAzMAbCatVbxd-5YQ1Bj2Pvav-DIpse8,3350
+gym_anytrading/envs/trading_env.py,sha256=zdEreqGRF3q0ETn_dgomwcHNyYUpJYUJ9Jleqxv1vP0,6336
+gym_anytrading-2.0.0.dist-info/LICENSE,sha256=mp3A2LX5gfdj24AsOvBtRtVhaLbHCwkHb4rKaqj5Pp4,1101
+gym_anytrading-2.0.0.dist-info/METADATA,sha256=67CdYk5zyHAvJELn8IJaJbQAvWL5QuzNWyWkeOBPmvI,292
+gym_anytrading-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gym_anytrading-2.0.0.dist-info/top_level.txt,sha256=24z2PLHGoS0J5koaoYJMOzK31wMcFdUnZXbxqfTZ328,15
+gym_anytrading-2.0.0.dist-info/RECORD,,
