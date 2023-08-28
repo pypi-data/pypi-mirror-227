@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+tests/test.py
+txts/__init__.py
+txts/api.py
+txts.py.egg-info/PKG-INFO
+txts.py.egg-info/SOURCES.txt
+txts.py.egg-info/dependency_links.txt
+txts.py.egg-info/requires.txt
+txts.py.egg-info/top_level.txt
