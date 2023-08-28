@@ -1,0 +1,5 @@
+setup.py
+your_physics_library.egg-info/PKG-INFO
+your_physics_library.egg-info/SOURCES.txt
+your_physics_library.egg-info/dependency_links.txt
+your_physics_library.egg-info/top_level.txt
