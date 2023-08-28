@@ -1,0 +1,109 @@
+stages:
+  - test
+  - build
+  - publish
+
+image: python:3.9
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.pip_cache"
+
+cache:
+  key: $CI_JOB_NAME
+  paths:
+    - .pip_cache/
+
+
+check-code:
+  before_script:
+    - pip install black check-manifest ruff
+  script:
+    - black --check src/ tests/
+    - ruff .
+    - check-manifest
+
+.test:
+  stage: test
+  variables:
+    SPATIALITE_LIBRARY_PATH: mod_spatialite
+    TEST_DEPENDENCIES: pillow psycopg2-binary pytest-cov
+  before_script:
+    - pip install django~=$DJANGO_VERSION -e .[dev]
+  script:
+    - pytest --cov=pytest_django_ifactory
+
+typing:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 4.2.4
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.8
+  script:
+    - mypy .
+
+test-py38-django32:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 3.2.19
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.8
+
+test-py39-django32:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 3.2.19
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.9
+
+test-py310-django42:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 4.2.1
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.10
+
+test-py311-django42:
+  extends: .test
+  variables:
+    DJANGO_VERSION: 4.2.1
+  image: registry.gitlab.com/gorilladev/pytest-django-ifactory/python:3.11
+  coverage: /(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/
+
+
+build:
+  stage: build
+  before_script:
+    - pip install build
+  script:
+    - python -m build
+  artifacts:
+    paths:
+      - dist/
+  only:
+    - master
+    - tags
+
+
+.publish:
+  stage: publish
+  variables:
+    GIT_STRATEGY: none
+  before_script:
+    - pip install --upgrade twine
+  script:
+    - twine check dist/*
+    - twine upload dist/*
+
+publish-test-pypi:
+  extends: .publish
+  variables:
+    TWINE_REPOSITORY_URL: https://test.pypi.org/legacy/
+  environment:
+    name: test-pypi
+    url: https://test.pypi.org/project/pytest-django-ifactory/
+  only:
+    - master
+
+publish-pypi:
+  extends: .publish
+  environment:
+    name: pypi
+    url: https://pypi.org/project/pytest-django-ifactory/
+  only:
+    - tags

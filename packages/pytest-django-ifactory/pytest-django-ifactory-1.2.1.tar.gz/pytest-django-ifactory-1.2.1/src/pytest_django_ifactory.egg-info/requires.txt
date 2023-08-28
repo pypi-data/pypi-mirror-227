@@ -1,0 +1,17 @@
+pytest-django
+
+[dev]
+black
+build
+check-manifest
+django<5
+django-stubs
+mypy
+pillow
+pre-commit
+psycopg2-binary
+pytest-cov
+ruff
+typing_extensions>=4
+twine
+wheel
