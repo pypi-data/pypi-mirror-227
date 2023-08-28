@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+build.py
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+ascii_art/__init__.py
+ascii_art/__main__.py
+ascii_art/process.py
+pyasciiartist.egg-info/PKG-INFO
+pyasciiartist.egg-info/SOURCES.txt
+pyasciiartist.egg-info/dependency_links.txt
+pyasciiartist.egg-info/requires.txt
+pyasciiartist.egg-info/top_level.txt
