@@ -1,0 +1,14 @@
+hero_card/__init__.py,sha256=2PGgvPSA50O5Emn38FaNnwFL4o6L06AsxCu5t8bOn6U,54348
+hero_card/frontend/build/asset-manifest.json,sha256=uAneKqs9fGXJ0iSKJ-IL1smSuRcJVsUoTwV9CBbK95c,374
+hero_card/frontend/build/bootstrap.min.css,sha256=X9ITP3t3djkRs4SffIkA1Q2WMy-oYl6au5HFYTVShe0,206960
+hero_card/frontend/build/index.html,sha256=BkqrGFYnbv6vEFVivWf_zB8nQwc8ieKb0uBEHdSwaY0,682
+hero_card/frontend/build/static/css/main.1a6bbc9f.css,sha256=e6RAZheHxpGb5PpOGm_X41BBIYoeRUduxpc7Zz70epA,8426
+hero_card/frontend/build/static/css/main.1a6bbc9f.css.map,sha256=uXjyd45JXjeDxHV7ZYat2nF-pTEREt4K3eJPvbnuY4A,16572
+hero_card/frontend/build/static/js/main.5c367b53.js,sha256=6waOj9pnDLxy_3PMrgxZo4OccsRc9bZ4RxMwQj4cSiw,948381
+hero_card/frontend/build/static/js/main.5c367b53.js.LICENSE.txt,sha256=WvFS3qgevtRCFIDX48pTm0HlDiOkeqDz_4tDFblB_w0,2068
+hero_card/frontend/build/static/js/main.5c367b53.js.map,sha256=oFBYPbUyw209I4jXNEFCvcVfMyRanbdNFk_VCYGwZ7c,4390554
+card_component_hero-0.0.2.dist-info/LICENSE,sha256=SHkHX-qiNZt-ACArrZP67jppVYPvF8xuUDRjJw_E3L0,1082
+card_component_hero-0.0.2.dist-info/METADATA,sha256=8yrP2gu2Swa3b0RunjKcBrYkuUxH6BLxh-1UtlQtAyE,230
+card_component_hero-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+card_component_hero-0.0.2.dist-info/top_level.txt,sha256=cADearvF1LpK6KKtiMB4dPniIpTucuGsJL_Buj9a6o0,10
+card_component_hero-0.0.2.dist-info/RECORD,,
