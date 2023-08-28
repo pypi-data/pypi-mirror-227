@@ -1,0 +1,9 @@
+serializor-0.1.10.3.dist-info/RECORD,,
+serializor-0.1.10.3.dist-info/LICENSE,sha256=RAniOK__cFrKZfwO6yVzJjATd-HyF27gqFNC7A9vCMI,11981
+serializor-0.1.10.3.dist-info/WHEEL,sha256=3FNOzWH49S9xlyW5kytslWcRN_cI_Pw_NSKs5sAOwcc,115
+serializor-0.1.10.3.dist-info/top_level.txt,sha256=Qi-GN-ievkejJkgwXvb-vDjONEKC9nxQyjKw_bKPK1E,11
+serializor-0.1.10.3.dist-info/METADATA,sha256=s4aZTG7kNC9Ou50rTaLktNg-RfnD3gEJ0nxszaBifL4,12664
+serializor/transcode.c,sha256=uCvPBK8X4KEIz7nRWrdRPgI2-YR69pZ-Sjy3DQhyUX4,992059
+serializor/transcode.py,sha256=MRfzYeTPQKh5EZHhmRXtzmoaXbYoptNIkRJS0BahvKM,14894
+serializor/__init__.py,sha256=yIXrWqXEKyw7eB8iXFVH1PX9MTgtwrsNsnj1t4iJovU,199
+serializor/transcode.cpython-311-darwin.so,sha256=u9udPECqjyh91rebmGiYlEDKS6o2eevk5UopoIosmPA,498844
