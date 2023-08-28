@@ -1,0 +1,10 @@
+jetdnn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jetdnn/interpret.py,sha256=rbikQLAGUKT2Ppe0iLqaWL0JxLoMmj1Q3kO-uLiAsrY,1331
+jetdnn/predict.py,sha256=-YmUoHhSz_9OtHq8eI_oPexFkkrW_uNGJX3aytneOOM,8166
+jetdnn/tests.py,sha256=XPcdCGn1Dhhezz8-pHNAknbsXuAI8YmNEPMZjdTBPvw,610
+jetdnn/visualise.py,sha256=SwQPqQuDE96jVoH9TCcabRubpBWprY4H8veVgaV8XLM,1401
+JETDNN-1.1.0.dist-info/LICENSE,sha256=maNyT_IHs5QTIZQ6776CiBuP9Qsw4Ao3cH8_4v201Ao,1084
+JETDNN-1.1.0.dist-info/METADATA,sha256=b_lQ3N-2HqahYg65M3Gg-Dq-selDpw6FXk-A3S27-hc,394
+JETDNN-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+JETDNN-1.1.0.dist-info/top_level.txt,sha256=xo1FWMeRaW8OPHUYrDCNC99cd1Lw8xGai5uQxDPW21U,7
+JETDNN-1.1.0.dist-info/RECORD,,
