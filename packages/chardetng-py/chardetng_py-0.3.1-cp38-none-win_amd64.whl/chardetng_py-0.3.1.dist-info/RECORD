@@ -1,0 +1,9 @@
+chardetng_py-0.3.1.dist-info/METADATA,sha256=uRiBKejvWkalAyk0Z4qaW0pjEjH0MrB8u_dGgSNgL9E,3075
+chardetng_py-0.3.1.dist-info/WHEEL,sha256=VvdY44iN3gVotPLSbm-bn6F9k45H_kxH9jQNBi2QPzw,96
+chardetng_py-0.3.1.dist-info/license_files/LICENSE,sha256=OWSAsyMPHg3eF8UWMzG8brfPrHXaSuoLWQg5099pSsQ,1067
+chardetng_py/compat.py,sha256=IQqxWXTwKYpBcl2iMYWtf0y51dyV-otXnsvzLJvTA38,1368
+chardetng_py/detector.pyi,sha256=-2-9oHxLJ2aAPQAdsH_ShA1_VoEXyi7F8LiG1sJ2uqo,506
+chardetng_py/shortcuts.py,sha256=sr_j8mEx6QbKwvC1dkzZyOSEO3NlEVh7sC_cJ7zeyms,2262
+chardetng_py/__init__.py,sha256=4V5KVIuA-3ieTCsTEzfB9Hmu7mCuP2-oiEiQVjn9vlU,482
+chardetng_py/detector.cp38-win_amd64.pyd,sha256=WymmSltQuIo491gIARtN8Nf2E3s5HY0ydUH4oqZERao,505856
+chardetng_py-0.3.1.dist-info/RECORD,,
