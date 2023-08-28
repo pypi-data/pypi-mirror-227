@@ -1,0 +1,7 @@
+pip
+pudb
+pygments
+pylama
+pylint
+pytest
+pytest-cov
