@@ -1,0 +1,10 @@
+pycodestyle==2.11.0
+coveralls==3.3.1
+python-semantic-release==8.0.8
+mypy==1.5.1
+icp10125==0.0.1
+pimoroni-sgp30==0.0.2
+pimoroni-bme280==0.1.1
+smbus2==0.4.3
+wheel==0.41.2
+twine==4.0.2
