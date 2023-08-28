@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+objectutils/__init__.py
+objectutils/class_wrapper.py
+objectutils/main.py
+objectutils/traverse.py
+objectutils.egg-info/PKG-INFO
+objectutils.egg-info/SOURCES.txt
+objectutils.egg-info/dependency_links.txt
+objectutils.egg-info/top_level.txt
+tests/test_class_wrapper.py
+tests/test_dict_sum.py
+tests/test_flatten.py
+tests/test_traverse.py
