@@ -1,0 +1,7 @@
+setup.py
+CosmicaCLI.egg-info/PKG-INFO
+CosmicaCLI.egg-info/SOURCES.txt
+CosmicaCLI.egg-info/dependency_links.txt
+CosmicaCLI.egg-info/entry_points.txt
+CosmicaCLI.egg-info/requires.txt
+CosmicaCLI.egg-info/top_level.txt
