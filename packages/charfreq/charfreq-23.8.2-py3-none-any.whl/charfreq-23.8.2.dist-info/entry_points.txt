@@ -1,0 +1,2 @@
+[console_scripts]
+charfreq = charfreq.__main__:main
