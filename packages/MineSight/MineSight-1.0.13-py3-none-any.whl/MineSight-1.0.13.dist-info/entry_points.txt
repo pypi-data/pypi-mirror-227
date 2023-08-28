@@ -1,0 +1,2 @@
+[console_scripts]
+minesight = minesight.main:main

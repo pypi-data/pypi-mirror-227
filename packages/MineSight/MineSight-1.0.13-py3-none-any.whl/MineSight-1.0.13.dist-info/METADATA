@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: MineSight
+Version: 1.0.13
+Summary: Investigate a Minecraft account
+Home-page: https://github.com/Gobutsu/MineSight
+Author: Gobutsu
+Requires-Python: >=3.6
+Requires-Dist: httpx
+Requires-Dist: rich
+Requires-Dist: beautifulsoup4
+Requires-Dist: jsonpath-ng
+
