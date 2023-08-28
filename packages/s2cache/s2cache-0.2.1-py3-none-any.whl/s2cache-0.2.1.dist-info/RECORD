@@ -1,0 +1,13 @@
+s2cache/__init__.py,sha256=xQEVHd5_As1IZgQo9iPf5FNR3US6fdFy5VY9sP4jZZU,69
+s2cache/config.py,sha256=RGOjbYKfHE4nsWgGuOPQTJPz1dbt-Q_W4pYDNrxUxvw,3039
+s2cache/corpus_data.py,sha256=suaEjhFDMLqb5VgvtnUPrXSzew16Uhdv4zIrIqpANlU,7666
+s2cache/filters.py,sha256=cJPDQuhazfOD4yZV7l0YhE_xuCHmQ_nssVKl5GFcHX0,2385
+s2cache/models.py,sha256=nFn3oJCEIVmcb74sqOSpqn8W2PaKqy58oqm-O08p5xE,3062
+s2cache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s2cache/semantic_scholar.py,sha256=Mf7BYUYmh8VJeQ8DH0Rp52f_wO4kagvQDfh2EmXrLGU,46870
+s2cache/util.py,sha256=Akeyzhc6E8vzk-YuQjsOnS_b2TQkcMQn0pForXbiRsg,330
+s2cache-0.2.1.dist-info/LICENSE.md,sha256=CAsqxJH1pbeq-j0JgHasxATPW_RaGX0MUVd_Xcvq3nI,1081
+s2cache-0.2.1.dist-info/METADATA,sha256=MIQdAMEqZW1PjX-ewXnaUFCjJWDh_Dk9kqsshYOEPwk,2381
+s2cache-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+s2cache-0.2.1.dist-info/entry_points.txt,sha256=x4vNPUTGZt_nlTPa2WOxPxP_FI9iQdJ0xGS8rh9bBRg,36
+s2cache-0.2.1.dist-info/RECORD,,
