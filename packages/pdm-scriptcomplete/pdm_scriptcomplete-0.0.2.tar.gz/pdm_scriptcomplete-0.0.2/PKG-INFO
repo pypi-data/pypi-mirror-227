@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pdm-scriptcomplete
+Version: 0.0.2
+Summary: A PDM plugin that enables tab completion for pdm scripts
+Keywords: pdm pdm-scriptcomplete
+Author: Anton Bauer
+License: MIT
+Project-URL: Homepage, https://pypi.org/project/pdm-scriptcomplete/
+Project-URL: Repository, https://github.com/g-wagen/pdm-scriptcomplete.git
+Requires-Python: >=3.9
+Requires-Dist: pdm>=2.5
+Description-Content-Type: text/markdown
+
+# PDM Script Complete
+
+This [PDM](https://github.com/pdm-project/pdm) plugin enables tab completion for pdm scripts.
+
+## Installation
+### PDM
+PDM needs to be installed prior to installing the plugin. Please follow the instructions from the official [PDM README](https://github.com/pdm-project/pdm/README.md).
+
+### The plugin
+You can install the plugin with [PDM](https://github.com/pdm-project/pdm):
+```commandline
+pdm self add pdm-scriptcomplete
+```
+
+As a local-only plugin:
+
+```toml
+# pyproject.toml
+[tool.pdm]
+plugins = ["pdm-scriptcomplete"]
+```
+
+```commandline
+pdm install --plugins
+```
+
+## Usage
+
+```commandline
+pdm script <ENTER>
+```

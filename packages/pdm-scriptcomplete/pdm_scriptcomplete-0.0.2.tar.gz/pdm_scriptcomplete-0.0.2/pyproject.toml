@@ -1,0 +1,102 @@
+[project]
+name = "pdm-scriptcomplete"
+description = "A PDM plugin that enables tab completion for pdm scripts"
+authors = [
+    { name = "Anton Bauer", email = "" },
+]
+dependencies = [
+    "pdm>=2.5",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+keywords = [
+    "pdm",
+    "pdm-scriptcomplete",
+]
+version = "0.0.2"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://pypi.org/project/pdm-scriptcomplete/"
+Repository = "https://github.com/g-wagen/pdm-scriptcomplete.git"
+
+[project.entry-points.pdm]
+scriptcomplete = "pdm_scriptcomplete:plugin"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.pdm]
+plugins = [
+    "-e file:///${PROJECT_ROOT}/#egg=pdm_scriptcomplete",
+]
+
+[tool.pdm.build]
+package-dir = "src"
+
+[tool.pdm.scripts]
+test = "pytest tests"
+black = "black ."
+ruff = "ruff check ."
+
+[tool.pdm.scripts.lint]
+composite = [
+    "black",
+    "ruff",
+]
+
+[tool.pdm.scripts.pypi]
+cmd = "pdm publish"
+env_file = ".env"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7",
+    "pdm[pytest]>=2.5",
+    "black>=20.0",
+    "ruff>=0.0.275",
+]
+
+[tool.black]
+line-length = 80
+target-version = [
+    "py39",
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.ruff]
+line-length = 80
+select = [
+    "B",
+    "C4",
+    "E",
+    "F",
+    "PGH",
+    "RUF",
+    "W",
+    "YTT",
+]
+extend-ignore = [
+    "B018",
+    "B019",
+]
+src = [
+    "src",
+]
+extend-exclude = [
+    "tests/fixtures",
+]
+target-version = "py39"
