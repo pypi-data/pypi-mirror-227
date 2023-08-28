@@ -1,0 +1,9 @@
+opendeliverybot/__init__.py,sha256=KIrCDVlRv-E5YwHiiY6KdEljfY8AwV7pXjA6nkcGkFY,13131
+opendeliverybot/config/settings.conf,sha256=9J0ChJJnQpQz8O5bkAzLukXK0ysqXC1pBSIz3vuagBc,38
+opendeliverybot/data/data.json,sha256=whsevtzBcbKV6jyxKVzm8LlDKsEYDC55a71g9AjxvBk,537
+opendeliverybot/logs/analytics.csv,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opendeliverybot/logs/players.log,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+opendeliverybot-0.2.1.dist-info/LICENSE,sha256=PGDAhuniCYAOecoaeqq_CZIsmuL-LqlXHyBD4fy42eI,1068
+opendeliverybot-0.2.1.dist-info/METADATA,sha256=3l6aogAIrjBwsuZBp22RtrhiAgjnkYpP81dfDBOQhYw,7017
+opendeliverybot-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+opendeliverybot-0.2.1.dist-info/RECORD,,
