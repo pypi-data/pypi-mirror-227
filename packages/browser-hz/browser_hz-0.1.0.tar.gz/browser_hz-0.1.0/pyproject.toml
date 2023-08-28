@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "browser-hz"
+version = "0.1.0"
+description = ""
+authors = ["Hubert Zajac <hubertzajac6@gmail.com>"]
+readme = "README.md"
+packages = [{include = "browser_hz"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
