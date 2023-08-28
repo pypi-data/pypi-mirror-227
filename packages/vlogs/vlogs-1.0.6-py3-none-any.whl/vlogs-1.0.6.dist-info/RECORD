@@ -1,0 +1,9 @@
+vlogs/__init__.py,sha256=7HKi8e4bQHrU9aGK3DnUPPrDu8Eyz8tuaIfCIm2D_Z0,28
+vlogs/config.py,sha256=e31AoXP_eaM4mv7H8dAHpiKfE5-saQgVjvT7PzJ3dlI,41
+vlogs/model.py,sha256=ZSdJtD_zyfuFYTKDb3qC5X1YxdH8RZ0V8UUOISVqPRw,12157
+vlogs/sdk.py,sha256=PA-2gD3vW_CswjYm6I7nUJuu3TZm18pSBgZY6-g1XcI,3768
+vlogs/service.py,sha256=RcjxILGNvUezBsMKCQfklCgU7PwDxNbrwsyc-xfUjow,1690
+vlogs/util.py,sha256=NjN7v0rTSEaPezz1yDYdizHfTqlFMZetjgatWNMGLM0,500
+vlogs-1.0.6.dist-info/METADATA,sha256=ur6SyMQxOPcQN8UpuxEcEXzMyX-qNtPUCPtDLutJktA,1604
+vlogs-1.0.6.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+vlogs-1.0.6.dist-info/RECORD,,
