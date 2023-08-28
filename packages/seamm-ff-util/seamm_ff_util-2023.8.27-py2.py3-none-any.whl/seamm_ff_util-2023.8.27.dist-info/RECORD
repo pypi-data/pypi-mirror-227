@@ -1,0 +1,12 @@
+seamm_ff_util/__init__.py,sha256=cUGiA4bQmTH5e5JLTY9cP6g0EN6lHIRuuftPZrYa35E,493
+seamm_ff_util/_version.py,sha256=Yz9iUkeoK6MZidX5JSXmIVrZ71pip8VtWu_vt7Jit8s,501
+seamm_ff_util/ff_assigner.py,sha256=G7m7rndvU7fRDE2NIVtpFBNdWbQQJHaYDdlHY3EHVLU,2823
+seamm_ff_util/forcefield.py,sha256=SoDNL6DoqOpUf05q0akf0j3ALVAWBdniridXMEndbVU,120778
+seamm_ff_util/metadata.py,sha256=TJHlkkmz3mrmIQWzeSh709DMl2W46ApT-xepyl7HIH0,12041
+seamm_ff_util/tabulate.py,sha256=0OUnU091snZAL18AwqDxjsDiFhZGtSVu4Vm3czwKaKY,1835
+seamm_ff_util-2023.8.27.dist-info/AUTHORS.rst,sha256=dnvz-P2Nt2YAzxYglfGf6O_1OQn5-hwLXmAd5lpo-iY,151
+seamm_ff_util-2023.8.27.dist-info/LICENSE,sha256=QXQ5GPzXg-8OZ_sumdjjTQN04XC48bpOBqoyRd3k8Zo,1509
+seamm_ff_util-2023.8.27.dist-info/METADATA,sha256=Dh-g9MFdZul1Ez7Fys8QoTJvW9I1u9wK92otwmwMMC8,3503
+seamm_ff_util-2023.8.27.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+seamm_ff_util-2023.8.27.dist-info/top_level.txt,sha256=e21oYmGVQoNgABA7J-7U-62HxuuEOtkmT412C4OLjrg,14
+seamm_ff_util-2023.8.27.dist-info/RECORD,,
