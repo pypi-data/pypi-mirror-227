@@ -1,0 +1,55 @@
+def paul():
+    art="""
+    B55GP#BPBGGGBGGPP#GBBGPBBBBB#BGBB##BBBBB##B###B#################################BBBBBBBB5???77!77?
+B####BB#BBB#############################BB#######BBB#############################BBBBBBBGYJJ5YJ??Y
+###############BG######################BB###BGGP5YYY5PB###########################BBBBBBBGY?5GPGBP
+#########################################BP555Y55555555G##############################BBBBBBBBBBBB
+#########################################PPGGBGGGBBBB#GGB#######BB####B#############BBBBBBBBBBBBBB
+#########################################P5PPG5JJJ5PPGB5YB###########################BB#####B##BGP
+#########################################BPPGPY??J??JJY?7G#################################BB###GY
+#B###BB##############################BB#GJJYPYJJJ55YYJJ55G##############################BBBBB#BBBY
+#B##############B#######################PYJ?J?J55GBBGJPGYG########B###################BGGBBBBBG?B#
+#########################################GYYPY5P55YYJ!7JJB#############################BBBBBBBBG?G
+##B########################################P555PPYJY5PY?Y#################################BBBBBB5J
+BBBPG######################################GJYGGPPPGGPP5P##################################BBBBB#Y
+GGBB5G##############################BGPYJ??JYYPBBBG55PPJ7J5G######################################
+PPPGP5B#######################BG5YJJ~^~~~~!?5PPGBB#BGG57??777J5###################################
+GGGG55B#####################BPY!!!777?7~^^~?YP5BGPBBBPJ?7777!^^?YG########BBGB#######BB#########YP
+##PPG######################G55Y5YJYJJ77?7?7~7?Y5J??JJJJ?!~!777777!7JG#######BBB######B#########BYY
+##BG######################B5YPP5YJ??77JJJY??7!!~!7JJJ?YJ?J?JY5YJ5J7JY5B######BGG###############B5Y
+######BB##################G5Y55YJJ777JJJ???J?7!~!?JJJJ?7JJJ7JYPY5P555JYB############Y?Y55PB#######
+###BB#####################PGPGPP5J??7J?7??JYYY?7JJ77?77?JYJJ5YJ?5PP555YY#####B#####G7~!?JYB#######
+#########################BPGPBPBB5JJ?777!77??J?J?!?J?77JYY55J7JY5GP5PPYYG##BB##BB##57J5PBB########
+######################B#B5JJJPPB##5J??77????YJ?J7JP5YY?JYPP5J5PBGGGGGGYYG#BBBBB##BBY?Y5P##########
+##################BBBBBB5J?JYPBBB#B5YYYJJJY55JYY5PGP5Y5YY555PB##PP5PG5YYYB#BBBBBB#P77YPB##########
+##################BB###PJYYY5GBBB##PGGGGPPP5YYJ5PPPPP5PPPPP55G##BP5Y5YJJJJBBBBBB#B?!YPB###########
+######################PJ55J5PGBB###B55PP5J77?7!!?JY55P555YYYYPBB##P5YJ?J?7P#B####P!7YG############
+####################GJJYGPPGGGB#####5Y555YJJ5Y??????JJJYJJJYYPB###GPPJYYYJYB#####57JGB#BB#########
+###################B?7JPBBGGPB######P7?JJJJYPGP555555YY55YYJ5G####BP5PJ55J?Y####BGG###############
+##################BJ!7?Y5JPGG#######G555Y5YYYYPYJJJJJJJYYYYYPG#####GPBY5YJJ7Y###GP##GG############
+##################YYJ?JYYYPG########BY5GPPP5YYPPPPP555YJJYYY55######GBPPGY?Y5B##B###PYB######BB###
+#################GJJ?J55Y5P#########P??Y55Y55PPP555PPPYJJJ???YB##BGB#G5PP5?YYP###B##BGB######PY###
+P5GBBGGBBBBBBBBB#Y7JYG55PP#########GJ?7?Y5YYYY5555555Y?777777JGGGGPBBBPPJ?Y??P##############GJ5B##
+Y?PBBBBGGBBBBBB#B?!7YGPPBB#########GJJJ???77!7???????JJJ?????YG#G5GB##555YYY?P#############GJPB###
+PGGBBGBBGGBBBBBB5?J??YPG###########BG5YY555YJ?JYJJYYY5555PPPBBB##BB##B5JYYY55P###BB########P5#####
+##B##B##BB#####BJ?YYJYG####################BPPPPPPPG###########BB#####PYYYY5PG####B###############
+########GB####BGYYYGPB#####################B7???5?YB##################G5YY?YYB###BB###############
+#############BYJ?J5PB#######################BBB##BB###################GYJ!?J5#####################
+#############GYJ555PB########################BB#############BPPB######B5JJYYP#####BBB#############
+###########BB55G5JJ5#######################################B555PB##BBBPP5Y5PB####PYPGB#####BG#####
+#######BGBP5PPBP~~!Y#####BBPPGBBB#BB########################B#GPP#BPPPJ7JYYY5####BB#########B#####
+#######BGBPGBB#B?!7B####BGP5PGBGBBBBP##########################G5B###GG55PP55B####################
+B########BGGB###G?YBBBB###########B#YG################BB########BB#5?BBBGB##B###############B#BBB#
+##########PB##P55J?B#BBBB#########GBBJ###############BBBB########G?~JBGGPPB##B555P5JYPYJJ5J77YJ?5#
+###########B##GP5PBBBBBBGBGBGPPGG5PB&JB#############BB##BBBB####PJ7JB#BGBG?P5YJJJYJJYJJYYJJJJJJ5##
+BBBG5PGYY5G5YJP5JJY5J?J5J5PBG5J??7Y#BY#BB##########BBBB##BPB####Y?PGB####PYYJJB###B##BBBB##BBBB###
+YYYJ?JJJYYYJYYYY5PYY5PPYYPPGB#BP5PG#5P#GGB#########BBGBBB555B##B55PB########G5YYYYJJJJJJJJJ???Y##B
+PPPGBGGG#BBBBBBBBBBBGGGGGPPPP555YYY5P##B###########BGGBGY5BG5###B77JY5PPPP5YJ?777777777?????JG####
+555YYYYJJJJJ?JJ???777777777777777!?BB#############GBGG5Y5555PG##B???????JJJJJJ???????????777G#####
+!77!77!!!!!!77777777777777777777777BBG##########BGGGBGYYYYJY5Y##B7777777777????????77777?J?5B#####
+?????????7777777777777777777777777!YGG#####BBGGP55?JYYPPPGBBBB555777?JJJJJJYYY5555555YY5BBBB##B##B
+777777777777!!!!!!!!!!!!!!!!!!!!!!!!!JBBGGGPPPPP557777?JJY55P5~!!77777JJJJYJJJ????77777YGB######B?
+!!!!!!!7777???JJJJJYYYYYYYYYYYYJJJ??7!YGBBBBGGPPPY77??JY55PGGY?!!!!!!!!77!!777777777JY55YYPGB##BY7  
+
+    """
+    print(art)  
