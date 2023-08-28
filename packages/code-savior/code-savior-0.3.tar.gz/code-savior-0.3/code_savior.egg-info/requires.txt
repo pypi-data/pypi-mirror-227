@@ -1,0 +1,6 @@
+inquirer
+rich
+configparser
+argparse
+openai
+python-dotenv
