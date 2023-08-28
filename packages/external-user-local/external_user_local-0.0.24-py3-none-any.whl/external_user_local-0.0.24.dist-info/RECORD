@@ -1,0 +1,9 @@
+external_user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+external_user/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+external_user/db/external_user_db.py,sha256=qDa6-W-JjXtprHYbBG4iZZv3HO6spx9cyOEofLA8mC8,8112
+external_user/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+external_user/src/external_user.py,sha256=hUvwgk8Qh_YjAs3yrjV50G5kZCfpx19H6HOsghEneQE,3833
+external_user_local-0.0.24.dist-info/METADATA,sha256=1JNMwnUdTx26hnAfXqscn_vxevXPIjHNFYXbUcn8M7Q,502
+external_user_local-0.0.24.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+external_user_local-0.0.24.dist-info/top_level.txt,sha256=atU8WfXOjviV07YQ7Pf1rLAjLTQGxUGSDKDv7lOc_oc,14
+external_user_local-0.0.24.dist-info/RECORD,,
