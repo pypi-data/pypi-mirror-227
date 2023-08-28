@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/keep_presence/__init__.py
+src/keep_presence/__main__.py
+src/keep_presence.egg-info/PKG-INFO
+src/keep_presence.egg-info/SOURCES.txt
+src/keep_presence.egg-info/dependency_links.txt
+src/keep_presence.egg-info/entry_points.txt
+src/keep_presence.egg-info/requires.txt
+src/keep_presence.egg-info/top_level.txt
