@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "meet-in-the-middle"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "meet_in_the_middle"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.3"
+geographiclib = "^2.0"
+pgeocode = "^0.4.0"
+streamlit = "^1.26.0"
+plotly = "^5.16.1"
+streamlit-plotly-events = "^0.0.6"
+folium = "^0.14.0"
+streamlit-folium = "^0.13.0"
+pydeck = "^0.8.0"
+ipywidgets = "^8.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: meet-in-the-middle
+Version: 0.1.0
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: folium (>=0.14.0,<0.15.0)
+Requires-Dist: geographiclib (>=2.0,<3.0)
+Requires-Dist: ipywidgets (>=8.1.0,<9.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pgeocode (>=0.4.0,<0.5.0)
+Requires-Dist: plotly (>=5.16.1,<6.0.0)
+Requires-Dist: pydeck (>=0.8.0,<0.9.0)
+Requires-Dist: streamlit (>=1.26.0,<2.0.0)
+Requires-Dist: streamlit-folium (>=0.13.0,<0.14.0)
+Requires-Dist: streamlit-plotly-events (>=0.0.6,<0.0.7)
+Description-Content-Type: text/markdown
+
+
