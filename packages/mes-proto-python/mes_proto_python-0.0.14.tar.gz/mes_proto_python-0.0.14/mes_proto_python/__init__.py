@@ -1,0 +1,1 @@
+from .auto_gen import offers_pb2 as proto
