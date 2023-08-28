@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: RiskSimp
+Version: 0.1.2
+Summary: RiskSimp is a versatile Python library designed to streamline the management and manipulation of random variables to empower analysts to effortlessly integrate random distributions into their processes, facilitating non-deterministic analysis 
+Home-page: https://github.com/FabioSol/RiskSimp.git
+Author: Fabio Sol
+Author-email: fabioso2231@gmail.com
+License: MIT
+License-File: LICENSE
