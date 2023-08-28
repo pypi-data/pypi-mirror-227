@@ -1,0 +1,9 @@
+pyrepresent
+watchdog
+attrs
+tqdm
+
+[dev]
+pdoc3
+twine
+pytest
