@@ -1,0 +1,91 @@
+import copy
+import inspect
+from typing import get_origin, get_args, _GenericAlias, List, get_type_hints, Annotated
+
+from datetime import datetime
+import time
+from ks_base.annotation import JSONField
+
+
+class BasicDateTime(datetime):
+    format:str
+
+
+
+class Basic(dict):
+
+    def __init__(self, *args, **kwargs):
+
+        dict.__init__(self, **kwargs)
+        self._reset_attribute()
+        # self.__dict__ = copy.deepcopy({k: v for k, v in kwargs.items() if not k.startswith('__')})
+
+    def __getattr__(self, *args, **kwargs):  # real signature unknown
+        # 如果相关对象未定义，那么会进入该方法，返回默认值
+        return self.get(args[0], None)
+
+    # def __getattribute__(self, *args, **kwargs):  # real signature unknown
+    #     return self.get(args[0],None)
+    def __setattr__(self, key, value):
+        self[key] = value
+
+    def _reset_attribute(self):
+        annotations: dict = self.__annotations__
+
+        if annotations is None:
+            return
+
+        for key, tp in annotations.items():
+            # 判断是否为基础类型
+            if object_util.is_basic_type(tp) is True:
+                continue
+            if isinstance(tp, _GenericAlias):
+                out_type = get_origin(annotations[key])
+                inner_types = get_args(annotations[key])
+                # List[str] or List[int] or List[float] or List[bool]
+                if out_type == list:
+                    if (object_util.is_basic_type(inner_types[0])):
+                        continue
+                    values = self.get(key, None)
+
+                    if collection_util.is_empty(values) or isinstance(values[0], Basic):
+                        continue
+                    new_values = [inner_types[0](**value) for value in values]
+                    self[key] = new_values
+                if out_type == Annotated:
+                    if inner_types[0] == datetime and isinstance(inner_types[1],JSONField):
+                        value = self.get(key, None)
+                        timestamp = int(time.mktime(value.timetuple()) * 1000.0 + value.microsecond / 1000.0)
+                        bdt = BasicDateTime.fromtimestamp(timestamp/1000)
+                        bdt.format = inner_types[1].format
+                        self[key] = bdt
+
+
+            else:
+                continue
+
+    #
+    def __call__(self, *args, **kwargs):
+        """
+        :param args:
+        :param kwargs:
+        :return:
+        """
+        instance = super().__call__(*args, **kwargs)
+        instance.__dict__ = copy.deepcopy({k: v for k, v in self.__dict__.items() if not k.startswith('__')})
+
+    @classmethod
+    def dict_to_obj(cls, dict_obj):
+
+        entity = cls(**dict_obj)
+        return entity
+
+    @classmethod
+    def dict_to_obj_list(cls, dict_obj_list):
+        """
+        list形式的转换
+        :param dict_obj:
+        :return:
+        """
+        entity_list = [cls.dict_to_obj(obj) for obj in dict_obj_list]
+        return entity_list
