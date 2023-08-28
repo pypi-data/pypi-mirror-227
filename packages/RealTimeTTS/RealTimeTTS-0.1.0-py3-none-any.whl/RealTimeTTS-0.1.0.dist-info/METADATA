@@ -1,0 +1,182 @@
+Metadata-Version: 2.1
+Name: RealTimeTTS
+Version: 0.1.0
+Summary: A low latency text to speech streaming tool that efficiently converts streamed input text into audio. Ideal for applications requiring instant and dynamic audio feedback.
+Home-page: https://github.com/KoljaB/RealTimeTTS
+Author: Kolja Beigel
+Author-email: kolja.beigel@web.de
+Keywords: real-time,text-to-speech,TTS,streaming,audio,voice,synthesis,sentence-segmentation,low-latency,character-streaming,dynamic feedback,audio-output,text-input,TTS-engine,audio-playback,stream-player,sentence-fragment,audio-feedback,interactive,python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: asttokens ==2.2.1
+Requires-Dist: azure-cognitiveservices-speech ==1.31.0
+Requires-Dist: backcall ==0.2.0
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.2.0
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: comtypes ==1.2.0
+Requires-Dist: decorator ==5.1.1
+Requires-Dist: elevenlabs ==0.2.24
+Requires-Dist: executing ==1.2.0
+Requires-Dist: idna ==3.4
+Requires-Dist: ipython ==8.14.0
+Requires-Dist: jedi ==0.19.0
+Requires-Dist: joblib ==1.3.2
+Requires-Dist: matplotlib-inline ==0.1.6
+Requires-Dist: nltk ==3.8.1
+Requires-Dist: parso ==0.8.3
+Requires-Dist: pickleshare ==0.7.5
+Requires-Dist: prompt-toolkit ==3.0.39
+Requires-Dist: pure-eval ==0.2.2
+Requires-Dist: PyAudio ==0.2.13
+Requires-Dist: pydantic ==1.10.12
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: pypiwin32 ==223
+Requires-Dist: pyttsx3 ==2.90
+Requires-Dist: pywin32 ==306
+Requires-Dist: regex ==2023.8.8
+Requires-Dist: requests ==2.31.0
+Requires-Dist: six ==1.16.0
+Requires-Dist: stack-data ==0.6.2
+Requires-Dist: stream2sentence ==0.1.1
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: traitlets ==5.9.0
+Requires-Dist: typing-extensions ==4.7.1
+Requires-Dist: urllib3 ==2.0.4
+Requires-Dist: wcwidth ==0.2.6
+Requires-Dist: websockets ==11.0.3
+
+# RealTimeTTS
+
+Converts text input streams into voice audio output streams with minimal latency. Provides nearly instant auditory responses by intelligently identifying a sentence fragment from the input stream.  
+
+This solution is perfect for applications that demand immediate and interactive audio responses.
+
+## Features
+
+- **Real-time Streaming**: Seamlessly stream text as you generate or input it, without waiting for the entire content.
+- **Dynamic Feedback**: Ideal for applications and scenarios where immediate audio response is pivotal.
+- **Modular Engine Design**: Supports custom TTS engines with a base engine provided to get you started.
+- **Character-by-character Processing**: Allows for true real-time feedback as characters are read and synthesized in a stream.
+- **Sentence Segmentation**: Efficiently detects sentence boundaries and synthesizes content for natural sounding output.
+
+## Installation
+
+```bash
+pip install RealTimeTTS
+```
+
+## Quick Start
+
+Here's a basic usage example:
+
+```python
+from RealtimeTTS import TextToAudioStream, SystemEngine, AzureEngine, ElevenlabsEngine
+
+engine = SystemEngine() # replace with your TTS engine
+stream = TextToAudioStream(engine)
+stream.feed("Hello world! How are you today?")
+stream.play_async()
+```
+
+## Usage
+
+### Feed Text
+
+You can feed individual strings:
+
+```python
+stream.feed("Hello, this is a sentence.")
+```
+
+Or you can feed generators and character iterators for real-time streaming:
+
+```python
+def write(prompt: str):
+    for chunk in openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[{"role": "user", "content" : prompt}],
+        stream=True
+    ):
+        if (text_chunk := chunk["choices"][0]["delta"].get("content")) is not None:
+            yield text_chunk
+
+text_stream = write("A three-sentence relaxing speech.")
+
+stream.feed(text_stream)
+```
+
+```python
+char_iterator = iter("Streaming this character by character.")
+stream.feed(char_iterator)
+```
+
+### Playback
+
+Asynchronously:
+
+```python
+stream.play_async()
+while stream.is_playing():
+    time.sleep(0.1)
+```
+
+Synchronously:
+
+```python
+stream.play()
+```
+
+### Tests
+
+In the tests directory there are some files to test the library.  
+
+simple_test.py, complex_test.py will work out of the box.
+simple_llm_test.py needs openai library installed (pip install openai).
+simple_talk.py, advanced_talk.py need faster_whisper, torch and keyboard library (pip install openai keyboard, faster_whisper, torch).
+
+
+### Pause, Resume & Stop
+
+Pause the audio stream:
+
+```python
+stream.pause()
+```
+
+Resume a paused stream:
+
+```python
+stream.resume()
+```
+
+Stop the stream immediately:
+
+```python
+stream.stop()
+```
+
+## Requirements
+
+- Python 3.6+
+- nltk 3.6+
+
+## Contribution
+
+Contributions are always welcome! Please refer to our contribution guidelines and code of conduct.
+
+## License
+
+MIT
+
+## Author
+
+Kolja Beigel  
+Email: kolja.beigel@web.de  
+[GitHub](https://github.com/KoljaB/RealTimeTTS)
+
+---
