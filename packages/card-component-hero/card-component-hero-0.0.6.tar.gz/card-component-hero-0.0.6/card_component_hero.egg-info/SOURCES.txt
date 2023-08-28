@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+card_component_hero.egg-info/PKG-INFO
+card_component_hero.egg-info/SOURCES.txt
+card_component_hero.egg-info/dependency_links.txt
+card_component_hero.egg-info/requires.txt
+card_component_hero.egg-info/top_level.txt
+hero_card/__init__.py
+hero_card/frontend/build/bootstrap.min.css
