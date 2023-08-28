@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: longdata
+Version: 0.0.3
+Summary: longevity-databases - longdata to work with common databases
+Author: Alex Karmazin
+Author-email: <karmazinalex@gmail.com>
+Keywords: python,utils,files,papers,download,longevity databases
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyfunctional
+Requires-Dist: pycomfort
+Requires-Dist: more-itertools
+Requires-Dist: click
+Requires-Dist: python-dotenv
+Requires-Dist: tiktoken
+Requires-Dist: langchain
+Requires-Dist: openai
+Requires-Dist: Deprecated
+Requires-Dist: loguru
+Requires-Dist: sentence-transformers
+Requires-Dist: datasets
+Requires-Dist: polars
+Requires-Dist: python-Levenshtein
+
+
+# Longevity database agents
+
+LongData is a submodule of longevity-genie devoted to LLM agents that query databases
+
+When you start working it is recommended to pip install the local folder
+
+```bash
+micromamba create -f environment.yaml
+micromamиa activate longdata
+```
+
+to develop locally it is recommended to:
+```bash
+pip install -e .
+```
+
+to run the test questions you can do:
+```bash
+python main.py
+```

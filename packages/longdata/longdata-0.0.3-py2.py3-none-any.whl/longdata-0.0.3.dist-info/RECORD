@@ -1,0 +1,12 @@
+longdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+longdata/agent_router_chain.py,sha256=fGsym3Sg2jvlX2r7o0i3sgxJM0yLGhrkuoocYfJBnUI,2074
+longdata/anage_agent.py,sha256=1lx5eb_1gwoPIkYxJ_H_XlwPfNbUoDbs8x2D6U6nFgk,5972
+longdata/geneage_agent.py,sha256=vRmocKTS7Hbu54Tpk41e6x95dWzQi9EUUWF1PenxZN8,3705
+longdata/longevity_data_chain.py,sha256=aDSmCGFIV-tJJlEW-AVCbEBekLih32oN5w23W9bl8cc,1079
+longdata/longevitymap_agent.py,sha256=3O-fmUgvLG64QmhdD8AuQeEQP4tclzmKoqin8DHrEyE,3104
+longdata/util.py,sha256=35FpE7XjHdm7dKC3UC_7ctEHvhyPJ8st30nSZqei4Qk,456
+longdata-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+longdata-0.0.3.dist-info/METADATA,sha256=9nzVAE24AFoiXmxwnubIe6pm95plIMz6dWCcuwsNU1k,1421
+longdata-0.0.3.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+longdata-0.0.3.dist-info/top_level.txt,sha256=1OplQGTRvGtbfNUs02g5soKSTRZKkFqOkVCtyle5OhA,9
+longdata-0.0.3.dist-info/RECORD,,
