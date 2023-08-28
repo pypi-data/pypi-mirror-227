@@ -1,0 +1,10 @@
+pyproject.toml
+setup.py
+pybuilder_pyproject_toml/__init__.py
+pybuilder_pyproject_toml.egg-info/PKG-INFO
+pybuilder_pyproject_toml.egg-info/SOURCES.txt
+pybuilder_pyproject_toml.egg-info/dependency_links.txt
+pybuilder_pyproject_toml.egg-info/namespace_packages.txt
+pybuilder_pyproject_toml.egg-info/requires.txt
+pybuilder_pyproject_toml.egg-info/top_level.txt
+pybuilder_pyproject_toml.egg-info/zip-safe
