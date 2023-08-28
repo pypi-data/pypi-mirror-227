@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: zhijian
+Version: 0.0.3
+Summary: ZhiJian: A Unifying and Rapidly Deployable Toolbox for Pre-trained Model Reuse
+Home-page: https://github.com/zhangyikaii/LAMDA-ZhiJian
+Author: ZhiJian Contributors
+Author-email: yumzhangyk@gmail.com
+Keywords: pytorch pretrained model reuse
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: datasets
+Requires-Dist: numpy
+Requires-Dist: pytorch-metric-learning
+Requires-Dist: PyYAML
+Requires-Dist: tensorboardX
+Requires-Dist: torch (>=1.7)
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Requires-Dist: transformers
+
