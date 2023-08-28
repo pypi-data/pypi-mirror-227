@@ -1,0 +1,6 @@
+
+PYTHONPATH=""
+conda activate astro4
+append PYTHONPATH /home/fergal/all/svns/frm/frmbase
+append PYTHONPATH /home/fergal/all/svns/frm/frmplots
+append PYTHONPATH /home/fergal/all/svns/frm/astro
