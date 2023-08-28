@@ -1,0 +1,121 @@
+from setuptools import setup
+
+# License text
+LICENSE_TEXT = """
+BoodyWin Workshop Python Module License Agreement
+
+Copyright (c) 2023 BoodyWin Workshop
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
+
+long_description = """# __PyTML5__
+
+**PyTML5** is a python module used to make static html webpages using python syntax
+
+## Functions
+
+### setup()
+
+A function used to setup the first things at the webpage and they are the `Language` and the `Title`,and the user can't make the webpage without adding the setup code but he can just write it without adding something but it will set the title and the language to defult.
+
+### setDescription()
+
+A function used to add description to the html code, returns a string like that
+```html
+<meta name="description" content="{YourWebpage Description}">
+```
+
+### addLinking()
+
+A function used to link a file with the html code, returns a string like that
+```html
+<link rel="{type of the linking}" herf="linkedFile">
+```
+
+### setCharset()
+
+A function used to set the charset of the webpage like UTF-8,returns a string like that
+```html
+<meta charset="UTF-8">
+```
+
+### setViewport()
+
+A function used to set the viewport of the webpage like `initial-scale`,`width` and `height`,returns a string like that
+```html
+<meta name="viewport" content="{your content}">
+```
+
+### addMeta()
+
+A function used to add a custom meta (as name and content only),returns a string like that
+```html
+<meta name="{your meta name}" content="your meta content">
+```
+
+### addCustomMeta()
+
+A function used to add a custom meta (as you want),returns like that
+```html
+<meta {your attributes}>
+```
+
+### addNewHeadElement()
+
+A function used to make anew two sides element like `<element></element>`
+
+### addNewBodyElement()
+
+A function used to add an elementto the body,but with another module at PyTML named `Webgets`and can return with one side element or two sides element
+
+### generateHTML()
+
+This is the most important function,and its used to generate the html after adding elements and returns it as string , See https://boodywin.github.io/PyTML5/Docs for some more information."""
+
+setup(
+    name="PyTML5",
+    version="1.0.0b1",
+    description="This is PyTML5, a module for writing HTML using Python.",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    author="BoodyWin Workshop",
+    author_email="boodywin.studio.123@gmail.com",
+    url="https://boodywin.github.io/PyTML5",
+    project_urls={
+        "Bug Tracker": "https://github.com/BoodyWin/PyTML5/issues",
+        "Documentation": "https://boodywin.github.io/PyTML5/Docs",
+    },
+    keywords=['HTML', 'Python to HTML', 'HTML generation'],
+    license=LICENSE_TEXT,
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
+    packages=["pytml5", "PyTML5"],
+    install_requires=[],
+)
