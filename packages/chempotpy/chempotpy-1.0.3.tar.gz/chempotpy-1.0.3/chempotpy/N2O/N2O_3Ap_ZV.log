@@ -1,0 +1,12 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "N2O_3Ap_ZV" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmpz1dh76sc/src.linux-x86_64-3.11/N2O_3Ap_ZVmodule.c
+creating /tmp/tmpz1dh76sc/src.linux-x86_64-3.11
+Reading fortran codes...

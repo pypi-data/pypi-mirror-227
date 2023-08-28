@@ -1,0 +1,122 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "C2H6OH_VBMM" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmp064mf5rz/src.linux-x86_64-3.11/C2H6OH_VBMMmodule.c
+creating /tmp/tmp064mf5rz/src.linux-x86_64-3.11
+Reading fortran codes...
+	Reading file 'C2H6OH_VBMM.f90' (format:free)
+Line #28 in C2H6OH_VBMM.f90:"      PARAMETER (JSURF=INT(ISURF*(ISURF+1)/2)) "
+	determineexprtype: could not determine expressions ('int') type.
+Line #28 in C2H6OH_VBMM.f90:"      PARAMETER (JSURF=INT(ISURF*(ISURF+1)/2)) "
+	determineexprtype: could not determine expressions ('int(isurf*(isurf+1)/2)') type.
+Line #115 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #116 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #116 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #317 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #318 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #318 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #498 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #499 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #499 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #624 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #625 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #625 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #787 in C2H6OH_VBMM.f90:"c  subroutine calculates reference angles for the "in-plane" potential "
+	analyzeline: No name/args pattern found for line.
+Line #798 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #799 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #799 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #975 in C2H6OH_VBMM.f90:"c  subroutine to calculate leps-type stretching potential and its "
+	analyzeline: No name/args pattern found for line.
+Line #987 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #988 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #988 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'before': '', 'this': 'dimension', 'after': 'vqbh(6),vjbh(6),vq(3),vj(3), '}
+Line #1048 in C2H6OH_VBMM.f90:"       dimension vqbh(6),vjbh(6),vq(3),vj(3), "
+	analyzeline: no name pattern found in dimension statement for ''. Skipping.
+Line #1194 in C2H6OH_VBMM.f90:"c  subroutine calculates symmetrized vop potential and derivatives "
+	analyzeline: No name/args pattern found for line.
+Line #1205 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1206 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1206 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1334 in C2H6OH_VBMM.f90:"c  subroutine calculates symmetrised in plane bend term "
+	analyzeline: No name/args pattern found for line.
+Line #1346 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1347 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1347 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1503 in C2H6OH_VBMM.f90:"c Now, calculate each force constant fkh2o(i) as function of the O-H(I) "
+	analyzeline: No name/args pattern found for line.
+Line #1534 in C2H6OH_VBMM.f90:"c  subroutine calculates out of plane angle delta, loops "
+	analyzeline: No name/args pattern found for line.
+Line #1549 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1550 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1550 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'before': '', 'this': 'dimension', 'after': 'delta(8),in(3),a(3),b(3),axb(3),c(8,3),argd(8), '}
+Line #1610 in C2H6OH_VBMM.f90:"       dimension  delta(8),in(3),a(3),b(3),axb(3),c(8,3),argd(8), "
+	analyzeline: no name pattern found in dimension statement for ''. Skipping.
+Line #1734 in C2H6OH_VBMM.f90:"c  subroutine calculates out of plane angle delta, loops "
+	analyzeline: No name/args pattern found for line.
+Line #1749 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1750 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1750 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'before': '', 'this': 'dimension', 'after': 'delta(8),in(3),a(3),b(3),axb(3),c(8,3),argd(8), '}
+Line #1810 in C2H6OH_VBMM.f90:"       dimension  delta(8),in(3),a(3),b(3),axb(3),c(8,3),argd(8), "
+	analyzeline: no name pattern found in dimension statement for ''. Skipping.
+Line #1939 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1940 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1940 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #2046 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #2047 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #2047 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #2198 in C2H6OH_VBMM.f90:"      PARAMETER (PI = 3.141592653589793D0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #2199 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #2199 in C2H6OH_VBMM.f90:"      PARAMETER (NATOM = 25) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #2459 in C2H6OH_VBMM.f90:"Cc  subroutine to calculate van der waals potential "
+	analyzeline: No name/args pattern found for line.
+Line #2578 in C2H6OH_VBMM.f90:"ccC   NATOMS = the number of atoms represented by this potential function "
+	analyzeline: No name/args pattern found for line.

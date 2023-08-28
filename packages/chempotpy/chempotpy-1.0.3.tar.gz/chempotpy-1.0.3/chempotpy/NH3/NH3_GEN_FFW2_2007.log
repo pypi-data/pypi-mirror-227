@@ -1,0 +1,33 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "NH3_GEN_FFW2_2007" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmp_8xyb_dm/src.linux-x86_64-3.11/NH3_GEN_FFW2_2007module.c
+creating /tmp/tmp_8xyb_dm/src.linux-x86_64-3.11
+Reading fortran codes...
+	Reading file 'NH3_GEN_FFW2_2007.f' (format:fix,strict)
+Line #175 in NH3_GEN_FFW2_2007.f:"      parameter(autoev=27.2113845d0)"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #178 in NH3_GEN_FFW2_2007.f:"      parameter (EV_TO_HARTREE= 1.d0/autoev)"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #178 in NH3_GEN_FFW2_2007.f:"      parameter (EV_TO_HARTREE= 1.d0/autoev)"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #179 in NH3_GEN_FFW2_2007.f:"      parameter (ANG_TO_BOHR=1.0d0/autoang)"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #179 in NH3_GEN_FFW2_2007.f:"      parameter (ANG_TO_BOHR=1.0d0/autoang)"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #183 in NH3_GEN_FFW2_2007.f:"      parameter (gconv = EV_TO_HARTREE/ANG_TO_BOHR)"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #183 in NH3_GEN_FFW2_2007.f:"      parameter (gconv = EV_TO_HARTREE/ANG_TO_BOHR)"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #183 in NH3_GEN_FFW2_2007.f:"      parameter (gconv = EV_TO_HARTREE/ANG_TO_BOHR)"
+	determineexprtype: could not determine expressions ('ev_to_hartree/ang_to_bohr') type.
+Line #407 in NH3_GEN_FFW2_2007.f:"      parameter ( deg2au = PI/180.d0            )"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #411 in NH3_GEN_FFW2_2007.f:"      parameter (  HBa    = 0.5d0*PI                    )"
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4

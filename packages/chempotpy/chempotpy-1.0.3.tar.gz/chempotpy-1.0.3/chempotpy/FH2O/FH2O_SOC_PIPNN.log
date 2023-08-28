@@ -1,0 +1,247 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "FH2O_SOC_PIPNN" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmpiarz1f5w/src.linux-x86_64-3.11/FH2O_SOC_PIPNNmodule.c
+creating /tmp/tmpiarz1f5w/src.linux-x86_64-3.11
+Reading fortran codes...
+	Reading file 'FH2O_SOC_PIPNN.f90' (format:free)
+Line #720 in FH2O_SOC_PIPNN.f90:"c    ifunc=1, transfer function is hyperbolic tangent function, 'tansig' "
+	analyzeline: No name/args pattern found for line.
+Line #721 in FH2O_SOC_PIPNN.f90:"c    ifunc=2, transfer function is log sigmoid function, 'logsig' "
+	analyzeline: No name/args pattern found for line.
+Line #722 in FH2O_SOC_PIPNN.f90:"c    ifunc=3, transfer function is pure linear function, 'purelin'. It is imposed to the output layer by default "
+	analyzeline: No name/args pattern found for line.
+crackline: groupcounter=7 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine', 7: 'subroutine', 8: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=6 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine', 7: 'subroutine', 8: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=5 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine', 7: 'subroutine', 8: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=4 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine', 7: 'subroutine', 8: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=3 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine', 7: 'subroutine', 8: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=2 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine', 7: 'subroutine', 8: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=1 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine', 7: 'subroutine', 8: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+Post-processing...
+	Block: FH2O_SOC_PIPNN
+			Block: nnparam
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: pes
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: fh2o_soc_nn
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:fh2o_soc_nn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:fh2o_soc_nn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: orderxnt
+			Block: r1function
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:r1function
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:r1function
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: r2function
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:r2function
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:r2function
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: p2function
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:p2function
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:p2function
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: soc_react_ground
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:soc_react_ground
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:soc_react_ground
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: soc_product_ground
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:soc_product_ground
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:soc_product_ground
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: fh2onn
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:fh2onn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:fh2onn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: pes_init
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: getpota
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:getpota
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:getpota
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: getpotb
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:getpotb
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:getpotb
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: getpotc
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:getpotc
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:getpotc
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{}
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:tranfun:unknown_function:unknown_function:crossp
+vars2fortran: No typespec for argument "v1".
+{}
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:tranfun:unknown_function:unknown_function:crossp
+vars2fortran: No typespec for argument "v2".
+{}
+In: :FH2O_SOC_PIPNN:FH2O_SOC_PIPNN.f90:tranfun:unknown_function:unknown_function:crossp
+vars2fortran: No typespec for argument "v3".
+			Block: tranfun
+Applying post-processing hooks...
+  character_backward_compatibility_hook
+Post-processing (stage 2)...
+	Block: FH2O_SOC_PIPNN
+		Block: unknown_interface
+			Block: nnparam
+			Block: pes
+			Block: fh2o_soc_nn
+			Block: orderxnt
+			Block: r1function
+			Block: r2function
+			Block: p2function
+			Block: soc_react_ground
+			Block: soc_product_ground
+			Block: fh2onn
+			Block: pes_init
+			Block: getpota
+			Block: getpotb
+			Block: getpotc
+			Block: tranfun
+Building modules...
+    Building module "FH2O_SOC_PIPNN"...
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "pes"...
+          p,g,d = pes(x,igrad,path)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "fh2o_soc_nn"...
+          fh2o_soc_nn(xt,vg,socg,vgsoc)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "orderxnt"...
+          orderxnt(x1,x2)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+		Creating wrapper for Fortran function "r1function"("r1function")...
+        Constructing wrapper function "r1function"...
+          r1function = r1function(r,n)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+		Creating wrapper for Fortran function "r2function"("r2function")...
+        Constructing wrapper function "r2function"...
+          r2function = r2function(r,n)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+		Creating wrapper for Fortran function "p2function"("p2function")...
+        Constructing wrapper function "p2function"...
+          p2function = p2function(r,n)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "soc_react_ground"...
+          soc_react_ground(rcom,t2,phi,socrg)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "soc_product_ground"...
+          soc_product_ground(rcom,t1,t2,phi,socpg)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "fh2onn"...
+          fh2onn(ct,vpes,vpesa,vpesb,vpesc)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "pes_init"...
+          pes_init(path)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "getpota"...
+          getpota(x,vpot)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "getpotb"...
+          getpotb(x,vpot)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "getpotc"...
+          getpotc(x,vpot)
+    Generating possibly empty wrappers"
+    Maybe empty "FH2O_SOC_PIPNN-f2pywrappers.f"
+		Creating wrapper for Fortran function "tranfun"("tranfun")...
+        Constructing wrapper function "tranfun"...
+          tranfun = tranfun(x,ifunc)
+		Constructing F90 module support for "nnparam"...
+		  Variables: alpha vpesmin nbasis nrbasissoc npbasissoc ninput noutput nhid nlayer ifunc nwe nodemax nterm nindex nscale nodes r1soccoef r2soccoef p2soccoef weighta biasa pdela pavga weightb biasb pdelb pavgb weightc biasc pdelc pavgc
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+getarrdims:warning: assumed shape array, using 0 instead of ':'
+    Wrote C/API module "FH2O_SOC_PIPNN" to file "/tmp/tmpiarz1f5w/src.linux-x86_64-3.11/FH2O_SOC_PIPNNmodule.c"
+    Fortran 77 wrappers are saved to "/tmp/tmpiarz1f5w/src.linux-x86_64-3.11/FH2O_SOC_PIPNN-f2pywrappers.f"
+    Fortran 90 wrappers are saved to "/tmp/tmpiarz1f5w/src.linux-x86_64-3.11/FH2O_SOC_PIPNN-f2pywrappers2.f90"
+INFO:   adding '/tmp/tmpiarz1f5w/src.linux-x86_64-3.11/fortranobject.c' to sources.
+INFO:   adding '/tmp/tmpiarz1f5w/src.linux-x86_64-3.11' to include_dirs.
+copying /home/truhlard/shuxx055/anaconda3/envs/chempotpy/lib/python3.11/site-packages/numpy/f2py/src/fortranobject.c -> /tmp/tmpiarz1f5w/src.linux-x86_64-3.11
+copying /home/truhlard/shuxx055/anaconda3/envs/chempotpy/lib/python3.11/site-packages/numpy/f2py/src/fortranobject.h -> /tmp/tmpiarz1f5w/src.linux-x86_64-3.11
+INFO:   adding '/tmp/tmpiarz1f5w/src.linux-x86_64-3.11/FH2O_SOC_PIPNN-f2pywrappers.f' to sources.
+INFO:   adding '/tmp/tmpiarz1f5w/src.linux-x86_64-3.11/FH2O_SOC_PIPNN-f2pywrappers2.f90' to sources.
+INFO: build_src: building npy-pkg config files
+running build_ext
+INFO: customize UnixCCompiler
+INFO: customize UnixCCompiler using build_ext
+INFO: get_default_fcompiler: matching types: '['arm', 'gnu95', 'intel', 'lahey', 'pg', 'nv', 'absoft', 'nag', 'vast', 'compaq', 'intele', 'intelem', 'gnu', 'g95', 'pathf95', 'nagfor', 'fujitsu']'
+INFO: customize ArmFlangCompiler
+WARN: Could not locate executable armflang
+INFO: customize Gnu95FCompiler
+INFO: Found executable /home/truhlard/shuxx055/anaconda3/envs/chempotpy/bin/gfortran
+INFO: customize Gnu95FCompiler
+INFO: customize Gnu95FCompiler using build_ext
+INFO: building 'FH2O_SOC_PIPNN' extension
+INFO: compiling C sources
+INFO: C compiler: gcc -pthread -B /home/truhlard/shuxx055/anaconda3/envs/chempotpy/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/truhlard/shuxx055/anaconda3/envs/chempotpy/include -fPIC -O2 -isystem /home/truhlard/shuxx055/anaconda3/envs/chempotpy/include -fPIC
+
+creating /tmp/tmpiarz1f5w/tmp
+creating /tmp/tmpiarz1f5w/tmp/tmpiarz1f5w
+creating /tmp/tmpiarz1f5w/tmp/tmpiarz1f5w/src.linux-x86_64-3.11
+INFO: compile options: '-DNPY_DISABLE_OPTIMIZATION=1 -I/tmp/tmpiarz1f5w/src.linux-x86_64-3.11 -I/home/truhlard/shuxx055/anaconda3/envs/chempotpy/lib/python3.11/site-packages/numpy/core/include -I/home/truhlard/shuxx055/anaconda3/envs/chempotpy/include/python3.11 -c'
+INFO: gcc: /tmp/tmpiarz1f5w/src.linux-x86_64-3.11/FH2O_SOC_PIPNNmodule.c
+INFO: gcc: /tmp/tmpiarz1f5w/src.linux-x86_64-3.11/fortranobject.c
