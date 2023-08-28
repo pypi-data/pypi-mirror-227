@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/gros_client/__init__.py
+src/gros_client/mod.py
+src/gros_client/robot.py
+src/gros_client/robot_base.py
+src/gros_client/robot_type.py
+src/gros_client/robot/human.py
+src/test_robot.egg-info/PKG-INFO
+src/test_robot.egg-info/SOURCES.txt
+src/test_robot.egg-info/dependency_links.txt
+src/test_robot.egg-info/top_level.txt
+test/test_robot.py
