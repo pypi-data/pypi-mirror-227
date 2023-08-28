@@ -1,0 +1,10 @@
+﻿ZZ0
+IN
+IN
+SP1
+SR0.5,1.0
+PA500,7000
+CS0
+PD
+LB !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+

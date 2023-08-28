@@ -1,0 +1,2 @@
+check default size of characters
+crash: error message not shown

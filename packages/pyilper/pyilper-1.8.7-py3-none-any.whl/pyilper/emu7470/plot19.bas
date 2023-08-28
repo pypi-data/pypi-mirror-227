@@ -1,0 +1,5 @@
+10 p=devaddr("HP7470A")
+20 output :p;"IN;SP1;PA100,7000;LBDEFAULT SIZE"&CHR$(3)
+30 output :p;"IP 1000,1000,7000,7000;PA100,6500;"
+40 output :p;"LBNEW P1 AND P2 CHANGE LABEL SIZE";chr$(3);" SR3,3"
+50 output :p;"PA100,6000;LBNEW SR COMMAND"&chr$(13);" ";chr$(10); "CHANGES LABEL SIZE"&chr$(3)

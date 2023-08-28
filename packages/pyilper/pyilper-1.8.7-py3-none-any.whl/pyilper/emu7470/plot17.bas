@@ -1,0 +1,5 @@
+10 printer is :DEVADDR("HP7470A")
+20 print "IN;DF;SP1;PA1000,1000PDPR3000,0PU;PR-3000,0"
+30 print "CP5,.35;LBABOVE THE LINE"&chr$(3)&" PA2000,1000;"
+40 print "XT;CP0,-.95;LBBELOW THE LINE"&chr$(13)&chr$(10)&"AND WITH A NEAT"&chr$(3)
+50 print "CP;LBMARGIN"&chr$(3)
