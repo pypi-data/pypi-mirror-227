@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ks_base
+Version: 1.1.2.dev1
+Summary: 66666
+Author: zz_lf
+Author-email: 787036156@qq.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: chinese-calendar (>=1.8.1,<2.0.0)
+Requires-Dist: flask (==2.3.2)
+Requires-Dist: python-dateutil (==2.8.2)
+Description-Content-Type: text/markdown
+
+twine upload --repository-url http://localhost:7104/root/index/ -u root -p 123 dist/*
+
+
+poetry config repositories.devpi http://localhost:7104/root/pypi/
