@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-system-tools
+Version: 0.0.1
+Summary: system-tools (rebuild from npm:koishi-plugin-systools)
+Requires-Python: <4.0,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nonebot_plugin_systools
+> 先把包名占了(x, 开发中...
