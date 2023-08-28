@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+yeti_switch_api/__init__.py
+yeti_switch_api.egg-info/PKG-INFO
+yeti_switch_api.egg-info/SOURCES.txt
+yeti_switch_api.egg-info/dependency_links.txt
+yeti_switch_api.egg-info/requires.txt
+yeti_switch_api.egg-info/top_level.txt
