@@ -1,0 +1,12 @@
+oximachine_featurizer/__init__.py,sha256=fzqfuEMQeGHLFaoblgf7Z0xv3YXJ1JfTuXJPIVJU7uE,111
+oximachine_featurizer/exclude.py,sha256=HDDs0m2hAFXSkriATTV6jOq-2mTVx918S6bAY2SQuOg,5377
+oximachine_featurizer/featurize.py,sha256=f--9j09bJF5XfmlBFwRubcmirY0DKFmnLKETa4Sg544,45531
+oximachine_featurizer/featurizer_local_property.py,sha256=C-mbRitaYBN96AgTnzO4E5Dxhmm-HXXD8B8S2VpQBLU,6168
+oximachine_featurizer/parse.py,sha256=bInJijbs7VVss6enCV9LCK6ZqnPAoBZ9iS2Oc5gHsuY,5199
+oximachine_featurizer/utils.py,sha256=EK2VPEAm_HGSifu1ZeKlNI5TcPoDcTzZnzmlcWcUM30,8676
+oximachine_featurizer/data/periodic_table.json,sha256=gBZA-nuvNy5R8tOfmih44rs2kDFWJlXiV5y4mu05hMU,300518
+oximachine_featurizer-0.4.0.dist-info/entry_points.txt,sha256=y97LItkFg2H6HZKeqemrYNJBFmdCYXgM3D5IcJk_7gg,183
+oximachine_featurizer-0.4.0.dist-info/LICENSE,sha256=QxjtWhRt58W0Zbgzn6s9nZW2qF24KV_dX7bIWlqkSY0,1058
+oximachine_featurizer-0.4.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+oximachine_featurizer-0.4.0.dist-info/METADATA,sha256=6EiwhS97yV0y_NXf2MyLTBF0PBEVh4WUp1Fu2H-CNAI,4662
+oximachine_featurizer-0.4.0.dist-info/RECORD,,
