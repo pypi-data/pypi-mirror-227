@@ -1,0 +1,9 @@
+setup.py
+mes_proto_python/__init__.py
+mes_proto_python/proto.py
+mes_proto_python.egg-info/PKG-INFO
+mes_proto_python.egg-info/SOURCES.txt
+mes_proto_python.egg-info/dependency_links.txt
+mes_proto_python.egg-info/top_level.txt
+mes_proto_python/auto_gen/__init__.py
+mes_proto_python/auto_gen/offers_pb2.py
