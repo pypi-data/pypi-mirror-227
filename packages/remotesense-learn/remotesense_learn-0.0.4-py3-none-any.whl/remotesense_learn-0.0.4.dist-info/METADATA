@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: remotesense-learn
+Version: 0.0.4
+Summary: A toolkit for remote sensing machine learning classification based on scikit-learn 
+Author-email: Wang Wenqi <wangwenqi23@mails.ucas.ac.cn>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mulan Permissive Software License v2 (MulanPSL-2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 遥感影像机器学习工具包
+
+
+
+## 安装
+可以使用pip进行安装：
+~~~
+pip install remotesense-learn
+~~~
+本程序依赖的包有`scikit-learn`、`numpy`、`rasterio`等。
+
+## 使用
+### 读取数据
+
+~~~python
+from rslearn import  ImageFrame
+img=ImageFrame.read("example_data/bhtmref.img")
+~~~
+
+#### 保存栅格文件
+
+### 聚类分析
+
+### 监督分类
+
+### 数据处理
+
+#### 数据标准化
+
+#### 图像滤波
+
+### 可视化
+
+#### 波段预览
+
+#### 波段直方图
