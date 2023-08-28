@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: flywheels
+Version: 0.1.0
+Summary: An async-first Python server-side web framework
+License: MIT
+Author: Stephen Mwangi
+Author-email: mail@stephenmwangi.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# flywheels
+
+An async-first Python server-side web framework
+
