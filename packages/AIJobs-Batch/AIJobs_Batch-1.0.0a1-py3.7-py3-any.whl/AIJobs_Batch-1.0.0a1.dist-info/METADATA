@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: AIJobs-Batch
+Version: 1.0.0a1
+Summary: A batch to analyse AI jobs in Vietnam
+Home-page: https://github.com/Ok-em-Research-Inc/okem-ai-jobs
+Download-URL: https://github.com/Ok-em-Research-Inc/okem-ai-jobs/releases
+Author: OK-EM Inc.
+Author-email: okemdotnet@gmail.com
+Maintainer: OK-EM Inc.
+Maintainer-email: okemdotnet@gmail.com
+License: MIT License
+        
+        Copyright (c) 2023 OKEM INC.
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: ai,jobs,aijobs,vietnamworks,topcv,indeed,scrapping,jobs scrapping
+Platform: win32
+Platform: linux_x86_64
+Platform: linux-i686
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# :poop: AIJobs collector :poop:
+
+## Batch app
+This repo contains batch codes to collect data from many top job postings sites in Vietnam such as Indeed VN, VietnamWorks, TopCV, ...
+
+We use Github Actions to collect the data automatically.
+Please note that, some websites in Vietnam have mechanisms to prevent scrappers like bots, therefore, we must keep retrying every 5 minutes.
+
+Currently, the list of website we are collecting data from is as follows.
+
+| Website        | URL                                                  | Batch from | Batch cron              | Queries                                              |
+|----------------|------------------------------------------------------|------------|-------------------------|------------------------------------------------------|
+| TopCV          | [https://www.topcv.vn](https://www.topcv.vn)         | 2023-08-19 | `59 12 * * *` or manual | `ai engineer`, `computer vision`, `machine learning` |
+| VietnamWorks   | [https://vietnamworks.com](https://vietnamworks.com) | 2023-08-19 | `59 12 * * *` or manual | `ai engineer`, `computer vision`, `machine learning` |
+| Indeed Vietnam | [https://vn.indeed.com](https://vn.indeed.com)       | 2023-08-19 | `59 12 * * *` or manual | `ai engineer`, `computer vision`, `machine learning` |
+
+
+## Online app
+
+Besides the batch app which is setup in Github Actions to crawl data daily, we provide an online app 
+to test the scenarios of data collected.
+We use MongoDB to store the data collections. To setup an environment for analysing data, see [mongodb environment setup](./scripts/mongodb).
+
+To run the online app:
+
+```bash
+$ python uninstall aijobs_batch
+$ python setup.py install
+$ aijobs_online --reload --workers 1 --host 0.0.0.0 --port 9000 --log_level info
+```
