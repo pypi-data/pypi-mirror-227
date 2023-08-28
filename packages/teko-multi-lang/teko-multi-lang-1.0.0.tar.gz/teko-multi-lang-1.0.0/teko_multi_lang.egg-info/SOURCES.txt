@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+src/__init__.py
+src/translator.py
+teko_multi_lang.egg-info/PKG-INFO
+teko_multi_lang.egg-info/SOURCES.txt
+teko_multi_lang.egg-info/dependency_links.txt
+teko_multi_lang.egg-info/requires.txt
+teko_multi_lang.egg-info/top_level.txt
