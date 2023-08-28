@@ -1,0 +1,7 @@
+Change Log
+==========
+
+0.0.2 (27/08/2023)
+
+- Second release (fixing errors)
+
