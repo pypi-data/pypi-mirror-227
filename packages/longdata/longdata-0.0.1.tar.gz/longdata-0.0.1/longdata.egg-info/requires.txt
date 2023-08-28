@@ -1,0 +1,14 @@
+pyfunctional
+pycomfort
+more-itertools
+click
+python-dotenv
+tiktoken
+langchain
+openai
+Deprecated
+loguru
+sentence_transformers
+datasets
+polars
+python-Levenshtein
