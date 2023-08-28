@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/adversarial_insight_ml/__init__.py
+src/adversarial_insight_ml.egg-info/PKG-INFO
+src/adversarial_insight_ml.egg-info/SOURCES.txt
+src/adversarial_insight_ml.egg-info/dependency_links.txt
+src/adversarial_insight_ml.egg-info/top_level.txt
+tests/test.py
