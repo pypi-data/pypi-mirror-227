@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: media-jk
+Version: 0.3.6
+Summary: Media_jk is a Wrapper of Mediainfo
+Home-page: https://git.selfmade.ninja/jevaa_kharthik/media_jk
+Author: Jevaa Kharthik N
+Author-email: jevaasureka@gmail.com
+Description-Content-Type: text/markdown
+
+### A Simple Wrapper tool for mediainfo
+
+### Prerequisites
+
+This tool needs mediainfo to be installed to work properly
+
+On Ubuntu/Debian : 
+
+Sudo apt install media_jk
+
+OR
+
+apt install media_jk
+
+On Mac :
+
+brew install media_jk
+
+### Usage : 
+
+To get all avaible information about the video, Audio and Image file. It works will all media type
+
+media_jk --file=<Enter the file name> --type=<General,Audio,Video> --list-Keys
+
+### If it is a Video file :
+
+--type=<General,Audio,Video>
+
+### If it is a Audio file :
+
+--type=<General,Audio>
+
+### If it is a Image file :
+
+--type=<General>
+
+To get a particular key about the file
+
+media_jk --file=<Enter the file name> --type=<General,Audio,Video> --keys="list name"
+
