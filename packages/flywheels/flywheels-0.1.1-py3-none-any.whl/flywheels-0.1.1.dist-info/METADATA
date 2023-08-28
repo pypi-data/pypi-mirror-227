@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: flywheels
+Version: 0.1.1
+Summary: An async-first Python server-side web framework
+License: MIT
+Author: Stephen Mwangi
+Author-email: mail@stephenmwangi.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# flywheels
+
+An async-first Python web framework
+
+Currently does nothing lol :(.
+
+
+## Roadmap
+
+- [ ] API Routing
+- [ ] Basic Async Views
+- [ ] ORM
+    - [ ] Postgres
+- [ ] Model Viewsets
+- [ ] Serialization
+- [ ] Benchmarks
+- [ ] Pagination
+    - [ ] Cursor pagination
+    - [ ] Page-based pagination
+    - [ ] Limit-offset pagination
+- [ ] Caching
+        - [ ] Memory
+        - [ ] Redis
+        - [ ] Co-ordinated cache filling
+- [ ] HTTPs
+- [ ] Authentication
+        - [ ] Basic
+        - [ ] Bearer
+        - [ ] OAuth
+- [ ] Middleware
+- [ ] Throttling
+- [ ] Templates
+
