@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+spicelib.egg-info/PKG-INFO
+spicelib.egg-info/SOURCES.txt
+spicelib.egg-info/dependency_links.txt
+spicelib.egg-info/requires.txt
+spicelib.egg-info/top_level.txt
