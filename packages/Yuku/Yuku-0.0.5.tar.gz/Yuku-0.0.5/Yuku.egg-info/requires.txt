@@ -1,0 +1,13 @@
+pymongo>=3.10.1
+requests>=2.22.0
+sodapy
+beautifulsoup4
+lxml
+
+[:python_version == "3.8"]
+numpy==1.21.0
+pandas==2.0.2
+
+[:python_version > "3.8"]
+numpy>=1.21.0
+pandas>=2.0.2
