@@ -1,0 +1,104 @@
+[![PyPI](https://img.shields.io/pypi/v/zerofun.svg)](https://pypi.python.org/pypi/zerofun/#history)
+
+# zerofun
+
+Remote function calls for array data using [ZMQ](Remote function calls for array data using ZMQ).
+
+## Overview
+
+Zerofun provides a `Server` that you can bind functions to and a `Client` that
+can call the messages and receive their results. The function inputs and
+results are both **flat dicts of Numpy arrays**. The data is sent efficiently
+without serialization to maximize throughput.
+
+## Installation
+
+```
+pip install zerofun
+```
+
+## Example
+
+Server:
+
+```
+import zerofun
+
+def add(data):
+  return {'result': data['foo'] + data['bar']}
+
+def msg(data):
+  print('Message from client:', data['msg'])
+
+server = zerofun.Server('tcp://*:2222', workers=1, ipv6=False)
+server.bind('add', add)
+server.bind('msg', msg)
+server.run()
+```
+
+Client:
+
+```
+import zerofun
+
+client = zerofun.Client('tcp://localhost:2222', ipv6=False, maxinflight=16)
+client.connect()
+
+future = client.add({'foo': 1, 'bar': 1})
+result = future.result()
+print(result)  # {'result': 2}
+
+client.msg()
+```
+
+## API
+
+```
+Client(address, identity=None, name='Client', ipv6=False, pings=10,
+       maxage=120, maxinflight=16, errors=True, connect=False)
+  connect(retry=True, timeout=10)  # Open connection to a server.
+  call(method, data)  # Call remote function by name and input data.
+  __getattr__(name)   # Syntactic sugar to call remote functions.
+  close()             # Close the connection.
+  stats()             # Return a dict of client statistics.
+```
+
+```
+Server(address, workers=1, name='Server', errors=True, ipv6=False)
+  bind(name, workfn, donefn=None, workers=0, batch=0)  # Register a function.
+  start()  # Start the server.
+  check()  # Check for exceptions in server functions and reraise them.
+  close()  # Stop the server.
+  run()    # Start the server and keep checking for exceptions forever.
+  stats()  # Return a dict of server statistics.
+```
+
+## Features
+
+Several productivity and performance features are available:
+
+- **Request batching:** The server can batch requests together so that the user
+  function receives a dict of stacked arrays and the function result will be
+  split and sent back to the corresponding clients.
+- **Multithreading:** Servers can use a thread pool to process multiple
+  requests in parallel. Optionally, each function can also request its own
+  thread pool to allow functions to block (e.g. for rate limiting) without
+  blocking other functions.
+- **Async requests:** Clients can send multiple overlapping requests and wait
+  on the results when needed using `Future` objects. The maximum number of
+  inflight requests can be limited to avoid requests building up when the
+  server is slower than the client.
+- **Error handling:** Exceptions raised in server functions are reported to the
+  client and raised in `future.result()` or, if the user did not store the
+  future object, on the next request.
+- **Heartbeating:** Clients can send ping requests when they have not received
+  a result from the server for a while, allowing them to distinguish between a
+  server that is computing a heavy result and a connection loss.
+- **GIL load reduction:** The `ProcServer` behaves just like the normal
+  `Server` but uses a background process to batch requests and fan out results,
+  substantially reducing GIL load for the server workers in the main process.
+
+## Questions
+
+Please open a [GitHub issue](https://github.com/danijar/zerofun/issues) for
+each question. Over time, we will add common questions to the README.
