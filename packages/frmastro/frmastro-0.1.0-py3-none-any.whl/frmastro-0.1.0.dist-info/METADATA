@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: frmastro
+Version: 0.1.0
+Summary: Fergal's astro related code in Python
+Author: Fergal
+Author-email: fergal.mullally@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: astropy (>=5.3.2,<6.0.0)
+Requires-Dist: frmbase (>=0.2.0,<0.3.0)
+Requires-Dist: ipdb (>=0.13.13,<0.14.0)
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
