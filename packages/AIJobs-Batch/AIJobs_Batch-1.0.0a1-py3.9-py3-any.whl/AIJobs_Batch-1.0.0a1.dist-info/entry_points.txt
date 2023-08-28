@@ -1,0 +1,3 @@
+[console_scripts]
+aijobs_batch = aijobs.cli.cmd_batch:cmd
+aijobs_online = aijobs.cli.cmd_online:cmd
