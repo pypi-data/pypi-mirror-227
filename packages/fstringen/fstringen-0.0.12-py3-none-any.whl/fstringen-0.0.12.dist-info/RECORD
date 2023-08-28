@@ -1,0 +1,11 @@
+fstringen/__init__.py,sha256=2s5eWXuf8Tg0qFhj3qiMgXfYM6gy7PEUeNO6TZjbi2k,123
+fstringen/generator.py,sha256=lzC65RjWmfigDL1iL7kD6aXb8_kCdIUc24REGtsqQKs,7121
+fstringen/generator_test.py,sha256=2VbSfQkXZmWVSrCq9QE3lhkaI5Ej8KTUMfeVd1I39d8,4643
+fstringen/integration_test.py,sha256=w-aJLPpOk5huQl3z7jlkO44uO43aAkDGOSm05CK-9Zg,1431
+fstringen/model.py,sha256=GIAzQgFuYIHEej5jtJSZcjA_BS2pP3G88UikS0ZBAKI,8439
+fstringen/model_test.py,sha256=L5XYZ50MOz7GxXgI4c3PHY50OxIU7s7I8RRiPKz6w9s,8853
+fstringen-0.0.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fstringen-0.0.12.dist-info/METADATA,sha256=MzrWyzQKpPAsxzNcndWk9Luc36kCsORQ5S2iVnzqQ7s,8737
+fstringen-0.0.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fstringen-0.0.12.dist-info/top_level.txt,sha256=frxrj1Vj3wIgOWE-LT48hEyMBbxtps1f-Lin_V2dpW0,10
+fstringen-0.0.12.dist-info/RECORD,,
