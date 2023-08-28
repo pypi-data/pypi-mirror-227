@@ -1,0 +1,12 @@
+aquadb/__init__.py,sha256=6m2R_nzcmq0Q3OqY2mRsNyrkuWHTChNhZk49fFiKXks,88
+aquadb/configurator.py,sha256=rezA_67ZW8esUd_7LmDPAcP-_0J6oXa8oUzI3hXzQPI,5764
+aquadb/connection.py,sha256=5WwwCOmxCJ7VAZBI6m2_02LYDIGwnTXZRyCiiqgM6KQ,527
+aquadb/executor.py,sha256=l3NDJL6y-WBV63Y3DV7AkAOSq-fyhKojvloZxaxoG9U,6708
+aquadb/ocl.ini,sha256=mdHeneeaEK5L_EZc0itxaaDnJbIRFi7eFFOnjuGoT-s,95
+aquadb/parser.py,sha256=-lXuM9o8E5HOx5PY77oLhs7H1Afp5LS2e0IqopJZyps,5762
+aquadb/query.py,sha256=ATcY-QZdeie1LMFWlVSZCkQDIFzC4Sjd37ye_tF0zSA,9227
+aquadb-1.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+aquadb-1.1.1.dist-info/METADATA,sha256=vFSGxvqMnAnqo4Nztsc75lupIbgQpCxnfmeEoJ32MV8,260
+aquadb-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aquadb-1.1.1.dist-info/top_level.txt,sha256=Y-CBNemsKOZKl4UF7GHTySBP3zZrx23tbcfCy2neiMI,7
+aquadb-1.1.1.dist-info/RECORD,,
