@@ -1,0 +1,7 @@
+LICENSE
+README.md
+pyproject.toml
+qspice.egg-info/PKG-INFO
+qspice.egg-info/SOURCES.txt
+qspice.egg-info/dependency_links.txt
+qspice.egg-info/top_level.txt
