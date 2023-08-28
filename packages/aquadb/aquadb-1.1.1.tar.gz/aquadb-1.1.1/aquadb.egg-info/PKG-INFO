@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aquadb
+Version: 1.1.1
+Author: 梁开孟
+Author-email: 519281809@qq.com
+Requires-Python: >=3.9
+License-File: LICENSE

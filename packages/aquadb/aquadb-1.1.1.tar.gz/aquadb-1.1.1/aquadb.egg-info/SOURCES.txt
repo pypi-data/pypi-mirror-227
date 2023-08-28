@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+aquadb/__init__.py
+aquadb/configurator.py
+aquadb/connection.py
+aquadb/executor.py
+aquadb/ocl.ini
+aquadb/parser.py
+aquadb/query.py
+aquadb.egg-info/PKG-INFO
+aquadb.egg-info/SOURCES.txt
+aquadb.egg-info/dependency_links.txt
+aquadb.egg-info/requires.txt
+aquadb.egg-info/top_level.txt
