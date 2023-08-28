@@ -1,0 +1,74 @@
+[build-system]
+requires      = [ "setuptools>=61.0", "wheel" ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name    = "mvg"
+version = "1.1.2"
+
+description = "An unofficial interface to timetable information of the Münchner Verkehrsgesellschaft (MVG)."
+readme      = "README.md"
+
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+]
+
+requires-python = ">=3.7"
+dependencies    = [ "aiohttp~=3.8", "furl~=2.1" ]
+
+[[project.authors]]
+name  = "Martin Dziura"
+email = "m.dziura@tum.de"
+
+[project.urls]
+"Documentation" = "https://mondbaron.github.io/mvg"
+"Source"        = "https://github.com/mondbaron/mvg"
+"Bug Tracker"   = "https://github.com/mondbaron/mvg/issues"
+
+[project.optional-dependencies]
+dev = [
+  "black",
+  "build",
+  "flake8",
+  "flake8",
+  "flake8-bugbear",
+  "flake8-docstrings",
+  "flake8-pyproject",
+  "flake8-quotes",
+  "flake8-requirements",
+  "flake8-simplify",
+  "flake8-warnings",
+  "mypy",
+  "pylint",
+  "pytest",
+  "pytest-asyncio",
+  "sphinx",
+  "sphinx-mdinclude",
+  "sphinx-pyproject",
+  "sphinx-rtd-theme",
+  "twine",
+]
+
+[tool.pylint]
+max-line-length = 120
+
+[tool.flake8]
+extend-ignore   = "E203"
+inline-quotes   = "double"
+max-line-length = 120
+
+[tool.mypy]
+follow_imports         = "normal"
+ignore_missing_imports = true
+show_column_numbers    = true
+show_error_codes       = true
+strict                 = true
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile        = "black"
+sort_reexports = true
