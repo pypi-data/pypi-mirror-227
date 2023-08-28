@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Gempa
+Version: 0.0.1
+Summary: a package to retrieve earthquake data in Indonesia, the data of which is from the BMKG website: Meteorological, Climatological, and Geophysical Agency.
+Author-email: Danang fir <danangfirmino26@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/danangfir/gempa/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Gempa
+a package to retrieve earthquake data in Indonesia, the data of which is from the BMKG website: Meteorological, Climatological, and Geophysical Agency.

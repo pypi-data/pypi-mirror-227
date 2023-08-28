@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/Gempa.egg-info/PKG-INFO
+src/Gempa.egg-info/SOURCES.txt
+src/Gempa.egg-info/dependency_links.txt
+src/Gempa.egg-info/top_level.txt
+src/data_gempa/__init__.py
+src/data_gempa/main.py
