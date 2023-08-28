@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: bip38
+Version: 0.1.0.dev1
+Summary: A python library for implementation of Bitcoin Improvement Proposal (BIP38) protocol.
+Home-page: https://github.com/meherett/python-bip38
+Author: Meheret Tesfaye Batu
+Author-email: meherett@zoho.com
+License: MIT
+Keywords: bip38
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6,<4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyaes
+Requires-Dist: scrypt
+Provides-Extra: tests
+Requires-Dist: pytest (<7,>=6.0.1) ; extra == 'tests'
+Requires-Dist: pytest-cov (<3,>=2.10.1) ; extra == 'tests'
+
+### BIP38
+
+[![PyPI Version](https://img.shields.io/pypi/v/bip38.svg?color=blue)](https://pypi.org/project/bip38)
+
+A python library for implementation of Bitcoin Improvement Proposal (BIP38) protocol.
+
+#### Installation
+
+```
+pip install bip38
+```
+
+#### License
+
+Distributed under the [MIT](https://github.com/meherett/python-bip38/blob/master/LICENSE) license. See ``LICENSE`` for more information.
+
+
