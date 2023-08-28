@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: plapperkastenserver
+Version: 0.1.0
+Author-email: Eike Kühn <eike.kuehn@pixelwoelkchen.de>
+Maintainer-email: Eike Kühn <eike.kuehn@pixelwoelkchen.de>
+Project-URL: homepage, https://github.com/randomchars42/plapperkasten
+Project-URL: documentation, https://github.com/randomchars42/plapperkasten
+Project-URL: source, https://github.com/randomchars42/plapperkasten
+Project-URL: tracker, https://github.com/randomchars42/plapperkasten/issues
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
