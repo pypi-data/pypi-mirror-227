@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: CosmicaCLI
+Version: 1.0
+Author: AS3PT1C
+Requires-Dist: eel
+
