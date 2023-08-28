@@ -1,0 +1,10 @@
+dominx-0.3.0a2.dist-info/RECORD,,
+dominx-0.3.0a2.dist-info/WHEEL,sha256=gb8gOzhH6NXKAzoi-Vj9DO7cqA3gH_EyTK4-rgw6Obs,113
+dominx-0.3.0a2.dist-info/LICENSE.txt,sha256=4puGhr9_nOcu5iGjkGJVkP3LWC2tslqWdrO8Hcm06OU,1063
+dominx-0.3.0a2.dist-info/METADATA,sha256=o3LmBYdaG0NYsIJhw6vXbFQPNBRA5wgKwwICflvqCFw,5918
+dominx-0.3.0a2.dist-info/top_level.txt,sha256=W2JgAtrUh4RL0CaPWlInd_dApzzYjssQBObWKR0y0OM,7
+dominx/display.cpython-311-x86_64-linux-musl.so,sha256=U9yZh75Mk8SfBg3RRgKIn9MSr8dCLxNKF0FMuLpmvgQ,35288
+dominx/stream.cpython-311-x86_64-linux-musl.so,sha256=e-LNUBUmqik37C3MvSGQltFy_Zgf579Vk4a1lKH0o8M,38184
+dominx/__init__.py,sha256=yZTaRkWYccc7ZK2ActbztxxgLZAkQT7WmttQVyJ_XqM,439
+dominx/display.c,sha256=NmFmrRpzKQjAiEu4gdo61PdKGgdYUpqing_S8iqGZo4,124
+dominx/stream.c,sha256=zfjxK0GWJtW4nbYXnWbNhQoNBWjnGRHzQrNNxOdyZQQ,723
