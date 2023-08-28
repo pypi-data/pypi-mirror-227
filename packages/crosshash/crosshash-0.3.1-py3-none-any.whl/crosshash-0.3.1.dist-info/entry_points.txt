@@ -1,0 +1,4 @@
+[console_scripts]
+crosshash=crosshash:main
+crosshash.py=crosshash:main
+
