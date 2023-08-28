@@ -1,0 +1,33 @@
+[project]
+name = "classroom-notice-board-rest-clinet"
+version = "0.2.1"
+description = "https://github.com/edu-data-mario/classroom-notice-board rest clinet"
+authors = [
+    { name = "dmario24", email = "data.mario24@gmail.com" },
+]
+dependencies = [
+    "requests>=2.31.0",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/edu-data-mario/classroom-notice-board-rest-clinet"
+"Bug Tracker" = "https://github.com/edu-data-mario/classroom-notice-board-rest-clinet/issues"
+
+[project.scripts]
+class-rest-client = "classroom_notice_board_rest_clinet.main:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.0",
+]
