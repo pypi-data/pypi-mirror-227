@@ -1,0 +1,6 @@
+alicebot/adapter/apscheduler/__init__.py,sha256=koU9IcSpnwylN2EIrFKPRbj8qrm76ReprDLTHarhZGE,5064
+alicebot/adapter/apscheduler/config.py,sha256=RHfrSPlMJAnD18X02kFSe3kZhKCNt_r4X5848ciUKio,455
+alicebot/adapter/apscheduler/event.py,sha256=8gOsXXPxT14ff83UBPKLcpDr7Hzmplaf8w20CHou1lc,1087
+alicebot_adapter_apscheduler-0.8.1.dist-info/METADATA,sha256=y7GH-na6n5G7Iap9VgccqHAAnfhkqY2oxgsLDXQwfgE,1214
+alicebot_adapter_apscheduler-0.8.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+alicebot_adapter_apscheduler-0.8.1.dist-info/RECORD,,
