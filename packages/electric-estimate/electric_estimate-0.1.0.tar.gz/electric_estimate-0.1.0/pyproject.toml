@@ -1,0 +1,21 @@
+[project]
+name = "electric-estimate"
+version = "0.1.0"
+description = "this estimate that how much you use power in specific conditions"
+authors = [
+    { name = "junsungs950", email = "junsungs950@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
