@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+sottopoco_vscode/__init__.py
+sottopoco_vscode/converters.py
+sottopoco_vscode/loaders.py
+sottopoco_vscode/painters.py
+sottopoco_vscode.egg-info/PKG-INFO
+sottopoco_vscode.egg-info/SOURCES.txt
+sottopoco_vscode.egg-info/dependency_links.txt
+sottopoco_vscode.egg-info/requires.txt
+sottopoco_vscode.egg-info/top_level.txt
