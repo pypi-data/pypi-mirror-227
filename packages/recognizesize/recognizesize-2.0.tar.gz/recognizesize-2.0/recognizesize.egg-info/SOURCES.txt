@@ -1,0 +1,12 @@
+README.md
+setup.py
+recognizesize/ImageManager.py
+recognizesize/PersonRecognizer.py
+recognizesize/SizeRecognozer.py
+recognizesize/__init__.py
+recognizesize/recognizesize.py
+recognizesize.egg-info/PKG-INFO
+recognizesize.egg-info/SOURCES.txt
+recognizesize.egg-info/dependency_links.txt
+recognizesize.egg-info/requires.txt
+recognizesize.egg-info/top_level.txt
