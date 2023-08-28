@@ -1,0 +1,4 @@
+[console_scripts]
+csv_organizer = ddm_flow_scripts.csv_organizer:main
+multisheet_aggregator = ddm_flow_scripts.multisheet_fov_aggregator:main
+plotter = ddm_flow_scripts.plotter:main
