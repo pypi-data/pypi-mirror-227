@@ -1,0 +1,2 @@
+[console_scripts]
+cli-name = task.collect_framework:parser_result

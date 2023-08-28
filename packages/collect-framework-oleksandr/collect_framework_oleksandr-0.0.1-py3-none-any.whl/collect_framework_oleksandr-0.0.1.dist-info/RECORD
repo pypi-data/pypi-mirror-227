@@ -1,0 +1,8 @@
+task/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+task/collect_framework.py,sha256=Yxr1unZlcxoDgwd_RDCy00z0TAQoE5pgXOmbyUggaHQ,936
+task/general_logic.py,sha256=vaRm2SdpA1-H8IfATG6krkXVzIRNkIzWiJ3NwKdwoHs,716
+collect_framework_oleksandr-0.0.1.dist-info/METADATA,sha256=ylC2sMp97LIr5Zb3pDzGBODPy-lHzZrHnhMtPzkcT7g,1205
+collect_framework_oleksandr-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+collect_framework_oleksandr-0.0.1.dist-info/entry_points.txt,sha256=jDSu4Z062QKJqE3tvHw12XoNh2ByFfgI_I3Dckh2I8k,66
+collect_framework_oleksandr-0.0.1.dist-info/licenses/LICENSE,sha256=wwaTIeM5p1TYEKRnyL3ROkzDvoyNRr9VtroNBHjNQeo,35802
+collect_framework_oleksandr-0.0.1.dist-info/RECORD,,
