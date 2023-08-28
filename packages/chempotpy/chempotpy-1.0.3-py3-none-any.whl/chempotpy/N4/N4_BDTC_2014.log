@@ -1,0 +1,57 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "N4_BDTC_2014" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmpfli41_da/src.linux-x86_64-3.11/N4_BDTC_2014module.c
+creating /tmp/tmpfli41_da/src.linux-x86_64-3.11
+Reading fortran codes...
+	Reading file 'N4_BDTC_2014.f' (format:fix,strict)
+Post-processing...
+	Block: N4_BDTC_2014
+			Block: pes
+	Block: prepot
+In: N4_BDTC_2014.f:prepot
+get_useparameters: no module falcons_vars_eval info used by prepot
+In: N4_BDTC_2014.f:prepot
+get_useparameters: no module falcons_vars_main info used by prepot
+	Block: readpes
+In: N4_BDTC_2014.f:readpes
+get_useparameters: no module falcons_vars_eval info used by readpes
+In: N4_BDTC_2014.f:readpes
+get_useparameters: no module falcons_vars_main info used by readpes
+	Block: readcrcparameters
+In: N4_BDTC_2014.f:readcrcparameters
+get_useparameters: no module falcons_vars_eval info used by readcrcparameters
+In: N4_BDTC_2014.f:readcrcparameters
+get_useparameters: no module falcons_vars_main info used by readcrcparameters
+	Block: pot
+In: N4_BDTC_2014.f:pot
+get_useparameters: no module falcons_vars_eval info used by pot
+In: N4_BDTC_2014.f:pot
+get_useparameters: no module falcons_vars_main info used by pot
+	Block: evaluatesurface
+In: N4_BDTC_2014.f:evaluatesurface
+get_useparameters: no module falcons_vars_eval info used by evaluatesurface
+	Block: calcqch
+	Block: calccr
+	Block: calcbj
+	Block: distance6ds_perm
+	Block: weightw
+	Block: calccoordinates
+	Block: default2cartesian
+	Block: cartesian2rawdist
+	Block: distance3d
+	Block: rawdist2rawmorse
+	Block: calcinvariants
+	Block: calcinvariantsjacobian
+	Block: calcdqrdyjacobian
+	Block: calcpairwise
+	Block: calcsumpairwise
+Applying post-processing hooks...
+  character_backward_compatibility_hook
+Post-processing (stage 2)...

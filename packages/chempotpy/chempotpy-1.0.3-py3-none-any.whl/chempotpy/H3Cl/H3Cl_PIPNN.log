@@ -1,0 +1,208 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "H3Cl_PIPNN" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmpuv1ivxhk/src.linux-x86_64-3.11/H3Cl_PIPNNmodule.c
+creating /tmp/tmpuv1ivxhk/src.linux-x86_64-3.11
+Reading fortran codes...
+	Reading file 'H3Cl_PIPNN.f90' (format:free)
+Line #543 in H3Cl_PIPNN.f90:"c    ifunc=1, transfer function is hyperbolic tangent function, 'tansig' "
+	analyzeline: No name/args pattern found for line.
+Line #544 in H3Cl_PIPNN.f90:"c    ifunc=2, transfer function is log sigmoid function, 'logsig' "
+	analyzeline: No name/args pattern found for line.
+Line #545 in H3Cl_PIPNN.f90:"c    ifunc=3, transfer function is pure linear function, 'purelin'. It "
+	analyzeline: No name/args pattern found for line.
+crackline: groupcounter=5 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=4 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=3 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=2 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+crackline: groupcounter=1 groupname={0: '', 1: 'module', 2: 'interface', 3: 'function', 4: 'function', 5: 'function', 6: 'subroutine'}
+crackline: Mismatch of blocks encountered. Trying to fix it by assuming "end" statement.
+Post-processing...
+	Block: H3Cl_PIPNN
+			Block: nnparam
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:nnparam
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: pes
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pes
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'attrspec': ['dimension(3,4)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pesh3cl
+vars2fortran: No typespec for argument "x".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pesh3cl
+vars2fortran: No typespec for argument "vtot".
+			Block: pesh3cl
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pesh3cl
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pot0
+vars2fortran: No typespec for argument "r0".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pot0
+vars2fortran: No typespec for argument "vv0".
+			Block: pot0
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pot1
+vars2fortran: No typespec for argument "r1".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pot1
+vars2fortran: No typespec for argument "vv1".
+			Block: pot1
+{'attrspec': ['dimension(n)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:splint
+vars2fortran: No typespec for argument "xa".
+{'attrspec': ['dimension(n)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:splint
+vars2fortran: No typespec for argument "ya".
+{'attrspec': ['dimension(n)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:splint
+vars2fortran: No typespec for argument "y2a".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:splint
+vars2fortran: No typespec for argument "n".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:splint
+vars2fortran: No typespec for argument "x".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:splint
+vars2fortran: No typespec for argument "y".
+			Block: splint
+{'attrspec': ['dimension(n)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:spline
+vars2fortran: No typespec for argument "x".
+{'attrspec': ['dimension(n)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:spline
+vars2fortran: No typespec for argument "y".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:spline
+vars2fortran: No typespec for argument "n".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:spline
+vars2fortran: No typespec for argument "yp1".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:spline
+vars2fortran: No typespec for argument "ypn".
+{'attrspec': ['dimension(n)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:spline
+vars2fortran: No typespec for argument "y2".
+			Block: spline
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3vlr
+vars2fortran: No typespec for argument "r1".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3vlr
+vars2fortran: No typespec for argument "r2".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3vlr
+vars2fortran: No typespec for argument "r3".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3vlr
+vars2fortran: No typespec for argument "theta1".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3vlr
+vars2fortran: No typespec for argument "theta2".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3vlr
+vars2fortran: No typespec for argument "phi".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3vlr
+vars2fortran: No typespec for argument "vint".
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3vlr
+vars2fortran: No typespec for argument "n".
+			Block: clh3vlr
+{}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:funcs
+vars2fortran: No typespec for argument "afunc".
+			Block: funcs
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:funcs
+analyzevars: typespec of variable 'afunc' is not defined in routine funcs.
+			Block: clh3pipnn
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3pipnn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3pipnn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:clh3pipnn
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: pes_init
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:pes_init
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'attrspec': ['dimension(3)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:tranfun:unknown_function:unknown_function:distance
+vars2fortran: No typespec for argument "a".
+{'attrspec': ['dimension(3)']}
+In: :H3Cl_PIPNN:H3Cl_PIPNN.f90:tranfun:unknown_function:unknown_function:distance
+vars2fortran: No typespec for argument "b".
+			Block: tranfun
+Applying post-processing hooks...
+  character_backward_compatibility_hook
+Post-processing (stage 2)...
+	Block: H3Cl_PIPNN
+		Block: unknown_interface
+			Block: nnparam
+			Block: pes
+			Block: pesh3cl
+			Block: pot0
+			Block: pot1
+			Block: splint
+			Block: spline
+			Block: clh3vlr
+			Block: funcs
+			Block: clh3pipnn
+			Block: pes_init
+			Block: tranfun
+Building modules...
+    Building module "H3Cl_PIPNN"...
+    Generating possibly empty wrappers"
+    Maybe empty "H3Cl_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "pes"...
+          p,g,d = pes(x,igrad,path)
+    Generating possibly empty wrappers"
+    Maybe empty "H3Cl_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "pesh3cl"...
+          pesh3cl(x,vtot,path)
+    Generating possibly empty wrappers"
+    Maybe empty "H3Cl_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "pot0"...
+          pot0(r0,vv0,path)
+    Generating possibly empty wrappers"
+    Maybe empty "H3Cl_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "pot1"...
+          pot1(r1,vv1,path)
+    Generating possibly empty wrappers"
+    Maybe empty "H3Cl_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "splint"...
+          splint(xa,ya,y2a,x,y,[n])
+    Generating possibly empty wrappers"
+    Maybe empty "H3Cl_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "spline"...
+          spline(x,y,yp1,ypn,y2,[n])
+    Generating possibly empty wrappers"
+    Maybe empty "H3Cl_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "clh3vlr"...
+          clh3vlr(r1,r2,r3,theta1,theta2,phi,vint,n,path)
+    Generating possibly empty wrappers"
+    Maybe empty "H3Cl_PIPNN-f2pywrappers.f"
+        Constructing wrapper function "funcs"...

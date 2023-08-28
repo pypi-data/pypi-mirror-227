@@ -1,0 +1,382 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "H3_GEN_BKMP3_1996" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmpj7gfanvn/src.linux-x86_64-3.11/H3_GEN_BKMP3_1996module.c
+creating /tmp/tmpj7gfanvn/src.linux-x86_64-3.11
+Reading fortran codes...
+	Reading file 'H3_GEN_BKMP3_1996.f90' (format:free)
+{'before': '', 'this': 'dimension', 'after': 'dvlon(3),dvas(3),dvbnda(3),dvbndb(3), '}
+Line #163 in H3_GEN_BKMP3_1996.f90:"      dimension dVlon(3),dVas(3),dVbnda(3),dVbndb(3), "
+	analyzeline: no name pattern found in dimension statement for ''. Skipping.
+Line #219 in H3_GEN_BKMP3_1996.f90:"      call vbcb95(r,icompc,T,dT,ipr, "
+	analyzeline: No name/args pattern found for line.
+Line #295 in H3_GEN_BKMP3_1996.f90:"      parameter( rl=0.95d0, rr=1.15d0 ) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #296 in H3_GEN_BKMP3_1996.f90:"      parameter( z1=1.d0, z2=2.d0, z4=4.d0) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #298 in H3_GEN_BKMP3_1996.f90:"      parameter( "
+	analyzeline: could not extract name,expr in parameter statement "" of ""
+Line #355 in H3_GEN_BKMP3_1996.f90:"      parameter(a0=0.03537359271649620,    a1= 2.013977588700072    , "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #364 in H3_GEN_BKMP3_1996.f90:"      parameter( r0=3.5284882d0,  DD=0.160979391d0, "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #364 in H3_GEN_BKMP3_1996.f90:"      parameter( r0=3.5284882d0,  DD=0.160979391d0, "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #364 in H3_GEN_BKMP3_1996.f90:"      parameter( r0=3.5284882d0,  DD=0.160979391d0, "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #364 in H3_GEN_BKMP3_1996.f90:"      parameter( r0=3.5284882d0,  DD=0.160979391d0, "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #364 in H3_GEN_BKMP3_1996.f90:"      parameter( r0=3.5284882d0,  DD=0.160979391d0, "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #456 in H3_GEN_BKMP3_1996.f90:"      parameter( half=0.5d0, two=2.d0 , eps2=1.d-12 ) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #456 in H3_GEN_BKMP3_1996.f90:"      parameter( half=0.5d0, two=2.d0 , eps2=1.d-12 ) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #456 in H3_GEN_BKMP3_1996.f90:"      parameter( half=0.5d0, two=2.d0 , eps2=1.d-12 ) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #517 in H3_GEN_BKMP3_1996.f90:"      parameter(  "
+	analyzeline: could not extract name,expr in parameter statement "" of ""
+Line #609 in H3_GEN_BKMP3_1996.f90:"      parameter( rr = 1.15d0, rp = 1.25d0 ) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'before': '', 'this': 'dimension', 'after': 'dpr(3),dt(3),dsumt(3),dterm1(3),determ(3),dseries(3), '}
+Line #643 in H3_GEN_BKMP3_1996.f90:"      dimension dPr(3),dT(3),dsumT(3),dterm1(3),determ(3),dseries(3), "
+	analyzeline: no name pattern found in dimension statement for ''. Skipping.
+Line #646 in H3_GEN_BKMP3_1996.f90:"      parameter(  "
+	analyzeline: could not extract name,expr in parameter statement "" of ""
+Line #743 in H3_GEN_BKMP3_1996.f90:"      parameter( rr=1.15d0, rp=1.25d0 ) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #745 in H3_GEN_BKMP3_1996.f90:"      parameter(  "
+	analyzeline: could not extract name,expr in parameter statement "" of ""
+Line #798 in H3_GEN_BKMP3_1996.f90:"      subroutine vbcb95(rpass,icompc,T,dT,ipr, "
+	analyzeline: No name/args pattern found for line.
+{'before': '', 'this': 'dimension', 'after': 'dcb1(3),dcb2(3),dcb3(3),dcb4(3),dcb5(3),dcb6(3), '}
+Line #825 in H3_GEN_BKMP3_1996.f90:"      dimension dCb1(3),dCb2(3),dCb3(3),dCb4(3),dCb5(3),dCb6(3), "
+	analyzeline: no name pattern found in dimension statement for ''. Skipping.
+Line #830 in H3_GEN_BKMP3_1996.f90:"      parameter( z58=0.625d0, z38=0.375d0 )   "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #832 in H3_GEN_BKMP3_1996.f90:"      parameter(beta1=0.52d0, beta2=0.052d0, beta3=0.79d0 )  "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #834 in H3_GEN_BKMP3_1996.f90:"      parameter(  "
+	analyzeline: could not extract name,expr in parameter statement "" of ""
+Line #842 in H3_GEN_BKMP3_1996.f90:"      parameter(  "
+	analyzeline: could not extract name,expr in parameter statement "" of ""
+Line #867 in H3_GEN_BKMP3_1996.f90:"      parameter(  "
+	analyzeline: could not extract name,expr in parameter statement "" of ""
+Line #880 in H3_GEN_BKMP3_1996.f90:"      parameter(  "
+	analyzeline: could not extract name,expr in parameter statement "" of ""
+Line #1473 in H3_GEN_BKMP3_1996.f90:"      parameter( istop1 = 1 , istop2 = 1 ) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Line #1473 in H3_GEN_BKMP3_1996.f90:"      parameter( istop1 = 1 , istop2 = 1 ) "
+	get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Post-processing...
+	Block: H3_GEN_BKMP3_1996
+			Block: pes
+			Block: prepot
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:prepot
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:surfid
+vars2fortran: No typespec for argument "h3id".
+			Block: surfid
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:bkmp2
+vars2fortran: No typespec for argument "r".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:bkmp2
+vars2fortran: No typespec for argument "vtot".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:bkmp2
+vars2fortran: No typespec for argument "dvtot".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:bkmp2
+vars2fortran: No typespec for argument "id".
+			Block: bkmp2
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:triplet95
+vars2fortran: No typespec for argument "r".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:triplet95
+vars2fortran: No typespec for argument "e3".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:triplet95
+vars2fortran: No typespec for argument "id".
+			Block: triplet95
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:triplet95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:triplet95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:triplet95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:triplet95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:triplet95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vh2opt95
+vars2fortran: No typespec for argument "r".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vh2opt95
+vars2fortran: No typespec for argument "e".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vh2opt95
+vars2fortran: No typespec for argument "ideriv".
+			Block: vh2opt95
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vh2opt95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vh2opt95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vh2opt95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vh2opt95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:h3lond95
+vars2fortran: No typespec for argument "r".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:h3lond95
+vars2fortran: No typespec for argument "vlon".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:h3lond95
+vars2fortran: No typespec for argument "dvlon".
+			Block: h3lond95
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:h3lond95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:h3lond95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:h3lond95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vascal95
+vars2fortran: No typespec for argument "rpass".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vascal95
+vars2fortran: No typespec for argument "vas".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:vascal95
+vars2fortran: No typespec for argument "dvas".
+			Block: vascal95
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:acalc95
+vars2fortran: No typespec for argument "r1".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:acalc95
+vars2fortran: No typespec for argument "r2".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:acalc95
+vars2fortran: No typespec for argument "r3".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:acalc95
+vars2fortran: No typespec for argument "a".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:acalc95
+vars2fortran: No typespec for argument "da".
+			Block: acalc95
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:compac95
+vars2fortran: No typespec for argument "r".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:compac95
+vars2fortran: No typespec for argument "icompc".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:compac95
+vars2fortran: No typespec for argument "t".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:compac95
+vars2fortran: No typespec for argument "dt".
+			Block: compac95
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:compac95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:compac95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:casym95
+vars2fortran: No typespec for argument "r".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:casym95
+vars2fortran: No typespec for argument "cas".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:casym95
+vars2fortran: No typespec for argument "dcas".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:casym95
+vars2fortran: No typespec for argument "id".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:casym95
+vars2fortran: No typespec for argument "t".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:casym95
+vars2fortran: No typespec for argument "dt".
+			Block: casym95
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:csym95
+vars2fortran: No typespec for argument "r".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:csym95
+vars2fortran: No typespec for argument "cal".
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:csym95
+vars2fortran: No typespec for argument "dcal".
+			Block: csym95
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:csym95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:csym95
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+			Block: unknown_subroutine
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:unknown_subroutine
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:unknown_subroutine
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:unknown_subroutine
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:unknown_subroutine
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:unknown_subroutine
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+{'attrspec': ['dimension(3)']}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:chgeom
+vars2fortran: No typespec for argument "r".
+{}
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:chgeom
+vars2fortran: No typespec for argument "ivalid".
+			Block: chgeom
+In: :H3_GEN_BKMP3_1996:H3_GEN_BKMP3_1996.f90:chgeom
+get_parameters: got "eval() arg 1 must be a string, bytes or code object" on 4
+Applying post-processing hooks...
+  character_backward_compatibility_hook
+Post-processing (stage 2)...
+Building modules...
+    Building module "H3_GEN_BKMP3_1996"...
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "pes"...
+          p,g,d = pes(x,igrad)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "prepot"...
+          prepot()
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "pot"...
+          pot(rvp,evp,nt,nsurf)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "surfid"...
+          surfid(h3id)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "bkmp2"...
+          bkmp2(r,vtot,dvtot,id)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "triplet95"...
+          triplet95(r,e3,id)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "vh2opt95"...
+          vh2opt95(r,e,ideriv)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "h3lond95"...
+          h3lond95(r,vlon,dvlon)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "vascal95"...
+          vascal95(rpass,vas,dvas)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "acalc95"...
+          acalc95(r1,r2,r3,a,da)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "compac95"...
+          compac95(r,icompc,t,dt)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "casym95"...
+          casym95(r,cas,dcas,id,t,dt)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "csym95"...
+          csym95(r,cal,dcal)
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "unknown_subroutine"...
+          unknown_subroutine()
+    Generating possibly empty wrappers"
+    Maybe empty "H3_GEN_BKMP3_1996-f2pywrappers.f"
+        Constructing wrapper function "chgeom"...
+          chgeom(r,ivalid)
+    Wrote C/API module "H3_GEN_BKMP3_1996" to file "/tmp/tmpj7gfanvn/src.linux-x86_64-3.11/H3_GEN_BKMP3_1996module.c"
+INFO:   adding '/tmp/tmpj7gfanvn/src.linux-x86_64-3.11/fortranobject.c' to sources.
+INFO:   adding '/tmp/tmpj7gfanvn/src.linux-x86_64-3.11' to include_dirs.
+copying /home/truhlard/shuxx055/anaconda3/envs/chempotpy/lib/python3.11/site-packages/numpy/f2py/src/fortranobject.c -> /tmp/tmpj7gfanvn/src.linux-x86_64-3.11
+copying /home/truhlard/shuxx055/anaconda3/envs/chempotpy/lib/python3.11/site-packages/numpy/f2py/src/fortranobject.h -> /tmp/tmpj7gfanvn/src.linux-x86_64-3.11
+INFO:   adding '/tmp/tmpj7gfanvn/src.linux-x86_64-3.11/H3_GEN_BKMP3_1996-f2pywrappers.f' to sources.
+INFO: build_src: building npy-pkg config files
+running build_ext
+INFO: customize UnixCCompiler
+INFO: customize UnixCCompiler using build_ext
+INFO: get_default_fcompiler: matching types: '['arm', 'gnu95', 'intel', 'lahey', 'pg', 'nv', 'absoft', 'nag', 'vast', 'compaq', 'intele', 'intelem', 'gnu', 'g95', 'pathf95', 'nagfor', 'fujitsu']'
+INFO: customize ArmFlangCompiler
+WARN: Could not locate executable armflang
+INFO: customize Gnu95FCompiler
+INFO: Found executable /home/truhlard/shuxx055/anaconda3/envs/chempotpy/bin/gfortran
+INFO: customize Gnu95FCompiler
+INFO: customize Gnu95FCompiler using build_ext
+INFO: building 'H3_GEN_BKMP3_1996' extension
+INFO: compiling C sources
+INFO: C compiler: gcc -pthread -B /home/truhlard/shuxx055/anaconda3/envs/chempotpy/compiler_compat -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /home/truhlard/shuxx055/anaconda3/envs/chempotpy/include -fPIC -O2 -isystem /home/truhlard/shuxx055/anaconda3/envs/chempotpy/include -fPIC
+
+creating /tmp/tmpj7gfanvn/tmp
+creating /tmp/tmpj7gfanvn/tmp/tmpj7gfanvn
+creating /tmp/tmpj7gfanvn/tmp/tmpj7gfanvn/src.linux-x86_64-3.11
+INFO: compile options: '-DNPY_DISABLE_OPTIMIZATION=1 -I/tmp/tmpj7gfanvn/src.linux-x86_64-3.11 -I/home/truhlard/shuxx055/anaconda3/envs/chempotpy/lib/python3.11/site-packages/numpy/core/include -I/home/truhlard/shuxx055/anaconda3/envs/chempotpy/include/python3.11 -c'
+INFO: gcc: /tmp/tmpj7gfanvn/src.linux-x86_64-3.11/H3_GEN_BKMP3_1996module.c
+INFO: gcc: /tmp/tmpj7gfanvn/src.linux-x86_64-3.11/fortranobject.c
+INFO: compiling Fortran sources
+INFO: Fortran f77 compiler: /home/truhlard/shuxx055/anaconda3/envs/chempotpy/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+Fortran f90 compiler: /home/truhlard/shuxx055/anaconda3/envs/chempotpy/bin/gfortran -fallow-argument-mismatch -std=legacy -fPIC -O3 -funroll-loops
+Fortran fix compiler: /home/truhlard/shuxx055/anaconda3/envs/chempotpy/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -fallow-argument-mismatch -std=legacy -fPIC -O3 -funroll-loops
+INFO: compile options: '-I/tmp/tmpj7gfanvn/src.linux-x86_64-3.11 -I/home/truhlard/shuxx055/anaconda3/envs/chempotpy/lib/python3.11/site-packages/numpy/core/include -I/home/truhlard/shuxx055/anaconda3/envs/chempotpy/include/python3.11 -c'
+INFO: gfortran:fix: H3_GEN_BKMP3_1996.f90
+INFO: gfortran:f77: /tmp/tmpj7gfanvn/src.linux-x86_64-3.11/H3_GEN_BKMP3_1996-f2pywrappers.f
+INFO: /home/truhlard/shuxx055/anaconda3/envs/chempotpy/bin/gfortran -Wall -g -Wall -g -shared /tmp/tmpj7gfanvn/tmp/tmpj7gfanvn/src.linux-x86_64-3.11/H3_GEN_BKMP3_1996module.o /tmp/tmpj7gfanvn/tmp/tmpj7gfanvn/src.linux-x86_64-3.11/fortranobject.o /tmp/tmpj7gfanvn/H3_GEN_BKMP3_1996.o /tmp/tmpj7gfanvn/tmp/tmpj7gfanvn/src.linux-x86_64-3.11/H3_GEN_BKMP3_1996-f2pywrappers.o -L/panfs/jay/groups/16/truhlard/shuxx055/anaconda3/envs/chempotpy/bin/../lib/gcc/x86_64-conda-linux-gnu/13.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/panfs/jay/groups/16/truhlard/shuxx055/anaconda3/envs/chempotpy/bin/../lib/gcc/x86_64-conda-linux-gnu/13.1.0/../../../../x86_64-conda-linux-gnu/lib/../lib -lgfortran -o ./H3_GEN_BKMP3_1996.cpython-311-x86_64-linux-gnu.so
+Removing build directory /tmp/tmpj7gfanvn

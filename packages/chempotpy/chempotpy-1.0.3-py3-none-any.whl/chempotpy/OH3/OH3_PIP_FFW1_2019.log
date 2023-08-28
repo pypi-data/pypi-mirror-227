@@ -1,0 +1,12 @@
+running build
+running config_cc
+INFO: unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+INFO: unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+INFO: build_src
+INFO: building extension "OH3_PIP_FFW1_2019" sources
+INFO: f2py options: []
+INFO: f2py:> /tmp/tmp3e75jvgb/src.linux-x86_64-3.11/OH3_PIP_FFW1_2019module.c
+creating /tmp/tmp3e75jvgb/src.linux-x86_64-3.11
+Reading fortran codes...
