@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ufc-fighter-jung-chansung
+Version: 0.2.0
+Summary: In honor of the retirement of ufc fighter Jung Chan-sung...
+Author-Email: dmario24 <data.mario24@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ufc-fighter-jung-chansung
+
+![image](https://github.com/dMario24/ufc-fighter-jung-chansung/assets/134017660/94f20f67-418f-49a4-b7c9-3a82ecf0d54c)
+
+### use
+```bash
+$ 
+```
+### test
+```bash
+$ souce .venv/bin/activate
+$ pdm add --dev pytest
+$ pytest -s
+```
