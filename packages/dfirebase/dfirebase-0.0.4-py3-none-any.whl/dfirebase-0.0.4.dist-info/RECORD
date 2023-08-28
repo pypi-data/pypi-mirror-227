@@ -1,0 +1,9 @@
+DFirebase/__init__.py,sha256=PSb6Ga3JY7Q1D9FldGDnthsFBtRG02MBzFs4ndH3HRU,151
+DFirebase/Browser.py,sha256=gKTr9y_w5CnHansJzwE3WH3b140DDdxf6tiKG2ATBaQ,1423
+DFirebase/Email.py,sha256=JjUGM7XG_GfzuorObxBLLaxYvUJaQOr5KxwalJomPY0,3052
+DFirebase/Firebase.py,sha256=cDWpbOp8d9z06jrMVZj4-SLqEtY_N_k3tVHjrPkryAI,27575
+DFirebase/GAuth.py,sha256=dtswg7k_sf0xT1cVhJXF1ftwVGBdvfpwUARoDYbPYio,11574
+DFirebase/SSEClient.py,sha256=eZbsA-YFt0J8hdjmj3bRcSlwZfpOo-Src4xzPbOt5ec,5563
+dfirebase-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+dfirebase-0.0.4.dist-info/METADATA,sha256=18PGlr79emqGbT0FGALpkWGv3_RtAXYvtka51iQsj8Q,1055
+dfirebase-0.0.4.dist-info/RECORD,,
