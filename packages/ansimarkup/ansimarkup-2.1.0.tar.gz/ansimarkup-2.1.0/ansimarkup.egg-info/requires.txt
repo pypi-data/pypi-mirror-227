@@ -1,0 +1,12 @@
+colorama
+
+[benchmark]
+termcolor
+colr
+pastel
+plumbum
+rich
+
+[test]
+pytest
+pytest-cov
