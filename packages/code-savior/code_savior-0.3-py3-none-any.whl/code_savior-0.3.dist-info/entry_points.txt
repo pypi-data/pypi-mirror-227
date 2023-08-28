@@ -1,0 +1,2 @@
+[console_scripts]
+code-savior = code_savior.main:main
