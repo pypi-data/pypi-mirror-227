@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: python_io_capture
+Version: 0.0.1.1
+Summary: capture and report function IO at runtime
+Author: SecurityLab-UCD
+Author-email: yfhe@ucdavis.edu
+Project-URL: Bug Tracker, https://github.com/SecurityLab-UCD/python-io-capture/issues
+Project-URL: Documentation, https://github.com/SecurityLab-UCD/python-io-capture/blob/main/README.md
+Project-URL: Source Code, https://github.com/SecurityLab-UCD/python-io-capture
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# python-io-capture

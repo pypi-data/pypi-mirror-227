@@ -1,0 +1,6 @@
+README.md
+setup.py
+python_io_capture.egg-info/PKG-INFO
+python_io_capture.egg-info/SOURCES.txt
+python_io_capture.egg-info/dependency_links.txt
+python_io_capture.egg-info/top_level.txt
