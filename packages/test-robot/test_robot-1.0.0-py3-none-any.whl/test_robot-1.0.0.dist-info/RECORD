@@ -1,0 +1,11 @@
+gros_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gros_client/mod.py,sha256=Tb1U00E0ZpNvpOiCS8KXsv6OocVL2iSgrg8beVNMFJg,231
+gros_client/robot.py,sha256=0C0siTuE-FbHRkqtMiLh4wlLzbo0H-jgL5O4Xh3JIVA,6317
+gros_client/robot_base.py,sha256=0qbNfb7fsUKob-8qQNWoD8GI7pjXh1AoCBDTD34y6g0,2660
+gros_client/robot_type.py,sha256=-gg_msNVK0vj-M-TUiOvWy23dkRB_QKC74ZpDFITmuA,99
+gros_client/robot/human.py,sha256=U-m-V5i-zK_MVOdVhjT8PbaeYPnHLpIPAtfTpdJHgK8,3048
+test_robot-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+test_robot-1.0.0.dist-info/METADATA,sha256=SQ4KlBL6FcMlUaadjIcD5uxwtqFoa_SUB36S39_NKOk,385
+test_robot-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+test_robot-1.0.0.dist-info/top_level.txt,sha256=8gBD4urHTQkDtdAAjz8lW51DCQRyTFr2G87faEtqqv0,12
+test_robot-1.0.0.dist-info/RECORD,,
