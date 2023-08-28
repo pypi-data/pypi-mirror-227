@@ -1,0 +1,2 @@
+[console_scripts]
+ansible-metrics = ansiblemetrics.command_line:cli
