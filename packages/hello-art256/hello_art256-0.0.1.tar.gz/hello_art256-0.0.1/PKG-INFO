@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hello_art256
+Version: 0.0.1
+Summary: Prints 'Hello, world!' to the console
+Author-email: Arthur Benjamin Angeles <lta.abyangeles@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Hello, everyone!
+
+## Hello, world!
+This program prints "Hello, world!" to the console. Yay!
