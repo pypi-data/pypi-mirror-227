@@ -1,0 +1,8 @@
+fast_dep-0.0.4.dist-info/METADATA,sha256=leX273iWl2PahDuDpzv53lm89PObujvPHAKF6fkeOm4,1667
+fast_dep-0.0.4.dist-info/WHEEL,sha256=6jcjYCPLQfgjrySnPJXObPjUSlfYksUDpS8QSLkNfqw,131
+fast_dep-0.0.4.dist-info/license_files/LICENSE.md,sha256=Cn63oM1q16B9GySS5acyUAu9rWpZ1OlkyixVVw47xoU,1071
+fast_dep/__init__.py,sha256=cxA--TDwAoNmDWgz9X9GJoakm-E4mR7gpAlP6ZUmB5Q,115
+fast_dep/__init__.pyi,sha256=zua_CjoNI9Lpj52Z1eCBk_2YKJ_dSZB_p4jYOG9nNv0,936
+fast_dep/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_dep/fast_dep.cpython-311-powerpc64le-linux-gnu.so,sha256=7gqEumNWsP8sOGMVX4HpB5gspe3mxV6kZmF2fuV2eto,6037824
+fast_dep-0.0.4.dist-info/RECORD,,
