@@ -1,0 +1,5 @@
+setup.py
+primecheckergbr.egg-info/PKG-INFO
+primecheckergbr.egg-info/SOURCES.txt
+primecheckergbr.egg-info/dependency_links.txt
+primecheckergbr.egg-info/top_level.txt
