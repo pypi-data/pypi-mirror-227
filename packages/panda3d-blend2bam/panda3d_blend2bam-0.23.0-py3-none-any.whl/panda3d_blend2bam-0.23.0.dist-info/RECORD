@@ -1,0 +1,16 @@
+blend2bam/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+blend2bam/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+blend2bam/blend2gltf.py,sha256=MMcjVG75JTyvmJ3cBSeZbT3LZLTvIvzUT3Kq_WL8xxs,1074
+blend2bam/blenderutils.py,sha256=NIDiGkIXdVPxwkXNFVz62sbqrSZ1Uu5QHcJGHWmy4uI,3382
+blend2bam/cli.py,sha256=8PO9hdz9s-xGJFbfp32c5yaPUsteWgfFaQ1XwR5ruqs,6519
+blend2bam/common.py,sha256=-LopNU4hnuR_Uqik15OKMDiFYj57hCWdC6ROLKJ3edo,843
+blend2bam/gltf2bam.py,sha256=SeHlXVXHzde2HMc31eajTan6f0xmbMs9EVl08w8YQMI,2292
+blend2bam/loader.py,sha256=TjfZtTJObopP6KCIMFiSjgysRCqrc1mcdPvKpawgOJo,1195
+blend2bam/version.py,sha256=pwluWaTPL8Xkb9G3PEN8_juXZgyuXodBFmQvwlw9pb4,23
+blend2bam/blender_scripts/exportgltf.py,sha256=OmmjlZAKPQrN4KUvqNGN-4OBLrfc_Pa8mW7LGFsevd4,9045
+panda3d_blend2bam-0.23.0.dist-info/LICENSE.txt,sha256=xE-8mHnHDLcg6QTxI9AhPIA7GYDRf_xnRzoYLvzsSp4,1072
+panda3d_blend2bam-0.23.0.dist-info/METADATA,sha256=amzD1j4VdnUxA1yYb64rLgq0UPg_hejV_j8tiGIu1fc,5220
+panda3d_blend2bam-0.23.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+panda3d_blend2bam-0.23.0.dist-info/entry_points.txt,sha256=K669YJPb7vfXHUXgUUUI526xnu_yvt7QdTy3JQsjuVA,105
+panda3d_blend2bam-0.23.0.dist-info/top_level.txt,sha256=-ix_8ciKySQaVEF47w6rXWeRDMa4PMa9X9Ka8ZzkSNY,10
+panda3d_blend2bam-0.23.0.dist-info/RECORD,,
