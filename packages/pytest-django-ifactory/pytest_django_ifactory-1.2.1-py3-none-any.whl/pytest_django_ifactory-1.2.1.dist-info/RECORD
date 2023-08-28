@@ -1,0 +1,13 @@
+pytest_django_ifactory/__init__.py,sha256=HE2QbQEObtMf2xdoBdP3NpuP70S7RzJV2w8OZ-5H8i8,158
+pytest_django_ifactory/defaults.py,sha256=W_p5n8yrJQ44kapn2NslVrSJEY2KCDSlodeiFx1xwoE,6001
+pytest_django_ifactory/flags.py,sha256=52LToIFtr_JVa5WhFNlsrLD0tJV-AuKV6CSN0f0kZK0,1484
+pytest_django_ifactory/ifactory.py,sha256=DPAESCjApXFuZJjtNemV-vQMr0CGv0yq1kAhEAyOyzo,8280
+pytest_django_ifactory/plugin.py,sha256=MWSQz-Q9lJX8hvzbHx9mp_rZt1bJ8nGFmBoyWSGcWNA,979
+pytest_django_ifactory/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_django_ifactory/typing.py,sha256=Xrd9M9OOsRcINRrxVFOMc9BXHkuyqJIp43pYgc6eObg,395
+pytest_django_ifactory-1.2.1.dist-info/LICENSE,sha256=0l7H2m7b3FbIbOlypVP-qCcDGq9q6OhlHtW3SMZumqU,1517
+pytest_django_ifactory-1.2.1.dist-info/METADATA,sha256=wVSHQHSvLKHYkui_FHnRjr8FMO0wkkaxo3PZEecMYSM,7684
+pytest_django_ifactory-1.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pytest_django_ifactory-1.2.1.dist-info/entry_points.txt,sha256=SakP8hQmRLTfdw2NRU4Pbp_J6c1icXsSoHkscPW6-zk,59
+pytest_django_ifactory-1.2.1.dist-info/top_level.txt,sha256=2BVyyi1Dz3vZUTBYjgKgZfdtuNtMzaOrd1A82XxweK0,23
+pytest_django_ifactory-1.2.1.dist-info/RECORD,,
