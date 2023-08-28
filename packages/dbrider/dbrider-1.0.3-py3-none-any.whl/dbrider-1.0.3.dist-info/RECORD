@@ -1,0 +1,10 @@
+dbrider/__init__.py,sha256=T_l5VkDiEtg7yrLFvEUkUbDL_ZzZvgOXKqWq5tzBGpo,2894
+dbrider/database.py,sha256=3EZ4oM3gDYHUiE0AsRsTXcP4HJ4ZfvL9vSe2It51CIs,1188
+dbrider/decorator.py,sha256=tkBo_jkVWhNYTJAU8qC9ucTedqo4w_erQ1yvTSEkYg8,1688
+dbrider/handler.py,sha256=ZOfMfcl7Fqv6_VhZP4dpeJYDUkBSrxHDj6L1Ifxuacs,4788
+dbrider/loader.py,sha256=vS2sMsM0N17464qJ3NPvutMRrHjY_g0nHXOLtqx2ECU,1603
+dbrider/matcher.py,sha256=1EEgD_WyEI5U6C9D-BIuQ0nGAuvPYhrgLZTynq2wKx8,1988
+dbrider/model.py,sha256=w3QbvdYIDk0s6jtyXX_6bpd_Wv6HODFriCmVaNIThY4,4217
+dbrider-1.0.3.dist-info/METADATA,sha256=jEeslNIWjaG--_A8rE4U8bp4BxViwXmpKPgZGNh_KHs,389
+dbrider-1.0.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dbrider-1.0.3.dist-info/RECORD,,
