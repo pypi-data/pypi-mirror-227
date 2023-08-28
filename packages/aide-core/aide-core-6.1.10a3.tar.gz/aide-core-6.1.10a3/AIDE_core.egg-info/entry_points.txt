@@ -1,0 +1,4 @@
+[console_scripts]
+aide = platformio.__main__:main
+aidedebuggdb = platformio.__main__:debug_gdb_main
+
