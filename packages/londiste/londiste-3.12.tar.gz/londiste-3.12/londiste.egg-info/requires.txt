@@ -1,0 +1,11 @@
+skytools
+pgq
+
+[doc]
+sphinx
+
+[test]
+pytest
+pytest-cov
+coverage[toml]
+psycopg2-binary
