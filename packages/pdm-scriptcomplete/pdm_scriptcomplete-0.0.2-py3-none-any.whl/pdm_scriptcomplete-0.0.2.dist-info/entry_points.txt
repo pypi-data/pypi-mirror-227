@@ -1,0 +1,3 @@
+[pdm]
+scriptcomplete = pdm_scriptcomplete:plugin
+
