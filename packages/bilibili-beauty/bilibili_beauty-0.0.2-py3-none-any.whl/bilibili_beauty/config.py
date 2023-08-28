@@ -1,0 +1,25 @@
+url_video_root = "https://www.bilibili.com/video/"
+
+video_urls = {
+    1: "BV1S14y1C7Px",
+    2: "BV1Mu4y1e7t6",
+    3: "BV1Zh4y1U7MS",
+    4: "BV1pM4y1H7By",
+    5: "BV1Qu4y1e7tM",
+    6: "BV1Nx4y1o7Rv",
+    7: "BV1or4y1R7ca",
+    8: "BV1hu4y1D71j",
+    9: "BV1Wh4y1T7AL",
+    10: "BV1op4y177nu",
+    11: "BV1oP411a73T",
+    12: "BV1FF411k7DL",
+    13: "BV1h14y1C7qz",
+    14: "BV1vw411D7nv",
+    15: "BV1ku411N7Mm",
+    16: "BV1CF411C7Hq",
+    17: "BV1vV411G75F",
+    18: "BV1ru4y1D7tX",
+    19: "BV1WG411d7xU",
+    20: "BV1PP411W7Ws",
+    21: "BV19N411i7P7",
+}

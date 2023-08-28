@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: bilibili-beauty
+Version: 0.0.2
+Summary: random get beauty video url
+Home-page: https://github.com/idlewith/bilibili_beauty
+License: MIT
+Author: idlewith
+Author-email: newellzhou@163.com
+Requires-Python: >=3.7,<4
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Bilibili Beauty
+
+random get beauty video url
+
+
+## install bilibili_beauty
+
+```
+pip install bilibili_beauty
+```
+
+## how to use
+
+```
+bb
+```
+
+
+
