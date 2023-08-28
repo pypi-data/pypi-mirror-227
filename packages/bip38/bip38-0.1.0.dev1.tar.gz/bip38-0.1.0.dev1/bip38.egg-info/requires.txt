@@ -1,0 +1,6 @@
+pyaes
+scrypt
+
+[tests]
+pytest<7,>=6.0.1
+pytest-cov<3,>=2.10.1
