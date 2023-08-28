@@ -1,0 +1,3 @@
+[console_scripts]
+pyeisen=pyeisen.__main__:main
+
