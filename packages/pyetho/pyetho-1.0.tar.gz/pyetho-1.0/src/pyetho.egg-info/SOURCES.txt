@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/etho/__init__.py
+src/etho/pyetho.py
+src/etho/data/etho.json
+src/pyetho.egg-info/PKG-INFO
+src/pyetho.egg-info/SOURCES.txt
+src/pyetho.egg-info/dependency_links.txt
+src/pyetho.egg-info/top_level.txt
