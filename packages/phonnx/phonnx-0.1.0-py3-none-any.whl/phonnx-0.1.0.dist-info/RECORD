@@ -1,0 +1,11 @@
+phonnx/__init__.py,sha256=vaZ_IW9OVcsZr4McFXZjvnFIN7djFos7O6E9nUXjRp0,73
+phonnx/col_preprocessors.py,sha256=uGHtIsuEoNCeyP4beHplH7kAcbX3mp66BzmriDtkFVE,611
+phonnx/constants.py,sha256=zOQAn9tE395nz3jvLsf7zml83wpO2B-FKM3aiqlqFIA,415
+phonnx/runtime.py,sha256=sqGtXh6MwDI-XgSH6PmDSSybksMAbBGGi42mVEK5d28,4881
+phonnx/utils/onnx_parsing.py,sha256=kmQlJafkLksTmUvoAlJ0Dq5QhgggDZlGwSubzyqoHiA,1832
+phonnx/utils/types.py,sha256=s8nyhwkFaYbLlvhZvCOD98asP5ImrWMxa7re8qvtp_U,760
+phonnx-0.1.0.dist-info/LICENSE,sha256=f0ixmMvD0bAd849qfVPwxImCuJRBxPB1Qx52rl7qwHc,1069
+phonnx-0.1.0.dist-info/METADATA,sha256=MNqsYGnDtmTJLV1NrqyIl3PI8IeDKUPGolM4gEwLWxU,6675
+phonnx-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+phonnx-0.1.0.dist-info/top_level.txt,sha256=P-Wmk9yUJitYx3OPdVjlveE6fPqVDcKp4zcEpicMDSk,7
+phonnx-0.1.0.dist-info/RECORD,,
