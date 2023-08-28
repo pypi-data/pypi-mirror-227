@@ -1,0 +1,14 @@
+frmplots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frmplots/cartogram.py,sha256=kaZRGMGNMV7fyVE5AuLl_205uR--W7H24DObFEmwGCo,4126
+frmplots/cmap.py,sha256=8nG3dsqecjl-vq7CG6Pfw8Ps1ytk2hvGtR01Y2jx1Ls,9349
+frmplots/galaxyplot.py,sha256=FtpzElzUo0OLv3U2qf7iCgTdkm_ZHXf2ilRqNMNixks,4985
+frmplots/iplot.py,sha256=G6nU5vU0nJLyEMmzveNw12WE7g7jCiJ_OIkiZYJvIko,5133
+frmplots/norm.py,sha256=mTSLi4-uOs1l3k1men2fi74W04VqiRZjceV2-RzU0yQ,10534
+frmplots/platlabels.py,sha256=LXhWrDY7WJ1wNYDtvVx7b9qqHoTe8lauqhGI5bjWIaA,8676
+frmplots/plots.py,sha256=9HWWW2iZ3VJsESU-03yCrDWtKAujEtV_hTjuQPX1ZmY,26185
+frmplots/plotstyle.py,sha256=K9lsB8mZ97jNwz0p0Y08I1DR9dpshGYjNzd5RKHzQyA,4051
+frmplots/plotwheel.py,sha256=nUWf80j_tyYk1VINciKIydylRYU84nNUZ66I-FOqpPM,3744
+frmplots/qtable.py,sha256=FysDa2Zg1Q-HJi68zoq52hkB5eYX7cIVeDlRX3CbAA4,6850
+frmplots-0.2.0.dist-info/METADATA,sha256=1vVUiAjyCfUuKl-V8KaVzPQZWaYzuTvAtnpnAZC5MBw,501
+frmplots-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+frmplots-0.2.0.dist-info/RECORD,,

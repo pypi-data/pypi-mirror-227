@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: frmplots
+Version: 0.2.0
+Summary: My personal high level plotting tools for matplotlib
+Author: Fergal
+Author-email: fergal.mullally@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: frmbase
+Requires-Dist: matplotlib (>2)
