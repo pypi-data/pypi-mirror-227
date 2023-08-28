@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simpl-kafka-wrapper"
+version = "0.2.3"
+description = "Confluent kafka Wrapper to publish messages to Kafka broker with a defined Structure"
+authors = ["Somil Singhai <somil.singhai@getsimpl.com>"]
+readme = "README.md"
+packages = [{include = "simpl_kafka_wrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+structlog = "^22.1.0"
+confluent-kafka = "^1.9.0"
+pydantic = "^2.3.0"
+pytz = "^2023.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.7.0`"]
+build-backend = "poetry.core.masonry.api"
+
