@@ -1,0 +1,9 @@
+README.md
+setup.py
+Funciones_experimental/Ajustes.py
+Funciones_experimental/__init__.py
+Funciones_experimental.egg-info/PKG-INFO
+Funciones_experimental.egg-info/SOURCES.txt
+Funciones_experimental.egg-info/dependency_links.txt
+Funciones_experimental.egg-info/requires.txt
+Funciones_experimental.egg-info/top_level.txt
