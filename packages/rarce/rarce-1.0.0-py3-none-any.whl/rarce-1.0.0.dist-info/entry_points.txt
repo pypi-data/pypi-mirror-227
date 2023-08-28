@@ -1,0 +1,3 @@
+[console_scripts]
+rarce = rarce.cli:main
+

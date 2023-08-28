@@ -1,0 +1,9 @@
+rarce/__init__.py,sha256=UY0b5RCo_vvI6de7NR8svfJirEdATJPH_XVFGWTF_EQ,100
+rarce/__main__.py,sha256=GsyqP4taJvu0br22_U1_t0MfnKP3W7gpdpmv_IaPNnE,30
+rarce/cli.py,sha256=V7PwLMhy6AfKZe5StAQfHx9GPmymXo5JGD2CDtj05_8,1564
+rarce/rarce.py,sha256=s6zxLsyWgpXWNqK42hrohRsLLnJES_HnEc3gU9BR1cE,5780
+rarce-1.0.0.dist-info/METADATA,sha256=I65F4joiLhcUGQSeeUvl3DrUnhoy8BHxKXNRLygxo0w,247
+rarce-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rarce-1.0.0.dist-info/entry_points.txt,sha256=fM2A5ps39yYT5fs2MiTbFh1RD5wUDuW8YbzljyPwXpw,42
+rarce-1.0.0.dist-info/top_level.txt,sha256=3uSc8XhZcDk6mXQrL9Rxv4Zs2bhISpHfD_7yU4rtIQ0,6
+rarce-1.0.0.dist-info/RECORD,,
