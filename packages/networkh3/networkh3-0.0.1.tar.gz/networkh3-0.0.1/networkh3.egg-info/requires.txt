@@ -1,0 +1,9 @@
+pandas
+geopandas
+numpy
+matplotlib
+shapely
+osmnx
+h3
+h3pandas
+contextily

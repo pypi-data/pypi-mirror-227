@@ -1,0 +1,1 @@
+A library to return H3 polygons of a given resolution using the boundaries of an OSMnx network. 

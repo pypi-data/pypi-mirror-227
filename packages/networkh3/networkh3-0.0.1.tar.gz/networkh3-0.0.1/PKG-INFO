@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: networkh3
+Version: 0.0.1
+Summary: A package to return H3 polygons based on an OSMnx network
+Home-page: 
+Author: Callum Scoby
+Author-email: callumjamesscoby@gmail.com
+License: MIT
+Keywords: OSMnx,H3,Routing,Network analysis
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
