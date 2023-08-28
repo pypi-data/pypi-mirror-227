@@ -1,0 +1,10 @@
+kocoafab/__init__.py,sha256=0Uc3zDF9XadX9j08cOIZbGoZsI0JPHTxemWum3gkos4,21
+kocoafab/ble_library.py,sha256=A_eBMlgh7erO4rZJx7Y5LJx_HBMcwlvRVofBTfnmsa0,3828
+kocoafab/i2c_lcd.py,sha256=rPzb9kTiZ6_FX4OUa5sejq09BIWbHdQPjpyRFoX-nFw,3383
+kocoafab/lcd_api.py,sha256=-Ky3jENuOlyjvS6QLVT_mmriuSMzKFXO7uq34Om_nSA,7461
+kocoafab/ssd1306.py,sha256=FW3OwRCr7eSzbu-1Znt4ckD2YujsFzs0FIVDmK-5td8,4946
+kocoafab/tcs34725.py,sha256=GXqIh5tk-V8iK1FgPuFuUAr6hUFI8mmwxHiWpk5I-Mg,5624
+kocoafab-0.0.5.dist-info/METADATA,sha256=gQJ0Jhusgj9fxC43azesCQSrvGBziojLOYQA-lnxPRA,559
+kocoafab-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+kocoafab-0.0.5.dist-info/top_level.txt,sha256=liY0nY_nDdS3im9IcNyx7zKnN1ohi-UxJtpEuCJfYYM,9
+kocoafab-0.0.5.dist-info/RECORD,,
