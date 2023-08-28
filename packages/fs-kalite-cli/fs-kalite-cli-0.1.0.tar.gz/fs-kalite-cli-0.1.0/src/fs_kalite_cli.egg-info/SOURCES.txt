@@ -1,0 +1,5 @@
+pyproject.toml
+src/fs_kalite_cli.egg-info/PKG-INFO
+src/fs_kalite_cli.egg-info/SOURCES.txt
+src/fs_kalite_cli.egg-info/dependency_links.txt
+src/fs_kalite_cli.egg-info/top_level.txt
