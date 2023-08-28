@@ -1,0 +1,13 @@
+mkproj/__init__.py,sha256=IaXKkVbOAzc0d2F61Eq7l7r2unDukg5z4v4SFAPj5pU,3873
+mkproj/templates/cpp/.gitignore,sha256=auOqfWFhSL3w8mhUvgVn8w-m-_0l9jF3iOaNz4lcnT8,12
+mkproj/templates/cpp/Makefile,sha256=GSK-w3OVZtSuoO9RHMPpeK5IBB5VwwCHe6sJ5p1TLBU,1303
+mkproj/templates/cpp/Readme.md,sha256=xFT8xPIkMuFPWcYg0KCRkHUH8Jidl_Sr05UzfxANa4w,73
+mkproj/templates/cpp/include/{{ project_name }}.h,sha256=ofj8Xu6mmRdRDHdNrLd2N8amw3t2uQkNtL1D-WzaEyE,128
+mkproj/templates/cpp/src/main.cpp,sha256=558fzgDJgAI7bjIvRJhis-pMN9jwH1JGZDFZyCoTEZA,145
+mkproj/templates/python/project.py,sha256=n6aIrs_8le2ee4kxkQ6lXVEBKzMZlUI3gazIAt1yJrQ,95
+mkproj-0.1.dist-info/LICENSE,sha256=gqlelLWXITi_vKHnoH0pH0ZBwX0ROC0A0pPaetCutgg,1061
+mkproj-0.1.dist-info/METADATA,sha256=5QB839_UVS8IB8p0Shdkht5u2MD3QbrRbaoTj8pTp3I,117
+mkproj-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mkproj-0.1.dist-info/entry_points.txt,sha256=1KmvD13A09Gu_dZLpAxnFkl92TTT-inj0AdXjU9cais,39
+mkproj-0.1.dist-info/top_level.txt,sha256=WvqZw1-TN00R11RKH7bUlNlLTBFI-yIB55nOa6gv-lk,7
+mkproj-0.1.dist-info/RECORD,,
