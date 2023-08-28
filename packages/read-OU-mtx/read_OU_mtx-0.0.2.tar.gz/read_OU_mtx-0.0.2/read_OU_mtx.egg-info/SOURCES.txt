@@ -1,0 +1,7 @@
+README.md
+setup.py
+read_OU_mtx/__init__.py
+read_OU_mtx.egg-info/PKG-INFO
+read_OU_mtx.egg-info/SOURCES.txt
+read_OU_mtx.egg-info/dependency_links.txt
+read_OU_mtx.egg-info/top_level.txt
