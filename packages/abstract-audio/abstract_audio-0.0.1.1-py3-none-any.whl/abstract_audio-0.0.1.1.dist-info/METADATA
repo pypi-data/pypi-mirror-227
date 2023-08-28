@@ -1,0 +1,167 @@
+Metadata-Version: 2.1
+Name: abstract-audio
+Version: 0.0.1.1
+Summary: This module provides functionalities to capture and manipulate audio input from a microphone and save them into a text file. It uses an abstract GUI to display the state of audio recording and playback..
+Home-page: https://github.com/AbstractEndeavors/abstract_essentials/tree/main/abstract_audio
+Author: putkoff
+Author-email: partners@abstractendeavors.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: abstract-gui (>=0.0.55.6)
+Requires-Dist: abstract-utilities (>=0.1.6)
+Requires-Dist: pydub (>=0.25.1)
+
+# Abstract Audio
+
+The 'abstract_audio' module provides functionalities to capture and manipulate audio input from a microphone and save it into a text file. It also includes an abstract GUI to display the state of audio recording and playback.
+
+## Installation
+
+You can install the module using pip:
+
+```bash
+pip install abstract_audio
+```
+
+## Usage
+
+To utilize this module:
+
+1. Run the script as a Python program.
+2. This will launch a GUI window featuring a 'record' button.
+3. Click on the 'record' button to initiate audio recording. The GUI will turn green, indicating that recording is in progress.
+4. Once you stop speaking, the recorded audio will be processed through the Google Web Speech API, and the recognized text will appear in the GUI window.
+
+**Note**: Ensure that you have the necessary libraries installed, like `abstract_utilities`, `abstract_gui`, and `SpeechRecognition`.
+
+
+### Speech-to-Text Application
+
+The 'speech_to_text.py' script provides a simple speech-to-text application with a graphical user interface (GUI). The application uses the SpeechRecognition library to perform speech recognition and PySimpleGUI for GUI implementation. It allows you to record your voice, transcribe the audio to text, and save it in a file called 'voice.txt'.
+
+To use the speech-to-text application, run the following command:
+
+```python
+from abstract_audio.speech_to_text_gui import speech_to_text_main
+generated_text = speech_to_text_main()
+```
+
+The GUI window will open, displaying a 'record' button. Click on the 'record' button to start recording your voice. The GUI screen will turn green to indicate that it is recording. Once you stop speaking, the recorded audio will be processed using the Google Web Speech API, and the recognized text will be displayed in the GUI window.
+
+### Volume Commands
+
+The 'volume_commands.py' module provides a set of volume control commands for Windows operating systems. It allows you to control the system's volume, mute, and unmute the system, check the current volume, and change the volume incrementally.
+
+To use the volume commands, import the 'volume_commands' object from the 'volume_commands.py' module:
+
+```python
+from abstract_audio.volume_states.volume_commands import volume_commands
+```
+
+Then, you can use the methods provided by the 'volume_commands' object to control the system's volume:
+
+```python
+# Check the current volume
+current_volume = volume_commands.check_volume()
+print("Current Volume:", current_volume)
+
+# Set the volume to a specific value
+volume_commands.set_volume(50)  # Sets the volume to 50%
+
+# Change the volume incrementally
+volume_commands.change_volume(10)  # Increases the volume by 10%
+```
+
+Note: The volume control commands are currently supported only on Windows operating systems.
+
+## Source Code Map
+
+The 'src' directory contains the following packages and modules:
+
+- 'audio_player': Contains platform-specific implementations for audio playback.
+- 'volume_states': Provides volume control commands for Windows operating systems.
+- '__init__.py': Initialization module for the 'abstract_audio' package.
+- 'speech_to_text_gui.py': Main script for the speech-to-text application.
+
+## Requirements
+
+The 'abstract_audio' module has the following dependencies:
+
+- abstract_utilities>=0.1.6
+- abstract_gui>=0.0.55.5
+- pydub>=0.25.1
+- SpeechRecognition>=3.10.0
+- PySimpleGUI (already included in 'speech_to_text_gui.py' script)
+
+## Functions
+
+Here is a breakdown of the primary functions and their descriptions:
+
+- **Utility Functions**:
+  - `change_glob(x, y)`: Update and retrieve global variables dynamically.
+  - `get_globe(x)`: Retrieve the value of a global variable, if it exists.
+
+- **Microphone Control**:
+  - `mic_switch()`: Toggle the microphone state using the 'amixer' command.
+  - `parse_mic_state(st)`: Extract the microphone's state from the 'amixer' command's output.
+  - `get_mic_state()`: Get the current microphone state.
+
+- **GUI Management**:
+  - `win_update(win, st, data)`: Update the GUI window with new values for a given key.
+  - `get_values(st)`: Fetch a value from the GUI window's stored values using a specific key.
+  - `get_gui_layout()`: Defines the layout for the GUI window.
+
+- **Audio Processing**:
+  - `save_voice(voice)`: Save the voice recording to a file and reflect changes in the GUI.
+  - `playback()`: Commence the speech recognition process and update the GUI with the recognized text.
+  - `ambient_noise()`: Adjust for ambient noise before the actual audio recording.
+  - `listen_audio()`: Listen for audio input and save it to the global 'audio' variable.
+  - `recognzer()`: Use the Google Web Speech API to recognize audio and save the result.
+
+- **Recording Control**:
+  - `start_recording()`: Start the audio recording process and manage exceptions for KeyboardInterrupt.
+
+- **GUI Event Handling**:
+  - `voice_record_function(event)`: Handle various events triggered by the GUI and execute corresponding actions.
+
+Please ensure that these dependencies are installed before using the module.
+
+## License
+
+This module is licensed under the MIT License. See the 'LICENSE' file for more details.
+
+## Contact
+
+For any inquiries or feedback, you can contact the author at partners@abstractendeavors.com.
+
+## Acknowledgments
+
+The 'abstract_audio' module was developed by putkoff.
+
+For more information, visit the GitHub repository: [https://github.com/AbstractEndeavors/abstract_essentials/tree/main/abstract_audio](https://github.com/AbstractEndeavors/abstract_essentials/tree/main/abstract_audio)
+
+---
+
+The setup.py file and source code provided in the 'src' directory are parts of the 'abstract_audio' module.
+
+Please note that the 'audio_player' and 'volume_states' packages in the 'src' directory contain platform-specific implementations for audio playback and volume control. The module currently supports volume control Windows and Linux operating systemss.
+
+The 'abstract_audio' module is in the alpha development stage and may have limitations or issues. Please refer to the GitHub repository for updates and contributions.
+
+## Metadata
+
+- **Author**: putkoff
+- **Date**: 05/31/2023
+- **Version**: 0.1.2
+
+## Future Work
+
+Potential improvements and updates can be made to enhance the recognition accuracy, introduce additional features like real-time transcription, and refine the GUI aesthetics.
+
+
+Thank you for using the 'abstract_audio' module! We hope it fulfills your audio recording and manipulation needs. If you have any questions or suggestions, feel free to reach out to us at partners@abstractendeavors.com. Happy coding!
