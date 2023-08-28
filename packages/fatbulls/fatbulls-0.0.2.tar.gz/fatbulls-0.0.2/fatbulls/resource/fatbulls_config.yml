@@ -1,0 +1,21 @@
+
+# 白名单，设置可以直接在策略代码中指定哪些模块的配置项目
+# 不能删除，factor, portfolio为兼容rqalph格式的扩展
+whitelist: [base, extra, validator, mod, factor, portfolio]
+
+base:
+  fqdatac_uri: fqdatac://access_key_id:access_key_secret@219.143.244.230:8390
+
+# 因子回测基本信息
+factor:
+  task_num: WaitForOne,
+  univ_name: cnall,
+  fdays: 1,
+  rettype: vwap30,
+  base_factor_dirpath: /data/quant/factors
+  base_report_dirpath: /data/quant/report/factor_backtest
+  base_log_path:   /data/quant/fatbulls/logs
+
+# 组合回测基本信息
+portfolio:
+  base_report_path: /data/quant/report/portfolio_backtest
