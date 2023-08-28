@@ -1,0 +1,5 @@
+setup.py
+namemcscrape.egg-info/PKG-INFO
+namemcscrape.egg-info/SOURCES.txt
+namemcscrape.egg-info/dependency_links.txt
+namemcscrape.egg-info/top_level.txt
