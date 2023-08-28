@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: boctor
+Version: 0.1
+Summary: Create your own chatbot using this library
+Home-page: https://github.com/varadtechx/boctor
+Author: varadtechx
+Author-email: varadrane1707@gmail.com
+Project-URL: Bug Tracker, https://github.com/varadtechx/boctor/issues
+License-File: LICENSE
+
+Create your own chatbot using this library

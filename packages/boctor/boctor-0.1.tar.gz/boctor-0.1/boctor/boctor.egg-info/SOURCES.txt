@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+boctor/boctor.egg-info/PKG-INFO
+boctor/boctor.egg-info/SOURCES.txt
+boctor/boctor.egg-info/dependency_links.txt
+boctor/boctor.egg-info/requires.txt
+boctor/boctor.egg-info/top_level.txt
