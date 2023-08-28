@@ -1,0 +1,9 @@
+gamdl/__init__.py,sha256=Sny8PW-D8f4J4F6A0L4NL1K0zTaVhT7O7upQVqNDwss,22
+gamdl/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+gamdl/cli.py,sha256=MlSmqSDSncUGy_w7Lx5kI5-6Biik3_rJq0KOa81tYC8,18654
+gamdl/dl.py,sha256=raCKC1PNs_JlDxdZVylf5aC63sIaa5d5-1-itXz0RhE,25287
+gamdl/storefronts.py,sha256=TtBnKrvWtQz2oSuMeplq1C35RbJjvjH8o8WnwTUXzEM,2975
+gamdl-1.9.5.dist-info/entry_points.txt,sha256=jsUnZty0arYPyDpcRnaDDEEy6Gfi2UGjYKe3b2VimNQ,40
+gamdl-1.9.5.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+gamdl-1.9.5.dist-info/METADATA,sha256=xcP2_cFgvpya5i9eS50-Ti9-c-srjw8cDQHV5VLuAyM,7598
+gamdl-1.9.5.dist-info/RECORD,,
