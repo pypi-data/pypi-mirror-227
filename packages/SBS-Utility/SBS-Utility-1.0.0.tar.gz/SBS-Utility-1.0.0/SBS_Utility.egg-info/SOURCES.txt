@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SBS-Utility/__init__.py
+SBS-Utility/script.py
+SBS_Utility.egg-info/PKG-INFO
+SBS_Utility.egg-info/SOURCES.txt
+SBS_Utility.egg-info/dependency_links.txt
+SBS_Utility.egg-info/entry_points.txt
+SBS_Utility.egg-info/top_level.txt
