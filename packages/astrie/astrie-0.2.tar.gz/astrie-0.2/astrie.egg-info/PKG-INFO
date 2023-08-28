@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: astrie
+Version: 0.2
+Summary: A simple trie data structure implementation
+Home-page: https://github.com/ashishyadav2/astrie
+Author: Ashish Yadav
+Author-email: unixm98@gmail.com
+License: MIT
+Keywords: trie,astrie,data structures,trie data structure
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A comprehensive trie data structure implementation ...
