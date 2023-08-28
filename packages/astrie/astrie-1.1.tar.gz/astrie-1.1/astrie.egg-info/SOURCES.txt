@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+astrie.egg-info/PKG-INFO
+astrie.egg-info/SOURCES.txt
+astrie.egg-info/dependency_links.txt
+astrie.egg-info/top_level.txt
