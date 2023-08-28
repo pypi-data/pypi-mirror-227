@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "azuma"
+version = "0.3.1"
+description = "Yet another Sigma library for Python"
+authors = ["Manabu Niseki <manabu.niseki@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/ninoseki/azuma"
+repository = "https://github.com/ninoseki/azuma"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+lark = { extras = ["interegular"], version = ">=1.1,<2.0" }
+loguru = ">=0.7,<1.0"
+pydantic = ">=2.0,<3.0"
+pyyaml = ">=6.0,<7.0"
+regex = ">=2023"
+returns = ">=0.22,<1.0"
+typer = ">=0.9,<1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7"
+ci-py = "^1.0"
+gitpython = "^3.1"
+mypy = "^1.5"
+pre-commit = "^3.3"
+pytest = "^7.4"
+pytest-pretty = "^1.2"
+pytest-randomly = "^3.15"
+pyupgrade = "^3.10"
+ruff = "^0.0"
+types-pyyaml = "^6.0"
+
+[tool.poetry.group.doc.dependencies]
+mkdocs = "^1.5"
+mkdocs-material = "^9.2"
+mkdocstrings = { extras = ["python"], version = "^0.22" }
+
+[tool.poetry.scripts]
+azuma = "azuma.cli:app"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[build-system]
+requires = ["poetry-core", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.ruff]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "C",   # flake8-comprehensions
+    "B",   # flake8-bugbear
+    "T20", # flake8-print
+    "I",   # isort
+    "RUF", # Ruff-specific rules
+]
+ignore = [
+    "E501", # line too long, handled by black
+]
+
+[tool.mypy]
+plugins = ["returns.contrib.mypy.returns_plugin", "pydantic.mypy"]
