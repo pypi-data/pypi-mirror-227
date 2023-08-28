@@ -1,0 +1,10 @@
+Mensajes/__init__.py,sha256=ymH--v2l32mWfdHVrfKySa6TREL_nHVBv3OOO0HX76E,38
+Mensajes/Hola/Saludos.py,sha256=JHFyF64C6neSGjaIz0vahi0Mm0EH9TuofOgZRSSf45s,286
+Mensajes/Hola/__init__.py,sha256=dJPaIaet2pWjUSCThgGDAFraWQSPU6qfWHRJMLcS69s,45
+Tests/__init__.py,sha256=U2tzu37mgJI1EjrMwMD6FAJ7oCMcZTq8B2_TIm72_7s,22
+Tests/test_hola.py,sha256=F9PofP4U6-TqJ2VyaNYl9vG6vkuv3nOt7gjUmKuKqZQ,292
+mensajes_NoeCordero-3.0.dist-info/LICENSE,sha256=5bq_XD8RjbcbhSD6uKv2Re1FL69wiekFrz59wx3X3os,1106
+mensajes_NoeCordero-3.0.dist-info/METADATA,sha256=4QPHllMgKLJonNIBbSVdkCgF3E0EvH-uz83J7vCKY1o,674
+mensajes_NoeCordero-3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mensajes_NoeCordero-3.0.dist-info/top_level.txt,sha256=LWsAKNCkBJc_DkKbz5GQvcMNYKnjoLjZnsNgNX6Cwk8,15
+mensajes_NoeCordero-3.0.dist-info/RECORD,,
