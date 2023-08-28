@@ -1,0 +1,92 @@
+[tool.poetry]
+name = "flywheels"
+version = "0.1.2"
+description = "An async-first Python web framework"
+authors = ["Stephen Mwangi <mail@stephenmwangi.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://www.stephenmwangi.com/flywheels/"
+repository = "https://github.com/st3v3nmw/flywheels"
+documentation = "https://www.stephenmwangi.com/flywheels/"
+exclude = [
+    "tests/"
+]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Environment :: Web Environment",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Application Frameworks"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.3.0"
+
+[tool.poetry.group.test.dependencies]
+ruff = "^0.0.286"
+pytest = "^7.4.0"
+mypy = "^1.5.1"
+black = "^23.7.0"
+pytest-cov = "^4.1.0"
+pytest-xdist = "^3.3.1"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-material = "^9.2.4"
+
+[tool.poetry.group.dev.dependencies]
+git-changelog = "^2.2.0"
+conventional-pre-commit = "^2.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff]
+line-length = 88
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+target-version = "py311"
+select = ["E", "F", "W", "C90", "I", "N", "UP", "B", "C4", "PT", "PTH", "RUF"]
+ignore = []
+fixable = ["A", "B", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", "ANN", "ARG", "BLE", "COM", "DJ", "DTZ", "EM", "ERA", "EXE", "FBT", "ICN", "INP", "ISC", "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE", "RUF", "SIM", "SLF", "TCH", "TID", "TRY", "UP", "YTT"]
+unfixable = []
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+]
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
