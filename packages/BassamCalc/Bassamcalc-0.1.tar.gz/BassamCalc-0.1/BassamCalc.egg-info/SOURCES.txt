@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+BassamCalc.egg-info/PKG-INFO
+BassamCalc.egg-info/SOURCES.txt
+BassamCalc.egg-info/dependency_links.txt
+BassamCalc.egg-info/top_level.txt
