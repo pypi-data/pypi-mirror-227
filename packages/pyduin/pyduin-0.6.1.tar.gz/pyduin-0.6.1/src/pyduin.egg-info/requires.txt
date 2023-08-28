@@ -1,0 +1,5 @@
+platformio
+PyYAML
+pyserial
+requests
+termcolor
