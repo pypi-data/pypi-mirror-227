@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: MineSight
+Version: 1.0.13
+Summary: Investigate a Minecraft account
+Home-page: https://github.com/Gobutsu/MineSight
+Author: Gobutsu
+Requires-Python: >=3.6
