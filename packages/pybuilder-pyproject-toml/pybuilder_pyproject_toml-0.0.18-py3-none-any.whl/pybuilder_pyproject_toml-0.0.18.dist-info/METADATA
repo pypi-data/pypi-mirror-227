@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pybuilder-pyproject-toml
+Version: 0.0.18
+Summary: PyBuilder plugin for getting information from pyproject.toml file or environment variables
+Home-page: https://github.com/chylek/pybuilder-pyproject-toml
+Author: Martin Gruber, Adam Chýlek
+Author-email: martin.gruber@email.cz, adam@chylek.eu
+Maintainer: 
+Maintainer-email: 
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: toml
+
+
+Please, see https://github.com/chylek/pybuilder-pyproject-toml for more information.
