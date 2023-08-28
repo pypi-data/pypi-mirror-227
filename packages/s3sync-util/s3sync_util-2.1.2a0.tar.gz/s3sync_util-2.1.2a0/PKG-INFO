@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: s3sync-util
+Version: 2.1.2a0
+Summary: Sync directories/files with Amazon S3.
+Home-page: https://github.com/GeonsV3Collab/S3SyncUtility
+License: MIT
+Author: Lakshmi Narasimman
+Author-email: lakshminarasimman@v3analytics.in
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.28.30,<2.0.0)
+Requires-Dist: configparser (>=6.0.0,<7.0.0)
+Project-URL: Repository, https://github.com/GeonsV3Collab/S3SyncUtility
+Description-Content-Type: text/markdown
+
+# S3SyncUtility
+
+**S3SyncUtility** is a Python tool using Boto3 to simplify syncing local directories with Amazon S3, for easy uploads and downloads.
+
+## Installation
+
+You can install S3Sync using `pip` by providing the Git repository URL:
+
+```bash
+pip install git+https://github.com/GeonsV3Collab/S3SyncUtility.git@development
+
+or
+
+pip install s3sync_util
+```
+
+
+## Configuration
+
+Initialize the S3Sync configuration:
+
+```markdown
+s3sync config init
+```
+This will interactively create a `.config.ini` file with your S3 bucket and prefix settings.
+
+1. Modify **\`.config.ini`**:
+
+    You can manually edit the **\`.config.ini`** file to change the configuration options.
+
+
+## Usage
+
+Before using the utility, make sure you have the required dependencies installed.
+
+1. To upload **files/directories** to S3:
+
+    ```markdown
+    s3sync upload --directory <local_directory> --s3-bucket <bucket_name> --s3-prefix <prefix>
+    ```
+
+2. To download **files/directories** from S3:
+
+    ```markdown
+    s3sync download --s3-bucket <bucket_name> --s3-prefix <prefix> --directory <local_directory>
+    ```
+
+## License
+
+This project is licensed under the [MIT License](License).
+
+MIT License
+
+Copyright (c) 2023 Geons Logix and V3 Analytics - Collaboration
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
