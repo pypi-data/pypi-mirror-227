@@ -1,0 +1,9 @@
+Replaced PyQt5 with PySide6 in all import statements.
+Replaced call to pyqtSignal() with Signal()
+Replqces QFontMetrics(x).width() with QFontMetrics(x).boundingRect().width().
+Replaced QtCore.QT_VERSION_STR with PySide6.QtCore.__version__
+Replaced QPrinter.SetOrientation with setPageOrientation(QtGui.QPageLayout.xxx)
+Replaced QPrinter printer.setPageSize(QtPrintSupport.QPrinter.xxx) with setPagesize(QtGui.QPagesize.xxx)
+Replaces QRegexp with QRegularExpression
+Replaced QRegExpValidator with QRegularExpressionValidator
+Replaced all exec_ method calls by exec

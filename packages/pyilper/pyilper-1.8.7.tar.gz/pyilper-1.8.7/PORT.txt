@@ -1,0 +1,15 @@
+miniconda
+Installer installieren
+conda update conda
+conda config --add channels bug400
+conda install pyqt pyserial 
+conda install conda-build
+conda install anaconda-client
+
+Anpassen an die aktuelle Python Version
+setup.py
+
+Anpassen an die aktuelle Versionsnummer
+setup.py
+meta.yaml
+debian/changelog

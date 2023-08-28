@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyilper
+Version: 1.8.7
+Summary: Virtual HP-IL devices for the PIL-Box
+Author: Joachim Siebold
+Author-email: bug400@gmx.de
+License: GPL2
+Keywords: pyqt5 HP-IL PIL-Box HP-41 HP-71 HP-75
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+License-File: LICENSE
+
+pyILPER
+=======
+
+pyILPER emulates virtual peripheral devices for HP-IL (Hewlett-Packard Interface Loop).
+
+Please visit the project page at https://github.com/bug400/pyilper for further information.

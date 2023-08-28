@@ -1,0 +1,26 @@
+1
+PEN
+0
+180
+0
+150
+SCALE
+4
+LORG
+75
+210
+MOVE
+90
+LDIR
+90
+0 (slant)
+1 (aspect ratio)
+5 (height)
+CSIZE0
+AAAA
+LABEL
+BBBB
+LABEL
+CCCC
+LABEL
+

@@ -1,0 +1,160 @@
+68a69
+> int mode_vert = 0;
+716a718,720
+> 
+> 
+> 
+718a723
+> 	static HPGL_Pt P_last;
+729d733
+< 	tp->refpoint = tp->CR_point=HP_pos;
+731,732d734
+< 	Pen_action_to_tmpfile0(cmd, p, scaled);
+< }
+733a736,746
+> 	/* Extreme values needed for later scaling:    */
+> 
+> 	switch (cmd) {
+> 	case MOVE_TO:
+> 		mv_flag = TRUE;
+> 		break;
+> 
+>   /**
+>    ** Multiple-move suppression. In addition,
+>    ** a move only precedes a draw -- nothing else!
+>    **/
+734a748,757
+> 	case DRAW_TO:
+> 		if (mv_flag) {
+> 			PlotCmd_to_tmpfile(MOVE_TO);
+> 			HPGL_Pt_to_tmpfile(&P_last);
+> 		}
+> 		/* drop through */
+> 	case PLOT_AT:
+> 		Line_Generator(&P_last, &P, mv_flag);
+> 		mv_flag = FALSE;
+> 		break;
+736c759,766
+< void Pen_action_to_tmpfile0(PlotCmd cmd, const HPGL_Pt * p, int scaled)
+---
+> 	default:
+> 		exit(ERROR);
+> 	}
+> 	P_last = P;
+> }
+> 
+> 
+> void Pen_action_to_tmpfile2(PlotCmd cmd, const HPGL_Pt * p, int scaled)
+746a777
+> 
+1268c1299
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos;
+1280c1311
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos;
+1293c1324
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos;
+1298c1329
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos;
+1303c1334
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos;
+1310c1341
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos; /* jsi: why?  */
+1420,1421c1451,1452
+< 		printf("%d %d,%d,%d\n", CMD_OUTPUT, (int)floor(Pen_pos.x+0.5), (int) floor(Pen_pos.y+0.5), pen_down);
+< 		Eprintf("Send to HP-IL: %d,%d,%d\n", (int)floor(Pen_pos.x+0.5), (int) floor(Pen_pos.y+0.5), pen_down);
+---
+> 		printf("%d %d,%d,%d\n", CMD_OUTPUT, (int)floor(HP_pos.x+0.5), (int) floor(HP_pos.y+0.5), pen_down);
+> 		Eprintf("Send to HP-IL: %d,%d,%d\n", (int)floor(HP_pos.x+0.5), (int) floor(HP_pos.y+0.5), pen_down);
+1592c1623
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos;
+1596c1627
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos;
+1612c1643
+< 	case CP:		/* Char Plot  */
+---
+> 	case CP:		/* Char Plot (rather: move)     */
+1613a1645,1648
+> /*
+> 			plot_string("\n\r", LB_direct, pen);
+> */
+> /*			HP_pos=tp->CR_point; */
+1620,1644c1655,1675
+< 
+< 		/*
+< 			compute offset for refpoint (only changes for p1.x)
+< 		*/
+< 		tp->ref_offset.x= tp->chardiff.x*p1.x;
+< 		tp->ref_offset.y= tp->chardiff.y*p1.x;
+< 		if (fabs(tp->ref_offset.x) < 0.05) tp->ref_offset.x=0.0;
+< 		if (fabs(tp->ref_offset.y) < 0.05) tp->ref_offset.y=0.0;
+< 		Eprintf("CP ref_offset x %f y %f\n",tp->ref_offset.x,tp->ref_offset.y);
+< 		/*
+< 			compute offset for CR_point and HP_pos (only changes for p1.y)
+< 		*/
+< 		tp->CR_offset.x= tp->linediff.x*p1.y;
+< 		tp->CR_offset.y= tp->linediff.y*p1.y;
+< 		Eprintf("CP CR_offset x %f y %f\n",tp->CR_offset.x,tp->CR_offset.y);
+< 
+< 		tp->CR_point.x-=tp->CR_offset.x;
+< 		tp->CR_point.y-=tp->CR_offset.y;
+< 		tp->refpoint=tp->CR_point;
+< 
+< 		HP_pos.x-=tp->CR_offset.x;
+< 		HP_pos.y-=tp->CR_offset.y;
+< 		Eprintf("HP pos changed (CP) %f %f \n",HP_pos.x,HP_pos.y);
+< 
+< 
+---
+> /*
+> 		p2.x =
+> 		    p1.x * tp->chardiff.x - p1.y * tp->linediff.x +
+> 		    HP_pos.x;
+> 		p2.y =
+> 		    p1.x * tp->chardiff.y - p1.y * tp->linediff.y +
+> 		    HP_pos.y;
+> */
+> 		p2.x =
+> 		    p1.x * tp->chardiff.x - p1.y * tp->linediff.x +
+> 		    tp->CR_point.x;
+> 		p2.y =
+> 		    p1.x * tp->chardiff.y - p1.y * tp->linediff.y +
+> 		    tp->CR_point.y;
+> 		Pen_action_to_tmpfile(MOVE_TO, &p2, FALSE);
+> /*              according to manual: CP does neither update commandes position
+> 		nor CR_point
+>                 HP_pos.x=p2.x;
+>                 HP_pos.y=p2.y;
+> */
+> 		tp->CR_point = p2; 
+1662c1693
+< 			tp->CR_point = tp->refpoint=HP_pos;
+---
+> 			tp->CR_point = HP_pos;
+1675c1706
+< 		tp->CR_point = tp->refpoint=HP_pos;
+---
+> 		tp->CR_point = HP_pos;
+1681c1712
+< 			tp->CR_point = tp->refpoint=HP_pos;
+---
+> 			tp->CR_point = HP_pos;
+1898c1929
+< 			tp->CR_point = tp->refpoint=HP_pos;
+---
+> 			tp->CR_point = HP_pos;

@@ -1,0 +1,34 @@
+Terminators
+; or any other nonnumeric or nonalphabetic char
+LF
+next mnemonic
+
+bei LB ist das aktuelle Terminatorzeichen maßgeblich. Default chr$(3)
+
+Error codes
+0 no error
+1 instruction not recognized
+2 wrong number of parameters
+3 bad parameter
+4 not used
+5 unknown character set
+6 position overflow (LB, UC, CP processing)
+7 not used
+8 n/a
+
+c=getch
+while true
+   numchar=0
+   islb=False
+
+  while true
+     buffer[numchar]= c
+     if islb and c= termchar
+        break
+     if not islb and c is not numeric or alphabetic
+        break
+     numchar++
+     if numchar==2 and buffer [0,1]= "LB"
+        islb= True
+     c=getch
+  process hpgl

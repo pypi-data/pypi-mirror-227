@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/w3-theme-black.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<script src="js/w3data.js"></script>
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {padding: 12px;}
+.w3-bar a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+</style>
+</head><body>
+<div w3-include-html="nav.html"></div>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main: shift it to the right by 250 pixels when the sidenav is visible -->
+<div class="w3-main" style="margin-left:250px">
+<div class="w3-row w3-padding-64">
+<div class="w3-col w3-container">
+
+<!-- Begin content -->
+
+<h2 class="w3-text-teal">User Interface</h2>
+
+<p>Before you launch <em>pyILPER</em> connect the PC to the PIL-Box and 
+set up the HP-IL loop with at least the HP-IL controller (HP41 or
+HP-71B). After the launch of <em>pyILPER</em> you must reconfigure
+the HP-IL devices on the loop, by either powering the controller  
+off and on again or by issuing a <code>RESTORE IO</code> on the HP-71B.</p>
+
+<p>The user interface consists of:</p>
+<ul class="w3-ul">
+<li><a class="w3-hover-black" href="filemenu.html">The file menu to configure pyILPER</a></li>
+<li><a class="w3-hover-black" href="utilitiesmenu.html">The utilities menu</a></li>
+<li><a class="w3-hover-black" href="helpmenu.html">The help menu</a></li>
+<li>Tabbed virtual HP-IL devices: <a class="w3-hover-black" href="scope.html">scope</a>, <a class="w3-hover-black" href="printer.html">printer(s)</a>, <a class="w3-hover-black" href="drive.html">drive(s)</a>, <a href="rawdrive.html">raw drive(s) </a>, <a class="w3-hover-black" href="terminal.html">terminal</a>, <a class="w3-hover-black" href="plotter.html">HP7470A plotter</a>, <a class="w3-hover-black" href="hp82162a.html">HP82162A thermal printer</a>, <a class="w3-hover-black" href="hp2225b.html">HP2225B ThinkJet printer</a></li>
+<li>Status information at the bottom of the main window</li>
+</ul>
+
+<p>The tabbed virtual HP-IL devices can be undocked and moved to 
+floating, resizeable windows by pressing the undock button at the right 
+corner of the tab bar. Clicking the close button of a floating window 
+docks the virtual device into the tab again.</p>
+
+<p>The <em>pyILPER</em>main window with the tabbed devices or all undocked
+device windows can be resized to an appropriate size. The number of lines
+of scope, terminal, printer or plotter output will increase or decrease 
+accordingingly.</p>
+<!-- End content -->
+</div>
+</div>
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+
+<!-- END MAIN -->
+</div>
+<script>
+w3IncludeHTML();
+</script>
+
+</body></html>
