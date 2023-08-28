@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "DFirebase"
+version = "0.0.4"
+description = ""
+authors = ["DesKaOne"]
+readme = "README.md"
+packages = [{include = "DFirebase", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = {extras = ["socks"], version = "^2.11.1"}
+requests-toolbelt = "<1.0,>=0.7.1"
+urllib3 = "<2,>=1.21.1"
+gcloud = ">=0.18.3"
+oauth2client = ">=4.1.2"
+pycryptodome = ">=3.6.4"
+cryptography = ">=3.0.0"
+blinker = ">=1.4.0"
+pyjwt = "<3,>=2.0.0"
+google-api-python-client = "^2.97.0"
+google-auth-httplib2 = "^0.1.0"
+google-auth-oauthlib = "^1.0.0"
+python-jwt = ">=2.0.1"
+bs4 = "^0.0.1"
+deskaone-requests = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
