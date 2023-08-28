@@ -1,0 +1,2 @@
+[console_scripts]
+media_jk = media_jk.media_jk:main
