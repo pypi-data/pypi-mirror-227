@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: electric-estimate
+Version: 0.1.0
+Summary: this estimate that how much you use power in specific conditions
+Author-Email: junsungs950 <junsungs950@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# electric-estimate
