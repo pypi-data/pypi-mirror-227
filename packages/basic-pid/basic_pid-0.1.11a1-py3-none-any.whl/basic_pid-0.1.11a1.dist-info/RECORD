@@ -1,0 +1,6 @@
+basic_pid/__init__.py,sha256=DkJ4qSgGjmBCsKpjzp9OIe_15bviHHUo-XdgmONhHE4,340
+basic_pid/oobject.py,sha256=nXp0mDDKErne0K49mCPwqQwkTAG8DVCXa7Rcrx1fZes,2183
+basic_pid/pid.py,sha256=p8JaFVf7yab3caB-YVIWwDjVzBaUmMJ-2V7uktt4zEI,5096
+basic_pid-0.1.11a1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+basic_pid-0.1.11a1.dist-info/METADATA,sha256=qf2X3SXJ3LbLbEHZcgOCMJ8FJYFLqUTlq3E1zBpVXiE,1826
+basic_pid-0.1.11a1.dist-info/RECORD,,
