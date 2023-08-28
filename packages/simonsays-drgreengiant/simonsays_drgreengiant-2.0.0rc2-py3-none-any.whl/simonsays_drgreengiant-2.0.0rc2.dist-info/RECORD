@@ -1,0 +1,17 @@
+simonsays_drgreengiant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simonsays_drgreengiant/__main__.py,sha256=QAZ6Ji4LosDqQz2rmE0srDCAvmv8bw_FS-WfjmygoRI,62
+simonsays_drgreengiant/actions.py,sha256=a_SuIlSFzIJl5oCJkX_DJldfCkqALjvf80QMgmOsrKo,2763
+simonsays_drgreengiant/config.py,sha256=ywnjolIDFq2OYgcqHTd-LF9TPpmVH1_WvdMIg8XtzUE,9670
+simonsays_drgreengiant/environment.py,sha256=5JA4FmJXb856NX-d_OEmWKhz2GSaMh3Id3HWByU52-I,722
+simonsays_drgreengiant/errorcodes.py,sha256=oaWQsy4iH9auP_rf1dacvKHmifYS0W6eOO51OQ-vX4A,1110
+simonsays_drgreengiant/gameactions.py,sha256=7HQEBgdHbUf-LaJBZDtFdNAK9T0Lx0v7ncJdQ2v4wv4,4577
+simonsays_drgreengiant/gui.py,sha256=kpRN75__cICo9c5_dIqYRwc0ug0F8VmN80iK53bilR4,16792
+simonsays_drgreengiant/hidactions.py,sha256=6-XzIaEil9HZhiI_n-d1VTPsrya37ZPz_ZZaEc45BsI,7354
+simonsays_drgreengiant/phasmoactions.py,sha256=1pcTogXnSrWILdicfBqipo3ZK2JnwDhFRlqVijN3lUI,31240
+simonsays_drgreengiant/simonsays.py,sha256=93ZtikmRoaqk1mDy3wTxjTf3GbhDX1aHyi3_eKm9KFQ,4061
+simonsays_drgreengiant/twitchactions.py,sha256=dQ8BhZNciaidY8YXihh1D305ykzZR9gMviRe2G08cSY,7723
+simonsays_drgreengiant-2.0.0rc2.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+simonsays_drgreengiant-2.0.0rc2.dist-info/METADATA,sha256=32P4WDUlJlaQ2hRVTXrm-DGqDEehvxAZ9lUGtAKvd6k,7595
+simonsays_drgreengiant-2.0.0rc2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+simonsays_drgreengiant-2.0.0rc2.dist-info/top_level.txt,sha256=i6-xVWE_e0QIpLV6EgKhaZ6LXwT7IogQbhZAfTh5nBk,23
+simonsays_drgreengiant-2.0.0rc2.dist-info/RECORD,,
