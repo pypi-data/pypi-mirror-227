@@ -1,0 +1,3 @@
+[mkdocs.plugins]
+img2figwithicons = src:Image2FigureWithIconsPlugin
+
