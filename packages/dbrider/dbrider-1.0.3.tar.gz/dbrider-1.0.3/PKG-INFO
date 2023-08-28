@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dbrider
+Version: 1.0.3
+Summary: Database Rider for Python
+Author: Nishant Shah
+Author-email: nishant@hexafoldtech.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: peewee (==3.14.10)
