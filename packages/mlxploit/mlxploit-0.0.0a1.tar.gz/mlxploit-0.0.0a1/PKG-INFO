@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: mlxploit
+Version: 0.0.0a1
+Summary: An exploitation framework for AI/Machine Learning.
+License: Apache-2.0
+Author: hdks
+Author-email: hdks.bug@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: torch (>=2.0.0,!=2.0.1)
+Requires-Dist: torchinfo (>=1.8.0,<2.0.0)
+Requires-Dist: torchvision (==0.15.1)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# MLxploit: An Exploitation Framework for AI/Machine Learning
+
+## Status
+
+This project is under development and not working yet.
+
+<br />
+
+## Usage
+
+### Attack
+
+```sh
+mlxploit attack --help
+```
+
+### Scan
+
+```sh
+mlxploit scan --help
+```
+
+<br />
+
+## Installation
+
+### PIP
+
+```sh
+pip install mlxploit
+mlxploit --help
+```
+
+### From Source Code
+
+```sh
+git clone https://github.com/hideckies/mlxploit.git
+cd mlxploit
+poetry shell
+poetry install
+mlxploit --help
+```
