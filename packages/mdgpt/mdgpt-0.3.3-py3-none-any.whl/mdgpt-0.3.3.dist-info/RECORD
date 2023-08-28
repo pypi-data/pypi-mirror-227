@@ -1,0 +1,12 @@
+mdgpt/__init__.py,sha256=YLsLmZ6p2QFAUd4sTmQvUxw1HxKcTxX-OOrtodMPiX8,21950
+mdgpt/build.py,sha256=KTGGuPCM2rKQ-C7Sjbko_8EJST2DLbOIUFClXhrBjWQ,1677
+mdgpt/engines.yaml,sha256=XtIh_zBrfmixvHcOcqlc6IS5z9D0eF8bIaUf5zz4oe8,96
+mdgpt/image.py,sha256=BR3b0O56FGcWi2GZcgw9bXg4dWuC0aV-JDdNLMh6QGw,1255
+mdgpt/models.py,sha256=dKED_YaZCw1PRqubJ8KtVqlZkEX16DcSuDh-68nNLMQ,3645
+mdgpt/translate.py,sha256=YmSsUGn97ddlgca9s7SbyXYpsaBV_5fOr9bDRIppz2w,9500
+mdgpt/utils.py,sha256=2N-BMz-r9dQJMtdmmIlO5AsOvwUGiwBv7BdreWDmeTc,5131
+mdgpt-0.3.3.dist-info/entry_points.txt,sha256=uCPgpaFMyfgoe-NuxNuaBU2uZRJvfvFffeDK2pzz19Y,35
+mdgpt-0.3.3.dist-info/LICENSE,sha256=EBnTcS-BXePZwE5MsVLYlKCBs-BhLy8jIQ4gR8hMhdo,1064
+mdgpt-0.3.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mdgpt-0.3.3.dist-info/METADATA,sha256=NceQQdBfSyQQn02zbPLfAGkhUQiRjBh1iWoh99gnquc,8414
+mdgpt-0.3.3.dist-info/RECORD,,
