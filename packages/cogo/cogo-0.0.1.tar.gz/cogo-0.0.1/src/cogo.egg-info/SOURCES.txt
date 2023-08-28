@@ -1,0 +1,10 @@
+setup.py
+src/__init__.py
+src/commands.py
+src/main.py
+src/cogo.egg-info/PKG-INFO
+src/cogo.egg-info/SOURCES.txt
+src/cogo.egg-info/dependency_links.txt
+src/cogo.egg-info/entry_points.txt
+src/cogo.egg-info/requires.txt
+src/cogo.egg-info/top_level.txt
