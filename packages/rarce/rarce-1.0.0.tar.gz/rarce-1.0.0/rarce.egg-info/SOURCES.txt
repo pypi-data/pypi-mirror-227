@@ -1,0 +1,11 @@
+README.md
+setup.py
+rarce/__init__.py
+rarce/__main__.py
+rarce/cli.py
+rarce/rarce.py
+rarce.egg-info/PKG-INFO
+rarce.egg-info/SOURCES.txt
+rarce.egg-info/dependency_links.txt
+rarce.egg-info/entry_points.txt
+rarce.egg-info/top_level.txt
