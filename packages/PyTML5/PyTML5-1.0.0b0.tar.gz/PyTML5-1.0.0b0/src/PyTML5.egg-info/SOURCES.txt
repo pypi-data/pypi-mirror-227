@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/PyTML5/Webgets.py
+src/PyTML5/__init__.py
+src/PyTML5/__main__.py
+src/PyTML5.egg-info/PKG-INFO
+src/PyTML5.egg-info/SOURCES.txt
+src/PyTML5.egg-info/dependency_links.txt
+src/PyTML5.egg-info/top_level.txt
+tests/test.py
