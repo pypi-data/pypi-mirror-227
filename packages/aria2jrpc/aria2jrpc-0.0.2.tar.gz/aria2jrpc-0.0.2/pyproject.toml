@@ -1,0 +1,29 @@
+[project]
+name = "aria2jrpc"
+version = "0.0.2"
+authors = [{ name = "SeyedMohammadAli Noori", email = "13noori79@gmail.com" }]
+description = "A small package to help you work with aria2 jrpc"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = ["requests"]
+
+[project.urls]
+"Homepage" = "https://github.com/alinri/aria2jrpc"
+"Bug Tracker" = "https://github.com/alinri/aria2jrpc/issues"
+
+
+[tool.black]
+line-length = 79
+
+[build-system]
+requires = ['setuptools']
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ['src']

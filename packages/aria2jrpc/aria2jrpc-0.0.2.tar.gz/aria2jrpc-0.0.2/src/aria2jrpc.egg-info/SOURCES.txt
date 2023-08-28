@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+src/aria2jrpc/__init__.py
+src/aria2jrpc/aria2.py
+src/aria2jrpc/models.py
+src/aria2jrpc.egg-info/PKG-INFO
+src/aria2jrpc.egg-info/SOURCES.txt
+src/aria2jrpc.egg-info/dependency_links.txt
+src/aria2jrpc.egg-info/requires.txt
+src/aria2jrpc.egg-info/top_level.txt
