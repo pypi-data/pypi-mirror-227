@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pgq
+Version: 3.8
+Summary: PgQ client library for Python
+Maintainer-email: Marko Kreen <markokr@gmail.com>
+Project-URL: homepage, https://github.com/pgq/python-pgq
+Project-URL: repository, https://github.com/pgq/python-pgq
+Project-URL: changelog, https://github.com/pgq/python-pgq/blob/master/NEWS.rst
+Keywords: database,queue
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: skytools
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: coverage[toml] ; extra == 'test'
+Requires-Dist: psycopg2-binary ; extra == 'test'
+
+PgQ client library for Python
+=============================
+
+Features
+--------
+
+Simple consumers on top of ``pgq``:
+
+* Event producing
+* Base classes for consumers
+
+Cascaded consumers on top of ``pgq_node``:
+
+* Worker base class
+* Admin tools
+
