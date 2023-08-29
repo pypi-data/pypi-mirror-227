@@ -1,0 +1,6 @@
+LICENSE.txt
+setup.py
+ali_alsofyani_123.egg-info/PKG-INFO
+ali_alsofyani_123.egg-info/SOURCES.txt
+ali_alsofyani_123.egg-info/dependency_links.txt
+ali_alsofyani_123.egg-info/top_level.txt
