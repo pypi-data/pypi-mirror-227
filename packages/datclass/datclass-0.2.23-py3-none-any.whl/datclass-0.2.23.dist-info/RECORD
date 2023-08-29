@@ -1,0 +1,10 @@
+datclass/__init__.py,sha256=-B9Y2v48Gw3e7mKMBQ4W_tCcVyO0YmAL4y7N3aPhA2o,11591
+datclass/__main__.py,sha256=5VbmVrstKqMKOuttNmmVGQ8_B46TV7K5unuU-o6mol8,15671
+datclass/__version__.py,sha256=MmIqjBT60L2v1UNF1AC2CSaALHuBe659sQFP3YBOw1Y,343
+datclass/utils.py,sha256=DkL9dLR6Ead_lD1Rq1wbBkNGiJpIpIfWKWGKV2fd160,1813
+datclass-0.2.23.dist-info/LICENSE,sha256=52zz-JZEhjWXQGs44IXIAmtN3bMUUxlm0Gdyu3UQDeg,1063
+datclass-0.2.23.dist-info/METADATA,sha256=-nPEhAEC_k5MT_4c-OS1bAPP4yZiJUYwUIJYoGmJ7yE,4779
+datclass-0.2.23.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+datclass-0.2.23.dist-info/entry_points.txt,sha256=NGyu475wocfknYsY76ShUL0pevx__KosH9WFYc1ZDH0,52
+datclass-0.2.23.dist-info/top_level.txt,sha256=rdb11zn8BjT_dnVGFHw5uaAUljK77j-9SKWPrwFgVNo,9
+datclass-0.2.23.dist-info/RECORD,,
