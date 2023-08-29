@@ -1,0 +1,9 @@
+README.md
+setup.py
+example_package_abdulmughni/__init__.py
+example_package_abdulmughni/example.py
+example_package_abdulmughni.egg-info/PKG-INFO
+example_package_abdulmughni.egg-info/SOURCES.txt
+example_package_abdulmughni.egg-info/dependency_links.txt
+example_package_abdulmughni.egg-info/requires.txt
+example_package_abdulmughni.egg-info/top_level.txt
