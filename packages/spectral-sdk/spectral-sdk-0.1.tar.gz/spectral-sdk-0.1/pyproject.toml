@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectral-sdk"
+version = "0.1"
+description = "Spectral SDK allows you to participate in the challenges and competitions on Spectral Finance platform."
+readme = "README.md"
+authors = [{ name = "Spectral Finance", email = "maciej@spectral.finance" }]
+keywords = ["machine learning", "ai", "data science", "web3"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11"
+]
+dependencies = [
+    "cloudpickle>=2.2.1",
+    "ezkl>=1.11.5",
+    "numpy>=1.25.2",
+    "onnx>=1.14.0",
+    "torch>=2.0.1",
+    "requests>=2.31.0",
+    "web3>=6.9.0"
+]
+
+[project.urls]
+Repository = "https://github.com/Spectral-Finance/spectral-ai-sdk"
+
+[project.scripts]
+myscript = "mypackage.mymodule:myfunction"
+
+
+
+[project.optional-dependencies]
+
+[project.entry-points."console_scripts"]
+
+myscript = "mypackage.mymodule:myfunction"

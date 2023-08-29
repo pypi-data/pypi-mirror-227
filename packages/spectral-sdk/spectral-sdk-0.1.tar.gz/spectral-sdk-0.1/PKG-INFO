@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: spectral-sdk
+Version: 0.1
+Summary: Spectral SDK allows you to participate in the challenges and competitions on Spectral Finance platform.
+Home-page: https://github.com/Spectral-Finance/spectral-ai-sdk
+Author: Spectral Finance
+Author-email: Spectral Finance <maciej@spectral.finance>
+Project-URL: Repository, https://github.com/Spectral-Finance/spectral-ai-sdk
+Keywords: machine learning,ai,data science,web3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# spectral-ai-sdk
+Python SDK supporting interactions with Competitions
