@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: ahocode-test
+Version: 1.0.0
+Summary: ahocode is a fallback pure Python library for pyahocorasick.
+Home-page: https://github.com/AyanSinhaMahapatra/ahocode
+Author: nexB. Inc. and others
+Author-email: info@aboutcode.org
+License: Apache-2.0
+Keywords: utilities
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: apache-2.0.LICENSE
+License-File: NOTICE
+License-File: AUTHORS.rst
+License-File: CHANGELOG.rst
+License-File: CODE_OF_CONDUCT.rst
+Provides-Extra: docs
+Requires-Dist: Sphinx >=5.0.2 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme >=1.0.0 ; extra == 'docs'
+Requires-Dist: sphinx-reredirects >=0.1.2 ; extra == 'docs'
+Requires-Dist: doc8 >=0.11.2 ; extra == 'docs'
+Provides-Extra: testing
+Requires-Dist: pytest !=7.0.0,>=6 ; extra == 'testing'
+Requires-Dist: pytest-xdist >=2 ; extra == 'testing'
+Requires-Dist: aboutcode-toolkit >=7.0.2 ; extra == 'testing'
+Requires-Dist: pycodestyle >=2.8.0 ; extra == 'testing'
+Requires-Dist: twine ; extra == 'testing'
+Requires-Dist: black ; extra == 'testing'
+Requires-Dist: isort ; extra == 'testing'
+
+ahocode-test
+==================
+This repo is a pure python implementation for `pyahocorasick <https://github.com/WojciechMula/pyahocorasick>`_, inspired by `abusix/ahocorapy <https://github.com/abusix/ahocorapy>`_.
+
+
+Installation
+-------------------
+
+Requirements
+###################
+* Python 3.8 or later
+
+.. code-block:: bash
+
+    pip install ahocode-test
+
+Documentation
+---------------------------
+ahocode is a fallback library for pyahocorasick, so the ``Automaton`` class and its methods
+have same names and parameters.
+
+Below listed are the implemented classes and methods.
+
+Classes
+##########
+
+* ``Automaton``
+
+Methods for Automaton class
+###############################
+
+* ``add_word``
+* ``get``
+* ``clear``
+* ``exists``
+* ``find_all``
+* ``items``
+* ``make_automaton``
+* ``iter``
+* ``keys``
+* ``values``
+* ``__getstate__``
+* ``__setstate__``
+* ``__len__``
+* ``__contains__``
+
+For documentation please refer to: https://pyahocorasick.readthedocs.io/en/latest
