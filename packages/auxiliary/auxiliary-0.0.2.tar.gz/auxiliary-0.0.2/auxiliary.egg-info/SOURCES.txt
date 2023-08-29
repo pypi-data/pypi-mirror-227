@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+auxiliary/__init__.py
+auxiliary/aux.py
+auxiliary/nifti.py
+auxiliary.egg-info/PKG-INFO
+auxiliary.egg-info/SOURCES.txt
+auxiliary.egg-info/dependency_links.txt
+auxiliary.egg-info/requires.txt
+auxiliary.egg-info/top_level.txt
