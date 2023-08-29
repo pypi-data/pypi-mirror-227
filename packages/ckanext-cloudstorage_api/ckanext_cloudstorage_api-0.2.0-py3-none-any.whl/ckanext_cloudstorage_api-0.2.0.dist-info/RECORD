@@ -1,0 +1,15 @@
+ckanext/__init__.py,sha256=WGSMBFzEHyOxbc34623FfZroP0Ho6tVQAbegPksZtQE,230
+ckanext/cloudstorage_api/__init__.py,sha256=UjCHm8VO-xYyrA1xTbHVj90cHhM75fc_kGhwNiZjNXc,39
+ckanext/cloudstorage_api/__version__.py,sha256=p08rKKQwzTKp6N48tBQG8VpiU4drYPtbR2EVgHWZruM,43
+ckanext/cloudstorage_api/auth.py,sha256=sfCAcV8Mx4DmwysNw4WYWlU2UjysXWIFZg_BKLBEtao,2329
+ckanext/cloudstorage_api/blueprints.py,sha256=ziXP4TZRkN5lZawUeDmGngrHZnQoEMfJwLzfrNlgC4Q,1358
+ckanext/cloudstorage_api/cli.py,sha256=7jw4O8SNvSicOp7OcZQLoz2Dhk3jO9ibJGFA_aVIbB8,543
+ckanext/cloudstorage_api/logic.py,sha256=oPoIrdiiVYiGjmNmewcNNxUjGFqUX2KIf63F5l05Mgw,14427
+ckanext/cloudstorage_api/models.py,sha256=8aPnVNXX0JZa-3cHX3AL3Dy3kMWJQ7yyL3KUC_5wwOs,2233
+ckanext/cloudstorage_api/plugin.py,sha256=afApgnzSP5juONz2Vs_lkXV6vBPYeW9wvHoJ9sYDqww,5454
+ckanext/cloudstorage_api/storage.py,sha256=3Qw0zOaixFJfSj4FTVXZJ-ZBz_pKY5ApOoaiLcTV3NI,13790
+ckanext_cloudstorage_api-0.2.0.dist-info/entry_points.txt,sha256=vSgmaDZYxdwISjTVLOtHGHxNQLc_6pFcnhbwJ5lwBFs,87
+ckanext_cloudstorage_api-0.2.0.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+ckanext_cloudstorage_api-0.2.0.dist-info/METADATA,sha256=NmGl7cQLFgS_FZtI2mwrnDeIykNlMqJhYVwByXVj2nw,3977
+ckanext_cloudstorage_api-0.2.0.dist-info/licenses/LICENSE,sha256=QPfdse1VxF7XPUmFq5vO6p6CXu81h9l-lWDjTQRTQ-I,1060
+ckanext_cloudstorage_api-0.2.0.dist-info/RECORD,,
