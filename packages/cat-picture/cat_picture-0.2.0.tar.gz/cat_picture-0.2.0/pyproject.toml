@@ -1,0 +1,24 @@
+[project]
+name = "cat-picture"
+version = "0.2.0"
+description = "I will show you a picture of a cat."
+authors = [
+    { name = "gogododo", email = "4dovidovi4@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.0",
+]
