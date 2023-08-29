@@ -1,0 +1,10 @@
+README.md
+setup.py
+swmonkey/__init__.py
+swmonkey/main.py
+swmonkey.egg-info/PKG-INFO
+swmonkey.egg-info/SOURCES.txt
+swmonkey.egg-info/dependency_links.txt
+swmonkey.egg-info/entry_points.txt
+swmonkey.egg-info/requires.txt
+swmonkey.egg-info/top_level.txt
