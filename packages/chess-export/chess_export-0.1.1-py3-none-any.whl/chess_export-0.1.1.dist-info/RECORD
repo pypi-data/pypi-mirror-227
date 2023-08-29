@@ -1,0 +1,13 @@
+chess_export/__main__.py,sha256=XO0pe3L6cVr9B628lnlN35lHaFU1OenqGnOZKRIdKa4,2732
+chess_export/common.py,sha256=UM9DUQUTDmN5OAkO4c5yJ6xa18YrOCxg3qr9sNr512Q,2057
+chess_export/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chess_export/chessdotcom/export.py,sha256=uK1m6fQRrhwsvFXtMViiaCpbPoMEHEXHa-IVxhnMwzM,1321
+chess_export/chessdotcom/model.py,sha256=k6aOIh8h-wb4S_rRjuDjA2sS-Ul1Q9iJRdDKCiVS1k8,2635
+chess_export/lichess/export.py,sha256=QpH-t6bZxKHt4xobzKtzktHUyvZL8VAFZU3WGa6Myq8,986
+chess_export/lichess/model.py,sha256=BPcvVtqAw0Qa9tNuLgfXE2vambYMKeG6sKw6MGR4kTs,2461
+chess_export-0.1.1.dist-info/LICENSE,sha256=DLAorQX7ouXcNHtSqiIVQDT7LK3JgZRV30drSyxo9o8,1074
+chess_export-0.1.1.dist-info/METADATA,sha256=xsAnMKm254XSeq5NPXPklLOnzI8xUv-jj45CgmCZv10,4220
+chess_export-0.1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+chess_export-0.1.1.dist-info/entry_points.txt,sha256=KVhhD5J71uIKcBASAHLNQYF-XY6Vbjo4vsP3y24TzrY,60
+chess_export-0.1.1.dist-info/top_level.txt,sha256=6cDlHHCXhbFxO4sHR_97EdOO_3QvX8p5_FxvGLd7zaU,18
+chess_export-0.1.1.dist-info/RECORD,,
