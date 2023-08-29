@@ -1,0 +1,16 @@
+monad_std/__init__.py,sha256=HoyuG-ttGT7JLof1CiIboxc-uhhsUA-H8QjsEoChqQo,92
+monad_std/error.py,sha256=JYBAfLuwhLytLp5PoaoDDCwhQTHF7TTYjjGbs-LNdv8,679
+monad_std/option.py,sha256=qfb1r0gISdMr6CediPpmUeQs_PhjvNuD61xJvmwCwI4,30131
+monad_std/result.py,sha256=OXM3Z-M2y1h7BX04vYNMrSkr-cbB3DUIGs1sD6qAREU,26642
+monad_std/std_types/__init__.py,sha256=oI7KC1KN52QIb_zqiiPfNt2naHR2k3MjdV7BqtCvOcE,108
+monad_std/std_types/pydict.py,sha256=Awfk9zdEUZLQFEGo3QkSvkWKPV3hiDb8XifbiQhYiKw,721
+monad_std/std_types/pydict.pyi,sha256=1pCi1pA2jdD3ZCsGkCdYJFPBiaAfV_KumUZ3VSsIVTE,1462
+monad_std/std_types/pylist.py,sha256=lowZItcoPNMxJm6aRXqlHGkYtg3yMv95xAc2YzbgdF8,764
+monad_std/std_types/pylist.pyi,sha256=omyoKwKJl09RZ_w7Ht6ewna8sWyx0sdTTMZTAU81CVk,2088
+monad_std/std_types/pyset.py,sha256=4ERFj39LE16M87zV5FEJjHI9w7AP9zOMm37NqLjEipo,290
+monad_std/std_types/pyset.pyi,sha256=J4J7-MdSbIkyfgi4p4CoMYqmeoSmsd4DwrRKClqy0Z4,546
+monad_std/std_types/pytuple.py,sha256=wWg9QlDsH1lnrOea_IFZ8qAMgcx2F6h1BuQ0z3FMwgo,478
+monad_std/std_types/pytuple.pyi,sha256=THrwNmoCNBNlrlmxfNr-vHxc0pCro8kk0f3ubo30d-A,907
+monad_std-0.1.1.dist-info/METADATA,sha256=8V_4OXgsmBRP2_UbQUM3b3xGsHBWJuEHxmPPL-eLCR8,3310
+monad_std-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+monad_std-0.1.1.dist-info/RECORD,,
