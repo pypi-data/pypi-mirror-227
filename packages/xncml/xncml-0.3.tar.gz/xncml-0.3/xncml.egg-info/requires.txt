@@ -1,0 +1,7 @@
+xmltodict
+xsdata
+xarray
+cftime
+netCDF4
+dask
+psutil
