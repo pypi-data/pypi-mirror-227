@@ -1,0 +1,6 @@
+os
+glob
+numpy
+pandas
+scipy
+plotly
