@@ -1,0 +1,6 @@
+setup.py
+taegis_magic/__init__.py
+taegis_magic.egg-info/PKG-INFO
+taegis_magic.egg-info/SOURCES.txt
+taegis_magic.egg-info/dependency_links.txt
+taegis_magic.egg-info/top_level.txt

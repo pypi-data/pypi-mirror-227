@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: taegis-magic
+Version: 0.0.1a0
+Summary: Taegis IPython Magics
+Home-page: https://github.com/secureworks/taegis-magics
+Author: Secureworks
+Author-email: sdks@secureworks.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Dummy package for taegis-magic
