@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: teko-multi-lang
+Version: 1.0.2
+Summary: Teko translator tool
+Home-page: https://git.teko.vn/common-utilities/sample/language-package
+Download-URL: https://pypi.org/project/teko-multi-lang/
+Author: Thanh Nguyen
+Author-email: danthanh92@gmail.com
+License: MIT
+Keywords: Teko,Teko Translator tools
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: cachetools
+
+# Description
+    
+It consists of only main module:
+
+- `translator`: tools to translate code to expected language
+
+# Installation
+ 
+## Normal installation
+
+```bash
+pip install teko-multi-lang
+```
+
+# Change log
+
+## \[1.0.1\] - 2023-08-27
+### Fixed
+- Initiate
