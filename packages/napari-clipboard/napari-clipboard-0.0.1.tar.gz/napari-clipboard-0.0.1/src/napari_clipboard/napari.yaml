@@ -1,0 +1,10 @@
+name: napari-clipboard
+display_name: napari clipboard
+contributions:
+  commands:
+    - id: napari-clipboard.image_from_clipboard
+      python_name: napari_clipboard._widget:image_from_clipboard
+      title: New Image from clipboard
+  widgets:
+    - command: napari-clipboard.image_from_clipboard
+      display_name: New Image from clipboard

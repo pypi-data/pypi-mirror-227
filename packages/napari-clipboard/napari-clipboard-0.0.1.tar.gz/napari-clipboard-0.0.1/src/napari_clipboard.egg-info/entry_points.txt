@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-clipboard = napari_clipboard:napari.yaml
