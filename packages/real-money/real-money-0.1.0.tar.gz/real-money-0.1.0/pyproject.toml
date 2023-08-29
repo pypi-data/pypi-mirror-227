@@ -1,0 +1,36 @@
+[project]
+name = "real-money"
+version = "0.1.0"
+description = "Money module for python"
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["money currency"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+[project.optional-dependencies]
+babel = ["Babel >= 2.4.0, < 3.0"]
+dev = [
+    "black",
+    "isort",
+    "pytest",
+    "real-money[babel]",
+]
+
+[project.urls]
+Homepage = "https://github.com/Sighery/real-money"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["money"]
+
+[tool.isort]
+profile = "black"

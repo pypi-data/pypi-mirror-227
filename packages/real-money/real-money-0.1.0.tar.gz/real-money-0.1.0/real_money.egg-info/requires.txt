@@ -1,0 +1,9 @@
+
+[babel]
+Babel<3.0,>=2.4.0
+
+[dev]
+black
+isort
+pytest
+real-money[babel]
