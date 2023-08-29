@@ -1,0 +1,7 @@
+pyroll/mauk_gottschling_flow_stress/__init__.py,sha256=DzpkbD1IlYOdgjIvXOqXuVJrGDNSEM1EmgvqU-DsKzM,1050
+pyroll/mauk_gottschling_flow_stress/materials.py,sha256=1R0Dk7Oo22emLbdbdxcQ4XKq04PKVfZixqCUWT4V7-A,1515
+pyroll/mauk_gottschling_flow_stress/mauk_gottschling_flow_stress.py,sha256=y7YYYo9xrgzTLdVBN-sOyXYIqLlA6TgLKQAw7GbcwdA,1386
+pyroll_mauk_gottschling_flow_stress-2.0.0.dist-info/METADATA,sha256=AgJoadMcKDrTZkBuTzdmafaEMIHygsxr9utPMfaVOvo,2943
+pyroll_mauk_gottschling_flow_stress-2.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pyroll_mauk_gottschling_flow_stress-2.0.0.dist-info/licenses/LICENSE,sha256=7SjqveiyCGACeuyzTAekLtNEFpdsE34L_6eYcYvjnMM,1462
+pyroll_mauk_gottschling_flow_stress-2.0.0.dist-info/RECORD,,
