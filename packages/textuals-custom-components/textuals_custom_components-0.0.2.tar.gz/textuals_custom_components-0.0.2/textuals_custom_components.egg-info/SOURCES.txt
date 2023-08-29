@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+textuals_custom_components/__init__.py
+textuals_custom_components/timefunctions.py
+textuals_custom_components.egg-info/PKG-INFO
+textuals_custom_components.egg-info/SOURCES.txt
+textuals_custom_components.egg-info/dependency_links.txt
+textuals_custom_components.egg-info/top_level.txt
