@@ -1,0 +1,5 @@
+setup.py
+dotnetpymodule1.egg-info/PKG-INFO
+dotnetpymodule1.egg-info/SOURCES.txt
+dotnetpymodule1.egg-info/dependency_links.txt
+dotnetpymodule1.egg-info/top_level.txt
