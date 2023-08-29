@@ -1,0 +1,10 @@
+loguru
+multilogging
+nonebot-adapter-onebot
+nonebot2
+nonebot_plugin_apscheduler
+openai
+psutil
+pyyaml
+qq-botpy
+watchdog
