@@ -1,0 +1,10 @@
+setup.py,sha256=nquIrlhRgDKe-oDzfUBpH-EqMGWLa7mjY1_3gPAMpiQ,92
+bin/gen_protocol_api.py,sha256=FqXRqvUNJX7qP38F-kg8QoVcsoNKvAPjta_uZIEv-h4,3768
+maxwell/__init__.py,sha256=ZizW6ZfdJ_VRdivmtXdHrRrBlu1b9PyHdqeUuKr70Pg,151
+maxwell/protocol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maxwell/protocol/maxwell_protocol.py,sha256=3WVtbr0WT8nT3RxY_GrZNSo3PNro2BfPL99iW11pDZo,9779
+maxwell/protocol/maxwell_protocol_pb2.py,sha256=E7_dSDkCHrb-Qri-utzkRJic_5NaAhFL_uDNnoVI5Bg,10474
+maxwell_protocol-0.6.5.dist-info/METADATA,sha256=YKMjVvdVhTu4I4dao3bqBdaYbeGqdYeuya3PrUmMWzU,13707
+maxwell_protocol-0.6.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+maxwell_protocol-0.6.5.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+maxwell_protocol-0.6.5.dist-info/RECORD,,
