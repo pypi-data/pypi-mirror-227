@@ -1,0 +1,5 @@
+path==16.7.1
+nibabel==3.2.1
+
+[dev]
+pytest
