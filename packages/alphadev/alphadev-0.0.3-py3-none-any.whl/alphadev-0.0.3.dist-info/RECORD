@@ -1,0 +1,10 @@
+alpha_dev/README.md,sha256=fsPrsR5YwplY1UNsvTaM641mO7of43-OcJxojm1T9MY,2612
+alpha_dev/__init__.py,sha256=e-3_jeJhHt5CXH1u8gdMRqN1gEL6cLgE01slwRMJVe0,37
+alpha_dev/attend.py,sha256=cMRODo5SvF05tONrArqLZj0G9MuIjkyio_DzgDfM9LI,11912
+alpha_dev/model.py,sha256=0_4vcYGxpIc07YExp5Vj0qE36XjhnxeSp2evDVcmBZQ,3040
+alpha_dev/pseudocode.py,sha256=4d58FG82sekifzRATt44t9qSQeafBqt8qUZ_eocZj2A,29645
+alpha_dev/transformer.py,sha256=mvo-nWbPnQZGT9HSlOvM0wFxbDRyMNCuLiJGaaMta2E,50890
+alphadev-0.0.3.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+alphadev-0.0.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+alphadev-0.0.3.dist-info/METADATA,sha256=V2BXS3MlQ_yoEqeNgljK5bhhwEtlxlU-N6ryIVmJtRU,5505
+alphadev-0.0.3.dist-info/RECORD,,
