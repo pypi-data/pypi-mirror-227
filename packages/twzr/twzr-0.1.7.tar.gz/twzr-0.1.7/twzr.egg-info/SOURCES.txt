@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+twzr/__init__.py
+twzr/twzr.py
+twzr.egg-info/PKG-INFO
+twzr.egg-info/SOURCES.txt
+twzr.egg-info/dependency_links.txt
+twzr.egg-info/requires.txt
+twzr.egg-info/top_level.txt
