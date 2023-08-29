@@ -1,0 +1,9 @@
+aws_solutions_constructs/aws_iot_kinesisfirehose_s3/__init__.py,sha256=BYFH7z8uI0E-oTcxLDvnfBLLhly7nfcW8qRacbPnuh0,24014
+aws_solutions_constructs/aws_iot_kinesisfirehose_s3/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_solutions_constructs/aws_iot_kinesisfirehose_s3/_jsii/__init__.py,sha256=jXVUR2T7XRf9LucNghDzPXtzYwqoU3l35xHDJX-Lihw,565
+aws_solutions_constructs/aws_iot_kinesisfirehose_s3/_jsii/aws-iot-kinesisfirehose-s3@2.44.0.jsii.tgz,sha256=SJxbBT7ozEthVMt7RFPoRlcw2GlOB26Sd08a935d9uU,155368
+aws_solutions_constructs.aws_iot_kinesisfirehose_s3-2.44.0.dist-info/LICENSE,sha256=wnT4A3LZDAEpNzcPDh8VCH0i4wjvmLJ86l3A0tCINmw,10279
+aws_solutions_constructs.aws_iot_kinesisfirehose_s3-2.44.0.dist-info/METADATA,sha256=BpUZRrErRF7dds-4FmnjpMGqSaiG2-zIdb0AX2b-lvI,9443
+aws_solutions_constructs.aws_iot_kinesisfirehose_s3-2.44.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aws_solutions_constructs.aws_iot_kinesisfirehose_s3-2.44.0.dist-info/top_level.txt,sha256=hi3us_KW7V1ocfOqVsNq1o3w552jCEgu_KsCckqYWsg,25
+aws_solutions_constructs.aws_iot_kinesisfirehose_s3-2.44.0.dist-info/RECORD,,
