@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nuki-sesami
+Version: 0.0.1
+Summary: Open an electric door using Nuki smartlock status
+Project-URL: Homepage, https://github.com/michelm/nuki-sesami
+Author-email: Michel Mooij <michel.mooij7@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: gpiozero>=1.6.2
+Requires-Dist: paho-mqtt>=1.6.1
+Description-Content-Type: text/markdown
+
+# Nuki Sesami
+
+Open an electric door based on _Nuki smart lock 3.0 Pro_ state.
