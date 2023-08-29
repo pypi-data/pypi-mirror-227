@@ -1,0 +1,6 @@
+setup.py
+funllm.egg-info/PKG-INFO
+funllm.egg-info/SOURCES.txt
+funllm.egg-info/dependency_links.txt
+funllm.egg-info/requires.txt
+funllm.egg-info/top_level.txt
