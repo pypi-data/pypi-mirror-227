@@ -1,0 +1,8 @@
+pyxi_couchbase_client/__init__.py,sha256=OfcRy6L7bSEsi-5ATrofBPLs-EGIJjlzWaOXglAsPUY,63
+pyxi_couchbase_client/couchbase_client.py,sha256=HD7MWdJDa8TTsfudR2Zx3Err1aZVn3UrB8oIS5YSqWE,2552
+pyxi_couchbase_client/secret_provider.py,sha256=QXrm1IYpYBURSuu8afzaYyI3VsLqZOfPTs6hVX7qAnc,218
+pyxi_couchbase_client-0.0.6.dist-info/LICENSE,sha256=UF0tfQ5DQ_IQO7eOUQBJQ4n9ZObBrRhFC3fSMo3MIc8,1071
+pyxi_couchbase_client-0.0.6.dist-info/METADATA,sha256=9bL_oiGJOqIAPJxmhy_l3KBvq8tge6wtUjetfr3AUbw,600
+pyxi_couchbase_client-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyxi_couchbase_client-0.0.6.dist-info/top_level.txt,sha256=k9lNrLJ8oCLbURRC2Dn1NFCI4xKasR3fJDTrLS8cgq4,22
+pyxi_couchbase_client-0.0.6.dist-info/RECORD,,
