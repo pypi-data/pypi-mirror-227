@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ddm-flow
+Version: 0.1.1
+Summary: A toolset for processing, organizing, and visualizing data for individual FoVs from DDm analysis.
+Home-page: https://github.com/NEbrahimi/ddm-flow
+Author: Naz Ebrahimi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: contourpy >=1.1.0
+Requires-Dist: matplotlib >=3.7.2
+Requires-Dist: numpy >=1.25.2
+Requires-Dist: openpyxl >=3.1.2
+Requires-Dist: packaging >=23.1
+Requires-Dist: pandas >=2.0.3
+Requires-Dist: Pillow >=10.0.0
+Requires-Dist: python-dateutil >=2.8.2
+Requires-Dist: pytz >=2023.3
+Requires-Dist: tzdata >=2023.3
+
