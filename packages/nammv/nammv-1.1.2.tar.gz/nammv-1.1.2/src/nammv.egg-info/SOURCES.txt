@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/connections/__init__.py
+src/connections/camera.py
+src/connections/logger.py
+src/connections/socket_utils.py
+src/connections/yolo_utils.py
+src/nammv.egg-info/PKG-INFO
+src/nammv.egg-info/SOURCES.txt
+src/nammv.egg-info/dependency_links.txt
+src/nammv.egg-info/requires.txt
+src/nammv.egg-info/top_level.txt
+tests/test_basler.py
+tests/test_socket.py
+tests/test_webcam.py

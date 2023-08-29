@@ -1,0 +1,6 @@
+pypylon
+ultralytics
+opencv-python
+numpy
+termcolor
+colorama
