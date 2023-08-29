@@ -1,0 +1,23 @@
+textual>=0.11.0
+
+[ci]
+tox
+
+[dev]
+bumpver
+pip-tools
+pipdeptree
+debugpy
+check-manifest
+check-wheel-contents
+tox
+
+[dev:python_version < "3.11"]
+tomli>=1.1.0
+
+[format]
+black
+isort
+
+[test]
+pytest
