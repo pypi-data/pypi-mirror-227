@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: numbars
+Version: 1.0.3
+Summary: A python library that allows you to add, subtract, multiply, divide, and randomize numbers.
+Home-page: 
+Author: zelofi
+License: MIT
+Keywords: calculator,numbers,add,subract,multiply,divide,randomize
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+numbars 
+(the very useless but also cool python library)
+
+This python library allows you to add, subtract, multiply, divide, and randomize numbers.
+- This is more so just a test to see how Python libraries work, and how to upload them.
+- If you want to use it feel free, but it's kinda useless. XD
+
+[For documentation, visit here.](https://github.com/zelofi/numbars/wiki)
+
+Change Log
+----------
+
+1.0.3 (8/28/2023)
+=================
+- Added documentation page to README
+- Changed "random_numbers()" to "randomize_numbers()"
+
+1.0.2 (8/26/2023)
+=================
+- Fixed up the CHANGELOG.txt file
+
+1.0.1 (8/26/2023)
+=================
+- Fixed up the README.txt file
+
+1.0.0 (8/26/2023)
+=================
+- Release of numbars

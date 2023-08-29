@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+numbars/__init__.py
+numbars.egg-info/PKG-INFO
+numbars.egg-info/SOURCES.txt
+numbars.egg-info/dependency_links.txt
+numbars.egg-info/top_level.txt

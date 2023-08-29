@@ -1,0 +1,19 @@
+Change Log
+----------
+
+1.0.3 (8/28/2023)
+=================
+- Added documentation page to README
+- Changed "random_numbers()" to "randomize_numbers()"
+
+1.0.2 (8/26/2023)
+=================
+- Fixed up the CHANGELOG.txt file
+
+1.0.1 (8/26/2023)
+=================
+- Fixed up the README.txt file
+
+1.0.0 (8/26/2023)
+=================
+- Release of numbars
