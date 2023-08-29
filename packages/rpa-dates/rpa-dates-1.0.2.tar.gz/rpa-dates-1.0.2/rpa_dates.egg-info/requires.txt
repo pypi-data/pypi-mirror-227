@@ -1,0 +1,9 @@
+requests>=2.27.0
+dateutils>=0.6.12
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+unitest
