@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: reaxpro-workflow-service
+Version: 1.0.0
+Summary: A package running semantically enriched workflows with SimPhoNy and Celery
+Author: Fraunhofer IWM
+Author-email: matthias.bueschelberger@iwm.fraunhofer.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: shieldapi >=1.0.0
+Requires-Dist: celery <6,>=5.2.3
+Requires-Dist: fastapi-plugins ~=0.11.0
+Requires-Dist: osp-core <4,>=3.8.0
+Requires-Dist: fastapi ==0.92.0
+Requires-Dist: python-multipart
+Requires-Dist: httpx >=0.23.3
+Requires-Dist: minio >=7.1.15
+Requires-Dist: uvicorn
+Requires-Dist: typing-extensions
+Requires-Dist: click
+Requires-Dist: boto3
+Requires-Dist: arcp
+Provides-Extra: dev
+Requires-Dist: bumpver ==2021.1114 ; extra == 'dev'
+Requires-Dist: dunamai ==1.7.0 ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ==3.5.3 ; extra == 'docs'
+Requires-Dist: myst-parser ==0.15.2 ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ==0.5.2 ; extra == 'docs'
+Requires-Dist: sphinxcontrib-plantuml ==0.20.1 ; extra == 'docs'
+Requires-Dist: nbsphinx ==0.8.2 ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ==0.3.1 ; extra == 'docs'
+Requires-Dist: ipython ==7.22.0 ; extra == 'docs'
+Requires-Dist: jupyter ==1.0.0 ; extra == 'docs'
+Requires-Dist: sphinx-autobuild ==2021.3.14 ; extra == 'docs'
+Requires-Dist: sphinx-panels ==0.5.2 ; extra == 'docs'
+Requires-Dist: jinja2 ==3.0.3 ; extra == 'docs'
+Requires-Dist: sphinx-markdown-tables ; extra == 'docs'
+Requires-Dist: sphinxcontrib-redoc ==1.6.0 ; extra == 'docs'
+Provides-Extra: pre_commit
+Requires-Dist: pre-commit ==2.15.0 ; extra == 'pre_commit'
+Requires-Dist: pylint ; extra == 'pre_commit'
+Provides-Extra: tests
+Requires-Dist: pytest ==6.2.5 ; extra == 'tests'
+Requires-Dist: pytest-celery ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+Provides-Extra: wrappers
+Requires-Dist: simphony-catalytic >=1.1.1 ; extra == 'wrappers'
+
+# ReaxPro Workflow Service
+
+A simple [FastAPI-framework](https://fastapi.tiangolo.com/) for running asynchronous tasks through [python-celery](https://pypi.org/project/celery/). This app is targeted to be a high-level API for the workflow-orchestration of the [ReaxPro-platform](https://www.reaxpro.eu/).
+
+## Authors
+
+[Matthias Büschelberger](mailto:matthias.bueschelberger@iwm.fraunhofer.de) (Fraunhofer Institute for Mechanics of Materials IWM)
+
+## Documentation
+
+Please refer to the [ReadTheDocs-pages](https://reaxpro.pages.fraunhofer.de/docs/) for the overall installation procedure, tutorials and use case documentation.
+
+## Python dependencies
+
+First of all, you will need to install OSP-core
+
+```shell
+(env) user@computer:~$ pip install osp-core
+```
+
+Then, install the wrapper. Simply type:
+
+```shell
+(env) user@computer:~$ pip install reaxpro-workflow-service
+```
+
+... or if you are installing from source (cloning of the repository needed before):
+
+
+```shell
+(env) user@computer:~/reaxpro-workflow-service$ pip install .
+```
+
+## License
+
+This project is licensed under the BSD 3-Clause. See the LICENSE file for more information.
+
+## Disclaimer
+
+Copyright (c) 2014-2023, Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V. acting on behalf of its Fraunhofer IWM.
+
+Contact: [SimPhoNy](mailto:simphony@iwm.fraunhofer.de)
