@@ -1,0 +1,2 @@
+[console_scripts]
+mov2mp4 = ez_video_convert.mov2mp4:convert_mov_to_mp4
