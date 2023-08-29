@@ -1,0 +1,10 @@
+jansbckernel/__init__.py,sha256=ir8lutAp7FWE_9uSwqwD3u0s3tzXamk9jyzsxGAZoao,142
+jansbckernel/__main__.py,sha256=2L95Kh3oxxHfwQyHrmGObXK7uKxpIJMk-NZ5-qj9SMw,201
+jansbckernel/install_kernelspec.py,sha256=RJ3C7rqtUl-EIrx9Waeq3Wl-VwUwCBK-TOH1XMxyk-A,5302
+jansbckernel/kernel.py,sha256=TwcV9hGFIo1_56pcUp5HWrDvEBdiAB9dJh0NX_RJKL0,1718
+jansbckernel-0.1.6.dist-info/LICENSE,sha256=TloRXvTqTVFM_h8RqCTIxWgpkMe---jdV1FtRygowKc,1072
+jansbckernel-0.1.6.dist-info/METADATA,sha256=qem3lhpV9PfMT_0wgcsT84OirkN74HaTOfR3DIEPdyw,1269
+jansbckernel-0.1.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jansbckernel-0.1.6.dist-info/entry_points.txt,sha256=8japqYHuTcpDGepX2GfIotfvY2WvKhyKLJs9kfJOg1E,84
+jansbckernel-0.1.6.dist-info/top_level.txt,sha256=pasJS4KrSwfMkNBc0ce_H4GeN8Yrca6psiZdehgKoHQ,13
+jansbckernel-0.1.6.dist-info/RECORD,,
