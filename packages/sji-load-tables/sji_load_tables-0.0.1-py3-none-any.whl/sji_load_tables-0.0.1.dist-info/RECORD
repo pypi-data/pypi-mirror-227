@@ -1,0 +1,10 @@
+sji_load_tables/__init__.py,sha256=kPj4xU0m7fbews-TB0fvq-CI5XJB9LGY6c3TOBelhz0,76
+sji_load_tables/interp.py,sha256=blGvCfKtpIM2YVUkyf60cX3X4ExSo0Rcmf_AlL2sqs0,754
+sji_load_tables/joists.py,sha256=wYnLxxoRFVjf16LVofSbGG6hDeVsh3rbXC8hmJ1lBKY,21882
+sji_load_tables/data/__init__.py,sha256=OdMXKUq1NpG-ANbDuXFjGslv6np61-3qAQrvmn2rtdQ,703
+sji_load_tables/data/joist_data.json,sha256=4OQwzk-AlSa8g0rH1vwQIVxZ5xrwSO7BjRNRkk6RVCo,127278
+sji_load_tables-0.0.1.dist-info/LICENSE,sha256=3m50L3vEd-0cQNeVBxftC2DLaaA8JQ8Gv5AZB0vubhI,1228
+sji_load_tables-0.0.1.dist-info/METADATA,sha256=PVCC7act4CNFIQgMYbouLujo3lOqi0x74sdGJDF2MV8,1478
+sji_load_tables-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sji_load_tables-0.0.1.dist-info/top_level.txt,sha256=JKKVQ_n8J-4VqKSFixHfIGebLItPNlUaQ6awN7S6oIM,16
+sji_load_tables-0.0.1.dist-info/RECORD,,
