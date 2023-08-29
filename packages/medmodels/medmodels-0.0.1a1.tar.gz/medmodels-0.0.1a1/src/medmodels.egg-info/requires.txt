@@ -1,0 +1,14 @@
+numpy>=1.24.2
+pandas>=1.5.1
+scikit-learn>=1.0.2
+networkx>=2.8.8
+matplotlib>=3.5.1
+
+[dev]
+ruff>=0.0.238
+black>=22.10.0
+matplotlib>=3.5.1
+
+[tests]
+pytest>=6.2.5
+pytest-mock>=3.10.0
