@@ -1,0 +1,13 @@
+arrangio/__init__.py,sha256=cmCQdBy_9aJBJHGpDuORo4ELRkh3JmRyr1VY6NSsvpw,1700
+arrangio/__init__.pyi,sha256=gIZ_wq5gkrv_9OuixQDRrJ14fOc7Hb2zHJfESfzk4w8,149
+arrangio/__main__.py,sha256=SxVe0NFnvTrcw7xSYfhotkV4gDrwYDISdULpOlSmgkc,1113
+arrangio/_parser_.py,sha256=aIHra3WUexucXx36B-a2CB1g1mEk-3LhXUMShGiLnxA,1917
+arrangio/_parser_.pyi,sha256=kCfkU1tTZfjbXYm3QiyHPz-zuIgnz5sAxbAbgRlJlLM,113
+arrangio/_utils_.py,sha256=gLubpHxXaZmQLd7KHyo11HaaARyqwgM9EoAdNApoNRE,6002
+arrangio/_utils_.pyi,sha256=nVcz2EiXZiWOxHL03M0dxRqkBf4uGYN61Vqn67LW4xM,239
+arrangio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arrangio-0.4.0.dist-info/METADATA,sha256=oT9dNEVJyscNW-y9mvOAAxMid61dHZnUFTY0rYrr-1U,4535
+arrangio-0.4.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+arrangio-0.4.0.dist-info/entry_points.txt,sha256=8x9BctvIWICZB9s3qb6mYyIqHhi7R1AD-VXLMM2KiB8,52
+arrangio-0.4.0.dist-info/licenses/LICENSE,sha256=35jkwKuDioXjhduSFiW46784k49t2tT174MnuFqWac8,1089
+arrangio-0.4.0.dist-info/RECORD,,
