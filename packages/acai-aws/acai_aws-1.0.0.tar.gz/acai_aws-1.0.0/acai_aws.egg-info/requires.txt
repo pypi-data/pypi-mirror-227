@@ -1,0 +1,5 @@
+dynamodb_json
+jsonpickle
+jsonref
+pyyaml
+xmltodict
