@@ -1,0 +1,8 @@
+CHANGELOG.md,sha256=oTomMFrTVkqoJly9J2c3KfcQtiImlQ_MR52Uuyv1XNQ,170
+neptune_airflow/__init__.py,sha256=1pQR7k63lmxa1wWXF0QZZp154cevJs8UKQbkBPjHHfk,726
+neptune_airflow/impl/__init__.py,sha256=HXDTbu7900F288AtQYFt5TyScLe_FUZZd56-ZBBWDX8,8633
+neptune_airflow/impl/version.py,sha256=x30CkP7JIUDZuF9BaEIIVzqy9ZJB58j8OVV8BSqSXJg,1005
+neptune_airflow-1.0.0.dist-info/LICENSE,sha256=eflwnyAc4dmNFtHIFCk_Y3QtgOGz9x_fey1CuqALPw8,11354
+neptune_airflow-1.0.0.dist-info/METADATA,sha256=RUyip-3HY3Tj8cSJC6kgzgIU0eWPqLZ_CrWjHzLavEY,2008
+neptune_airflow-1.0.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+neptune_airflow-1.0.0.dist-info/RECORD,,
