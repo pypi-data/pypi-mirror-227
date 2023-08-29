@@ -1,0 +1,230 @@
+Metadata-Version: 2.1
+Name: vault-fix
+Version: 1.3.2
+Summary: Tool for importing and exporting vault fixture files
+Project-URL: Homepage, https://github.com/SnijderC/vault-fixtures
+Author-email: Chris Snijder <github@chrissnijder.nl>
+License: Copyright 2023 Chris Snijder
+        
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        
+            http://www.apache.org/licenses/LICENSE-2.0
+        
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+License-File: LICENSE.txt
+Keywords: fixture,hasicorp,migration,testing,vault
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Requires-Dist: cryptography~=41.0.0
+Requires-Dist: hvac~=1.1.0
+Requires-Dist: pyyaml~=6.0
+Requires-Dist: rich~=13.5.2
+Requires-Dist: typer[all]~=0.9.0
+Provides-Extra: dev
+Requires-Dist: black>=23.3.0; extra == 'dev'
+Requires-Dist: coverage>=7.2.7; extra == 'dev'
+Requires-Dist: hatch>=1.7.0; extra == 'dev'
+Requires-Dist: pip-tools>=7.1.0; extra == 'dev'
+Requires-Dist: pytest-asyncio>=0.21.0; extra == 'dev'
+Requires-Dist: pytest-cov>=4.0.0; extra == 'dev'
+Requires-Dist: pytest-random-order>=1.1.0; extra == 'dev'
+Requires-Dist: pytest>=7.3.2; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Installation
+
+```bash
+pip install vault-fix
+```
+
+# Usage
+
+Finding out how this works:
+
+```bash
+vault-fix --help
+
+ Usage: vault-fix [OPTIONS] COMMAND [ARGS]...
+
+ Load or dump data?
+
+╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ --install-completion          Install completion for the current shell.                                         │
+│ --show-completion             Show completion for the current shell, to copy it or customize the installation.  │
+│ --help                        Show this message and exit.                                                       │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ dump         Load up, and dump secrets to and from Vault.                                                       │
+│ load         Load up, and dump secrets to and from Vault.                                                       │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+Specific to dumping fixtures:
+
+```bash
+vault-fix dump --help
+
+ Usage: vault-fix dump [OPTIONS] MOUNT PATH
+
+ Load up, and dump secrets to and from Vault.
+
+╭─ Arguments ─────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ *    mount      TEXT  Vault mount [default: None] [required]                                                    │
+│ *    path       TEXT  Vault path within the mount [default: None] [required]                                    │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ *  --token       -t                 TEXT         Vault access token. [default: None] [required]                 │
+│    --host        -H                 TEXT         Vault hostname [default: localhost]                            │
+│    --port        -P                 INTEGER      Vault network port. [default: 8200]                            │
+│    --tls             --no-tls                    Enable or disable TLS [default: tls]                           │
+│    --verbose     -v                 INTEGER      Specify verbosity level by passing more 1 or more -v -vv       │
+│                                                  -vvv's                                                         │
+│                                                  [default: 0]                                                   │
+│    --file        -f                 TEXT         Output file, stdout if not specified [default: -]              │
+│    --password    -p                 TEXT         Password to encrypt the dumped fixture, or none for plain text │
+│                                                  output.                                                        │
+│    --pretty          --no-pretty                 Pretty print the output (if JSON formatted [default: pretty]   │
+│    --serializer                     [json|yaml]  Which serializer do you prefer? [default=yaml] [default: yaml] │
+│    --help                                        Show this message and exit.                                    │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+Specific to loading fixtures:
+
+```bash
+vault-fix load --help
+
+ Usage: vault-fix load [OPTIONS] MOUNT PATH
+
+ Load up, and dump secrets to and from Vault.
+
+╭─ Arguments ─────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ *    mount      TEXT  Vault mount [default: None] [required]                                                    │
+│ *    path       TEXT  Vault path within the mount [default: None] [required]                                    │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ *  --token         -t              TEXT              Vault access token. [default: None] [required]             │
+│    --host          -H              TEXT              Vault hostname [default: localhost]                        │
+│    --port          -P              INTEGER           Vault network port. [default: 8200]                        │
+│    --tls               --no-tls                      Enable or disable TLS [default: tls]                       │
+│    --verbose       -v              INTEGER           Specify verbosity level by passing more 1 or more -v -vv   │
+│                                                      -vvv's                                                     │
+│                                                      [default: 0]                                               │
+│    --file          -f              TEXT              Input file, assumes stdin if not specified [default: -]    │
+│    --password      -p              TEXT              Password to decrypt the dumped fixture, or none for plain  │
+│                                                      text input.                                                │
+│    --deserializer                  [json|yaml|auto]  Which deserializer does the fixture file require?          │
+│                                                      [default: auto]                                            │
+│    --help                                            Show this message and exit.                                │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+```
+
+## Examples
+
+### Simple dump
+
+Dump secrets from a locally running vault instance:
+
+```bash
+vault-fix dump secret / --no-tls
+```
+
+### Directing output
+
+Output will be printed to stdout, you can specify `-f FILE` or direct output to a file, like:
+
+```bash
+vault-fix dump secret / --no-tls > my-fixture.yaml
+```
+
+### Encrypting output
+
+If you want your secrets encrypted, pass `-p` to get a password prompt, or pass the password on the command line (not safe).
+
+```bash
+vault-fix dump secret / --no-tls -p
+```
+
+Only secrets will be encrypted, the paths will be in plain text.
+
+### JSON instead of YAML
+
+If you want your secrets dumped in JSON format instead of the default YAML format, pass `--serializer json`
+
+```bash
+vault-fix dump secret / --no-tls --serializer json
+```
+
+### Simple load
+
+Load secrets from a file to a locally running vault instance:
+
+```bash
+vault-fix load secret / --no-tls -f my-fixture.json
+```
+
+If the fixture is encrypted, you need to pass the `-p` parameter, or you will get a runtime error.
+
+### Directing data to the load command
+
+Load secrets from a file to a locally running vault instance:
+
+```bash
+cat my-fixture.json | vault-fix load secret / --no-tls --deserializer json
+```
+
+Which brings us to this command, that allow you to migrate secrets between vault instances:
+
+```bash
+vault-fix dump secret / -H vault.dev.yourdomain.com | vault-fix load secret / --no-tls
+```
+
+### Other good to knows
+
+- The path parameter specifies the path in the vault server you want to dump.
+  Or the path you would like to load to a server from the fixture file. Meaning you can select a subset of secrets to
+  dump or load from servers or fixtures respectively.
+- vault-fix does not dump or import metadata, including previous versions of secrets.
+
+# Hacking on this utility
+
+Checkout the project, make a virtual env with hatch and install dependencies.
+
+```bash
+git checkout git@github.com:SnijderC/vault-fix.git
+cd vault-fix
+pre-commit install
+pip install hatch
+hatch shell
+```
+
+## Running tests
+
+If you're in a hatch shell, exit it first, then:
+
+```bash
+hatch run test:pytest
+```
+
+This will test vault-fix against Python 3.9 - 3.11. If you don't have all of those, they will be skipped. You can
+install them with [pyenv](https://github.com/pyenv/pyenv#installation):
+
+```bash
+pyenv install 3.9 3.10 3.11
+```
