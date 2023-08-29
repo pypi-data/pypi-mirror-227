@@ -1,0 +1,16 @@
+chinois-0.2.2.dist-info/METADATA,sha256=0VB8F-AX43y7QWofEY-hIyV4HLSI-i1hUgYa_S3zgOM,2532
+chinois-0.2.2.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+chinois-0.2.2.dist-info/licenses/LICENSE,sha256=G3lig0yYU_DFJj7coAP8MNr-6A-MyNHzke0czVRCsJM,1069
+chinois/.pytest_cache/.gitignore,sha256=Ptcxtl0GFQwTji2tsL4Gl1UIiKa0frjEXsya26i46b0,37
+chinois/.pytest_cache/CACHEDIR.TAG,sha256=N9yI75oKvt2-gQU6bdj9-xOvthMEXqHrSlyBWnSjveQ,191
+chinois/.pytest_cache/README.md,sha256=c_1vzN2ALEGaay2YPWwxc7fal1WKxLWJ7ewt_kQ9ua0,302
+chinois/.pytest_cache/v/cache/nodeids,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+chinois/.pytest_cache/v/cache/stepwise,sha256=T1PNoYwrqgwDVLtfmj7L5e0Sq02OEbqHPC8RFhICuUU,2
+chinois/__init__.py,sha256=TPxi0jNWCUVUTuj2qegig82ds7wTBOhqHM7gw1tbHyo,4123
+chinois/css_match.py,sha256=goRQqPx_WxRYJ7-eVXr5GALaBj64nHH1xYEnbvt-Lvk,64807
+chinois/css_parser.py,sha256=A_AOK-lDoUQpagMfFswNERI2O7pP786UygrdrLXpI_Q,49343
+chinois/css_types.py,sha256=lFPcDVILnbgLIwSgr4ChMbFQRwCvfnVAVp22w5JGrmg,10794
+chinois/pretty.py,sha256=x-OKZsx2TyW-4FUgP9_WlYxdvOmD8hrsGUaRra8OlmQ,4045
+chinois/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chinois/util.py,sha256=Xm-rzlp08-AjmF50owVXXPywddxZzCK7mKM5hqnod9k,3378
+chinois-0.2.2.dist-info/RECORD,,
