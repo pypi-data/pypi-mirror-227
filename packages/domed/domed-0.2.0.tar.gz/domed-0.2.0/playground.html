@@ -1,0 +1,46 @@
+<!-- 
+This is a playground for experimenting with the domed library for DOM editing in Python.
+-->
+
+<html>
+    <head>
+        <title>domed playground</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Pyscript setup -->
+        <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+        <!-- Hide pyscript tags -->
+        <style>
+            py-script, py-config { display: none; }    
+        </style>
+    </head>
+
+    <body>
+        <py-config>
+            packages = ["domed"]
+        </py-config>
+        <py-script>
+            from domed.core import *
+            from domed.html import *
+            from domed.svg import *
+        </py-script>
+        <div style = "padding-bottom: 2em;">
+            <h1>domed playground</h3>
+            Here, you can experiment with different domed expressions, and see the effects directly.
+            All of the domed sublibraries have been preloaded.
+            Here is an example to get you started:
+            <pre>
+                with document.query("#content").clear():
+                    h1("Hello, world!", style = "color: red;")
+            </pre>
+            Type in expressions below. To evaluate, use shift + return or press the green arrow button.
+        </div>
+        <div style = "padding-bottom: 2em;">
+            <py-repl>
+            </py-repl>
+        </div>
+        <div id = "content">
+            Change me by typing in commands above.
+        </div>
+    </body>
+</html>
