@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cracktype
+Version: 0.2.0
+Summary: Cracks files
+Author: CaiqueONzx
+Author-email: caiqueonz777@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+"""
+hello moto
+use ( .crack ) to start
+"""
+
+"""
+cracktype.crack()
+""
