@@ -1,0 +1,8 @@
+LICENSE
+README.md
+rumblelib.py
+setup.py
+rumblelib_test.egg-info/PKG-INFO
+rumblelib_test.egg-info/SOURCES.txt
+rumblelib_test.egg-info/dependency_links.txt
+rumblelib_test.egg-info/top_level.txt
