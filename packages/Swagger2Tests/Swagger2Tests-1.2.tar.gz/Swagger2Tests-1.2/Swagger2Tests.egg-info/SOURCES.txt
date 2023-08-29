@@ -1,0 +1,15 @@
+setup.py
+Swagger2Tests.egg-info/PKG-INFO
+Swagger2Tests.egg-info/SOURCES.txt
+Swagger2Tests.egg-info/dependency_links.txt
+Swagger2Tests.egg-info/entry_points.txt
+Swagger2Tests.egg-info/requires.txt
+Swagger2Tests.egg-info/top_level.txt
+apps/__init__.py
+apps/constants/__init__.py
+apps/constants/base_constants.py
+apps/helpers/__init__.py
+apps/helpers/helper.py
+apps/templates/pytestcase.tpl
+tests/__init__.py
+tests/test_run.py
