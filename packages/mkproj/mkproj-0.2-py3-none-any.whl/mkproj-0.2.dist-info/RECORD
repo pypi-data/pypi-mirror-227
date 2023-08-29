@@ -1,0 +1,18 @@
+mkproj/__init__.py,sha256=RZ9DBqTkGPnAS2ug6q8cHBdbdgWYKFi6bZhtR6wHiGg,2947
+mkproj/templates/bash/{{ project_name }}.sh,sha256=9jqIBIGfS-_A1CWcmCTfBJo3cTmvjjMrsy5jwciD6jw,134
+mkproj/templates/cpp/{{ project_name }}/.gitignore,sha256=auOqfWFhSL3w8mhUvgVn8w-m-_0l9jF3iOaNz4lcnT8,12
+mkproj/templates/cpp/{{ project_name }}/Makefile,sha256=GSK-w3OVZtSuoO9RHMPpeK5IBB5VwwCHe6sJ5p1TLBU,1303
+mkproj/templates/cpp/{{ project_name }}/Readme.md,sha256=xFT8xPIkMuFPWcYg0KCRkHUH8Jidl_Sr05UzfxANa4w,73
+mkproj/templates/cpp/{{ project_name }}/include/{{ project_name }}.h,sha256=ofj8Xu6mmRdRDHdNrLd2N8amw3t2uQkNtL1D-WzaEyE,128
+mkproj/templates/cpp/{{ project_name }}/src/main.cpp,sha256=558fzgDJgAI7bjIvRJhis-pMN9jwH1JGZDFZyCoTEZA,145
+mkproj/templates/python/{{ project_name }}/MANIFEST.in,sha256=kGEvKw21hcbfmqPR7I3K3EnKiZ-qaN8OvyRmtWd509w,44
+mkproj/templates/python/{{ project_name }}/README.md,sha256=Iq24rcj7K4vY_p3z6Hd7gUVkCcqqRjVYsvK3nuVC5oo,20
+mkproj/templates/python/{{ project_name }}/setup.py,sha256=UoGyF1OEUcz1iMtoz-4cznsMpi1zw2pdFDWPm0x6i5A,513
+mkproj/templates/python/{{ project_name }}/{{ project_name }}/__init__.py,sha256=0MkML6DNOs-Z5N24_ErWlpEJBSpQbueYJjG2k0irv6M,93
+mkproj/templates/python/{{ project_name }}/{{ project_name }}/data/{{ project_name}}.txt,sha256=bu30N9UccASw3SWfhe-XI98oJmMDeriHWxU3CBGRSlc,31
+mkproj-0.2.dist-info/LICENSE,sha256=gqlelLWXITi_vKHnoH0pH0ZBwX0ROC0A0pPaetCutgg,1061
+mkproj-0.2.dist-info/METADATA,sha256=olmH8qE5yqFUOpnRrsfTMyLVw6ED5nBLpdR-BieC3Zo,399
+mkproj-0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mkproj-0.2.dist-info/entry_points.txt,sha256=1KmvD13A09Gu_dZLpAxnFkl92TTT-inj0AdXjU9cais,39
+mkproj-0.2.dist-info/top_level.txt,sha256=WvqZw1-TN00R11RKH7bUlNlLTBFI-yIB55nOa6gv-lk,7
+mkproj-0.2.dist-info/RECORD,,
