@@ -1,0 +1,12 @@
+*.c
+*.cpp
+*.so
+__pycache__
+pytest_cache
+ruff_cache
+.DS_Store
+dist/
+.coverage*
+.coverage
+src/fastomit/*.html
+output.json
