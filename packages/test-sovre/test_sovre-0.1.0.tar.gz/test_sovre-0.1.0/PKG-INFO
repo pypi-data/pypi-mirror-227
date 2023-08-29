@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: test_sovre
+Version: 0.1.0
+Summary: Test package
+Home-page: https://gitlab.com/udemy6864628/cicd/pypiexemple
+Author: Sovre
+Author-email: test@gmail.com
+License: MIT
+Download-URL: https://gitlab.com/udemy6864628/cicd/pypiexemple/-/archive/0.1.0/pypiexemple-0.1.0.tar.gz
+Keywords: test,package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
