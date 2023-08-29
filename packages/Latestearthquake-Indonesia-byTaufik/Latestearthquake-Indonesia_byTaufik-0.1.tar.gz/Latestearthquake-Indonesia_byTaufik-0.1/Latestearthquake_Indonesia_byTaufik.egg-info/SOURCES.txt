@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Latestearthquake_Indonesia_byTaufik.egg-info/PKG-INFO
+Latestearthquake_Indonesia_byTaufik.egg-info/SOURCES.txt
+Latestearthquake_Indonesia_byTaufik.egg-info/dependency_links.txt
+Latestearthquake_Indonesia_byTaufik.egg-info/top_level.txt
+gempaterkini/__init__.py
