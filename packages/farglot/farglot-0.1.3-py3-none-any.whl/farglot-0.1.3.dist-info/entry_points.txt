@@ -1,0 +1,3 @@
+[console_scripts]
+farglot=farglot.cli:app
+
