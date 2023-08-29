@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: manuelharofulgencio
+Version: 1.0.1
+Summary: description
+Author: manuel
+Author-email: manuel.haro@amplia.es
+License: Apache License 2.0
+Requires-Dist: pandas
+Requires-Dist: requests
+
