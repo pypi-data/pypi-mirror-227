@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: calendariofinanceiro
+Version: 0.1.2
+Summary: 
+Author: eduardo.barreto
+Author-email: edugobarreto@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: workdays (>=1.4,<2.0)
+Description-Content-Type: text/markdown
+
+# CalendarioFinanceiro
+Pacote para manipulação de datas do mercado financeiro.
+
