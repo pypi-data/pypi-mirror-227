@@ -1,0 +1,14 @@
+waypaper/__main__.py,sha256=vwzsCQc-SqoFUI6laoA4-tVr4atCzWnjxDax2zjlnhY,648
+waypaper/app.py,sha256=CxxU81i5-kfsSyCw1FLturbu_7kBzaKghQWDZAG69j8,17057
+waypaper/arguments.py,sha256=YjlC0ySBsbMxH_KSeBh_9iLZ7ovf7z6lnp8X6AEaUhc,611
+waypaper/changer.py,sha256=Q7Xkuwe8ch2rkCsjygZQIE9im_3Xgn7B5scKCMPbl8k,2297
+waypaper/config.py,sha256=oFQbTkJgUk1mv1x30cAt_m5frgPVcKxCIhhnrwrEQpw,3916
+waypaper/displays.py,sha256=5PWMxsKkCtWF77O8rLTrfCqzTkhfOJyeo-hh4N6diGE,1166
+waypaper/options.py,sha256=_smmHWOwFlXcZRQJSmuu4N0czgatSFQm2XmG_Ih4EA0,371
+waypaper/translation_en.py,sha256=qVb9lxv8FgzHiFq0bMlpO_RX_0B7dm8gr9AEm5nn-wg,1407
+waypaper-1.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+waypaper-1.8.dist-info/METADATA,sha256=eU22fD_EUFjGXBYl7mERUhZHpQKARO1x-WA4BkR3nkQ,4841
+waypaper-1.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+waypaper-1.8.dist-info/entry_points.txt,sha256=sqAg5AId7R2n5reFxbOxQOgU1GtUvG6EgQGRxzuMQms,51
+waypaper-1.8.dist-info/top_level.txt,sha256=TbFBwf6qNuG_ARQgWTUBlvy6QAYc6E1ZayOXhSf2O90,9
+waypaper-1.8.dist-info/RECORD,,
