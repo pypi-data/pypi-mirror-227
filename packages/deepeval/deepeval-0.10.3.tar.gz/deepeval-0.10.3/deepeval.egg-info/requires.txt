@@ -1,0 +1,16 @@
+requests
+tqdm
+transformers
+pytest
+tabulate
+sentence-transformers
+pytest
+typer
+rich
+
+[bias]
+tensorflow
+Dbias
+
+[toxic]
+detoxify
