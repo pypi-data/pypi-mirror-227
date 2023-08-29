@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/eia_v2/__init__.py
+src/eia_v2/client.py
+src/eia_v2.egg-info/PKG-INFO
+src/eia_v2.egg-info/SOURCES.txt
+src/eia_v2.egg-info/dependency_links.txt
+src/eia_v2.egg-info/top_level.txt
