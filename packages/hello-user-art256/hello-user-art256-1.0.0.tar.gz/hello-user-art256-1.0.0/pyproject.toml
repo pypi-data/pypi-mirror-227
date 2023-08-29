@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hello-user-art256"
+version = "1.0.0"
+authors = [
+    { name="Arthur Benjamin Angeles", email="abyangeles28@gmail.com" },
+]
+description = "Ask a user's name, then greet them"
+readme = "README.md"
+requires-python = ">=3.7"
+
+[project.scripts]
+hello-world = "src.hello_world.hello_world:main"
