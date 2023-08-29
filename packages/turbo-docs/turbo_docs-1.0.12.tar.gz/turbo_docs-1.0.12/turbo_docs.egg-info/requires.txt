@@ -1,0 +1,7 @@
+openai
+click
+pyperclip
+toml
+pathspec
+llm-blocks==0.3.5
+tiktoken
