@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Rationale
+Version: 0.0.1
+Summary: Este módulo permite trabalhar com frações.
+Author-email: perdigaoperdeuapena <j_fradique@yahoo.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Rationale - Módulo de frações
+
+Este módulo permite trabalhar com frações, apresentando-as como um rácio, o resultado de uma divisão (de numerador por denomindaor) e de uma percentagem (multiplicando o resultado por 100).
