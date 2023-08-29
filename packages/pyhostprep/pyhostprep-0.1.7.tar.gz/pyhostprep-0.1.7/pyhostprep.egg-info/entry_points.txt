@@ -1,0 +1,3 @@
+[console_scripts]
+bundlemgr = pyhostprep.bundlemgr:main
+swmgr = pyhostprep.swmgr:main
