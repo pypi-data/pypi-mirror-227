@@ -1,0 +1,11 @@
+clongen-2023.1001.dist-info/METADATA,sha256=t6BkbJKgXKROQ-WmXaPyC_oGrdtJMFjlD20Jnco6IQo,1773
+clongen-2023.1001.dist-info/WHEEL,sha256=bbAwydobi_oZ_0rI4gBBovxINCqHVHcC26TV6S2A2Io,90
+clongen-2023.1001.dist-info/entry_points.txt,sha256=_ZqTKItM4KKDsuK9YBy1Q1vlVICh_brxFUj5Bq2RVwE,45
+clongen-2023.1001.dist-info/licenses/LICENSE,sha256=U21BEJL6fBFxfB3N_9FcLpJf1t9XENxFxTldchkEALg,1065
+clongen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clongen/_version.py,sha256=iSaU80HxU4A3Na2YFViHbSpM1D2oyvHAKgi-f9G1hbE,25
+clongen/cli.py,sha256=BNThlyudGKWNXkOlskSDYAcf8UMSb0tt6wykpBqf_uo,766
+clongen/core.py,sha256=3dNvAzvNm1SINk9r6LeG9FGXiikXKZzDwaKjPuGSTOk,2134
+clongen/sequences.py,sha256=Ihlv-8aceTaK41fxp8F7rVg6dvScUFjzNG1LvjhAfJM,1216
+clongen/term.py,sha256=9PBAZycUKMh2xW4WaJ4Q4N4NznC4Inp07wVkUpzLj0I,535
+clongen-2023.1001.dist-info/RECORD,,
