@@ -1,0 +1,4 @@
+include LICENSE
+recursive-include python *.pyi *.py *.cpp
+recursive-include src *.h *.hpp *.cpp
+recursive-include include *.h *.hpp
