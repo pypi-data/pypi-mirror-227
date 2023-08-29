@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+cli/cyberwatch-cli
+cli/bin/__init__.py
+cli/bin/os.py
+cli/bin/airgap/__init__.py
+cli/bin/airgap/download_compliance_scripts.py
+cli/bin/airgap/download_scripts.py
+cli/bin/airgap/upload_compliance_scripts.py
+cli/bin/airgap/upload_scripts.py
+cli/cyberwatch_api.egg-info/PKG-INFO
+cli/cyberwatch_api.egg-info/SOURCES.txt
+cli/cyberwatch_api.egg-info/dependency_links.txt
+cli/cyberwatch_api.egg-info/requires.txt
+cli/cyberwatch_api.egg-info/top_level.txt
