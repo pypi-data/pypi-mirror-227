@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: cog_hf_template
+Version: 0.0.1
+Summary: Cog template for Hugging Face.
+Author: Nathan Raw
+Author-email: naterawdata@gmail.com
+License: Apache
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cog-huggingface-template
+
+Tools to help deploy Hugging Face models to replicate. For now, just text generation models.
+
+
+## Requirements
+
+- GPU environment
+- [Cog](https://cog.run)
+
+## Setup
+
+Clone the repo:
+
+```
+git clone https://github.com/replicate/cog-huggingface-template
+cd cog-huggingface-template
+```
+
+Local install:
+
+```
+pip install -e .
+```
+
+## Usage
+
+For now, see [predict.py](predict.py) for a working example.
+
+#### Optional - Use GCP for Weights
+
+0. install pget
+
+```
+sudo curl -o /usr/local/bin/pget -L "https://github.com/replicate/pget/releases/download/v0.0.2/pget" && sudo chmod +x /usr/local/bin/pget
+```
+
+1. Run predict.py to download local weights cache
+
+```
+python predict.py
+```
+
+Inside it should be something like:
+
+```python
+from cog_hf_template import get_predictor
+
+Predictor = get_predictor(
+    task="image-classification",
+    model_name_or_path="nateraw/rare-puppers",
+    cache_dir="./weights-cache",
+)
+
+if __name__ == "__main__":
+    predictor = Predictor()
+    predictor.setup()
+```
+
+`.setup()` will download the weights from huggingface to `./weights-cache`.
+
+
+2. Tar up weights cache
+
+Now that you have the weights locally, you need to tar them up before pushing to GCP. Note that you have to tar from the weights-cache directory itself to avoid the weights-cache directory being included in the tar.
+
+```
+cd weights-cache
+tar cvf weights-cache.tar *
+```
+
+3. Push to GCP bucket
+
+Take the weights-cache.tar you just created and push to GCP bucket.
+
+```
+gsutil cp weights-cache.tar gs://your-bucket/nateraw/rare-puppers/
+```
+
+4. Specify bucket in predictor to download/extract to cache with [pget](https://github.com/replicate/pget)
+
+Before `cog push`-ing, make sure you have removed the weights-cache directory from your local or have ignored it in `.cogignore` so the weights-cache dir doesn't get included in the cog build.
+
+```python
+# Under the hood it runs this to download and extract weights cache in same structure as you had it locally
+# pget -x https://storage.googleapis.com/your-bucket/nateraw/rare-puppers/weights-cache.tar ./weights-cache
+from cog_hf_template import get_predictor
+
+
+Predictor = get_predictor(
+    task="image-classification",
+    model_name_or_path="nateraw/rare-puppers",
+    cache_dir="./weights-cache",
+    gcp_bucket_weights="gs://your-bucket/nateraw/rare-puppers/weights-cache.tar",
+)
+```
+
+## Notes
+
+Optionally, if you run in interactive mode, you can play with the resulting predictor. In this example we are using a text-generation model...
+
+```python
+generator = predictor.predict("Write me a recipe for chocolate chip cookies", 1024, 1.0, 1.0, 50)
+for out in generator:
+    print(out, end='')
+```
