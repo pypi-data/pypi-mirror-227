@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: postgresqlfacil
+Version: 0.1.4
+Summary: 
+License: MIT
+Author: eduardo.barreto
+Author-email: edugobarreto@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: psycopg2 (>=2.9.7,<3.0.0)
+Description-Content-Type: text/markdown
+
+# PostgreSQLFacil
+Pacote com métodos simples para se conectar ao PostgreSQL usando psycopg2.
+

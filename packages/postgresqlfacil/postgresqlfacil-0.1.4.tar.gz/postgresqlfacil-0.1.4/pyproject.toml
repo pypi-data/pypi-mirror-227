@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "postgresqlfacil"
+version = "0.1.4"
+description = ""
+authors = ["eduardo.barreto <edugobarreto@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.3"
+psycopg2 = "^2.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
