@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: apiperu
+Version: 0.0.2
+Summary: API de los 24 departamentos del Perú
+Home-page: https://github.com/brianinhu/apiperu
+Download-URL: https://github.com/brianinhu/apiperu/releases/tag/0.0.2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Api de los 24 departamentos del Perú
+
+Paquete básico de los 24 departamentos del Perú
