@@ -1,0 +1,3 @@
+[console_scripts]
+funckle=funckle.cli:app
+
