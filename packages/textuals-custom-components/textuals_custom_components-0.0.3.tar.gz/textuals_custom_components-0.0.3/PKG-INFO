@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: textuals_custom_components
+Version: 0.0.3
+Summary: Read the latest Real Python tutorials
+Author: ThoStart
+Author-email: Thomas <1234@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+Some really very nice components for textualspackage
