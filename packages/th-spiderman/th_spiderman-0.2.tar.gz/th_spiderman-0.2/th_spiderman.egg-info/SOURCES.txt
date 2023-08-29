@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+th_spiderman/_init_.py
+th_spiderman/tom_holland.py
+th_spiderman.egg-info/PKG-INFO
+th_spiderman.egg-info/SOURCES.txt
+th_spiderman.egg-info/dependency_links.txt
+th_spiderman.egg-info/not-zip-safe
+th_spiderman.egg-info/top_level.txt
