@@ -1,0 +1,13 @@
+content_safety_text.tools.content_safety_text_tool.analyze_text:
+  function: analyze_text
+  inputs:
+    connection:
+      type:
+      - CustomConnection
+    input_text:
+      type:
+      - string
+  module: content_safety_text.tools.content_safety_text_tool
+  name: ContentSafety Text Analyze Tool
+  description: This is ContentSafety Text Analyze tool
+  type: python
