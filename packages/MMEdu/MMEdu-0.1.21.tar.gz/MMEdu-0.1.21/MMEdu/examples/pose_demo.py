@@ -1,0 +1,42 @@
+from MMEdu import MMPose as pose
+import shutil
+import requests
+def only_infer_demo():
+    # 人体关键点
+    img = 'pose2.jpg' # 指定进行推理的图片路径
+    model = pose(backbone='SCNet') # 实例化mmpose模型
+    result = model.inference(img=img,device='cpu',show=True) # 在CPU上进行推理
+    print(result)
+
+def only_infer_demo1():
+    # 三角板
+    img = 'pose2.jpg' # 指定进行推理的图片路径
+    model = pose() # 实例化mmpose模型
+    result = model.inference(image=img,device='cpu',show=True,checkpoint="rtmpose-m-80e511.onnx") # 在CPU上进行推理
+    # rtmpose-m-80e511.onnx
+
+def video_infer_demo():
+    import cv2
+    cap = cv2.VideoCapture(0)
+    model = pose()
+    if not cap.isOpened():
+        print("Error opening video file")
+    
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
+        keypoints = model.inference(image=frame,device='cpu',show=False,checkpoint="rtmpose-m-80e511.onnx") # 在CPU上进行推理
+        for j in range(keypoints.shape[0]):
+            for i in range(keypoints.shape[1]):
+                cv2.circle(frame, (int(keypoints[j][i][0]),int(keypoints[j][i][1])),5,(0,255,0),-1)
+        cv2.imshow('video', frame)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break    
+    cap.release()
+    cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    # only_infer_demo1()
+    video_infer_demo()
+    # download("https://download.openmmlab.com/mmpose/top_down/scnet/scnet50_coco_256x192-6920f829_20200709.pth")
