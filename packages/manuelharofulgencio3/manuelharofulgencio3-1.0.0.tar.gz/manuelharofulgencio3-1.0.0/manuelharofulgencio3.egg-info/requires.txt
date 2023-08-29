@@ -1,0 +1,7 @@
+pandas
+requests
+jsonpath_ng
+numpy
+urllib3
+configparser
+parse
