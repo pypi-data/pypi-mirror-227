@@ -1,0 +1,16 @@
+LICENSE,sha256=z0t5s3TaohuYtXJPY98uagwfZ4jpahjU9CtP11orWck,1076
+mpipartition/__init__.py,sha256=tK7ei7oK4ObvJ3y3Ur3KHZevMyA-iy9MBcCuOTKwE2E,488
+mpipartition/distribute.py,sha256=8bUI9NZcFfoQ5ZoFuPLkRXMdXx2JnO107-S-qZXcTUw,4923
+mpipartition/exchange.py,sha256=8z31dLkw-HrTjoqgjBnd9WvPUYy4UTOGSg9EZT1-lVg,11711
+mpipartition/overload.py,sha256=hFU0bDqajKgn9KIE6HYY8zgznTEJQOnW4gTT8jlRPQw,5572
+mpipartition/partition.py,sha256=jwL3fLjvSYueEkREF4uym3D3EtlWv6hPp3epIijDj2Q,7398
+mpipartition/scripts/s2_prediction.py,sha256=LHkDnNtDl_0K4RCVMcg59TleGC_aOCicpsvCOPBSzU0,2316
+mpipartition/spherical_partition/__init__.py,sha256=zwjWPVLBHvsxxYzbnpPMNlaJS47AsV02eROeYlreR4E,175
+mpipartition/spherical_partition/s2_distribute.py,sha256=qYl886qXjgGUAZCQICj8js2weN97GM9-i4gVNNEiaVw,5936
+mpipartition/spherical_partition/s2_overload.py,sha256=W0ZgOXrv0EVS23do4cwbaxE7E0yJ_7GXgSFiA0Kn1Xs,7543
+mpipartition/spherical_partition/s2_partition.py,sha256=9YOU7M9BHvagUrmrfeTY4j0qCo1hdnIggKDhkiGH8uI,10542
+mpipartition-1.1.1.dist-info/LICENSE,sha256=z0t5s3TaohuYtXJPY98uagwfZ4jpahjU9CtP11orWck,1076
+mpipartition-1.1.1.dist-info/METADATA,sha256=9QybqmwJ-MB8t45V5malFq19CABAAXEKyXUw6j_Y0rI,5248
+mpipartition-1.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+mpipartition-1.1.1.dist-info/entry_points.txt,sha256=8TJ7G4A7dLReAp2PnIpZQANjzGAzQj1rH_0SWQiNzAw,74
+mpipartition-1.1.1.dist-info/RECORD,,
