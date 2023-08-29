@@ -1,0 +1,11 @@
+itk/_IOOpenJPHPython.so,sha256=fIXMEWVmsrr5Z45W1F7UoFXkfci0Elkzs1Xi5phoaP4,1803609
+itk/itkOpenJPHImageIOPython.py,sha256=tvHCgc-sClTIb0FtEmXixDHNcuEr24GZhYciQhLmons,10030
+itk/IOOpenJPHPython.py,sha256=Zz2Oq_Be4jHsDlaUkfmidR7P3gySN8EMejJdzZUdGuQ,2345
+itk/Configuration/IOOpenJPHConfig.py,sha256=fY9oSRw-xwjt44ifcCd29BpLeqUpbKh9w3IXpEgoImA,261
+itk/Configuration/IOOpenJPH_snake_case.py,sha256=WRnLlen2jxLU1s5GGArPufZ1-DR4D7SdRd25VYoBFXE,26
+itk_ioopenjph-1.0.0.dist-info/RECORD,,
+itk_ioopenjph-1.0.0.dist-info/WHEEL,sha256=UI6FlfdqQcbfEkkGPMoN4qyh_Ma5P8K6gTsUBJhTKQg,106
+itk_ioopenjph-1.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_ioopenjph-1.0.0.dist-info/METADATA,sha256=cU3T446BdXogd0vWbcJY_c1jPcUqIJ9ZiPBWEAP9Jxk,1389
+itk_ioopenjph-1.0.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_ioopenjph.libs/libtbb-e251c622.so.12.3,sha256=2NAoVrtGivfharaTqjrMsAuRlhUu4qg9cz5IvIXOfF0,378361
