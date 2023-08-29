@@ -1,0 +1,11 @@
+starstack/__init__.py,sha256=8oAxKUG747GUokmxjkrWejyJa5yPNEsoJDlXxoedxTw,21
+starstack/mrcFileStack.py,sha256=sEvyZ2KUohd52CLABj3O6HM67pC-wLXWGgkiZEVvx1U,5663
+starstack/particlesDataset.py,sha256=-XIkRtPfnNxSINj4VZqPyM9zzZ4tCxQuolzLMxZ4ZVU,3606
+starstack/particlesStar.py,sha256=mHZHdTia9eKeYt7WMH52p9TqIp-m0IrJlOsJv2VSGVo,9823
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_particlesStar.py,sha256=hoIwPEcUXbn2SOZi5sS8yFoycssMqJA_9H42Se8yQZ8,3499
+starstack-0.1.1.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+starstack-0.1.1.dist-info/METADATA,sha256=2BP2pt0wZklZZrUmkHp7syTuYuuA30PUliEaDoTXNRY,1246
+starstack-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+starstack-0.1.1.dist-info/top_level.txt,sha256=F-Z7ddfjmAmQ_nj3uQjdHTxUJhowiAZIsvUahjSf1Cw,16
+starstack-0.1.1.dist-info/RECORD,,
