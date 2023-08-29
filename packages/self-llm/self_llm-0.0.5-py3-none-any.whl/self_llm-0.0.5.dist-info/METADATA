@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: self-llm
+Version: 0.0.5
+Summary: A package for using self-served LLM
+Project-URL: Homepage, https://github.com/corca-ai/self-llm
+Project-URL: Bug Tracker, https://github.com/corca-ai/self-llm/issues
+Author-email: Taeho Lee <adldotori@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: LLM,corca,corca ai,corca-ai,corca.ai,self-llm
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: requests-async==0.6.2
+Requires-Dist: requests==2.31.0
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
