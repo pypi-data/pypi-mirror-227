@@ -1,0 +1,2 @@
+[console_scripts]
+hello-user = hello_user.hello:main
