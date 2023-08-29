@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mixmaster-engine
+Version: 1.0.2
+Summary: Engine para banco de dados do MixMaster
+Home-page: https://github.com/gsfcosta/mixmaster-engine
+Author: Gabriel Fernandes
+Author-email: g.silvafdc@gmail.com
+License: MIT License
+Keywords: mixmaster
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+MixMaster Engine
+
+Esta biblioteca tem como objetivo facilitar e gerencia do banco de dados do mixmaster (MMORPG)
+
+Instalar
+pip3 install mixmaster-engine
