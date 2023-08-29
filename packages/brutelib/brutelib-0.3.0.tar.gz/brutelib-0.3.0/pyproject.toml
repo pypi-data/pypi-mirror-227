@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "brutelib"
+version = "0.3.0"
+description = "Used for bruteforce examples ( EDUCATIONAL ) "
+authors = ["CaiqueONz <caiqueonz777@gmail.com>"]
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
