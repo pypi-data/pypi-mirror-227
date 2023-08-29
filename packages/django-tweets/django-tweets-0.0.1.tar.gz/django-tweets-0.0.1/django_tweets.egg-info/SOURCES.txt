@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+django_tweets/__init__.py
+django_tweets/admin.py
+django_tweets/apps.py
+django_tweets/clients.py
+django_tweets/decorators.py
+django_tweets/exceptions.py
+django_tweets/models.py
+django_tweets.egg-info/PKG-INFO
+django_tweets.egg-info/SOURCES.txt
+django_tweets.egg-info/dependency_links.txt
+django_tweets.egg-info/requires.txt
+django_tweets.egg-info/top_level.txt
+tests/test_models.py
