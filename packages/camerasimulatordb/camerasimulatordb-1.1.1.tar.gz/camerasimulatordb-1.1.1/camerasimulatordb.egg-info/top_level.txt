@@ -1,0 +1,3 @@
+camerasimulatordb
+tests
+utils
