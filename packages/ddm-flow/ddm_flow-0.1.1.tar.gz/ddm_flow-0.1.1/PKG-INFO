@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ddm_flow
+Version: 0.1.1
+Summary: A toolset for processing, organizing, and visualizing data for individual FoVs from DDm analysis.
+Home-page: https://github.com/NEbrahimi/ddm-flow
+Author: Naz Ebrahimi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
