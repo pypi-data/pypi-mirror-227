@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+darkhan.egg-info/PKG-INFO
+darkhan.egg-info/SOURCES.txt
+darkhan.egg-info/dependency_links.txt
+darkhan.egg-info/not-zip-safe
+darkhan.egg-info/top_level.txt
