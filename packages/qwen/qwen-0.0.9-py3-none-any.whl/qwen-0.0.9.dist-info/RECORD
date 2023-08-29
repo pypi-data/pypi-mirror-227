@@ -1,0 +1,10 @@
+qwen/__init__.py,sha256=4LnY45c6jb0JX_AGcjqGUbfcnc0zKI5yQ6WuVBQyRRM,80
+qwen/attend.py,sha256=cMRODo5SvF05tONrArqLZj0G9MuIjkyio_DzgDfM9LI,11912
+qwen/model.py,sha256=jf5jPnmvcWtpM5uYWQewj9oVZwazciKSFEpYSpLGEX4,4291
+qwen/train.py,sha256=YVZZH9dK8D-q-HezXPfYTthR8AJLYAyIBqLkvKfgQZQ,23961
+qwen/transformer.py,sha256=PgXLuBREyX1-WvsGzkfIywHoCurqXVUhgl2VS7iLSNk,54140
+qwen/utils.py,sha256=DpxbfGNZCahryS1bDel4X1h1Xe6IVwCe6LNWnjtHi0k,3307
+qwen-0.0.9.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+qwen-0.0.9.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+qwen-0.0.9.dist-info/METADATA,sha256=FbY1yDniErnuRdNzU33guHOGS-ttcZ2A5agUI2-IG-0,3049
+qwen-0.0.9.dist-info/RECORD,,
