@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gdrivedl-parallel
+Version: 0.1.0
+Summary: Python library that allows you to download filers/folders from Google Drive
+Project-URL: Homepage, https://github.com/duckduckgrayduck/gdrivedl-parallel
+Project-URL: Bug Tracker, https://github.com/duckduckgrayduck/gdrivedl-parallel/issues
+Author-email: duckduckgrayduck <sanjin+clouddl@muckrock.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# GDriveDL-Parallel
+
+Google Drive Download Script
+
+-   Python 2 / 3 compatible
+-   No API keys / credentials required
+-   Supports all operating systems
+-   No external dependencies
+-   Works with shared files or folders
+-   Works with large files
+-   Files / folders must have been shared via link
+-   Files are downloaded concurrently. 
+
+## Usage
+
+```bash
+python gdrivedl-parallel.py <URL>
+```
+-   URL is a shared Google Drive URL
+
+Multiple urls can be used by seperating them with a space. eg. ```python gdrivedl-parallel.py <URL1> <URL2> <URL3>```<br>
+On some systems you may need to enclose the url within quotes. eg ```python gdrivedl-parallel.py "<URL>"```
+
+### Options
+- `-P` `--directory-prefix` Output directory (default is current directory)
+- `-O` `--output-document` Download to a particular filename (defaults to the
+  GDrive filename). Only valid when downloading a single file.
+- `-q` `--quiet` Disable console output
+- `-d` `--debug` Show more vebose debug console output
+- `-m` `--mtimes` Try use modified times to check for changed files
+- `-f` `--urlfile` Text file containing Google Drive URLS to download (one per line)
