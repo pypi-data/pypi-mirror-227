@@ -1,0 +1,3 @@
+[console_scripts]
+security_check = security_check.execute:run
+
