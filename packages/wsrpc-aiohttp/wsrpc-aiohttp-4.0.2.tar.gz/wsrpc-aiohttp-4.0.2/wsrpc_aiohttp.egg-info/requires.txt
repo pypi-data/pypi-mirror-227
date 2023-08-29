@@ -1,0 +1,27 @@
+aiohttp<4
+yarl
+
+[:python_version < "3.10.0"]
+typing_extensions
+
+[develop]
+async-timeout
+coverage!=4.3
+coveralls
+orjson
+nox
+pytest
+pytest-aiohttp
+pytest-cov
+requests
+sphinx
+tox>=2.4
+
+[testing]
+async-timeout
+coverage!=4.3
+coveralls
+orjson
+pytest
+pytest-aiohttp
+pytest-cov
