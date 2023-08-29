@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: catwallpaper
+Version: 0.11
+Summary: Download and apply random cat wallpapers on every platform (windows, mac or even linux) automatically
+Home-page: https://github.com/CyberSecByte/catwallpaper
+Author: CyberSecByte
+Author-email: cybersecbyte@gmail.com
+Keywords: cat,catwallpaper,wallpaper,meow,cats
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: System
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+What it does?
+===============
+Web Scraping Using Python to Download and Apply Random Cat Images as Wallpaper According to Your Operating System
+
+Supported platforms
+===============
+Presently, it provides support the following platforms mentioned below:
+
+1. Windows
+2. Mac
+3. Linux with desktop environment: Gnome, Xfce, Mate, Kde plasma
+
+Installation
+===============
+
+It's available on pypi as https://pypi.org/project/catwallpaper/
+
+
+``pip install catwallpaper``
