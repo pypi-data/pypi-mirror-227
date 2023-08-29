@@ -1,0 +1,10 @@
+jf_ingest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jf_ingest/jf_git/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jf_ingest/jf_git/standardized_models.py,sha256=jqusgGLO9RmZKi1stl6kKZW-PDtkMFqVOdT2LaGr8bI,217
+jf_ingest/jf_jira/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jf_ingest/jf_jira/downloaders.py,sha256=Z-PnAHht0pnVv_t4xm1uWBzcWX4PacdF5mRCWckZFTY,1863
+jf_ingest-0.0.6.dist-info/LICENSE,sha256=RpyI3ir0WEEowMvaNe4vF4BFdyOMqNpTGjCMiA9ARK8,1066
+jf_ingest-0.0.6.dist-info/METADATA,sha256=LLspqKz4UTxbzH45_DGtQqRzBqXQ_arsjvtquIVXfQ4,401
+jf_ingest-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jf_ingest-0.0.6.dist-info/top_level.txt,sha256=qCfRueilFeTJ1_g1yClj8XjSrSbznV9Xuxo-vHVhUno,10
+jf_ingest-0.0.6.dist-info/RECORD,,
