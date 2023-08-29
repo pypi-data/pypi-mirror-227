@@ -1,0 +1,2 @@
+[console_scripts]
+conrad-relaycard = conrad_relaycard.cli:main
