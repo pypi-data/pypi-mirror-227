@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+mathyd.py
+setup.py
+mathyd.egg-info/PKG-INFO
+mathyd.egg-info/SOURCES.txt
+mathyd.egg-info/dependency_links.txt
+mathyd.egg-info/top_level.txt
