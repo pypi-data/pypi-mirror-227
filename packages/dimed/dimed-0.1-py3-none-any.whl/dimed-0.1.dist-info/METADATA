@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dimed
+Version: 0.1
+Summary: Dimed for CLI and packaging
+Author-email: Dmitry Sorokin <dmd40in@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+Dimed for cli and packaging
