@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: fastomit
+Version: 0.1.1
+Project-URL: Documentation, https://github.com/unknown/fastomit#readme
+Project-URL: Issues, https://github.com/unknown/fastomit/issues
+Project-URL: Source, https://github.com/unknown/fastomit
+Author-email: joshua-auchincloss <joshua.auchincloss@proton.me>
+License: MIT License
+        
+        Copyright (c) 2023-present joshua-auchincloss <joshua.auchincloss@proton.me>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# fastomit
+
+[![PyPI - Version](https://img.shields.io/pypi/v/fastomit.svg)](https://pypi.org/project/fastomit)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fastomit.svg)](https://pypi.org/project/fastomit)
+
+---
+
+Fast k-v omission
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+- [Benchmarks](https://joshua-auchincloss.github.io/fastomit/dev/bench/)
+
+## Installation
+
+```console
+pip install fastomit
+```
+
+## Usage
+
+### Trust Omitter
+
+```py
+from fastomit.omit import Omitter, always_omit, globally_hidden, hide, reset_omissions
+
+# always omit keys abc and pw
+om = Omitter(["abc", "pw"])
+my_dict = {"abc": "val", "pw": "val2", "ok": True, "val": "v2"}
+assert om.omit(my_dict) == {"abc": "***", "pw": "****", "ok": True, "val": "v2"}
+
+# always omit keys abc and def
+always_omit(["abc", "def"])
+om = Omitter()
+my_dict = {"abc": "v1", "def": "value", "deg": "nohide"}
+assert om.omit(my_dict) == {"abc": "**", "def": "*****", "deg": "nohide"}
+
+# no global omissions
+reset_omissions()
+
+om = Omitter()
+
+assert om.omit(my_dict) == my_dict
+```
+
+### No-Trust Omitter
+
+```py
+from fastomit.omit import NoTrustOmitter, always_trust, globally_trusted, reset_trusted
+
+# omits anything but these keys
+om = NoTrustOmitter(["abc", "pw"])
+
+my_dict = {"abc": "val", "pw": "val2", "ok": True, "val": "v2"}
+assert om.omit(my_dict) == {"abc": "val", "pw": "val2", "val": "**"}
+
+# trust keys abc and def
+always_trust(["abc", "def"])
+om = NoTrustOmitter([])
+my_dict = {"abc": "v1", "def": "value", "deg": "hide"}
+assert om.omit(my_dict) == {"abc": "v1", "def": "value", "deg": "****"}
+
+# trust nothing
+reset_trusted()
+
+om = NoTrustOmitter()
+
+assert om.omit(my_dict) == {"abc": "**", "def": "*****", "deg": "****"}
+assert globally_trusted() == []
+
+```
+
+## License
+
+`fastomit` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
