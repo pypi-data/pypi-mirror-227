@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/gherkin_translator/__init__.py
+src/gherkin_translator/__main__.py
+src/gherkin_translator/py.typed
+src/gherkin_translator/translator.py
+src/gherkin_translator.egg-info/PKG-INFO
+src/gherkin_translator.egg-info/SOURCES.txt
+src/gherkin_translator.egg-info/dependency_links.txt
+src/gherkin_translator.egg-info/not-zip-safe
+src/gherkin_translator.egg-info/requires.txt
+src/gherkin_translator.egg-info/top_level.txt
