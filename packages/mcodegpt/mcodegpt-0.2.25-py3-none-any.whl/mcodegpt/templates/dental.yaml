@@ -1,0 +1,440 @@
+id: http://w3id.org/ontogpt/gocam
+name: dental-template
+title: Dental Template
+description: >-
+  A template for Dental
+license: https://creativecommons.org/publicdomain/zero/1.0/
+prefixes:
+  linkml: https://w3id.org/linkml/
+  gocam: http://w3id.org/ontogpt/gocam/
+  GO: http://purl.obolibrary.org/obo/GO_
+  CL: http://purl.obolibrary.org/obo/CL_
+
+default_prefix: dental
+default_range: string
+
+imports:
+  - linkml:types
+  - core
+
+classes:
+  DentalAnnotations:
+    tree_root: true
+    description: A result of extracting dental information on people
+    attributes:
+
+
+      gingival_diseases_non_dental_biofilm_induced:
+        description: Does the patient have Gingival diseases non dental biofilm induced?
+        multivalued: true
+        range: Gingival_Diseases_Non_Dental_Biofilm_Induced
+    
+
+      periodontitis_stage_iv:
+        description: Does the patient have Periodontitis Stage IV?
+        multivalued: true
+        range: Periodontitis_Stage_Iv
+    
+
+      gingival_diseases__inflammatory_and_immune_conditions:
+        description: Does the patient have Gingival diseases  Inflammatory and immune conditions?
+        multivalued: true
+        range: Gingival_Diseases__Inflammatory_And_Immune_Conditions
+    
+
+      necrotizing_periodontal_diseases:
+        description: Does the patient have Necrotizing Periodontal Diseases?
+        multivalued: true
+        range: Necrotizing_Periodontal_Diseases
+    
+
+      gingival_diseases_non_plaque_induced:
+        description: Does the patient have Gingival Diseases Non Plaque induced?
+        multivalued: true
+        range: Gingival_Diseases_Non_Plaque_Induced
+    
+
+      gingival_diseases__neoplasms:
+        description: Does the patient have Gingival diseases Neoplasms?
+        multivalued: true
+        range: Gingival_Diseases__Neoplasms
+    
+
+      periodontitis_stage_iii:
+        description: Does the patient have Periodontitis Stage III?
+        multivalued: true
+        range: Periodontitis_Stage_Iii
+    
+
+      gingival_diseases_traumatic_lesions:
+        description: Does the patient have Gingival diseases Traumatic lesions?
+        multivalued: true
+        range: Gingival_Diseases_Traumatic_Lesions
+    
+
+      peri_implant_diseases_and_conditions:
+        description: Does the patient have Peri Implant Diseases and Conditions?
+        multivalued: true
+        range: Peri_Implant_Diseases_And_Conditions
+    
+
+      prosth_or_tooth_related_modify_or_predispose_gingivitis_or_perio:
+        description: Does the patient have Prosth or tooth related modify or predispose gingivitis or perio?
+        multivalued: true
+        range: Prosth_Or_Tooth_Related_Modify_Or_Predispose_Gingivitis_Or_Perio
+    
+
+      mucogingival_deformities:
+        description: Does the patient have Mucogingival Deformities?
+        multivalued: true
+        range: Mucogingival_Deformities
+    
+
+      gingival_diseases__specific_infections:
+        description: Does the patient have Gingival diseases  Specific infections?
+        multivalued: true
+        range: Gingival_Diseases__Specific_Infections
+    
+
+      gingival_diseases_plaque_induced:
+        description: Does the patient have Gingival Diseases Plaque induced?
+        multivalued: true
+        range: Gingival_Diseases_Plaque_Induced
+    
+
+      people_gingival_diseases_non_dental_biofilm_induced_interaction:
+        description: list of what people has Gingival diseases non dental biofilm induced, separated by semi-colons
+        multivalued: true
+        range: People_Gingival_Diseases_Non_Dental_Biofilm_Induced_Interaction
+    
+
+      people_periodontitis_stage_iv_interaction:
+        description: list of what people has Periodontitis Stage IV, separated by semi-colons
+        multivalued: true
+        range: People_Periodontitis_Stage_Iv_Interaction
+    
+
+      people_gingival_diseases__inflammatory_and_immune_conditions_interaction:
+        description: list of what people has Gingival diseases  Inflammatory and immune conditions, separated by semi-colons
+        multivalued: true
+        range: People_Gingival_Diseases__Inflammatory_And_Immune_Conditions_Interaction
+    
+
+      people_necrotizing_periodontal_diseases_interaction:
+        description: list of what people has Necrotizing Periodontal Diseases, separated by semi-colons
+        multivalued: true
+        range: People_Necrotizing_Periodontal_Diseases_Interaction
+    
+
+      people_gingival_diseases_non_plaque_induced_interaction:
+        description: list of what people has Gingival Diseases Non Plaque induced, separated by semi-colons
+        multivalued: true
+        range: People_Gingival_Diseases_Non_Plaque_Induced_Interaction
+    
+
+      people_gingival_diseases__neoplasms_interaction:
+        description: list of what people has Gingival diseases  Neoplasms, separated by semi-colons
+        multivalued: true
+        range: People_Gingival_Diseases__Neoplasms_Interaction
+    
+
+      people_periodontitis_stage_iii_interaction:
+        description: list of what people has Periodontitis Stage III, separated by semi-colons
+        multivalued: true
+        range: People_Periodontitis_Stage_Iii_Interaction
+    
+
+      people_gingival_diseases_traumatic_lesions_interaction:
+        description: list of what people has Gingival diseases Traumatic lesions, separated by semi-colons
+        multivalued: true
+        range: People_Gingival_Diseases_Traumatic_Lesions_Interaction
+    
+
+      people_peri_implant_diseases_and_conditions_interaction:
+        description: list of what people has Peri Implant Diseases and Conditions, separated by semi-colons
+        multivalued: true
+        range: People_Peri_Implant_Diseases_And_Conditions_Interaction
+    
+
+      people_prosth_or_tooth_related_modify_or_predispose_gingivitis_or_perio_interaction:
+        description: list of what people has Prosth or tooth related modify or predispose gingivitis or perio, separated by semi-colons
+        multivalued: true
+        range: People_Prosth_Or_Tooth_Related_Modify_Or_Predispose_Gingivitis_Or_Perio_Interaction
+    
+
+      people_mucogingival_deformities_interaction:
+        description: list of what people has Mucogingival Deformities, separated by semi-colons
+        multivalued: true
+        range: People_Mucogingival_Deformities_Interaction
+    
+
+      people_gingival_diseases__specific_infections_interaction:
+        description: list of what people has Gingival diseases  Specific infections, separated by semi-colons
+        multivalued: true
+        range: People_Gingival_Diseases__Specific_Infections_Interaction
+    
+
+      people_gingival_diseases_plaque_induced_interaction:
+        description: list of what people has Gingival Diseases Plaque induced, separated by semi-colons
+        multivalued: true
+        range: People_Gingival_Diseases_Plaque_Induced_Interaction
+    
+
+  Gingival_Diseases_Non_Dental_Biofilm_Induced:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Gingival diseases non dental biofilm induced?
+    
+
+  Periodontitis_Stage_Iv:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Periodontitis Stage IV?
+    
+
+  Gingival_Diseases__Inflammatory_And_Immune_Conditions:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Gingival diseases  Inflammatory and immune conditions?
+    
+
+  Necrotizing_Periodontal_Diseases:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Necrotizing Periodontal Diseases?
+    
+
+  Gingival_Diseases_Non_Plaque_Induced:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Gingival Diseases Non Plaque induced?
+    
+
+  Gingival_Diseases__Neoplasms:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Gingival diseases Neoplasms?
+    
+
+  Periodontitis_Stage_Iii:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Periodontitis Stage III?
+    
+
+  Gingival_Diseases_Traumatic_Lesions:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Gingival diseases Traumatic lesions?
+    
+
+  Peri_Implant_Diseases_And_Conditions:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Peri Implant Diseases and Conditions?
+    
+
+  Prosth_Or_Tooth_Related_Modify_Or_Predispose_Gingivitis_Or_Perio:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Prosth or tooth related modify or predispose gingivitis or perio?
+    
+
+  Mucogingival_Deformities:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Mucogingival Deformities?
+    
+
+  Gingival_Diseases__Specific_Infections:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Gingival diseases  Specific infections?
+    
+
+  Gingival_Diseases_Plaque_Induced:
+    is_a: NamedEntity
+    annotations:
+      prompt: Does the patient have Gingival Diseases Plaque induced?
+    
+
+  People_Gingival_Diseases_Non_Dental_Biofilm_Induced_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      gingival_diseases_non_dental_biofilm_induced:
+        range: Gingival_Diseases_Non_Dental_Biofilm_Induced
+        annotations:
+          prompt: Does the patient have Gingival diseases non dental biofilm induced?
+    
+
+  People_Periodontitis_Stage_Iv_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      periodontitis_stage_iv:
+        range: Periodontitis_Stage_Iv
+        annotations:
+          prompt: Does the patient have Periodontitis Stage IV?
+    
+
+  People_Gingival_Diseases__Inflammatory_And_Immune_Conditions_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      gingival_diseases__inflammatory_and_immune_conditions:
+        range: Gingival_Diseases__Inflammatory_And_Immune_Conditions
+        annotations:
+          prompt: Does the patient have Gingival diseases  Inflammatory and immune conditions?
+    
+
+  People_Necrotizing_Periodontal_Diseases_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      necrotizing_periodontal_diseases:
+        range: Necrotizing_Periodontal_Diseases
+        annotations:
+          prompt: Does the patient have Necrotizing Periodontal Diseases?
+    
+
+  People_Gingival_Diseases_Non_Plaque_Induced_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      gingival_diseases_non_plaque_induced:
+        range: Gingival_Diseases_Non_Plaque_Induced
+        annotations:
+          prompt: Does the patient have Gingival Diseases Non Plaque induced?
+    
+
+  People_Gingival_Diseases__Neoplasms_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      gingival_diseases__neoplasms:
+        range: Gingival_Diseases__Neoplasms
+        annotations:
+          prompt: Does the patient have Gingival diseases Neoplasms?
+    
+
+  People_Periodontitis_Stage_Iii_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      periodontitis_stage_iii:
+        range: Periodontitis_Stage_Iii
+        annotations:
+          prompt: Does the patient have Periodontitis Stage III?
+    
+
+  People_Gingival_Diseases_Traumatic_Lesions_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      gingival_diseases_traumatic_lesions:
+        range: Gingival_Diseases_Traumatic_Lesions
+        annotations:
+          prompt: Does the patient have Gingival diseases Traumatic lesions?
+    
+
+  People_Peri_Implant_Diseases_And_Conditions_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      peri_implant_diseases_and_conditions:
+        range: Peri_Implant_Diseases_And_Conditions
+        annotations:
+          prompt: Does the patient have Peri Implant Diseases and Conditions?
+    
+
+  People_Prosth_Or_Tooth_Related_Modify_Or_Predispose_Gingivitis_Or_Perio_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      prosth_or_tooth_related_modify_or_predispose_gingivitis_or_perio:
+        range: Prosth_Or_Tooth_Related_Modify_Or_Predispose_Gingivitis_Or_Perio
+        annotations:
+          prompt: Does the patient have Prosth or tooth related modify or predispose gingivitis or perio?
+    
+
+  People_Mucogingival_Deformities_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      mucogingival_deformities:
+        range: Mucogingival_Deformities
+        annotations:
+          prompt: Does the patient have Mucogingival Deformities?
+    
+
+  People_Gingival_Diseases__Specific_Infections_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      gingival_diseases__specific_infections:
+        range: Gingival_Diseases__Specific_Infections
+        annotations:
+          prompt: Does the patient have Gingival diseases  Specific infections?
+    
+
+  People_Gingival_Diseases_Plaque_Induced_Interaction:
+    is_a: CompoundExpression
+    attributes:
+      people:
+        range: People
+        annotations:
+          prompt: the name of the person
+      gingival_diseases_plaque_induced:
+        range: Gingival_Diseases_Plaque_Induced
+        annotations:
+          prompt: Does the patient have Gingival Diseases Plaque induced?
+
+enums:
+
+  NullDataOptions:
+    permissible_values:
+      UNSPECIFIED_METHOD_OF_ADMINISTRATION:
+        meaning: NCIT:C149701
+      NOT_APPLICABLE:
+        meaning: NCIT:C18902
+        aliases:
+          - "not applicable"
+          - "N/A"
+      NOT_MENTIONED:
