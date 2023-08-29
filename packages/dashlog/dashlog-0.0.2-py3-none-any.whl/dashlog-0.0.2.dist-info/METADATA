@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: dashlog
+Version: 0.0.2
+Summary: Official wrapper over the dashlog.app api
+Project-URL: Website, https://dashlog.app
+Project-URL: Github, https://github.com/AdrCor/dashlog-py
+Author-email: Adrien Corre <adriencorre.dev@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests>2
+Description-Content-Type: text/markdown
+
+# Dashlog
+
+Official wrapper over the [dashlog.app](https://dashlog.app) api
+
+
+```bash
+pip install dashlog
+```
+
+```python
+from dashlog import Dashlog
+
+dash = Dashlog('<YOUR-API-KEY>')
+
+response = dash.log(
+    project='MyProject',  # string - required
+    channel='Users',      # string - required
+
+    title='New User',                           # string - required
+    description='John Doe created an account',  # string - optionnal
+
+    data={                              # dict[str, str | int | float | boolean] - optionnal
+        'email': 'john.doe@dashlog.app'  # Values can be
+        'username': '@johndoe',          # strings,
+        'age': 29,                       # numbers,
+        'premium': True                  # or booleans
+    }
+
+    notify=True,  # boolean - optionnal - send log by email if True
+)
+
+print(response.status)  # 200
+print(response.json())  # {'status': 200, 'message': 'log added successfully'}
+
+```
