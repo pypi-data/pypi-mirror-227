@@ -1,0 +1,10 @@
+README.md
+setup.py
+kirbacterai/__init__.py
+kirbacterai/kirbacterai.py
+kirbacterai/objects.py
+kirbacterai.egg-info/PKG-INFO
+kirbacterai.egg-info/SOURCES.txt
+kirbacterai.egg-info/dependency_links.txt
+kirbacterai.egg-info/requires.txt
+kirbacterai.egg-info/top_level.txt
