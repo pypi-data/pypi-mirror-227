@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ragdoll"
+version = "1.1.0"
+description = ""
+authors = ["Aaron Zhang <rabbit.aaron@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/rabbit-aaron/ragdoll"
+repository = "https://github.com/rabbit-aaron/ragdoll.git"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-cov = "*"
+pytest-mock = "*"
+bump2version = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+target-version = ["py39", "py310", "py311"]
