@@ -1,0 +1,6 @@
+flake8>=4
+click>=8.0.0
+docstring_parser_fork>=0.0.4
+
+[:python_version < "3.11"]
+tomli>=2.0.1
