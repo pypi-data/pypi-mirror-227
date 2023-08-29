@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: promptflow-tools
+Version: 0.1.0b5
+Summary: Prompt flow built-in tools
+Author: Microsoft Corporation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Requires-Python: <4.0,>=3.8
+License-File: NOTICE.txt
+Requires-Dist: google-search-results (==2.4.1)
+Requires-Dist: promptflow
+
