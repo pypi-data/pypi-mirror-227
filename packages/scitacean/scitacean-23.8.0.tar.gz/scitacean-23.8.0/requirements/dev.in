@@ -1,0 +1,19 @@
+-r base.in
+-r ci.in
+-r docs.in
+-r static.in
+-r test.in
+-r wheels.in
+black
+jinja2
+jupyterlab
+mypy
+pip-compile-multi
+pre-commit
+pyyaml
+
+types-docutils
+types-paramiko
+types-python-dateutil
+types-PyYAML
+types-requests
