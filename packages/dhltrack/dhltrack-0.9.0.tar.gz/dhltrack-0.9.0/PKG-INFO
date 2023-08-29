@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: dhltrack
+Version: 0.9.0
+Summary: Simple Python wrapper to fetch data from DHL Tracking API
+Project-URL: Homepage, https://kumig.it/kumitterer/dhltrack
+Project-URL: Bug Tracker, https://kumig.it/kumitterer/dhltrack/issues
+Author-email: Kumi Mitterer <dhltrack@kumi.email>
+License: Copyright (c) 2023 Kumi Mitterer <dhltrack@kumi.email>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# DHL Tracking API Python Client
+
+This is a Python client for the [DHL Shipment Tracking Unified API](https://developer.dhl.com/api-reference/shipment-tracking).
+
+It is not fully featured yet, but it is a good starting point. It requires you to have a DHL developer account and an API key.
+
+## Installation
+
+```bash
+pip install dhltrack
+```
+
+## Usage
+
+```python
+from dhltrack import DHL
+
+api = DHL("YOUR_API_KEY", "YOUR_API_SECRET")
+
+# Realtime tracking
+
+tracking = api.track("YOUR_SHIPMENT_NUMBER")
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
