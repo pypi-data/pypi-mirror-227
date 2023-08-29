@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: optrs
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+License-File: LICENSE.md
+Summary: Molecular molecule optimization with forcefields
+Keywords: optimization,chemistry
+Home-Page: https://github.com/t-young31/opt-rs
+Author: Tom Young
+License: MIT OR Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/t-young31/opt-rs
+
+[![Test](https://github.com/t-young31/opt-rs/actions/workflows/test.yml/badge.svg)](https://github.com/t-young31/opt-rs/actions/workflows/test.yml) [![codecov](https://codecov.io/gh/t-young31/opt-rs/graph/badge.svg?token=5KTYG2WJ9L)](https://codecov.io/gh/t-young31/opt-rs)
+
+![alt text](src/common/logo.png)
+
+**optrs** is a lightweight molecular mechanics optimisation code written in rust.
+
+***
+### Installation
+Install the binary with
+
+```bash
+pip install optrs
+```
+
+or the [Python API](https://github.com/t-young31/opt-rs/tree/main/api).
+
+***
+### Usage
+Optimise a molecule provided as a [.xyz](https://en.wikipedia.org/wiki/XYZ_file_format) file
+
+```bash
+optrs molecule.xyz
+```
+
+which will generate _opt.xyz_ in working directory.
+[API examples](https://github.com/t-young31/opt-rs/tree/main/api/examples).
+
+***
+### Features
+- [UFF](https://doi.org/10.1021/ja00051a040) forcefield
+- [RB](https://doi.org/10.1002/anie.202011941) forcefield
+- 3D structure generation
+- Steepest decent optimisation
+
