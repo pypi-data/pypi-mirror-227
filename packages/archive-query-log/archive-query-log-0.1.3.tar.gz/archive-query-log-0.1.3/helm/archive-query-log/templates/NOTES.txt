@@ -1,0 +1,13 @@
+Installed {{ $.Chart.Name }} (release name: {{ $.Release.Name }}{{ with $.Values.namespace }}, namespace: {{ . }}{{ end }}).
+
+Accessing Elasticsearch {{ $.Values.elasticsearch.host }}:{{ $.Values.elasticsearch.port }} (authenticating with user {{ $.Values.elasticsearch.username }}).
+
+Started cron jobs:
+- Build sources:
+  Scheduled at {{ $.Values.buildSources.schedule }}.
+  Running {{ $.Values.buildSources.completions }}x (parallelism: {{ $.Values.buildSources.parallelism }}, backoff limit: {{ $.Values.buildSources.backoffLimit }}).
+- Fetch captures:
+  Scheduled at {{ $.Values.fetchCaptures.schedule }}.
+  Running {{ $.Values.fetchCaptures.completions }}x (parallelism: {{ $.Values.fetchCaptures.parallelism }}, backoff limit: {{ $.Values.fetchCaptures.backoffLimit }}).
+
+Serving monitoring web interface at {{ if $.Values.monitoring.forceSslRedirect }}https{{ else }}http{{ end }}://{{ $.Values.monitoring.host }}{{ $.Values.monitoring.path }}.
