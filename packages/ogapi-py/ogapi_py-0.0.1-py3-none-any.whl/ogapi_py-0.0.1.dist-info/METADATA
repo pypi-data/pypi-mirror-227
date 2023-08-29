@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ogapi-py
+Version: 0.0.1
+Summary: ogapi.py
+Author: amplia-iiot
+Keywords: python,ogapi.py,opengate
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+
+Mi primer paquete de Python con una descripción ligeramente más larga
