@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+netmetal.egg-info/PKG-INFO
+netmetal.egg-info/SOURCES.txt
+netmetal.egg-info/dependency_links.txt
+netmetal.egg-info/top_level.txt
