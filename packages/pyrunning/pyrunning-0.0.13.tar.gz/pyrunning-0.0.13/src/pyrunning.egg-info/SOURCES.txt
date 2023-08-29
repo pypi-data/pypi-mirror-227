@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pyrunning/__init__.py
+src/pyrunning/pyrunning.py
+src/pyrunning.egg-info/PKG-INFO
+src/pyrunning.egg-info/SOURCES.txt
+src/pyrunning.egg-info/dependency_links.txt
+src/pyrunning.egg-info/top_level.txt
