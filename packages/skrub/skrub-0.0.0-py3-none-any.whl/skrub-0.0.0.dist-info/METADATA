@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: skrub
+Version: 0.0.0
+Summary: Prepping tables for machine learning
+Home-page: https://skrub-data.org/
+Author: Gael Varoquaux
+Author-email: gael.varoquaux@normalesup.org
+License: BSD
+Project-URL: Source Code, https://github.com/skrub-data/skrub
+Project-URL: Documentation, https://skrub-data.org/stable/documentation.html
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+
