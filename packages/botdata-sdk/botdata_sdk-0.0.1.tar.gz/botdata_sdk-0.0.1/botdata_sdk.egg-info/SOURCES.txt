@@ -1,0 +1,8 @@
+README.md
+setup.py
+botdata_sdk.egg-info/PKG-INFO
+botdata_sdk.egg-info/SOURCES.txt
+botdata_sdk.egg-info/dependency_links.txt
+botdata_sdk.egg-info/top_level.txt
+protobuf/__init__.py
+python/__init__.py
