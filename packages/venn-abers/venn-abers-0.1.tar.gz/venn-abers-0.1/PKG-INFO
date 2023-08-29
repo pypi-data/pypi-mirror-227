@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: venn-abers
+Version: 0.1
+Summary: Venn-ABERS calibration package
+Home-page: https://github.com/ip200/venn-abers
+Download-URL: https://github.com/ip200/venn-abers/archive/refs/tags/v_02.tar.gz
+Author: Ivan Petej
+Author-email: ivan.petej@gmail.com
+License: MIT
+Keywords: Probabilistic classification,calibration
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.TXT
