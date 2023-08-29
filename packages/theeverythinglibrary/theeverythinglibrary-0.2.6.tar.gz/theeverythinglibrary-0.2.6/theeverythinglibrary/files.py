@@ -1,0 +1,71 @@
+import os
+import shutil
+
+class TELFileManager:
+    '''
+    WIP! Coming soon
+    '''
+    def __init__(self) -> None:
+        pass
+
+    def create_directory(self, dir: str) -> str:
+        '''
+        WIP! Coming soon
+        '''
+        try:
+            os.makedirs(dir, exist_ok=True)
+            return dir
+        except OSError as msg:
+            raise OSError(f"Error creating directory: {msg}")
+        except Exception as msg:
+            raise Exception(f"Error deleting directory: {msg}")
+
+    def delete_directory(self, dir: str) -> bool:
+        '''
+        WIP! Coming soon
+        '''
+        try:
+            if os.path.exists(dir) and os.path.isdir(dir):
+                shutil.rmtree(dir)
+                return True
+            return False
+        except Exception as msg:
+            raise Exception(f"Error deleting directory: {msg}")
+
+    def list_files(self, dir: str) -> list[str]:
+        '''
+        WIP! Coming soon
+        '''
+        try:
+            if os.path.exists(dir) and os.path.isdir(dir):
+                files = [f for f in os.listdir(dir) if os.path.isfile(os.path.join(dir, f))]
+                return files
+            return []
+        except Exception as msg:
+            raise Exception(f"Error listing files: {msg}")
+
+    def copy_file(self, src_file: str, dest_dir: str) -> bool:
+        '''
+        WIP! Coming soon
+        '''
+        dest_path = os.path.join(dest_dir, src_file)
+        try:
+            if os.path.exists(src_file) and os.path.isfile(src_file):
+                shutil.copy(src_file, dest_path)
+                return True
+            return False
+        except Exception as msg:
+            raise Exception(f"Error copying file: {msg}")
+
+    def move_file(self, src_file: str, dest_dir: str) -> bool:
+        '''
+        WIP! Coming soon
+        '''
+        dest_path = os.path.join(dest_dir, src_file)
+        try:
+            if os.path.exists(src_file) and os.path.isfile(src_file):
+                shutil.move(src_file, dest_path)
+                return True
+            return False
+        except Exception as msg:
+            raise Exception(f"Error moving file: {msg}")
