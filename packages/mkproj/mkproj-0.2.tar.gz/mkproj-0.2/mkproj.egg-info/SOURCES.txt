@@ -1,0 +1,22 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mkproj/__init__.py
+mkproj.egg-info/PKG-INFO
+mkproj.egg-info/SOURCES.txt
+mkproj.egg-info/dependency_links.txt
+mkproj.egg-info/entry_points.txt
+mkproj.egg-info/requires.txt
+mkproj.egg-info/top_level.txt
+mkproj/templates/bash/{{ project_name }}.sh
+mkproj/templates/cpp/{{ project_name }}/.gitignore
+mkproj/templates/cpp/{{ project_name }}/Makefile
+mkproj/templates/cpp/{{ project_name }}/Readme.md
+mkproj/templates/cpp/{{ project_name }}/include/{{ project_name }}.h
+mkproj/templates/cpp/{{ project_name }}/src/main.cpp
+mkproj/templates/python/{{ project_name }}/MANIFEST.in
+mkproj/templates/python/{{ project_name }}/README.md
+mkproj/templates/python/{{ project_name }}/setup.py
+mkproj/templates/python/{{ project_name }}/{{ project_name }}/__init__.py
+mkproj/templates/python/{{ project_name }}/{{ project_name }}/data/{{ project_name}}.txt

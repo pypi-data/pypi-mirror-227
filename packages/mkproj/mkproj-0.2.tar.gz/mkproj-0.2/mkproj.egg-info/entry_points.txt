@@ -1,0 +1,2 @@
+[console_scripts]
+mkproj = mkproj:main
