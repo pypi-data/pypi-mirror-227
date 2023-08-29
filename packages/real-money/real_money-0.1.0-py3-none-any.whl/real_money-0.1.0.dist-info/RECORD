@@ -1,0 +1,9 @@
+money/__init__.py,sha256=bdu4mOUGAjBpkv9LFbWq2UHRBKi9PrdpHMo035Am8Xs,159
+money/currency.py,sha256=29SUSw7iUbwHcq2s9P_aca_C3F3GPoRObfeZOa1ajBE,36905
+money/exceptions.py,sha256=QHZHUWXz5dWp8agp5zYI9UZbnKbUIpca0WpL-aWbrVk,448
+money/money.py,sha256=X6xZgfW1GeLwyHvwHeoP4qZ6yDeCI9kDMdcS8fRc8bo,6882
+real_money-0.1.0.dist-info/LICENSE,sha256=OJT6ygacWV0X3Pma1qnLuOK-YUIVHjh5A65gkhYncYk,1105
+real_money-0.1.0.dist-info/METADATA,sha256=RaN-9l8xeLBHz0rdzHF3mwdVjtchUebtZXEchVA1FWo,3789
+real_money-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+real_money-0.1.0.dist-info/top_level.txt,sha256=vdBw5Trtkfk7dPoYJznUTYn612ctlznGUhzl8NNh0tE,6
+real_money-0.1.0.dist-info/RECORD,,
