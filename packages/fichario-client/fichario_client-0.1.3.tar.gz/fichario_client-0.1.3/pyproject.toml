@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fichario-client"
+version = "0.1.3"
+description = "API Client for Fichar.io"
+authors = ["RonaldLopes <ronald@fichar.io>"]
+readme = "README.md"
+packages = [{include = "fichario_client"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+httpx = "^0.24.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+requests-mock = "^1.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
