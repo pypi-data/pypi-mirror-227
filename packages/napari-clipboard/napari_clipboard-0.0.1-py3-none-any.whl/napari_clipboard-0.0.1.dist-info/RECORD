@@ -1,0 +1,11 @@
+napari_clipboard/__init__.py,sha256=RACDFzGplM8ViY59vAZrXMVcwB9re2F51EH_CmlkSgA,107
+napari_clipboard/_widget.py,sha256=LaBntWSPhLzfEH_7GR6O6EttUgUP8y6wQaumL0bfGrg,979
+napari_clipboard/napari.yaml,sha256=AUqAojDYQ21V1AMc0sKAVWugsnNjDbRu-TGxQAiTUa8,341
+napari_clipboard/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_clipboard/_tests/test_widget.py,sha256=YWwdQISkTMcIqWNNL_8gR9di_sXm1E91ZOA75-fXhMY,366
+napari_clipboard-0.0.1.dist-info/LICENSE,sha256=J-KumcohP5g1V8sGkRvy9S0DwFxONpP-D7Jw6-T0bFY,1490
+napari_clipboard-0.0.1.dist-info/METADATA,sha256=jCEsYZAjnw7XgXB-B-SM_NKSgwcS_0nafiy6m7pBxd4,4291
+napari_clipboard-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_clipboard-0.0.1.dist-info/entry_points.txt,sha256=6zWh1t8Yi8svPr_I3AZszj9R5Il5aHOsNif_cTI6iCI,66
+napari_clipboard-0.0.1.dist-info/top_level.txt,sha256=VEaGDJTpPhhpTWuDVAC2W9XWbjaURVVACahA3YLYEm4,17
+napari_clipboard-0.0.1.dist-info/RECORD,,
