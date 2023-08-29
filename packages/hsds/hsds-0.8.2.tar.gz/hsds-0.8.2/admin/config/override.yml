@@ -1,0 +1,21 @@
+log_level: DEBUG 
+bucket_name: hsdstest
+#bucket_name: hdflab2
+#bucket_name: jreadey.mac.hsdsv2.test
+#bucket_name: jreadey.devone.hsds.test
+# server_name: my server name
+# server_name: hsds on devone 
+#http_streaming: False
+#log_timestamps: false
+#chaos_die: 4
+#metadata_mem_cache_size: 0
+chunk_mem_cache_size: 1000000000 
+#max_request_size: 100m
+#allow_any_bucket_read: false  # enable reads to buckets other than default bucket
+#allow_any_bucket_write: false # enable writes to buckets other than default bucket
+server_name: "nrel test on docker"
+#aws_region: us-west-2 # (original was us-east-1)
+#aws_s3_gateway: http://s3.us-west-2.amazonaws.com/ # (original was null)
+#aws_s3_no_sign_request: True # (original was false)
+
+
