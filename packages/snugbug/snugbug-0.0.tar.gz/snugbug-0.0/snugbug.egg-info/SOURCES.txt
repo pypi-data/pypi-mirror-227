@@ -1,0 +1,8 @@
+setup.py
+snugbug/__init__.py
+snugbug/module.py
+snugbug.egg-info/PKG-INFO
+snugbug.egg-info/SOURCES.txt
+snugbug.egg-info/dependency_links.txt
+snugbug.egg-info/requires.txt
+snugbug.egg-info/top_level.txt
