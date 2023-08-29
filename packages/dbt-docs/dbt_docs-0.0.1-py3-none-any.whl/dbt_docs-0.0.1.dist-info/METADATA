@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dbt-docs
+Version: 0.0.1
+Summary: Generate static dbt docs in various format
+Author: Léo Grosjean
+Author-email: leo.bigjin@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# dbt-docs
+
+A CLI application to generate documentation from dbt artifacts in various output formats.
+
+> _Strongly inspired from: https://github.com/terraform-docs/terraform-docs/_
+
+
