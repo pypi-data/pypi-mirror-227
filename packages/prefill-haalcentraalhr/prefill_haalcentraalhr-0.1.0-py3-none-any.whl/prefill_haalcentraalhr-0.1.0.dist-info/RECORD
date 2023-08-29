@@ -1,0 +1,15 @@
+prefill_haalcentraalhr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefill_haalcentraalhr/admin.py,sha256=Viq7XFaA08zHI-9uO091HDuxFkiOWOCrd4n1P41yMvY,222
+prefill_haalcentraalhr/apps.py,sha256=iYOi2LEg-wsCwyLRRFcOyJ3uXm9f1PydKc6o8JbAZLI,300
+prefill_haalcentraalhr/constants.py,sha256=4MguSCIZsCL3VZZ2e1PSbXW9TlqHYd5uJem3-0f8Zrk,10484
+prefill_haalcentraalhr/models.py,sha256=ysPKFaEuhWePxIdeJ8ESepbFQlag3lvDx6F8u7bvpoM,1133
+prefill_haalcentraalhr/plugin.py,sha256=MMpVFJDVuY7_Aszz6rdLWGOAhGQlHcnrNnpyolnMeno,3979
+prefill_haalcentraalhr/migrations/0001_initial.py,sha256=p-HS5uWjk6ZHycqMcJxiZBMeD3qOAJyPVrVLTUuig1Q,1262
+prefill_haalcentraalhr/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefill_haalcentraalhr/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prefill_haalcentraalhr/tests/test_plugin.py,sha256=P2rPF2SMvsdfLlIgC5tuTkIybd60wgp5wdPSqkhv4ic,6297
+prefill_haalcentraalhr-0.1.0.dist-info/LICENSE,sha256=sYoo3F1HQB_81P4FIf1t0L8dv4UnKkx9tvCx5_R6Mro,1052
+prefill_haalcentraalhr-0.1.0.dist-info/METADATA,sha256=kQUlJy_wJ0GPwsrQ65dBcxPo7RjouJbWF_k2KABncQk,5500
+prefill_haalcentraalhr-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+prefill_haalcentraalhr-0.1.0.dist-info/top_level.txt,sha256=yXyLmIj8Q5EfAxUx_0xu1WtgeIkKFM8-uOYWmsd1Kss,23
+prefill_haalcentraalhr-0.1.0.dist-info/RECORD,,
