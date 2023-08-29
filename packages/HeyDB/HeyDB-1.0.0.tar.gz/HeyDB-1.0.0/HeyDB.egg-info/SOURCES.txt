@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+HeyDB/__init__.py
+HeyDB.egg-info/PKG-INFO
+HeyDB.egg-info/SOURCES.txt
+HeyDB.egg-info/dependency_links.txt
+HeyDB.egg-info/top_level.txt
