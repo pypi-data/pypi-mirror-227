@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+introspective.egg-info/PKG-INFO
+introspective.egg-info/SOURCES.txt
+introspective.egg-info/dependency_links.txt
+introspective.egg-info/top_level.txt
