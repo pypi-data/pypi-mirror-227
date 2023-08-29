@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: auxiliary
+Version: 0.0.5
+Summary: TODO.
+Author-email: Florian Kofler <florian.kofler@tum.de>
+Maintainer-email: Florian Kofler <florian.kofler@tum.de>
+Project-URL: repository, https://github.com/neuronflow/auxiliary
+Keywords: biomedical image analysis,utils,helpers,auxiliary
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# auxiliary
+TODO
+
+
+## deploy
+
+### build
+```
+python -m build
+```
+
+### upload to pypi
+```
+twine upload dist/*
+```
