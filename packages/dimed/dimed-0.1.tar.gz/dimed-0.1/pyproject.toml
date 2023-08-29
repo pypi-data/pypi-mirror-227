@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "dimed"
+version = "0.1"
+description = "Dimed for CLI and packaging"
+readme = "README.md"
+authors = [
+    {name = "Dmitry Sorokin", email = "dmd40in@gmail.com"},
+]
+dependencies = ["click"]
+
+[project.scripts]
+dimed = "dimed.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]

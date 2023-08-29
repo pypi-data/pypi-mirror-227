@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/dimed/__init__.py
+src/dimed/cli.py
+src/dimed.egg-info/PKG-INFO
+src/dimed.egg-info/SOURCES.txt
+src/dimed.egg-info/dependency_links.txt
+src/dimed.egg-info/entry_points.txt
+src/dimed.egg-info/requires.txt
+src/dimed.egg-info/top_level.txt
