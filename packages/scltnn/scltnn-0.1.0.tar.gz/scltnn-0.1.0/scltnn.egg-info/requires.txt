@@ -1,0 +1,4 @@
+scanpy>=1.9
+numpy>=1.22
+pandas>=1.4
+distfit
