@@ -1,0 +1,8 @@
+cjkfuzz/__init__.py,sha256=PSp0xFK88LCw9VwdhzMpv4dpSywX6CAyZGJxo6bBcSk,171
+cjkfuzz/fuzz.py,sha256=0s5WTX4klNdfooK0JC5niUqHRs0gBEcczA9VSyvG6IM,250
+cjkfuzz/hamming.py,sha256=stz8O3fg399oBtDp5o3Ny5Ogz-4CjZfzCMGxw6LzvxM,330
+cjkfuzz/levenshtein.py,sha256=XyC-v7Oug5nAEie0FoaPzq7tswvD3kQvgS1XCTtVrX8,867
+cjkfuzz-0.0.1.dist-info/LICENSE,sha256=xS8qIAFSZebvdsr2N3O2l_FHKqZ8SMHcU6Q5HN3_SWA,1066
+cjkfuzz-0.0.1.dist-info/METADATA,sha256=k2HT8n81-n6hW1DwIMRRlwEOR08E8YIaSWAAx0LBiv0,617
+cjkfuzz-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cjkfuzz-0.0.1.dist-info/RECORD,,
