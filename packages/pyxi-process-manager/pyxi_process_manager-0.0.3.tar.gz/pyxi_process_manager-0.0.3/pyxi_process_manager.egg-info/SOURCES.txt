@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyxi_process_manager.egg-info/PKG-INFO
+pyxi_process_manager.egg-info/SOURCES.txt
+pyxi_process_manager.egg-info/dependency_links.txt
+pyxi_process_manager.egg-info/requires.txt
+pyxi_process_manager.egg-info/top_level.txt
