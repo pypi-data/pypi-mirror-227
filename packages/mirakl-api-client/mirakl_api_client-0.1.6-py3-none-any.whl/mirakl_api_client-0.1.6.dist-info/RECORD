@@ -1,0 +1,7 @@
+mirakl_api_client/__init__.py,sha256=Kq_6ra0AryeTFnjFquh-qrZ9aQ6-oGGmJw90FqaAtmM,33
+mirakl_api_client/client.py,sha256=k60U3K0Ky1SIE5mCchpU2OR_UXVMmi4Lp-iiSJ_FqnU,3213
+mirakl_api_client/resources.py,sha256=oVmsJWqMqZd9bBUA4TtMwv3q3oBxbWFlCccB2A2PVf0,13715
+mirakl_api_client/utils.py,sha256=uxj6ntFpLrGm2ZogIsLW6p8xX983TSUrRXLO95PpN4Y,255
+mirakl_api_client-0.1.6.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mirakl_api_client-0.1.6.dist-info/METADATA,sha256=gnn8ZeY2Ti_FV5l1WBXT2P510AFp1kgUSJS61AbXyDk,390
+mirakl_api_client-0.1.6.dist-info/RECORD,,
