@@ -1,0 +1,9 @@
+pnnx/__init__.py,sha256=XmKeD1XNKYAJGYZchkqVz0IIM-VmvNkwVqZArNaaqk0,32
+pnnx/wrapper.py,sha256=JR6B3KDa0c7EYGD2zLYgpLdAJyoJ0eEYyJ8YZobnL-0,2797
+pnnx/bin/pnnx-20230816-macos/pnnx,sha256=dHEv3Nlp9z3gXY8bkwe4YsjyC8RPd4L9WQCXhg-ksRs,59166656
+pnnx/bin/pnnx-20230816-ubuntu/pnnx,sha256=mCpnncdJiz8mKVoWC7me6PdPLYtd9QaTCMAXhnAAaJY,58528656
+pnnx/bin/pnnx-20230816-windows/pnnx.exe,sha256=_jYkHn1dQ6kjAUWLgiwCFcKenO3bQGaWa7-PUfY2Yrg,43229184
+pnnx-0.0.3.dist-info/METADATA,sha256=JQN_x7A64Z6-aCi4j6tEwkzHPAVlPZ99g1InLV0vU6g,963
+pnnx-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pnnx-0.0.3.dist-info/top_level.txt,sha256=VGFzoqvyIrBTQiKBPTFetfyUGPvKO8r9mggLGBKxEkw,5
+pnnx-0.0.3.dist-info/RECORD,,
