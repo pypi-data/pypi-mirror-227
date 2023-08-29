@@ -1,0 +1,21 @@
+[project]
+name = "economic-term"
+version = "0.2.0"
+description = "This is a vocabulary created using information on current economic terms of the Ministry of Strategy and Finance. The Ministry of Strategy and Finance site is much better, so please use it, and what you are currently looking at is for code practice."
+authors = [
+    { name = "gogododo", email = "4dovidovi4@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]

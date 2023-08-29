@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: economic-term
+Version: 0.2.0
+Summary: This is a vocabulary created using information on current economic terms of the Ministry of Strategy and Finance. The Ministry of Strategy and Finance site is much better, so please use it, and what you are currently looking at is for code practice.
+Author-Email: gogododo <4dovidovi4@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# economic-term
