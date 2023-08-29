@@ -1,0 +1,6 @@
+setup.py
+funaudio.egg-info/PKG-INFO
+funaudio.egg-info/SOURCES.txt
+funaudio.egg-info/dependency_links.txt
+funaudio.egg-info/requires.txt
+funaudio.egg-info/top_level.txt
