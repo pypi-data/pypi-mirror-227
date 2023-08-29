@@ -1,0 +1,10 @@
+apepay/__init__.py,sha256=rnpnycuHM39Tv0Dqhesr_tEUtDb2bfau_WTSRkgHtxo,14312
+apepay/daemon.py,sha256=IDBf4Kaivb0-J9scoxzcsYrUds-z7bH-2BroySWdpCc,4031
+apepay/exceptions.py,sha256=WYrsqhohoaz4RKTGJuW3Og2wPgwaL6bsTQESI7tC_UM,1517
+apepay/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apepay/settings.py,sha256=KHrQYGO9MIguppGQQzES0gacG-sC7BAJOxs63n_Kohg,1041
+apepay/utils.py,sha256=yyArluvlbVANu9UP9ttd3_dYio2cT-9cFpRPFHQRO0I,1773
+apepay-0.1.3.dist-info/LICENSE,sha256=qIm_hUZgcCwFRHsCfg1GMYKSR011rv1NlcHiyVJ6VJc,11342
+apepay-0.1.3.dist-info/METADATA,sha256=ZAsPhh5EiPZ2JD1Py0XsVhn3iaI1VIvgfL75kU4VSQM,2492
+apepay-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+apepay-0.1.3.dist-info/RECORD,,
