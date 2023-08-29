@@ -1,0 +1,9 @@
+README.md
+setup.py
+metabypasscaptcha/__init__.py
+metabypasscaptcha/main.py
+metabypasscaptcha.egg-info/PKG-INFO
+metabypasscaptcha.egg-info/SOURCES.txt
+metabypasscaptcha.egg-info/dependency_links.txt
+metabypasscaptcha.egg-info/requires.txt
+metabypasscaptcha.egg-info/top_level.txt
