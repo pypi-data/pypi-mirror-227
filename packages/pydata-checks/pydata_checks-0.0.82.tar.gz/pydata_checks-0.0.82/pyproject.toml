@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pydata_checks"
+version = "0.0.82"
+authors = [
+  { name="Ivan Zhang", email="ivanzhangofficial@gmail.com" },
+]
+description = "Data quality checks that don't suck."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+
+[project.urls]
+"Homepage" = "https://github.com/SuperiorityComplex/data-checks"
+"Bug Tracker" = "https://github.com/SuperiorityComplex/data-checks/issues"
+
+[options.packages.find]
+where = "data_checks"
