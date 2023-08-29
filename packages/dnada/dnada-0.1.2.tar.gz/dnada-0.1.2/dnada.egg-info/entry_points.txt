@@ -1,0 +1,2 @@
+[console_scripts]
+dnada_cli = app.dnada_cli:cli
