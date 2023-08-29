@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+integration/__init__.py
+integration/main.py
+markslibrary.egg-info/PKG-INFO
+markslibrary.egg-info/SOURCES.txt
+markslibrary.egg-info/dependency_links.txt
+markslibrary.egg-info/top_level.txt
+mylibrary/__init__.py
+mylibrary/client.py
+mylibrary/models.py
+mylibrary/module1.py
+tests/__init__.py
+tests/test_module1.py
