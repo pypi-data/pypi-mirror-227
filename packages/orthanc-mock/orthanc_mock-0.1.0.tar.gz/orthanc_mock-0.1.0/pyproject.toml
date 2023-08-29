@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "orthanc-mock"
+version = "0.1.0"
+description = "Mock for the python orthanc plugin intended for development"
+authors = ["Gabriel Couture <gacou54@ulaval.ca>"]
+readme = "README.md"
+packages = [{ include = "orthanc.py" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
