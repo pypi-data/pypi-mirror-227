@@ -1,0 +1,16 @@
+mypy_boto3_iottwinmaker/__init__.py,sha256=IeXpx9HmLV05FwbGC6BwHBI1JDo_hxfLKu4ocMV0K4s,413
+mypy_boto3_iottwinmaker/__init__.pyi,sha256=kRd0EjYI5RLbnKMymmO1OTI7Aq2OgK0BPhq3_sAlb8I,412
+mypy_boto3_iottwinmaker/__main__.py,sha256=YiCqtY_9MYvHlQXmUAlc86B3tmiFtNX2sRY-U7YQEGM,927
+mypy_boto3_iottwinmaker/client.py,sha256=9L7jI5FXTRCh9EjB1AoV8TUOmEcD5uuep8ZV6J9x8MM,24744
+mypy_boto3_iottwinmaker/client.pyi,sha256=YSAQNODZdU5y2J-U2Ja2-2GcBF2YrzxyNsSfWzEBwzs,24704
+mypy_boto3_iottwinmaker/literals.py,sha256=_QpWcqP-5gZifBHnMOUFA4Ww4xRD18GDNEBoXkzV4vc,9645
+mypy_boto3_iottwinmaker/literals.pyi,sha256=oWr8R1BRqj1hVtJaUKDxS093Fplc0VU536XUrUkCWCE,9643
+mypy_boto3_iottwinmaker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_iottwinmaker/type_defs.py,sha256=rbKOcpV_aVFpmrkP1zkb1NC9lRZEUHU8HNjos-5KwK8,35344
+mypy_boto3_iottwinmaker/type_defs.pyi,sha256=jVsSWD-QCXD4V8ydhJontOYy5dOaZsyO_OU66_Z8bKM,35343
+mypy_boto3_iottwinmaker/version.py,sha256=TdNWFUlWkV5vJyEpme0YDjjJMYoshLhRdAlC_WfMfAo,61
+mypy_boto3_iottwinmaker-1.28.36.dist-info/LICENSE,sha256=v0rThCyxXzUO7rKg6RM8RmmNKO6EvsBx_mdNoXUPxAU,1070
+mypy_boto3_iottwinmaker-1.28.36.dist-info/METADATA,sha256=oTN5v2WezwfjVtrX2YV5n7R2hssQaA-C8vyZ2Q3tl-E,12321
+mypy_boto3_iottwinmaker-1.28.36.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mypy_boto3_iottwinmaker-1.28.36.dist-info/top_level.txt,sha256=g2c64DArWjvAx2DoDx_iR6YQzmd3pFNbb_ifqbiAH6Y,24
+mypy_boto3_iottwinmaker-1.28.36.dist-info/RECORD,,
