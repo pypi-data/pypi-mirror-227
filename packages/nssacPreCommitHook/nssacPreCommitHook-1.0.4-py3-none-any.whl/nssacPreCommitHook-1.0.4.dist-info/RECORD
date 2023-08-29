@@ -1,0 +1,13 @@
+nssacPreCommitHook/__init__.py,sha256=vHxH0sqgVNYyODJm3yAk0NLjBSnfV_rTLK-c9vf26XE,465
+nssacPreCommitHook/configuration.py,sha256=rcvJteYfuwlslW8hbTxcEJZMVeb2ZU2-zMGltFCYQN4,4874
+nssacPreCommitHook/header.py,sha256=OERcO2M8EJyk_74k2dAkxaa6x3AYo2SGplH1B7ecIak,6696
+nssacPreCommitHook/preCommitHook.py,sha256=oRaQb_Rw2jUBgHOjv0rayloI_0jfmYaSAnq1E--RLeY,6237
+nssacPreCommitHook/git/__init__.py,sha256=mqjrrOm2Zngu14YwW0W-V2AoWLadGU2h-jkmzigm3SE,513
+nssacPreCommitHook/git/git.py,sha256=EyG3709OZ490rrG1cvjgbUlt7Hzn_517ZUN_-jaM-zM,2369
+nssacPreCommitHook/git/status.py,sha256=lZCAedgXjSmEvZPZSEZsRluYVAJhHQQCPr9r4aXr2d0,1986
+nssacPreCommitHook-1.0.4.data/scripts/preCommitHook.py,sha256=ZmQam41dOsvx_PI_t8xmAaWuvvsmkKWhNDnWOAwg8lQ,1583
+nssacPreCommitHook-1.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+nssacPreCommitHook-1.0.4.dist-info/METADATA,sha256=JSFzR5_T0BE9xJQSEgc3fa3mD_vJkf-GsxEkimXeV_4,2308
+nssacPreCommitHook-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nssacPreCommitHook-1.0.4.dist-info/top_level.txt,sha256=FXHGJ8C9vwf_MvQBdwI6ybksybLDmEKR6oqtqiOs1MM,19
+nssacPreCommitHook-1.0.4.dist-info/RECORD,,
