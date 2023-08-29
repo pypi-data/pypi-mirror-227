@@ -1,0 +1,10 @@
+textbase_framework/__init__.py,sha256=FWUXgkmeTYmpG8TNYKMMbLYJgnW33BFygKXAHOZ44k0,49
+textbase_framework/bot.py,sha256=1Q-ggUbkb6aQBrYezlCFcZyhOSY2VoleXL_Lt93VK4E,885
+textbase_framework/examples/huggingface-bot.py,sha256=znktAruSNZmNtabtvu91ddYpcfJhD9yFnOU4E16q_aQ,1347
+textbase_framework/examples/mimic-bot.py,sha256=a9VKiwS3bI4iSxoa2t6m_dSH28DaZCj2WnjVyN3NAoI,715
+textbase_framework/examples/openai-bot.py,sha256=DEAB8SGXVMfTmgWFnOR8v9_QP799b-F69tkAgv3UAnM,1297
+textbase_framework/message.py,sha256=wmNE2Gjt45LJEc26_3-NaLK4p95F4MJxNiqwIx3Kfn4,231
+textbase_framework/models.py,sha256=QW70ELjH28xbSPnWrnY3rth7U7Bt4DMwQVVuAcoatTk,4722
+textbase_framework-0.1.3.dist-info/METADATA,sha256=IzLC4AcPaeQWnTzJehQ3GqadYX4LzXTesHPo0ITQH4Q,10602
+textbase_framework-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+textbase_framework-0.1.3.dist-info/RECORD,,
