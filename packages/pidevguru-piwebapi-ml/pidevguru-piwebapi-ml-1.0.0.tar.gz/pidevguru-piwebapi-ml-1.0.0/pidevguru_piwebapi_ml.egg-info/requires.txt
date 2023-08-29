@@ -1,0 +1,2 @@
+pidevguru-piwebapi>=1.0.3
+pandas>=0.20.3
