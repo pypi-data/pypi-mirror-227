@@ -1,0 +1,13 @@
+pysentation/__init__.py,sha256=6B78U0bsRtCPUpoxHk3lJeFSB1-XLP8KgESfJB1MdRE,1484
+pysentation/errors.py,sha256=ZnzWQmiOKaCZ-qR_t5TIRiA2EoH-QMz5ljepOdM2ep4,2555
+pysentation/module.py,sha256=pv_j9Ex3AX32WuFOSai5i7tqv9RGZkprhT8GbvW9xOk,35789
+pysentation/package.py,sha256=P24k8X2jvPIqRKeIh6Mw5P-PbaYae7BO-Vhsc3vQNm4,1592
+pysentation/pysentation.py,sha256=CHOX0zizDrE4l0rIS7u6iym6GZBcEZK_JoeomB--B7s,9290
+pysentation/signs.py,sha256=6Q4FghkkbDqKBSx18-HC4NpV3Yr06A7IXtyxbtVeHwI,1688
+pysentation-1.0.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+pysentation-1.0.0.dist-info/METADATA,sha256=tfYWXwSmaSmwbb-5XE7FiKipjDHo2qioZ9T_V_KA3r0,31661
+pysentation-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pysentation-1.0.0.dist-info/dependency_links.txt,sha256=3KzIzj6hNF_2-2SyV-r0H6dgV3fw4CG1CD1yaYyPgPI,40
+pysentation-1.0.0.dist-info/entry_points.txt,sha256=W9T9zFIv5LoxcroQz_q8Dg7qrA-QbFwmXWwSfpRJVxs,61
+pysentation-1.0.0.dist-info/top_level.txt,sha256=JLnlS4ZhtW9Ki7waYVOL9MOLxpsBvTCRgr5dbIulMh4,12
+pysentation-1.0.0.dist-info/RECORD,,
