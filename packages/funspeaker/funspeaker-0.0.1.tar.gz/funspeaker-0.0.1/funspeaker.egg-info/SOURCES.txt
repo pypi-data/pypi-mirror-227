@@ -1,0 +1,6 @@
+setup.py
+funspeaker.egg-info/PKG-INFO
+funspeaker.egg-info/SOURCES.txt
+funspeaker.egg-info/dependency_links.txt
+funspeaker.egg-info/requires.txt
+funspeaker.egg-info/top_level.txt
