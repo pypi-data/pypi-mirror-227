@@ -1,0 +1,14 @@
+cjkfuzz/__init__.py,sha256=vYczCGvSvnzZ8XJufvUPMxRhc0J7U3UdcjRDEsSBXP4,178
+cjkfuzz/chaizi/.git,sha256=ArmmwMcU_iKHZyWb15c1uZ_GFQLkmmMA0N7PCMLF3M8,42
+cjkfuzz/chaizi/chaizi-ft.txt,sha256=gxBRxIfV_JLuL-3zZCnSsqWDFwwlGOpX43Hw60R-ypQ,338358
+cjkfuzz/chaizi/chaizi-jt.txt,sha256=NRlcTHBg97f1XcrYQgUJJOv9UbtcxZRuhUOIwVo5IuE,328876
+cjkfuzz/chaizi/fanjian_suoyin.txt,sha256=93wSURzw4vRom04YGw_5FMzsfIPffmnFGkf6cBOODyY,160350
+cjkfuzz/chaizi/LICENSE,sha256=S8g05awllZ55Sj39PkUuYVZzKLzLnkEL4lStkxSu2Xs,851
+cjkfuzz/chaizi/README.md,sha256=8pYABPKK2por3j69paImVg36f7zXGN0odd_mD1zC8_g,2302
+cjkfuzz/fuzz.py,sha256=JVqxN2YwLPlKMmUl-Gm0N0ve-VGGT-SoBkZU8N0lPQE,258
+cjkfuzz/hamming.py,sha256=oXhzlRe_eSXL3AdLPbhrye9GZ1yYeGctSKAq31fEcCQ,338
+cjkfuzz/levenshtein.py,sha256=DRfa_lXtC60gDD2U2CfBemWICuGsV-tEgzg0ZogZcSA,891
+cjkfuzz-0.0.0.dist-info/LICENSE,sha256=xS8qIAFSZebvdsr2N3O2l_FHKqZ8SMHcU6Q5HN3_SWA,1066
+cjkfuzz-0.0.0.dist-info/METADATA,sha256=Rp6i_j3yH8iRJfkPRK5bW1iqEGAnvdja2qMc3Rap3V0,617
+cjkfuzz-0.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cjkfuzz-0.0.0.dist-info/RECORD,,
