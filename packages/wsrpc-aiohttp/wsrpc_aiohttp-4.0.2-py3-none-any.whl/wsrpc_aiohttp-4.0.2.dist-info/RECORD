@@ -1,0 +1,17 @@
+wsrpc_aiohttp/__init__.py,sha256=Vnocv_BIJo_bak-Flwibbg4Gy0RRYjFyBo81k4ia8r0,721
+wsrpc_aiohttp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wsrpc_aiohttp/signal.py,sha256=xuuAUH8q9eCZm6yVtYjBkT4fomOEsalOV7Me6QVJK3M,1226
+wsrpc_aiohttp/version.py,sha256=-026mrz59BfsXDthOrJyId4FaqsTXWXcd8YksQtL-JA,489
+wsrpc_aiohttp/websocket/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wsrpc_aiohttp/websocket/abc.py,sha256=JclcUYkUTlr5CxzihkjfrQEPE8vFhL0WWfQxUw2IDgQ,9274
+wsrpc_aiohttp/websocket/client.py,sha256=PKnMFk6bIYGgV8C047bzCmQ5CsUCaCCXZUN9KuMNxcg,2768
+wsrpc_aiohttp/websocket/common.py,sha256=fJFdbW0xG1JtK4sSf9mDXqt1jVBqseyYLfLT0Y6LOlA,15735
+wsrpc_aiohttp/websocket/decorators.py,sha256=3CLPGZ0nT6ek6SwrQPLuwsSrOCf-VywcxD0-Ty8Uk1w,259
+wsrpc_aiohttp/websocket/handler.py,sha256=Ggwp2zu7dErdSFVb-9dfcVX1jjEH9QGM-mMHwmId6Vg,9546
+wsrpc_aiohttp/websocket/route.py,sha256=ux1Es83No_qewcygUaFEVrXiWntXRMi6WNI4hJsqID4,3782
+wsrpc_aiohttp/websocket/tools.py,sha256=c_3LnV7kDx2ozSKQc3gruEbdLgg1aDJbhrO713a3FTw,1852
+wsrpc_aiohttp-4.0.2.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+wsrpc_aiohttp-4.0.2.dist-info/METADATA,sha256=ziTL2Dw90k80A0e-CEiYW4SoFvLEo2zlem6hRpfCd8s,6934
+wsrpc_aiohttp-4.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wsrpc_aiohttp-4.0.2.dist-info/top_level.txt,sha256=wKUhHVng-qsrXaQuP99618KiiBp4BZs7diSKs3Dv-AU,14
+wsrpc_aiohttp-4.0.2.dist-info/RECORD,,
