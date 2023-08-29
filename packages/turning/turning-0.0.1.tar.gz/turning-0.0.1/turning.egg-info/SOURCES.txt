@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+turning.egg-info/PKG-INFO
+turning.egg-info/SOURCES.txt
+turning.egg-info/dependency_links.txt
+turning.egg-info/top_level.txt
