@@ -1,0 +1,5 @@
+setup.py
+pymodule33.egg-info/PKG-INFO
+pymodule33.egg-info/SOURCES.txt
+pymodule33.egg-info/dependency_links.txt
+pymodule33.egg-info/top_level.txt
