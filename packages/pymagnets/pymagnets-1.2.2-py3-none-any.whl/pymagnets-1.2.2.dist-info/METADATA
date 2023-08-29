@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: pymagnets
+Version: 1.2.2
+Summary: Python utilities for building magnets via the UserScript.py of the Magnets_Gitrepository
+Author-email: Ambre Visive <ambre.visive@cern.ch>
+Maintainer-email: Ambre Visive <ambre.visive@cern.ch>
+Project-URL: homepage, https://pypi.org/project/pymagnets/
+Project-URL: documentation, https://gitlab.cern.ch/mango/mango_gitrepository
+Project-URL: repository, https://gitlab.cern.ch/mango/mango_pymagnets
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: operapy
+Requires-Dist: opera2d
+Requires-Dist: canvas
+Requires-Dist: numpy >=1.14
+
+# pymagnets #
+
+A python package containing the utilities needed by MANGO to generate a FE-model of a magnet and use it to produce magnetic fieldmaps and other post-processing features. See "https://gitlab.cern.ch/mango/mango_gitrepository" for more detailed information and the user guide of MANGO.
+
+## Authors ##
+
+A. Visive
+
+## Setup ##
+
+pip install pymagnets
+
+or for older versions than 1.2.1
+
+pip install -i https://test.pypi.org/simple/ pymagnets
