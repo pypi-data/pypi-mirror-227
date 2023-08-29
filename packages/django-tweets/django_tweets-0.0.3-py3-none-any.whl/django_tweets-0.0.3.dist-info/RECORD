@@ -1,0 +1,12 @@
+django_tweets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_tweets/admin.py,sha256=59Pjl99Vi6Azqccs2feqB_WC94IQA-aEF5d-cdFNk-M,1204
+django_tweets/apps.py,sha256=TYlq2rr-lKpiWoMnHvtfbMzH6oYAc-HR33XQDUiYgzM,157
+django_tweets/clients.py,sha256=oKbig12ntN5N3ohhZeJCy-Rkt6wUILw8EPhJyQsLrWc,794
+django_tweets/decorators.py,sha256=ydnacxKJxW6h6StxJm2_SYZcF_kWM_bKa3atI0NppqM,571
+django_tweets/exceptions.py,sha256=v-AHDNQuMuCVarvbB6hKotw8mu8F9q8VLqoF2P02Kns,40
+django_tweets/models.py,sha256=ZrgmGRrgx7VsgzbpDghcdfJmO44y0IkAVtwPlm5EyNY,4486
+django_tweets-0.0.3.dist-info/LICENSE,sha256=sanjrCqCbSdImekwsWWZCDXCG5qIhVU1xHE-QLl9zqU,1075
+django_tweets-0.0.3.dist-info/METADATA,sha256=5O484e0zsskaHNV7VcLBEsSWdAm7Fkiz2dAExpRCAXs,4747
+django_tweets-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_tweets-0.0.3.dist-info/top_level.txt,sha256=c4JtHeQhmuFvS9ZHZhTr4mdk2H4jHDAIFm_rQZHX19w,14
+django_tweets-0.0.3.dist-info/RECORD,,
