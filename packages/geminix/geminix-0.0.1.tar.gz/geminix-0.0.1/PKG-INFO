@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: geminix
+Version: 0.0.1
+Summary: Gemini - Pytorch
+Home-page: https://github.com/kyegomez/Gemini
+License: MIT
+Keywords: artificial intelligence,attention mechanism,transformers
+Author: Kye Gomez
+Author-email: kye@apac.ai
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: torch
+Description-Content-Type: text/markdown
+
+[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+
+# Gemini
+The open source implementation of Gemini, the model that will "eclipse ChatGPT", 
+
+
+
+# References
+* Combine Reinforcment learning with modular pretrained transformer, multi-modal capabilities, image, audio, 
+* self improving mechanisms like robocat
+* PPO? or MPO
+* get good at backtracking and exploring alternative paths
+* speculative decoding
+*
