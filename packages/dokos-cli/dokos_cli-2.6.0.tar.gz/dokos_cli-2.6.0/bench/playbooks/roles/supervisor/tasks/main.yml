@@ -1,0 +1,30 @@
+---
+- name: Install supervisor on centos
+  yum: name=supervisor state=present
+  when: ansible_os_family == 'RedHat'
+
+- name: Install supervisor on debian
+  apt: pkg=supervisor state=present force=yes
+  when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+
+- name: Change file permissions in supervisord.conf
+  replace:
+    path: /etc/supervisor/supervisord.conf
+    regexp: "chmod=0700"
+    replace: "chmod=0760"
+  become: yes
+  become_user: root
+  when: ansible_distribution == 'Ubuntu' or ansible_distribution == 'Debian'
+
+- name: Change user permissions in supervisord.conf
+  lineinfile:
+    path: /etc/supervisor/supervisord.conf
+    line: "chown={{ frappe_user }}:{{ frappe_user }}"
+    insertafter: "chmod=0760"
+    state: present
+  become: yes
+  become_user: root
+  when: ansible_distribution == 'Ubuntu' or ansible_distribution == 'Debian'
+
+- name: Restart supervisor
+  service: name=supervisor state=restarted
