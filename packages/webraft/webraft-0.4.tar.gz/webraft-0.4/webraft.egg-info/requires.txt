@@ -1,0 +1,8 @@
+django
+djangorestframework
+PyJWT
+fastapi
+flask
+bottle
+cryptography
+user-agents
