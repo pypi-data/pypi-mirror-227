@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/pyfanuc/__init__.py
+src/pyfanuc/__main__.py
+src/pyfanuc/main.py
+src/pyfanuc.egg-info/PKG-INFO
+src/pyfanuc.egg-info/SOURCES.txt
+src/pyfanuc.egg-info/dependency_links.txt
+src/pyfanuc.egg-info/entry_points.txt
+src/pyfanuc.egg-info/requires.txt
+src/pyfanuc.egg-info/top_level.txt
