@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: yqg-py-scheduler
+Version: 0.1.4
+Summary: 分布式scheduler的executor部分的python实现
+Author: xhgao
+Author-email: xhgao@yangqianguan.com
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: kazoo
+Requires-Dist: PyYAML
+
