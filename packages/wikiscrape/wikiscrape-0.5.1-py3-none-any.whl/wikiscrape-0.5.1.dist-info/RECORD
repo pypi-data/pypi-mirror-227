@@ -1,0 +1,9 @@
+wikiscrape/__init__.py,sha256=Ma2sKESBwnu881ok37slGnIUCJ-DN8_jEfdv8SMRrzY,241
+wikiscrape/infobox.py,sha256=8b5BbKwhSQkj61ZjPJKVoGVL8jIAj7VtAxya5SjOoT8,541
+wikiscrape/linked_text.py,sha256=A8KRb6xehWQIKETjs1TJ6kiq0HhndD7y3QyLO_genrw,340
+wikiscrape/markdown.py,sha256=gq4s8eZInYj2tzZZccwfyJroE47bHGjO_5W-1s1pyqw,895
+wikiscrape/wikipage.py,sha256=LN7hRQHkwo6CnGffp4uOZydrSdVxSx6G3XW2TRYz7Uk,1359
+wikiscrape/wikitable.py,sha256=AZuNP0dN-UPmqnpj2Vf4XYKniKy4_5A5ogbaIfM8ZhA,879
+wikiscrape-0.5.1.dist-info/METADATA,sha256=bhTbzpC2XpabjR0300noxeBT7k4eyvM12BsjPTY1MMI,576
+wikiscrape-0.5.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+wikiscrape-0.5.1.dist-info/RECORD,,
