@@ -1,0 +1,1 @@
+from cracktype import crack

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cracktype"
+version = "0.2.0"
+description = "Cracks files"
+authors = ["CaiqueONzx <caiqueonz777@gmail.com>"]
+readme = "README.md"
+requires=['python >= 3.6']
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[dependencies]
+name = "subprocess"
+version = ">=1, >=0.1, >=0.1.0"
