@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: camerasimulatordb
+Version: 1.1.2
+Summary: Package of a basic lens and sensor simulator
+Home-page: https://github.com/DanBeltranuwu/camera-simulator
+Download-URL: https://github.com/DanBeltranuwu/camera-simulator/archive/refs/tags/Alpha.tar.gz
+Author: Daniel Beltran
+Author-email: dmbeltranr1@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
