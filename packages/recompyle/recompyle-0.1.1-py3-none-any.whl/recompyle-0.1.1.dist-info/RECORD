@@ -1,0 +1,15 @@
+recompyle/__about__.py,sha256=dlgtKtd-fikFq9BU9tTKivuTLMJbghHdrfMw2EXOyow,126
+recompyle/__init__.py,sha256=Xts4DNIVq-Ozy34ZS1O_0Cjl0I0vh39aAd2WUiqCmtU,163
+recompyle/applied/__init__.py,sha256=06OoRRyqxx0tH7Y6erlb0ajR5RPllPHg7e6lK_MfZXs,155
+recompyle/applied/shallow_profiler.py,sha256=WubY7e1PsK6RiFLHWiZPIpWzoHnP4jFwKyAgFMlXaY4,5772
+recompyle/decorators/__init__.py,sha256=YFm5-OdEdlAZ2VqbAM4iiIIdzlhU4xkoIcXEXfMXRrs,151
+recompyle/decorators/decorate_function.py,sha256=4my5E3ge0szrtCilpSsdNb6FK2eupkZ-IXYl34QkAF8,1937
+recompyle/rewrite/__init__.py,sha256=Ad_71LaAYURF2M47c8oUKqD3ZKZadg9kQKKe4VEtrz0,188
+recompyle/rewrite/rewrite_function.py,sha256=szKZf0juh8Uy7nIiheQ9-glcjrRuAoMwj4PbFE75ddw,9897
+recompyle/transformers/__init__.py,sha256=xGGr1j8ucFWDOj3LiSfYP-O4n5erjYb6mF5U8E3a-K8,150
+recompyle/transformers/base.py,sha256=k4fAleJg7BxsZGk0mE4YEtMv19mZUjt2A2Q5nBwwQtc,748
+recompyle/transformers/function.py,sha256=qytoe0XOkIV5ovNLiDPzmDUZuipRr_NTGMtqBSV8p88,7992
+recompyle-0.1.1.dist-info/METADATA,sha256=U6BCVdPAGQm5V3BXYu3VYH5yBHuexjiwJ3xqhw-OjYE,13847
+recompyle-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+recompyle-0.1.1.dist-info/licenses/LICENSE.txt,sha256=71gRAI0nqsF7xW2n2V4Ay8Ba7kVHkJT3IMircHlj1Hg,1096
+recompyle-0.1.1.dist-info/RECORD,,
