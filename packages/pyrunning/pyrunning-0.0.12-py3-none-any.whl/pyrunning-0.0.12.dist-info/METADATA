@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyrunning
+Version: 0.0.12
+Summary: A python library to run and live-log OS commands, functions, scripts, and batch jobs either immedietly, or to be queued for later execution.
+Home-page: https://github.com/shivanandvp/pyrunning
+Download-URL: https://pypi.org/project/pyrunning/
+Author: shivanandvp
+Author-email: shivanandvp.oss@gmail.com
+Project-URL: Documentation, https://github.com/shivanandvp/pyrunning/
+Project-URL: Source, https://github.com/shivanandvp/pyrunning
+Project-URL: Tracker, https://github.com/shivanandvp/pyrunning/issues
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# pyrunning
+
+*Please refer to [`LICENSE`](./LICENSE) for license information.*
+
+## Overview
+
+A python library to run and live-log *OS commands*, *functions*, *scripts*, and *batch jobs* either immedietly, or to be queued for later execution.
+
+**Warning**: This package is still in the Beta stage. It is not ready for production use. Please do not use for any critical software
+
+## [PLEASE CLICK HERE](https://github.com/shivanandvp/pyrunning/index.html) for the full documentation
