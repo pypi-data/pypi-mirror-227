@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/test_sovre/__init__.py
+src/test_sovre/mock.py
+src/test_sovre.egg-info/PKG-INFO
+src/test_sovre.egg-info/SOURCES.txt
+src/test_sovre.egg-info/dependency_links.txt
+src/test_sovre.egg-info/top_level.txt
+test/test_example.py
