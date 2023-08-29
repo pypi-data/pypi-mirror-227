@@ -1,0 +1,13 @@
+hatch_cython/__about__.py,sha256=907DbA_PWIgnYpk-KppGhiQaP1isxvWxXaEWQBVxcJE,144
+hatch_cython/__init__.py,sha256=A0SzD3Vupmj1Mek2M8KN8sQ3d7iZPdZ9wY3l9VSi1zc,227
+hatch_cython/config.py,sha256=8pGikTWKUtaLjwGaLhNP-lnQ-hG3Ov6josOjCesQiiQ,14200
+hatch_cython/devel.py,sha256=TcwNXFIwVbN7KaUuPwB6PCSwCzpS41JjZhLgDEdj_KU,274
+hatch_cython/hooks.py,sha256=ZK-kpAfReBxaB7ERV7cm3KB0dJt3gYVDNM9UiceKB8I,159
+hatch_cython/plugin.py,sha256=NsuN_gbyXaWF-t2X86maVd5sX9AxQpbowOmkOyCbhsM,10645
+hatch_cython/types.py,sha256=KjRsqmmzSJ6u-TtXwPQxQuTDu67b-8L7T2jp5QI2gVA,632
+hatch_cython/utils.py,sha256=e66b21IGQKrgtYxJesya5eOCm5FvFvhBtTd89VYnoJs,311
+hatch_cython-0.2.3.dist-info/METADATA,sha256=BYz43ndUzG9TnyjbpExPUgFO0f4i4WJjvCTUosw4CF4,10308
+hatch_cython-0.2.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hatch_cython-0.2.3.dist-info/entry_points.txt,sha256=W6M_bLzT9JKKAkdJ5nmcMIVl--oFeUmXHUKILgwL61k,36
+hatch_cython-0.2.3.dist-info/licenses/LICENSE.txt,sha256=M2uYSAy2GM02XIUVZapv_1__739FMfiHEu2FsjI87lM,1114
+hatch_cython-0.2.3.dist-info/RECORD,,
