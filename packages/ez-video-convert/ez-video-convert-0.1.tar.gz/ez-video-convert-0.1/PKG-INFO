@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ez-video-convert
+Version: 0.1
+Summary: A simple tool to convert .mov video files to .mp4 format.
+Home-page: https://github.com/yourusername/ez-video-convert
+Author: Malek Ibrahim
+Author-email: shmeek8@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ez-video-convert
+A repo for easily converting videos from one form to another using a command line interface (CLI).
+
+## Installation
+
+```bash
+pip install ez-video-convert
+```
+
+## Usage
+
+1. Copy the path of the `.mov` file you wish to convert to your clipboard.
+2. Open the terminal and simply run
+
+```bash
+mov2mp4
+```
+
+The script will produce an `.mp4` file in the same location as the `.mov` file.
+
+## Dependencies
+
+- This tool uses `ffmpeg` under the hood, so you will need to have that installed on your system
+- The clipboard functionality is provided by `pyperclip`
