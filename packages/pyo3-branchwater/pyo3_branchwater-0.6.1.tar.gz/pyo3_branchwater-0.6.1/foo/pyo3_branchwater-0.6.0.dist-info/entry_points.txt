@@ -1,0 +1,4 @@
+[sourmash.cli_script]
+manysearch=pyo3_branchwater:Branchwater_Manysearch
+fastgather=pyo3_branchwater:Branchwater_Fastgather
+fastmultigather=pyo3_branchwater:Branchwater_Fastmultigather
