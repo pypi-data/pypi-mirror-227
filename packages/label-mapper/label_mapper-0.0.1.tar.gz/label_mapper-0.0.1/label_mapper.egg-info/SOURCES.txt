@@ -1,0 +1,9 @@
+README.md
+setup.py
+label_mapper/__init__.py
+label_mapper/component.py
+label_mapper.egg-info/PKG-INFO
+label_mapper.egg-info/SOURCES.txt
+label_mapper.egg-info/dependency_links.txt
+label_mapper.egg-info/requires.txt
+label_mapper.egg-info/top_level.txt

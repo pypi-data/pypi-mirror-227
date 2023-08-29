@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: label-mapper
+Version: 0.0.1
+Summary: A spaCy extension to map NER labels.
+Author: WJB Mattingly
+Description-Content-Type: text/markdown
+
+Label Mapper is a spaCy factory that can receive a mapping dictionary that changes the labels for entities. It should come at the end of the pipeline or after the NER or EntityRuler.
+
+# Installation
+
+```bash
+pip install label-mapper
+```
+
+# Usage
+
+```python
+nlp = spacy.load("en_core_web_sm")
+label_map = {"GPE": "LOC"}
+nlp.add_pipe(
+            "label_fixer",
+            last=True,
+            config={"label_map": label_map}
+            )
+doc = nlp("We went into Yellowstone Park in Wyoming.")
+for ent in doc.ents:
+    print(ent.text, ent.label_)
+```
+
+Output:
+
+```
+Yellowstone Park LOC
+Wyoming LOC
+```
