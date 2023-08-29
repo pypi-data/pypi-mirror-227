@@ -1,0 +1,6 @@
+vec2_math~=0.1.0
+
+[dev]
+pytest~=7.4.0
+commitizen
+pre-commit
