@@ -1,0 +1,8 @@
+polygon-geohasher==0.0.1
+shapely==1.8.5.post1
+Geohash==1.0
+georaptor==2.0.3
+pyshp==2.3.1
+geojson==2.5.0
+geohashlite==0.3.2
+numpy==1.23.4
