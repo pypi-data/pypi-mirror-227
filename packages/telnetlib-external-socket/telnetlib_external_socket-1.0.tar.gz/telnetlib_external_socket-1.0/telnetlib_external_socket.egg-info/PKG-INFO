@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: telnetlib-external-socket
+Version: 1.0
+Summary: added external socket to standart telnetlib
+Home-page: https://github.com/myxx921/telnetlib_external_socket
+Author: myxx921
+Author-email: myxx921@gmail.com
