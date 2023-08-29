@@ -1,0 +1,9 @@
+cutpaste/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cutpaste/cut.py,sha256=mIi5J7j0P6QxCp4aV5lau5rrdaE0xD8rm3vulbYDAYg,307
+cutpaste/paste.py,sha256=pvRHwDTfYiP-UnK3h2vNlQeVXlpuccyf32aK2lc9iBo,309
+cutpaste/version.py,sha256=csYX59aESIQQyLiORkejCBs4UXc619Z_WzjsjjNrIOU,18
+cutpaste-0.0.0.dist-info/METADATA,sha256=jafi10gwckp1CZZ9ieuHXJTba8tVIDz6e5o0ax5pLeo,408
+cutpaste-0.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cutpaste-0.0.0.dist-info/entry_points.txt,sha256=EE7zUzoz_fUl66BsIJbEAgm13iqG7pM80KBqm-E5iZI,74
+cutpaste-0.0.0.dist-info/top_level.txt,sha256=PXMigo33ywtFXAtofh-FVXCgG3d0RDgqMuMcWgE2oIU,9
+cutpaste-0.0.0.dist-info/RECORD,,
