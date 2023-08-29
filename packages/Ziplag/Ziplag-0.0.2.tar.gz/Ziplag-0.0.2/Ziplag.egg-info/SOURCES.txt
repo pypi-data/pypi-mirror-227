@@ -1,0 +1,9 @@
+CHANGELOG.txt
+LICENSE
+README.md
+setup.py
+Ziplag.egg-info/PKG-INFO
+Ziplag.egg-info/SOURCES.txt
+Ziplag.egg-info/dependency_links.txt
+Ziplag.egg-info/top_level.txt
+ziplag/__init__.py
