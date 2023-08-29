@@ -1,0 +1,3 @@
+[console_scripts]
+wordpress-rss-archiver=wordpress_rss_archiver.wordpress_rss_archiver:main
+
