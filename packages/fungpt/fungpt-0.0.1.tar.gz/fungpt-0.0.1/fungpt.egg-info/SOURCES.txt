@@ -1,0 +1,6 @@
+setup.py
+fungpt.egg-info/PKG-INFO
+fungpt.egg-info/SOURCES.txt
+fungpt.egg-info/dependency_links.txt
+fungpt.egg-info/requires.txt
+fungpt.egg-info/top_level.txt
