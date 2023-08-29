@@ -1,0 +1,2 @@
+[console_scripts]
+keep-presence = keep_presence.__main__:main
