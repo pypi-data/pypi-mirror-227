@@ -1,0 +1,7 @@
+README
+setup.cfg
+setup.py
+speaking.egg-info/PKG-INFO
+speaking.egg-info/SOURCES.txt
+speaking.egg-info/dependency_links.txt
+speaking.egg-info/top_level.txt
