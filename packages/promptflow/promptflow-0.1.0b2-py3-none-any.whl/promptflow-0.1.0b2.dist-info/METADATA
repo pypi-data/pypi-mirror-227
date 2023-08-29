@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: promptflow
+Version: 0.1.0b2
+Summary: PromptFlow SDK
+Home-page: https://github.com/microsoft/promptflow
+Author: Microsoft Corporation
+Author-email: aml-pt-eng@microsoft.com
+License: MIT License
+Project-URL: Bug Reports, https://github.com/microsoft/promptflow/issues
+Project-URL: Source, https://github.com/microsoft/promptflow
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <4.0,>=3.8
+License-File: NOTICE.txt
+Requires-Dist: openai (<0.28.0,>=0.27.8)
+Requires-Dist: flask (<3.0.0,>=2.2.3)
+Requires-Dist: dataset (<2.0.0,>=1.6.0)
+Requires-Dist: sqlalchemy (<2.0.0,>=1.4.48)
+Requires-Dist: pandas (<2.0.0,>=1.5.3)
+Requires-Dist: python-dotenv (<2.0.0,>=1.0.0)
+Requires-Dist: keyring (<25.0.0,>=24.2.0)
+Requires-Dist: pydash (<6.0.0,>=5.1.2)
+Requires-Dist: cryptography (<42.0.0,>=41.0.3)
+Requires-Dist: colorama (<0.5.0,>=0.4.6)
+Requires-Dist: tabulate (<1.0.0,>=0.9.0)
+Requires-Dist: filelock (<4.0.0,>=3.4.0)
+Requires-Dist: marshmallow (<4.0.0,>=3.5)
+Requires-Dist: pyyaml (<7.0.0,>=5.1.0)
+Requires-Dist: gitpython (<4.0.0,>=3.1.24)
+Provides-Extra: azure
+Requires-Dist: azure-core (<2.0.0,>=1.26.4) ; extra == 'azure'
+Requires-Dist: azure-storage-blob (<13.0.0,>=12.13.0) ; extra == 'azure'
+Requires-Dist: azure-identity (<2.0.0,>=1.12.0) ; extra == 'azure'
+Requires-Dist: azure-ai-ml (<2.0.0,>=1.9.0) ; extra == 'azure'
+Requires-Dist: pyjwt (<3.0.0,>=2.4.0) ; extra == 'azure'
+
