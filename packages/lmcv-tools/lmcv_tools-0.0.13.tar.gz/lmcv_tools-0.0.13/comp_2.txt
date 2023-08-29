@@ -1,0 +1,35 @@
+# Test
+MVF-01-16
+
+# Original
+Number of equations = 15740
+Symmetric stiffness matrix
+Number of stored elements (skyline format) = 93_579_552
+Maximum bandwith = 15_690
+Average bandwith = 5945.33
+
+# MATLAB Sloan
+Number of equations = 15740
+Symmetric stiffness matrix
+Number of stored elements (skyline format) = 5_365_338
+Maximum bandwith = 2_458
+Average bandwith = 340.87
+CPU time: 1.3880 (s)
+
+# LMCV Tools Sloan
+Number of equations = 15740
+Symmetric stiffness matrix
+Number of stored elements (skyline format) = 5_282_355
+Maximum bandwith = 1_995
+Average bandwith = 335.60
+CPU time: 1.3570 (s)
+
+# LMCV Tools RCM
+Number of equations = 15740
+Symmetric stiffness matrix
+Number of stored elements (skyline format) = 6_000_816
+Maximum bandwith = 971
+Average bandwith = 381.25
+CPU time: 1.7050 (s)
+
+

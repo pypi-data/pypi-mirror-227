@@ -1,0 +1,23 @@
+# Test
+MVB-01-12
+
+# Original
+Number of equations = 2121
+Symmetric stiffness matrix
+Number of stored elements (skyline format) = 593_949
+Maximum bandwith = 329
+Average bandwith = 280.03
+
+# LMCV Tools Sloan
+Number of equations = 2121
+Symmetric stiffness matrix
+Number of stored elements (skyline format) = 416_410
+Maximum bandwith = 1258
+Average bandwith = 196.33
+
+# LMCV Tools RCM
+Number of equations = 2121
+Symmetric stiffness matrix
+Number of stored elements (skyline format) = 726_439
+Maximum bandwith = 565
+Average bandwith = 342.50
