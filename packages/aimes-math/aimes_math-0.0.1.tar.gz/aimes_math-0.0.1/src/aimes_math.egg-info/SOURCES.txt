@@ -1,0 +1,11 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/aimes_math/__init__.py
+src/aimes_math/aimes_number.py
+src/aimes_math/aimes_table.py
+src/aimes_math/operations.py
+src/aimes_math.egg-info/PKG-INFO
+src/aimes_math.egg-info/SOURCES.txt
+src/aimes_math.egg-info/dependency_links.txt
+src/aimes_math.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aimes-math
+Version: 0.0.1
+Summary: Package contains methods for operating formula nodes via AIMES_table and AIMES_number, this package is only for using it via AIMES.
+Home-page: https://github.com/bani2016up/aimes_math
+Author: Daniil Parfenov
+Author-email: daniil.parfenov@aimestech.com
+Project-URL: Bug Tracker, https://github.com/bani2016up/aimes_math/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
