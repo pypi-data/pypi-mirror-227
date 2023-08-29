@@ -1,0 +1,12 @@
+pip==23.0
+ninja
+cmake
+flaky
+pennylane>=0.30
+pennylane-lightning>=0.30
+pybind11
+pytest
+pytest-cov
+pytest-mock
+black==23.7.0
+clang-format==14
