@@ -1,0 +1,11 @@
+qwen/__init__.py,sha256=U-Ox3be8kv9KgIEaXbYxnEBbYc9mTLXKw_td5DWkW34,119
+qwen/attend.py,sha256=cMRODo5SvF05tONrArqLZj0G9MuIjkyio_DzgDfM9LI,11912
+qwen/inference.py,sha256=IYAf9uAspIpV6RIYSrw3EGADoNCh4Uposn98Z4Zay-s,1865
+qwen/model.py,sha256=_TbbzSBkxI6eqB7EyfIjNRX-PpMwSn_55zTpyQLLjqY,4281
+qwen/train.py,sha256=YVZZH9dK8D-q-HezXPfYTthR8AJLYAyIBqLkvKfgQZQ,23961
+qwen/transformer.py,sha256=nQaEgX7VE0fpQSgqi85nkmpOmOjkyKB1Bxbg90OfV3U,54139
+qwen/utils.py,sha256=DpxbfGNZCahryS1bDel4X1h1Xe6IVwCe6LNWnjtHi0k,3307
+qwen-0.1.0.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+qwen-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+qwen-0.1.0.dist-info/METADATA,sha256=sUUkZIb46UNWwUAYtBZRszx9wAPxv7PROkAoMOxRa8k,4440
+qwen-0.1.0.dist-info/RECORD,,
