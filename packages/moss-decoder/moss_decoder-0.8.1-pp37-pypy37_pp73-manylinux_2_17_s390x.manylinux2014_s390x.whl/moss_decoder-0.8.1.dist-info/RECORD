@@ -1,0 +1,7 @@
+moss_decoder-0.8.1.dist-info/METADATA,sha256=06zHuBisifozACvWp3cph59iH5P5S44yuBK3oqEom-E,10735
+moss_decoder-0.8.1.dist-info/WHEEL,sha256=IMEt6iwuiFwEAWKh94l-P9jZx28xpa2H8trdonVNiNc,132
+moss_decoder/__init__.py,sha256=pn_nMC2feAWkFHsqzzdCgJbIqkjLmfApOWfvFBDSwxM,131
+moss_decoder/__init__.pyi,sha256=Ig_X2y4XK89-BeZYJHunmXxTVlaWibfaElbChx7V28M,1394
+moss_decoder/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moss_decoder/moss_decoder.pypy37-pp73-s390x-linux-gnu.so,sha256=j4ra9LGbs9txAkN2exqXrDGE77BIoMVJWof91sBgB8g,2846184
+moss_decoder-0.8.1.dist-info/RECORD,,
