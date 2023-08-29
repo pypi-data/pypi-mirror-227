@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: rsplan
+Version: 1.0.8
+Summary: Reeds-Shepp algorithm implementation in Python.
+Home-page: https://github.com/builtrobotics/rsplan
+Author: Built Robotics
+Author-email: tarakapoor9@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: reeds-shepp path planning
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
