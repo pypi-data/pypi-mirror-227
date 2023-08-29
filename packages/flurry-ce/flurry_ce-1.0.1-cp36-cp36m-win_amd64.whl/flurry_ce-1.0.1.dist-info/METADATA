@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: flurry-ce
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/onefeng/flurry
+Author: onefeng
+Author-email: 15198086902@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Cython (==0.25.2)
+Requires-Dist: httptools (==0.0.9)
+Requires-Dist: uvloop (==0.8.0)
+
+
+# flurry
+
+## introduce
+
+基于Cython，uvloop，httptools的一个高性能web框架，目前只支持linux系统
+
+## install
+
+```shell
+pip3 install flurry-ce
+```
+
+## run
+
+```python
+from flurry.app import Application
+from flurry.handler import RequestHandler
+
+
+class RootHandler(RequestHandler):
+
+    async def get(self):
+        self.write({
+            "hello": "world"
+        })
+
+handler_classes = [
+    (r"/", RootHandler),
+]
+
+Application(
+    handler_clses=handler_classes,
+    debug=False,
+).run()
+```
+
+
+
