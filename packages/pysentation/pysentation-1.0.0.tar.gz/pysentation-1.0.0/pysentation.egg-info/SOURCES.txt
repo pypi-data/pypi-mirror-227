@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pysentation/__init__.py
+pysentation/errors.py
+pysentation/module.py
+pysentation/package.py
+pysentation/pysentation.py
+pysentation/signs.py
+pysentation.egg-info/PKG-INFO
+pysentation.egg-info/SOURCES.txt
+pysentation.egg-info/dependency_links.txt
+pysentation.egg-info/entry_points.txt
+pysentation.egg-info/requires.txt
+pysentation.egg-info/top_level.txt
