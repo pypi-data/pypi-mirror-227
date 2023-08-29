@@ -1,0 +1,8 @@
+videorotation/__init__.py,sha256=mNMA6u8JD9US5cWQY9HpcV7jPWJztq75sLGmS9DDI7M,51
+videorotation/birotnet.py,sha256=gEH1PSnqptF-NcxTf02ztVSePle8HEnrSzQneeTb2kQ,1756
+videorotation/check_upsidedown.py,sha256=0mfE0ccresbMaM_yIjpgLxWakBWFPMQHN253HyNz-h0,3225
+videorotation/mobilenet2_bi-rotnet.tflite,sha256=ptGKy43xwc_5W_Tx8GwkUtIi6A-zzt1PJrnHH8LVYbA,14113956
+videorotation-0.2.3.dist-info/METADATA,sha256=p87SLILyAcJMXPOOZtTbju-N3EfgzerFSktnamr-7fE,1176
+videorotation-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+videorotation-0.2.3.dist-info/top_level.txt,sha256=iruvlbC5640Z3_8gvBlGPdkL5UaQkEXtM9WmCi58OKY,14
+videorotation-0.2.3.dist-info/RECORD,,
