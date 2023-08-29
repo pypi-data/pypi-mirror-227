@@ -1,0 +1,5 @@
+inquirer
+rich
+argparse
+openai
+python-dotenv
