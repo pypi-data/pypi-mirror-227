@@ -1,0 +1,4 @@
+apache-airflow>=2.4.0
+cloudpickle>=1.4.1
+dask!=2022.10.1,!=2023.5.0,>=2.9.0
+distributed!=2023.5.0,>=2.11.1
