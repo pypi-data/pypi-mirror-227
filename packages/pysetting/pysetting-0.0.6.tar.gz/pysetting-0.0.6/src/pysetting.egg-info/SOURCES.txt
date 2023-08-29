@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pysetting/__init__.py
+src/pysetting/pysetting.py
+src/pysetting.egg-info/PKG-INFO
+src/pysetting.egg-info/SOURCES.txt
+src/pysetting.egg-info/dependency_links.txt
+src/pysetting.egg-info/top_level.txt
