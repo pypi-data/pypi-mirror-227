@@ -1,0 +1,13 @@
+geopandas
+numpy
+xarray
+shapely
+fsspec
+rasterio
+affine
+pandas
+dask
+xsar
+more-itertools
+pyaml
+pyproj
