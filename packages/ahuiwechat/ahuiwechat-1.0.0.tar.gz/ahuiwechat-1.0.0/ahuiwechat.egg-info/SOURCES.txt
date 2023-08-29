@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+ahuiwechat.egg-info/PKG-INFO
+ahuiwechat.egg-info/SOURCES.txt
+ahuiwechat.egg-info/dependency_links.txt
+ahuiwechat.egg-info/requires.txt
+ahuiwechat.egg-info/top_level.txt

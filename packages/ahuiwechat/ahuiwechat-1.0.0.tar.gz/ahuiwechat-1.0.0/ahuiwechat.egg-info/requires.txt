@@ -1,0 +1,8 @@
+requests
+pandas
+json
+PIL
+hashlib
+urllib3
+datetime
+base64
