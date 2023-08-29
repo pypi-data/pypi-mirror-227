@@ -1,0 +1,13 @@
+airflow/providers/microsoft/winrm/__init__.py,sha256=imgKzcIzuIk2DHlo3gMbC0MZ1XacZSERS3-w4j9ywaY,1584
+airflow/providers/microsoft/winrm/get_provider_info.py,sha256=JykbMpSjUhflHgNaErLf9h22ZnK0EFFxl8IwIzqEmNg,2655
+airflow/providers/microsoft/winrm/hooks/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/microsoft/winrm/hooks/winrm.py,sha256=W_0t6a_yHQ43UpzkFtr016G1_v8e50zdItstiUcnTMU,10523
+airflow/providers/microsoft/winrm/operators/__init__.py,sha256=mlJxuZLkd5x-iq2SBwD3mvRQpt3YR7wjz_nceyF1IaI,787
+airflow/providers/microsoft/winrm/operators/winrm.py,sha256=fDD3voehik2j3zuk46wJguV8SpkeObeyHkE-tdL2Hwc,6494
+apache_airflow_providers_microsoft_winrm-3.2.2.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_microsoft_winrm-3.2.2.dist-info/METADATA,sha256=YsSFf5Xcvv09Qi3OOkLr4r9aJmeKaimelxqRS-lxFrw,4613
+apache_airflow_providers_microsoft_winrm-3.2.2.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_microsoft_winrm-3.2.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+apache_airflow_providers_microsoft_winrm-3.2.2.dist-info/entry_points.txt,sha256=2JKkB_pr5_9NAUsUL-o-epLgtN9_YAtKKMl90kEEwmI,112
+apache_airflow_providers_microsoft_winrm-3.2.2.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_microsoft_winrm-3.2.2.dist-info/RECORD,,
