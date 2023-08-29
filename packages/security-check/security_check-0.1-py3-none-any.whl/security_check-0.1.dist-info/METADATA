@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: security-check
+Version: 0.1
+Summary: A command-line tool to greet the user.
+Home-page: UNKNOWN
+Author: Claucio Rank
+Author-email: clauciorank@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4
+Requires-Dist: numba
+Requires-Dist: requests
+Requires-Dist: safety
+
+UNKNOWN
+
+
