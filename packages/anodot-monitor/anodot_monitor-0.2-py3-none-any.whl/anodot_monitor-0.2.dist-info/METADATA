@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: anodot-monitor
+Version: 0.2
+Summary: Anodot Monitoring for Python
+Author: Alexander Shereshevsky
+Author-email: ashereshevsky@anodot.com
+License-File: LICENSE
+Requires-Dist: pyformance
+Requires-Dist: requests
+Requires-Dist: more-itertools
+Requires-Dist: loguru
+
