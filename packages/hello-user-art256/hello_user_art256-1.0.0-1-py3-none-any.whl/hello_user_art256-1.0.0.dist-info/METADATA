@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hello-user-art256
+Version: 1.0.0
+Summary: Ask a user's name, then greet them
+Author-email: Arthur Benjamin Angeles <abyangeles28@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Hello, everyone!
+
+I am art256, and I like to create packages. This is a simple
+package that greets the user a "Hello!".
+
