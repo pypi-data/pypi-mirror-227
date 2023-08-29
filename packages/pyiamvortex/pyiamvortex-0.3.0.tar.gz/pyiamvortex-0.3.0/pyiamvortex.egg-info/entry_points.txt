@@ -1,0 +1,2 @@
+[console_scripts]
+pyiamvortex = pyiamvortex.cli:main
