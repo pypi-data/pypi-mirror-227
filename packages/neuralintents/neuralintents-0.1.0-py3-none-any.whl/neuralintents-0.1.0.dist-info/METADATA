@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: neuralintents
+Version: 0.1.0
+Summary: Simple interface for working with intents and chatbots.
+Author: NeuralNine (Florian Dedov)
+Author-email: <mail@neuralnine.com>
+Keywords: python,neural,machine learning,chatbots,chat,artificial intelligence,virtual assistant
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: nltk
+Requires-Dist: tensorflow
+
+
+# neuralintents
+
+Still in a buggy alpha state.
+
+## Setting Up A Basic Assistant
+
+```python
+from neuralintents.assistants import BasicAssistant
+
+assistant = BasicAssistant('intents.json')
+
+assistant.fit_model(epochs=50)
+assistant.save_model()
+
+done = False
+
+while not done:
+    message = input("Enter a message: ")
+    if message == "STOP":
+        done = True
+    else:
+        print(assistant.process_input(message))
+```
+
+## Binding Functions To Requests
+
+```python
+from neuralintents.assistants import BasicAssistant
+
+
+stocks = ['AAPL', 'META', 'TSLA', 'NVDA']
+
+
+def print_stocks():
+    print(f'Stocks: {stocks}')
+
+
+assistant = BasicAssistant('intents.json', method_mappings={
+    "stocks": print_stocks,
+    "goodbye": lambda: exit(0)
+})
+
+assistant.fit_model(epochs=50)
+assistant.save_model()
+
+done = False
+
+while not done:
+    message = input("Enter a message: ")
+    if message == "STOP":
+        done = True
+    else:
+        print(assistant.process_input(message))
+```
+
+## Sample intents.json File
+```json
+{"intents": [
+  {"tag": "greeting",
+    "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+    "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+    "context_set": ""
+  },
+  {"tag": "goodbye",
+    "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+    "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+    "context_set": ""
+  },
+  {"tag": "programming",
+    "patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+    "responses": ["Programming, coding or software development, means writing computer code to automate tasks."],
+    "context_set": ""
+  },
+  {"tag": "resource",
+    "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+    "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."],
+    "context_set": ""
+  },
+  {"tag": "stocks",
+    "patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+    "responses": ["Here are your stocks!"],
+    "context_set": ""
+  }
+]
+}
+```

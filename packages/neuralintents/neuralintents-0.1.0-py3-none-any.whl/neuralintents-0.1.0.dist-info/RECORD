@@ -1,0 +1,9 @@
+neuralintents/__init__.py,sha256=Qj3YGvlGr6TO5aX_9wy8_5B_ddBvDgA3enVYQYng8Zs,106
+neuralintents/assistants.py,sha256=PVp6GXvv8J9mSzD7EmAezLi_vTcZ671Lq2x1VMPaVCk,5894
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_assistants.py,sha256=J8D8IxGDyje35QKCEUTvffO4pKQbnAjqUiloJsjTbNU,5586
+neuralintents-0.1.0.dist-info/LICENSE,sha256=RlcV46ocynjv78wlXcIWqkH2r7uXwFx9oMwJYNXCBlY,1088
+neuralintents-0.1.0.dist-info/METADATA,sha256=8bkODXScrEMtmT4jsLGtpkONMSOxPWJ6vIC05QyDTas,2994
+neuralintents-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+neuralintents-0.1.0.dist-info/top_level.txt,sha256=5Ca7RAIPzsl2X5dIG26_lWyv9Vqrz4AcgLgujcEBIOg,20
+neuralintents-0.1.0.dist-info/RECORD,,
