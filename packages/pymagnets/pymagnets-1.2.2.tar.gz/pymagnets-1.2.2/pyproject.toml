@@ -1,0 +1,44 @@
+[project]
+name = "pymagnets"
+requires-python = ">=3.6"
+dynamic = ["version"]
+readme = "README.md"
+description = "Python utilities for building magnets via the UserScript.py of the Magnets_Gitrepository"
+license = {file = "LICENCE.txt"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Physics",
+    ]
+authors = [
+  {name = "Ambre Visive", email = "ambre.visive@cern.ch"}
+]
+maintainers = [
+  {name = "Ambre Visive", email = "ambre.visive@cern.ch"}
+]
+dependencies = [
+  "operapy",
+  "opera2d",
+  "canvas",
+  "numpy>=1.14"
+]
+
+[project.urls]
+homepage = "https://pypi.org/project/pymagnets/"
+documentation = "https://gitlab.cern.ch/mango/mango_gitrepository"
+repository = "https://gitlab.cern.ch/mango/mango_pymagnets"
+
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/pymagnets/_version.py"
+
+

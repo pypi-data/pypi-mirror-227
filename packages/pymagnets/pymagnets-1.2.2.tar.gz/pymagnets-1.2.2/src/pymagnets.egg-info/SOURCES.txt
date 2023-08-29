@@ -1,0 +1,17 @@
+.gitignore
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pymagnets/__init__.py
+src/pymagnets/_version.py
+src/pymagnets/magnet.py
+src/pymagnets/material.py
+src/pymagnets/model.py
+src/pymagnets.egg-info/PKG-INFO
+src/pymagnets.egg-info/SOURCES.txt
+src/pymagnets.egg-info/dependency_links.txt
+src/pymagnets.egg-info/not-zip-safe
+src/pymagnets.egg-info/requires.txt
+src/pymagnets.egg-info/top_level.txt

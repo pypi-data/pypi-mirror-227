@@ -1,0 +1,4 @@
+operapy
+opera2d
+canvas
+numpy>=1.14
