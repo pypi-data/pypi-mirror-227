@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dbt-docs"
+version = "0.0.1"
+description = "Generate static dbt docs in various format"
+authors = ["Léo Grosjean <leo.bigjin@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "dbt_docs", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pylint = "*"
+black = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
