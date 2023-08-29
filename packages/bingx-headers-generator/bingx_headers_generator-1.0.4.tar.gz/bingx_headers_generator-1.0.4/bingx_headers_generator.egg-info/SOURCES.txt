@@ -1,0 +1,9 @@
+README.md
+setup.py
+bingx_headers_generator/__init__.py
+bingx_headers_generator/__version__.py
+bingx_headers_generator/generator.py
+bingx_headers_generator.egg-info/PKG-INFO
+bingx_headers_generator.egg-info/SOURCES.txt
+bingx_headers_generator.egg-info/dependency_links.txt
+bingx_headers_generator.egg-info/top_level.txt
