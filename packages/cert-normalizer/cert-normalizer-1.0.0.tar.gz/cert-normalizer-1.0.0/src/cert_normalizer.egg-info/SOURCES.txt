@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+src/cert_normalizer/__init__.py
+src/cert_normalizer/__main__.py
+src/cert_normalizer/normalizer.py
+src/cert_normalizer/py.typed
+src/cert_normalizer.egg-info/PKG-INFO
+src/cert_normalizer.egg-info/SOURCES.txt
+src/cert_normalizer.egg-info/dependency_links.txt
+src/cert_normalizer.egg-info/not-zip-safe
+src/cert_normalizer.egg-info/requires.txt
+src/cert_normalizer.egg-info/top_level.txt
