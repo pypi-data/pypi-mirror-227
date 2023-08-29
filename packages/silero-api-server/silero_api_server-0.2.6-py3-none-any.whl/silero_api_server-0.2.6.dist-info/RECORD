@@ -1,0 +1,8 @@
+silero_api_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+silero_api_server/__main__.py,sha256=OiLXuxI5QqQhiOuAunrswmKhvNhsCRD1Ms0UhfTbopc,613
+silero_api_server/server.py,sha256=MwsxWIZTQUzU1Cz-PNHRGkzh_C6QQPJNyZ6qGlxKGLY,2406
+silero_api_server/tts.py,sha256=2L5ufZFI2nWc96pSOPdCFaY5qbjz0jr54_5XJgaJwu8,6410
+silero_api_server-0.2.6.dist-info/METADATA,sha256=L0Y6Y7sGRgb9tmLD6FqU_U7nfybgqu21v-eSYILxNNk,1960
+silero_api_server-0.2.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+silero_api_server-0.2.6.dist-info/licenses/LICENSE,sha256=BaELdeGL2JpXCNdLEzWk_guPqDZ7fg6PT6WVtfLKd_c,1070
+silero_api_server-0.2.6.dist-info/RECORD,,
