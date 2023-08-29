@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: certora-cli-alpha-naftali-CERT-3254-method-supports-all-methods-in-scene
+Version: 20230829.6.41.195209
+Summary: Runner for the Certora Prover
+Home-page: https://pypi.org/project/certora-cli-alpha-naftali-CERT-3254_method_supports_all_methods_in_scene
+Author: Certora
+Author-email: support@certora.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Commit 4b29e72. Build and Run scripts for executing the Certora Prover on Solidity smart contracts.
