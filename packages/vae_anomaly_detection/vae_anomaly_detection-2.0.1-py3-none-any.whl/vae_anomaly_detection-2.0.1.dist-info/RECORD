@@ -1,0 +1,7 @@
+vae_anomaly_detection/VAE.py,sha256=2SvfNze69fO8lAvrU6fcVbkyFtKi8RVgeiaffRU7e5w,9697
+vae_anomaly_detection/VAE_tf1.py,sha256=_nk-3-ehkP5VtCFqoMO5R0uD67izbFOLaPfG9nNvPEM,8915
+vae_anomaly_detection/__init__.py,sha256=rt29haGCOzNfP43-AoNrMCJBbGR16T90OvwVK29304w,55
+vae_anomaly_detection/encoder_decoder.py,sha256=FsJLJnKaQ-uEW6b-4mXuxEZI52P_K4ZTmwhlN5SPk-o,1698
+vae_anomaly_detection-2.0.1.dist-info/METADATA,sha256=5g_F4xMczF8OumCRRclnHjcrjOP-XBaP5bO5gyLmJH8,6902
+vae_anomaly_detection-2.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+vae_anomaly_detection-2.0.1.dist-info/RECORD,,
