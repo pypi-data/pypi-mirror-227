@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: micronus
+Version: 0.0.4
+Summary: A light weight transformer model
+Home-page: UNKNOWN
+Author: Chamath Attanyaka
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: keras (==2.4.3)
+Requires-Dist: matplotlib (>=3.3.2)
+Requires-Dist: numpy (==1.19.3)
+Requires-Dist: tensorflow (==2.4.1)
+
+# Micronus
+![example workflow](https://github.com/hastur66/Micronus/actions/workflows/pytest.yml/badge.svg)
+[![codecov](https://codecov.io/gh/hastur66/Micronus/branch/master/graph/badge.svg?token=3YXM0OAJCG)](https://codecov.io/gh/hastur66/Micronus)
+
+A light-weight transformer model.
+
+#### Install
+```
+pip install micronus
+```
+
+#### Train
+exampel
+```
+python -m micronus.train --dataset data/english-german-both.pkl 
+```
+
+#### Inference
+example
+```
+python -m micronus.inference --sentence "Hello world!"
+```
+
