@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: nsfwrecog
+Version: 1.0
+Summary: This library detects nsfw objects and body parts in images and videos and optionally censores them.
+Home-page: https://github.com/padmalcom/nsfwrecog
+Author: padmalcom
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: charset-normalizer >=3.2.0
+Requires-Dist: colorama >=0.4.6
+Requires-Dist: coloredlogs >=15.0.1
+Requires-Dist: contourpy >=1.1.0
+Requires-Dist: cycler >=0.11.0
+Requires-Dist: filelock >=3.12.2
+Requires-Dist: flatbuffers >=23.5.26
+Requires-Dist: fonttools >=4.42.1
+Requires-Dist: humanfriendly >=10.0
+Requires-Dist: idna >=3.4
+Requires-Dist: importlib-resources >=6.0.1
+Requires-Dist: Jinja2 >=3.1.2
+Requires-Dist: kiwisolver >=1.4.4
+Requires-Dist: MarkupSafe >=2.1.3
+Requires-Dist: matplotlib >=3.7.2
+Requires-Dist: mpmath >=1.3.0
+Requires-Dist: networkx >=3.1
+Requires-Dist: numpy >=1.25.2
+Requires-Dist: onnx >=1.14.0
+Requires-Dist: onnxruntime >=1.15.1
+Requires-Dist: opencv-python >=4.8.0.76
+Requires-Dist: packaging >=23.1
+Requires-Dist: pandas >=2.0.3
+Requires-Dist: Pillow >=10.0.0
+Requires-Dist: protobuf >=4.24.1
+Requires-Dist: psutil >=5.9.5
+Requires-Dist: py-cpuinfo >=9.0.0
+Requires-Dist: pyparsing >=3.0.9
+Requires-Dist: pyreadline3 >=3.4.1
+Requires-Dist: python-dateutil >=2.8.2
+Requires-Dist: pytz >=2023.3
+Requires-Dist: PyYAML >=6.0.1
+Requires-Dist: requests >=2.31.0
+Requires-Dist: scipy >=1.11.2
+Requires-Dist: seaborn >=0.12.2
+Requires-Dist: six >=1.16.0
+Requires-Dist: sympy >=1.12
+Requires-Dist: tqdm >=4.66.1
+Requires-Dist: typing-extensions >=4.7.1
+Requires-Dist: tzdata >=2023.3
+Requires-Dist: ultralytics >=8.0.158
+Requires-Dist: urllib3 >=2.0.4
+Requires-Dist: zipp >=3.16.2
+
+# NSFW Recog
+This library is meant to detect and censor nsfw content in public media. Models can be found
+[here](https://github.com/padmalcom/nsfwrecog/releases/tag/nsfwrecog_v1), they are downloaded automatically and cached.
+
+![sample image](graphics/sample.png)
+
+## Installation
+- install requirements.txt
+- install pytorch according to your cuda version
+- (optional) install onnxruntime-gpu to support cuda usage
+
+## Usage
+Instantiate a NsfwDetector class and use the methods detect(), blur(), video() and camera(). The demos show the usage:
+- [demo_detect.py](demo_detect.py): Detecting body parts/objects in an image
+- [demo_camera.py](demo_camera.py): Live detecting objects in a webcam stream
+- [demo_video.py](demo_video.py): Detecting objects in a video and draw bounding boxes and labels to a new video
+- [demo_blur.py](demo_blur.py): Detecting objects in an image and blurring them.
