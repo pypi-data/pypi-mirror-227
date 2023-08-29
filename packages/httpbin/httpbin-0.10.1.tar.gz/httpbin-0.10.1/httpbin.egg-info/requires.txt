@@ -1,0 +1,23 @@
+Flask
+brotlicffi
+decorator
+flasgger
+werkzeug>=0.14.1
+six
+
+[:python_version < "3.12"]
+greenlet<3.0
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[:python_version >= "3.12.0rc0"]
+greenlet>=3.0.0a1
+
+[mainapp]
+gunicorn
+gevent
+
+[test]
+pytest
+tox
