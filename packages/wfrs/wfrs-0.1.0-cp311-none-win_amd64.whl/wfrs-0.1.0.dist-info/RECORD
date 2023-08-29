@@ -1,0 +1,5 @@
+wfrs-0.1.0.dist-info/METADATA,sha256=TtCwRu7f48F54rgTxSlaGlfrFypI-K2cEXCtP8mCVuQ,481
+wfrs-0.1.0.dist-info/WHEEL,sha256=NSrov9luExxE7uCwQFdkwZSneIVbp9_ZMV_waGMcjm4,95
+wfrs/__init__.py,sha256=20TTTMQHvgQegRgnBKNtws_m1BbMqeyp8vBl05L5wtQ,99
+wfrs/wfrs.cp311-win_amd64.pyd,sha256=RgeR8PU9NFIGUtclJYMN6Bg9FgYXoyf52dLUZpMobUA,261632
+wfrs-0.1.0.dist-info/RECORD,,
