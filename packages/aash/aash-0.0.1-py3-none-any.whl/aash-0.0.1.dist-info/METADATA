@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aash
+Version: 0.0.1
+Summary: aash
+Project-URL: Homepage, https://github.com/ashlelyncasanova/aash
+Project-URL: Bug Tracker, https://github.com/ashlelyncasanova/aash/issues
+Author-email: Ashley Casanova <ashleyncasanova@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# aash
+
+## Installation
+
+```bash
+pip install aash
+```
+
+## Usage
+
+```python
+from aash import aash
+
+aash()
+```
