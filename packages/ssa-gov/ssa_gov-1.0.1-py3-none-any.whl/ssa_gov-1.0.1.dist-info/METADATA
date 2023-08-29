@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: ssa-gov
+Version: 1.0.1
+Summary: A library enabling users to fetch data from ssa.gov.
+Home-page: https://git.octr.is/open-source/data/ssa-gov
+Author: Roberto Banić @ Octris LLC
+Author-email: roberto@octr.is
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: html5lib
+Requires-Dist: fake-useragent
+
+# ssa-gov
+
+A tool to fetch data from ssa.gov, particularly name data.
+
+[![Python Version](https://img.shields.io/badge/python-3-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://git.octr.is/open-source/data/ssa-gov/badges/master/pipeline.svg)](https://git.octr.is/open-source/data/ssa-gov/-/pipelines/latest)
+
+## Installation
+
+You can install the package via pip:
+
+```
+pip install ssa-gov
+```
+
+## Usage
+
+1. **Fetch Popular Names Data**:
+
+```python
+from ssa_gov import get_popular_baby_names
+
+male_data, female_data = get_popular_baby_names(year=2020, n=100)
+```
+
+2. **Get Name Popularity Data:**
+
+```python
+from ssa_gov import get_baby_name_popularity_data
+
+data = get_baby_name_popularity_data(name="Meryl", since_year=1880, sex='F')
+```
+
+## Author
+
+Roberto Banić @ [Octris LLC](https://octr.is)
+
+For inquiries, merge requests, improvement suggestions, and anything else, reach out
+to [roberto@octr.is](mailto:roberto@octr.is).
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Our Open-Source Philosophy
+
+At Octris LLC, we deeply believe in the transformative power of open-source software. Open-source, to us, is more than
+just a methodology—it's a philosophy that heralds transparency, community-driven progress, and an ethos of shared
+innovation.
+
+Our support particularly leans towards permissive licenses like MIT, which we feel best embody our vision of unhindered
+collaboration and freedom in software distribution and modification. While we respect the intentions behind copyleft
+licenses like GPLv3, our preference lies with licenses that minimize restrictions, fostering a more inclusive and
+adaptive tech ecosystem. By aligning ourselves with such licenses, Octris LLC reaffirms its commitment to creating and
+supporting platforms where technology is not just accessible and open, but also freely adaptable to the diverse needs of
+users across the globe.
