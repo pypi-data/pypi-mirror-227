@@ -1,0 +1,11 @@
+# Build output
+*.pyc
+*.so
+build/
+spitfire3.egg-info/
+spitfire.egg-info/
+
+dist/
+
+# Local pyenv version files
+.python-version

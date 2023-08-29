@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: spitfire
+Version: 0.7.15
+Summary: text-to-python template language
+Author: Nafi Amaan Hossain
+Author-email: <nafines007@gmail.com>
+License: BSD License
+Platform: Posix
+Platform: MacOS X
+Platform: Windows
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Text Processing
+License-File: LICENSE
+License-File: AUTHORS
