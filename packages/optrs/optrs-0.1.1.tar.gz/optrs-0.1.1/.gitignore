@@ -1,0 +1,8 @@
+**target/
+**.DS_Store
+**/.idea
+**build
+**Cargo.lock
+.env/
+.cargo/
+api/examples/*opt.xyz

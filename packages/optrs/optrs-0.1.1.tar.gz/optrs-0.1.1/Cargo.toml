@@ -1,0 +1,21 @@
+[package]
+name = "optrs"
+version = "0.1.1"
+edition = "2021"
+authors = ["Tom Young"]
+license = "MIT OR Apache-2.0"
+keywords = ["optimization", "chemistry"]
+repository = "https://github.com/t-young31/opt-rs"
+homepage = "https://github.com/t-young31/opt-rs"
+description = "Molecular molecule optimization with forcefields"
+readme = "README.md"
+
+[[bin]]
+name = "optrs"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "3.1.6", features = ["derive"] }
+log = "0.4"
+rand = "0.8.5"
+pyo3 = { version = "0.16.5", features = ["extension-module"] }
