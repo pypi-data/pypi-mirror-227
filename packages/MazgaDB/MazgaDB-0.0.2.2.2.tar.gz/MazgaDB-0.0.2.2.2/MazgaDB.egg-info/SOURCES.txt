@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+MazgaDB.egg-info/PKG-INFO
+MazgaDB.egg-info/SOURCES.txt
+MazgaDB.egg-info/dependency_links.txt
+MazgaDB.egg-info/requires.txt
+MazgaDB.egg-info/top_level.txt
+mazga_db/__init__.py
