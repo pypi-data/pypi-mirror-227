@@ -1,0 +1,12 @@
+[tool.black]
+exclude = '''
+(
+  /(
+    | .+/generator/templates
+  )/
+)
+'''
+
+[tool.isort]
+profile = "black"
+skip_glob = "*/generator/templates/*"
