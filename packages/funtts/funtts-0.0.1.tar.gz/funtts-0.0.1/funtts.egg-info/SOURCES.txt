@@ -1,0 +1,6 @@
+setup.py
+funtts.egg-info/PKG-INFO
+funtts.egg-info/SOURCES.txt
+funtts.egg-info/dependency_links.txt
+funtts.egg-info/requires.txt
+funtts.egg-info/top_level.txt
