@@ -1,0 +1,15 @@
+[build-system]
+    requires = ["setuptools>=61.0"]
+    build-backend = "setuptools.build_meta"
+[project]
+    name = "document-batcher"
+    version = "0.1.1"
+    dependencies = [
+        "nltk"
+    ]
+    authors = [
+        {name = "Jacob Striebel"}
+    ]
+    description = "Document batcher"
+[project.urls]
+    "Homepage" = "https://github.com/striebel/document-batcher"
