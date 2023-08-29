@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: metabypass
+Version: 0.1.2
+Author: MetaBypass
+Author-email: support@metabypass.tech
+Requires-Dist: requests
+Requires-Dist: osadp
+Requires-Dist: time
+
