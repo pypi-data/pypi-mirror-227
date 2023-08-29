@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+nsfwrecog/__init__.py
+nsfwrecog/nsfwrecog.py
+nsfwrecog.egg-info/PKG-INFO
+nsfwrecog.egg-info/SOURCES.txt
+nsfwrecog.egg-info/dependency_links.txt
+nsfwrecog.egg-info/requires.txt
+nsfwrecog.egg-info/top_level.txt
