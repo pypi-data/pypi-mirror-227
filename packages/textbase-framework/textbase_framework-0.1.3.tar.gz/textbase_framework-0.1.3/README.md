@@ -1,0 +1,301 @@
+# textbase-framework
+1. [What is textbase?](#what-is-textbase)
+2. [Get Started](#get-started)
+    1. [Installation](#installation)
+    2. [Create your first bot](#create-your-first-bot)
+    3. [Usage of decorator with example and response structure](#usage-of-decorator-with-example-and-response-structure)
+    4. [Test locally](#test-locally)
+3. [Deployment](#deployment)
+    1. [Deploy from CLI](#deploy-from-cli)
+    2. [Deploy from Dashboard](#deploy-from-dashboard)
+4. [Examples](#examples)
+    1. [Mimicking bot](#mimicking-bot)
+    2. [OpenAI](#openai-bot)
+    3. [HuggingFace](#huggingface-bot)
+
+## What is textbase?
+:sparkles: Textbase is a framework for building chatbots using NLP and ML. :sparkles:
+
+Since it is just Python you can use whatever models, libraries, vector databases and APIs you want!
+
+Coming soon:
+- [x] [PyPI package](https://pypi.org/project/textbase-framework/)
+- [x] Easy web deployment via [textbase deploy](#deploy-from-cli)
+- [ ] SMS integration
+- [ ] Native integration of other models (Claude, Llama, ...)
+
+## Get started
+
+### Installation
+
+Video guide (for Windows and Ubuntu > 19.04): https://youtu.be/pcw7G3S7FGw
+
+1. Make sure to upgrade your Python version to >= 3.8.1 and add it to your `PATH`.
+2. Now, you need to [install](https://python-poetry.org/docs/#installation) `Poetry`, which is a python dependency manager which makes your life easier. It really does.
+
+**Ubuntu** (≤19.04):
+
+1. Follow the guide at https://gist.github.com/basaks/652eea861a143a9b3d11805c96273488 to install Python version 3.9.
+2. Install pip using:
+    ```bash
+    sudo apt install python-pip
+    ```
+3. Install poetry using:
+    ```bash
+    pip install poetry
+    ```
+4. Add it to your path using:
+    ```bash
+    export PATH="$HOME/.local/bin:$PATH"
+    ```
+5. `poetry config virtualenvs.in-project true` in the VS Code terminal inside the folder where you have cloned textbase repo so that you can select the default Python interpreter in VS Code to the one Poetry installed.
+6. ```bash
+    cd textbase-framework
+    poetry shell
+    ```
+    This will make a new virtual Python environment inside the current directory and then you can select the default python interpreter to be the one in the `.venv` folder.
+7. `poetry install` to install all the required dependencies.
+
+### Create your first bot
+Let's get started on creating your first bot.
+
+You can make your own model using NLP and ML or you can make use of one of our inbuilt models. You can do so by importing the `models` module.
+
+Currently we support:
+- OpenAI
+- HuggingFace
+- BotLibre
+
+### Usage of decorator with example and response structure
+This particular example uses OpenAI's API. You can use your own or you can even integrate some in the project itself. We are open for contributions!
+```py
+from textbase_framework import bot, Message
+from textbase_framework.models import OpenAI
+
+OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+
+# System prompt; this will set the tone of the bot for the rest of the conversation.
+
+SYSTEM_PROMPT = """You are chatting with an AI. There are no specific prefixes for responses, so you can ask or talk about anything you like.
+The AI will respond in a natural, conversational manner. Feel free to start the conversation with any question or topic, and let's have a
+pleasant chat!
+"""
+
+@bot() #The decorator function
+def on_message(message_history: List[Message], state: dict = None):
+
+    # Your logic for the bot. A very basic request to OpenAI is provided below. You can choose to handle it however you want.
+    bot_response = OpenAI.generate(
+        model="gpt-3.5-turbo",
+        system_prompt=SYSTEM_PROMPT,
+        message_history=message_history
+    )
+
+    '''
+    The response structure HAS to be in the format given below so that our backend framework has no issues communicating with the frontend.
+    '''
+
+    response = {
+        "data": {
+            "messages": [
+                {
+                    "data_type": "STRING",
+                    "value": bot_response
+                }
+            ],
+            "state": state
+        },
+        "errors": [
+            {
+                "message": ""
+            }
+        ]
+    }
+
+    return {
+        "status_code": 200,
+        "response": response
+    }
+```
+
+### Test locally
+You can execute the `textbase_cli test` command in order to test your bot locally. This will spin up an UI at port 4000, so you should be able to navigate to `localhost:4000` and check if your bot works and interact with it.
+
+## Deployment
+There are two methods to deploy your bot to the internet so that everyone can use it.
+
+Before using any method, you need to ensure that:
+1. You have a `requirements.py` file which includes all the additional requirements which you might have installed while creating your bot.
+2. The name of the file in which the `on_message` function is present is named `main.py`.
+3. Zip these two files, i.e., `requirements.txt` and `main.py` into a `.zip` archive. It's important that it's a **`.zip`** archive and not anything else.
+
+### Deploy from CLI
+
+Before deploying your bot from the CLI, you need to generate an API key in the dashboard. To do that, you need to:
+
+1. Navigate to the Textbase [dashboard](https://textbase-dashboard-nextjs.vercel.app/).
+2. Sign in using your google account.
+3. Generate an API key by clicking on `Generate` in the bottom left section.
+
+After this, you can execute the `textbase_cli deploy` command to deploy your bot from a terminal.
+
+After executing it, it will ask for:
+1. Path to the zip folder
+2. Bot name
+3. Textbase API key
+
+If you want to run this command in one shot, you can make use of flags:
+
+```bash
+textbase_cli deploy --path=<path_to_zip_folder> --bot-name=<name_of_your_bot> --api_key=<api_key>
+```
+
+If this command executes successfully, it will return a table with `Status`, `Bot ID` and `URL` and you can click on that URL to view your bot!
+
+### Deploy from Dashboard
+
+1. Navigate to the Textbase [dashboard](https://textbase-dashboard-nextjs.vercel.app/).
+2. Sign in using your google account.
+3. Click on `Create Deployment` and then click on `Create Bot` on the top right.
+4. You will need to provide a chatbot name and you need to upload the zip file.
+5. Click on `Create Bot` to start the deployment.
+6. This will redirect you to the `Deployments` section after a few seconds. In here, you can check the status of your bot and if it's deployed successfully, a link will be generated. You can click on the blue button with the symbol: `</>` which will redirect to the link where the bot is deployed and you can test it out!
+
+## Examples
+
+### Mimicking bot
+```py
+from textbase_framework import bot, Message
+from textbase_framework.models import get_contents
+from typing import List
+
+@bot()
+def on_message(message_history: List[Message], state: dict = None):
+
+    # Mimic user's response
+    bot_response = []
+    bot_response = get_contents(message_history[-1], "STRING")
+
+    response = {
+        "data": {
+            "messages": [
+                {
+                    "data_type": "STRING",
+                    "value": bot_response
+                }
+            ],
+            "state": state
+        },
+        "errors": [
+            {
+                "message": ""
+            }
+        ]
+    }
+
+    return {
+        "status_code": 200,
+        "response": response
+    }
+```
+
+### OpenAI bot
+```py
+import os
+from textbase_framework import bot, Message
+from textbase_framework.models import OpenAI
+from typing import List
+
+# Load your OpenAI API key
+# OpenAI.api_key = ""
+# or from environment variable:
+OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+
+# Prompt for GPT-3.5 Turbo
+SYSTEM_PROMPT = """You are chatting with an AI. There are no specific prefixes for responses, so you can ask or talk about anything you like.
+The AI will respond in a natural, conversational manner. Feel free to start the conversation with any question or topic, and let's have a
+pleasant chat!
+"""
+
+@bot()
+def on_message(message_history: List[Message], state: dict = None):
+
+    # Generate GPT-3.5 Turbo response
+    bot_response = OpenAI.generate(
+        system_prompt=SYSTEM_PROMPT,
+        message_history=message_history, # Assuming history is the list of user messages
+        model="gpt-3.5-turbo",
+    )
+
+    response = {
+        "data": {
+            "messages": [
+                {
+                    "data_type": "STRING",
+                    "value": bot_response
+                }
+            ],
+            "state": state
+        },
+        "errors": [
+            {
+                "message": ""
+            }
+        ]
+    }
+
+    return {
+        "status_code": 200,
+        "response": response
+    }
+```
+
+### HuggingFace bot
+```py
+import os
+from textbase_framework import bot, Message
+from textbase_framework.models import HuggingFace
+from typing import List
+
+# Load your OpenAI API key
+# HuggingFace.api_key = ""
+# or from environment variable:
+HuggingFace.api_key = os.getenv("HUGGINGFACE_API_KEY")
+
+# Prompt for GPT-3.5 Turbo
+SYSTEM_PROMPT = """You are chatting with an AI. There are no specific prefixes for responses, so you can ask or talk about anything you like.
+The AI will respond in a natural, conversational manner. Feel free to start the conversation with any question or topic, and let's have a
+pleasant chat!
+"""
+
+@bot()
+def on_message(message_history: List[Message], state: dict = None):
+
+    # Generate HuggingFace response. Uses the DialoGPT-large model from Microsoft by default.
+    bot_response = HuggingFace.generate(
+        system_prompt=SYSTEM_PROMPT,
+        message_history=message_history, # Assuming history is the list of user messages
+    )
+
+    response = {
+        "data": {
+            "messages": [
+                {
+                    "data_type": "STRING",
+                    "value": bot_response
+                }
+            ],
+            "state": state
+        },
+        "errors": [
+            {
+                "message": ""
+            }
+        ]
+    }
+
+    return {
+        "status_code": 200,
+        "response": response
+    }
+```
