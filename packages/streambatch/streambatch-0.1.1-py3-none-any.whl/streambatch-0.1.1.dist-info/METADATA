@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: streambatch
+Version: 0.1.1
+Summary: Use this package to get daily, 10m resolution NDVI time series data for any location on Earth via the Streambatch.io API.
+Project-URL: Homepage, https://github.com/tammer/streambatch
+Author-email: Tammer Kamel <tammer@tammer.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: fsspec>=2023.6
+Requires-Dist: numpy>=1.25
+Requires-Dist: pandas>=2.0
+Requires-Dist: pyarrow>=12.0
+Requires-Dist: requests>=2.31
+Requires-Dist: s3fs>=2023.6
+Requires-Dist: scipy>=1.11
+Description-Content-Type: text/markdown
+
+# streambatch
