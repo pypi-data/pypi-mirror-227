@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: regex4seq
+Version: 0.2.0
+Summary: Regular Expressions for Sequences of Things
+Home-page: https://regex4seq.readthedocs.io/en/latest/
+License: LGPL-3.0-or-later
+Keywords: regex,regular expressions,pattern matching,sequence matching
+Author: Stephen Leach
+Author-email: sfkleach@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Project-URL: Documentation, https://regex4seq.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/sfkleach/regex4seq
+Description-Content-Type: text/markdown
+
+# regex4seq
+A python library that implements regular-expression based pattern matches for sequences
+
