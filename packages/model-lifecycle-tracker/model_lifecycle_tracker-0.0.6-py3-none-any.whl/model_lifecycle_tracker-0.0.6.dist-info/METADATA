@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: model-lifecycle-tracker
+Version: 0.0.6
+Summary: A model lifecycle tracker database backed by postgres
+Home-page: 
+Author: Jacques du Toit, Carl du Plessis
+Author-email: 
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anybadge >=1.7.0
+Requires-Dist: coverage >=5.2
+Requires-Dist: pandas >=1.1.3
+Requires-Dist: psycopg2-binary ==2.8.5
+Requires-Dist: SQLAlchemy ==1.3.18
+Requires-Dist: pandas >=1.1.5
+Requires-Dist: pylint-exit >=1.2.0
+Requires-Dist: pylint >=2.5.20
+
+# model-tracker
+
+A simple data store keeping track of models and things
+
+
+### 1. Running locally
+
+* Get postgres up and running for local development
+* In the cell block below we pull down a postgres docker container and we set our password as `docker`, though you can set it as whatever you'd like.
+```
+ docker pull postgres
+ docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=docker -d postgres
+```
+
+* Flash database for quick dev
+
+```
+PGPASSWORD='docker' psql -h localhost -U postgres -c "drop database modeltracker" 
+  && PGPASSWORD='docker' psql -h localhost -U postgres -c "create database modeltracker"
+```
+
+
+### 2. Populating the basic type tables
+
+If you've installed this as a pip package in your virtual environment then you can navigate into your virtual environment, then lib, then your installed python version, then site packages, and finally into modeltracker (this step is not required if you have access to the source code) 
+
+The path should look something like this:
+
+```
+<virtualenv here>/lib/python3.xx/site-packages/modeltracker/
+```
+
+Once you've reached that path, you can generate the basic table types with:
+```bash 
+python -m modeltracker.main  
+```
+
+* Suppose you have been developing and wish to destroy all table contents:
+
+```bash
+python -m modeltracker.main -r
+```
+
+### 3. Checking tables existence in local postgres databse instance
+
+You can then hop into your running postgres database instance with:
+```
+docker exec -it some-postgres psql -U postgres
+```
+
+# Database dict
+## To keep track of what is being produced by the modeltracker
+
+**datastore_type** : Describes the datastore types, BQ or GCS for instance.
+
+**feature_store_metrics** : Describes the metrics relating to each model in the model_catalog_id
+
+**job** : Describes tasks that have been run
+
+**model_catalog** : describes models and links to state_id
+
+**model_output** : describes location and datastore type of model_output
+
+**state** : Catalogue of states
+
+**task_type** : Tracks tasks that occur
