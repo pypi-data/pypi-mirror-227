@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rubeus
+Version: 0.1.5
+Summary: Python client library for the Rubeus API
+Home-page: https://github.com/Portkey-AI/rubeus-python-sdk
+Author: Portkey.ai
+Author-email: support@portkey.ai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# rubeus-python-sdk
+The python sdk for Rubeus.
