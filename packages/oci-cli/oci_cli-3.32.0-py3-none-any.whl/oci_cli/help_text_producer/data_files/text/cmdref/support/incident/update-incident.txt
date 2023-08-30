@@ -1,0 +1,14 @@
+update-incident
+***************
+
+
+Description
+===========
+
+Details about the support ticket being updated.
+
+
+Available Commands
+==================
+
+* *update-incident*
