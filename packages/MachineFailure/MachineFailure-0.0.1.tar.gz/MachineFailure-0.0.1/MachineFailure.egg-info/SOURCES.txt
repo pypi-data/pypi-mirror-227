@@ -1,0 +1,13 @@
+setup.py
+MachineFailure/__init__.py
+MachineFailure/functions.py
+MachineFailure.egg-info/PKG-INFO
+MachineFailure.egg-info/SOURCES.txt
+MachineFailure.egg-info/dependency_links.txt
+MachineFailure.egg-info/top_level.txt
+MachineFailure/encoders/__init__.py
+MachineFailure/encoders/encoder_dict.pkl
+MachineFailure/normalizers/__init__.py
+MachineFailure/normalizers/normalizer_dict.pkl
+MachineFailure/pre_trained_models/FailPredictor.pkl
+MachineFailure/pre_trained_models/__init__.py
