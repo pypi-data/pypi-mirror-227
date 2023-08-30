@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+EmailSenderVaryTest/__init__.py
+EmailSenderVaryTest/config.py
+EmailSenderVaryTest/sender.py
+EmailSenderVaryTest.egg-info/PKG-INFO
+EmailSenderVaryTest.egg-info/SOURCES.txt
+EmailSenderVaryTest.egg-info/dependency_links.txt
+EmailSenderVaryTest.egg-info/top_level.txt
