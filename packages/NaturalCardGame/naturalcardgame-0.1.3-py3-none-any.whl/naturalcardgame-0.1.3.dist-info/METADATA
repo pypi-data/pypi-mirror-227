@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: NaturalCardGame
+Version: 0.1.3
+Summary: Simple library for card game
+Project-URL: Homepage, https://github.com/clegrand/CardGame
+Author-email: Christopher LEGRAND SOULIMANT <comachristo22@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
