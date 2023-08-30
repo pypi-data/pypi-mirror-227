@@ -1,0 +1,132 @@
+import itertools
+import datetime
+import torch
+import torch.nn.functional as F
+import pubmed_util
+import argparse
+import create_graph_dgl as cg
+from dgl.data.utils import load_graphs
+from torch.cuda.amp import autocast, GradScaler
+import ginconv_dgl as gnn
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='pick CPU or GPU to perform the graph deep learning ')
+    parser.add_argument('--gdir', type=str, required=True, help='pick graph directory')
+    parser.add_argument('--device', type=str, default= 'GPU', help='pick CPU or GPU')
+    parser.add_argument('--graph', type=str, default= 'text', help='pick text or binary')
+    parser.add_argument('--dim', type=int, default= 64, help='intermediate feature length')
+    parser.add_argument('--category', type=int, required=True, help='classification category. e.g. cora has 7')
+    parser.add_argument('--feature', type=str, default= 'text', help='pick text, binary, or gen')
+    parser.add_argument('--use_fp16', action='store_true', help='use this flag to select half type')
+
+    args = parser.parse_args()
+
+    # Select Device
+    use_cuda = args.device == 'GPU' and torch.cuda.is_available()
+    device = torch.device('cuda' if use_cuda else 'cpu')
+    if use_cuda:
+        print("Using CUDA!")
+    else:
+        print('Not using CUDA!!!')
+
+    use_fp16 = args.use_fp16
+    print("Using Half Pricision", use_fp16)
+
+    graph_dir = args.gdir #"/mnt/huge_26TB/data/test2/cora/"
+    if args.graph == 'text':
+        graph_data_path = graph_dir + "graph_structure/graph.txt"
+        line_needed_to_skip = 4
+        src, dst, comment = cg.read_graph_data(graph_data_path, line_needed_to_skip)
+        graph = cg.build_dgl_graph(src, dst)
+    else:
+        graph_data_path = graph_dir + "dgl_graph/graph.dgl"
+        list_graph, label_dict_none = load_graphs(graph_data_path)
+        graph = list_graph[0]
+    
+    num_vcount = graph.number_of_nodes()
+    print("num_node", num_vcount)
+    print("num_edge", graph.number_of_edges())
+    
+    if args.feature == 'text':
+        feature = pubmed_util.read_feature_info(graph_dir + "feature/feature.txt")
+        feature = torch.tensor(feature).to(device)
+    elif args.feature == 'binary':
+        feature = torch.load(graph_dir + "feature/feature.pt")
+        feature = feature.to(device)
+    else :
+        feature = torch.rand(graph.number_of_nodes(), int(args.feature))
+        feature = feature.to(device)
+   
+    if args.feature == 'text' or args.feature == 'binary':
+        train_id = pubmed_util.read_index_info(graph_dir + "index/train_index.txt")
+        test_id = pubmed_util.read_index_info(graph_dir + "index/test_index.txt")
+        test_y_label =  pubmed_util.read_label_info(graph_dir + "label/test_y_label.txt")
+        train_y_label =  pubmed_util.read_label_info(graph_dir + "label/y_label.txt")
+        
+        train_id = torch.tensor(train_id).to(device)
+        test_id = torch.tensor(test_id).to(device)
+        train_y_label = torch.tensor(train_y_label).to(device)
+        test_y_label = torch.tensor(test_y_label).to(device)
+
+    else:
+        train = 1
+        val = 0.3
+        test = 0.1
+        #train_mask = int(num_vcount * train) + [0
+        num_train = int(num_vcount * val)
+        num_test = int(num_vcount * test)
+        #num_train = len(val_mask)
+        #num_test = len(test_mask)
+        print("train. test", num_train, num_test, num_vcount)
+        train_y_label, test_y_label, train_id, test_id =  pubmed_util.ran_init_index_and_label(args.category, num_train, num_test)
+        train_y_label = train_y_label.to(device)
+        test_y_label = test_y_label.to(device)
+        train_id = train_id.to(device)
+        test_id = test_id.to(device)
+
+    
+    graph=graph.to(device)
+    input_feature_dim = feature.size(1) 
+    #print(input_feature_dim)
+    net = gnn.GIN(graph, input_feature_dim, args.dim, args.category)
+    net.to(device)
+
+    # train the network
+    optimizer = torch.optim.Adam(itertools.chain(net.parameters()), lr=0.01, weight_decay=5e-4)
+    scaler = GradScaler()
+    #scaler = GradScaler(growth_interval=2000, growth_factor=2, backoff_factor=0.5)
+
+    start1 = datetime.datetime.now()
+    for epoch in range(200):
+        start = datetime.datetime.now()
+        with autocast(enabled = use_fp16):
+            logits = net(feature)
+            logp = F.log_softmax(logits, 1)
+            loss = F.nll_loss(logp[train_id], train_y_label)
+        optimizer.zero_grad()
+
+        if use_fp16:
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
+        else:
+            loss.backward()
+            optimizer.step()
+
+        end = datetime.datetime.now()
+        difference = end - start
+        #print("time per epoch", difference)
+        #print('Epoch %d | Train_Loss: %.4f' % (epoch, loss.item()))
+        print('Epoch %d | Train_Loss: %.4f' % (epoch, scaler.scale(loss).item()))
+        #acc_val2 = pubmed_util.accuracy(logp[test_id],test_y_label)
+        #print('Epoch %d | Train_Loss: %.4f accuracy %.4f' % (epoch, loss.item(), acc_val2))
+    
+    end1 = datetime.datetime.now()
+    difference1 = end1 - start1
+    print("DGL GIN Training time for ", graph_dir, "is: ", difference1)
+    logits_test = net.forward(feature)
+    logp_test = F.log_softmax(logits_test, 1)
+    acc_val2 = pubmed_util.accuracy(logp_test[test_id],test_y_label)
+    print('Epoch %d GIN | Test_accuracy: %.4f' % (epoch, acc_val2))
+
