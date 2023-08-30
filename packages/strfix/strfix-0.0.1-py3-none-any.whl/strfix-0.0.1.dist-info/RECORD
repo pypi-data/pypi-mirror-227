@@ -1,0 +1,10 @@
+strfix/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+strfix/_modidx.py,sha256=T1jvpop1MukK9XbfSCtv2keVros1PEJxjDf8SFGi1so,6576
+strfix/core.py,sha256=SfCUJ3-M4FiC1Bpl2vkVUr6CYe7xuGdUjnjg5mDypdU,22385
+strfix/fixs.py,sha256=gx58kTNaJA7ALt3w8MBrJ73WL34qPBMhKsmb-IO-ddU,3369
+strfix-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+strfix-0.0.1.dist-info/METADATA,sha256=NM7E-ix5Al1hWwjVuu0a9n-i2DN2oOLQa0JS4uvuOtc,3396
+strfix-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+strfix-0.0.1.dist-info/entry_points.txt,sha256=Xc_xijMeONZYk4XRbDTbEPeTR50D-OAeiuA3ZJRm7c8,34
+strfix-0.0.1.dist-info/top_level.txt,sha256=VJyVenP1Hn60b1zUcLDjf3x0y1CkDOrvZC6et6MPqKc,7
+strfix-0.0.1.dist-info/RECORD,,

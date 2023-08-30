@@ -1,0 +1,2 @@
+[nbdev]
+strfix = strfix._modidx:d
