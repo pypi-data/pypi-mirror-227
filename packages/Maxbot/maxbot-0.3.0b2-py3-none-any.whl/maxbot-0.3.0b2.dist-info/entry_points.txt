@@ -1,0 +1,6 @@
+[console_scripts]
+maxbot=maxbot.cli:main
+
+[pytest11]
+maxbot_stories=maxbot.stories.pytest
+
