@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tidi
+Version: 0.1.2.dev5
+Summary: A small dependency injection Python library
+License: MIT
+Author: Sam Patterson
+Author-email: no@emails.please
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# tidi
+
+_A small dependency injection Python library._
+
+Inspired by [Kent Tong's](https://github.com/freemant2000) [disl](https://github.com/freemant2000/disl/tree/main) and [FastAPI's `Depends`](https://fastapi.tiangolo.com/tutorial/dependencies/).
+
