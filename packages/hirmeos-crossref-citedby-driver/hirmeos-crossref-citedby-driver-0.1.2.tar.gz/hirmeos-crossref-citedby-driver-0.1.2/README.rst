@@ -1,0 +1,74 @@
+=======================
+crossref-citedby-driver
+=======================
+
+Library containing logic for the OPERAS crossref-citedby-driver.
+
+Allows users to fetch citations from the crossref cited-by API.
+
+
+Release Notes:
+==============
+
+[0.1.2] - 2023-08-29
+--------------------
+
+Changed:
+    - Process all citations - not just those for DOIs that match the the
+      DOI prefix associated with Crossref account.
+
+
+[0.1.1] - 2023-07-28
+--------------------
+
+Added:
+    - Attempt to fix breaking changes: Temporarily added fetch_citation_xml,
+      get_crossref_citations and get_citation_data functions
+
+Changed:
+    - **Bugfix** | Timestamp format now uses "YYYY-MM-DD", not "YYYYMMDD"
+
+
+[0.1.0] - 2023-07-28
+--------------------
+
+Changed:
+    - Functions are now run as methods, via the CrossrefCitedByClient class
+
+Removed:
+    - **breaking** | All functions removed; replaced with CrossrefCitedByClient
+
+
+[0.0.5] - 2023-07-26
+--------------------
+
+Added:
+    - Better "best guess" for crossref DOI published date
+    - Determine the prime-doi for an aliasd DOI
+
+Changed:
+    - Switched project to using build and toml configuration
+
+
+[0.0.4] - 2023-06-09
+--------------------
+
+Added:
+    - Unittests
+
+Changed:
+    - Set `feature` to "xml" rather than "lxml" when reading XML using BeautifulSoup
+
+
+[0.0.3] - 2022-03-24
+--------------------
+
+Changed:
+    - Update requirements
+
+
+[0.0.2] - 2022-03-24
+--------------------
+
+Changed:
+    - Update requirements

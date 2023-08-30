@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/crossref_citedby_driver/__init__.py
+src/hirmeos_crossref_citedby_driver.egg-info/PKG-INFO
+src/hirmeos_crossref_citedby_driver.egg-info/SOURCES.txt
+src/hirmeos_crossref_citedby_driver.egg-info/dependency_links.txt
+src/hirmeos_crossref_citedby_driver.egg-info/requires.txt
+src/hirmeos_crossref_citedby_driver.egg-info/top_level.txt
+tests/tests.py

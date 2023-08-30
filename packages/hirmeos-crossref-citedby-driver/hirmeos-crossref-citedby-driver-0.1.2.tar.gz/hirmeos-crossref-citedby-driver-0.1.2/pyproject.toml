@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hirmeos-crossref-citedby-driver"
+version = "0.1.2"
+authors = [
+  { name="Cristian Garcia", email="cristian.garcia@ubiquitypress.com" },
+  { name="Rowan Hatherley", email="rowan.hatherley@ubiquitypress.com" },
+]
+description = "Functions required by the crossref-citedby-driver"
+readme = "README.rst"
+requires-python = ">=3.10"
+dependencies = [
+  'beautifulsoup4>=4.8.0,<5.0',
+  'lxml>=4.8.0,<5.0',
+  'requests>=2.0,<3.0',
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
