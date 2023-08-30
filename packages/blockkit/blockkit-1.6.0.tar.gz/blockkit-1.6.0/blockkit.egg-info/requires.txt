@@ -1,0 +1,4 @@
+pydantic
+
+[gen]
+black
