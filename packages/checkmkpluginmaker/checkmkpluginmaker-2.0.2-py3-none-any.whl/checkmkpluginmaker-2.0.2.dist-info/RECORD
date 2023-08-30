@@ -1,0 +1,15 @@
+pluginmaker/__init__.py,sha256=ngpOxcW_8kXgkQ5xLr752Bd0lNSQB0ewlaTph_Hs_s4,556
+pluginmaker/cookiecutter_templates/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+pluginmaker/cookiecutter_templates/cmk_plugin/cookiecutter.json,sha256=hc7yo3LiXhD_bpz0LcyBkimBic9lz9TNeSxeaIs7Rng,975
+pluginmaker/cookiecutter_templates/cmk_plugin/hooks/pre_gen_project.py,sha256=S2kfGS3n8CTFQY_mtE3N5rin0Khqz0OTirqGOh9z8AE,1451
+pluginmaker/cookiecutter_templates/cmk_plugin/setup.py,sha256=DxCDeBN3ETFvobjtS8JldS59SmPKnbrT_Co78-WHpWo,327
+pluginmaker/cookiecutter_templates/cmk_plugin/{{cookiecutter.project_slug}}/Makefile,sha256=4VdeLfV0dNV59jyEQdGPp9nvdfQXjFCyHobM4SCTS-8,1993
+pluginmaker/cookiecutter_templates/cmk_plugin/{{cookiecutter.project_slug}}/agent_invoker/agent_{{cookiecutter.agent_id}},sha256=zHs5CcsQtYkkPyFNgkZvk08dSrYIzYgfzonfMI7sThg,869
+pluginmaker/cookiecutter_templates/cmk_plugin/{{cookiecutter.project_slug}}/agent_special/agent_{{cookiecutter.agent_id}},sha256=UIvnATOxkRZ0Z7pn1W7SmnwJ3sQ6szk2ZfKYpUcO93g,4813
+pluginmaker/cookiecutter_templates/cmk_plugin/{{cookiecutter.project_slug}}/mkp/config,sha256=_H0-bCs7g23R4OLfPX1X8m9d8OfBtP8-Ty_41L-bods,1058
+pluginmaker/cookiecutter_templates/cmk_plugin/{{cookiecutter.project_slug}}/plugin/service_{{cookiecutter.agent_id}}.py,sha256=tq4AwKcjPfZIi0iBiSBx7vmf1YwumyR6s1F1biYz6Wo,3554
+pluginmaker/cookiecutter_templates/cmk_plugin/{{cookiecutter.project_slug}}/wato/{{cookiecutter.agent_id}}_register.py,sha256=hlthz1HcUVryCURj6S_CieBTvvONlm1hPzIHzjQm41k,2702
+checkmkpluginmaker-2.0.2.dist-info/METADATA,sha256=uD1WZV0RKKhTlxJ22pZSaDFGD8kOmRl7Gu3AwPTfonM,1365
+checkmkpluginmaker-2.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+checkmkpluginmaker-2.0.2.dist-info/entry_points.txt,sha256=bmojnKbM0TJXXk6Y_kBN1pbJuBLDhBkm3wZjTPD4SW4,95
+checkmkpluginmaker-2.0.2.dist-info/RECORD,,
