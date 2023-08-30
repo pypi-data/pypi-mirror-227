@@ -1,0 +1,15 @@
+snp_transformer/__init__.py,sha256=NMxBczfsbCAyKhHej9b-ps1O9ZVppmA3q2L9u7veZgs,83
+snp_transformer/config.cfg,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snp_transformer/data_objects.py,sha256=N2urJxrNVv4Et6bZGCi7-U-4dHClTdS6qS3LujBRo7s,3895
+snp_transformer/dataset.py,sha256=RuiDWyx_9hWUpgrs2JPOOI776jru4sJuuYIAPtwjPs8,2092
+snp_transformer/embedding.py,sha256=1lp3q549Ouqijhr5AgzyU2mvQnGDnCjyd7JBOuS-v-4,4398
+snp_transformer/encoder.py,sha256=U2qNF8K0uanclwa8WQkktl2eMAuBGg_7t_utxFIbzOM,1246
+snp_transformer/loaders.py,sha256=rJFrMgHC27Ah5ULepbkmoXqFgoqp9S_PUHdDGTGJQrU,1908
+snp_transformer/old_embedding.py,sha256=pZzRG5W_IpWOHs3WN9bKPxofRLOUAyf1is29ktv41_w,1346
+snp_transformer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snp_transformer/trainer.py,sha256=wtnOazWwTm3pMdyW82iNY-FEyOv8yr8Se60SGYYWcAQ,339
+snp_transformer-0.0.4.dist-info/LICENSE,sha256=NrEtlw3trnc6MiBuYPFiTXYBtAmWCfiOor5eAjRVT7k,1074
+snp_transformer-0.0.4.dist-info/METADATA,sha256=1A8X54dbllSVF1ioDzYF9LiI4zMVZWnXRXvDwCyjSL4,5094
+snp_transformer-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+snp_transformer-0.0.4.dist-info/top_level.txt,sha256=Z2Oz70tdbwjywmNnNDPbWdiePMSnhOBLrBuwS_-dPJQ,16
+snp_transformer-0.0.4.dist-info/RECORD,,
