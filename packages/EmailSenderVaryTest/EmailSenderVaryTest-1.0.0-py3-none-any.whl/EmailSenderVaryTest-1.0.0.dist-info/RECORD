@@ -1,0 +1,11 @@
+EmailSender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EmailSender/config.py,sha256=MxPHdrRKeCXQWqGYrjU7XoxZ8qCa_kBnXgMcwCn2ot4,82
+EmailSender/sender.py,sha256=FsxhqTbL0IrSiYwO1bmFgbl-XDGuSJP-P3htfRvym2k,2592
+EmailSenderVaryTest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+EmailSenderVaryTest/config.py,sha256=MxPHdrRKeCXQWqGYrjU7XoxZ8qCa_kBnXgMcwCn2ot4,82
+EmailSenderVaryTest/sender.py,sha256=FsxhqTbL0IrSiYwO1bmFgbl-XDGuSJP-P3htfRvym2k,2592
+EmailSenderVaryTest-1.0.0.dist-info/LICENSE.txt,sha256=Y7Tl-HkbkCuc_K3woIfbxKgy5wqXeawJTT9Gys-PH2E,1078
+EmailSenderVaryTest-1.0.0.dist-info/METADATA,sha256=n0HKQjXl-pjROgjR0_NvZ9a46_Cb5m33cUmY5QBdYrE,273
+EmailSenderVaryTest-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+EmailSenderVaryTest-1.0.0.dist-info/top_level.txt,sha256=93_YjTk1IrAe-XBhlOYJ1sN9Fm7Ty7du-SkOuakK8cs,20
+EmailSenderVaryTest-1.0.0.dist-info/RECORD,,
