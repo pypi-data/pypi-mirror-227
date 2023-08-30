@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xsar
+Version: 2023.8.0.post1
+Summary: xarray L1 SAR mapper
+Home-page: https://github.com/umr-lops/xsar
+Author: Olivier Archer, Alexandre Levieux, Antoine Grouazel
+Author-email: Olivier.Archer@ifremer.fr, Alexandre.Levieux@gmail.com, Antoine.Grouazel@ifremer.fr
+License: MIT
+Description-Content-Type: text/x-rst
+Provides-Extra: RS2
+Provides-Extra: RCM
+Provides-Extra: S1
+License-File: LICENSE
+
+Python xarray library to use Level-1 GRD Synthetic Aperture Radar products
