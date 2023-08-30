@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: kgf-azure-ml-model
+Version: 1.0
+Author: Naresh khuriwal
+Requires-Dist: azureml
+Requires-Dist: tensorflow
+
