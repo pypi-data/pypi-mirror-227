@@ -1,0 +1,7 @@
+README.md
+setup.py
+ProcessGuard.egg-info/PKG-INFO
+ProcessGuard.egg-info/SOURCES.txt
+ProcessGuard.egg-info/dependency_links.txt
+ProcessGuard.egg-info/requires.txt
+ProcessGuard.egg-info/top_level.txt
