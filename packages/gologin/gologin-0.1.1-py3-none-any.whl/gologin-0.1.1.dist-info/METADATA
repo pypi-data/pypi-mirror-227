@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: gologin
+Version: 0.1.1
+Summary: Official GoLogin python package
+Home-page: https://github.com/gologinapp/pygologin
+Author: GoLogin
+Author-email: yuri@gologin.com
+License-File: LICENSE
+
