@@ -1,0 +1,14 @@
+drf_spectacular_jsonapi/__init__.py,sha256=TZkGuMIRSRmUY3XCIs5owt2o60vXyqYMHWIkhx65uYE,22
+drf_spectacular_jsonapi/apps.py,sha256=Vgdk2ZKCXVbrXGLg7jv4zorpmBbMzFU-pWArbpoVdx0,164
+drf_spectacular_jsonapi/hooks.py,sha256=R4JIius1l8JxkmrPhTMAv-l2rIpT3uZwi9YlSOOdXWk,1697
+drf_spectacular_jsonapi/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_spectacular_jsonapi/schemas/converters.py,sha256=tcup8uATIjSU8Il3zZtS4JgEH_Dk_hYyZeaUL8iRfw4,9953
+drf_spectacular_jsonapi/schemas/openapi.py,sha256=hlVMhN65e9Uur7f3NLyI23jxKN2MTjp45pZNU0iLiQc,12494
+drf_spectacular_jsonapi/schemas/pagination.py,sha256=8a_CMr5kbomL-3ztCD8Wl3OIO1LEPIjc_AwFvewj868,1221
+drf_spectacular_jsonapi/schemas/plumbing.py,sha256=shYy1IlZP8wQggf6YT5aS4_81fryVQlhs9Z5xXtwQ4M,175
+drf_spectacular_jsonapi/schemas/utils.py,sha256=8s_LgneNwq7_ph3jlccTeRJcnOFD_dtTiizsvvxCuFs,508
+drf_spectacular_jsonapi-0.3.1.dist-info/LICENSE,sha256=cwBKMH_0Oo6C5mZ7WDeIIUPcIJYjcHSFU0RhOjwTBjc,1659
+drf_spectacular_jsonapi-0.3.1.dist-info/METADATA,sha256=nDz9DUvf9TTA9qF0hK7gW4ufY4jst-gmiU6nV3CznuY,3022
+drf_spectacular_jsonapi-0.3.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+drf_spectacular_jsonapi-0.3.1.dist-info/top_level.txt,sha256=EO3VivvEP8buKE8bdkaDcti_bbYSW-885Egv6VLhlH4,24
+drf_spectacular_jsonapi-0.3.1.dist-info/RECORD,,
