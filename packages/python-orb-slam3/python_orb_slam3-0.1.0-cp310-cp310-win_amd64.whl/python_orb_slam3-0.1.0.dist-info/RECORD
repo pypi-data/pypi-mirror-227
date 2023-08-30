@@ -1,0 +1,6 @@
+python_orb_slam3/__init__.py,sha256=jKeSAP6YbbfnRTi2Wjcydj1RtQ8WY6Y3_nfR2oeg3vI,919
+orb_slam3.cp310-win_amd64.pyd,sha256=ZE5VTHW-pT27bpLCXtXPd7fsY839D2-UY9Ly9uluWKQ,27003904
+python_orb_slam3-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+python_orb_slam3-0.1.0.dist-info/METADATA,sha256=6hUf3o4cXUuOVuRScogmeomXWKctjNOfvOpwnr0CqUQ,2894
+python_orb_slam3-0.1.0.dist-info/WHEEL,sha256=o3KVTmmlv3nYq4EnT_V-okIlsV0_2oNFUKxSKIFSEhc,98
+python_orb_slam3-0.1.0.dist-info/RECORD,,
