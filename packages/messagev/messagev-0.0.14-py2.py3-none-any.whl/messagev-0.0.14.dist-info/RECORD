@@ -1,0 +1,11 @@
+messagev/__init__.py,sha256=gPcIHfaJubOf63JrRjcfQc455WLIOIVAqH_F7ssOTUI,74
+messagev/auth_pb2.py,sha256=OPdFKK4QFtQIaSOQ-NLUwmX0d19WZeF-_2jrcZ4Y0yA,2108
+messagev/base_pb2.py,sha256=xexLAm0N07YFLBohPIIulqWbHKd5aZZcJuDezx7YC54,1990
+messagev/command_pb2.py,sha256=2-cjsR0oT78o1uQXB-ADhsY2RpKS5W7TksJ9OABSDG8,1723
+messagev/configv_pb2.py,sha256=pyOrZsvCp26gfMf9sdommJFw9Zzw1XC3p8S80C3n1hQ,1088
+messagev/info_pb2.py,sha256=oT-qyWtOnsJX-Ra7YeQJbNo3CXAWqiDYRaYtNHGC6pY,2240
+messagev-0.0.14.dist-info/AUTHORS.rst,sha256=KxbvzQx9mLPLJJd2brQNk_TQP3qigoTIbFKIm8WdvYc,146
+messagev-0.0.14.dist-info/METADATA,sha256=-vcc5x4w2B8RRAv0Xr-1ttabNOa8K4CuSEJOgFqdEDE,684
+messagev-0.0.14.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+messagev-0.0.14.dist-info/top_level.txt,sha256=R8pdULh_iT29meq_T25xa79Di4pdIhFDh_WVYt-EYIk,9
+messagev-0.0.14.dist-info/RECORD,,
