@@ -1,0 +1,10 @@
+hrds/__init__.py,sha256=ntAYhlz2bf2IQSFqcFL6HUBvcP-xCdEN_iYyCkGEjTE,1070
+hrds/hrds.py,sha256=6oegB2jBitJ-GHdu392Em9Tlhep2TezJWDfaIrTDC5Y,9966
+hrds/raster.py,sha256=bcN_lUYlTkikFfOURBSMuM--YksV44u3OnylzDDbmqI,10365
+hrds/raster_buffer.py,sha256=xAD7ToXUfvB9LGlbEQYeHIfhvD6SV_UScGwOV1c0Fas,7010
+HRDS-0.1.4.dist-info/AUTHORS,sha256=Vd0ntKM9945teF_9-kKxIrzq8ia-5bHroGsJqJEWdzo,40
+HRDS-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+HRDS-0.1.4.dist-info/METADATA,sha256=JR5jl7W9MVme6Noe5kT0riqoAy6gzc5eyMVQgaVqrn0,6733
+HRDS-0.1.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+HRDS-0.1.4.dist-info/top_level.txt,sha256=YZTAAjswStWzGMvL5d4B9KMpPuECqgx34kDStEzZycw,5
+HRDS-0.1.4.dist-info/RECORD,,
