@@ -1,0 +1,3 @@
+[console_scripts]
+wenetruntime = wenetruntime.main:main
+
