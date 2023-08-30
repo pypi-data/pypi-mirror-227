@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nba_sympy
+Version: 0.1
+Summary: wrap sympy.stats with symbol constructors that magically guess the names of variables
+Home-page: https://github.com/micklat/nba_pymc
+Author: Michael Latowicki
+License: BSD 3-clause
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
