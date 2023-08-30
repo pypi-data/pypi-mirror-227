@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: YODE-Segmentation
+Version: 1.0.0
+Summary: 简单描述
+Author: 作者
+Author-email: zconechorm@163.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/plain
+Requires-Dist: Faker (>=18.7.0)
+Requires-Dist: ddddocr (>=1.4.7)
+Requires-Dist: requests (>=2.30.0)
+Requires-Dist: loguru (>=0.7.0)
+Requires-Dist: lxml (>=4.9.2)
+
+
+# 项目名称
+
+
+
+简要的项目描述
+
+
+
+## 目录
+
+
+
+- [安装](#安装)
+
+- [快速开始](#快速开始)
+
+- [功能和特点](#功能和特点)
+
+- [使用说明](#使用说明)
+
+- [贡献](#贡献)
+
+- [版权和许可证](#版权和许可证)
+
+
+
+## 安装
+
+
+
+在命令行中执行以下命令来安装项目：
+
+
+
