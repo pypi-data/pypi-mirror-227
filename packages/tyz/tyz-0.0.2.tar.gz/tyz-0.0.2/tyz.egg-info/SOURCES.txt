@@ -1,0 +1,6 @@
+README.md
+setup.py
+tyz.egg-info/PKG-INFO
+tyz.egg-info/SOURCES.txt
+tyz.egg-info/dependency_links.txt
+tyz.egg-info/top_level.txt
