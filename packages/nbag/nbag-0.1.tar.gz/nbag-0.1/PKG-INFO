@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nbag
+Version: 0.1
+Summary: Infer the names of nodes in a computational graph from the LHS of ordinary assignment statements, by magic.
+Home-page: https://github.com/micklat/nbag
+Author: Michael Latowicki
+License: BSD 3-clause
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE

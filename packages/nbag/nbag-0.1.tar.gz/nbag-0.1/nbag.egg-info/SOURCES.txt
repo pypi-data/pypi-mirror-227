@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+nbag/__init__.py
+nbag/gen_wrappers.py
+nbag/named_by_assignment.py
+nbag.egg-info/PKG-INFO
+nbag.egg-info/SOURCES.txt
+nbag.egg-info/dependency_links.txt
+nbag.egg-info/top_level.txt
+test/test_generic.py
