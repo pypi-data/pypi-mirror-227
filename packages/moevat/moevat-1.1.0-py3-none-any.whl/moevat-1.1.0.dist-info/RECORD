@@ -1,0 +1,10 @@
+moevat/__init__.py,sha256=j9H0RsjaSXhemeZDPm6F447tKnkEeCJNk4EpVTe33v8,101
+moevat/annotator.py,sha256=LSkJJXqeKWq5hDlIxddqx54vEVu9ca0pmYgLxQbps-M,15959
+moevat/cli.py,sha256=1uq0D_F8brGJDTCY-VV1E86Hs4TgsqSvqGIotjBhhEk,14220
+moevat/version.py,sha256=pqj63wRhX0pccGsF66MIOzNLKHJdUxWHDX7Vt0Ey0UU,1196
+moevat-1.1.0.dist-info/LICENSE,sha256=lt7HnH2QvasTGfU1h9vkDT5-ymSrWYcFrCCtl7S1wME,1093
+moevat-1.1.0.dist-info/METADATA,sha256=S20NeyNzvUd_6A9dfPJpxtDZL755Bd_JZ1MoS-Opa40,4938
+moevat-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+moevat-1.1.0.dist-info/entry_points.txt,sha256=OZNHLnf_Usd5CqpTzpPlx7GrFjgr9743KWtNuAHrXl8,43
+moevat-1.1.0.dist-info/top_level.txt,sha256=kkF80xePkXwjKD4SpqNRAZ_m9hTac84QMTmYDbVlCMM,7
+moevat-1.1.0.dist-info/RECORD,,
