@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: acdh-django-browsing
+Version: 2.0
+Summary: Django-App providing some useful things to create browsing views
+Home-page: https://github.com/acdh-oeaw/acdh-django-browsing
+Author: Peter Andorfer
+Author-email: peter.andorfer@oeaw.ac.at
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: acdh-django-charts (==0.5.3)
+Requires-Dist: crispy-bootstrap5 (<1,>=0.7)
+Requires-Dist: django-autocomplete-light (<4,>=3.8.1)
+Requires-Dist: django-crispy-forms (<3,>=2.0)
+Requires-Dist: django-filter (<24,>=23.1)
+Requires-Dist: django-super-deduper (>=0.1.4)
+Requires-Dist: django-tables2 (<3,>=2.5)
+Requires-Dist: tablib (<4,>=3.5.0)
+
+[![flake8 Lint](https://github.com/acdh-oeaw/acdh-django-browsing/actions/workflows/lint.yml/badge.svg)](https://github.com/acdh-oeaw/acdh-django-browsing/actions/workflows/lint.yml)
+
+# acdh-django-browsing
+
+Django-App providing some useful things to create browsing views
+
+## Quickstart
+
+Install acdh-django-browsing:
+
+`pip install acdh-django-browsing`
+
+Add it to your `INSTALLED_APPS`:
+
+```python
+INSTALLED_APPS = (
+    ...
+    'browsing',
+    ...
+)
+```
+
+
