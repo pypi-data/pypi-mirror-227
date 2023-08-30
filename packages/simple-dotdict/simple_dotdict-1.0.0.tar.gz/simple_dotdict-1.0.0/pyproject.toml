@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "simple-dotdict"
+version = "1.0.0"
+description = "Dot.notation access for dictionaries"
+authors = ["Jacob Valdez <jacobfv123@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "simple_dotdict" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
