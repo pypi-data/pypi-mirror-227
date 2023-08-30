@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+dotnetfile/__init__.py
+dotnetfile/constants.py
+dotnetfile/dotnetfile.py
+dotnetfile/logger.py
+dotnetfile/metadata_rows.py
+dotnetfile/parser.py
+dotnetfile/structures.py
+dotnetfile/util.py
+dotnetfile.egg-info/PKG-INFO
+dotnetfile.egg-info/SOURCES.txt
+dotnetfile.egg-info/dependency_links.txt
+dotnetfile.egg-info/requires.txt
+dotnetfile.egg-info/top_level.txt
