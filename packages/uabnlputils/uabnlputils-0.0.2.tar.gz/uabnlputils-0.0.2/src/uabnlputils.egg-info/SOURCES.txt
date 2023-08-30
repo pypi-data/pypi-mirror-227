@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/uabnlputils/__init__.py
+src/uabnlputils/textprocessor.py
+src/uabnlputils.egg-info/PKG-INFO
+src/uabnlputils.egg-info/SOURCES.txt
+src/uabnlputils.egg-info/dependency_links.txt
+src/uabnlputils.egg-info/requires.txt
+src/uabnlputils.egg-info/top_level.txt
