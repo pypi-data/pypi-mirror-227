@@ -1,0 +1,12 @@
+README.md
+setup.py
+credints/__init__.py
+credints/attic.py
+credints/equal_tail_intervals.py
+credints.egg-info/PKG-INFO
+credints.egg-info/SOURCES.txt
+credints.egg-info/dependency_links.txt
+credints.egg-info/requires.txt
+credints.egg-info/top_level.txt
+test/test_with_pymc.py
+test/test_with_sympy.py

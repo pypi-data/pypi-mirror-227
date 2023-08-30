@@ -1,0 +1,3 @@
+nbag
+scipy
+numpy
