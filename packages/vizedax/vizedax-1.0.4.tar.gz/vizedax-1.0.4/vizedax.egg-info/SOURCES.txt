@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+vizedax.egg-info/PKG-INFO
+vizedax.egg-info/SOURCES.txt
+vizedax.egg-info/dependency_links.txt
+vizedax.egg-info/top_level.txt
