@@ -1,0 +1,12 @@
+wikipedia
+numpy
+pandas
+cryptocompare
+keras
+tensorflow
+scikit-learn
+faker
+matplotlib
+keras
+requests
+beautifulsoup4
