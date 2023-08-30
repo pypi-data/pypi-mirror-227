@@ -1,0 +1,11 @@
+gym_cas/__about__.py,sha256=vZewonDLzjdu4FZegy4KreYqGWGhU9PRYP5xZrpyO6s,118
+gym_cas/__init__.py,sha256=oLh3biyKBgEr3dZMfRpg6G4Wl93ji2MNp_Bs3tLUhgg,571
+gym_cas/regression.py,sha256=OgOeQ-a_Segwrgl_072rgJlkmxyTLHU_ts158-_909o,3821
+gym_cas/stat_plot.py,sha256=nbEr6XjZZlo3AHrDJDbygM5CYYX8hFfL2wxLALLun1s,9087
+gym_cas/stats.py,sha256=d0I3LkOmQQ7l2ZkfoDs1ZtMiXSjfnJxpJyxKAK3YZd4,8880
+gym_cas/trigonometry.py,sha256=R17N02AVgLwgKYf1xyeC0m2XEJDbxoGvXgav-Xyqmrg,1955
+gym_cas/vector.py,sha256=ZDobgyN4KV1KUqK_edE0y6jSuqmwD_naoVsgpOtclWY,15576
+gym_cas-0.0.16.dist-info/METADATA,sha256=-GQvztKPBVo4RxFvRmW_MmILeIPhYDoAx4yt8oZeTrQ,3586
+gym_cas-0.0.16.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gym_cas-0.0.16.dist-info/licenses/LICENSE.txt,sha256=wegMMdxLWq2RSeAStNh2w0YsNcf0IqbLAZFqPmYvefM,1092
+gym_cas-0.0.16.dist-info/RECORD,,
