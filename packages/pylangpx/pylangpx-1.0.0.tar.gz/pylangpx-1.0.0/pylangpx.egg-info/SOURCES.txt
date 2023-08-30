@@ -1,0 +1,5 @@
+setup.py
+pylangpx.egg-info/PKG-INFO
+pylangpx.egg-info/SOURCES.txt
+pylangpx.egg-info/dependency_links.txt
+pylangpx.egg-info/top_level.txt
