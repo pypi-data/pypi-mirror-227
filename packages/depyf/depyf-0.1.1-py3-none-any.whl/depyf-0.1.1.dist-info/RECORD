@@ -1,0 +1,8 @@
+depyf/__init__.py,sha256=pMJeF6dAbkWIz1RbTWe75C5JE25NrVMSsVnXtZ2cfhs,265
+depyf/decompiler.py,sha256=fXwqAGVW1HgC12soNLUrX3nqqJ6BZTbMJqRxFRlbNtk,34053
+depyf/patch.py,sha256=j9i3dm3FIPeQb9RsoVhCeiWBHZy_v2lcIBHaEV22Za0,498
+depyf-0.1.1.dist-info/LICENSE,sha256=OHfbkjDhzXv_LgNG9lnNWQ0zv-jVaYMc-LncjKkEqGE,1067
+depyf-0.1.1.dist-info/METADATA,sha256=bmtGSYhExC3jsMhDBBkRu4XjS996ggFKPLKqRpFSL1U,4702
+depyf-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+depyf-0.1.1.dist-info/top_level.txt,sha256=Q8OIJwiCISz0EGVEbMqj3ybR3yHWYbLNxR0ocsccRoo,6
+depyf-0.1.1.dist-info/RECORD,,
