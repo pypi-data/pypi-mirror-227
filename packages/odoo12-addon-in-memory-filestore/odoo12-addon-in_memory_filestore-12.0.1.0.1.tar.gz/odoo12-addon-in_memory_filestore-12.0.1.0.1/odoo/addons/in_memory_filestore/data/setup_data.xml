@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="attachment_location_config" model="ir.config_parameter">
+        <field name="key">ir_attachment.location</field>
+        <field name="value">file</field>
+    </record>
+</odoo>
