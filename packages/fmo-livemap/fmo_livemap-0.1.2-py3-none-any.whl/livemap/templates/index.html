@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Real-time GPS Path Tracking</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+      #map {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+    <script>
+      const map = L.map("map").setView([38.972148, -76.9611946], 13); // Set initial view
+
+      const pathLayerGroup = L.layerGroup().addTo(map);
+
+      const socket = io.connect(
+        "http://" + document.domain + ":" + location.port
+      );
+      let polylineMap = new Map();
+      let markerMap = new Map();
+
+      var baseMaps = {
+        OpenStreetMap: L.tileLayer(
+          "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+          {
+            attribution: "&copy; OpenStreetMap contributors",
+            maxZoom: 24,
+          }
+        ).addTo(map),
+        "Maritime Chart": L.tileLayer.wms(
+          "https://gis.charttools.noaa.gov/arcgis/rest/services/MCS/ENCOnline/MapServer/exts/MaritimeChartService/MapServer/export",
+          {
+            format: "image/png",
+            transparent: true,
+            attribution:
+              "MaritimeChartService @ https://gis.charttools.noaa.gov",
+          }
+        ),
+      };
+
+      var overlayMaps = {
+        Lines: pathLayerGroup,
+      };
+      var layerControl = L.control.layers(baseMaps, overlayMaps).addTo(map);
+
+      socket.on("pathPoint", (data) => {
+        const { latitude, longitude } = data;
+        const polyline = polylineMap.get(data.name);
+        let marker = markerMap.get(data.name);
+        polyline.addLatLng([latitude, longitude]);
+
+        if (!marker) {
+          marker = L.marker([latitude, longitude]).addTo(map);
+          markerMap.set(data.name, marker);
+          map.flyTo([latitude, longitude], 15)
+        } else {
+          marker.setLatLng([latitude, longitude]);
+        }
+      });
+      socket.on("polyline", (data) => {
+        let polyline = L.polyline([], { color: "blue" }).addTo(pathLayerGroup);
+        polylineMap.set(data.name, polyline);
+      });
+    </script>
+  </body>
+</html>
