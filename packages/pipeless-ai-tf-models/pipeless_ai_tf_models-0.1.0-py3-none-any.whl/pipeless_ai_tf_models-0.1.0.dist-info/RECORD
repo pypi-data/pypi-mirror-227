@@ -1,0 +1,11 @@
+pipeless_ai_tf_models/multi_pose_estimation/MultiPoseEstimationLightning.tflite,sha256=1Eifiea9Z3eouaGhYYmDITH4T_kNgvrnKeZwuE15SN0,9585276
+pipeless_ai_tf_models/multi_pose_estimation/README.md,sha256=E17584Olu7dKl3_kt_Z9_hRlEgOd-X-z1yi0PbQMwqU,951
+pipeless_ai_tf_models/multi_pose_estimation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipeless_ai_tf_models/multi_pose_estimation/lightning.py,sha256=H8j7DU2RpgGrIzLKDpooH2P-K8V5zT8nBacBRkZ7uw0,4323
+pipeless_ai_tf_models/multi_pose_estimation/test.jpeg,sha256=heaftoTXnbx9e4nCvIzhYkJvfpwrqxuO_P5kA6ASJLQ,7009
+pipeless_ai_tf_models/multi_pose_estimation/test.py,sha256=4IC8dmh19O9rMyxV7TzFqSpP49r65x9P5cl_ogqCmlc,525
+pipeless_ai_tf_models/tflite.py,sha256=UZ1DcDUD07QBxMCpHLBuBO5XospVHAaZdZLDNnassLM,2415
+pipeless_ai_tf_models-0.1.0.dist-info/LICENSE,sha256=AkRaDxMgCa4pDucnImOAx_R_KAU6r1QMEbXY4PKa5LI,11357
+pipeless_ai_tf_models-0.1.0.dist-info/METADATA,sha256=nfeSgCye9OqhV_DPe2P-ckUoLy_Tq2tg_7n0uSo0hho,1133
+pipeless_ai_tf_models-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pipeless_ai_tf_models-0.1.0.dist-info/RECORD,,

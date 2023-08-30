@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pipeless-ai-tf-models
+Version: 0.1.0
+Summary: A collection of TensorFlow based models for the Pipeless framework
+Home-page: https://pipeless.ai
+License: Apache-2.0
+Keywords: multimedia,framework,artificial-intelligence,pipeline,developer-tools
+Author: Miguel A. Cabrera Minagorri
+Author-email: devgorri@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy (>=1.24.0,<1.25.0)
+Requires-Dist: pipeless-ai (>=0.1.0,<0.2.0)
+Requires-Dist: tensorflow (>=2.12.0,<3.0.0)
+Project-URL: Documentation, https://github.com/miguelaeh/pipeless
+Project-URL: Repository, https://github.com/miguelaeh/pipeless
+Description-Content-Type: text/markdown
+
+# Ready to use TensorFlow based models
+
+This module contains ready to use models based on TensorFlow.
+
+* [Multi-pose estimation](src/pipeless_ai_tf_models/multi_pose_estimation/): Detects up to 6 people. Returns bounding boxes for the people and 17 keypoints (nose, left eye, right eye, left ear, ...)
