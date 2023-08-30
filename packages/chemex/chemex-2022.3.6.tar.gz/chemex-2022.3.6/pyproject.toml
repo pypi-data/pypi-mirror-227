@@ -1,0 +1,106 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "chemex"
+description = "An analysis program for chemical exchange detected by NMR"
+authors = [
+    { name = "Guillaume Bouvignies", email = "guillaume.bouvignies@ens.psl.eu" },
+]
+dependencies = [
+    "numpy>=1.25.0",
+    "scipy>=1.9.3",
+    "matplotlib>=3.7.1",
+    "lmfit>=1.2.1",
+    "pydantic>=2.0.1",
+    "cachetools>=5.3.1",
+    "rich>=13.4.2",
+    "tomli>=2.0.1",
+    "rapidfuzz>=3.1.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = []
+version = "2022.3.6"
+
+[project.license]
+text = "GPL-3.0-or-later"
+
+[project.urls]
+Homepage = "http://gbouvignies.github.io/ChemEx/"
+Documentation = "http://gbouvignies.github.io/ChemEx/"
+Repository = "https://github.com/gbouvignies/chemex"
+Changelog = "https://github.com/gbouvignies/chemex/releases"
+
+[project.scripts]
+chemex = "chemex.chemex:main"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+linting = [
+    "black>=23.3.0",
+    "ruff>=0.0.277",
+]
+
+[tool.black]
+target-version = [
+    "py310",
+]
+
+[tool.ruff]
+select = [
+    "E",
+    "F",
+    "W",
+    "B",
+    "I",
+    "ARG",
+    "C4",
+    "EM",
+    "ICN",
+    "ISC",
+    "G",
+    "PGH",
+    "PIE",
+    "PL",
+    "PT",
+    "PTH",
+    "RET",
+    "RUF",
+    "SIM",
+    "T20",
+    "UP",
+    "YTT",
+    "EXE",
+    "NPY",
+    "PD",
+]
+ignore = [
+    "PLR0913",
+    "PD011",
+    "RUF012",
+    "PGH001",
+]
+target-version = "py310"
+
+[tool.ruff.isort]
+known-first-party = [
+    "chemex",
+]
+
+[tool.ruff.flake8-type-checking]
+runtime-evaluated-base-classes = [
+    "pydantic.BaseModel",
+    "pydantic.RootModel",
+]
+
+[tool.ruff.pep8-naming]
+classmethod-decorators = [
+    "pydantic.field_validator",
+    "pydantic.model_validator",
+]
