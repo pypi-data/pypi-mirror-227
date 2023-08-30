@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyaskit
+Version: 1.0.0
+Summary: AskIt: Language support for programming with large language models (GPT-3.5, GPT-4).
+Home-page: https://github.com/katsumiok/pyaskit
+Author: Katsumi Okuda
+Author-email: okuda@csail.mit.edu
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: unidecode
+
