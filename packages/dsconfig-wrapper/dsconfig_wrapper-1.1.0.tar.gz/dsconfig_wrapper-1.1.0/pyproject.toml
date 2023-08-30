@@ -1,0 +1,100 @@
+[tool.poetry]
+name = "dsconfig_wrapper"
+version = "1.1.0"
+description = "Wraps MAX IV's dsconfig JSON generator to let the user use Python to generate the config"
+authors = ["CFEL-SC <sc@cfel.de>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://gitlab.desy.de/cfel-sc-public/dsconfig-wrapper"
+repository = "https://gitlab.desy.de/cfel-sc-public/dsconfig-wrapper"
+keywords = ["Tango"]
+classifiers = ["Development Status :: 5 - Production/Stable", "Environment :: Console", "Intended Audience :: Developers", "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)", "Operating System :: OS Independent", "Programming Language :: Python :: 3 :: Only", "Topic :: Database", "Typing :: Typed"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+dsconfig = "1.6.7"
+pytango = "9.4.2"
+
+[tool.poetry.dev-dependencies]
+black = "23.7.0"
+isort = "5.12.0"
+pylint = "2.15.4"
+pytest = "7.4.0"
+pytest-cov = "4.1.0"
+
+[tool.isort]
+profile = "black"
+force_single_line = "true"
+
+[tool.pylint.'MASTER']
+load-plugins = ["pylint.extensions.typing", "pylint.extensions.redefined_variable_type"]
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = ["invalid-name", "missing-module-docstring", "too-many-instance-attributes", "too-many-branches", "missing-class-docstring", "missing-function-docstring", "line-too-long", "missing-final-newline", "logging-not-lazy", "broad-except", "too-many-arguments", "bare-except", "too-few-public-methods", "too-many-locals", "too-many-nested-blocks", "too-many-statements", "too-many-public-methods", "too-many-return-statements", "blacklisted-name", "duplicate-code", "logging-fstring-interpolation", "too-many-lines", "too-many-boolean-expressions", "logging-format-interpolation", "raise-missing-from", "deprecated-typing-alias", "consider-alternative-union-syntax", "attribute-defined-outside-init", "import-outside-toplevel"]
+
+[tool.pyright]
+include = ["dsconfig_wrapper"]
+pythonVersion = "3.10"
+
+typeCheckingMode = "basic"
+useLibraryCodeForType = true
+strictListInference = true
+strictDictionaryInference = true
+strictSetInference = true
+reportInvalidStringEscapeSequence = true
+reportAssertAlwaysTrue = true
+reportInvalidTypeVarUse = false
+# deliberately false, since we cannot do anything if this happens
+reportMissingTypeStubs = false
+reportSelfClsParameterName = true
+reportUnsupportedDunderAll = true
+reportUnusedExpression = true
+reportWildcardImportFromLibrary = true
+reportConstantRedefinition = true
+reportDeprecated = true
+reportDuplicateImport = true
+reportFunctionMemberAccess = true
+reportImportCycles = true
+reportIncompatibleMethodOverride = true
+reportIncompatibleVariableOverride = true
+reportIncompleteStub = true
+reportInconsistentConstructor = true
+reportInvalidStubStatement = true
+reportMatchNotExhaustive = true
+reportMissingParameterType = true
+reportMissingTypeArgument = true
+reportOverlappingOverload = true
+reportPrivateUsage = true
+reportTypeCommentUsage = true
+reportUnknownLambdaType = true
+reportUnknownArgumentType = true
+reportUnknownParameterType = true
+reportUnknownMemberType = true
+reportUnknownVariableType = true
+reportUnnecessaryCast = true
+reportUnnecessaryComparison = true
+reportUnnecessaryContains = true
+reportUnnecessaryIsInstance = true
+reportUnusedClass = true
+reportUnusedImport = true
+reportUnusedFunction = true
+reportUnusedVariable = true
+reportUntypedBaseClass = true
+reportUntypedClassDecorator = true
+reportUntypedFunctionDecorator = true
+reportUntypedNamedTuple = true
+
+reportCallInDefaultInitializer = true
+reportImplicitOverride = true
+reportImplicitStringConcatenation = true
+reportMissingSuperCall = true
+
+reportPropertyTypeMismatch = true
+reportShadowedImports = true
+reportUninitializedInstanceVariable = true
+reportUnnecessaryTypeIgnoreComment = true
+reportUnusedCallResult = true

@@ -1,0 +1,85 @@
+# dsconfig-wrapper
+
+[![pipeline status](https://gitlab.desy.de/cfel-sc-public/dsconfig-wrapper/badges/main/pipeline.svg)](https://gitlab.desy.de/cfel-sc-public/dsconfig-wrapper/-/commits/main) 
+[![coverage report](https://gitlab.desy.de/cfel-sc-public/dsconfig-wrapper/badges/main/coverage.svg)](https://gitlab.desy.de/cfel-sc-public/dsconfig-wrapper/-/commits/main)
+
+This is a small Python library to complement [MAX IV's](https://www.maxiv.lu.se/) excellent [dsconfig](https://gitlab.com/MaxIV/lib-maxiv-dsconfig) library, which can make the database for the [Tango](https://www.tango-controls.org/) controls system *declarative* by updating it from a JSON file.
+
+Usually, it looks like this:
+
+```mermaid
+flowchart TD
+    DatabaseDs[(Tango Database)]
+    DatabaseDs -->|dsconfig.dump| JsonFile[JSON file]
+    Human -->|vim/emacs| JsonFile
+    JsonFile -->|json2tango| DatabaseDs
+```
+
+With this tool, it looks like this:
+
+```mermaid
+flowchart TD
+    DatabaseDs[(Tango Database)]
+    Human -->|vim/emacs| PythonFile[Python file]
+    DsconfigWrapper[dsconfig-wrapper] -->|import| PythonFile
+    PythonFile -->|dsconfig-wrapper| JsonFile
+    JsonFile -->|json2tango| DatabaseDs
+```
+
+This way, we can have our configuration not in JSON, but in Python! And in Python, we can have, for instance, `argparse`, to create a little program that can generate a configuration with parameters. You can also use Python DRY elements in your configuration (say, you have the same motor, but with various different properties set).
+
+## Usage
+
+Just do
+
+```
+pip install dsconfig-wrapper
+```
+
+and then use it to create a config JSON. Example:
+
+```python
+test_servers = [
+    Server(
+        instance_name="my_instance_name",
+        class_name="my_class_name",
+        devices=[
+            Device(
+                identifier=Identifier(
+                    domain="my_domain",
+                    family="my_family",
+                    member="my_member",
+                    host="my_host:10000",
+                ),
+                properties={
+                    "prop_str": "strvalue",
+                    "prop_list_str": ["value1", "value2"],
+                    "prop_list_int": [2000, 3000],
+                    "prop_int": 2000,
+                },
+                polled_commands={"update": 1000},
+                attribute_properties={
+                    "State": AttributeProperties(archive_period_ms=1001),
+                    "velocity_mm_per_s": AttributeProperties(
+                        archive_abs_change=(-0.5, 0.5),
+                        archive_period_ms=5000,
+                        rel_change=(-0.05, 0.05),
+                    ),
+                },
+            )
+        ],
+    )
+]
+test_config = Config(servers=test_servers)
+print(config_to_json(test_config))
+```
+
+Here, we create a config for a device server with class `my_class_name` and one instance running at `tango://myhost:10000/my_domain/my_family/my_member`. The `update` command is polled every second, and we also set some properties and attribute properties.
+
+We now run this program (say it's stored in `main.py`) and pipe it into dsconfig:
+
+```
+python main.py | json2tango
+```
+
+Voila!
