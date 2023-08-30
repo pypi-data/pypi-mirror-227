@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: djsci
+Version: 0.0.0.0
+Summary: djsci : django science : run jupyter notebooks in django
+Author: alex oxbits clifton
+Author-email: oxbits@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: django (>=4.2.4,<5.0.0)
+Requires-Dist: nbconvert (>=7.7.4,<8.0.0)
+Requires-Dist: nbformat (>=5.9.2,<6.0.0)
+Requires-Dist: poetry (>=1.6.1,<2.0.0)
+Requires-Dist: shortuuid (>=1.0.11,<2.0.0)
+Description-Content-Type: text/markdown
+
+# djsci : django_science :
+## run jupyter notebooks in django
