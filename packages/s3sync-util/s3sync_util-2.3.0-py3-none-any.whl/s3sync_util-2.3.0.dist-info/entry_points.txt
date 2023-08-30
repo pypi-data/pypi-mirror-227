@@ -1,0 +1,3 @@
+[console_scripts]
+s3sync=s3sync_util.__main__:main
+
