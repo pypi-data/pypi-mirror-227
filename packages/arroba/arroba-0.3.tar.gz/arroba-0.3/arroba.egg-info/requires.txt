@@ -1,0 +1,14 @@
+carbox
+cryptography
+dag-cbor
+dag-json
+lexrpc
+multiformats>=0.2.0
+simple-websocket
+
+[datastore]
+google-cloud-ndb>=2.0
+
+[flask]
+Flask>=2.0
+flask-sock
