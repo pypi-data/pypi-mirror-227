@@ -1,0 +1,12 @@
+profiles_rudderstack/__init__.py,sha256=F6o6Um9t-ILjtO-VhzKlM1H5uzkO5609CJXljbbw9Yc,103
+profiles_rudderstack/model.py,sha256=K3ziBNNiQilBu0tIkkLDtJHpOoGEP8fXbkeA78q_Ms4,776
+profiles_rudderstack/server.py,sha256=IpJLBvdKTNwSOoYtwnV9jmGOTHPxMqYna8pzi1wr_lg,3038
+profiles_rudderstack/service.py,sha256=ZUKvkJwCq2aHf4x8z05JEkvS2NMkMV7O78E7fyDrPc4,7408
+profiles_rudderstack/utils.py,sha256=RPDkA0_XYBw11IrxKp9iMF2LrRbTqXdrRjkydIMBrq8,413
+profiles_rudderstack/tunnel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+profiles_rudderstack/tunnel/tunnel_pb2.py,sha256=GVaIMis2tuF4kfjEoX8JtNwKfjO7UECm9_Dde0_JfUs,6478
+profiles_rudderstack/tunnel/tunnel_pb2_grpc.py,sha256=i_GvH012VZzuUkRwrPqXYeuY6vJqOpi7cVWB2uD6kWc,17645
+profiles_rudderstack-0.8.0.dist-info/METADATA,sha256=T4cOpF3h9azFbAKP3rRhs2Kmj8EXr3wfujkH6aVEuJY,514
+profiles_rudderstack-0.8.0.dist-info/WHEEL,sha256=ZMnwOw8O3u9YiRAglNfYB17Xz16PvHQhWl99wrjStR0,107
+profiles_rudderstack-0.8.0.dist-info/top_level.txt,sha256=1KAKMSAqL6g-gl7L87s0v1bUONdPtlJA4vx_nZuvWNo,21
+profiles_rudderstack-0.8.0.dist-info/RECORD,,
