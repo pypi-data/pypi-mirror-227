@@ -1,0 +1,55 @@
+[build-system]
+requires = [
+  "setuptools >= 40.9.0",
+  "wheel",
+  "cython",
+  "numpy",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdaencore"
+description = "Ensemble overlap comparison software for molecular data."
+license = {file = "LICENSE" }
+authors = [
+    {name = "MDAnalysis", email = "mdanalysis@numfocus.org"},
+]
+maintainers = [
+    {name = "MDAnalysis", email = "mdanalysis@numfocus.org"},
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "MDAnalysis>=2.0.0",
+]
+keywords = [
+    "molecular simulations",
+]
+dynamic = [
+    "version",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=6.0",
+    "pytest-xdist>=2.5",
+    "pytest-cov>=3.0",
+]
+doc = [
+    "sphinx",
+    "mdanalysis_sphinx_theme",
+]
+
+# [project.urls]
+# source = "https://github.com/MDAnalysis/mdaencore"
+# documentation = "https://mdaencore.readthedocs.io"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "mdaencore/tests",
+]
+
+[tool.black]
+line-length = 80
+extend-exclude = "versioneer.py"
