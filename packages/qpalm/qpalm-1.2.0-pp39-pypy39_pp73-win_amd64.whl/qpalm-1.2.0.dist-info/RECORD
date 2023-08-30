@@ -1,0 +1,10 @@
+qpalm/__init__.py,sha256=0539GMnh2pu7pDZo8MoWz-XKjRRiboHEIk48wehgoAI,583
+qpalm/__init__.pyi,sha256=RyXaMjqwNzxwgUDtrNm52PkC00-c6e_Qr-z4Vbk-RNk,28
+qpalm/_qpalm.pypy39-pp73-win_amd64.pyd,sha256=FF9VKX-D6bngQq76GGSTIZb9dOSZvAeISVCaVUnWx30,310784
+qpalm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm/_qpalm/__init__.pyi,sha256=TZDrNoaqUUCZjENhxZHOu5PI2LGhtjizaNnyFVHFDBY,11024
+qpalm-1.2.0.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+qpalm-1.2.0.dist-info/METADATA,sha256=jE2xqWC4uqEuzhIkxP0TG7niKZ4wlBurJpzRPfYc4PA,13225
+qpalm-1.2.0.dist-info/WHEEL,sha256=9y1AnMdSQTwpqJHKiYQbyodlW9K9RTb7yhYN-oSZHAg,101
+qpalm-1.2.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm-1.2.0.dist-info/RECORD,,
