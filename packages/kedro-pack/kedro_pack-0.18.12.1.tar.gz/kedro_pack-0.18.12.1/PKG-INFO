@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: kedro-pack
+Version: 0.18.12.1
+Summary: A generic recipe to install the kedro framework and additional kedro plugins.
+License: Apache-2.0
+Author: Kevin Mills
+Author-email: millsks@gmail.com
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: kedro (==0.18.12) ; python_version >= "3.10" and python_version < "3.11"
+Requires-Dist: kedro-airflow (==0.6.0) ; python_version >= "3.10" and python_version < "3.11"
+Requires-Dist: kedro-datasets (==1.6.0) ; python_version >= "3.10" and python_version < "3.11"
+Requires-Dist: kedro-light (==2023.3.13) ; python_version >= "3.10" and python_version < "3.11"
+Requires-Dist: kedro-mlflow (==0.11.9) ; python_version >= "3.10" and python_version < "3.11"
+Requires-Dist: kedro-viz (==6.4.0) ; python_version >= "3.10" and python_version < "3.11"
+Requires-Dist: pip (>=23.2.1)
+Description-Content-Type: text/markdown
+
+# kedro-pack
+A generic recipe to install the kedro framework and additional kedro plugins.
+
+``` python
+$ python
+Python 3.10.12 | packaged by conda-forge | (main, Jun 23 2023, 22:40:32) [GCC 12.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import kedro_pack
+>>> kedro_pack.get_kedro_component_versions()
+The following components are installed with kedro-pack (0.18.12.1):
+ - kedro: 0.18.12
+ - kedro-datasets: 1.6.0
+ - kedro-airflow: 0.6.0
+ - kedro-mlflow: 0.11.9
+ - kedro-viz: 6.4.0
+ - kedro-light: 2023.3.13
+```
+
