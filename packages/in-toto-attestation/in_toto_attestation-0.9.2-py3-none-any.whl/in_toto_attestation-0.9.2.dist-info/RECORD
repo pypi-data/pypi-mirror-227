@@ -1,0 +1,14 @@
+in_toto_attestation/__init__.py,sha256=DD0Z_9sibi1fvTl06e8BFOfZNivv3L6dD-1Z5VTp1ds,18
+in_toto_attestation/predicates/link/v0/link_pb2.py,sha256=W-8ZUN6zDt24SxjKY3sMFWNoqU-PiQ_KNwqT291sYkY,1920
+in_toto_attestation/predicates/provenance/v1/provenance_pb2.py,sha256=WMv5tvCy8HpVlZSud_4v7dv_3eP3DurMnQ-5fz1Wb48,3875
+in_toto_attestation/predicates/scai/v0/scai.py,sha256=MMdSyxLNHDUm9khXxToMREFKYIOy6DrLxyaLRY8HR5E,2655
+in_toto_attestation/predicates/scai/v0/scai_pb2.py,sha256=od8BsUaMihwWoFh3SMxWfkOdkUb-_gPLf_cXf96eUyY,2262
+in_toto_attestation/predicates/test_result/v0/test_result_pb2.py,sha256=ZCIwhk3IqSXlZ7Ldvv7D6ep9FAfI4F_9yFVGksGIv78,1891
+in_toto_attestation/predicates/vsa/v0/vsa_pb2.py,sha256=_RCq9FG7WZz2_jFNWQkQ_Vk3FtP2niE5HpLZ5VroKsg,4362
+in_toto_attestation/v1/resource_descriptor.py,sha256=xasRrG-FSsQ1ULjLw2Pa7cITZ-1IDlRUN0042a5Ioxc,1240
+in_toto_attestation/v1/resource_descriptor_pb2.py,sha256=Wq82mGMcmkKPDLqogGK946xwG0cdOt8GWA3Ysj95Hig,2142
+in_toto_attestation/v1/statement.py,sha256=6-F5TlGJ__CW8wCeCMuga4DEtlZwJImX9jHnK03T0Mc,1717
+in_toto_attestation/v1/statement_pb2.py,sha256=_DpqqKEHqGNb0wgiFoxkq9_JWHPNZBoYzP6Ibn-J5Rw,1768
+in_toto_attestation-0.9.2.dist-info/METADATA,sha256=-iCpInEknnqO-Lz7RQLZnFr0UF57hB82U4Sae79NMnA,2182
+in_toto_attestation-0.9.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+in_toto_attestation-0.9.2.dist-info/RECORD,,
