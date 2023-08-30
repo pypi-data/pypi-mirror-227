@@ -1,0 +1,9 @@
+sphinx_cache/__init__.py,sha256=_rjrunXfU8n0dK5yWdlOL0ylVUrHgaieozgS2_xDa_w,51
+sphinx_cache/logging.py,sha256=CxTiGh_Gq-Uu6gJ-wrkBJbmLfRa4yWwkj3yX1lg6gjU,825
+sphinx_cache/setup.py,sha256=xRtzEL52JvREHKEHQtM7MZYhA3JLr0-ak6FcdHh-E0I,4810
+sphinx_cache/utils.py,sha256=RZN-eKpHLA65YTB7SmFHhdjIzKsnFKo22moNZOTiAFY,422
+sphinx_cache/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+sphinx_cache-0.0.1.dist-info/LICENSE,sha256=KgmHhdJHyvK51tkbVqjWLVkS1yAtlYuxf2HMr0puXsA,1071
+sphinx_cache-0.0.1.dist-info/METADATA,sha256=DwqPuvU1_4bqCXSnxg3A9zwHbQ1ktH3PK_B9NLHoydI,2993
+sphinx_cache-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+sphinx_cache-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: sphinx-cache
+Version: 0.0.1
+Summary: Sphinx extension for storing and restoring `.doctree` cache.
+Home-page: https://github.com/useblocks/sphinx-cache
+License: MIT
+Author: team useblocks
+Author-email: info@useblocks.com
+Requires-Python: >=3.8.0,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Utilities
+Requires-Dist: colorama (>=0.4.6)
+Requires-Dist: pathlib (>=1.0.1)
+Requires-Dist: sphinx (>=5.0)
+Project-URL: Documentation, http://sphinx-cache.useblocks.com
+Project-URL: Repository, https://github.com/useblocks/sphinx-cache
+Description-Content-Type: text/x-rst
+
+Sphinx-Cache Docs
+=================
+
+Sphinx-Cache is a `Sphinx <https://www.sphinx-doc.org>`_ extension for storing and restoring the `.doctrees` cache.
+
+.. _install:
+
+Installation
+------------
+We recommend using the latest version of Python. Sphinx-Cache supports Python 3.6 and newer versions.
+
+**Using pip**
+
+.. code-block:: bash
+
+   $ pip install sphinx-cache
+
+**From source**
+
+.. code-block:: bash
+
+   $ git clone https://github.com/useblocks/sphinx-cache
+   $ cd sphinx-cache
+   $ pip install .
+
+.. _config:
+
+Configuration
+-------------
+
+All configurations take place in your project's ``conf.py`` file.
+
+Activation
+**********
+
+Add **sphinx_cache** to the extensions list.
+
+.. code-block:: python
+
+   extensions = ["sphinx_cache",]
+
+Options
+*******
+
+All configuration options start with the prefix ``cache_`` for **Sphinx-Cache**.
+
+.. _cache_store_path:
+
+cache_store_path
+++++++++++++++++
+
+The ``cache_store_path`` option specifies the directory path where you want to save the doctree cache files.
+
+.. note::
+
+   The path should be specified as a relative path relative to the directory of the ``conf.py`` file.
+    For example: :code:`cache_store_path = '.cache/'`.
+
+Default: ``.cache/``
+
+.. _cache_doctree_path:
+
+cache_doctree_path
+++++++++++++++++++
+
+The ``cache_doctree_path`` option specifies the directory path of the doctree folder.
+
+.. note::
+
+   * The path should be specified as a relative path relative to the directory of the ``conf.py`` file.
+     For example: ``cache_doctree_path = '_build/.doctrees'``.
+   * We use the value provided for the ``cache_doctree_path`` as directory for storing pickled doctrees.
+     If you don't specify the value for the ``cache_doctree_path`` in the ``conf.py`` file, we use the default
+     value for the ``cache_doctree_path`` (i.e. ``_build/.doctrees``).
+
+Default: ``_build/.doctrees``
+
