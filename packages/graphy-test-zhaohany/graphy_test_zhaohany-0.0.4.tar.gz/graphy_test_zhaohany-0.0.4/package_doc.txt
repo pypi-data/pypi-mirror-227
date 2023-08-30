@@ -1,0 +1,28 @@
+1. change folder strcture: src/package_name
+2. add __init__.py 
+3. move all folders inside src/package_name (add __init__.py for each folder so we can import in main)
+4. add ref_test.py in each folder to test the wrapper reference
+5. add wrapper function in main.py at root folder.
+6. add __all__ = ["script_name"] in init.py
+
+
+there is no internal reference right?
+what is the functions we want to expose to outside?
+readme file need to be updated base on instruction to clnt
+
+I need to run it on my local
+I need to include all libs required to run in the toml file
+include files and exclude files
+I need to work with main contributor more closely on the file selection
+current folder structure are brute force, if can run over the code with me so we can make it concise
+
+
+ref:https://hatch.pypa.io/latest/config/build/
+https://www.youtube.com/watch?v=GxCXiSkm6no
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+
+python3 -m pip install --upgrade build
+python3 -m build
+python3 -m pip install --upgrade twine
+python3 -m twine upload dist/*

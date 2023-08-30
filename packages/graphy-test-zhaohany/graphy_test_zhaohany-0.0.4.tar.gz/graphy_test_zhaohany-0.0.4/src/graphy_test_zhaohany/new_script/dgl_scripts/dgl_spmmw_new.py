@@ -1,0 +1,108 @@
+import sys
+from dgl import sparse
+from dgl.data.utils import load_graphs
+import dgl.utils.internal as interu
+import torch 
+from torch import nn
+from torch.nn import init
+import numpy as np
+from dgl import function as fn
+from dgl.base import DGLError
+from dgl.utils import expand_as_pair
+import dgl
+from dgl.nn.pytorch import edge_softmax
+import argparse
+import datetime
+from dgl.sparse import _gspmm,  _gsddmm
+import time
+#from dgl.sparse import _gspmm, _gspmm_hetero, _gsddmm, _gsddmm_hetero, _segment_reduce, _bwd_segment_cmp, _edge_softmax_forward, _edge_softmax_backward
+#from dgl.sparse import _csrmm, _csrsum, _csrmask, _scatter_add, _update_grad_minmax_hetero
+
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(description='pick CPU or GPU to perform the graph deep learning ')
+    parser.add_argument('--device', type=str, default= 'CPU', help='pick CPU or GPU')
+    parser.add_argument('--reverse', type=str, default= 'no_reverse', help='pick reverse graph or not')
+    args = parser.parse_args()
+
+    # Select Device
+    use_cuda = args.device == 'GPU' and torch.cuda.is_available()
+    device = torch.device('cuda' if use_cuda else 'cpu')
+    reverse = args.reverse == "reverse"
+    if use_cuda:
+        print("Using CUDA!")
+    else:
+        print('Not using CUDA!!!')
+
+    num_vcount = 232965
+    num_heads = 1
+    hidden_feature = 16
+
+    list_graph, label_dict_none = load_graphs("./_reddit_dgl.bin")
+    graph = list_graph[0]
+
+    
+    if reverse:
+        graph = dgl.reverse(graph, copy_edata=True)
+        print("load reverse graph")
+    
+    graph = graph.to(device)
+    print("edge loading done")
+    print("graph edge:", graph.number_of_edges())
+    #graph=graph.to(cuda)
+    dim0 = num_vcount
+    dim1 = num_heads
+    dim2 = hidden_feature
+    num_ecount = graph.number_of_edges()
+    #feat = torch.load('/home/ygong07/Graphy_workload_compare/GraphPy_workflow/new_script/test_save/gat_feat_X.pt')
+    feat = torch.rand(dim0, dim1, dim2) 
+    feat = feat.to(device)
+    #feat = feat.to(cuda)
+    feat_drop = nn.Dropout(p = 0.0)
+    attn_drop = nn.Dropout(p = 0.0)
+
+    feat_src = feat_drop(feat)
+    feat_dst = feat_drop(feat)
+
+    el = (feat_src ).sum(dim=-1).unsqueeze(-1)
+    er = (feat_dst ).sum(dim=-1).unsqueeze(-1)
+    graph.srcdata.update({'ft': feat_src, 'el': el})
+    graph.dstdata.update({'er': er})
+    # compute edge attention, el and er are a_l Wh_i and a_r Wh_j respectively.
+     
+    time.sleep(1)
+    # check DGL kernel spmm 
+    score = torch.ones(num_ecount, num_heads)
+    score = score.to(device)
+    
+    g_start = datetime.datetime.now()
+    #score_max = _gspmm(graph._graph, 'copy_rhs', 'max', None, score)[0]
+    score_max = _gspmm(graph._graph, 'copy_rhs', 'sum', None, score)[0]
+    g_end = datetime.datetime.now()
+    
+    score_max1 = score_max.unsqueeze(-1)
+    diff = g_end - g_start
+    print ('spmmw time is:', diff)
+    print("spmmw done", score_max1, score_max1.size())
+    
+    score = torch.ones(num_ecount, num_heads)
+    score = score.to(device)
+    graph = dgl.reverse(graph, copy_edata=True)
+    print("load reverse graph")
+    
+    g_start = datetime.datetime.now()
+    score_max = _gspmm(graph._graph, 'copy_rhs', 'max', None, score)[0]
+    #score_max = _gspmm(graph._graph, 'copy_rhs', 'sum', None, score)[0]
+    g_end = datetime.datetime.now()
+    
+    score_max1 = score_max.unsqueeze(-1)
+    diff = g_end - g_start
+    print ('spmmw time is:', diff)
+    
+    print("spmmw done", score_max1, score_max1.size())
+    #res_load = torch.load('/home/ygong07/Graphy_workload_compare/GraphPy_workflow/new_script/test/spmmw2d_result.pt')
+    #print("res_load", res_load, res_load.size())
+    #print("score_max", score_max, score_max.size())
+    #print("spmmw2d results are the same", torch.all(res_load.eq(score_max)))
+    #print("rst", rst)
+
