@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dsconfig-wrapper
+Version: 1.0.0
+Summary: Wraps MAX IV's dsconfig JSON generator to let the user use Python to generate the config
+Author: CFEL-SC
+Author-email: sc@cfel.de
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dsconfig (==1.6.7)
+Requires-Dist: pytango (==9.4.2)
