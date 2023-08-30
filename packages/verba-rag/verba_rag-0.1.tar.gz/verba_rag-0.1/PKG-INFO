@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: verba_rag
+Version: 0.1
+Summary: Verba is an open-source RAG application which offers an interface for importing and querying custom data.
+Home-page: https://github.com/weaviate/Verba
+Author: Weaviate
+Author-email: edward@weaviate.io
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
