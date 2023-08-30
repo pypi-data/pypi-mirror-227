@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="527403ae-14ca-44e1-abab-386651d4c99e" name="Changes" comment="Restructured and adjusted imports.&#10;Now with &quot;src&quot;, &quot;test&quot;, and &quot;scripts&quot; subdirectories.">
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pygramm/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/glade_fix.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/glade_fix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/latexify.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/latexify.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/antlr.lark" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/antlr.lark" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/biased_choice.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/biased_choice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/binary_choice.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/binary_choice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/char_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/char_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/grammar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar_bias.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/grammar_bias.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/grammar_prune.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/grammar_prune.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lex.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/lex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/llparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/llparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unit_productions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pygramm/unit_productions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bibtex.g4" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bibtex.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/choicebot.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/choicebot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/simple_gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/simple_gen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_parse_antlr.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_parse_antlr.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Markdown" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2TOc6rpjs6gToH4598kO0EuoIxx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test_parse_antlr">
+    <configuration name="demo_gen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pygramm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/demo_gen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="simple_gen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pygramm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/simple_gen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_parse_antlr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pygramm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_parse_antlr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_parse_antlr" />
+        <item itemvalue="Python.demo_gen" />
+        <item itemvalue="Python.simple_gen" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="527403ae-14ca-44e1-abab-386651d4c99e" name="Changes" comment="" />
+      <created>1690917395894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690917395894</updated>
+      <workItem from="1690917397807" duration="877000" />
+      <workItem from="1691190518933" duration="2328000" />
+      <workItem from="1691253321765" duration="4261000" />
+      <workItem from="1691365944128" duration="47000" />
+      <workItem from="1691511249379" duration="1507000" />
+      <workItem from="1691518860825" duration="4694000" />
+      <workItem from="1691533805829" duration="3128000" />
+      <workItem from="1692060236926" duration="1476000" />
+      <workItem from="1692117102961" duration="4000" />
+      <workItem from="1692122129574" duration="422000" />
+      <workItem from="1692224623020" duration="7110000" />
+      <workItem from="1693239924056" duration="4679000" />
+      <workItem from="1693245066638" duration="873000" />
+    </task>
+    <task id="LOCAL-00001" summary="WIP.  First version that can parse the bibtex grammar, with grammar and lexer spliced together into a single file.">
+      <option name="closed" value="true" />
+      <created>1691512477333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691512477333</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Restructured and adjusted imports.&#10;Now with &quot;src&quot;, &quot;test&quot;, and &quot;scripts&quot; subdirectories.">
+      <option name="closed" value="true" />
+      <created>1692236416799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692236416799</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Restructured and adjusted imports.&#10;Now with &quot;src&quot;, &quot;test&quot;, and &quot;scripts&quot; subdirectories.">
+      <option name="closed" value="true" />
+      <created>1692236437705</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692236437705</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/lark" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WIP.  First version that can parse the bibtex grammar, with grammar and lexer spliced together into a single file." />
+    <MESSAGE value="Restructured and adjusted imports.&#10;Now with &quot;src&quot;, &quot;test&quot;, and &quot;scripts&quot; subdirectories." />
+    <option name="LAST_COMMIT_MESSAGE" value="Restructured and adjusted imports.&#10;Now with &quot;src&quot;, &quot;test&quot;, and &quot;scripts&quot; subdirectories." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pygramm$test_parse_antlr.coverage" NAME="test_parse_antlr Coverage Results" MODIFIED="1692236343250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/pygramm$demo_gen.coverage" NAME="demo_gen Coverage Results" MODIFIED="1692232667905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/pygramm$simple_gen.coverage" NAME="simple_gen Coverage Results" MODIFIED="1692232463854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+  </component>
+</project>
