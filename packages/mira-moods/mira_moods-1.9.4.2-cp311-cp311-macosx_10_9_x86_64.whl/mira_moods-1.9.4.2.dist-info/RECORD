@@ -1,0 +1,15 @@
+MOODS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MOODS/_parsers.cpython-311-darwin.so,sha256=nFf_TJGGnjNxeL_XzisnMkAnxQ0IrP5Ikkia6YyDVAQ,333832
+MOODS/_scan.cpython-311-darwin.so,sha256=XXUz4IHdHPsxkKruiczKOtvTbbcYS-RA8iLYgcAp__Q,1025424
+MOODS/_tools.cpython-311-darwin.so,sha256=jZpB8SjrGIO8w_QsrhQWDGub7x3eoCuTdfriHQD7gGQ,406296
+MOODS/misc.py,sha256=pSg8Ol6LazIcF1pcyL2RvnBS9PJyA9h07dTAvmdiaiE,3357
+MOODS/parsers.py,sha256=NJzkPKJcnkADeUUnHhh75KsdW5rxRAhEuMFJJw9wZMY,15562
+MOODS/scan.py,sha256=E7eYLiAiIwvpg3sxVV6VlUksNnpIgnZDK_qBa-Sdtvs,47004
+MOODS/tools.py,sha256=7KBgH7Htqcojs48llM68yu_dZL8Qdk-vXITj7RprCEw,22949
+mira_moods-1.9.4.2.data/scripts/moods-dna.py,sha256=g0CPkoIRXEN_xNksqRtGz96r6dKJmvfaTM9rUgVSisQ,16929
+mira_moods-1.9.4.2.dist-info/COPYING.BIOPYTHON,sha256=GAQnqEJfCo0leEWzsZU3ESTnqwsrZ0DK0XMeD-jSWFc,1065
+mira_moods-1.9.4.2.dist-info/COPYING.GPLv3,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+mira_moods-1.9.4.2.dist-info/METADATA,sha256=p4SzuDiAUznVOfNfxh01wQ0QBH9GxR5yKW2n8Bf6V30,2623
+mira_moods-1.9.4.2.dist-info/WHEEL,sha256=1K25WgJ_KyfvTx-UW0AtTToB1lRjnG-GzH7SmFlnRPw,111
+mira_moods-1.9.4.2.dist-info/top_level.txt,sha256=IrZBGVFAUvuUgZXj5VuybxdemlXW7uTTQemlyVjQhCA,6
+mira_moods-1.9.4.2.dist-info/RECORD,,
