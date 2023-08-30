@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+safetokengen/__init__.py
+safetokengen/main.py
+safetokengen.egg-info/PKG-INFO
+safetokengen.egg-info/SOURCES.txt
+safetokengen.egg-info/dependency_links.txt
+safetokengen.egg-info/top_level.txt
+tests/test_main.py
+tests/test_utils.py
