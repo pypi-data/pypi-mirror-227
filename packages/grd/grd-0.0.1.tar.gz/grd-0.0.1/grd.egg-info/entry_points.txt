@@ -1,0 +1,2 @@
+[nbdev]
+grd = grd._modidx:d
