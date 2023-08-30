@@ -1,0 +1,12 @@
+SimpleITK==2.2.0
+fbpca==1.0
+h5py==3.7.0
+ismrmrd==1.12.3
+jsonpickle==3.0.1
+kornia==0.6.8
+matplotlib==3.5.1
+nibabel==4.0.2
+numpy==1.25.2
+scipy==1.10.1
+torch==1.13.0
+tqdm==4.62.3
