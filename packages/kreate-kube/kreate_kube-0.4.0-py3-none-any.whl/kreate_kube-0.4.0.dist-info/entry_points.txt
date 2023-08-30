@@ -1,0 +1,3 @@
+[console_scripts]
+kreate-kube = kreate.kube.__main__:main
+
