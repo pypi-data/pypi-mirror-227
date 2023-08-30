@@ -1,0 +1,5 @@
+setup.py
+factorial_calculator.egg-info/PKG-INFO
+factorial_calculator.egg-info/SOURCES.txt
+factorial_calculator.egg-info/dependency_links.txt
+factorial_calculator.egg-info/top_level.txt
