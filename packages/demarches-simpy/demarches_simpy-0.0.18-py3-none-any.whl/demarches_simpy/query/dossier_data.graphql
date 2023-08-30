@@ -1,0 +1,37 @@
+query getDossier($dossierNumber: Int!, $includeFields : Boolean = false, $includeAnnotations : Boolean = false, $includeInstructeurs : Boolean = false)
+{
+    dossier(number: $dossierNumber)
+        {
+        id number state dateDepot
+        attestation {
+            filename
+            url
+        }
+        pdf {
+            filename
+            url
+        }
+        usager{
+            email
+        }
+        demarche{
+            id
+            number
+        }
+        instructeurs @include(if: $includeInstructeurs){
+            id
+            email
+        }
+        champs @include(if: $includeFields){
+            __typename
+            id
+            label
+            stringValue
+        }
+        annotations @include(if: $includeAnnotations){
+            id
+            label
+            stringValue
+        }
+        }
+}

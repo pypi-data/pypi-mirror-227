@@ -1,0 +1,47 @@
+query getDemarche($demarcheNumber: Int!, $includeRevision : Boolean = false, $includeGroupeInstructeurs : Boolean = false, $includeInstructeurs : Boolean = false, $cursor : String = null) 
+    { 
+    demarche(number: $demarcheNumber)
+        { 
+            id, number, title
+            dossiers(first: 50, after: $cursor) 
+            { 
+                nodes 
+                    { 
+                    id number
+                    }
+                pageInfo {
+                    endCursor
+                    hasNextPage
+                    hasPreviousPage
+                    startCursor
+                }
+            } 
+            activeRevision @include(if: $includeRevision) 
+            { 
+                id
+                champDescriptors {
+                    __typename
+                    id
+                    label
+                    description
+                }
+                annotationDescriptors {
+                    __typename
+                    id
+                    label
+                    description
+                }
+            }
+            groupeInstructeurs @include(if: $includeGroupeInstructeurs) {
+                id 
+                number
+                label
+                instructeurs @include(if : $includeInstructeurs){
+                    id
+                    email
+                }
+
+            }
+
+        } 
+    }
