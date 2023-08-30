@@ -1,0 +1,9 @@
+h2o_mlops_scoring_client/VERSION,sha256=xR7KCgXBDRDIFrH0qFKk4b6-Vs8qAsKbDkoC-T2Wft0,8
+h2o_mlops_scoring_client/__init__.py,sha256=BVg94dzAEciaWtJ-L96WkzG1Xp84D4Xop6s7xDOq3Og,11728
+h2o_mlops_scoring_client/_utils.py,sha256=PiQr2MV5-k5ZffZm8RqmFcvB_BZZqNay_JL_-CrJoTw,17517
+h2o_mlops_scoring_client/_version.py,sha256=xSFev2acw6sH4HhRIFTczsDXl8HZlO172zFY8jjbdLs,497
+h2o_mlops_scoring_client/log4j.properties,sha256=VFvumzeQUxBHEfFvxJ4AqHTX0wQXxdWEt8ifMMgZSCM,1635
+h2o_mlops_scoring_client-0.1.0b1.dist-info/METADATA,sha256=IEGps426pnQDqRD05Aq3-9lL68lV3tVoqjSWWIy9DSA,3054
+h2o_mlops_scoring_client-0.1.0b1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+h2o_mlops_scoring_client-0.1.0b1.dist-info/top_level.txt,sha256=QqsGjPwyloWBgEOjck-e-Bdmk2YW_AaAcX7YWz40UKg,25
+h2o_mlops_scoring_client-0.1.0b1.dist-info/RECORD,,
