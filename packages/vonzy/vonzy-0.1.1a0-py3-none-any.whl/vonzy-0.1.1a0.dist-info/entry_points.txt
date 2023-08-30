@@ -1,0 +1,3 @@
+[console_scripts]
+vonzy=vonzy.__main__:app
+
