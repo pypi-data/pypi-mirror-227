@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+machop/__main__.py
+machop/main.py
+mychamp.egg-info/PKG-INFO
+mychamp.egg-info/SOURCES.txt
+mychamp.egg-info/dependency_links.txt
+mychamp.egg-info/entry_points.txt
+mychamp.egg-info/requires.txt
+mychamp.egg-info/top_level.txt
