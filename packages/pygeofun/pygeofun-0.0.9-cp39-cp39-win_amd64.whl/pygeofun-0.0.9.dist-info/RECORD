@@ -1,0 +1,7 @@
+pygeofun/__init__.py,sha256=HdLnrfIULg7xL2BIadrBahYk9Fo0ct01nbSQEgq_MFo,60
+pygeofun/_version.py,sha256=wfPK62iTfGh2q9bbg8ANXvbtGTWeRnr5w7MfI5J_kN0,155
+geofun.cp310-win_amd64.pyd,sha256=35FF-JYnWls6L26Ptke0HbY8k9wgLJ8OEnxHHg3Z93g,429568
+pygeofun-0.0.9.dist-info/LICENSE,sha256=tZ0bCPvT-khCgApGbuGGb4XbKDt3LVvQczW-4K05jMc,1098
+pygeofun-0.0.9.dist-info/METADATA,sha256=GhLtLhxd180b8FnLQocEdjT135WrcvQ4YB9Ln6wcgUk,5405
+pygeofun-0.0.9.dist-info/WHEEL,sha256=EKrTAgTt1A3WmfpeLRh1LCGVutCmqVHLMwkGVm0p5FE,96
+pygeofun-0.0.9.dist-info/RECORD,,
