@@ -1,0 +1,10 @@
+setup.py
+odoo/addons/in_memory_filestore/__init__.py
+odoo/addons/in_memory_filestore/__manifest__.py
+odoo/addons/in_memory_filestore/data/setup_data.xml
+odoo12_addon_in_memory_filestore.egg-info/PKG-INFO
+odoo12_addon_in_memory_filestore.egg-info/SOURCES.txt
+odoo12_addon_in_memory_filestore.egg-info/dependency_links.txt
+odoo12_addon_in_memory_filestore.egg-info/not-zip-safe
+odoo12_addon_in_memory_filestore.egg-info/requires.txt
+odoo12_addon_in_memory_filestore.egg-info/top_level.txt
