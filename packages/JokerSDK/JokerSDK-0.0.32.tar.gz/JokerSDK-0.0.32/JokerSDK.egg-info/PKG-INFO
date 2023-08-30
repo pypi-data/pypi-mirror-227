@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: JokerSDK
+Version: 0.0.32
+Summary: A Simple asyncronous SDK for Joker's Voice API.
+Home-page: https://github.com/0x96e63/JokerAPI-SDK
+Author: 0x96e63
+License-File: LICENSE
+
+# The Official JokerAPI SDK 
+A simple asynchronous SDK for JokerAPI.co's voice offering, capable of creating outbound calls, and interacting to the flow of channels.
