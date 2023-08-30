@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: haco
+Version: 0.0.2
+Summary: Home Assistant Control Objects
+Home-page: https://link.frontmatter.ai/haco
+Author: Frontmatter
+License: Copyright © 2023 Frontmatter. All rights reserved.
+Keywords: homeassistant controls python tasmota
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: aiomqtt
+Provides-Extra: tasmota
+
+UNKNOWN
+
