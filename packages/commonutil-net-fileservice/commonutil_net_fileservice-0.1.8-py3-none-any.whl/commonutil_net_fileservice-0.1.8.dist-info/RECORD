@@ -1,0 +1,10 @@
+commonutil_net_fileservice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commonutil_net_fileservice/config.py,sha256=ZzMNnHs5oEzxefrBeGaWsZMo0v_e61mZ_dz8kgMAdok,3098
+commonutil_net_fileservice/paramikosftp.py,sha256=3qjjKQtsx-7T3kP8Rbw9OAoAh8rNEYv8UDVY6m4x3_g,14619
+commonutil_net_fileservice/paramikosubexec.py,sha256=TJ4FzOaGNKRgTMS-stuP57-7wzWCY_7JSt_1w3-wrJA,10790
+commonutil_net_fileservice/pyftpdlib.py,sha256=-taGVZfY_dQyh4BrSUdsFYL_88YKqqyQ-HUGXfu7NFE,11714
+commonutil_net_fileservice/scp.py,sha256=HM7gWutt-fYzPOZEL0GgVV1Ew2U2m60HLwNJWDIzf8M,7507
+commonutil_net_fileservice-0.1.8.dist-info/METADATA,sha256=OXJ1lDv_FRzN_lqKiTqy-TvfG4oqWbkbkMcrxa-xLBY,636
+commonutil_net_fileservice-0.1.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+commonutil_net_fileservice-0.1.8.dist-info/top_level.txt,sha256=hoj6mzCKtxsYypghSPER4aICfi0USxjgbRhFGdkNcUs,27
+commonutil_net_fileservice-0.1.8.dist-info/RECORD,,
