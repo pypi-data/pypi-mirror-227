@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+metatensor/__init__.py
+metatensor.egg-info/PKG-INFO
+metatensor.egg-info/SOURCES.txt
+metatensor.egg-info/dependency_links.txt
+metatensor.egg-info/top_level.txt
