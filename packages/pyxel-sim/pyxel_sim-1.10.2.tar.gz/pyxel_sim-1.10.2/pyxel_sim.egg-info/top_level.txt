@@ -1,0 +1,7 @@
+build
+continuous_integration
+dist
+docs
+pyxel
+static
+tests
