@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vbeam
+Version: 0.1.0
+Summary: vbeam: a fast and differentiable beamformer
+Home-page: https://github.com/magnusdk/vbeam
+Author: Magnus Dalen Kvalevåg
+Author-email: magnus.kvalevag@ntnu.no
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pyuff-ustb
+Requires-Dist: scipy
+Requires-Dist: spekk
+
