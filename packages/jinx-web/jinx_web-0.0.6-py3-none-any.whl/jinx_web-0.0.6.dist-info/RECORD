@@ -1,0 +1,8 @@
+jinx/__init__.py,sha256=Q5DWZWCj8ooerU1qNo9rbCOLPLA_6xvPtLYD-TX4S3Y,99
+jinx/jinx.py,sha256=GK2pkML7ses31jJCMpLjPKD6xDZYjbzE913mTnjXYL0,4317
+jinx/request.py,sha256=-WXIUekzziRZnPBp1fejyOwhIgUZQpYKzS9cMyGEHZM,82
+jinx/response.py,sha256=qkITlcFVO2dRdbQqlZ0a5h6TAtQ7r34_zB4vGgsdC2I,1166
+jinx_web-0.0.6.dist-info/METADATA,sha256=6h4UxMSxjAVhuh9VnKlxNkL0YMEMt8oA2cr1d12Ynxc,583
+jinx_web-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jinx_web-0.0.6.dist-info/top_level.txt,sha256=9RpSfRWqww0qsjO178PgxSOG5FIkU1nuzSbNgF_v9Eg,5
+jinx_web-0.0.6.dist-info/RECORD,,
