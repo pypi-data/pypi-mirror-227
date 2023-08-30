@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: max_min_python_heaps
+Version: 0.3
+Summary: This is a plug in for python that provide min and max heap functionalities (without using the * -1 for max heap)
+Home-page: https://github.com/0u55ama/Heap-plug-in
+Author: Oussama Ait Lamaalam
+Author-email: oussamaait2001@gmail.com
+Keywords: python,plugin,heap,heapq,max heap,min heap,priority queue
