@@ -1,0 +1,6 @@
+pymarks/__pycache__
+tests/__pycache__
+.ropeproject
+VENV
+pymarks/app.py
+.dmypy.json
