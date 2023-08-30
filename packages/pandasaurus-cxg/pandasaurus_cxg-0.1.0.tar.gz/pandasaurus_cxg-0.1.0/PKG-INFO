@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pandasaurus-cxg
+Version: 0.1.0
+Summary: Ontology enrichment tool for CxG standard AnnData files.
+License: http://www.apache.org/licenses/LICENSE-2.0
+Author: Ugur Bayindir
+Author-email: ugur@ebi.ac.uk
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: anndata (>=0.9.1,<0.10.0)
+Requires-Dist: oaklib (>=0.5.13,<0.6.0)
+Requires-Dist: pandas (>=2.0.2,<3.0.0)
+Requires-Dist: pandasaurus (==0.3.2)
+Requires-Dist: rdflib (>=6.3.2,<7.0.0)
+Description-Content-Type: text/markdown
+
+STATUS: Beta
+
+# pandasaurus_cxg
+
+Ontology enrichment tool for [CxG standard](https://github.com/chanzuckerberg/single-cell-curation/blob/main/schema/3.0.0/schema.md) [AnnData files](https://anndata.readthedocs.io/en/latest/).
+
+Slide summarising intended functionality
+![image](https://github.com/INCATools/pandasaurus_cxg/assets/112839/3082dcd2-dd2f-469d-9076-4eabcc83130d)
+
+
