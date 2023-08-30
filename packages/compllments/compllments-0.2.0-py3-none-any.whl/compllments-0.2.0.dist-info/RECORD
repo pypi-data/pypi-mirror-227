@@ -1,0 +1,16 @@
+compllments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compllments/config.py,sha256=KlyTZVxp5b1_KIEWNKz2YasJwayWbvkWcAe3J_quhgE,1018
+compllments/cron,sha256=ToDTCtxdWppBIm8kmCwulYC_enWybO2_9VD-xnWyDJo,990
+compllments/data/personal_audio_files_will_go_here.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compllments/main.py,sha256=pMxpzgCwsNTxEHyYvHCvNGowZ9_PndDv253v9E6i-Tc,4201
+compllments/models/add_models_here.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compllments/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compllments/utils/create_audio.py,sha256=lkhNQ_E22humAvJdNrhO9rRwYnuK7TwFAMO2qMq_rCU,1458
+compllments/utils/model.py,sha256=0dR2MoKifzRjlFla5dlzXKbhfBkirCku4N_Htdx6Cf4,5534
+compllments/utils/providers.py,sha256=aQ0tTIjxN7S_ET1WHBaxVB3qUVRISyuLgkqrCn5go5Q,1843
+compllments/utils/template.py,sha256=kgY9GPU-3af1jNOAew_qjVd5LJHRKmTBGOhiL2t8iRE,587
+compllments/utils/texter.py,sha256=S1xFH8ZstAqZbpIDjukt5fRuKn2UZk9kM3AqAknhtHo,2589
+compllments-0.2.0.dist-info/entry_points.txt,sha256=CpM9xzj4cRezTgGY1_hiUGZ_IszxoHjRCiqkGZ55JeA,80
+compllments-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+compllments-0.2.0.dist-info/METADATA,sha256=J6MsH0avHG_N8NFMfsiDQjEQB7_9PHJJ4QEh2joVM_U,7291
+compllments-0.2.0.dist-info/RECORD,,
