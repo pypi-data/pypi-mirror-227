@@ -1,0 +1,12 @@
+jfrog/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jfrog/artifactory.py,sha256=PUiPhvlvcXAI98kdEznRKPwWjqzasb5KMH8MUhX3bSM,8977
+jfrog/migration.py,sha256=q9FtOf2Hn1geN7CuuU-i-YFzCaT_xhJB3oVoz6VL0uE,23768
+jfrog/missioncontrol.py,sha256=8i2GHPuKKw2AnOwgai2cXKXgMbNkhVIk435-FQNhNaw,1335
+jfrog/platform.py,sha256=7SUWZnJn3TQF66Js50DqEp46EOUvN2ySHfrGmpX7MNA,8386
+jfrog/utilities.py,sha256=SoZ0Qodu02XY_SM_JPdx66bnTw_qiPSD97OfnM5ulZw,3784
+jfrog/xray.py,sha256=-GJcAZHUNLM7QXNX0ft73th06eUw6VHoI0-QFkPzLIc,2240
+jfrog_client-1.0.0.dist-info/LICENSE,sha256=CJuqL-lexlMHnUWFrePKEF_KRQvy5zMaPNFLOmvZW3k,1068
+jfrog_client-1.0.0.dist-info/METADATA,sha256=Jz9cVV_kb9Ae-B0sVa7mkUJ5ytLRR8iyh5LCXjXgjfg,9228
+jfrog_client-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jfrog_client-1.0.0.dist-info/top_level.txt,sha256=FRxQdT_OuNKoppQ8HLOC_xhfuR6I5bw_MfAN35-CwVM,6
+jfrog_client-1.0.0.dist-info/RECORD,,
