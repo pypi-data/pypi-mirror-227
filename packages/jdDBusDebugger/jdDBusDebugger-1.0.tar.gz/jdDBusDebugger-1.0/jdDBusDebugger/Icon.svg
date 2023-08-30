@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg237"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview239"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.84096521"
+     inkscape:cx="344.2473"
+     inkscape:cy="83.237688"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs234" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="83.68856"
+       y="77.710808"
+       id="text609"><tspan
+         sodipodi:role="line"
+         id="tspan607"
+         style="stroke-width:0.264583" /></text>
+    <g
+       id="g4509"
+       transform="translate(-4.3153449,-23.456931)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:39.8319px;line-height:1.25;font-family:sans-serif;fill:#1b1e54;fill-opacity:1;stroke:none;stroke-width:0.995802"
+         x="10.952962"
+         y="81.754166"
+         id="text412"><tspan
+           id="tspan410"
+           style="fill:#1b1e54;fill-opacity:1;stroke-width:0.995802"
+           x="10.952962"
+           y="81.754166"
+           sodipodi:role="line">D-Bus</tspan></text>
+      <path
+         d="m 128.63917,112.80897 0.64153,-3.73307 -9.7505,-1.58658 v -7.746091 c 0,-0.149601 0,-0.280045 0,-0.429619 l 9.54307,-2.538435 -0.96188,-3.602436 -9.10931,2.407801 a 16.973861,16.798738 0 0 0 -8.90182,-10.769814 v -5.599579 h -3.772 v 4.162349 a 16.615523,16.444097 0 0 0 -7.543911,0 v -4.162349 h -3.771992 v 5.599579 a 16.973861,16.798738 0 0 0 -8.883005,10.863153 l -9.109252,-2.50114 -0.867564,3.602368 9.429875,2.538503 c 0,0.149615 0,0.280086 0,0.429619 v 7.746091 l -9.731681,1.58651 0.603754,3.73307 9.128212,-1.53056 a 16.785262,16.612085 0 0 0 1.54652,6.66356 l -8.543565,8.47397 2.678111,2.65047 7.902316,-7.8394 a 16.973861,16.798738 0 0 0 26.780952,0 l 7.90224,7.8394 2.67812,-2.65047 -8.56239,-8.47397 a 16.785262,16.612085 0 0 0 1.56542,-6.66356 z m -27.96915,11.04981 A 13.201891,13.065684 0 0 1 89.354118,110.9424 V 99.743229 H 100.67002 Z M 89.901059,96.010227 a 13.201891,13.065684 0 0 1 25.309931,0 z M 115.75792,110.9424 a 13.201891,13.065684 0 0 1 -11.31591,12.91638 V 99.743229 h 11.31591 z"
+         id="path483"
+         style="fill:#1b1e54;fill-opacity:1;stroke-width:1.87623" />
+      <path
+         style="fill:#1b1e54;stroke:#1b1e54;stroke-width:1.19098"
+         d="m 166.1781,273.8005 c 5.06858,-0.2229 13.36262,-0.2229 18.4312,0 5.06858,0.2229 0.92156,0.40527 -9.2156,0.40527 -10.13716,0 -14.28418,-0.18237 -9.2156,-0.40527 z"
+         id="path2448"
+         transform="scale(0.26458333)" />
+    </g>
+  </g>
+</svg>

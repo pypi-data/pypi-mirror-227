@@ -1,0 +1,7 @@
+include jdDBusDebugger/translations/*.ts
+exclude jdDBusDebugger/ui_compiled/*
+include jdDBusDebugger/version.txt
+include jdDBusDebugger/Icon.svg
+include jdDBusDebugger/ui/*
+include BuildBackend.py
+exclude tools/*
