@@ -1,0 +1,11 @@
+regli/__init__.py,sha256=YgB-Kcu-zgCU4aj8VDu-xNgp-YA01bg6vndZtXdDZa0,59
+regli/ezmcmc.py,sha256=FpRQ4zZZmqYfPNMT1g0xfLuGfRPBFBGXNI4TQ-R7N0U,5240
+regli/mcmc.py,sha256=qIgTfaPmwXttto7c6jtqaTH_1HUiPXpKPIx_pUaYA6k,1016
+regli/regli.py,sha256=ifTdb7R5kLN1r_EjP2fgWRielOJ2U8OXE05P1MypjSo,20200
+regli/regress.py,sha256=wDDEeRfn6XKmefzd84TKdhdRIbJAaRVTM8JTaGBETGs,1492
+regli/spin.py,sha256=xL8JFvFlfz0AMFfvhQ5PfzI4oKOm9kU-QsTfCXw3CqE,5312
+regli-2023.829.0.dist-info/LICENSE,sha256=i_qmf9oaOA28afIg9z5YYaJnaC16R65OT7qzu_fx2Oc,1065
+regli-2023.829.0.dist-info/METADATA,sha256=EmjX4cl3sX2_S-T4023BOE6e0ToeGwfA4eSmR8vuXHg,3459
+regli-2023.829.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+regli-2023.829.0.dist-info/top_level.txt,sha256=6OXEU9V3OFtQHP84M1upCt2nwGVCP81bqUz_-8lpgt8,6
+regli-2023.829.0.dist-info/RECORD,,
