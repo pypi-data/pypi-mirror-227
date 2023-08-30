@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/CapsLockMorseCode.egg-info/PKG-INFO
+src/CapsLockMorseCode.egg-info/SOURCES.txt
+src/CapsLockMorseCode.egg-info/dependency_links.txt
+src/CapsLockMorseCode.egg-info/top_level.txt
+src/capslockmorsecode/__init__.py
+src/capslockmorsecode/__main__.py
+tests/test_capslockmorsecode.py
