@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: plasmaz
+Version: 0.1.0
+Summary: Plasmaz is a Python API wrapper which interacts with the Python API and creates a smoother experience.
+Author: TuberAsk
+License: MIT
+Requires-Dist: Python >=3.11
+Requires-Dist: requests
+
