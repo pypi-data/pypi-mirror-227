@@ -1,0 +1,15 @@
+jupyter_stack_trace/__init__.py,sha256=eMs7W3-v23VkkJtbjpJ6IipzxgPUCPy1PI_FPEOOzWI,596
+jupyter_stack_trace/_version.py,sha256=vYZ6rLVUw05xbWIGie5W7cVk18sWwVN72cGSZ2ngSYU,171
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/package.json,sha256=7gFvJptc1G7kgt2mzXLRgvkFUhDTCO75C0O_X_vwurI,5719
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/schemas/jupyter-stack-trace/package.json.orig,sha256=d2UUZlsnqtLgNSedaLchbaH1MIchNlM3V0U65Yrca94,6449
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/schemas/jupyter-stack-trace/plugin.json,sha256=V2ksSgA8lI3wNrQa3P4xvRmizQsyKU7DJty0DADOj1Q,832
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/static/462.612f4c95898801757acd.js,sha256=YS9MlYmIAXV6zeEbNcY1Aked8U68NXz7NdfLAWc8fS4,6489
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/static/747.9ea6e19c44d9cf54ab7c.js,sha256=nqbhnETZz1SrfH32WyB-QXL4YS21zn176JEirH8IJq8,4333
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/static/remoteEntry.2fd29a8820a4c13baa38.js,sha256=L9KaiCCkwTuqOJKpBeGz5FNhiaaPTPPP7wt00vTAumo,6588
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/static/style.js,sha256=wuPom3gafvUeJzchbOhb4jxChPivDsucOi9k__cenps,162
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyter_stack_trace-0.1.2.data/data/share/jupyter/labextensions/jupyter-stack-trace/install.json,sha256=AKkmlWMO1ITggNYjYtLBgN-RgPJV3WwKBA63UfAMBzE,199
+jupyter_stack_trace-0.1.2.dist-info/METADATA,sha256=47x-Ju3U2F6eV6TYz3JVe9d0wBwUAfb4akplX48ULE4,7234
+jupyter_stack_trace-0.1.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyter_stack_trace-0.1.2.dist-info/licenses/LICENSE,sha256=-gQRvEWtGdymaVJQeDtmzbDdVQRF4ip_Qn-dttcqkjQ,1529
+jupyter_stack_trace-0.1.2.dist-info/RECORD,,
