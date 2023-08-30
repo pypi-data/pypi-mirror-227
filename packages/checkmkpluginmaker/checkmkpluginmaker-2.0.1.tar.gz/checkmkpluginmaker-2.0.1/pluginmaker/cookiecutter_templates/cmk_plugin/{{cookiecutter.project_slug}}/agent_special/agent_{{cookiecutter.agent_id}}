@@ -1,0 +1,159 @@
+#!/usr/bin/env python3
+# copy this file to local/share/check_mk/agents/special
+# require install netsnmp
+
+from optparse import OptionParser
+import os
+import netsnmp
+import string
+import sys
+import re
+import ast
+import json
+
+
+DEBUG = 'DEBUG'
+OK = 'OK'
+WARN = 'WARN'
+WARNING = 'WARNING'
+CRITICAL = 'CRITICAL'
+ERROR = 'ERROR'
+UNKNOWN = 'UNKNOWN'
+
+
+def make_msg(name, status, msg):
+    print(f'{name} - {status} - {msg}')
+
+
+def parse_input():
+    """Parser options here, this hostname, community, oid is must
+    You could add more parser
+    Noticed, agent invoker will send parameter to agent
+
+    Example: 
+        python3 run_script -H hostname -C community -S '[{"card_name": "dfgdf", "snmp_oid": "1.3.6.1.4.1.3607.2.30.1.1.1.3.16395.2.10", "parameters": [-100, -150]}, {"card_name": "sdgsd", "snmp_oid": "1.3.6.1.4.1.3607.2.30.1.1.1.3.16395.2.10", "parameters": [-100, -150]}]'
+
+        with:
+            -H: str 
+            -C: str
+            -S: str is json dumpped list of dicts
+    
+    Returns:
+        options: all input parameters for this script
+        args: -
+    """
+    parser = OptionParser()
+    parser.add_option(
+        "-H",
+        dest="host",
+        type="string",
+        help="Hostname/IP Address of device",
+        metavar=' '
+    )
+    parser.add_option(
+        "-C",
+        dest="community",
+        type="string",
+        help="Community string",
+        metavar=' ',
+        default='FPTHCM123'
+    )
+    parser.add_option(
+        "-S",
+        dest="services",
+        type="string",
+        help="Service checks",
+        metavar=' ',
+        default='[]'
+    )
+    (options, args) = parser.parse_args()
+    return options, args
+
+
+def handle_service(host, community, index, service):
+    name = service.get('name')                  # get this parameter from wato, make sure they are linked
+    snmp_oid = service.get('snmp_oid')          # get this parameter from wato, make sure they are linked
+    parameters = service.get('parameters', [])      # get this parameter from wato, make sure they are linked
+
+    if not name:
+        make_msg(f'{UNKNOWN}{index}', ERROR, f'Not found name from -> {service}')
+        return
+    if not snmp_oid:
+        make_msg(name, ERROR, f'Not found SNMP oid from -> {service}')
+        return
+    if not parameters:
+        make_msg(name, ERROR, f'Not found parameters of warning or critical threshold from-> {service}')
+        return
+    
+    name = name.replace(' ', '_')
+    snmp_oid = '.' + snmp_oid
+    warning, critical = parameters          
+    # warning, critical get this parameter from wato, make sure they are linked
+    # if you need more thresholds, add in wato, then add here
+
+    result = netsnmp.snmpwalk(
+        snmp_oid,
+        Version=2,
+        DestHost=host,
+        Community=community,
+        Timeout=1000000,
+        Retries=2
+    )
+    # validate snmp result
+    if (None in result) or ('' in result) or (len(result)== 0):
+        make_msg(name, OK, name)
+        return
+    
+    # process snmp result
+    value = int(result[0])
+    if value <= critical:
+        make_msg(name, CRITICAL, f'{name} with value: {value}')
+    elif value <= warning:
+        make_msg(name, WARNING, f'{name} with value: {value}')
+    else:
+        make_msg(name, OK, name)
+
+
+def run_agent():
+    """Do not modify this agent-runner
+    If you need modify, make sure you know what are you doing
+    """
+    options, args = parse_input()
+    make_msg(DEBUG, DEBUG, options)
+
+    # validate input parameters
+    if not options.host or not options.community:
+        make_msg(UNKNOWN, ERROR, f'Not found host <{options.host}> or community <{options.community}>')
+        return
+
+    try: 
+        services = json.loads(options.services)
+    except Exception as e:
+        make_msg(UNKNOWN, ERROR, f'{e} Not found services or load failed <{options.services}>')
+        return
+
+    for index, service in enumerate(services):
+        try:
+            handle_service(options.host, options.community, index, service)
+        except Exception as e:
+            make_msg(UNKNOWN, ERROR, f'handle_service get exception {e}, service {service}')
+
+
+if __name__ == '__main__':
+    # ----------------------------------------- 
+    #   This bellow print is id of this agent
+    #   DO NOT MODIFY, If you need other id, create new plugin template!
+    # -----------------------------------------
+    print('<<<{{cookiecutter.agent_id}}>>>')       
+
+    # -----------------------------------------
+
+    # run agent 
+    try:
+        run_agent()
+    except Exception as e:
+        print(f'UNKNOWN - Agent code get exception {e}')
+
+    # DO NOT REMOVE 
+    sys.exit(0)
+
