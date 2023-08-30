@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+dict_viewer/__init__.py
+dict_viewer/drint.py
+drint.egg-info/PKG-INFO
+drint.egg-info/SOURCES.txt
+drint.egg-info/dependency_links.txt
+drint.egg-info/top_level.txt
