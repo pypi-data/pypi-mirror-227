@@ -1,0 +1,14 @@
+user
+****
+
+
+Description
+===========
+
+Details about the user object.
+
+
+Available Commands
+==================
+
+* create

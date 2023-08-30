@@ -1,0 +1,14 @@
+status
+******
+
+
+Description
+===========
+
+Details about the status of the support ticket.
+
+
+Available Commands
+==================
+
+* get
