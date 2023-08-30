@@ -1,0 +1,9 @@
+main.py
+pyproject.toml
+setup.py
+golu.egg-info/PKG-INFO
+golu.egg-info/SOURCES.txt
+golu.egg-info/dependency_links.txt
+golu.egg-info/entry_points.txt
+golu.egg-info/requires.txt
+golu.egg-info/top_level.txt
