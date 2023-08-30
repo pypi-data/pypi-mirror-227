@@ -1,0 +1,10 @@
+pyxi_kafka_client/__init__.py,sha256=gs1C5FPo6e_yXJ5M_SnHJi6103fpu8Ec3Dc89K4gq-Q,144
+pyxi_kafka_client/configuration_builder.py,sha256=GFloefKigt_pthLXMJPPTpCsk6nYDgHIff10rMJxzzo,573
+pyxi_kafka_client/kafka_consumer_manager.py,sha256=O4OdnH3PQ6gMBy8Q2jFg23ZpIGbELuHuzkWN-VxzLFY,1672
+pyxi_kafka_client/kafka_producer_manager.py,sha256=6rhiU1Ywnwu5nrczdliPKKblY-zTV60fOgI_VhYdxuY,1103
+pyxi_kafka_client/secret_provider.py,sha256=0zKqehbmFn8hgZRT9_tWfz5RBQ4_jbRHIYAAxlHM5hg,228
+pyxi_kafka_client-0.0.5.dist-info/LICENSE,sha256=UF0tfQ5DQ_IQO7eOUQBJQ4n9ZObBrRhFC3fSMo3MIc8,1071
+pyxi_kafka_client-0.0.5.dist-info/METADATA,sha256=D8X26MrKYQMLOEgP7Co5gDXme5yBJXxTypdUy7OISrA,626
+pyxi_kafka_client-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyxi_kafka_client-0.0.5.dist-info/top_level.txt,sha256=NQ_jscDhneYi9xqxVP59eSo4_YBKwT2W_QYZ0uWGIZo,18
+pyxi_kafka_client-0.0.5.dist-info/RECORD,,
