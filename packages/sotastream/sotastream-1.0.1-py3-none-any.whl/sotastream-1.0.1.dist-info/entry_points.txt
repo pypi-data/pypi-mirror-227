@@ -1,0 +1,2 @@
+[console_scripts]
+sotastream = sotastream.cli:main
