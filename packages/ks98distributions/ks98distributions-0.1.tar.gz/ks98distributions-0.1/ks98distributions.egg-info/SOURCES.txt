@@ -1,0 +1,10 @@
+setup.py
+ks98distributions/Binomialdistribution.py
+ks98distributions/Gaussiandistribution.py
+ks98distributions/Generaldistribution.py
+ks98distributions/__init__.py
+ks98distributions.egg-info/PKG-INFO
+ks98distributions.egg-info/SOURCES.txt
+ks98distributions.egg-info/dependency_links.txt
+ks98distributions.egg-info/not-zip-safe
+ks98distributions.egg-info/top_level.txt
