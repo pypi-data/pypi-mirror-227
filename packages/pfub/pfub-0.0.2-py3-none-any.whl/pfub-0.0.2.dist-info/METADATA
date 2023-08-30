@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pfub
+Version: 0.0.2
+Summary: A telegram bot to post pixiv follow update
+Home-page: 
+Author: stay_miku
+Author-email: miku@miku.pics
+Requires-Dist: pbrm
+Requires-Dist: python-telegram-bot
+Requires-Dist: python-telegram-bot[job-queue]
+Requires-Dist: Pillow
+

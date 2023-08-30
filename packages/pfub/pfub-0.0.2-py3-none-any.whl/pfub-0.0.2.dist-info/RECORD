@@ -1,0 +1,10 @@
+pixivFollowUpdateBot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixivFollowUpdateBot/__main__.py,sha256=RBpu10mkacqbgJzLxoFNvYiyrOMvSuQJKPfKzL4g_Cg,331
+pixivFollowUpdateBot/bot.py,sha256=X8uR1PUnBFKkSdZHyh2ftIi0jwpv5K4SRN-P_7sH_s4,13531
+pixivFollowUpdateBot/followUpdates.py,sha256=F5TeFaDd1xZfcrftNlOcCpZ_o_PGzQugROCKRQOVy1g,1131
+pixivFollowUpdateBot/user_config.py,sha256=-WNQN3lvQGPky-CqP5qvkhYUzOXFqd00Ad-Q0e2ccQk,3369
+pixivFollowUpdateBot/utils.py,sha256=yLkmln_l38ckClzmF4E7kSCXwUMVkPB3Mhw7L1VRcjY,1383
+pfub-0.0.2.dist-info/METADATA,sha256=mt3-mu0hXH8HQlj5d_ozwVO_0v4j3YK-MFUK1RAHq9s,295
+pfub-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pfub-0.0.2.dist-info/top_level.txt,sha256=eSvdG9lLl_Cdmm51BgZwN3c4UQkFcfmK4wwvBGZJPlE,21
+pfub-0.0.2.dist-info/RECORD,,
