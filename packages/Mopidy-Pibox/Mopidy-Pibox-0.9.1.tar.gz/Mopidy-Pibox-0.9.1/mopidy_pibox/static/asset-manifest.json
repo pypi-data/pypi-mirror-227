@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/pibox/static/css/main.bfa7af45.chunk.css",
+    "main.js": "/pibox/static/js/main.93b3141a.chunk.js",
+    "main.js.map": "/pibox/static/js/main.93b3141a.chunk.js.map",
+    "runtime-main.js": "/pibox/static/js/runtime-main.ab5df67e.js",
+    "runtime-main.js.map": "/pibox/static/js/runtime-main.ab5df67e.js.map",
+    "static/css/2.697ef12b.chunk.css": "/pibox/static/css/2.697ef12b.chunk.css",
+    "static/js/2.898a588b.chunk.js": "/pibox/static/js/2.898a588b.chunk.js",
+    "static/js/2.898a588b.chunk.js.map": "/pibox/static/js/2.898a588b.chunk.js.map",
+    "index.html": "/pibox/index.html",
+    "precache-manifest.56405e6dcd6a10fcbf5854d35303160d.js": "/pibox/precache-manifest.56405e6dcd6a10fcbf5854d35303160d.js",
+    "service-worker.js": "/pibox/service-worker.js",
+    "static/css/2.697ef12b.chunk.css.map": "/pibox/static/css/2.697ef12b.chunk.css.map",
+    "static/css/main.bfa7af45.chunk.css.map": "/pibox/static/css/main.bfa7af45.chunk.css.map",
+    "static/js/2.898a588b.chunk.js.LICENSE.txt": "/pibox/static/js/2.898a588b.chunk.js.LICENSE.txt",
+    "static/media/placeholder.png": "/pibox/static/media/placeholder.1434bbda.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab5df67e.js",
+    "static/css/2.697ef12b.chunk.css",
+    "static/js/2.898a588b.chunk.js",
+    "static/css/main.bfa7af45.chunk.css",
+    "static/js/main.93b3141a.chunk.js"
+  ]
+}
