@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dcm_classifier
+Version: 0.1.0
+Summary: This is a consolidation of work from NAMIC efforts primarily at the University of Iowa.
+Author-email: Michal Brzus <michal-brzus@uiowa.edu>, Hans Johnson <hans-johnson@uiowa.edu>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+This project builds on Botimageai work and develops DICOM series classification.
