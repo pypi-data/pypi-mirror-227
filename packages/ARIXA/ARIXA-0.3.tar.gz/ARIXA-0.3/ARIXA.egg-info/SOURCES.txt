@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+ARIXA/Arixa_API.py
+ARIXA/__init__.py
+ARIXA.egg-info/PKG-INFO
+ARIXA.egg-info/SOURCES.txt
+ARIXA.egg-info/dependency_links.txt
+ARIXA.egg-info/requires.txt
+ARIXA.egg-info/top_level.txt
