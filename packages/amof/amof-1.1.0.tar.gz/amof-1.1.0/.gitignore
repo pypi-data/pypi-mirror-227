@@ -1,0 +1,25 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!*.py
+!*/ring/template/*
+!README.md
+!pyproject.toml
+!pyproject.toml
+!requirements.txt
+!CITATION.cff
+!examples/files/*
+# !template.latex
+# etc...
+
+
+# ...even if they are in subdirectories
+!*/
+
+# if the files to be tracked are in subdirectories
+# !*/a/b/file1.txt
+# !*/a/b/c/*
+
+*/.ipynb_checkpoints/*.py
