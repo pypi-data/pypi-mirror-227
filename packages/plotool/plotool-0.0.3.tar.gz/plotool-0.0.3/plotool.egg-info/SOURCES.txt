@@ -1,0 +1,8 @@
+setup.py
+plotool/RealtimeDrawing.py
+plotool/__init__.py
+plotool.egg-info/PKG-INFO
+plotool.egg-info/SOURCES.txt
+plotool.egg-info/dependency_links.txt
+plotool.egg-info/requires.txt
+plotool.egg-info/top_level.txt
