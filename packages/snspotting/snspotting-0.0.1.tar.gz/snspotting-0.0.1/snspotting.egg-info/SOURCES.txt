@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+snspotting/__init__.py
+snspotting.egg-info/PKG-INFO
+snspotting.egg-info/SOURCES.txt
+snspotting.egg-info/dependency_links.txt
+snspotting.egg-info/requires.txt
+snspotting.egg-info/top_level.txt
