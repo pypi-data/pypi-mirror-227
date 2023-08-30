@@ -1,0 +1,13 @@
+dotnetfile/__init__.py,sha256=H8d0g4yqsvhDATMrzniKRAP91_1iuSep0_0vtCBh1mw,182
+dotnetfile/constants.py,sha256=njxgfesLIiz309fvOG4EiFVd8lco_fABY3p8V9-PPH8,13572
+dotnetfile/dotnetfile.py,sha256=YajRoniqIYnIpSHLMyUbPhHfOUL15g36BNljekmQksw,54834
+dotnetfile/logger.py,sha256=oNO45B61KLC9cX0kCiUcP4NrcOl343xA2LyQY7VMK7s,922
+dotnetfile/metadata_rows.py,sha256=A6uwRNt3WAW8SUwt0EW3XkhUs1gp3TRoHeI6TrZ0KYw,50508
+dotnetfile/parser.py,sha256=qjIhU5cCYWZMIPIbJUtUNi5dtmeMKdqONIbGvrQBX3U,52723
+dotnetfile/structures.py,sha256=_eQMz2nbGLw8qWjBttIj3Dw0A0-2j95sDyA_CZjYn6Y,7066
+dotnetfile/util.py,sha256=E7LaKE4wqyqPg5D0iyjOO6TGOeD-RuMcF9fipLTuvQA,12096
+dotnetfile-0.2.4.dist-info/LICENSE,sha256=uUBOvmRSiI784Janfnd6LJSqFAG5sbS3qhoajg8-2II,1102
+dotnetfile-0.2.4.dist-info/METADATA,sha256=XFeQdp9O7e_LYSahzNqjuvmWTi6PJnhFo1OabGkENTU,3069
+dotnetfile-0.2.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dotnetfile-0.2.4.dist-info/top_level.txt,sha256=3W62sV7k5NK2AWdfj4pLDBZJFpCgYuzT2oTKKncGsjY,11
+dotnetfile-0.2.4.dist-info/RECORD,,
