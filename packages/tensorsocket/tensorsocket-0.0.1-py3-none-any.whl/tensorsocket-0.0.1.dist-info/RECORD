@@ -1,0 +1,9 @@
+tensorsocket/__init__.py,sha256=ajZaacyL2fFYQlBadQWxicBLlVVCZn57KeqxRHilPM8,275
+tensorsocket/consumer.py,sha256=uU843OrzQpZHKxykseridQfHcjoc5xcLm_ZQ2UrxmF8,3655
+tensorsocket/heartbeat.py,sha256=f0ZsAHexE0dWxQJM-acItOiwpgu8LtI6y7EDMxLmNjc,1730
+tensorsocket/payload.py,sha256=kIaPY216pzKX-F-OERkzDZP71jCoM6RCezGkJe_byxQ,1866
+tensorsocket/producer.py,sha256=DlRor7QQi4jhhjhQrDkjSsKZJUiNUp7I-3Ez2n69QOQ,6981
+tensorsocket-0.0.1.dist-info/LICENSE,sha256=egObPRBhp6bZTMalXi3pnIK1b7ySt65h1Xz_tBWalw8,1083
+tensorsocket-0.0.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+tensorsocket-0.0.1.dist-info/METADATA,sha256=2XP3jI3mfcvJB7X9FsyDR_J6NpRKxozLIzvqk1BBHjg,3227
+tensorsocket-0.0.1.dist-info/RECORD,,
