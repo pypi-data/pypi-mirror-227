@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: vietlm
+Version: 0.1.0
+Summary: An experiment for large models specific to Vietnamese, including language models and more.
+License: Apache-2.0
+Author: Pham Van Ngoan
+Author-email: ngoanpham1196@gmail.com
+Requires-Python: >=3.10.12,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: accelerate (>=0.21.0)
+Requires-Dist: datasets (>=2.12.0)
+Requires-Dist: fastapi (==0.95.1)
+Requires-Dist: gradio (>=3.36.0)
+Requires-Dist: jieba (>=0.42.1,<0.43.0)
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: peft (>=0.4.0)
+Requires-Dist: pydantic (==1.10.11)
+Requires-Dist: rouge-chinese (>=1.0.3,<2.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: sentencepiece (>=0.1.99,<0.2.0)
+Requires-Dist: sse-starlette (>=1.6.5,<2.0.0)
+Requires-Dist: tiktoken (>=0.4.0,<0.5.0)
+Requires-Dist: torch (>=1.13.1)
+Requires-Dist: transformers (==4.29.1)
+Requires-Dist: trl (>=0.5.0)
+Requires-Dist: uvicorn (>=0.23.2,<0.24.0)
