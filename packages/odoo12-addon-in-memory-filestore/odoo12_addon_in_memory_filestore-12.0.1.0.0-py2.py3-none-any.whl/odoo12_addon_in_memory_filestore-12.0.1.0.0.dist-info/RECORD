@@ -1,0 +1,7 @@
+odoo/addons/in_memory_filestore/__init__.py,sha256=KNIjy4s6XxuFBGm5-g8AeQipkBH8wbGw2XMAHczhoxc,71
+odoo/addons/in_memory_filestore/__manifest__.py,sha256=yZfodApTg8eU_mCytZgNVYEtACzVqd-GM28GGYvUin4,582
+odoo/addons/in_memory_filestore/data/setup_data.xml,sha256=0fbSOXa2_0oenOFcvN3TafL_yRDo-W7R5y7S2P7KN7Y,239
+odoo12_addon_in_memory_filestore-12.0.1.0.0.dist-info/METADATA,sha256=TPu7eLb8tSSYBJTCgzaYhMVESHJkuSLUcjtiDjCW1PM,560
+odoo12_addon_in_memory_filestore-12.0.1.0.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+odoo12_addon_in_memory_filestore-12.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_in_memory_filestore-12.0.1.0.0.dist-info/RECORD,,
