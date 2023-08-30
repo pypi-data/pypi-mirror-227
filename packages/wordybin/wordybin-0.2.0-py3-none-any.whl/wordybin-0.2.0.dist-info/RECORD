@@ -1,0 +1,12 @@
+wordybin/__init__.py,sha256=jn0CzZcqmY7jii7azhGnLOKCyj81S8tvd7xOBjAOx7A,41
+wordybin/__main__.py,sha256=IyddDqc9-FhDx43w33-DrOBnMZyjNaoGuAe5Ntd81Wk,1029
+wordybin/_backward.py,sha256=nCzkS9fkiS3Nit0-rpOP3DpY8anSgDFnYbnwqjr77as,390
+wordybin/code.py,sha256=nE7LlB36px-u5WaqD889HAf7icoqAtNVZqUB8TtnVcU,2187
+wordybin/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordybin/words/512.txt,sha256=WS33c74rCpr2od3qiX8rfxY9lnzUGi5IQDa8PwVmyU8,3072
+wordybin/words/threes.txt,sha256=Naf5T7nkHAR2gDIFOUMH92PtZATK4RnhLbiqQZMCu88,512
+wordybin-0.2.0.dist-info/LICENSE,sha256=SBqMsjgLnP4A6a3b-Gclx3mtG7DRlsO7OTdmTprHXsg,1071
+wordybin-0.2.0.dist-info/METADATA,sha256=Sd-Nt-sr86xXtB9Caufv7bbMjAoCAmgdKN2VpErYxBA,3794
+wordybin-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+wordybin-0.2.0.dist-info/entry_points.txt,sha256=DKhFEfDMuug2EI1wEoHzU4mAec_nSbg9znEWLeicfOk,51
+wordybin-0.2.0.dist-info/RECORD,,

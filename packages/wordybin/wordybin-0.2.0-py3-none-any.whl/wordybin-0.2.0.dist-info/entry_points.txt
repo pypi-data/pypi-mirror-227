@@ -1,0 +1,3 @@
+[console_scripts]
+wordybin=wordybin.__main__:main
+
