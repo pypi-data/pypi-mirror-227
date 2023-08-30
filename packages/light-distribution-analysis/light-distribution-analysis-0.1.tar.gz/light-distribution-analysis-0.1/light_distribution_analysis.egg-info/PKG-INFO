@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: light-distribution-analysis
+Version: 0.1
+Summary: Analyze the flux of images based on wavelength and frequency
+Author: Viktor Veselov
+Author-email: lipovkaviktor@yahoo.com
+License-File: LICENSE.md
