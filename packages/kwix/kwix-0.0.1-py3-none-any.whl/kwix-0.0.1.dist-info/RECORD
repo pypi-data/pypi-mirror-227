@@ -1,0 +1,12 @@
+kwix/__init__.py,sha256=aODxfTzWviNz6Hwlp1upvreolWpRgVIc1qkZPQVrZZA,63
+kwix/_modidx.py,sha256=Mrz6DgJJ6Gi8ZAb4o3mxz_APgOpCzrHLsWqqvC7cUpM,6251
+kwix/mixs.py,sha256=MRQiRo87WdqVig_ObjSE8BLAxlz07QfrH99_SU8GDkQ,4479
+kwix/test.py,sha256=Pp-bkUwJSwmCnn8fwlpZhjJLYzGKLlt4B1L81j2uHHU,1009
+kwix/types.py,sha256=hCSBrSVoLfPPDNMxVX3Fi8qGSqDNkYcfJzIVwoCa45o,695
+kwix/utils.py,sha256=Z6dSzJqw64Z4CBrcchQStVbkxmVEd0KPy-r_p-IDNQA,8064
+kwix-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+kwix-0.0.1.dist-info/METADATA,sha256=LBvAZ7SVr9vK5P_bVqaLceKoGOOChxBLwKtLn6EPgCs,6040
+kwix-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+kwix-0.0.1.dist-info/entry_points.txt,sha256=gq5abcQV4MavZUBkN2zitaoXcnZKNjQB8OyLM2YCJFg,30
+kwix-0.0.1.dist-info/top_level.txt,sha256=3Jb-6mOiWVa5yO3xUeE7uV_38jmu_jgli8Xil8hLZVA,5
+kwix-0.0.1.dist-info/RECORD,,
