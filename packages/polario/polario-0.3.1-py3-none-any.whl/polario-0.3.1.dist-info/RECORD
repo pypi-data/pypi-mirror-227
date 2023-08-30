@@ -1,0 +1,10 @@
+polario/__init__.py,sha256=o5l3KYk-FiXUuOdU8k4RT_iKure2RkPNWMzbtArLK1o,543
+polario/delta_dataset.py,sha256=c-WjRUpTzxkKO10-CprD-cgrRreUJyr9ZYXIOGcXT7A,2040
+polario/hive_dataset.py,sha256=ULusxP61I6AacMzDTR6Oxr4hYahRi9E7vMvY4L69i2s,15682
+polario/main.py,sha256=J-zymirUdQlpcNurzMzzzBPmeT0OXFUqBC7JD3kMpe0,1644
+polario/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polario-0.3.1.dist-info/entry_points.txt,sha256=u1jhCL5TqyL3SUCVjtMQ4YVbotpjdxhq-OtwpIRzn40,45
+polario-0.3.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+polario-0.3.1.dist-info/LICENSE,sha256=usYrIZbd1gS6LZvndRImnOeF9IM_73-i8r-0clJAnfw,11357
+polario-0.3.1.dist-info/METADATA,sha256=mt_fU0AozO4pPf2BgMtZ5-c_-Grfi-9FW6_NgB-w90c,1610
+polario-0.3.1.dist-info/RECORD,,
