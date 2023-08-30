@@ -1,0 +1,8 @@
+setup.py
+nba_pymc/__init__.py
+nba_pymc/math.py
+nba_pymc.egg-info/PKG-INFO
+nba_pymc.egg-info/SOURCES.txt
+nba_pymc.egg-info/dependency_links.txt
+nba_pymc.egg-info/requires.txt
+nba_pymc.egg-info/top_level.txt
