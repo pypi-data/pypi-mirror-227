@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+metatensor/torch/__init__.py
+metatensor_torch.egg-info/PKG-INFO
+metatensor_torch.egg-info/SOURCES.txt
+metatensor_torch.egg-info/dependency_links.txt
+metatensor_torch.egg-info/top_level.txt
