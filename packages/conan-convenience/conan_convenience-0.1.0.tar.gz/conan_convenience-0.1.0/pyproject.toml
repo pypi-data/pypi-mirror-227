@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "conan-convenience"
+version = "0.1.0"
+description = "A little convenience script, which should make your life with conan, pre-commit and clan-format easier."
+authors = ["Philip Ecker <eph>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+convenience = "conan_convenience.cConvenience:cli"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymarkdownlnt = "^0.9.12"
+pre-commit = "^3.3.3"
+cpplint = "^1.6.1"
+clang-format = "^16.0.6"
+pygit2 = "^1.12.2"
+gitignore-parser = "^0.1.6"
+requests = "^2.31.0"
+confuse = "^2.0.1"
+python-gitlab = "^3.15.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
