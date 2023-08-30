@@ -1,0 +1,12 @@
+_wenet.cp38-win_amd64.pyd,sha256=Jfi9X-noXAkJyQqyZqNTVBAmOYL8drnBuHsH3Hw7fcM,121344
+wenet_api.dll,sha256=22giRiH8guze6Xt-NZFJK7frRmHaXvryRvEHnGk6WMM,1703936
+wenetruntime/__init__.py,sha256=z1DyMYCMf3TupMuL_GFdAF4dLb8UaywvF72padbOVAk,103
+wenetruntime/__main__.py,sha256=bjyHR4spZz0XzNPqbiNu3m7Viru0KjgThTXpO5qf4rg,78
+wenetruntime/decoder.py,sha256=r0fVpGwQn1l7zFB_a-lO7SJNtL1EGij5D1ZiTU7cT4A,4636
+wenetruntime/hub.py,sha256=FeY0qoXDGRqTBAT1irZiXYlXqekxOCuuClVGeXxAGUQ,3355
+wenetruntime/main.py,sha256=jAfjuYx9aS1oFSCYaOSlfO9j60sI_AUTk40u77VMPak,1769
+wenetruntime-1.14.0.dist-info/METADATA,sha256=sSZn1dbFiLNjjMrSprFBNZPauyZBw4dZVZXtoHnc6_4,3944
+wenetruntime-1.14.0.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+wenetruntime-1.14.0.dist-info/entry_points.txt,sha256=j6vhNpcyhBLFWa5nQjknt8gchMoA-YIlD4NzA2fos-I,56
+wenetruntime-1.14.0.dist-info/top_level.txt,sha256=CPpyAd_UVWAX6_Noia8XuzCkXvrw97ReQF07u1UCES0,20
+wenetruntime-1.14.0.dist-info/RECORD,,
