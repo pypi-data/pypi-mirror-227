@@ -1,0 +1,9 @@
+LICENSE.py
+README.md
+setup.py
+Lgk/Help.py
+Lgk/__init__.py
+Lgk.egg-info/PKG-INFO
+Lgk.egg-info/SOURCES.txt
+Lgk.egg-info/dependency_links.txt
+Lgk.egg-info/top_level.txt
