@@ -1,0 +1,10 @@
+anypy/__init__.py,sha256=bbZykSyTaauGnDiHozYoqfpA0gnSZwzpBS2fqmu62WE,282
+anypy/_version.py,sha256=xy5icTVL_-T_uZleOq5SPoLjDLVLWIK0U8whN-ij6kI,21
+anypy/latex/__init__.py,sha256=zJXRiUcIAIjwhXpUQTH2tSrM44Pe1mrmuUbQGhe1ogo,79
+anypy/latex/dataframe.py,sha256=2oBnO17O2sef4g5xwIRvWvKvUcW0SLz8owU6WcuuK6w,2347
+anypy/nn/blocks.py,sha256=Mvno2c7Rf4XDQvOWX_6oVRpcyi7qmSQifA2TQWAjA6s,7827
+anypy-0.0.2.dist-info/LICENSE,sha256=bMyoQen3WzMZGPp9ZWNnhzUaeXk-bWucDcBuAmQQqQg,1090
+anypy-0.0.2.dist-info/METADATA,sha256=P0rFRyOttvHPaunCVBLDe4tBaDSGATcWz4dxA6j7q_w,2354
+anypy-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+anypy-0.0.2.dist-info/top_level.txt,sha256=FIDpYZKX3Qvs5xelj1kWdAY5QyVY7zv31P-7-Z1X0KE,6
+anypy-0.0.2.dist-info/RECORD,,
