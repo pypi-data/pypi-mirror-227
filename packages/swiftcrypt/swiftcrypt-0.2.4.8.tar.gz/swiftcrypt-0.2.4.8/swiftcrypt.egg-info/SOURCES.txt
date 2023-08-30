@@ -1,0 +1,9 @@
+README.md
+setup.py
+swiftcrypt/__init__.py
+swiftcrypt/swiftcrypt.py
+swiftcrypt.egg-info/PKG-INFO
+swiftcrypt.egg-info/SOURCES.txt
+swiftcrypt.egg-info/dependency_links.txt
+swiftcrypt.egg-info/requires.txt
+swiftcrypt.egg-info/top_level.txt
