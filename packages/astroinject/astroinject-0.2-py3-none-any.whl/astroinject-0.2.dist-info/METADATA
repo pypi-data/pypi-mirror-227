@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: astroinject
+Version: 0.2
+Summary: UNKNOWN
+Author: Gustavo Schwarz
+Author-email: gustavo.b.schwarz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: psycopg2-binary
+Requires-Dist: sqlalchemy
+Requires-Dist: pyyaml
+
+UNKNOWN
+
