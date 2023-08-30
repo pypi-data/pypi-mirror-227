@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "archiveswurm"
+version = "0.1.0"
+description = "Yet another Python implementation of the ArchivesSpace API"
+authors = ["Mark Baggett <mbagget1@utk.edu>"]
+license = "MIT License"
+readme = "README.md"
+keywords = [
+    "ArchivesSpace",
+]
+homepage = "https://github.com/markpbaggett/archiveswurm"
+repository = "https://github.com/markpbaggett/archiveswurm"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
