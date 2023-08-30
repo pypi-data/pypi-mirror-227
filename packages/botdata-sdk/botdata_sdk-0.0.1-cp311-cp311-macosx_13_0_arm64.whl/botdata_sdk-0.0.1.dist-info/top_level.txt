@@ -1,0 +1,3 @@
+botdata_sdk
+protobuf
+python
