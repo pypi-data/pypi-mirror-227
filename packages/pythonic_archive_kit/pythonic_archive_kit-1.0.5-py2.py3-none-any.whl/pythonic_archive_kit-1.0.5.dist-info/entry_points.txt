@@ -1,0 +1,3 @@
+[console_scripts]
+pak=pythonic_archive_kit:main
+
