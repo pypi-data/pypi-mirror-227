@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+censosine21/__init__.py
+censosine21/censosine21.py
+censosine21.egg-info/PKG-INFO
+censosine21.egg-info/SOURCES.txt
+censosine21.egg-info/dependency_links.txt
+censosine21.egg-info/requires.txt
+censosine21.egg-info/top_level.txt
+censosine21/entities/__init__.py
+censosine21/entities/entities.py
+test/test_censosine21.py
+test/test_censosine21_static_methods.py
