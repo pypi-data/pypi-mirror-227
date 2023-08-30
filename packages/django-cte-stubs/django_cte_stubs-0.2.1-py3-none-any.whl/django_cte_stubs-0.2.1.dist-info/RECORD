@@ -1,0 +1,13 @@
+django_cte-stubs/__init__.pyi,sha256=kCMKBzm22exxcG6Bfhxoa9pQEWtk2WFh0b4TByhpK_Y,116
+django_cte-stubs/cte.pyi,sha256=5K5Fnr5Su-y3VcINyRHpoZMLeD0xwn-26MH0dsTG5OE,2865
+django_cte-stubs/expressions.pyi,sha256=cjOu0rXQNh2cmalFemoYIDxptKzjS3smeQ1RkpZRf9Y,429
+django_cte-stubs/join.pyi,sha256=1NzJNazZsSpn49XDOhrBve17LKKBPZME90Ba_wE_N80,1213
+django_cte-stubs/meta.pyi,sha256=axquPjBo6qptHWXb0SoG3yrhXtlpHY0AbBIu_a-Jt_Q,1469
+django_cte-stubs/query.pyi,sha256=tN2UUZL1ehiebmUQkpvyI0rF2MybgrJUjkWvQILZf50,1908
+django_cte-stubs/raw.pyi,sha256=9Bq-tTev9jJ-Gq5A_AcVsbNVhmTjnm8WTZSe0jfmVvs,382
+mypy_django_cte_plugin/__init__.py,sha256=XbGRBOrFlhe2N41GbGXJ_8t5UXCaCvi_WgF3nSqDDuE,23
+mypy_django_cte_plugin/main.py,sha256=ITQJ5E0O55bqBeodzuoMeKqMWckiTfrGbeQsx0X4i7I,1054
+django_cte_stubs-0.2.1.dist-info/METADATA,sha256=R85qtFzgfkBbx2gHJaQRCsISIGDeKm8l5664axALQt4,2674
+django_cte_stubs-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_cte_stubs-0.2.1.dist-info/top_level.txt,sha256=zFMy6hVCmIeoLBZd34eS-VB5RnBSc4-OUll1mWqJ6Cs,40
+django_cte_stubs-0.2.1.dist-info/RECORD,,
