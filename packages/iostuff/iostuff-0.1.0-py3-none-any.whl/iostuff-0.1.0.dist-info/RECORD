@@ -1,0 +1,7 @@
+iostuff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iostuff/common.py,sha256=NI5YwbQOpttof_8QYw61HHj8Nva6zHLk45tfOb0r5kw,167
+iostuff/readers.py,sha256=nrCLVSv5iPQ-EghCwxGp7qeUDqqLpbYyPUnSc5gCxfs,2069
+iostuff/writers.py,sha256=JhyKak1Tsm6PHwsSMxqRSfd3kQj_Ho-4dJhVxKFtgA4,2216
+iostuff-0.1.0.dist-info/METADATA,sha256=hVTqyJE5JNob-PiqubRxH90QGduzZFhDf4vjdKqk2zY,263
+iostuff-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+iostuff-0.1.0.dist-info/RECORD,,
