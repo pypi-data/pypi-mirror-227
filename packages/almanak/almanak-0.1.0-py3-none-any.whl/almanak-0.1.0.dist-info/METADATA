@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: almanak
+Version: 0.1.0
+Summary: A placeholder for the incoming Almanak package
+Author: Lars
+Author-email: lars@suanet.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Almanak
+
+A placeholder for the incoming Almanak package.
