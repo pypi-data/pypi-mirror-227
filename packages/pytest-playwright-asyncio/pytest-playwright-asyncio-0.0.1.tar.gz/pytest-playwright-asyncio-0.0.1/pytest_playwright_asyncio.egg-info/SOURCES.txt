@@ -1,0 +1,5 @@
+setup.py
+pytest_playwright_asyncio.egg-info/PKG-INFO
+pytest_playwright_asyncio.egg-info/SOURCES.txt
+pytest_playwright_asyncio.egg-info/dependency_links.txt
+pytest_playwright_asyncio.egg-info/top_level.txt
