@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: DFN-Py-Tools
+Version: 0.1.0
+Summary: 东风日产CoE创新中心,Python公共组件包
+Home-page: https://coe.dongfeng-nissan.com.cn/
+Author: 东风日产CoE创新中心
+Author-email: ls2020-074@dfl.com.cn
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# DFN_Py_Tools
+
+东风日产CoE创新中心Python公共组件包
+
+## Installation
+
+You can install DFN_Py_Tools using pip:
+
+```bash
+pip install DFN_Py_Tools
+```
