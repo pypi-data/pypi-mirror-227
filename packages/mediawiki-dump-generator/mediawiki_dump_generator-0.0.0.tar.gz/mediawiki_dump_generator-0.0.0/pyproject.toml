@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mediawiki-dump-generator"
+version = "0.0.0"
+description = ""
+authors = ["Elsie Hupp <github@elsiehupp.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "mediawiki-dump-generator/**/*"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
