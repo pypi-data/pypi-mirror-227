@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: metatensor-core
+Version: 0.0.0
+Summary: Storing data and metadata for atomistic machine learning
+Author-email: Guillaume Fraux <guillaume.fraux@epfl.ch>
+Description-Content-Type: text/markdown
+
+# Metatensor-core
+
+This project is not yet fully released on PyPI, please install it from source
+for now: https://github.com/lab-cosmo/equistore

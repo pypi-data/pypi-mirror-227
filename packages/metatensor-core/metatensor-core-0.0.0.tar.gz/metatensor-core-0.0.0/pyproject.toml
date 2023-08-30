@@ -1,0 +1,16 @@
+[project]
+name = "metatensor-core"
+description = "Storing data and metadata for atomistic machine learning"
+version = "0.0.0"
+readme = "README.md"
+authors = [
+    { name = "Guillaume Fraux", email = "guillaume.fraux@epfl.ch" }
+]
+dependencies = []
+
+[build-system]
+requires = [
+  "setuptools",
+  "wheel",
+]
+build-backend = "setuptools.build_meta"
