@@ -1,0 +1,12 @@
+aviatrix_testlibs/__init__.cp38-win_amd64.pyd,sha256=JvmLMuMbvOTthLgfk6axl-JLEVz7S9bd9ENekwaB4_c,19456
+aviatrix_testlibs/test_base/__init__.cp38-win_amd64.pyd,sha256=mSgeJWk_Xo7rko1RPYy4VlUfWNvS2-xEKFsObZIJDdM,19456
+aviatrix_testlibs/test_base/base.cp38-win_amd64.pyd,sha256=rhxh7EAOunoyTke_YdNhW89I7jydVdBMbuEM647P5j4,65024
+aviatrix_testlibs/test_utils/__init__.cp38-win_amd64.pyd,sha256=hmC57byR9RY8h295JCIDiQ9DUMbbb4SbpCuxxp2azBU,19456
+aviatrix_testlibs/test_utils/backend_utils.cp38-win_amd64.pyd,sha256=aY53nNt2BppOjVOwBAV4x6FdwB690WYZOLRYqT7zpcs,621568
+aviatrix_testlibs/test_utils/order_tests.cp38-win_amd64.pyd,sha256=fQYYXlvS12AWYE23pQ4k-WpBNM3Sw12DqkkZPygBw20,40960
+aviatrix_testlibs/test_utils/ping.cp38-win_amd64.pyd,sha256=IgLR6Kex5vHRSmZcjBz7KtQ6T4R1mPKrNvZ7TS4uxZs,75264
+aviatrix_testlibs/test_utils/test_utils.cp38-win_amd64.pyd,sha256=a-St7kjRT4QY_vLu-hla2RX5WC-6ShiAfFPGnm6eCYw,92672
+aviatrix_testlibs-0.0.4.dist-info/METADATA,sha256=b5Z1f8PITdCSpCEj8DtzBu9UTUE10EUpox5zm5jLSBs,729
+aviatrix_testlibs-0.0.4.dist-info/WHEEL,sha256=KplWMgwSZbeAOumvxNxIrVbNPnn_LVzfBH7l38jDCVM,100
+aviatrix_testlibs-0.0.4.dist-info/top_level.txt,sha256=cXIzAm-w4VdvVw4B9ej-Kpu-QyIoj76QOuj5mVjtY5w,18
+aviatrix_testlibs-0.0.4.dist-info/RECORD,,
