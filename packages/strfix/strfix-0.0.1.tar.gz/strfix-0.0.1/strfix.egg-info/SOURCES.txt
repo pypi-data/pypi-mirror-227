@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+strfix/__init__.py
+strfix/_modidx.py
+strfix/core.py
+strfix/fixs.py
+strfix.egg-info/PKG-INFO
+strfix.egg-info/SOURCES.txt
+strfix.egg-info/dependency_links.txt
+strfix.egg-info/entry_points.txt
+strfix.egg-info/not-zip-safe
+strfix.egg-info/requires.txt
+strfix.egg-info/top_level.txt
