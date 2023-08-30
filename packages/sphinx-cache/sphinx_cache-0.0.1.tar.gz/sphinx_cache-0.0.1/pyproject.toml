@@ -1,0 +1,88 @@
+[tool.poetry]
+name = "sphinx-cache"
+
+# !! Don't miss updates in version.py, and changelog.rst!!!
+version = "0.0.1"
+
+description = "Sphinx extension for storing and restoring `.doctree` cache."
+authors = ["team useblocks <info@useblocks.com>"]
+license = "MIT"
+readme = "README.rst"
+repository = "https://github.com/useblocks/sphinx-cache"
+documentation = "http://sphinx-cache.useblocks.com"
+classifiers=[
+        'Development Status :: 2 - Pre-Alpha',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Topic :: Documentation',
+        'Topic :: Utilities',
+        'Topic :: Software Development :: Build Tools',
+    ]
+
+packages = [
+    {include = "sphinx_cache"}
+]
+
+[tool.poetry.dependencies]
+colorama = ">=0.4.6"
+python = ">=3.8.0,<4.0"
+pathlib = ">=1.0.1"
+sphinx = ">=5.0"
+
+[tool.poetry.dev-dependencies]
+myst-parser="^0.18.0"
+pre-commit = "^2"
+# test dependencies
+pytest = "^7"
+pytest-xdist="*"  # parallelisation
+
+# type checking
+docutils-stubs = "^0.0.22"
+mypy = "^0.991"
+types-requests = "^2.27.25"
+types-setuptools = "^65.6.0.2"
+
+# formatting dependencies
+black = "^22.3"
+isort = "^5.7.0"
+
+# pyparsing 3.0.5 does not work with current "packaging" lib
+pyparsing = "^3.0.9"  # 3.0.5 error: https://github.com/pyparsing/pyparsing/issues/329
+
+[tool.pytest.ini_options]
+console_output_style = "count"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+files = "sphinx_cache"
+ignore_missing_imports = true
+implicit_reexport = true
+namespace_packages = true
+show_error_codes = true
+strict = true
+warn_unused_ignores = false
+
+[[tool.mypy.overrides]]
+ignore_errors = true
+module = [
+    'sphinx_cache.setup',
+    'sphinx_cache.logging',
+    'sphinx_cache.utils',
+    'sphinx_cache.version'
+]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["setuptools", "poetry_core>=1.0.8"]  # setuptools
