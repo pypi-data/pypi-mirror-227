@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dogu-device-client
+Version: 0.0.3
+Summary: dogutech's device client to control devices
+Author: Dogu Technologies
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: websockets (>=11.0.3,<12.0.0)
+Description-Content-Type: text/markdown
+
+# dogu-device-client
+
+## Getting Started
+
+- Please refer to the [Docs](https://docs.dogutech.io/) of dogutech
+
