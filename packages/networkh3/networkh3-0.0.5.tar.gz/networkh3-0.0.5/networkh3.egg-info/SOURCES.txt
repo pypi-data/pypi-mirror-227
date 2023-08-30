@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+networkh3/NETWORKH3.py
+networkh3/__init__.py
+networkh3.egg-info/PKG-INFO
+networkh3.egg-info/SOURCES.txt
+networkh3.egg-info/dependency_links.txt
+networkh3.egg-info/requires.txt
+networkh3.egg-info/top_level.txt
