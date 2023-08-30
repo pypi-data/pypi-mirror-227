@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/hf_image_uploader/__init__.py
+src/hf_image_uploader.egg-info/PKG-INFO
+src/hf_image_uploader.egg-info/SOURCES.txt
+src/hf_image_uploader.egg-info/dependency_links.txt
+src/hf_image_uploader.egg-info/requires.txt
+src/hf_image_uploader.egg-info/top_level.txt
