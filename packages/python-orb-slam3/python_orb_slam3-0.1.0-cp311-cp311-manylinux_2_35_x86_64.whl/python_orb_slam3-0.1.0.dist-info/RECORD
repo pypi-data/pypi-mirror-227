@@ -1,0 +1,6 @@
+python_orb_slam3/__init__.py,sha256=uomHLpcpIeZAypcuSP4zQsGle2mUb08I7pngmwdakkY,883
+orb_slam3.cpython-311-x86_64-linux-gnu.so,sha256=LVoW7uvRAG1SThaBgG6a17Dfy2SCu0oiW9_X02EmaZE,32147680
+python_orb_slam3-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+python_orb_slam3-0.1.0.dist-info/METADATA,sha256=6hUf3o4cXUuOVuRScogmeomXWKctjNOfvOpwnr0CqUQ,2894
+python_orb_slam3-0.1.0.dist-info/WHEEL,sha256=AW2Yf9z2b1aittxuY6rtOeqTqzU-kCi3b9RfO5EWSxU,110
+python_orb_slam3-0.1.0.dist-info/RECORD,,
